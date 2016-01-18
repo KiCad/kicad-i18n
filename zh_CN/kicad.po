@@ -186,7 +186,7 @@ msgstr "存档文件 <%s>"
 #: kicad/files-io.cpp:216
 #, c-format
 msgid "(%lu bytes, compressed %d bytes)\n"
-msgstr "(%lu bytes, 已完成 %d bytes)\n"
+msgstr "(%lu bytes, 压缩后 %d bytes)\n"
 
 #: kicad/files-io.cpp:222
 msgid " >>Error\n"
@@ -199,7 +199,7 @@ msgid ""
 "Zip archive <%s> created (%d bytes)"
 msgstr ""
 "\n"
-"zip压缩包 <%s> 创建 (%d bytes)"
+"已创建zip压缩包 <%s> (%d bytes)"
 
 #: kicad/mainframe.cpp:249
 #, c-format
@@ -6218,7 +6218,7 @@ msgid ""
 msgstr ""
 "如何识别选择封装:\n"
 "通过参考编号(U1, R3...) (标准设置)\n"
-"或者时间戳记 (如果电路图的参考编号重新批注已经改变, 可以使用此项)"
+"或者时间戳记 (如果电路图的元件已经全部重新标注过, 可以使用此项)"
 
 #: pcbnew/dialogs/dialog_netlist_fbp.cpp:41
 #: pcbnew/dialogs/dialog_netlist_fbp.cpp:55
@@ -14630,7 +14630,7 @@ msgstr "页面设置"
 #: eeschema/annotate.cpp:87
 #, c-format
 msgid "%d duplicate time stamps were found and replaced."
-msgstr "%d 重复的时间戳已被发现和更换."
+msgstr "已发现和替换换 %d 个重复的时间戳."
 
 #: eeschema/backanno.cpp:225
 msgid "Load Component Footprint Link File"
@@ -14806,17 +14806,17 @@ msgstr ""
 #: eeschema/component_references_lister.cpp:521
 #, c-format
 msgid "Item not annotated: %s%s (unit %d)\n"
-msgstr "未注明项: %s%s(单元 %d)\n"
+msgstr "未标注项: %s%s(单元 %d)\n"
 
 #: eeschema/component_references_lister.cpp:528
 #, c-format
 msgid "Item not annotated: %s%s\n"
-msgstr "未注明项: %s%s\n"
+msgstr "未标注项: %s%s\n"
 
 #: eeschema/component_references_lister.cpp:551
 #, c-format
 msgid "Error item %s%s unit %d and no more than %d parts\n"
-msgstr "错误项目 %s%s 单元 %d 不能多余 %d 部分\n"
+msgstr "错误项目 %s%s 单元 %d 不超过 %d 部分\n"
 
 #: eeschema/component_references_lister.cpp:591
 #: eeschema/component_references_lister.cpp:623
@@ -14833,12 +14833,12 @@ msgstr "多个项  %s%s\n"
 #: eeschema/component_references_lister.cpp:646
 #, c-format
 msgid "Different values for %s%d%s (%s) and %s%d%s (%s)"
-msgstr "%s%d%s (%s) 和 %s%d%s (%s) 为值不相同"
+msgstr "%s%d%s (%s) 和 %s%d%s (%s) 值不相同"
 
 #: eeschema/component_references_lister.cpp:681
 #, c-format
 msgid "Duplicate time stamp (%s) for %s%d and %s%d"
-msgstr "重复时间戳 (%s) 在 %s%d 和 %s%d"
+msgstr "重复时间戳 (%s) 存在于 %s%d 和 %s%d 两者之间"
 
 #: eeschema/controle.cpp:164 eeschema/libeditframe.cpp:1251
 msgid "Clarify Selection"
@@ -14846,19 +14846,19 @@ msgstr "确认选择"
 
 #: eeschema/dialogs/dialog_annotate.cpp:195
 msgid "Clear and annotate all of the components on the entire schematic?"
-msgstr "清除并批注全部原理图所有元件?"
+msgstr "清除并标注全部原理图所有元件?"
 
 #: eeschema/dialogs/dialog_annotate.cpp:197
 msgid "Clear and annotate all of the components on the current sheet?"
-msgstr "清除并批注当前图页所有元件?"
+msgstr "清除并标注当前图页所有元件?"
 
 #: eeschema/dialogs/dialog_annotate.cpp:203
 msgid "Annotate only the unannotated components on the entire schematic?"
-msgstr "批注仅批注未注释元件 "
+msgstr "仅标注整个原理图中未被标注的元件?"
 
 #: eeschema/dialogs/dialog_annotate.cpp:205
 msgid "Annotate only the unannotated components on the current sheet?"
-msgstr "批注仅批注当前图页未注释元件 "
+msgstr "仅标注当前图页中未被标注的元件?"
 
 #: eeschema/dialogs/dialog_annotate.cpp:208
 msgid ""
@@ -16814,7 +16814,7 @@ msgstr "引脚 %s (%s) 未连接 (元件 %s) ."
 #: eeschema/erc.cpp:314
 #, c-format
 msgid "Pin %s (%s) of component %s is not driven (Net %d)."
-msgstr "引脚 %s (%s) 归属元件 %s未被驱动 (网络 %d)."
+msgstr "引脚 %s (%s) (元件 %s) 未被驱动 (网络 %d)."
 
 #: eeschema/erc.cpp:328
 msgid "More than 1 pin connected to an UnConnect symbol."
@@ -16823,12 +16823,12 @@ msgstr "有超过1个以上的引脚连接到了不连接符号"
 #: eeschema/erc.cpp:356
 #, c-format
 msgid "Pin %s (%s) of component %s is connected to "
-msgstr "引脚 %s (%s) 归属元件 %s 被连接到"
+msgstr "引脚 %s (%s) (元件 %s) 被连接到"
 
 #: eeschema/erc.cpp:361
 #, c-format
 msgid "pin %s (%s) of component %s (net %d)."
-msgstr "引脚 %s (%s) 归属元件 %s (网络 %d)."
+msgstr "引脚 %s (%s) (元件 %s) (网络 %d)."
 
 #: eeschema/erc.cpp:534
 msgid "ERC report"
@@ -17570,7 +17570,7 @@ msgstr "元件库 '%s' 是空的."
 
 #: eeschema/libedit.cpp:545
 msgid "Delete Entry Error"
-msgstr "删除 输入 错误 "
+msgstr "删除 输入端 错误 "
 
 #: eeschema/libedit.cpp:549
 #, c-format
@@ -17578,7 +17578,8 @@ msgid ""
 "Select one of %d components to delete\n"
 "from library '%s'."
 msgstr ""
-"从库 '%s' 中选择一个元件删除."
+"选择一个元件 (总共 %d 个元件)\n"
+"从库 '%s' 中删除."
 
 #: eeschema/libedit.cpp:553
 msgid "Delete Part"
@@ -17927,7 +17928,7 @@ msgstr "由Eeschema的旧版本创建的。当您再次保存该文件它将被�
 #: eeschema/load_one_schematic_file.cpp:225
 #, c-format
 msgid "Eeschema file text load error at line %d"
-msgstr "Eeschema 文件载入错误, 在文本 %d 行"
+msgstr "Eeschema 文件载入错误, 错误行： %d"
 
 #: eeschema/load_one_schematic_file.cpp:241
 #, c-format
@@ -17942,7 +17943,7 @@ msgstr "Eeschema 文件无法加载对象, 在 %d 行, 已终止"
 #: eeschema/load_one_schematic_file.cpp:281
 #, c-format
 msgid "Done Loading <%s>"
-msgstr "加载完成 <%s>"
+msgstr "<%s> 加载完成"
 
 #: eeschema/load_one_schematic_file.cpp:310
 #, c-format
