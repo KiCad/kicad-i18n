@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-30 15:30+0900\n"
-"PO-Revision-Date: 2016-07-17 23:19+0900\n"
+"POT-Creation-Date: 2016-07-18 01:30+0900\n"
+"PO-Revision-Date: 2016-07-18 02:48+0900\n"
 "Last-Translator: starfort-jp <starfort@nifty.com>\n"
 "Language-Team: kicad_jp <kaoruzen@gmail.com>\n"
 "Language: ja_JP\n"
@@ -11,74 +11,74 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-KeywordsList: _\n"
-"X-Poedit-Basepath: kicad-4.0.2\n"
+"X-Poedit-Basepath: kicad-6294\n"
 "X-Generator: Poedit 1.8.8\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: 3d-viewer/3d_canvas.cpp:389
+#: 3d-viewer/3d_canvas.cpp:399
 msgid "Zoom +"
 msgstr "ズーム イン"
 
-#: 3d-viewer/3d_canvas.cpp:393
+#: 3d-viewer/3d_canvas.cpp:403
 msgid "Zoom -"
 msgstr "ズーム アウト"
 
-#: 3d-viewer/3d_canvas.cpp:398
+#: 3d-viewer/3d_canvas.cpp:408
 msgid "Top View"
 msgstr "上から見る"
 
-#: 3d-viewer/3d_canvas.cpp:402
+#: 3d-viewer/3d_canvas.cpp:412
 msgid "Bottom View"
 msgstr "下から見る"
 
-#: 3d-viewer/3d_canvas.cpp:407
+#: 3d-viewer/3d_canvas.cpp:417
 msgid "Right View"
 msgstr "右から見る"
 
-#: 3d-viewer/3d_canvas.cpp:411
+#: 3d-viewer/3d_canvas.cpp:421
 msgid "Left View"
 msgstr "左から見る"
 
-#: 3d-viewer/3d_canvas.cpp:416
+#: 3d-viewer/3d_canvas.cpp:426
 msgid "Front View"
 msgstr "前から見る"
 
-#: 3d-viewer/3d_canvas.cpp:420
+#: 3d-viewer/3d_canvas.cpp:430
 msgid "Back View"
 msgstr "後ろから見る"
 
-#: 3d-viewer/3d_canvas.cpp:425
+#: 3d-viewer/3d_canvas.cpp:435
 msgid "Move left <-"
 msgstr "左へ移動 ←"
 
-#: 3d-viewer/3d_canvas.cpp:429
+#: 3d-viewer/3d_canvas.cpp:439
 msgid "Move right ->"
 msgstr "右へ移動 →"
 
-#: 3d-viewer/3d_canvas.cpp:433
+#: 3d-viewer/3d_canvas.cpp:443
 msgid "Move Up ^"
 msgstr "上へ移動 ↑"
 
-#: 3d-viewer/3d_canvas.cpp:437 cvpcb/dialogs/dialog_config_equfiles_base.cpp:47
+#: 3d-viewer/3d_canvas.cpp:447 cvpcb/dialogs/dialog_config_equfiles_base.cpp:47
 #: pcbnew/dialogs/dialog_fp_lib_table_base.cpp:151
 #: pcbnew/dialogs/dialog_fp_plugin_options_base.cpp:72
 msgid "Move Down"
 msgstr "下へ移動"
 
-#: 3d-viewer/3d_canvas.cpp:517
+#: 3d-viewer/3d_canvas.cpp:527
 #, c-format
 msgid "Zoom: %3.1f"
 msgstr "ズーム: %3.1f"
 
-#: 3d-viewer/3d_canvas.cpp:653
+#: 3d-viewer/3d_canvas.cpp:662
 msgid "3D Image File Name:"
 msgstr "3D 画像ファイル名:"
 
-#: 3d-viewer/3d_canvas.cpp:709
+#: 3d-viewer/3d_canvas.cpp:718
 msgid "Failed to copy image to clipboard"
 msgstr "クリップボードからイメージをコピーできませんでした"
 
-#: 3d-viewer/3d_canvas.cpp:722
+#: 3d-viewer/3d_canvas.cpp:731
 msgid "Can't save file"
 msgstr "ファイルを保存できません"
 
@@ -109,31 +109,31 @@ msgstr ""
 msgid "Build board body"
 msgstr "基板本体をビルド"
 
-#: 3d-viewer/3d_frame.cpp:539
+#: 3d-viewer/3d_frame.cpp:546
 msgid "Background Color, Bottom"
 msgstr "背景色, 下層"
 
-#: 3d-viewer/3d_frame.cpp:544
+#: 3d-viewer/3d_frame.cpp:551
 msgid "Background Color, Top"
 msgstr "背景色, 上層"
 
-#: 3d-viewer/3d_frame.cpp:793
+#: 3d-viewer/3d_frame.cpp:801
 msgid "Silk Screen Color"
 msgstr "シルクの色"
 
-#: 3d-viewer/3d_frame.cpp:817 3d-viewer/3d_toolbar.cpp:216
+#: 3d-viewer/3d_frame.cpp:823 3d-viewer/3d_toolbar.cpp:222
 msgid "Solder Mask Color"
 msgstr "ハンダマスクの色"
 
-#: 3d-viewer/3d_frame.cpp:840
+#: 3d-viewer/3d_frame.cpp:844
 msgid "Copper Color"
 msgstr "導体の色"
 
-#: 3d-viewer/3d_frame.cpp:866 3d-viewer/3d_toolbar.cpp:225
+#: 3d-viewer/3d_frame.cpp:868 3d-viewer/3d_toolbar.cpp:231
 msgid "Board Body Color"
 msgstr "基板本体の色"
 
-#: 3d-viewer/3d_frame.cpp:887 3d-viewer/3d_toolbar.cpp:219
+#: 3d-viewer/3d_frame.cpp:887 3d-viewer/3d_toolbar.cpp:225
 msgid "Solder Paste Color"
 msgstr "ハンダ ペーストの色"
 
@@ -229,11 +229,11 @@ msgid "&File"
 msgstr "ファイル(&F)"
 
 #: 3d-viewer/3d_toolbar.cpp:138
-msgid "Create Image (png format)"
+msgid "Create Image (PNG format)"
 msgstr "PNG形式で画像保存"
 
 #: 3d-viewer/3d_toolbar.cpp:141
-msgid "Create Image (jpeg format)"
+msgid "Create Image (JPEG format)"
 msgstr "JPEG形式で画像保存"
 
 #: 3d-viewer/3d_toolbar.cpp:146
@@ -250,22 +250,26 @@ msgid "&Preferences"
 msgstr "設定(&P)"
 
 #: 3d-viewer/3d_toolbar.cpp:157
+msgid "Use Touchpad to Pan"
+msgstr "画面のパンにタッチパッドを使用"
+
+#: 3d-viewer/3d_toolbar.cpp:163
 msgid "Realistic Mode"
 msgstr "リアルモード"
 
-#: 3d-viewer/3d_toolbar.cpp:162
+#: 3d-viewer/3d_toolbar.cpp:168
 msgid "Render Options"
 msgstr "レンダオプション"
 
-#: 3d-viewer/3d_toolbar.cpp:165
+#: 3d-viewer/3d_toolbar.cpp:171
 msgid "Render Shadows"
 msgstr "影の表示"
 
-#: 3d-viewer/3d_toolbar.cpp:169
+#: 3d-viewer/3d_toolbar.cpp:175
 msgid "Show Holes in Zones"
 msgstr "ゾーン中に穴を表示"
 
-#: 3d-viewer/3d_toolbar.cpp:170
+#: 3d-viewer/3d_toolbar.cpp:176
 msgid ""
 "Holes inside a copper layer copper zones are shown, but the calculation time "
 "is longer"
@@ -273,123 +277,123 @@ msgstr ""
 "導体レイヤ、導体ゾーンの内部にある穴が表示されていますが、計算時間は長くなり"
 "ます"
 
-#: 3d-viewer/3d_toolbar.cpp:175
+#: 3d-viewer/3d_toolbar.cpp:181
 msgid "Render Textures"
 msgstr "テクスチャの表示"
 
-#: 3d-viewer/3d_toolbar.cpp:176
+#: 3d-viewer/3d_toolbar.cpp:182
 msgid "Apply a grid/cloud textures to board, solder mask and silk screen"
 msgstr "grid/cloud テクスチャを基板、ハンダマスク、シルクスクリーンへ適用"
 
-#: 3d-viewer/3d_toolbar.cpp:180
+#: 3d-viewer/3d_toolbar.cpp:186
 msgid "Render Smooth Normals"
 msgstr "ノーマル表示でスムーズに描画"
 
-#: 3d-viewer/3d_toolbar.cpp:184
+#: 3d-viewer/3d_toolbar.cpp:190
 msgid "Use Model Normals"
 msgstr "モデルをノーマル表示で使用"
 
-#: 3d-viewer/3d_toolbar.cpp:188
+#: 3d-viewer/3d_toolbar.cpp:194
 msgid "Render Material Properties"
 msgstr "マテリアル(材質)の描画"
 
-#: 3d-viewer/3d_toolbar.cpp:192
+#: 3d-viewer/3d_toolbar.cpp:198
 msgid "Show Model Bounding Boxes"
 msgstr "モデルをバウンディングボックスで表示"
 
-#: 3d-viewer/3d_toolbar.cpp:200
+#: 3d-viewer/3d_toolbar.cpp:206
 msgid "Choose Colors"
 msgstr "色の選択"
 
-#: 3d-viewer/3d_toolbar.cpp:204 eeschema/dialogs/dialog_color_config.cpp:193
+#: 3d-viewer/3d_toolbar.cpp:210 eeschema/dialogs/dialog_color_config.cpp:193
 msgid "Background Color"
 msgstr "背景色"
 
-#: 3d-viewer/3d_toolbar.cpp:207
+#: 3d-viewer/3d_toolbar.cpp:213
 msgid "Background Top Color"
 msgstr "背景上面色"
 
-#: 3d-viewer/3d_toolbar.cpp:210
+#: 3d-viewer/3d_toolbar.cpp:216
 msgid "Background Bottom Color"
 msgstr "背景下面色"
 
-#: 3d-viewer/3d_toolbar.cpp:213
+#: 3d-viewer/3d_toolbar.cpp:219
 msgid "Silkscreen Color"
 msgstr "シルクの色"
 
-#: 3d-viewer/3d_toolbar.cpp:222
+#: 3d-viewer/3d_toolbar.cpp:228
 msgid "Copper/Surface Finish Color"
 msgstr "導体/表面の仕上がり色"
 
-#: 3d-viewer/3d_toolbar.cpp:228
+#: 3d-viewer/3d_toolbar.cpp:234
 msgid "Show 3D &Axis"
 msgstr "3Dと軸の表示"
 
-#: 3d-viewer/3d_toolbar.cpp:233
+#: 3d-viewer/3d_toolbar.cpp:239
 msgid "3D Grid"
 msgstr "3Dグリッド"
 
-#: 3d-viewer/3d_toolbar.cpp:234
+#: 3d-viewer/3d_toolbar.cpp:240
 msgid "No 3D Grid"
 msgstr "3Dグリッド無し"
 
-#: 3d-viewer/3d_toolbar.cpp:235
+#: 3d-viewer/3d_toolbar.cpp:241
 msgid "3D Grid 10 mm"
 msgstr "3Dグリッド 10mm"
 
-#: 3d-viewer/3d_toolbar.cpp:236
+#: 3d-viewer/3d_toolbar.cpp:242
 msgid "3D Grid 5 mm"
 msgstr "3Dグリッド 5mm"
 
-#: 3d-viewer/3d_toolbar.cpp:237
+#: 3d-viewer/3d_toolbar.cpp:243
 msgid "3D Grid 2.5 mm"
 msgstr "3Dグリッド 2.5mm"
 
-#: 3d-viewer/3d_toolbar.cpp:238
+#: 3d-viewer/3d_toolbar.cpp:244
 msgid "3D Grid 1 mm"
 msgstr "3Dグリッド 1mm"
 
-#: 3d-viewer/3d_toolbar.cpp:254
+#: 3d-viewer/3d_toolbar.cpp:260
 msgid "Show Board Bod&y"
 msgstr "基板の表示(&Y)"
 
-#: 3d-viewer/3d_toolbar.cpp:257
+#: 3d-viewer/3d_toolbar.cpp:263
 msgid "Show Copper &Thickness"
 msgstr "銅箔の厚みを表示(&T)"
 
-#: 3d-viewer/3d_toolbar.cpp:260
+#: 3d-viewer/3d_toolbar.cpp:266
 msgid "Show 3D M&odels"
 msgstr "3D モデルを表示(&o)"
 
-#: 3d-viewer/3d_toolbar.cpp:263
+#: 3d-viewer/3d_toolbar.cpp:269
 msgid "Show Zone &Filling"
 msgstr "ゾーン塗りつぶしを表示"
 
-#: 3d-viewer/3d_toolbar.cpp:269
+#: 3d-viewer/3d_toolbar.cpp:275
 msgid "Show &Layers"
 msgstr "レイヤの表示(&L)"
 
-#: 3d-viewer/3d_toolbar.cpp:272
+#: 3d-viewer/3d_toolbar.cpp:278
 msgid "Show &Adhesive Layers"
 msgstr "接着剤(Adhesive)レイヤの表示(&A)"
 
-#: 3d-viewer/3d_toolbar.cpp:275
+#: 3d-viewer/3d_toolbar.cpp:281
 msgid "Show &Silkscreen Layers"
 msgstr "シルクスクリーン レイヤを表示(&S)"
 
-#: 3d-viewer/3d_toolbar.cpp:278
+#: 3d-viewer/3d_toolbar.cpp:284
 msgid "Show Solder &Mask Layers"
 msgstr "半田マスクレイヤの表示(&M)"
 
-#: 3d-viewer/3d_toolbar.cpp:281
+#: 3d-viewer/3d_toolbar.cpp:287
 msgid "Show Solder &Paste Layers"
 msgstr "半田ペーストレイヤの表示(&P)"
 
-#: 3d-viewer/3d_toolbar.cpp:286
+#: 3d-viewer/3d_toolbar.cpp:292
 msgid "Show &Comments and Drawing Layers"
 msgstr "コメント/図形レイヤを表示(&C)"
 
-#: 3d-viewer/3d_toolbar.cpp:289
+#: 3d-viewer/3d_toolbar.cpp:295
 msgid "Show &Eco Layers"
 msgstr "ECOレイヤの表示(&E)"
 
@@ -509,8 +513,8 @@ msgstr "0000"
 msgid "pixels"
 msgstr "ピクセル"
 
-#: bitmap2component/bitmap2cmp_gui_base.cpp:78 common/common.cpp:144
-#: common/common.cpp:202 common/dialogs/dialog_page_settings.cpp:466
+#: bitmap2component/bitmap2cmp_gui_base.cpp:78 common/common.cpp:156
+#: common/common.cpp:214 common/dialogs/dialog_page_settings.cpp:469
 #: common/draw_frame.cpp:485
 #: eeschema/dialogs/dialog_lib_edit_draw_item_base.cpp:45
 #: pagelayout_editor/pl_editor_frame.cpp:467 pcb_calculator/UnitSelector.cpp:38
@@ -518,8 +522,8 @@ msgstr "ピクセル"
 #: pcbnew/dialogs/dialog_create_array_base.cpp:61
 #: pcbnew/dialogs/dialog_create_array_base.cpp:72
 #: pcbnew/dialogs/dialog_create_array_base.cpp:83
-#: pcbnew/dialogs/dialog_create_array_base.cpp:187
-#: pcbnew/dialogs/dialog_create_array_base.cpp:198
+#: pcbnew/dialogs/dialog_create_array_base.cpp:189
+#: pcbnew/dialogs/dialog_create_array_base.cpp:200
 #: pcbnew/dialogs/dialog_export_idf_base.cpp:46
 #: pcbnew/dialogs/dialog_export_vrml_base.cpp:64
 #: pcbnew/dialogs/dialog_export_vrml_base.cpp:98
@@ -590,11 +594,11 @@ msgstr "タイトルブロック用のロゴ (.kicad_wksファイル)"
 msgid "Format"
 msgstr "フォーマット"
 
-#: bitmap2component/bitmap2cmp_gui_base.cpp:135 common/eda_text.cpp:377
+#: bitmap2component/bitmap2cmp_gui_base.cpp:135 common/eda_text.cpp:383
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:56
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:181
 #: eeschema/dialogs/dialog_edit_label_base.cpp:76
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:92
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:90
 #: eeschema/dialogs/dialog_lib_edit_text_base.cpp:97 eeschema/libedit.cpp:498
 #: eeschema/onrightclick.cpp:381 eeschema/sch_text.cpp:758
 #: gerbview/class_GERBER.cpp:359 gerbview/class_GERBER.cpp:363
@@ -602,7 +606,7 @@ msgstr "フォーマット"
 #: pcbnew/dialogs/dialog_dimension_editor_base.cpp:83
 #: pcbnew/dialogs/dialog_edit_module_for_BoardEditor_base.cpp:140
 #: pcbnew/dialogs/dialog_edit_module_for_Modedit_base.cpp:98
-#: pcbnew/dialogs/dialog_edit_module_text_base.cpp:104
+#: pcbnew/dialogs/dialog_edit_module_text_base.cpp:100
 #: pcbnew/dialogs/dialog_pcb_text_properties_base.cpp:70
 #: pcbnew/dialogs/dialog_pcb_text_properties_base.cpp:100 pcbnew/muonde.cpp:813
 msgid "Normal"
@@ -700,7 +704,7 @@ msgstr " inch"
 msgid " deg"
 msgstr " 度"
 
-#: common/basicframe.cpp:140
+#: common/basicframe.cpp:141
 msgid ""
 "The program cannot be closed\n"
 "A quasi-modal dialog window is currently open, please close it first."
@@ -708,7 +712,7 @@ msgstr ""
 "プログラムを終了することができませんでした\n"
 "現在表示されている他のダイアログを先に閉じてください。"
 
-#: common/basicframe.cpp:427
+#: common/basicframe.cpp:442
 #, c-format
 msgid ""
 "Html or pdf help file \n"
@@ -721,57 +725,48 @@ msgstr ""
 " または\n"
 "'%s' が見つかりませんでした。"
 
-#: common/basicframe.cpp:444
+#: common/basicframe.cpp:459
 #, c-format
 msgid "Help file '%s' could not be found."
 msgstr "ヘルプファイル '%s' が見つかりません"
 
-#: common/basicframe.cpp:465
-#, c-format
-msgid "Executable file (%s)|%s"
-msgstr "実行ファイル (%s)|%s"
-
-#: common/basicframe.cpp:468
-msgid "Select Preferred Editor"
-msgstr "好みのエディタの選択"
-
-#: common/basicframe.cpp:494
+#: common/basicframe.cpp:501
 msgid "Copy &Version Information"
 msgstr "バージョン情報をコピー(&V)"
 
-#: common/basicframe.cpp:495
+#: common/basicframe.cpp:502
 msgid "Copy the version string to clipboard to send with bug reports"
 msgstr "バグレポートを送るためにクリップボードにバージョン文字列をコピーする"
 
-#: common/basicframe.cpp:548
+#: common/basicframe.cpp:555
 msgid "Could not open clipboard to write version information."
 msgstr "バージョン情報を書き込むためのクリップボードが開けません"
 
-#: common/basicframe.cpp:549
+#: common/basicframe.cpp:556
 msgid "Clipboard Error"
 msgstr "クリップボードのエラー"
 
-#: common/basicframe.cpp:623
+#: common/basicframe.cpp:630
 msgid "Version Information (copied to the clipboard)"
 msgstr "バージョン情報をクリップボードにコピー"
 
-#: common/basicframe.cpp:647
+#: common/basicframe.cpp:654
 #, c-format
 msgid "You do not have write permissions to folder <%s>."
 msgstr "フォルダー <%s> への書き込み権限がありません。"
 
-#: common/basicframe.cpp:652
+#: common/basicframe.cpp:659
 #, c-format
 msgid "You do not have write permissions to save file <%s> to folder <%s>."
 msgstr ""
 "ファイル <%s> をフォルダ <%s>に保存するための書き込み権限がありません。"
 
-#: common/basicframe.cpp:657
+#: common/basicframe.cpp:664
 #, c-format
 msgid "You do not have write permissions to save file <%s>."
 msgstr "ファイル <%s> を保存するための書き込み権限がありません。"
 
-#: common/basicframe.cpp:689
+#: common/basicframe.cpp:696
 #, c-format
 msgid ""
 "Well this is potentially embarrassing!\n"
@@ -786,12 +781,12 @@ msgstr ""
 "を修正した際に正しく保存されなかったようです。最後に行った編集内容を復元した"
 "いですか？"
 
-#: common/basicframe.cpp:717
+#: common/basicframe.cpp:724
 #, c-format
 msgid "Could not create backup file <%s>"
 msgstr "バックアップファイル <%s> が作成できませんでした"
 
-#: common/basicframe.cpp:725
+#: common/basicframe.cpp:732
 msgid "The auto save file could not be renamed to the board file name."
 msgstr "オートセーブファイルをボードファイル名にリネームできませんでした。"
 
@@ -843,20 +838,20 @@ msgstr "ブロックをミラー反転"
 msgid "Marker Info"
 msgstr "マーカーの情報"
 
-#: common/common.cpp:140
+#: common/common.cpp:152
 msgid "\""
 msgstr "inch"
 
-#: common/common.cpp:171 common/dialogs/dialog_page_settings.cpp:466
+#: common/common.cpp:183 common/dialogs/dialog_page_settings.cpp:469
 #: pagelayout_editor/pl_editor_frame.cpp:463
 msgid "inches"
 msgstr "inch"
 
-#: common/common.cpp:175
+#: common/common.cpp:187
 msgid "millimeters"
 msgstr "mm"
 
-#: common/common.cpp:179 eeschema/dialogs/dialog_edit_label_base.cpp:57
+#: common/common.cpp:191 eeschema/dialogs/dialog_edit_label_base.cpp:57
 #: eeschema/dialogs/dialog_lib_edit_pin_base.cpp:125
 #: eeschema/dialogs/dialog_lib_edit_pin_base.cpp:137
 #: eeschema/dialogs/dialog_lib_edit_pin_base.cpp:149
@@ -867,32 +862,32 @@ msgstr "mm"
 msgid "units"
 msgstr "単位"
 
-#: common/common.cpp:198
+#: common/common.cpp:210
 msgid "in"
 msgstr "inch"
 
-#: common/common.cpp:209 pcbnew/dialogs/dialog_create_array_base.cpp:219
+#: common/common.cpp:221 pcbnew/dialogs/dialog_create_array_base.cpp:221
 #: pcbnew/dialogs/dialog_move_exact_base.cpp:63
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:141
 msgid "deg"
 msgstr "度"
 
-#: common/common.cpp:414
+#: common/common.cpp:426
 #, c-format
 msgid "Cannot make path '%s' absolute with respect to '%s'."
 msgstr "絶対パス '%s' を '%s' について設定できません."
 
-#: common/common.cpp:432
+#: common/common.cpp:444
 #, c-format
 msgid "Output directory '%s' created.\n"
 msgstr "出力ディレクトリ '%s' が生成されました。\n"
 
-#: common/common.cpp:441
+#: common/common.cpp:453
 #, c-format
 msgid "Cannot create output directory '%s'.\n"
 msgstr "出力ディレクトリが作成できませんでした！ '%s'.\n"
 
-#: common/confirm.cpp:75 common/pgm_base.cpp:827
+#: common/confirm.cpp:75 common/pgm_base.cpp:875
 #: eeschema/dialogs/dialog_color_config.cpp:277 eeschema/symbedit.cpp:111
 msgid "Warning"
 msgstr "警告"
@@ -916,7 +911,7 @@ msgstr "確認"
 #: eeschema/libedit.cpp:508 eeschema/sch_component.cpp:1539
 #: eeschema/viewlibs.cpp:308
 #: pcbnew/dialogs/dialog_footprint_wizard_list_base.cpp:35
-#: pcbnew/dialogs/dialog_fp_lib_table.cpp:210 pcbnew/librairi.cpp:775
+#: pcbnew/dialogs/dialog_fp_lib_table.cpp:210 pcbnew/librairi.cpp:823
 msgid "Description"
 msgstr "説明"
 
@@ -1015,6 +1010,21 @@ msgstr "ビルド バージョン情報"
 #: common/dialog_about/dialog_about_base.cpp:45
 msgid "Lib Version Info"
 msgstr "ライブラリ バージョン情報"
+
+#: common/dialog_shim.cpp:125 common/dialogs/dialog_exit_base.cpp:69
+#: common/dialogs/dialog_get_component_base.cpp:52 common/selcolor.cpp:237
+#: eeschema/dialogs/dialog_netlist_base.cpp:49
+#: eeschema/dialogs/dialog_netlist_base.cpp:133
+#: eeschema/libedit_onrightclick.cpp:70 eeschema/onrightclick.cpp:153
+#: eeschema/onrightclick.cpp:186
+#: gerbview/dialogs/dialog_select_one_pcb_layer.cpp:182
+#: gerbview/onrightclick.cpp:59 gerbview/onrightclick.cpp:81
+#: pagelayout_editor/onrightclick.cpp:115
+#: pcbnew/dialogs/dialog_global_pads_edition_base.cpp:55
+#: pcbnew/modedit_onclick.cpp:229 pcbnew/modedit_onclick.cpp:272
+#: pcbnew/muonde.cpp:804 pcbnew/onrightclick.cpp:81 pcbnew/onrightclick.cpp:97
+msgid "Cancel"
+msgstr "キャンセル"
 
 #: common/dialogs/dialog_display_info_HTML_base.cpp:22 common/zoom.cpp:300
 #: eeschema/dialogs/dialog_annotate_base.cpp:212
@@ -1132,8 +1142,8 @@ msgstr "環境変数に関するヘルプ"
 
 #: common/dialogs/dialog_env_var_config_base.cpp:38
 #: cvpcb/dialogs/dialog_config_equfiles_base.cpp:82
-#: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:183
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib.cpp:181
+#: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:190
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib.cpp:187
 #: eeschema/dialogs/dialog_lib_edit_pin_table.cpp:151 eeschema/lib_pin.cpp:1977
 #: eeschema/libedit.cpp:477
 #: pcb_calculator/dialogs/dialog_regulator_data_base.cpp:26
@@ -1168,13 +1178,13 @@ msgstr "テーブルへ項目を新規追加"
 #: pcbnew/dialogs/dialog_fp_plugin_options_base.cpp:62
 #: pcbnew/dialogs/dialog_netlist_fbp.cpp:55
 #: pcbnew/dialogs/dialog_netlist_fbp.cpp:63
-#: pcbnew/dialogs/dialog_netlist_fbp.cpp:71 pcbnew/onrightclick.cpp:650
-#: pcbnew/onrightclick.cpp:967 pcbnew/onrightclick.cpp:1019
+#: pcbnew/dialogs/dialog_netlist_fbp.cpp:71 pcbnew/onrightclick.cpp:645
+#: pcbnew/onrightclick.cpp:962 pcbnew/onrightclick.cpp:1014
 msgid "Delete"
 msgstr "削除"
 
 #: common/dialogs/dialog_env_var_config_base.cpp:65
-msgid "Remove the selectect entry from the table."
+msgid "Remove the selected entry from the table."
 msgstr "一覧より選択した項目を削除します。"
 
 #: common/dialogs/dialog_exit_base.cpp:34
@@ -1193,26 +1203,11 @@ msgstr "保存して終了"
 msgid "Exit without Save"
 msgstr "保存しないで終了"
 
-#: common/dialogs/dialog_exit_base.cpp:69
-#: common/dialogs/dialog_get_component_base.cpp:52 common/selcolor.cpp:237
-#: eeschema/dialogs/dialog_netlist_base.cpp:49
-#: eeschema/dialogs/dialog_netlist_base.cpp:133
-#: eeschema/libedit_onrightclick.cpp:70 eeschema/onrightclick.cpp:153
-#: eeschema/onrightclick.cpp:186
-#: gerbview/dialogs/dialog_select_one_pcb_layer.cpp:182
-#: gerbview/onrightclick.cpp:59 gerbview/onrightclick.cpp:81
-#: pagelayout_editor/onrightclick.cpp:115
-#: pcbnew/dialogs/dialog_global_pads_edition_base.cpp:55
-#: pcbnew/modedit_onclick.cpp:229 pcbnew/modedit_onclick.cpp:272
-#: pcbnew/muonde.cpp:804 pcbnew/onrightclick.cpp:81 pcbnew/onrightclick.cpp:97
-msgid "Cancel"
-msgstr "キャンセル"
-
 #: common/dialogs/dialog_get_component_base.cpp:22
 #: eeschema/dialogs/dialog_bom_base.cpp:44
 #: eeschema/dialogs/dialog_netlist_base.cpp:115
 #: eeschema/dialogs/dialog_sch_edit_sheet_pin_base.cpp:28
-#: pcbnew/librairi.cpp:608
+#: pcbnew/librairi.cpp:656
 msgid "Name:"
 msgstr "名前:"
 
@@ -1291,8 +1286,8 @@ msgstr "Y軸で反転"
 
 #: common/dialogs/dialog_image_editor_base.cpp:39
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:173
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:84
-#: pcbnew/modedit_onclick.cpp:290 pcbnew/onrightclick.cpp:1007
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:82
+#: pcbnew/modedit_onclick.cpp:290 pcbnew/onrightclick.cpp:1002
 #: pcbnew/tools/common_actions.cpp:121
 msgid "Rotate"
 msgstr "回転"
@@ -1337,80 +1332,24 @@ msgstr "アイテム: "
 #: eeschema/dialogs/dialog_erc_base.cpp:68
 #: eeschema/dialogs/dialog_plot_schematic_base.cpp:146
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:1172
-#: pcbnew/dialogs/dialog_drc_base.cpp:109
+#: pcbnew/dialogs/dialog_drc_base.cpp:125
 #: pcbnew/dialogs/dialog_exchange_modules_base.cpp:89
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:196
 msgid "Messages:"
 msgstr "メッセージ: "
 
-#: common/dialogs/dialog_page_settings.cpp:61
-msgid "A4 210x297mm"
-msgstr "A4 210x297mm"
-
-#: common/dialogs/dialog_page_settings.cpp:62
-msgid "A3 297x420mm"
-msgstr "A3 297x420mm"
-
-#: common/dialogs/dialog_page_settings.cpp:63
-msgid "A2 420x594mm"
-msgstr "A2 420x594mm"
-
-#: common/dialogs/dialog_page_settings.cpp:64
-msgid "A1 594x841mm"
-msgstr "A1 594x841mm"
-
-#: common/dialogs/dialog_page_settings.cpp:65
-msgid "A0 841x1189mm"
-msgstr "A0 841x1189mm"
-
-#: common/dialogs/dialog_page_settings.cpp:66
-msgid "A 8.5x11in"
-msgstr "A 8.5x11in"
-
-#: common/dialogs/dialog_page_settings.cpp:67
-msgid "B 11x17in"
-msgstr "B 11x17in"
-
-#: common/dialogs/dialog_page_settings.cpp:68
-msgid "C 17x22in"
-msgstr "C 17x22in"
-
-#: common/dialogs/dialog_page_settings.cpp:69
-msgid "D 22x34in"
-msgstr "D 22x34in"
-
-#: common/dialogs/dialog_page_settings.cpp:70
-msgid "E 34x44in"
-msgstr "E 34x44in"
-
-#: common/dialogs/dialog_page_settings.cpp:71
-msgid "USLetter 8.5x11in"
-msgstr "USLetter 8.5x11in"
-
-#: common/dialogs/dialog_page_settings.cpp:72
-msgid "USLegal 8.5x14in"
-msgstr "USLegal 8.5x14in"
-
-#: common/dialogs/dialog_page_settings.cpp:73
-msgid "USLedger 11x17in"
-msgstr "USLedger 11x17in"
-
-#: common/dialogs/dialog_page_settings.cpp:74
-msgid "User (Custom)"
-msgstr "ユーザー (カスタム)"
-
-#: common/dialogs/dialog_page_settings.cpp:267
-#: common/dialogs/dialog_page_settings.cpp:713
+#: common/dialogs/dialog_page_settings.cpp:270
+#: common/dialogs/dialog_page_settings.cpp:716
 #: common/dialogs/dialog_page_settings_base.cpp:46
 msgid "Portrait"
 msgstr "縦向き"
 
-#: common/dialogs/dialog_page_settings.cpp:431
+#: common/dialogs/dialog_page_settings.cpp:434
 #, c-format
 msgid "Page layout description file <%s> not found. Abort"
 msgstr "図枠ファイル <%s> が見つかりませんでした。中断します。"
 
-#: common/dialogs/dialog_page_settings.cpp:462
+#: common/dialogs/dialog_page_settings.cpp:465
 #, c-format
 msgid ""
 "Selected custom paper size\n"
@@ -1423,20 +1362,20 @@ msgstr ""
 "%.1f - %.1f %s!\n"
 "他の用紙サイズを選択しますか？"
 
-#: common/dialogs/dialog_page_settings.cpp:468
+#: common/dialogs/dialog_page_settings.cpp:471
 msgid "Warning!"
 msgstr "警告!"
 
-#: common/dialogs/dialog_page_settings.cpp:715
+#: common/dialogs/dialog_page_settings.cpp:718
 #: common/dialogs/dialog_page_settings_base.cpp:46
 msgid "Landscape"
 msgstr "横向き"
 
-#: common/dialogs/dialog_page_settings.cpp:801
+#: common/dialogs/dialog_page_settings.cpp:804
 msgid "Select Page Layout Descr File"
 msgstr "図枠ファイルの選択"
 
-#: common/dialogs/dialog_page_settings.cpp:819
+#: common/dialogs/dialog_page_settings.cpp:822
 #, c-format
 msgid ""
 "The page layout descr filename has changed.\n"
@@ -1483,7 +1422,7 @@ msgstr "カスタム用紙の高さ"
 #: pcbnew/dialogs/dialog_global_modules_fields_edition_base.cpp:65
 #: pcbnew/dialogs/dialog_pcb_text_properties_base.cpp:43
 #: pcbnew/dialogs/dialog_pns_diff_pair_dimensions_base.cpp:25
-#: pcbnew/dialogs/dialog_track_via_properties_base.cpp:86
+#: pcbnew/dialogs/dialog_track_via_properties_base.cpp:82
 msgid "Width:"
 msgstr "幅:"
 
@@ -1572,40 +1511,40 @@ msgstr "図枠ファイル"
 msgid "Browse"
 msgstr "参照"
 
-#: common/dialogs/wx_html_report_panel.cpp:130
+#: common/dialogs/wx_html_report_panel.cpp:137
 msgid "<b>Error: </b></font><font size=2>"
 msgstr "<b>エラー: </b></font><font size=2>"
 
-#: common/dialogs/wx_html_report_panel.cpp:132
+#: common/dialogs/wx_html_report_panel.cpp:139
 msgid "<b>Warning: </b></font><font size=2>"
 msgstr "<b>警告: </b></font><font size=2>"
 
-#: common/dialogs/wx_html_report_panel.cpp:134
+#: common/dialogs/wx_html_report_panel.cpp:141
 msgid "<b>Info: </b>"
 msgstr "<b>情報: </b>"
 
-#: common/dialogs/wx_html_report_panel.cpp:148
+#: common/dialogs/wx_html_report_panel.cpp:155
 msgid "Error: "
 msgstr "エラー:"
 
-#: common/dialogs/wx_html_report_panel.cpp:150
+#: common/dialogs/wx_html_report_panel.cpp:157
 msgid "Warning: "
 msgstr "警告: "
 
-#: common/dialogs/wx_html_report_panel.cpp:152
+#: common/dialogs/wx_html_report_panel.cpp:159
 msgid "Info: "
 msgstr "情報: "
 
-#: common/dialogs/wx_html_report_panel.cpp:233
+#: common/dialogs/wx_html_report_panel.cpp:240
 msgid "Save report to file"
 msgstr "レポートをファイルに保存"
 
-#: common/dialogs/wx_html_report_panel.cpp:250
+#: common/dialogs/wx_html_report_panel.cpp:257
 #, c-format
 msgid "Cannot write report to file '%s'."
 msgstr "レポートをファイル '%s' へ書き出すことが出来ませんでした."
 
-#: common/dialogs/wx_html_report_panel.cpp:252
+#: common/dialogs/wx_html_report_panel.cpp:259
 msgid "File save error"
 msgstr "ファイル保存エラー"
 
@@ -1641,8 +1580,8 @@ msgstr "レポートをファイルに保存..."
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:44
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:33
 #: pcbnew/dialogs/dialog_set_grid_base.cpp:25
-#: pcbnew/dialogs/dialog_set_grid_base.cpp:79
-#: pcbnew/dialogs/dialog_set_grid_base.cpp:91
+#: pcbnew/dialogs/dialog_set_grid_base.cpp:76
+#: pcbnew/dialogs/dialog_set_grid_base.cpp:87
 msgid "Inches"
 msgstr "inch"
 
@@ -1709,37 +1648,37 @@ msgstr "ドキュメントファイル '%s' が見つかりません"
 msgid "Unknown MIME type for doc file <%s>"
 msgstr "ドキュメント ファイル <%s> の不明なMIMEタイプ"
 
-#: common/eda_text.cpp:378
+#: common/eda_text.cpp:384
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:181
 #: eeschema/dialogs/dialog_edit_label_base.cpp:76
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:92
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:90
 #: eeschema/dialogs/dialog_lib_edit_text_base.cpp:97 eeschema/sch_text.cpp:758
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:109
-#: pcbnew/dialogs/dialog_edit_module_text_base.cpp:104
+#: pcbnew/dialogs/dialog_edit_module_text_base.cpp:100
 #: pcbnew/dialogs/dialog_pcb_text_properties_base.cpp:100
 msgid "Italic"
 msgstr "斜体字"
 
-#: common/eda_text.cpp:379
+#: common/eda_text.cpp:385
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:181
 #: eeschema/dialogs/dialog_edit_label_base.cpp:76
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:92
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:90
 #: eeschema/dialogs/dialog_lib_edit_text_base.cpp:97 eeschema/sch_text.cpp:758
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:90
 msgid "Bold"
 msgstr "太字"
 
-#: common/eda_text.cpp:380
+#: common/eda_text.cpp:386
 msgid "Bold+Italic"
 msgstr "<b><i>斜太字</i></b>"
 
-#: common/footprint_info.cpp:324 common/footprint_info.cpp:345
-msgid "Errors were encountered loading footprints"
-msgstr "フットプリント読み込み中にエラーが発生しました"
-
-#: common/footprint_info.cpp:343
+#: common/footprint_info.cpp:307
 msgid "Load Error"
 msgstr "読込みエラー"
+
+#: common/footprint_info.cpp:309
+msgid "Errors were encountered loading footprints:"
+msgstr "フットプリント読み込み中にエラーが発生しました:"
 
 #: common/fp_lib_table.cpp:373
 #, c-format
@@ -1768,12 +1707,12 @@ msgstr "論理的なライブラリ名の中に不正な文字があります"
 msgid "Illegal character found in revision"
 msgstr "リビジョン中に不正な文字があります"
 
-#: common/gestfich.cpp:238
+#: common/gestfich.cpp:233
 #, c-format
 msgid "Command <%s> could not found"
 msgstr "コマンド <%s> は見つかりません"
 
-#: common/gestfich.cpp:433
+#: common/gestfich.cpp:376
 #, c-format
 msgid ""
 "Problem while running the PDF viewer\n"
@@ -1782,7 +1721,7 @@ msgstr ""
 "PDFビューア実行中に問題が発生しました\n"
 "コマンド: '%s'"
 
-#: common/gestfich.cpp:441
+#: common/gestfich.cpp:384
 #, c-format
 msgid "Unable to find a PDF viewer for <%s>"
 msgstr "<%s> を開くためのPDFビューアが見つかりませんでした"
@@ -1873,7 +1812,7 @@ msgstr "ホットキー(&H)"
 msgid "Hotkeys configuration and preferences"
 msgstr "ホットキーの設定と詳細"
 
-#: common/page_layout/page_layout_reader.cpp:820
+#: common/page_layout/page_layout_reader.cpp:852
 #, c-format
 msgid "The file <%s> was not fully read"
 msgstr "ファイル <%s> が最後まで読み込めませんでした"
@@ -1975,24 +1914,32 @@ msgstr "ブルガリア語"
 msgid "No default editor found, you must choose it"
 msgstr "デフォルトのエディタが指定されていません。エディタを指定して下さい。"
 
-#: common/pgm_base.cpp:339
-msgid "Preferred Editor:"
-msgstr "エディタの指定:"
+#: common/pgm_base.cpp:352
+msgid "Executable file (*.exe)|*.exe"
+msgstr "実行ファイル (*.exe)|*.exe"
 
-#: common/pgm_base.cpp:368
+#: common/pgm_base.cpp:354
+msgid "Executable file (*)|*"
+msgstr "実行ファイル (*)|*"
+
+#: common/pgm_base.cpp:364
+msgid "Select Preferred Editor"
+msgstr "好みのエディタの選択"
+
+#: common/pgm_base.cpp:385
 #, c-format
 msgid "%s is already running, Continue?"
 msgstr "%s は既に実行中です。続けますか？"
 
-#: common/pgm_base.cpp:744
+#: common/pgm_base.cpp:792
 msgid "Language"
 msgstr "言語"
 
-#: common/pgm_base.cpp:745
+#: common/pgm_base.cpp:793
 msgid "Select application language (only for testing!)"
 msgstr "アプリケーション言語の設定 (テスト用)"
 
-#: common/pgm_base.cpp:820
+#: common/pgm_base.cpp:868
 msgid ""
 "Warning!  Some of paths you have configured have been defined \n"
 "externally to the running process and will be temporarily overwritten."
@@ -2000,7 +1947,7 @@ msgstr ""
 "警告！ あなたが設定したいくつかのパスは、実行中のプロセスへ\n"
 "外部から定義され、現在のものを上書きします."
 
-#: common/pgm_base.cpp:822
+#: common/pgm_base.cpp:870
 msgid ""
 "The next time KiCad is launched, any paths that have already\n"
 "been defined are honored and any settings defined in the path\n"
@@ -2014,7 +1961,7 @@ msgstr ""
 "あれば、衝突している項目をリネームし、システム\n"
 "の環境変数定義を削除して下さい。"
 
-#: common/pgm_base.cpp:829
+#: common/pgm_base.cpp:877
 msgid "Do not show this message again."
 msgstr "二度とこのメッセージを表示しない"
 
@@ -2029,30 +1976,30 @@ msgid "Cannot create prj file '%s' (Directory not writable)"
 msgstr ""
 "プロジェクトファイル '%s' を作成できません (ディレクトリは書き込み禁止)"
 
-#: common/richio.cpp:197
+#: common/richio.cpp:191
 #, c-format
 msgid "Unable to open filename '%s' for reading"
 msgstr "読み込み用にファイル '%s' を開けません。"
 
-#: common/richio.cpp:241 common/richio.cpp:338
+#: common/richio.cpp:235 common/richio.cpp:332
 msgid "Maximum line length exceeded"
 msgstr "ライン長が超過しています。"
 
-#: common/richio.cpp:303
+#: common/richio.cpp:297
 msgid "Line length exceeded"
 msgstr "ライン長が超過しています。"
 
-#: common/richio.cpp:569
+#: common/richio.cpp:563
 #, c-format
 msgid "cannot open or save file '%s'"
 msgstr "ファイル \"%s\" を読み込み、または保存できません"
 
-#: common/richio.cpp:588 pcbnew/legacy_plugin.cpp:3268
+#: common/richio.cpp:582 pcbnew/legacy_plugin.cpp:3269
 #, c-format
 msgid "error writing to file '%s'"
 msgstr "'%s' ファイルの書き込み中のエラー"
 
-#: common/richio.cpp:609
+#: common/richio.cpp:603
 msgid "OUTPUTSTREAM_OUTPUTFORMATTER write error"
 msgstr "OUTPUTSTREAM_OUTPUTFORMATTER 書き出しエラー"
 
@@ -2207,8 +2154,8 @@ msgstr "Y"
 #: common/zoom.cpp:246
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:147
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:153
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:54
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:62
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:52
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:60
 #: gerbview/class_GERBER.cpp:363 gerbview/class_GERBER.cpp:366
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:84
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:103
@@ -2419,70 +2366,70 @@ msgstr ""
 "'%s'\n"
 "%s"
 
-#: cvpcb/cvframe.cpp:605
+#: cvpcb/cvframe.cpp:606
 #, c-format
 msgid "Components: %d, unassigned: %d"
 msgstr "コンポーネント: %d  (未割付: %d)"
 
-#: cvpcb/cvframe.cpp:623
+#: cvpcb/cvframe.cpp:624
 msgid "Filter list: "
 msgstr "フィルター: "
 
-#: cvpcb/cvframe.cpp:636 pcbnew/loadcmp.cpp:479
+#: cvpcb/cvframe.cpp:637 pcbnew/loadcmp.cpp:479
 msgid "Description: "
 msgstr "説明:"
 
-#: cvpcb/cvframe.cpp:639
+#: cvpcb/cvframe.cpp:640
 msgid "Key words: "
 msgstr "キーワード: "
 
-#: cvpcb/cvframe.cpp:650
+#: cvpcb/cvframe.cpp:651
 msgid "key words"
 msgstr "キーワード"
 
-#: cvpcb/cvframe.cpp:657
+#: cvpcb/cvframe.cpp:658
 msgid "pin count"
 msgstr "ピン数"
 
-#: cvpcb/cvframe.cpp:665
+#: cvpcb/cvframe.cpp:666
 msgid "library"
 msgstr "ライブラリ"
 
-#: cvpcb/cvframe.cpp:669
+#: cvpcb/cvframe.cpp:670
 msgid "No filtering"
 msgstr "絞り込みなし"
 
-#: cvpcb/cvframe.cpp:671
+#: cvpcb/cvframe.cpp:672
 #, c-format
 msgid "Filtered by %s"
 msgstr "フィルター: %s"
 
-#: cvpcb/cvframe.cpp:687
+#: cvpcb/cvframe.cpp:688
 msgid ""
 "No PCB footprint libraries are listed in the current footprint library table."
 msgstr ""
 "現在の フットプリント ライブラリ テーブルには、 PCB フットプリント ライブラリ"
 "がありません。"
 
-#: cvpcb/cvframe.cpp:688
+#: cvpcb/cvframe.cpp:689
 msgid "Configuration Error"
 msgstr "構成エラー"
 
-#: cvpcb/cvframe.cpp:711
+#: cvpcb/cvframe.cpp:716
 #, c-format
 msgid "Project: '%s'"
 msgstr "プロジェクト: '%s'"
 
-#: cvpcb/cvframe.cpp:716 eeschema/libedit.cpp:61 eeschema/schframe.cpp:1312
-#: kicad/prjconfig.cpp:335 pcbnew/moduleframe.cpp:764 pcbnew/pcbframe.cpp:972
+#: cvpcb/cvframe.cpp:721 eeschema/libedit.cpp:61 eeschema/schframe.cpp:1312
+#: kicad/prjconfig.cpp:335 pcbnew/moduleframe.cpp:764 pcbnew/pcbframe.cpp:984
 msgid " [Read Only]"
 msgstr " [読み取り専用]"
 
-#: cvpcb/cvframe.cpp:719
+#: cvpcb/cvframe.cpp:724
 msgid "[no project]"
 msgstr "[プロジェクトなし]"
 
-#: cvpcb/cvframe.cpp:762 pcbnew/netlist.cpp:93
+#: cvpcb/cvframe.cpp:767 pcbnew/netlist.cpp:93
 #, c-format
 msgid ""
 "Error loading netlist.\n"
@@ -2491,7 +2438,7 @@ msgstr ""
 "ネットリスト読み込み中のエラーです。\n"
 "%s"
 
-#: cvpcb/cvframe.cpp:763 pcbnew/dialogs/dialog_netlist.cpp:431
+#: cvpcb/cvframe.cpp:768 pcbnew/dialogs/dialog_netlist.cpp:437
 #: pcbnew/netlist.cpp:94
 msgid "Netlist Load Error"
 msgstr "ネットリストの読み込みエラー"
@@ -2560,7 +2507,7 @@ msgstr "選択したライブラリを削除"
 
 #: cvpcb/dialogs/dialog_config_equfiles_base.cpp:44
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:133
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:40
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:38
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:83
 #: pcbnew/dialogs/dialog_fp_lib_table_base.cpp:146
 #: pcbnew/dialogs/dialog_fp_plugin_options_base.cpp:67
@@ -2577,10 +2524,10 @@ msgstr "相対パス用の有効な環境変数:"
 
 #: cvpcb/dialogs/dialog_config_equfiles_base.cpp:83
 #: eeschema/dialogs/dialog_color_config.cpp:79
-#: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:186
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib.cpp:184
-#: eeschema/dialogs/dialog_rescue_each.cpp:108 eeschema/lib_field.cpp:581
-#: eeschema/lib_field.cpp:759 eeschema/onrightclick.cpp:423
+#: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:193
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib.cpp:190
+#: eeschema/dialogs/dialog_rescue_each.cpp:111 eeschema/lib_field.cpp:592
+#: eeschema/lib_field.cpp:770 eeschema/onrightclick.cpp:423
 #: eeschema/sch_component.cpp:1518 eeschema/template_fieldnames.cpp:42
 #: pcbnew/class_edge_mod.cpp:261 pcbnew/class_text_mod.cpp:365
 #: pcbnew/dialogs/dialog_edit_module_for_BoardEditor_base.cpp:43
@@ -2627,16 +2574,17 @@ msgstr "パッド番号を表示(&N)"
 #: gerbview/dialogs/gerbview_dialog_display_options_frame_base.cpp:84
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:163
 msgid "Pan and Zoom"
-msgstr "拡大縮小"
+msgstr "パンと拡大縮小"
 
 #: cvpcb/dialogs/dialog_display_options_base.cpp:43
-msgid "Do not center and warp cusor on zoom"
+#: gerbview/dialogs/gerbview_dialog_display_options_frame_base.cpp:86
+msgid "Do not center and warp cursor on zoom"
 msgstr "拡大縮小時にカーソルを中心へ移動させない"
 
 #: cvpcb/dialogs/dialog_display_options_base.cpp:44
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:194
 #: gerbview/dialogs/gerbview_dialog_display_options_frame_base.cpp:87
-#: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:167
+#: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:166
 msgid "Keep the cursor at its current location when zooming"
 msgstr "拡大縮小時に現在のカーソル位置を保持する"
 
@@ -3092,15 +3040,15 @@ msgstr "重複するタイムスタンプ - (%s) %s%d と %s%d のもの"
 #: pcbnew/dialogs/dialog_graphic_item_properties_base.cpp:113
 #: pcbnew/dialogs/dialog_graphic_item_properties_base.cpp:125
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:70
-#: pcbnew/dialogs/dialog_track_via_properties_base.cpp:35
-#: pcbnew/dialogs/dialog_track_via_properties_base.cpp:47
-#: pcbnew/dialogs/dialog_track_via_properties_base.cpp:59
-#: pcbnew/dialogs/dialog_track_via_properties_base.cpp:71
-#: pcbnew/dialogs/dialog_track_via_properties_base.cpp:94
-#: pcbnew/dialogs/dialog_track_via_properties_base.cpp:138
-#: pcbnew/dialogs/dialog_track_via_properties_base.cpp:150
-#: pcbnew/dialogs/dialog_track_via_properties_base.cpp:173
-#: pcbnew/dialogs/dialog_track_via_properties_base.cpp:185
+#: pcbnew/dialogs/dialog_track_via_properties_base.cpp:34
+#: pcbnew/dialogs/dialog_track_via_properties_base.cpp:45
+#: pcbnew/dialogs/dialog_track_via_properties_base.cpp:56
+#: pcbnew/dialogs/dialog_track_via_properties_base.cpp:67
+#: pcbnew/dialogs/dialog_track_via_properties_base.cpp:89
+#: pcbnew/dialogs/dialog_track_via_properties_base.cpp:132
+#: pcbnew/dialogs/dialog_track_via_properties_base.cpp:143
+#: pcbnew/dialogs/dialog_track_via_properties_base.cpp:165
+#: pcbnew/dialogs/dialog_track_via_properties_base.cpp:176
 msgid "Unit"
 msgstr "ユニット"
 
@@ -3303,19 +3251,19 @@ msgstr "コマンドライン:"
 msgid "Plugin Info:"
 msgstr "プラグイン情報:"
 
-#: eeschema/dialogs/dialog_choose_component.cpp:250
+#: eeschema/dialogs/dialog_choose_component.cpp:251
 msgid "Description\n"
 msgstr "説明\n"
 
-#: eeschema/dialogs/dialog_choose_component.cpp:263
+#: eeschema/dialogs/dialog_choose_component.cpp:264
 msgid "Keywords\n"
 msgstr "キーワード\n"
 
-#: eeschema/dialogs/dialog_choose_component.cpp:271 pcbnew/class_module.cpp:571
+#: eeschema/dialogs/dialog_choose_component.cpp:272 pcbnew/class_module.cpp:571
 msgid "Unknown"
 msgstr "不明"
 
-#: eeschema/dialogs/dialog_choose_component.cpp:277
+#: eeschema/dialogs/dialog_choose_component.cpp:278
 msgid "Alias of "
 msgstr "エイリアス: "
 
@@ -3372,7 +3320,7 @@ msgid "Pin name"
 msgstr "ピン名"
 
 #: eeschema/dialogs/dialog_color_config.cpp:78
-#: eeschema/dialogs/dialog_rescue_each.cpp:107 eeschema/lib_field.cpp:574
+#: eeschema/dialogs/dialog_rescue_each.cpp:110 eeschema/lib_field.cpp:585
 #: eeschema/onrightclick.cpp:428 eeschema/sch_component.cpp:1514
 #: eeschema/template_fieldnames.cpp:39
 #: pcbnew/dialogs/dialog_edit_module_for_BoardEditor_base.cpp:26
@@ -3718,43 +3666,43 @@ msgstr ""
 #: pcbnew/dialogs/dialog_edit_module_for_BoardEditor_base.cpp:54
 #: pcbnew/dialogs/dialog_edit_module_for_Modedit_base.cpp:53
 #: pcbnew/dialogs/dialog_edit_module_for_Modedit_base.cpp:70
-#: pcbnew/modedit_onclick.cpp:418 pcbnew/onrightclick.cpp:1011
+#: pcbnew/modedit_onclick.cpp:418 pcbnew/onrightclick.cpp:1006
 msgid "Edit"
 msgstr "編集"
 
-#: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:220
+#: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:227
 #, c-format
 msgid "Component '%s' found in library '%s'"
 msgstr "コンポーネント '%s' はライブラリ '%s' 中に見つかりました"
 
-#: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:226
+#: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:233
 #, c-format
 msgid "Component '%s' not found in any library"
 msgstr "コンポーネント '%s' がどのライブラリにも見つかりませんでした"
 
-#: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:242
+#: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:249
 msgid "However, some candidates are found:"
 msgstr "他のいくつかの候補が見つかりました:"
 
-#: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:248
+#: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:255
 #, c-format
 msgid "'%s' found in library '%s'"
 msgstr "'%s' はライブラリ '%s' から見つかりました"
 
-#: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:310
+#: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:317
 msgid "No Component Name!"
 msgstr "コンポーネント名がありません。"
 
-#: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:319
+#: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:326
 #, c-format
 msgid "Component '%s' not found!"
 msgstr "コンポーネント '%s' が見つかりません!"
 
-#: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:393
+#: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:400
 msgid "Illegal reference. A reference must start with a letter"
 msgstr "無効なリファレンスです。リファレンスは英字で始める必要があります。"
 
-#: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:419
+#: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:426
 #, c-format
 msgid ""
 "The field name <%s> does not have a value and is not defined in the field "
@@ -3765,23 +3713,23 @@ msgstr ""
 "れていません。空のフィールド値は無効であり、コンポーネントから削除されます。"
 "これと残りの未定義フィールド全てを削除しますか？"
 
-#: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:426
+#: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:433
 msgid "Remove Fields"
 msgstr "フィールドを削除"
 
-#: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:845
+#: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:855
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:213
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib.cpp:697
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:124
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib.cpp:683
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:122
 msgid "Show in Browser"
 msgstr "ブラウザ内に表示"
 
-#: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:847
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib.cpp:699
+#: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:857
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib.cpp:685
 msgid "Assign Footprint"
 msgstr "フットプリントの割り当て"
 
-#: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:982
+#: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:997
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:41
 #: eeschema/lib_pin.cpp:2000 gerbview/class_gerber_draw_item.cpp:572
 #: gerbview/class_gerber_draw_item.cpp:573 pcbnew/class_pcb_text.cpp:145
@@ -3789,7 +3737,7 @@ msgstr "フットプリントの割り当て"
 msgid "Yes"
 msgstr "はい"
 
-#: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:984
+#: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:999
 #: eeschema/lib_pin.cpp:2002 gerbview/class_gerber_draw_item.cpp:572
 #: gerbview/class_gerber_draw_item.cpp:573 pcbnew/class_pcb_text.cpp:143
 #: pcbnew/class_text_mod.cpp:378
@@ -3803,9 +3751,9 @@ msgstr "変換可能なユニット:"
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:48
 #: pcbnew/dialogs/dialog_create_array_base.cpp:69
 #: pcbnew/dialogs/dialog_create_array_base.cpp:80
-#: pcbnew/dialogs/dialog_create_array_base.cpp:184
-#: pcbnew/dialogs/dialog_create_array_base.cpp:195
-#: pcbnew/dialogs/dialog_create_array_base.cpp:214
+#: pcbnew/dialogs/dialog_create_array_base.cpp:186
+#: pcbnew/dialogs/dialog_create_array_base.cpp:197
+#: pcbnew/dialogs/dialog_create_array_base.cpp:216
 #: pcbnew/dialogs/dialog_export_idf_base.cpp:62
 #: pcbnew/dialogs/dialog_export_idf_base.cpp:76
 #: pcbnew/dialogs/dialog_export_vrml_base.cpp:74
@@ -3837,7 +3785,7 @@ msgid "Orientation (Degrees)"
 msgstr "角度 (度)"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:52
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:58
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:56
 msgid "Select if the component is to be rotated when drawn"
 msgstr "描画時にコンポーネントを回転する場合に選択"
 
@@ -3861,7 +3809,7 @@ msgid "Mirror"
 msgstr "ミラー"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:60
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:66
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:64
 msgid ""
 "Pick the graphical transformation to be used when displaying the component, "
 "if any"
@@ -3880,7 +3828,7 @@ msgstr ""
 "\"ド・モルガン\"変換を行います。"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:70
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib.cpp:670
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib.cpp:655
 msgid "Chip Name"
 msgstr "シンボル名"
 
@@ -3926,33 +3874,33 @@ msgstr ""
 "フィールド文字は修正されません。"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:123
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:30
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:28
 msgid "Add Field"
 msgstr "フィールドを追加"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:124
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:31
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:29
 msgid "Add a new custom field"
 msgstr "フィールドを新規追加"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:128
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:35
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:33
 msgid "Delete Field"
 msgstr "フィールドを削除"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:129
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:36
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:34
 msgid "Delete one of the optional fields"
 msgstr "選択したフィールドを削除"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:134
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:41
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:39
 msgid "Move the selected optional fields up one position"
 msgstr "選択したオプションフィールドを一つ上と入れ替え"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:147
 #: eeschema/dialogs/dialog_edit_label_base.cpp:70
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:54
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:52
 #: eeschema/lib_pin.cpp:167
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:84
 #: pcbnew/dialogs/dialog_pcb_text_properties_base.cpp:106
@@ -3961,7 +3909,7 @@ msgstr "左"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:147
 #: eeschema/dialogs/dialog_edit_label_base.cpp:70
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:54
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:52
 #: eeschema/lib_pin.cpp:166
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:84
 #: pcbnew/dialogs/dialog_pcb_text_properties_base.cpp:106
@@ -3969,68 +3917,68 @@ msgid "Right"
 msgstr "右"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:149
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:56
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:54
 msgid "Horiz. Justify"
 msgstr "水平に整列"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:153
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:62
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:60
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:103
 msgid "Bottom"
 msgstr "下"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:153
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:62
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:60
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:103
 msgid "Top"
 msgstr "上"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:155
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:64
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:62
 msgid "Vert. Justify"
 msgstr "垂直に整列"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:166
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:77
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:75
 #: pcbnew/dialogs/dialog_modedit_options_base.cpp:125
 #: pcbnew/dialogs/dialog_modedit_options_base.cpp:154
 msgid "Visibility"
 msgstr "表示"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:168
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:79
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:77
 msgid "Show"
 msgstr "表示する"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:169
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:80
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:78
 msgid "Check if you want this field visible"
 msgstr "このフィールドを可視化するならチェック"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:174
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:85
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:83
 msgid "Check if you want this field's text rotated 90 degrees"
 msgstr "このフィールドのテキストを90度回転させたいならチェック"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:181
 #: eeschema/dialogs/dialog_edit_label_base.cpp:76
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:92
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:90
 #: eeschema/dialogs/dialog_lib_edit_text_base.cpp:97 eeschema/sch_text.cpp:758
 msgid "Bold Italic"
 msgstr "斜太字"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:183
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:94
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:92
 #: pcbnew/dialogs/dialog_pcb_text_properties_base.cpp:84
 msgid "Style:"
 msgstr "スタイル:"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:185
-msgid "The style of the currently selected field's text in the schemati"
+msgid "The style of the currently selected field's text in the schematic"
 msgstr "選択中のフィールドの文字書式"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:195
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:104
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:102
 #: eeschema/dialogs/dialog_eeschema_options.cpp:47
 msgid "Field Name"
 msgstr "フィールド名"
@@ -4045,7 +3993,7 @@ msgstr ""
 "いくつかの固定フィールド名は編集不可"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:204
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:114
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:112
 msgid "Field Value"
 msgstr "フィールドの値"
 
@@ -4059,7 +4007,7 @@ msgstr ""
 "ができます。"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:227
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:138
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:136
 #: eeschema/dialogs/dialog_lib_edit_text_base.cpp:53 eeschema/sch_text.cpp:790
 #: pcbnew/dialogs/dialog_target_properties_base.cpp:28 pcbnew/muonde.cpp:822
 msgid "Size"
@@ -4072,9 +4020,11 @@ msgstr "選択中のフィールドの文字サイズ"
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:236
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:249
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:262
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:148
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:160
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:174
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:146
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:158
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:172
+#: pcbnew/dialogs/dialog_drc_base.cpp:57 pcbnew/dialogs/dialog_drc_base.cpp:72
+#: pcbnew/dialogs/dialog_drc_base.cpp:87
 #: pcbnew/dialogs/dialog_edit_module_for_BoardEditor_base.cpp:98
 #: pcbnew/dialogs/dialog_edit_module_for_BoardEditor_base.cpp:110
 #: pcbnew/dialogs/dialog_edit_module_for_BoardEditor_base.cpp:234
@@ -4100,7 +4050,6 @@ msgid "unit"
 msgstr "単位"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:240
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:152
 msgid "PosX"
 msgstr "X座標"
 
@@ -4109,12 +4058,11 @@ msgid "The X coordinate of the text relative to the component"
 msgstr "コンポーネントからテキストの相対X位置"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:253
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:164
 msgid "PosY"
 msgstr "Y座標"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:258
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:170
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:168
 msgid "The Y coordinate of the text relative to the component"
 msgstr "コンポーネントからテキストの相対Y位置"
 
@@ -4139,12 +4087,12 @@ msgstr "階層シートピンのプロパティ"
 msgid "Text Properties"
 msgstr "テキストのプロパティ"
 
-#: eeschema/dialogs/dialog_edit_label.cpp:228
+#: eeschema/dialogs/dialog_edit_label.cpp:225
 #, c-format
 msgid "H%s x W%s"
 msgstr "高さ%s x 幅%s"
 
-#: eeschema/dialogs/dialog_edit_label.cpp:294
+#: eeschema/dialogs/dialog_edit_label.cpp:291
 msgid "Empty Text!"
 msgstr "空のテキスト !"
 
@@ -4211,13 +4159,11 @@ msgstr "パッシブ"
 msgid "S&hape"
 msgstr "シェイプ(&H)"
 
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib.cpp:243
-msgid "Illegal reference prefix. A reference must start by a letter"
-msgstr ""
-"無効なリファレンス接頭字です。リファレンスはアルファベット文字で始まる必要が"
-"あります。"
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib.cpp:249
+msgid "Illegal reference.  References must start with a letter."
+msgstr "無効なリファレンスです。リファレンスは英字で始める必要があります。"
 
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib.cpp:259
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib.cpp:265
 #, c-format
 msgid ""
 "A new name is entered for this component\n"
@@ -4228,12 +4174,12 @@ msgstr ""
 "エイリアス %s は既に存在します！\n"
 "コンポーネントを更新できません"
 
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:110
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:120
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:108
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:118
 msgid "The text (or value) of the currently selected field"
 msgstr "現在選択中のフィールドのテキスト (または値)"
 
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:125
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:123
 msgid ""
 "If your datasheet is given as an http:// link, then pressing this button "
 "should bring it up in your webbrowser."
@@ -4241,21 +4187,22 @@ msgstr ""
 "もし設定されているデータシートのパスが、http://から始まるリンクであった場合、"
 "このボタンをクリックすることでブラウザで表示させることができます。"
 
-#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:144
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:142
 msgid ""
 "The vertical height of the currently selected field's text in the schematic"
 msgstr "選択中のフィールドの文字の文字高さ"
 
-#: eeschema/dialogs/dialog_edit_one_field.cpp:172
-#, c-format
-msgid ""
-"Whitespace is not permitted inside references or values (symbol names in "
-"lib).\n"
-"The text you entered has been converted to use underscores: %s"
-msgstr ""
-"空白文字の使用は、リファレンスと定数(ライブラリ内のシンボル名)の内部で許され"
-"ていません.\n"
-"入力された文字列内の空白文字はアンダースコアへ変換されます(: %s )"
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:150
+msgid "X Position"
+msgstr "X 位置"
+
+#: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:162
+msgid "Y Position"
+msgstr "Y 位置"
+
+#: eeschema/dialogs/dialog_edit_one_field.cpp:190
+msgid "Illegal reference field value!"
+msgstr "無効なリファレンス値です! "
 
 #: eeschema/dialogs/dialog_eeschema_config.cpp:137
 #, c-format
@@ -4355,7 +4302,7 @@ msgstr "標準値"
 
 #: eeschema/dialogs/dialog_eeschema_options.cpp:55
 #: eeschema/dialogs/dialog_eeschema_options.cpp:192 eeschema/lib_pin.cpp:2004
-#: pcbnew/dialogs/dialog_edit_module_text_base.cpp:116
+#: pcbnew/dialogs/dialog_edit_module_text_base.cpp:112
 #: pcbnew/dialogs/dialog_modedit_options_base.cpp:129
 #: pcbnew/dialogs/dialog_modedit_options_base.cpp:158
 msgid "Visible"
@@ -4490,7 +4437,7 @@ msgid "&Use middle mouse button to pan"
 msgstr "画面のパンにマウスの中ボタンを使用(&U)"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:199
-#: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:172
+#: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:171
 msgid "Use middle mouse button dragging to pan"
 msgstr "画面のパンにマウスの中ボタンのドラッグを使用"
 
@@ -4499,62 +4446,72 @@ msgid "&Limit panning to scroll size"
 msgstr "パン可能な領域をスクロールバーサイズ範囲内に制限"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:204
-#: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:177
+#: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:176
 msgid "Middle mouse button panning limited by current scrollbar size"
 msgstr ""
 "マウス中ボタンによる画面パン時、移動領域サイズを現在のスクロールバーサイズに"
 "制限"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:208
+msgid "Use touchpa&d to pan"
+msgstr "画面のパンにタッチパッドを使用(&d)"
+
+#: eeschema/dialogs/dialog_eeschema_options_base.cpp:209
+#: gerbview/dialogs/gerbview_dialog_display_options_frame_base.cpp:98
+#: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:181
+msgid "Use touchpad to pan canvas"
+msgstr "描画キャンバスのパンにタッチパッドを使用"
+
+#: eeschema/dialogs/dialog_eeschema_options_base.cpp:213
 msgid "Pan while moving ob&ject"
 msgstr "オブジェクト移動時に表示領域を移動(&J)"
 
-#: eeschema/dialogs/dialog_eeschema_options_base.cpp:211
+#: eeschema/dialogs/dialog_eeschema_options_base.cpp:216
 msgid "&Restrict buses and wires to H and V orientation"
 msgstr "バス、配線を90度入力に制限(&R)"
 
-#: eeschema/dialogs/dialog_eeschema_options_base.cpp:214
+#: eeschema/dialogs/dialog_eeschema_options_base.cpp:219
 msgid "Show page limi&ts"
 msgstr "ページの境界を表示(&t)"
 
-#: eeschema/dialogs/dialog_eeschema_options_base.cpp:227
+#: eeschema/dialogs/dialog_eeschema_options_base.cpp:232
 #: eeschema/dialogs/dialog_plot_schematic_base.cpp:95
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:617
 msgid "General Options"
 msgstr "全般 オプション"
 
-#: eeschema/dialogs/dialog_eeschema_options_base.cpp:229
+#: eeschema/dialogs/dialog_eeschema_options_base.cpp:234
 msgid "User defined field names for schematic components. "
 msgstr "回路図コンポーネントに定義されたフィールド名を使用"
 
-#: eeschema/dialogs/dialog_eeschema_options_base.cpp:240
+#: eeschema/dialogs/dialog_eeschema_options_base.cpp:245
 msgid "Field Settings"
 msgstr "フィールドの設定"
 
-#: eeschema/dialogs/dialog_eeschema_options_base.cpp:242
+#: eeschema/dialogs/dialog_eeschema_options_base.cpp:247
 msgid "&Name"
 msgstr "名前(&N)"
 
-#: eeschema/dialogs/dialog_eeschema_options_base.cpp:249
+#: eeschema/dialogs/dialog_eeschema_options_base.cpp:254
 msgid "D&efault Value"
 msgstr "デフォルト値(&e)"
 
-#: eeschema/dialogs/dialog_eeschema_options_base.cpp:256
+#: eeschema/dialogs/dialog_eeschema_options_base.cpp:261
 #: eeschema/dialogs/dialog_lib_edit_pin_base.cpp:95
 msgid "&Visible"
 msgstr "可視化(&V)"
 
-#: eeschema/dialogs/dialog_eeschema_options_base.cpp:262
+#: eeschema/dialogs/dialog_eeschema_options_base.cpp:267
 msgid "&Add"
 msgstr "追加(&A)"
 
-#: eeschema/dialogs/dialog_eeschema_options_base.cpp:265
+#: eeschema/dialogs/dialog_eeschema_options_base.cpp:270
 #: eeschema/menubar.cpp:190 eeschema/menubar_libedit.cpp:140
 #: pcbnew/menubar_modedit.cpp:171 pcbnew/menubar_pcbframe.cpp:286
 msgid "&Delete"
 msgstr "削除(&D)"
 
-#: eeschema/dialogs/dialog_eeschema_options_base.cpp:272
+#: eeschema/dialogs/dialog_eeschema_options_base.cpp:277
 msgid "Template Field Names"
 msgstr "フィールド名のテンプレート"
 
@@ -4716,14 +4673,14 @@ msgstr "ピン番号"
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:29
 #: pcb_calculator/dialogs/dialog_regulator_data_base.cpp:47
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:168
-#: pcbnew/class_drawsegment.cpp:364 pcbnew/class_marker_pcb.cpp:97
-#: pcbnew/class_text_mod.cpp:375 pcbnew/class_track.cpp:1142
-#: pcbnew/class_track.cpp:1169 pcbnew/class_track.cpp:1218
+#: pcbnew/class_drawsegment.cpp:366 pcbnew/class_marker_pcb.cpp:97
+#: pcbnew/class_text_mod.cpp:375 pcbnew/class_track.cpp:1154
+#: pcbnew/class_track.cpp:1181 pcbnew/class_track.cpp:1230
 #: pcbnew/class_zone.cpp:582 pcbnew/dialogs/dialog_layers_setup.cpp:346
 msgid "Type"
 msgstr "タイプ"
 
-#: eeschema/dialogs/dialog_lib_edit_pin_table.cpp:165 pcbnew/class_pad.cpp:685
+#: eeschema/dialogs/dialog_lib_edit_pin_table.cpp:165 pcbnew/class_pad.cpp:667
 #: pcbnew/dialogs/dialog_edit_module_for_BoardEditor_base.cpp:80
 msgid "Position"
 msgstr "ポジション"
@@ -4742,7 +4699,7 @@ msgid "Power component value text cannot be modified!"
 msgstr "電源コンポーネントの定数テキストは変更できません！"
 
 #: eeschema/dialogs/dialog_lib_edit_text_base.cpp:79
-#: pcbnew/dialogs/dialog_edit_module_text_base.cpp:110
+#: pcbnew/dialogs/dialog_edit_module_text_base.cpp:106
 msgid "Vertical"
 msgstr "垂直"
 
@@ -4755,15 +4712,15 @@ msgid "Common to all body styles"
 msgstr "全てのボディスタイルで統一化"
 
 #: eeschema/dialogs/dialog_lib_edit_text_base.cpp:91
-#: pcbnew/dialogs/dialog_edit_module_text_base.cpp:116
+#: pcbnew/dialogs/dialog_edit_module_text_base.cpp:112
 #: pcbnew/dialogs/dialog_modedit_options_base.cpp:129
 #: pcbnew/dialogs/dialog_modedit_options_base.cpp:158
 msgid "Invisible"
 msgstr "非表示"
 
-#: eeschema/dialogs/dialog_lib_edit_text_base.cpp:99 eeschema/lib_field.cpp:746
+#: eeschema/dialogs/dialog_lib_edit_text_base.cpp:99 eeschema/lib_field.cpp:757
 #: eeschema/lib_pin.cpp:1997 eeschema/sch_text.cpp:767
-#: pcbnew/dialogs/dialog_edit_module_text_base.cpp:106
+#: pcbnew/dialogs/dialog_edit_module_text_base.cpp:102
 msgid "Style"
 msgstr "スタイル"
 
@@ -4797,7 +4754,7 @@ msgid "Vertical Justify"
 msgstr "垂直に整列"
 
 #: eeschema/dialogs/dialog_lib_new_component_base.cpp:22
-#: pcbnew/dialogs/dialog_general_options_BoardEditor_base.h:97
+#: pcbnew/dialogs/dialog_general_options_BoardEditor_base.h:98
 msgid "General Settings"
 msgstr "一般設定"
 
@@ -4972,8 +4929,8 @@ msgstr "プラグインの参照"
 #: eeschema/dialogs/dialog_plot_schematic.cpp:171
 #: pcbnew/dialogs/dialog_SVG_print.cpp:215
 #: pcbnew/dialogs/dialog_gendrill.cpp:295 pcbnew/dialogs/dialog_plot.cpp:310
-#: pcbnew/exporters/gen_modules_placefile.cpp:176
-#: pcbnew/exporters/gen_modules_placefile.cpp:565
+#: pcbnew/exporters/gen_modules_placefile.cpp:175
+#: pcbnew/exporters/gen_modules_placefile.cpp:543
 msgid "Select Output Directory"
 msgstr "出力するディレクトリの選択"
 
@@ -4994,8 +4951,8 @@ msgstr ""
 #: pcbnew/dialogs/dialog_gendrill.cpp:303
 #: pcbnew/dialogs/dialog_gendrill.cpp:314 pcbnew/dialogs/dialog_plot.cpp:323
 #: pcbnew/dialogs/dialog_plot.cpp:330
-#: pcbnew/exporters/gen_modules_placefile.cpp:184
-#: pcbnew/exporters/gen_modules_placefile.cpp:193
+#: pcbnew/exporters/gen_modules_placefile.cpp:183
+#: pcbnew/exporters/gen_modules_placefile.cpp:192
 msgid "Plot Output Directory"
 msgstr "出力するディレクトリの選択"
 
@@ -5116,7 +5073,7 @@ msgstr "ページ中央"
 #: pagelayout_editor/dialogs/dialog_new_dataitem_base.cpp:92
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:247
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:302
-#: pcbnew/dialogs/dialog_set_grid_base.cpp:63
+#: pcbnew/dialogs/dialog_set_grid_base.cpp:61
 msgid "Origin"
 msgstr "原点"
 
@@ -5290,21 +5247,21 @@ msgstr ""
 "\n"
 "次の変更はプロジェクトをアップデートするために推奨されるものです。"
 
-#: eeschema/dialogs/dialog_rescue_each.cpp:104
+#: eeschema/dialogs/dialog_rescue_each.cpp:107
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:192
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:609
 msgid "Accept"
 msgstr "適用"
 
-#: eeschema/dialogs/dialog_rescue_each.cpp:105
+#: eeschema/dialogs/dialog_rescue_each.cpp:108
 msgid "Symbol"
 msgstr "シンボル"
 
-#: eeschema/dialogs/dialog_rescue_each.cpp:106
+#: eeschema/dialogs/dialog_rescue_each.cpp:109
 msgid "Action"
 msgstr "アクション"
 
-#: eeschema/dialogs/dialog_rescue_each.cpp:280
+#: eeschema/dialogs/dialog_rescue_each.cpp:283
 msgid ""
 "Stop showing this tool?\n"
 "No changes will be made.\n"
@@ -5318,7 +5275,7 @@ msgstr ""
 "この設定は \"コンポーネント ライブラリ\" ダイアログから変更でき, \n"
 "ツールは \"ツール\" メニューから実行できます."
 
-#: eeschema/dialogs/dialog_rescue_each.cpp:284
+#: eeschema/dialogs/dialog_rescue_each.cpp:287
 msgid "Rescue Components"
 msgstr "レスキュー コンポーネント"
 
@@ -5347,14 +5304,14 @@ msgid "Tri-state"
 msgstr "トライステート"
 
 #: eeschema/dialogs/dialog_sch_edit_sheet_pin_base.cpp:39
-#: pcbnew/dialogs/dialog_graphic_items_options_base.cpp:49
-#: pcbnew/dialogs/dialog_graphic_items_options_base.cpp:87
+#: pcbnew/dialogs/dialog_graphic_items_options_base.cpp:46
+#: pcbnew/dialogs/dialog_graphic_items_options_base.cpp:80
 msgid "Text height:"
 msgstr "テキスト高さ:"
 
 #: eeschema/dialogs/dialog_sch_edit_sheet_pin_base.cpp:51
-#: pcbnew/dialogs/dialog_graphic_items_options_base.cpp:57
-#: pcbnew/dialogs/dialog_graphic_items_options_base.cpp:95
+#: pcbnew/dialogs/dialog_graphic_items_options_base.cpp:53
+#: pcbnew/dialogs/dialog_graphic_items_options_base.cpp:87
 msgid "Text width:"
 msgstr "テキスト幅:"
 
@@ -5470,28 +5427,16 @@ msgstr "全て置換(&A)"
 msgid "Couldn't load image from <%s>"
 msgstr "<%s> からイメージを読み込むことが出来ません。"
 
-#: eeschema/edit_component_in_schematic.cpp:73
+#: eeschema/edit_component_in_schematic.cpp:69
 #, c-format
 msgid "Edit %s Field"
 msgstr "フィールド %s の編集"
-
-#: eeschema/edit_component_in_schematic.cpp:108
-msgid "Illegal reference string!  No change"
-msgstr "無効なリファレンス文字です! 変更されません"
-
-#: eeschema/edit_component_in_schematic.cpp:117
-msgid "The reference field cannot be empty!  No change"
-msgstr "リファレンス フィールドは空にできません! 変更されません"
-
-#: eeschema/edit_component_in_schematic.cpp:127
-msgid "The value field cannot be empty!  No change"
-msgstr "定数のフィールドは空にできません。"
 
 #: eeschema/eeschema_config.cpp:261 pcbnew/pcbnew_config.cpp:217
 msgid "Read Project File"
 msgstr "プロジェクトファイルの読込み"
 
-#: eeschema/eeschema_config.cpp:492 pcbnew/pcbnew_config.cpp:300
+#: eeschema/eeschema_config.cpp:494 pcbnew/pcbnew_config.cpp:300
 msgid "Save Project File"
 msgstr "プロジェクト ファイルの保存"
 
@@ -5690,11 +5635,11 @@ msgid ""
 "The current schematic has been modified.  Do you wish to save the changes?"
 msgstr "現在の回路図は変更されています。変更を保存しますか？"
 
-#: eeschema/files-io.cpp:215 pcbnew/files.cpp:422
+#: eeschema/files-io.cpp:215 pcbnew/files.cpp:429
 msgid "Save and Load"
 msgstr "保存と読み込み"
 
-#: eeschema/files-io.cpp:216 pcbnew/files.cpp:423
+#: eeschema/files-io.cpp:216 pcbnew/files.cpp:430
 msgid "Load Without Saving"
 msgstr "保存しないで読み込み"
 
@@ -5716,7 +5661,7 @@ msgstr ""
 msgid "Import Schematic"
 msgstr "回路図のインポート"
 
-#: eeschema/files-io.cpp:462
+#: eeschema/files-io.cpp:464
 msgid ""
 "This operation cannot be undone. Besides, take into account that "
 "hierarchical sheets will not be appended.\n"
@@ -5728,7 +5673,7 @@ msgstr ""
 "\n"
 "操作を続行する前に現在の作業内容を保存しますか？"
 
-#: eeschema/files-io.cpp:486
+#: eeschema/files-io.cpp:488
 #, c-format
 msgid "Directory '%s' is not writable"
 msgstr "ディレクトリ '%s' は書き込み禁止されています"
@@ -5759,12 +5704,14 @@ msgid "reference %s"
 msgstr "リファレンス %s"
 
 #: eeschema/find.cpp:254
-msgid "value"
-msgstr "定数"
+#, c-format
+msgid "value %s"
+msgstr "定数 %s"
 
 #: eeschema/find.cpp:258
-msgid "field"
-msgstr "フィールド"
+#, c-format
+msgid "field %s"
+msgstr "フィールド %s"
 
 #: eeschema/find.cpp:266
 #, c-format
@@ -5813,7 +5760,7 @@ msgid "Add Pin"
 msgstr "ピンの追加"
 
 #: eeschema/lib_arc.cpp:95 gerbview/class_gerber_draw_item.cpp:186
-#: pcbnew/class_board_item.cpp:44 pcbnew/class_drawsegment.cpp:375
+#: pcbnew/class_board_item.cpp:44 pcbnew/class_drawsegment.cpp:377
 msgid "Arc"
 msgstr "円弧"
 
@@ -5868,8 +5815,8 @@ msgid "Bezier point %d Y position not defined"
 msgstr "ベジェ曲線の %d ポイントのY座標が定義されていません"
 
 #: eeschema/lib_circle.cpp:53 gerbview/class_gerber_draw_item.cpp:189
-#: pcbnew/class_board_item.cpp:45 pcbnew/class_drawsegment.cpp:371
-#: pcbnew/class_pad.cpp:864
+#: pcbnew/class_board_item.cpp:45 pcbnew/class_drawsegment.cpp:373
+#: pcbnew/class_pad.cpp:846
 msgid "Circle"
 msgstr "円"
 
@@ -5922,24 +5869,24 @@ msgstr ""
 msgid "Part library file '%s' is empty."
 msgstr "コンポーネント ライブラリ ファイル '%s' は空です。"
 
-#: eeschema/lib_export.cpp:113
+#: eeschema/lib_export.cpp:111
 msgid "There is no component selected to save."
 msgstr "保存するコンポーネントが選択されていません。"
 
-#: eeschema/lib_export.cpp:121
+#: eeschema/lib_export.cpp:119
 msgid "New Library"
 msgstr "新規ライブラリ"
 
-#: eeschema/lib_export.cpp:121
+#: eeschema/lib_export.cpp:119
 msgid "Export Component"
 msgstr "コンポーネントのエクスポート"
 
-#: eeschema/lib_export.cpp:176
+#: eeschema/lib_export.cpp:174
 #, c-format
 msgid "'%s' - OK"
 msgstr "'%s' - OK"
 
-#: eeschema/lib_export.cpp:178
+#: eeschema/lib_export.cpp:176
 msgid ""
 "This library will not be available until it is loaded by Eeschema.\n"
 "\n"
@@ -5951,53 +5898,53 @@ msgstr ""
 "このプロジェクトのパーツとして取り込む場合は Eeschema のライブラリ設定を変更"
 "してください。"
 
-#: eeschema/lib_export.cpp:184
+#: eeschema/lib_export.cpp:182
 #, c-format
 msgid "'%s' - Export OK"
 msgstr "'%s' - エクスポートOK"
 
-#: eeschema/lib_export.cpp:189
+#: eeschema/lib_export.cpp:187
 #, c-format
 msgid "Error creating '%s'"
 msgstr "ファイル '%s' 生成時エラー"
 
-#: eeschema/lib_field.cpp:72 eeschema/lib_field.cpp:756
+#: eeschema/lib_field.cpp:72 eeschema/lib_field.cpp:767
 #: eeschema/template_fieldnames.cpp:55
 msgid "Field"
 msgstr "フィールド"
 
-#: eeschema/lib_field.cpp:588 eeschema/onrightclick.cpp:433
+#: eeschema/lib_field.cpp:599 eeschema/onrightclick.cpp:433
 #: eeschema/sch_component.cpp:1536 eeschema/template_fieldnames.cpp:45
 #: pcbnew/class_edge_mod.cpp:260 pcbnew/class_module.cpp:626
-#: pcbnew/class_pad.cpp:631 pcbnew/class_text_mod.cpp:369
+#: pcbnew/class_pad.cpp:613 pcbnew/class_text_mod.cpp:369
 #: pcbnew/loadcmp.cpp:436 pcbnew/loadcmp.cpp:500
 msgid "Footprint"
 msgstr "フットプリント"
 
-#: eeschema/lib_field.cpp:595 eeschema/libedit.cpp:510
+#: eeschema/lib_field.cpp:606 eeschema/libedit.cpp:510
 #: eeschema/template_fieldnames.cpp:48
 msgid "Datasheet"
 msgstr "データシート"
 
-#: eeschema/lib_field.cpp:604
+#: eeschema/lib_field.cpp:615
 #, c-format
 msgid "Field%d"
 msgstr "フィールド%d"
 
-#: eeschema/lib_field.cpp:667
+#: eeschema/lib_field.cpp:678
 #, c-format
 msgid "Field %s %s"
 msgstr "フィールド %s %s"
 
-#: eeschema/lib_field.cpp:749 pcbnew/class_drawsegment.cpp:408
-#: pcbnew/class_pad.cpp:653 pcbnew/class_pcb_text.cpp:154
-#: pcbnew/class_text_mod.cpp:401 pcbnew/class_track.cpp:1157
-#: pcbnew/class_track.cpp:1184 pcbnew/dialogs/dialog_design_rules_base.cpp:322
-#: pcbnew/dialogs/dialog_edit_module_text_base.cpp:48
+#: eeschema/lib_field.cpp:760 pcbnew/class_drawsegment.cpp:410
+#: pcbnew/class_pad.cpp:635 pcbnew/class_pcb_text.cpp:154
+#: pcbnew/class_text_mod.cpp:401 pcbnew/class_track.cpp:1169
+#: pcbnew/class_track.cpp:1196 pcbnew/dialogs/dialog_design_rules_base.cpp:322
+#: pcbnew/dialogs/dialog_edit_module_text_base.cpp:49
 msgid "Width"
 msgstr "幅"
 
-#: eeschema/lib_field.cpp:752 pcbnew/class_pad.cpp:656
+#: eeschema/lib_field.cpp:763 pcbnew/class_pad.cpp:638
 #: pcbnew/class_pcb_text.cpp:157 pcbnew/class_text_mod.cpp:404
 #: pcbnew/dialogs/dialog_edit_module_text_base.cpp:56
 msgid "Height"
@@ -6068,13 +6015,13 @@ msgstr "ネガティブエッジ クロック"
 msgid "NonLogic"
 msgstr "非ロジック"
 
-#: eeschema/lib_pin.cpp:2008 pcbnew/class_drawsegment.cpp:389
-#: pcbnew/class_track.cpp:1045
+#: eeschema/lib_pin.cpp:2008 pcbnew/class_drawsegment.cpp:391
+#: pcbnew/class_track.cpp:1057
 msgid "Length"
 msgstr "長さ"
 
 #: eeschema/lib_pin.cpp:2011 eeschema/sch_text.cpp:756
-#: pcbnew/dialogs/dialog_edit_module_text_base.cpp:112
+#: pcbnew/dialogs/dialog_edit_module_text_base.cpp:108
 msgid "Orientation"
 msgstr "角度"
 
@@ -6378,23 +6325,23 @@ msgid "Delete Rectangle"
 msgstr "矩形を削除"
 
 #: eeschema/libedit_onrightclick.cpp:188 eeschema/onrightclick.cpp:597
-#: pcbnew/modedit_onclick.cpp:343 pcbnew/onrightclick.cpp:882
+#: pcbnew/modedit_onclick.cpp:343 pcbnew/onrightclick.cpp:877
 msgid "Move Text"
 msgstr "テキストを移動"
 
 #: eeschema/libedit_onrightclick.cpp:194 eeschema/onrightclick.cpp:96
 #: eeschema/onrightclick.cpp:607 pcbnew/modedit_onclick.cpp:379
-#: pcbnew/onrightclick.cpp:898
+#: pcbnew/onrightclick.cpp:893
 msgid "Edit Text"
 msgstr "テキストを編集"
 
 #: eeschema/libedit_onrightclick.cpp:197 eeschema/onrightclick.cpp:605
-#: pcbnew/modedit_onclick.cpp:349 pcbnew/onrightclick.cpp:892
+#: pcbnew/modedit_onclick.cpp:349 pcbnew/onrightclick.cpp:887
 msgid "Rotate Text"
 msgstr "テキストを回転"
 
 #: eeschema/libedit_onrightclick.cpp:202 eeschema/onrightclick.cpp:609
-#: pcbnew/modedit_onclick.cpp:385 pcbnew/onrightclick.cpp:909
+#: pcbnew/modedit_onclick.cpp:385 pcbnew/onrightclick.cpp:904
 msgid "Delete Text"
 msgstr "テキストを削除"
 
@@ -6418,7 +6365,7 @@ msgstr "線のオプションを編集"
 msgid "Delete Line "
 msgstr "線を削除"
 
-#: eeschema/libedit_onrightclick.cpp:239 pcbnew/onrightclick.cpp:654
+#: eeschema/libedit_onrightclick.cpp:239 pcbnew/onrightclick.cpp:649
 msgid "Delete Segment"
 msgstr "セグメントを削除"
 
@@ -6480,7 +6427,7 @@ msgstr "他のピンのピン番号サイズ"
 
 #: eeschema/libedit_onrightclick.cpp:323 eeschema/onrightclick.cpp:827
 #: gerbview/onrightclick.cpp:73 pcbnew/modedit_onclick.cpp:244
-#: pcbnew/onrightclick.cpp:495
+#: pcbnew/onrightclick.cpp:490
 msgid "Cancel Block"
 msgstr "ブロックのキャンセル"
 
@@ -6490,7 +6437,7 @@ msgstr "ブロック ズーム(マウスの中ボタンでドラッグ)"
 
 #: eeschema/libedit_onrightclick.cpp:333 eeschema/onrightclick.cpp:835
 #: gerbview/onrightclick.cpp:76 pcbnew/modedit_onclick.cpp:250
-#: pcbnew/onrightclick.cpp:499
+#: pcbnew/onrightclick.cpp:494
 msgid "Place Block"
 msgstr "ブロックを配置"
 
@@ -6499,7 +6446,7 @@ msgid "Select Items"
 msgstr "アイテムを選択"
 
 #: eeschema/libedit_onrightclick.cpp:339 eeschema/onrightclick.cpp:844
-#: pcbnew/onrightclick.cpp:500
+#: pcbnew/onrightclick.cpp:495
 msgid "Copy Block"
 msgstr "ブロックをコピー"
 
@@ -6516,7 +6463,7 @@ msgid "Rotate Block ccw"
 msgstr "ブロックを反時計周り"
 
 #: eeschema/libedit_onrightclick.cpp:346 eeschema/onrightclick.cpp:848
-#: pcbnew/onrightclick.cpp:503
+#: pcbnew/onrightclick.cpp:498
 msgid "Delete Block"
 msgstr "ブロックを削除"
 
@@ -6568,9 +6515,9 @@ msgstr "ピンを追加"
 msgid "Set pin options"
 msgstr "ピンのオプションをセット"
 
-#: eeschema/libeditframe.cpp:1125 eeschema/schedit.cpp:559 pcbnew/edit.cpp:1488
-#: pcbnew/modedit.cpp:951 pcbnew/tools/drawing_tool.cpp:1266
-#: pcbnew/tools/drawing_tool.cpp:1393
+#: eeschema/libeditframe.cpp:1125 eeschema/schedit.cpp:559 pcbnew/edit.cpp:1489
+#: pcbnew/modedit.cpp:951 pcbnew/tools/drawing_tool.cpp:1267
+#: pcbnew/tools/drawing_tool.cpp:1394
 msgid "Add text"
 msgstr "テキストを追加"
 
@@ -6598,8 +6545,8 @@ msgstr "アンカー位置を設定"
 msgid "Import"
 msgstr "インポート"
 
-#: eeschema/libeditframe.cpp:1167 eeschema/schedit.cpp:595 pcbnew/edit.cpp:1500
-#: pcbnew/modedit.cpp:976 pcbnew/tools/pcbnew_control.cpp:752
+#: eeschema/libeditframe.cpp:1167 eeschema/schedit.cpp:595 pcbnew/edit.cpp:1501
+#: pcbnew/modedit.cpp:976 pcbnew/tools/pcbnew_control.cpp:761
 #: eeschema/help_common_strings.h:48
 msgid "Delete item"
 msgstr "アイテムを削除"
@@ -6624,36 +6571,24 @@ msgstr "フィールドの編集 %s"
 msgid "Enter a new value for the %s field."
 msgstr "%s フィールドの新しい値を入力してください。"
 
-#: eeschema/libfield.cpp:79
-#, c-format
-msgid "A %s field cannot be empty."
-msgstr "%s フィールドは空にできません。"
-
-#: eeschema/libfield.cpp:88
-msgid "Illegal reference. A reference must start by a letter"
-msgstr ""
-"無効なリファレンスです。リファレンスはアルファベット文字で始まる必要がありま"
-"す。"
-
-#: eeschema/libfield.cpp:108
+#: eeschema/libfield.cpp:91
 #, c-format
 msgid ""
 "The name '%s' conflicts with an existing entry in the component library "
 "'%s'.\n"
 "\n"
-"Do you wish to replace the current component in library with this one?"
+"Do you wish to replace the current component in the library with this one?"
 msgstr ""
 " '%s' という名前はコンポーネント ライブラリ '%s' 内の既存エントリと衝突しま"
 "す。\n"
 "\n"
 "現在のコンポーネントをライブラリ内のコンポーネントと交換しますか？"
 
-#: eeschema/libfield.cpp:114 eeschema/libfield.cpp:130
-#: eeschema/libfield.cpp:149
+#: eeschema/libfield.cpp:97 eeschema/libfield.cpp:111 eeschema/libfield.cpp:131
 msgid "Confirm"
 msgstr "確認"
 
-#: eeschema/libfield.cpp:125
+#: eeschema/libfield.cpp:107
 #, c-format
 msgid ""
 "The current component already has an alias named '%s'.\n"
@@ -6664,7 +6599,7 @@ msgstr ""
 "\n"
 "このエイリアスをコンポーネントから削除しますか？"
 
-#: eeschema/libfield.cpp:144
+#: eeschema/libfield.cpp:125
 #, c-format
 msgid ""
 "The new component contains alias names that conflict with entries in the "
@@ -7603,11 +7538,11 @@ msgstr "ブロックの左回転"
 msgid "Copy to Clipboard"
 msgstr "クリップボードにコピー"
 
-#: eeschema/onrightclick.cpp:870 pcbnew/onrightclick.cpp:1027
+#: eeschema/onrightclick.cpp:870 pcbnew/onrightclick.cpp:1022
 msgid "Delete Marker"
 msgstr "マーカーを削除"
 
-#: eeschema/onrightclick.cpp:871 pcbnew/onrightclick.cpp:1029
+#: eeschema/onrightclick.cpp:871 pcbnew/onrightclick.cpp:1024
 msgid "Marker Error Info"
 msgstr "マーカー エラー情報"
 
@@ -7690,7 +7625,7 @@ msgid "Plot: '%s' OK.\n"
 msgstr "プロット: '%s' OK.\n"
 
 #: eeschema/plot_schematic_DXF.cpp:99 eeschema/plot_schematic_HPGL.cpp:195
-#: eeschema/plot_schematic_PDF.cpp:102 eeschema/plot_schematic_PS.cpp:128
+#: eeschema/plot_schematic_PDF.cpp:103 eeschema/plot_schematic_PS.cpp:128
 #: eeschema/plot_schematic_SVG.cpp:144
 #, c-format
 msgid "Unable to create file '%s'.\n"
@@ -7849,7 +7784,7 @@ msgid "Hierarchical Sheet Pin"
 msgstr "階層シートピン"
 
 #: eeschema/sch_text.cpp:736
-#: pcbnew/dialogs/dialog_edit_module_text_base.cpp:110
+#: pcbnew/dialogs/dialog_edit_module_text_base.cpp:106
 msgid "Horizontal"
 msgstr "水平"
 
@@ -7879,6 +7814,76 @@ msgstr "グローバル ラベル %s"
 #, c-format
 msgid "Hierarchical Label %s"
 msgstr "階層ラベル %s"
+
+#: eeschema/sch_validators.cpp:80
+msgid "reference designator"
+msgstr "リファレンス記号"
+
+#: eeschema/sch_validators.cpp:81
+msgid "value"
+msgstr "定数"
+
+#: eeschema/sch_validators.cpp:82
+msgid "footprint"
+msgstr "フットプリント"
+
+#: eeschema/sch_validators.cpp:83
+msgid "data sheet"
+msgstr "データ シート"
+
+#: eeschema/sch_validators.cpp:84
+msgid "user defined"
+msgstr "ユーザ定義"
+
+#: eeschema/sch_validators.cpp:92
+#, c-format
+msgid "The %s field cannot be empty."
+msgstr "%s フィールドは空にできません。"
+
+#: eeschema/sch_validators.cpp:98
+msgid "carriage return"
+msgstr "復帰"
+
+#: eeschema/sch_validators.cpp:100
+msgid "line feed"
+msgstr "改行"
+
+#: eeschema/sch_validators.cpp:102
+msgid "tab"
+msgstr "タブ"
+
+#: eeschema/sch_validators.cpp:104
+msgid "space"
+msgstr "スペース"
+
+#: eeschema/sch_validators.cpp:111
+#, c-format
+msgid "%s or %s"
+msgstr "%s または %s"
+
+#: eeschema/sch_validators.cpp:113
+#, c-format
+msgid "%s, %s, or %s"
+msgstr "%s, %s, または %s"
+
+#: eeschema/sch_validators.cpp:115
+#, c-format
+msgid "%s, %s, %s, or %s"
+msgstr "%s, %s, %s, または %s"
+
+#: eeschema/sch_validators.cpp:120
+#, c-format
+msgid "The %s field cannot contain %s characters."
+msgstr "フィールド %s には文字 %s を含めることができません。"
+
+#: eeschema/sch_validators.cpp:124
+#, c-format
+msgid "The %s field cannot contain leading and/or trailing white space."
+msgstr "フィールド %s は空白文字からの開始や末尾への付加ができません。"
+
+#: eeschema/sch_validators.cpp:132
+msgid "Field Validation Error"
+msgstr "フィールド検証エラー"
 
 #: eeschema/schedit.cpp:258
 msgid "There are no undefined labels in this sheet to clean up."
@@ -7960,7 +7965,7 @@ msgstr "コンポーネントの追加"
 msgid "Add power"
 msgstr "電源の追加"
 
-#: eeschema/schframe.cpp:169 pcbnew/class_zone.cpp:846
+#: eeschema/schframe.cpp:169 pcbnew/class_zone.cpp:847
 msgid "Not Found"
 msgstr "見つかりませんでした"
 
@@ -8024,7 +8029,7 @@ msgstr " [no file]"
 msgid "No component libraries are loaded."
 msgstr "コンポーネント ライブラリが読込まれていません"
 
-#: eeschema/selpart.cpp:89 pcbnew/librairi.cpp:81
+#: eeschema/selpart.cpp:89 pcbnew/librairi.cpp:80
 msgid "Select Library"
 msgstr "ライブラリの選択"
 
@@ -8452,10 +8457,10 @@ msgstr "AB軸"
 #: gerbview/class_gerbview_layer_widget.cpp:89
 #: gerbview/dialogs/dialog_print_using_printer.cpp:163
 #: gerbview/dialogs/dialog_select_one_pcb_layer.cpp:163
-#: pcbnew/class_drawsegment.cpp:406 pcbnew/class_module.cpp:578
-#: pcbnew/class_pad.cpp:647 pcbnew/class_pcb_layer_widget.cpp:237
+#: pcbnew/class_drawsegment.cpp:408 pcbnew/class_module.cpp:578
+#: pcbnew/class_pad.cpp:629 pcbnew/class_pcb_layer_widget.cpp:237
 #: pcbnew/class_pcb_text.cpp:140 pcbnew/class_text_mod.cpp:385
-#: pcbnew/class_track.cpp:1152 pcbnew/class_track.cpp:1179
+#: pcbnew/class_track.cpp:1164 pcbnew/class_track.cpp:1191
 #: pcbnew/class_zone.cpp:628 pcbnew/dialogs/dialog_dimension_editor_base.cpp:89
 #: pcbnew/dialogs/dialog_modedit_options_base.cpp:115
 #: pcbnew/dialogs/dialog_modedit_options_base.cpp:144
@@ -8489,23 +8494,23 @@ msgstr "ネガのオブジェクト"
 msgid "Show negative objects in this color"
 msgstr "ネガのオブジェクトをこの色で表示します"
 
-#: gerbview/class_gerbview_layer_widget.cpp:152
+#: gerbview/class_gerbview_layer_widget.cpp:153
 msgid "Show All Layers"
 msgstr "全てのレイヤを表示"
 
-#: gerbview/class_gerbview_layer_widget.cpp:155
+#: gerbview/class_gerbview_layer_widget.cpp:156
 msgid "Hide All Layers But Active"
 msgstr "アクティブでない全てのレイヤを隠す"
 
-#: gerbview/class_gerbview_layer_widget.cpp:158
+#: gerbview/class_gerbview_layer_widget.cpp:159
 msgid "Always Hide All Layers But Active"
 msgstr "アクティブでない全てのレイヤを隠す"
 
-#: gerbview/class_gerbview_layer_widget.cpp:161
+#: gerbview/class_gerbview_layer_widget.cpp:162
 msgid "Hide All Layers"
 msgstr "全てのレイヤを非表示"
 
-#: gerbview/class_gerbview_layer_widget.cpp:165
+#: gerbview/class_gerbview_layer_widget.cpp:166
 msgid "Sort Layers if X2 Mode"
 msgstr "X2 モードならレイヤをソートする"
 
@@ -8837,9 +8842,10 @@ msgstr "フルサイズ、ページ区切り/非表示"
 msgid "Page"
 msgstr "ページ"
 
-#: gerbview/dialogs/gerbview_dialog_display_options_frame_base.cpp:86
-msgid "Do not center and warp cursor on zoom"
-msgstr "拡大縮小時にカーソルを中心へ移動させない"
+#: gerbview/dialogs/gerbview_dialog_display_options_frame_base.cpp:97
+#: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:180
+msgid "Use touchpad to pan"
+msgstr "画面のパンにタッチパッドを使用"
 
 #: gerbview/events_called_functions.cpp:269
 msgid "No editor defined. Please select one"
@@ -8851,7 +8857,7 @@ msgid "No file loaded on the active layer %d"
 msgstr "アクティブなレイヤ%d上にファイルが読み込まれていません"
 
 #: gerbview/events_called_functions.cpp:319 gerbview/gerbview_frame.cpp:143
-#: pcbnew/moduleframe.cpp:289 pcbnew/pcbframe.cpp:401 pcbnew/pcbframe.cpp:902
+#: pcbnew/moduleframe.cpp:289 pcbnew/pcbframe.cpp:401 pcbnew/pcbframe.cpp:914
 msgid "Visibles"
 msgstr "表示"
 
@@ -8906,7 +8912,7 @@ msgstr "ツール定義 <%c> はサポートされていません。"
 msgid "Tool <%d> not defined"
 msgstr "ツール <%d> は定義されていません"
 
-#: gerbview/excellon_read_drill_file.cpp:661
+#: gerbview/excellon_read_drill_file.cpp:664
 #, c-format
 msgid "Unknown Excellon G Code: &lt;%s&gt;"
 msgstr "不明な Excellon G Code です : &lt;%s&gt;"
@@ -9348,7 +9354,7 @@ msgid "Select Templates Directory"
 msgstr "テンプレートディレクトリの選択"
 
 #: kicad/dialogs/dialog_template_selector_base.cpp:26
-msgid "Templates path"
+msgid "Template path"
 msgstr "テンプレートのパス"
 
 #: kicad/dialogs/dialog_template_selector_base.cpp:39
@@ -9429,25 +9435,25 @@ msgstr ""
 "\n"
 "Zip アーカイブ <%s> が作成されました (%d bytes)"
 
-#: kicad/mainframe.cpp:249
+#: kicad/mainframe.cpp:250
 #, c-format
 msgid "%s closed [pid=%d]\n"
 msgstr "%s の終了 [pid=%d]\n"
 
-#: kicad/mainframe.cpp:280
+#: kicad/mainframe.cpp:281
 #, c-format
 msgid "%s %s opened [pid=%ld]\n"
 msgstr "%s %sの開始 [pid=%ld]\n"
 
-#: kicad/mainframe.cpp:451
+#: kicad/mainframe.cpp:450
 msgid "Text file ("
 msgstr "テキスト ファイル ("
 
-#: kicad/mainframe.cpp:454
+#: kicad/mainframe.cpp:453
 msgid "Load File to Edit"
 msgstr "編集するファイルを読み込む"
 
-#: kicad/mainframe.cpp:508
+#: kicad/mainframe.cpp:507
 #, c-format
 msgid ""
 "Project name:\n"
@@ -9638,8 +9644,8 @@ msgid "Executable files ("
 msgstr "実行ファイル ("
 
 #: kicad/preferences.cpp:83
-msgid "Select Preferred Pdf Browser"
-msgstr "PDFビューアの指定"
+msgid "Select Preferred PDF Browser"
+msgstr "PDF ビューアの指定"
 
 #: kicad/prjconfig.cpp:111
 msgid "System Templates"
@@ -9702,7 +9708,7 @@ msgstr ""
 msgid "New Project Folder"
 msgstr "新規プロジェクト フォルダ"
 
-#: kicad/tree_project_frame.cpp:215
+#: kicad/tree_project_frame.cpp:220
 #, c-format
 msgid ""
 "Current project directory:\n"
@@ -9711,52 +9717,52 @@ msgstr ""
 "現在の作業ディレクトリ:\n"
 "%s"
 
-#: kicad/tree_project_frame.cpp:216
+#: kicad/tree_project_frame.cpp:221
 msgid "Create New Directory"
 msgstr "新規ディレクトリ作成"
 
-#: kicad/tree_project_frame.cpp:677 kicad/tree_project_frame.cpp:684
+#: kicad/tree_project_frame.cpp:682 kicad/tree_project_frame.cpp:689
 msgid "New D&irectory"
 msgstr "新規ディレクトリ(&I)"
 
-#: kicad/tree_project_frame.cpp:678 kicad/tree_project_frame.cpp:685
+#: kicad/tree_project_frame.cpp:683 kicad/tree_project_frame.cpp:690
 msgid "Create a New Directory"
 msgstr "新規ディレクトリの作成"
 
-#: kicad/tree_project_frame.cpp:688
+#: kicad/tree_project_frame.cpp:693
 msgid "&Delete Directory"
 msgstr "ディレクトリ削除(&D)"
 
-#: kicad/tree_project_frame.cpp:689 kicad/tree_project_frame.cpp:704
+#: kicad/tree_project_frame.cpp:694 kicad/tree_project_frame.cpp:709
 msgid "Delete the Directory and its content"
 msgstr "ディレクトリを中身ごと削除"
 
-#: kicad/tree_project_frame.cpp:695
+#: kicad/tree_project_frame.cpp:700
 msgid "&Edit in a text editor"
 msgstr "テキスト エディタで開く(&E)"
 
-#: kicad/tree_project_frame.cpp:696
+#: kicad/tree_project_frame.cpp:701
 msgid "Open the file in a Text Editor"
 msgstr "テキスト エディタで開く"
 
-#: kicad/tree_project_frame.cpp:699
+#: kicad/tree_project_frame.cpp:704
 msgid "&Rename file"
 msgstr "ファイル名変更(&R)"
 
-#: kicad/tree_project_frame.cpp:700
+#: kicad/tree_project_frame.cpp:705
 msgid "Rename file"
 msgstr "ファイル名変更"
 
-#: kicad/tree_project_frame.cpp:703
+#: kicad/tree_project_frame.cpp:708
 msgid "&Delete File"
 msgstr "ファイル削除(&D)"
 
-#: kicad/tree_project_frame.cpp:753
+#: kicad/tree_project_frame.cpp:758
 #, c-format
 msgid "Change filename: '%s'"
 msgstr "ファイル名変更: '%s'"
 
-#: kicad/tree_project_frame.cpp:756
+#: kicad/tree_project_frame.cpp:761
 msgid "Change filename"
 msgstr "ファイル名変更"
 
@@ -9944,7 +9950,7 @@ msgstr "コメント"
 
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:325
 #: pcbnew/class_pcb_text.cpp:151 pcbnew/class_text_mod.cpp:398
-#: pcbnew/dialogs/dialog_edit_module_text_base.cpp:64
+#: pcbnew/dialogs/dialog_edit_module_text_base.cpp:63
 #: pcbnew/dialogs/dialog_target_properties_base.cpp:39
 msgid "Thickness"
 msgstr "太さ"
@@ -10115,11 +10121,11 @@ msgid "&Close Page Layout Editor"
 msgstr "図枠エディタの終了(&C)"
 
 #: pagelayout_editor/menubar.cpp:121 pagelayout_editor/pl_editor_config.cpp:58
-msgid "&BackGround Black"
+msgid "&Background Black"
 msgstr "背景を黒色にする(&B)"
 
 #: pagelayout_editor/menubar.cpp:121 pagelayout_editor/pl_editor_config.cpp:59
-msgid "&BackGround White"
+msgid "&Background White"
 msgstr "背景を白色にする(&B)"
 
 #: pagelayout_editor/menubar.cpp:126 pagelayout_editor/pl_editor_config.cpp:66
@@ -10789,7 +10795,7 @@ msgstr "Er"
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:656
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:667
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:680
-#: pcbnew/dialogs/dialog_drc_base.cpp:94
+#: pcbnew/dialogs/dialog_drc_base.cpp:110
 msgid "..."
 msgstr "..."
 
@@ -10896,8 +10902,8 @@ msgid "Z"
 msgstr "Z"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:938
-#: pcbnew/class_drawsegment.cpp:377 pcbnew/class_drawsegment.cpp:395
-#: pcbnew/class_module.cpp:603 pcbnew/class_pad.cpp:682
+#: pcbnew/class_drawsegment.cpp:379 pcbnew/class_drawsegment.cpp:397
+#: pcbnew/class_module.cpp:603 pcbnew/class_pad.cpp:664
 #: pcbnew/class_pcb_text.cpp:148 pcbnew/class_text_mod.cpp:395
 msgid "Angle"
 msgstr "角度"
@@ -11538,8 +11544,8 @@ msgstr "環境の比誘電率"
 msgid "Cable Length"
 msgstr "ケーブル長"
 
-#: pcbnew/append_board_to_current.cpp:91 pcbnew/files.cpp:511
-#: pcbnew/tools/pcbnew_control.cpp:818
+#: pcbnew/append_board_to_current.cpp:91 pcbnew/files.cpp:518
+#: pcbnew/tools/pcbnew_control.cpp:827
 #, c-format
 msgid ""
 "Error loading board.\n"
@@ -11681,7 +11687,7 @@ msgstr "これは標準のネット クラスです。"
 
 #: pcbnew/class_board.cpp:954 pcbnew/class_netinfo_item.cpp:133
 #: pcbnew/dialogs/dialog_global_deletion_base.cpp:68
-#: pcbnew/dialogs/dialog_track_via_properties_base.cpp:123
+#: pcbnew/dialogs/dialog_track_via_properties_base.cpp:118
 #: pcbnew/pcb_draw_panel_gal.cpp:350
 msgid "Vias"
 msgstr "ビア数"
@@ -11706,7 +11712,7 @@ msgstr "リンク数"
 msgid "Connections"
 msgstr "接続"
 
-#: pcbnew/class_board.cpp:977 pcbnew/dialogs/dialog_drc_base.cpp:184
+#: pcbnew/class_board.cpp:977 pcbnew/dialogs/dialog_drc_base.cpp:200
 #: pcbnew/pcb_draw_panel_gal.cpp:362
 msgid "Unconnected"
 msgstr "未配線"
@@ -11793,7 +11799,7 @@ msgstr ""
 msgid "Copper zone (net name '%s'): net has no pads connected."
 msgstr "導体ゾーン(ネット名 '%s' )：ネットがパッドへ接続されていません."
 
-#: pcbnew/class_board_item.cpp:43 pcbnew/class_pad.cpp:870
+#: pcbnew/class_board_item.cpp:43 pcbnew/class_pad.cpp:852
 msgid "Rect"
 msgstr "矩形"
 
@@ -11806,30 +11812,30 @@ msgstr "ベジェ曲線"
 msgid "Polygon"
 msgstr "ポリゴン"
 
-#: pcbnew/class_dimension.cpp:500
+#: pcbnew/class_dimension.cpp:503
 #, c-format
 msgid "Dimension \"%s\" on %s"
 msgstr "寸法 \"%s\" - %s"
 
-#: pcbnew/class_drawsegment.cpp:362
+#: pcbnew/class_drawsegment.cpp:364
 msgid "Drawing"
 msgstr "図形"
 
-#: pcbnew/class_drawsegment.cpp:366
+#: pcbnew/class_drawsegment.cpp:368
 #: pcbnew/dialogs/dialog_target_properties_base.cpp:50
 msgid "Shape"
 msgstr "形状"
 
-#: pcbnew/class_drawsegment.cpp:381
+#: pcbnew/class_drawsegment.cpp:383
 msgid "Curve"
 msgstr "曲線"
 
-#: pcbnew/class_drawsegment.cpp:386
+#: pcbnew/class_drawsegment.cpp:388
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:205
 msgid "Segment"
 msgstr "セグメント"
 
-#: pcbnew/class_drawsegment.cpp:606
+#: pcbnew/class_drawsegment.cpp:608
 #, c-format
 msgid "Pcb Graphic: %s, length %s on %s"
 msgstr "基板上の図形: %s, 長さ %s (レイヤ %s)"
@@ -12003,7 +12009,7 @@ msgstr "前回の変更"
 msgid "Netlist Path"
 msgstr "ネットリストのパス"
 
-#: pcbnew/class_module.cpp:600 pcbnew/class_track.cpp:1134
+#: pcbnew/class_module.cpp:600 pcbnew/class_track.cpp:1146
 #: pcbnew/dialogs/wizard_3DShape_Libs_downloader_base.cpp:191
 #: pcbnew/dialogs/wizard_add_fplib_base.cpp:186
 msgid "Status"
@@ -12064,58 +12070,58 @@ msgstr "基板上"
 msgid "In Package"
 msgstr "パッケージ内"
 
-#: pcbnew/class_pad.cpp:633
+#: pcbnew/class_pad.cpp:615
 msgid "Pad"
 msgstr "パッド"
 
-#: pcbnew/class_pad.cpp:636 pcbnew/dialogs/dialog_design_rules.cpp:53
+#: pcbnew/class_pad.cpp:618 pcbnew/dialogs/dialog_design_rules.cpp:53
 msgid "Net"
 msgstr "ネット"
 
-#: pcbnew/class_pad.cpp:662 pcbnew/class_track.cpp:1247
+#: pcbnew/class_pad.cpp:644 pcbnew/class_track.cpp:1259
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:273
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:262
 msgid "Drill"
 msgstr "ドリル"
 
-#: pcbnew/class_pad.cpp:670
+#: pcbnew/class_pad.cpp:652
 msgid "Drill X / Y"
 msgstr "ドリル X/Y"
 
-#: pcbnew/class_pad.cpp:690
+#: pcbnew/class_pad.cpp:672
 msgid "Length in package"
 msgstr "パッケージ内の長さ"
 
-#: pcbnew/class_pad.cpp:867 pcbnew/dialogs/dialog_pad_properties_base.cpp:68
+#: pcbnew/class_pad.cpp:849 pcbnew/dialogs/dialog_pad_properties_base.cpp:68
 msgid "Oval"
 msgstr "楕円"
 
-#: pcbnew/class_pad.cpp:873
+#: pcbnew/class_pad.cpp:855
 msgid "Trap"
 msgstr "トラップ"
 
-#: pcbnew/class_pad.cpp:886
+#: pcbnew/class_pad.cpp:868
 msgid "Std"
 msgstr "標準"
 
-#: pcbnew/class_pad.cpp:889 pcbnew/dialogs/dialog_pad_properties_base.cpp:58
+#: pcbnew/class_pad.cpp:871 pcbnew/dialogs/dialog_pad_properties_base.cpp:58
 msgid "SMD"
 msgstr "SMD"
 
-#: pcbnew/class_pad.cpp:892
+#: pcbnew/class_pad.cpp:874
 msgid "Conn"
 msgstr "コネクタ"
 
-#: pcbnew/class_pad.cpp:895
+#: pcbnew/class_pad.cpp:877
 msgid "Not Plated"
 msgstr "メッキ無し穴(NPTH)"
 
-#: pcbnew/class_pad.cpp:911
+#: pcbnew/class_pad.cpp:893
 #, c-format
 msgid "Pad on %s of %s"
 msgstr "パッド %s - %s"
 
-#: pcbnew/class_pad.cpp:917
+#: pcbnew/class_pad.cpp:899
 #, c-format
 msgid "Pad %s on %s of %s"
 msgstr "パッド %s (%s) - %s"
@@ -12124,7 +12130,7 @@ msgstr "パッド %s (%s) - %s"
 msgid "(not activated)"
 msgstr "(アクティブではありません)"
 
-#: pcbnew/class_pcb_layer_widget.cpp:60 pcbnew/class_track.cpp:1214
+#: pcbnew/class_pcb_layer_widget.cpp:60 pcbnew/class_track.cpp:1226
 msgid "Through Via"
 msgstr "貫通ビア"
 
@@ -12140,7 +12146,7 @@ msgstr "ブラインド/ベリードビア"
 msgid "Show blind or buried vias"
 msgstr "ブラインド/ベリッドビアの表示"
 
-#: pcbnew/class_pcb_layer_widget.cpp:62 pcbnew/class_track.cpp:1204
+#: pcbnew/class_pcb_layer_widget.cpp:62 pcbnew/class_track.cpp:1216
 msgid "Micro Via"
 msgstr "マイクロビア"
 
@@ -12352,7 +12358,7 @@ msgstr "寸法線"
 msgid "PCB Text"
 msgstr "PCBテキスト"
 
-#: pcbnew/class_pcb_text.cpp:191
+#: pcbnew/class_pcb_text.cpp:192
 #, c-format
 msgid "Pcb Text \"%s\" on %s"
 msgstr "基板上のテキスト \"%s\" (%s)"
@@ -12363,7 +12369,7 @@ msgstr "リファレンス"
 
 #: pcbnew/class_text_mod.cpp:382
 #: pcbnew/dialogs/dialog_dimension_editor_base.cpp:85
-#: pcbnew/dialogs/dialog_edit_module_text_base.cpp:118
+#: pcbnew/dialogs/dialog_edit_module_text_base.cpp:114
 msgid "Display"
 msgstr "表示"
 
@@ -12410,83 +12416,83 @@ msgstr "マイクロビア %s, ネット [%s] (%d) - レイヤ %s/%s"
 msgid "Via %s net [%s] (%d) on layers %s/%s"
 msgstr "ビア %s ネット[%s] (%d) - レイヤ %s/%s"
 
-#: pcbnew/class_track.cpp:1050
+#: pcbnew/class_track.cpp:1062
 msgid "Full Length"
 msgstr "全長"
 
-#: pcbnew/class_track.cpp:1053
+#: pcbnew/class_track.cpp:1065
 msgid "Pad To Die Length"
 msgstr "パッドからダイまでの長さ"
 
-#: pcbnew/class_track.cpp:1061
+#: pcbnew/class_track.cpp:1073
 msgid "NC Name"
 msgstr "ネットクラス名"
 
-#: pcbnew/class_track.cpp:1062
+#: pcbnew/class_track.cpp:1074
 msgid "NC Clearance"
 msgstr "ネットクラス クリアランス"
 
-#: pcbnew/class_track.cpp:1065
+#: pcbnew/class_track.cpp:1077
 msgid "NC Width"
 msgstr "ネットクラス 幅"
 
-#: pcbnew/class_track.cpp:1068
+#: pcbnew/class_track.cpp:1080
 msgid "NC Via Size"
 msgstr "ネットクラス ビア径"
 
-#: pcbnew/class_track.cpp:1071
+#: pcbnew/class_track.cpp:1083
 msgid "NC Via Drill"
 msgstr "ネットクラス ビア ドリル径"
 
-#: pcbnew/class_track.cpp:1091 pcbnew/class_zone.cpp:613
+#: pcbnew/class_track.cpp:1103 pcbnew/class_zone.cpp:613
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:46
 #: pcbnew/zones_by_polygon_fill_functions.cpp:113
 msgid "NetName"
 msgstr "ネット名"
 
-#: pcbnew/class_track.cpp:1095 pcbnew/class_zone.cpp:617
+#: pcbnew/class_track.cpp:1107 pcbnew/class_zone.cpp:617
 msgid "NetCode"
 msgstr "ネットコード"
 
-#: pcbnew/class_track.cpp:1142
+#: pcbnew/class_track.cpp:1154
 msgid "Track"
 msgstr "配線"
 
-#: pcbnew/class_track.cpp:1161 pcbnew/class_track.cpp:1188
+#: pcbnew/class_track.cpp:1173 pcbnew/class_track.cpp:1200
 msgid "Segment Length"
 msgstr "セグメント長"
 
-#: pcbnew/class_track.cpp:1169
+#: pcbnew/class_track.cpp:1181
 msgid "Zone "
 msgstr "ゾーン"
 
-#: pcbnew/class_track.cpp:1209
+#: pcbnew/class_track.cpp:1221
 msgid "Blind/Buried Via"
 msgstr "ブラインドビア(BVH)/ベリッドホール(BH)"
 
-#: pcbnew/class_track.cpp:1234 pcbnew/dialogs/dialog_layers_setup_base.cpp:86
+#: pcbnew/class_track.cpp:1246 pcbnew/dialogs/dialog_layers_setup_base.cpp:86
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:315
 #: pcbnew/dialogs/dialog_plot_base.cpp:70
 msgid "Layers"
 msgstr "レイヤ"
 
-#: pcbnew/class_track.cpp:1240 pcbnew/dialogs/dialog_design_rules_base.cpp:272
+#: pcbnew/class_track.cpp:1252 pcbnew/dialogs/dialog_design_rules_base.cpp:272
 msgid "Diameter"
 msgstr "直径"
 
-#: pcbnew/class_track.cpp:1270
+#: pcbnew/class_track.cpp:1282
 msgid "(Specific)"
 msgstr "(固有値)"
 
-#: pcbnew/class_track.cpp:1272
+#: pcbnew/class_track.cpp:1284
 msgid "(NetClass)"
 msgstr "(ネットクラス)"
 
-#: pcbnew/class_track.cpp:1581
+#: pcbnew/class_track.cpp:1593
 msgid "Not found"
 msgstr "見つかりませんでした"
 
-#: pcbnew/class_track.cpp:1589
+#: pcbnew/class_track.cpp:1601
 #, c-format
 msgid "Track %s, net [%s] (%d) on layer %s, length: %s"
 msgstr "配線 %s, ネット [%s] (%d) レイヤ %s, 配線長: %s"
@@ -12495,7 +12501,7 @@ msgstr "配線 %s, ネット [%s] (%d) レイヤ %s, 配線長: %s"
 msgid "Zone Outline"
 msgstr "ゾーンの外枠"
 
-#: pcbnew/class_zone.cpp:580 pcbnew/class_zone.cpp:816
+#: pcbnew/class_zone.cpp:580 pcbnew/class_zone.cpp:817
 msgid "(Cutout)"
 msgstr "(切り抜き)"
 
@@ -12548,25 +12554,25 @@ msgstr "ハッチングライン"
 msgid "Corner Count"
 msgstr "角の数"
 
-#: pcbnew/class_zone.cpp:819
+#: pcbnew/class_zone.cpp:820
 msgid "(Keepout)"
 msgstr "(禁止エリア)"
 
-#: pcbnew/class_zone.cpp:839
+#: pcbnew/class_zone.cpp:840
 msgid "** NO BOARD DEFINED **"
 msgstr "** ボードが定義されていません **"
 
-#: pcbnew/class_zone.cpp:851
+#: pcbnew/class_zone.cpp:852
 #, c-format
 msgid "Zone Outline %s on %s"
 msgstr "ゾーンの外枠 %s - %s"
 
-#: pcbnew/cross-probing.cpp:66
+#: pcbnew/cross-probing.cpp:67
 #, c-format
 msgid "%s found"
 msgstr "%s が見つかりました"
 
-#: pcbnew/cross-probing.cpp:68 pcbnew/cross-probing.cpp:115
+#: pcbnew/cross-probing.cpp:69 pcbnew/cross-probing.cpp:115
 #, c-format
 msgid "%s not found"
 msgstr "%s が見つかりません"
@@ -12587,12 +12593,12 @@ msgstr "NETを削除しますか？"
 
 #: pcbnew/dialogs/dialog_SVG_print.cpp:222
 #: pcbnew/dialogs/dialog_gendrill.cpp:302
-#: pcbnew/exporters/gen_modules_placefile.cpp:183
+#: pcbnew/exporters/gen_modules_placefile.cpp:182
 msgid "Use a relative path? "
 msgstr "相対パスを使用しますか？"
 
 #: pcbnew/dialogs/dialog_SVG_print.cpp:233
-#: pcbnew/exporters/gen_modules_placefile.cpp:192
+#: pcbnew/exporters/gen_modules_placefile.cpp:191
 msgid ""
 "Cannot make path relative (target volume different from board file volume)!"
 msgstr ""
@@ -12605,7 +12611,7 @@ msgid "Plot: '%s' OK."
 msgstr "プロット: '%s' OK."
 
 #: pcbnew/dialogs/dialog_SVG_print.cpp:312 pcbnew/dialogs/dialog_plot.cpp:819
-#: pcbnew/exporters/gen_modules_placefile.cpp:309
+#: pcbnew/exporters/gen_modules_placefile.cpp:308
 #, c-format
 msgid "Unable to create file '%s'."
 msgstr "ファイル '%s' を作成できません"
@@ -12768,21 +12774,21 @@ msgstr "クリアランスは %f\" / %f mm より小さい必要があります�
 msgid "Minimum width must be larger than %f\" / %f mm."
 msgstr "最小幅は %f\" / %f mm より大い必要があります。"
 
-#: pcbnew/dialogs/dialog_copper_zones.cpp:458
+#: pcbnew/dialogs/dialog_copper_zones.cpp:460
 msgid "Thermal relief spoke must be greater than the minimum width."
 msgstr "サーマルリリーフのスポーク幅は最小幅より太い必要があります。"
 
-#: pcbnew/dialogs/dialog_copper_zones.cpp:471
+#: pcbnew/dialogs/dialog_copper_zones.cpp:473
 #: pcbnew/dialogs/dialog_keepout_area_properties.cpp:227
 #: pcbnew/dialogs/dialog_print_using_printer.cpp:496
 msgid "No layer selected."
 msgstr "レイヤが選択されていません"
 
-#: pcbnew/dialogs/dialog_copper_zones.cpp:482
+#: pcbnew/dialogs/dialog_copper_zones.cpp:484
 msgid "No net selected."
 msgstr "ネットが選択されていません"
 
-#: pcbnew/dialogs/dialog_copper_zones.cpp:488
+#: pcbnew/dialogs/dialog_copper_zones.cpp:490
 msgid ""
 "You have chosen the \"not connected\" option. This will create insulated "
 "copper islands. Are you sure ?"
@@ -12790,20 +12796,20 @@ msgstr ""
 "\"ネットなし\"オプションが選択されました。浮きパターンを作成します。よろしい"
 "ですか？"
 
-#: pcbnew/dialogs/dialog_copper_zones.cpp:523
+#: pcbnew/dialogs/dialog_copper_zones.cpp:525
 msgid "Chamfer distance"
 msgstr "面取り長さ"
 
-#: pcbnew/dialogs/dialog_copper_zones.cpp:529
+#: pcbnew/dialogs/dialog_copper_zones.cpp:531
 msgid "Fillet radius"
 msgstr "フィレット半径"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:37
-#: pcbnew/dialogs/dialog_edit_module_text_base.cpp:88
+#: pcbnew/dialogs/dialog_edit_module_text_base.cpp:84
 #: pcbnew/dialogs/dialog_graphic_item_properties_base.cpp:129
 #: pcbnew/dialogs/dialog_keepout_area_properties_base.cpp:30
 #: pcbnew/dialogs/dialog_pcb_text_properties_base.cpp:51
-#: pcbnew/dialogs/dialog_track_via_properties_base.cpp:107
+#: pcbnew/dialogs/dialog_track_via_properties_base.cpp:102
 #: pcbnew/import_dxf/dialog_dxf_import_base.cpp:110
 msgid "Layer:"
 msgstr "レイヤ:"
@@ -12885,7 +12891,7 @@ msgid "Minimum width"
 msgstr "最小幅"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:118
-msgid "Minimun thickness of filled areas."
+msgid "Minimum thickness of filled areas."
 msgstr "塗りつぶしエリアの最小幅"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:126
@@ -13032,6 +13038,10 @@ msgstr "アルファベット, IOSQXY以外の文字"
 msgid "Alphabet, full 26 characters"
 msgstr "アルファベット, 26文字全て"
 
+#: pcbnew/dialogs/dialog_create_array.cpp:296
+msgid "Bad parameters"
+msgstr "不正なパラメータ"
+
 #: pcbnew/dialogs/dialog_create_array_base.cpp:29
 msgid "Horizontal count:"
 msgstr "横(X)方向の数："
@@ -13068,9 +13078,9 @@ msgid "Stagger:"
 msgstr "配置シフトの間隔: "
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:91
-#: pcbnew/dialogs/dialog_create_array_base.cpp:154
-#: pcbnew/dialogs/dialog_create_array_base.cpp:157
-#: pcbnew/dialogs/dialog_create_array_base.cpp:268
+#: pcbnew/dialogs/dialog_create_array_base.cpp:156
+#: pcbnew/dialogs/dialog_create_array_base.cpp:159
+#: pcbnew/dialogs/dialog_create_array_base.cpp:263
 msgid "1"
 msgstr "1"
 
@@ -13095,103 +13105,116 @@ msgid "Vertical, then horizontal"
 msgstr "垂直方向のち水平方向"
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:108
-msgid "Numbering Direction"
-msgstr "ナンバリングの方向:"
+msgid "Pad Numbering Direction"
+msgstr "パッド ナンバリングの方向:"
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:112
-msgid "Reverse numbering on alternate rows or columns"
-msgstr "行/列ごとにナンバリングの方向を反転"
+msgid "Reverse pad numbering on alternate rows or columns"
+msgstr "行/列ごとにパッド ナンバリングの方向を反転"
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:115
-#: pcbnew/dialogs/dialog_create_array_base.cpp:248
-msgid "Restart numbering"
-msgstr "自動ナンバリング"
+#: pcbnew/dialogs/dialog_create_array_base.cpp:250
+msgid "Use first free number"
+msgstr "最初の空き番号から使用"
 
-#: pcbnew/dialogs/dialog_create_array_base.cpp:119
+#: pcbnew/dialogs/dialog_create_array_base.cpp:115
+#: pcbnew/dialogs/dialog_create_array_base.cpp:250
+msgid "From start value"
+msgstr "開始値から"
+
+#: pcbnew/dialogs/dialog_create_array_base.cpp:117
+#: pcbnew/dialogs/dialog_create_array_base.cpp:252
+msgid "Initial pad number"
+msgstr "最初のパット番号: "
+
+#: pcbnew/dialogs/dialog_create_array_base.cpp:121
 msgid "Continuous (1, 2, 3...)"
 msgstr "連続 (1, 2, 3...)"
 
-#: pcbnew/dialogs/dialog_create_array_base.cpp:119
+#: pcbnew/dialogs/dialog_create_array_base.cpp:121
 msgid "Coordinate (A1, A2, ... B1, ...)"
 msgstr "組み合わせ (A1, A2, ... B1, ...)"
 
-#: pcbnew/dialogs/dialog_create_array_base.cpp:121
-msgid "Numbering Scheme"
-msgstr "ナンバリングの方式"
+#: pcbnew/dialogs/dialog_create_array_base.cpp:123
+msgid "Pad Numbering Scheme"
+msgstr "パッド ナンバリングの方式"
 
-#: pcbnew/dialogs/dialog_create_array_base.cpp:125
+#: pcbnew/dialogs/dialog_create_array_base.cpp:127
 msgid "Primary axis numbering:"
 msgstr "第1軸のナンバリング:"
 
-#: pcbnew/dialogs/dialog_create_array_base.cpp:134
+#: pcbnew/dialogs/dialog_create_array_base.cpp:136
 msgid "Secondary axis numbering:"
 msgstr "第2軸のナンバリング:"
 
-#: pcbnew/dialogs/dialog_create_array_base.cpp:150
-#: pcbnew/dialogs/dialog_create_array_base.cpp:264
-msgid "Numbering start:"
-msgstr "ナンバリングの開始:"
+#: pcbnew/dialogs/dialog_create_array_base.cpp:152
+msgid "Pad numbering start:"
+msgstr "パッド ナンバリングの開始:"
 
-#: pcbnew/dialogs/dialog_create_array_base.cpp:170
+#: pcbnew/dialogs/dialog_create_array_base.cpp:172
 msgid "Grid Array"
 msgstr "グリッド配列"
 
-#: pcbnew/dialogs/dialog_create_array_base.cpp:180
+#: pcbnew/dialogs/dialog_create_array_base.cpp:182
 msgid "Horizontal center:"
 msgstr "横(X)方向の中心："
 
-#: pcbnew/dialogs/dialog_create_array_base.cpp:191
+#: pcbnew/dialogs/dialog_create_array_base.cpp:193
 msgid "Vertical center:"
 msgstr "縦(Y)方向の中心："
 
-#: pcbnew/dialogs/dialog_create_array_base.cpp:202
+#: pcbnew/dialogs/dialog_create_array_base.cpp:204
 msgid "Radius:"
 msgstr "半径:"
 
-#: pcbnew/dialogs/dialog_create_array_base.cpp:206
+#: pcbnew/dialogs/dialog_create_array_base.cpp:208
 msgid "0 mm"
 msgstr "0 mm"
 
-#: pcbnew/dialogs/dialog_create_array_base.cpp:210
+#: pcbnew/dialogs/dialog_create_array_base.cpp:212
 #: pcbnew/dialogs/dialog_move_exact.cpp:136
 msgid "Angle:"
 msgstr "角度:"
 
-#: pcbnew/dialogs/dialog_create_array_base.cpp:215
+#: pcbnew/dialogs/dialog_create_array_base.cpp:217
 msgid ""
 "Positive angles represent an anti-clockwise rotation. An angle of 0 will "
 "produce a full circle divided evenly into \"Count\" portions."
 msgstr ""
 "正の角度は左回りを意味します。 角度 0 は完全な円を \"Count\" で等分割します。"
 
-#: pcbnew/dialogs/dialog_create_array_base.cpp:223
+#: pcbnew/dialogs/dialog_create_array_base.cpp:225
 msgid "Count:"
 msgstr "数:"
 
-#: pcbnew/dialogs/dialog_create_array_base.cpp:227
+#: pcbnew/dialogs/dialog_create_array_base.cpp:229
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:45
 msgid "4"
 msgstr "4"
 
-#: pcbnew/dialogs/dialog_create_array_base.cpp:228
+#: pcbnew/dialogs/dialog_create_array_base.cpp:230
 msgid "How many items in the array."
 msgstr "配列中のアイテム数"
 
-#: pcbnew/dialogs/dialog_create_array_base.cpp:232
+#: pcbnew/dialogs/dialog_create_array_base.cpp:234
 msgid "Rotate:"
 msgstr "回転:"
 
-#: pcbnew/dialogs/dialog_create_array_base.cpp:238
+#: pcbnew/dialogs/dialog_create_array_base.cpp:240
 msgid ""
 "Rotate the item as well as move it - multi-selections will be rotated "
 "together"
 msgstr "複数の選択アイテムを動かすのと同様、回転は一緒になって回転します"
 
-#: pcbnew/dialogs/dialog_create_array_base.cpp:252
-msgid "Numbering type:"
-msgstr "ナンバリング方式:"
+#: pcbnew/dialogs/dialog_create_array_base.cpp:248
+msgid "Pad Numbering Options"
+msgstr "パッド ナンバリングのオプション"
 
-#: pcbnew/dialogs/dialog_create_array_base.cpp:281
+#: pcbnew/dialogs/dialog_create_array_base.cpp:259
+msgid "Pad numbering start value:"
+msgstr "パッド ナンバリングの開始値:"
+
+#: pcbnew/dialogs/dialog_create_array_base.cpp:276
 msgid "Circular Array"
 msgstr "円配列"
 
@@ -13203,90 +13226,90 @@ msgstr "クラス"
 msgid "* (Any)"
 msgstr "* (全て)"
 
-#: pcbnew/dialogs/dialog_design_rules.cpp:637
+#: pcbnew/dialogs/dialog_design_rules.cpp:639
 msgid "Design Rule Setting Error"
 msgstr "デザイン ルール設定エラー"
 
-#: pcbnew/dialogs/dialog_design_rules.cpp:657
+#: pcbnew/dialogs/dialog_design_rules.cpp:659
 msgid "New Net Class Name:"
 msgstr "新規ネットクラス名:"
 
-#: pcbnew/dialogs/dialog_design_rules.cpp:677
+#: pcbnew/dialogs/dialog_design_rules.cpp:679
 msgid "Duplicate net class names are not allowed."
 msgstr "重複したネットクラス名は許可されていません。"
 
-#: pcbnew/dialogs/dialog_design_rules.cpp:739
+#: pcbnew/dialogs/dialog_design_rules.cpp:741
 msgid "The default net class cannot be removed"
 msgstr "デフォルト ネットクラスは削除できません。"
 
-#: pcbnew/dialogs/dialog_design_rules.cpp:922
+#: pcbnew/dialogs/dialog_design_rules.cpp:924
 #, c-format
 msgid "%s: <b>Track Size</b> &lt; <b>Min Track Size</b><br>"
 msgstr "%s: <b>配線 サイズ</b> &lt; <b>最小配線サイズ</b><br>"
 
-#: pcbnew/dialogs/dialog_design_rules.cpp:934
+#: pcbnew/dialogs/dialog_design_rules.cpp:936
 #, c-format
-msgid "%s: <b>Via Diameter</b> &lt; <b>Minimun Via Diameter</b><br>"
+msgid "%s: <b>Via Diameter</b> &lt; <b>Minimum Via Diameter</b><br>"
 msgstr "%s: <b>ビア径</b> &lt; <b>最小ビア径</b><br>"
 
-#: pcbnew/dialogs/dialog_design_rules.cpp:945
+#: pcbnew/dialogs/dialog_design_rules.cpp:947
 #, c-format
 msgid "%s: <b>Via Drill</b> &ge; <b>Via Dia</b><br>"
 msgstr "%s: <b>ビア ドリル径</b> &ge; <b>ビア径</b><br>"
 
-#: pcbnew/dialogs/dialog_design_rules.cpp:953
+#: pcbnew/dialogs/dialog_design_rules.cpp:955
 #, c-format
 msgid "%s: <b>Via Drill</b> &lt; <b>Min Via Drill</b><br>"
 msgstr "%s: <b>ビア ドリル径</b> &lt; <b>最小ビアドリル径</b><br>"
 
-#: pcbnew/dialogs/dialog_design_rules.cpp:965
+#: pcbnew/dialogs/dialog_design_rules.cpp:967
 #, c-format
 msgid "%s: <b>MicroVia Diameter</b> &lt; <b>MicroVia Min Diameter</b><br>"
 msgstr "%s: <b>マイクロビア径</b> &lt; <b>最小マイクロビア径</b><br>"
 
-#: pcbnew/dialogs/dialog_design_rules.cpp:976
+#: pcbnew/dialogs/dialog_design_rules.cpp:978
 #, c-format
 msgid "%s: <b>MicroVia Drill</b> &ge; <b>MicroVia Dia</b><br>"
 msgstr "%s: <b>マイクロビア ドリル径</b> &ge; <b>マイクロビア径</b><br>"
 
-#: pcbnew/dialogs/dialog_design_rules.cpp:984
+#: pcbnew/dialogs/dialog_design_rules.cpp:986
 #, c-format
 msgid "%s: <b>MicroVia Drill</b> &lt; <b>MicroVia Min Drill</b><br>"
 msgstr ""
 "%s: <b>最小マイクロビア ドリル径</b> &lt; <b>最小マイクロビア ドリル径</"
 "b><br>"
 
-#: pcbnew/dialogs/dialog_design_rules.cpp:1003
+#: pcbnew/dialogs/dialog_design_rules.cpp:1005
 #, c-format
 msgid "<b>Extra Track %d Size</b> %s &lt; <b>Min Track Size</b><br>"
 msgstr "<b>エクストラ 配線 %d サイズ</b> %s &lt; <b>最小配線サイズ</b><br>"
 
-#: pcbnew/dialogs/dialog_design_rules.cpp:1012
+#: pcbnew/dialogs/dialog_design_rules.cpp:1014
 #, c-format
 msgid "<b>Extra Track %d Size</b> %s &gt; <b>1 inch!</b><br>"
 msgstr "<b>エクストラ 配線 %d サイズ</b> %s &gt; <b>1 inch!</b><br>"
 
-#: pcbnew/dialogs/dialog_design_rules.cpp:1032
+#: pcbnew/dialogs/dialog_design_rules.cpp:1034
 #, c-format
 msgid "<b>Extra Via %d Size</b> %s &lt; <b>Min Via Size</b><br>"
 msgstr "<b>エクストラ ビア %d 径</b> %s &lt; <b>最小ビア径</b><br>"
 
-#: pcbnew/dialogs/dialog_design_rules.cpp:1042
+#: pcbnew/dialogs/dialog_design_rules.cpp:1044
 #, c-format
 msgid "<b>No via drill size define in row %d</b><br>"
 msgstr "<b>ビアのドリル サイズが定義されていません (行 %d)</b><br>"
 
-#: pcbnew/dialogs/dialog_design_rules.cpp:1052
+#: pcbnew/dialogs/dialog_design_rules.cpp:1054
 #, c-format
 msgid "<b>Extra Via %d Drill</b> %s &lt; <b>Min Via Drill %s</b><br>"
 msgstr "<b>追加 ビア %d ドリル</b> %s &lt; <b>最小 ビア ドリル %s</b><br>"
 
-#: pcbnew/dialogs/dialog_design_rules.cpp:1061
+#: pcbnew/dialogs/dialog_design_rules.cpp:1063
 #, c-format
 msgid "<b>Extra Via %d Size</b> %s &le; <b> Drill Size</b> %s<br>"
 msgstr "<b>エクストラ ビア %d 径</b> %s &lt; <b>最小ビア径</b> %s<br>"
 
-#: pcbnew/dialogs/dialog_design_rules.cpp:1070
+#: pcbnew/dialogs/dialog_design_rules.cpp:1072
 #, c-format
 msgid "<b>Extra Via %d Size</b>%s &gt; <b>1 inch!</b><br>"
 msgstr "<b>エクストラ ビア %d 径</b> %s &gt; <b>1 inch!</b><br>"
@@ -13422,7 +13445,7 @@ msgid "Minimum Allowed Values:"
 msgstr "許容最小値:"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:193
-#: pcbnew/dialogs/dialog_drc_base.cpp:46
+#: pcbnew/dialogs/dialog_drc_base.cpp:48
 msgid "Min track width"
 msgstr "最小配線幅"
 
@@ -13676,7 +13699,7 @@ msgstr ""
 "れる。"
 
 #: pcbnew/dialogs/dialog_display_options_base.cpp:68
-#: pcbnew/dialogs/dialog_graphic_items_options_base.cpp:69
+#: pcbnew/dialogs/dialog_graphic_items_options_base.cpp:64
 msgid "Footprints:"
 msgstr "フットプリント"
 
@@ -13712,20 +13735,25 @@ msgstr "スケッチモードでグラフィック要素を表示"
 msgid "Show page limits"
 msgstr "ページの境界を表示"
 
-#: pcbnew/dialogs/dialog_drc.cpp:148 pcbnew/dialogs/dialog_drc.cpp:211
+#: pcbnew/dialogs/dialog_drc.cpp:192 pcbnew/dialogs/dialog_drc.cpp:256
 #, c-format
 msgid "Report file \"%s\" created"
 msgstr "レポートファイル \"%s\" が作成されました"
 
-#: pcbnew/dialogs/dialog_drc.cpp:150 pcbnew/dialogs/dialog_drc.cpp:212
+#: pcbnew/dialogs/dialog_drc.cpp:194 pcbnew/dialogs/dialog_drc.cpp:257
 msgid "Disk File Report Completed"
 msgstr "レポートファイルを作成しました"
 
-#: pcbnew/dialogs/dialog_drc.cpp:232
+#: pcbnew/dialogs/dialog_drc.cpp:199 pcbnew/dialogs/dialog_drc.cpp:262
+#, c-format
+msgid "Unable to create report file '%s' "
+msgstr "レポート ファイル '%s' を作成できません"
+
+#: pcbnew/dialogs/dialog_drc.cpp:281
 msgid "DRC report files (.rpt)|*.rpt"
 msgstr "DRCレポートファイル (.rpt)|*.rpt"
 
-#: pcbnew/dialogs/dialog_drc.cpp:238
+#: pcbnew/dialogs/dialog_drc.cpp:287
 msgid "Save DRC Report File"
 msgstr "DRCレポートファイルの保存"
 
@@ -13733,86 +13761,86 @@ msgstr "DRCレポートファイルの保存"
 msgid "By Netclass"
 msgstr "(ネットクラスを使用)"
 
-#: pcbnew/dialogs/dialog_drc_base.cpp:48
+#: pcbnew/dialogs/dialog_drc_base.cpp:50 pcbnew/dialogs/dialog_drc_base.cpp:59
 msgid "Enter the minimum acceptable value for a track width"
 msgstr "配線に許可する最小幅を入力"
 
-#: pcbnew/dialogs/dialog_drc_base.cpp:56
+#: pcbnew/dialogs/dialog_drc_base.cpp:63
 msgid "Min via size"
 msgstr "最小ビア径"
 
-#: pcbnew/dialogs/dialog_drc_base.cpp:58
+#: pcbnew/dialogs/dialog_drc_base.cpp:65 pcbnew/dialogs/dialog_drc_base.cpp:74
 msgid "Enter the minimum acceptable diameter for a standard via"
 msgstr "標準ビアに許可する最小径を入力"
 
-#: pcbnew/dialogs/dialog_drc_base.cpp:66
+#: pcbnew/dialogs/dialog_drc_base.cpp:78
 msgid "Min uVia size"
 msgstr "最小のマイクロビア径"
 
-#: pcbnew/dialogs/dialog_drc_base.cpp:68
+#: pcbnew/dialogs/dialog_drc_base.cpp:80 pcbnew/dialogs/dialog_drc_base.cpp:89
 msgid "Enter the minimum acceptable diameter for a micro via"
 msgstr "マイクロビアに許可する最小径を入力"
 
-#: pcbnew/dialogs/dialog_drc_base.cpp:80
+#: pcbnew/dialogs/dialog_drc_base.cpp:97
 msgid "Create Report File"
 msgstr "レポートファイルを作成"
 
-#: pcbnew/dialogs/dialog_drc_base.cpp:83
+#: pcbnew/dialogs/dialog_drc_base.cpp:100
 msgid "Enable writing report to this file"
 msgstr "このファイルにレポートを書き込みを許可"
 
-#: pcbnew/dialogs/dialog_drc_base.cpp:89
+#: pcbnew/dialogs/dialog_drc_base.cpp:105
 msgid "Enter the report filename"
 msgstr "レポートファイル名を入力"
 
-#: pcbnew/dialogs/dialog_drc_base.cpp:124
+#: pcbnew/dialogs/dialog_drc_base.cpp:140
 msgid "Start DRC"
 msgstr "DRCの開始"
 
-#: pcbnew/dialogs/dialog_drc_base.cpp:126
+#: pcbnew/dialogs/dialog_drc_base.cpp:142
 msgid "Start the Design Rule Checker"
 msgstr "デザインルール チェックを開始します"
 
-#: pcbnew/dialogs/dialog_drc_base.cpp:130
+#: pcbnew/dialogs/dialog_drc_base.cpp:146
 msgid "List Unconnected"
 msgstr "未結線情報の一覧"
 
-#: pcbnew/dialogs/dialog_drc_base.cpp:131
+#: pcbnew/dialogs/dialog_drc_base.cpp:147
 msgid "List unconnected pads or tracks"
 msgstr "未接続のパッドど配線を列挙"
 
-#: pcbnew/dialogs/dialog_drc_base.cpp:135
+#: pcbnew/dialogs/dialog_drc_base.cpp:151
 msgid "Delete All Markers"
 msgstr "全マーカーを削除"
 
-#: pcbnew/dialogs/dialog_drc_base.cpp:136
+#: pcbnew/dialogs/dialog_drc_base.cpp:152
 msgid "Delete every marker"
 msgstr "全てのマーカーを削除"
 
-#: pcbnew/dialogs/dialog_drc_base.cpp:140
+#: pcbnew/dialogs/dialog_drc_base.cpp:156
 msgid "Delete Current Marker"
 msgstr "現在のマーカーを削除"
 
-#: pcbnew/dialogs/dialog_drc_base.cpp:141
+#: pcbnew/dialogs/dialog_drc_base.cpp:157
 msgid "Delete the marker selected in the list box below"
 msgstr "下記のリストで選択されたマーカーを削除"
 
-#: pcbnew/dialogs/dialog_drc_base.cpp:151
+#: pcbnew/dialogs/dialog_drc_base.cpp:167
 msgid "Error Messages:"
 msgstr "エラーメッセージ:"
 
-#: pcbnew/dialogs/dialog_drc_base.cpp:161
+#: pcbnew/dialogs/dialog_drc_base.cpp:177
 msgid ""
 "MARKERs, double click any to go there in PCB, right click for popup menu"
 msgstr ""
 "マーカー, ダブルクリックするとPCBの該当箇所に飛びます, 右クリックでメニューが"
 "出ます"
 
-#: pcbnew/dialogs/dialog_drc_base.cpp:170
+#: pcbnew/dialogs/dialog_drc_base.cpp:186
 msgid "Problems / Markers"
 msgstr "問題 / マーカー"
 
-#: pcbnew/dialogs/dialog_drc_base.cpp:176
+#: pcbnew/dialogs/dialog_drc_base.cpp:192
 msgid "A list of unconnected pads, right click for popup menu"
 msgstr "未接続パッドのリスト, 右クリックでメニューが出ます"
 
@@ -14196,21 +14224,21 @@ msgstr "inch"
 msgid "3D Shape Names"
 msgstr "3Dシェイプ名"
 
-#: pcbnew/dialogs/dialog_edit_module_text.cpp:122
+#: pcbnew/dialogs/dialog_edit_module_text.cpp:123
 msgid "Value:"
 msgstr "定数:"
 
-#: pcbnew/dialogs/dialog_edit_module_text.cpp:126
+#: pcbnew/dialogs/dialog_edit_module_text.cpp:127
 #: pcbnew/dialogs/dialog_pcb_text_properties_base.cpp:24
 msgid "Text:"
 msgstr "テキスト:"
 
-#: pcbnew/dialogs/dialog_edit_module_text.cpp:130
-#: pcbnew/dialogs/dialog_edit_module_text_base.cpp:40 pcbnew/modules.cpp:66
+#: pcbnew/dialogs/dialog_edit_module_text.cpp:131
+#: pcbnew/dialogs/dialog_edit_module_text_base.cpp:42 pcbnew/modules.cpp:66
 msgid "Reference:"
 msgstr "リファレンス:"
 
-#: pcbnew/dialogs/dialog_edit_module_text.cpp:175
+#: pcbnew/dialogs/dialog_edit_module_text.cpp:176
 msgid ""
 "This item has an illegal layer id.\n"
 "Now, forced on the front silk screen layer. Please, fix it"
@@ -14218,21 +14246,21 @@ msgstr ""
 "アイテムのレイヤ ID が不正です.\n"
 "表のシルク面へ強制的に置かれました. 修正して下さい"
 
-#: pcbnew/dialogs/dialog_edit_module_text.cpp:234
-#: pcbnew/dialogs/dialog_pcb_text_properties.cpp:260
+#: pcbnew/dialogs/dialog_edit_module_text.cpp:235
+#: pcbnew/dialogs/dialog_pcb_text_properties.cpp:263
 msgid "The text thickness is too large for the text size. It will be clamped"
 msgstr "文字太さが文字サイズに比べて太過ぎるため、文字が潰れてしまいます。"
 
-#: pcbnew/dialogs/dialog_edit_module_text_base.cpp:19
+#: pcbnew/dialogs/dialog_edit_module_text_base.cpp:21
 #, c-format
 msgid "Footprint %s (%s) orientation %.1f"
 msgstr "フットプリント %s(%s) の角度 %.1f"
 
-#: pcbnew/dialogs/dialog_edit_module_text_base.cpp:72
+#: pcbnew/dialogs/dialog_edit_module_text_base.cpp:70
 msgid "Offset X"
 msgstr "オフセット X"
 
-#: pcbnew/dialogs/dialog_edit_module_text_base.cpp:80
+#: pcbnew/dialogs/dialog_edit_module_text_base.cpp:77
 msgid "Offset Y"
 msgstr "オフセット Y"
 
@@ -14427,7 +14455,7 @@ msgstr "アイテム検索"
 msgid "Find Marker"
 msgstr "マーカー検索"
 
-#: pcbnew/dialogs/dialog_fp_lib_table.cpp:204 pcbnew/librairi.cpp:774
+#: pcbnew/dialogs/dialog_fp_lib_table.cpp:204 pcbnew/librairi.cpp:822
 msgid "Nickname"
 msgstr "別名(ニックネーム)"
 
@@ -15028,27 +15056,27 @@ msgid ""
 "Control the capture of the pcb cursor when the mouse cursor enters a track"
 msgstr "マウスカーソルが配線内に入った時にカーソルを配線に引き込みます。"
 
-#: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:171
+#: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:170
 msgid "Use middle mouse &button to pan"
 msgstr "画面のパンにマウスの中ボタンを使用(&b)"
 
-#: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:176
+#: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:175
 msgid "Limi&t panning to scroll size"
 msgstr "パン可能な領域を、スクロールバーサイズ範囲内に制限(&t)"
 
-#: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:181
+#: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:185
 msgid "&Pan while moving object"
 msgstr "オブジェクト移動時に表示領域を移動(&P)"
 
-#: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:182
+#: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:186
 msgid "Allows auto pan when creating a track, or moving an item."
 msgstr "配線時やアイテムの移動時の自動視点移動を許可"
 
-#: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:190
+#: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:194
 msgid "Advanced/Developer"
 msgstr "上級者/開発者向け"
 
-#: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:192
+#: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:196
 msgid "Dump zone geometry to files when filling"
 msgstr "塗りつぶす時にゾーンのジオメトリをファイルへダンプ"
 
@@ -15065,7 +15093,7 @@ msgid "Items to Delete"
 msgstr "削除するアイテム"
 
 #: pcbnew/dialogs/dialog_global_deletion_base.cpp:25
-#: pcbnew/onrightclick.cpp:724 pcbnew/tools/pcb_editor_control.cpp:121
+#: pcbnew/onrightclick.cpp:719 pcbnew/tools/pcb_editor_control.cpp:121
 msgid "Zones"
 msgstr "ゾーン"
 
@@ -15280,48 +15308,48 @@ msgstr "フットプリント上のパッドを変更する"
 msgid "Change Pads on Identical Footprints"
 msgstr "特定のフットプリント上のパッドを変更する"
 
-#: pcbnew/dialogs/dialog_graphic_item_properties.cpp:132
+#: pcbnew/dialogs/dialog_graphic_item_properties.cpp:135
 #: pcbnew/dialogs/dialog_graphic_item_properties_for_Modedit.cpp:143
 msgid "Circle Properties"
 msgstr "円のプロパティ"
 
-#: pcbnew/dialogs/dialog_graphic_item_properties.cpp:133
-#: pcbnew/dialogs/dialog_graphic_item_properties.cpp:144
+#: pcbnew/dialogs/dialog_graphic_item_properties.cpp:136
+#: pcbnew/dialogs/dialog_graphic_item_properties.cpp:147
 msgid "Center X:"
 msgstr "中心 X:"
 
-#: pcbnew/dialogs/dialog_graphic_item_properties.cpp:134
-#: pcbnew/dialogs/dialog_graphic_item_properties.cpp:145
+#: pcbnew/dialogs/dialog_graphic_item_properties.cpp:137
+#: pcbnew/dialogs/dialog_graphic_item_properties.cpp:148
 msgid "Center Y:"
 msgstr "中心 Y:"
 
-#: pcbnew/dialogs/dialog_graphic_item_properties.cpp:135
+#: pcbnew/dialogs/dialog_graphic_item_properties.cpp:138
 msgid "Point X:"
 msgstr "点 X:"
 
-#: pcbnew/dialogs/dialog_graphic_item_properties.cpp:136
+#: pcbnew/dialogs/dialog_graphic_item_properties.cpp:139
 msgid "Point Y:"
 msgstr "点 Y:"
 
-#: pcbnew/dialogs/dialog_graphic_item_properties.cpp:143
+#: pcbnew/dialogs/dialog_graphic_item_properties.cpp:146
 #: pcbnew/dialogs/dialog_graphic_item_properties_for_Modedit.cpp:154
 msgid "Arc Properties"
 msgstr "円弧のプロパティ"
 
-#: pcbnew/dialogs/dialog_graphic_item_properties.cpp:146
+#: pcbnew/dialogs/dialog_graphic_item_properties.cpp:149
 msgid "Start Point X:"
 msgstr "始点 X:"
 
-#: pcbnew/dialogs/dialog_graphic_item_properties.cpp:147
+#: pcbnew/dialogs/dialog_graphic_item_properties.cpp:150
 msgid "Start Point Y:"
 msgstr "始点 Y:"
 
-#: pcbnew/dialogs/dialog_graphic_item_properties.cpp:155
+#: pcbnew/dialogs/dialog_graphic_item_properties.cpp:158
 #: pcbnew/dialogs/dialog_graphic_item_properties_for_Modedit.cpp:167
 msgid "Line Segment Properties"
 msgstr "配線セグメントのプロパティ"
 
-#: pcbnew/dialogs/dialog_graphic_item_properties.cpp:192
+#: pcbnew/dialogs/dialog_graphic_item_properties.cpp:195
 msgid ""
 "This item was on an unknown layer.\n"
 "It has been moved to the drawings layer. Please fix it."
@@ -15329,32 +15357,32 @@ msgstr ""
 "このアイテムは不明なレイヤ上にあります。\n"
 "図形レイヤに移動しました。適時修正してください。"
 
-#: pcbnew/dialogs/dialog_graphic_item_properties.cpp:291
+#: pcbnew/dialogs/dialog_graphic_item_properties.cpp:294
 #: pcbnew/dialogs/dialog_graphic_item_properties_for_Modedit.cpp:298
 msgid "The arc angle must be greater than zero."
 msgstr "円弧の角度は0以上である必要があります。"
 
-#: pcbnew/dialogs/dialog_graphic_item_properties.cpp:300
+#: pcbnew/dialogs/dialog_graphic_item_properties.cpp:303
 #: pcbnew/dialogs/dialog_graphic_item_properties_for_Modedit.cpp:306
 msgid "The radius must be greater than zero."
 msgstr "半径は0以上である必要があります。"
 
-#: pcbnew/dialogs/dialog_graphic_item_properties.cpp:310
+#: pcbnew/dialogs/dialog_graphic_item_properties.cpp:313
 #: pcbnew/dialogs/dialog_graphic_item_properties_for_Modedit.cpp:314
 msgid "The start and end points cannot be the same."
 msgstr "始点と終点は同じにはできません."
 
-#: pcbnew/dialogs/dialog_graphic_item_properties.cpp:320
+#: pcbnew/dialogs/dialog_graphic_item_properties.cpp:323
 #: pcbnew/dialogs/dialog_graphic_item_properties_for_Modedit.cpp:323
 msgid "The item thickness must be greater than zero."
 msgstr "アイテムの太さは0以上である必要があります。"
 
-#: pcbnew/dialogs/dialog_graphic_item_properties.cpp:326
+#: pcbnew/dialogs/dialog_graphic_item_properties.cpp:329
 #: pcbnew/dialogs/dialog_graphic_item_properties_for_Modedit.cpp:329
 msgid "The default thickness must be greater than zero."
 msgstr "デフォルトの太さは0以上である必要があります。"
 
-#: pcbnew/dialogs/dialog_graphic_item_properties.cpp:330
+#: pcbnew/dialogs/dialog_graphic_item_properties.cpp:333
 msgid "Error List"
 msgstr "エラー リスト"
 
@@ -15364,17 +15392,17 @@ msgid "Start point X:"
 msgstr "始点 X:"
 
 #: pcbnew/dialogs/dialog_graphic_item_properties_base.cpp:42
-#: pcbnew/dialogs/dialog_track_via_properties_base.cpp:39
+#: pcbnew/dialogs/dialog_track_via_properties_base.cpp:38
 msgid "Start point Y:"
 msgstr "始点 Y:"
 
 #: pcbnew/dialogs/dialog_graphic_item_properties_base.cpp:54
-#: pcbnew/dialogs/dialog_track_via_properties_base.cpp:51
+#: pcbnew/dialogs/dialog_track_via_properties_base.cpp:49
 msgid "End point X:"
 msgstr "終点 X:"
 
 #: pcbnew/dialogs/dialog_graphic_item_properties_base.cpp:66
-#: pcbnew/dialogs/dialog_track_via_properties_base.cpp:63
+#: pcbnew/dialogs/dialog_track_via_properties_base.cpp:60
 msgid "End point Y:"
 msgstr "終点 Y:"
 
@@ -15448,31 +15476,31 @@ msgstr "図形:"
 msgid "Graphic segment width:"
 msgstr "グラフィック セグメント幅:"
 
-#: pcbnew/dialogs/dialog_graphic_items_options_base.cpp:33
+#: pcbnew/dialogs/dialog_graphic_items_options_base.cpp:32
 msgid "Board edge width:"
 msgstr "基板の輪郭線幅:"
 
-#: pcbnew/dialogs/dialog_graphic_items_options_base.cpp:41
+#: pcbnew/dialogs/dialog_graphic_items_options_base.cpp:39
 msgid "Copper text thickness:"
 msgstr "導体層テキストの太さ:"
 
-#: pcbnew/dialogs/dialog_graphic_items_options_base.cpp:71
+#: pcbnew/dialogs/dialog_graphic_items_options_base.cpp:66
 msgid "Edge width:"
 msgstr "輪郭線幅:"
 
-#: pcbnew/dialogs/dialog_graphic_items_options_base.cpp:79
+#: pcbnew/dialogs/dialog_graphic_items_options_base.cpp:73
 msgid "Text thickness:"
 msgstr "テキストの太さ:"
 
-#: pcbnew/dialogs/dialog_graphic_items_options_base.cpp:107
+#: pcbnew/dialogs/dialog_graphic_items_options_base.cpp:98
 msgid "General:"
 msgstr "一般:"
 
-#: pcbnew/dialogs/dialog_graphic_items_options_base.cpp:109
+#: pcbnew/dialogs/dialog_graphic_items_options_base.cpp:100
 msgid "Default pen size:"
 msgstr "デフォルト ペン サイズ:"
 
-#: pcbnew/dialogs/dialog_graphic_items_options_base.cpp:111
+#: pcbnew/dialogs/dialog_graphic_items_options_base.cpp:102
 #: pcbnew/dialogs/dialog_plot_base.cpp:169
 #: pcbnew/dialogs/dialog_print_using_printer_base.cpp:86
 msgid ""
@@ -15543,19 +15571,19 @@ msgstr "下層"
 msgid "Enabled"
 msgstr "有効化"
 
-#: pcbnew/dialogs/dialog_layers_setup.cpp:700
+#: pcbnew/dialogs/dialog_layers_setup.cpp:702
 msgid "Layer name may not be empty"
 msgstr "レイヤ名が空です"
 
-#: pcbnew/dialogs/dialog_layers_setup.cpp:707
+#: pcbnew/dialogs/dialog_layers_setup.cpp:709
 msgid "Layer name has an illegal character, one of: '"
 msgstr "レイヤ名に不正な文字が含まれています。例) '"
 
-#: pcbnew/dialogs/dialog_layers_setup.cpp:714
+#: pcbnew/dialogs/dialog_layers_setup.cpp:716
 msgid "'signal' is a reserved layer name"
 msgstr "'signal' は予約されたレイヤ名です。使用することはできません。"
 
-#: pcbnew/dialogs/dialog_layers_setup.cpp:723
+#: pcbnew/dialogs/dialog_layers_setup.cpp:725
 msgid "Layer name is a duplicate of another"
 msgstr "レイヤ名が他と重複しています"
 
@@ -16294,19 +16322,19 @@ msgstr "アイテムの回転:"
 msgid "The project configuration has changed.  Do you want to save it?"
 msgstr "プロジェクトの設定が変更されました、保存しますか?"
 
-#: pcbnew/dialogs/dialog_netlist.cpp:148
+#: pcbnew/dialogs/dialog_netlist.cpp:154
 msgid "Select Netlist"
 msgstr "ネットリストの選択"
 
-#: pcbnew/dialogs/dialog_netlist.cpp:164
+#: pcbnew/dialogs/dialog_netlist.cpp:170
 msgid "Please, choose a valid netlist file"
 msgstr "有効なネットリスト ファイルを選択して下さい"
 
-#: pcbnew/dialogs/dialog_netlist.cpp:170
+#: pcbnew/dialogs/dialog_netlist.cpp:176
 msgid "The netlist file does not exist"
 msgstr "ネットリスト ファイルがありません"
 
-#: pcbnew/dialogs/dialog_netlist.cpp:177
+#: pcbnew/dialogs/dialog_netlist.cpp:183
 msgid ""
 "The changes made by reading the netlist cannot be undone.  Are you sure you "
 "want to read the netlist?"
@@ -16314,78 +16342,78 @@ msgstr ""
 "ネットリスト読込みによる変更は途中終了できません.  本当にネットリストを読み込"
 "みますか?"
 
-#: pcbnew/dialogs/dialog_netlist.cpp:187
+#: pcbnew/dialogs/dialog_netlist.cpp:193
 #, c-format
 msgid "Reading netlist file \"%s\".\n"
 msgstr "ネットリストファイル \"%s\"を読み込んでいます。\n"
 
-#: pcbnew/dialogs/dialog_netlist.cpp:191
+#: pcbnew/dialogs/dialog_netlist.cpp:197
 msgid "Using time stamps to match components and footprints.\n"
 msgstr "コンポーネントとフットプリントの関連付けにタイムスタンプを使用\n"
 
-#: pcbnew/dialogs/dialog_netlist.cpp:193
+#: pcbnew/dialogs/dialog_netlist.cpp:199
 msgid "Using references to match components and footprints.\n"
 msgstr "コンポーネントとフットプリントの関連付けにリファレンスを使用\n"
 
-#: pcbnew/dialogs/dialog_netlist.cpp:216 pcbnew/netlist.cpp:153
+#: pcbnew/dialogs/dialog_netlist.cpp:222 pcbnew/netlist.cpp:153
 msgid "No footprints"
 msgstr "フットプリント無し"
 
-#: pcbnew/dialogs/dialog_netlist.cpp:240
+#: pcbnew/dialogs/dialog_netlist.cpp:246
 msgid "No duplicate."
 msgstr "重複はありませんでした。"
 
-#: pcbnew/dialogs/dialog_netlist.cpp:243
+#: pcbnew/dialogs/dialog_netlist.cpp:249
 msgid "Duplicates:"
 msgstr "重複:"
 
-#: pcbnew/dialogs/dialog_netlist.cpp:267
+#: pcbnew/dialogs/dialog_netlist.cpp:273
 msgid "No missing footprints."
 msgstr "フットプリントが見つかりません！"
 
-#: pcbnew/dialogs/dialog_netlist.cpp:270
+#: pcbnew/dialogs/dialog_netlist.cpp:276
 msgid "Missing:"
 msgstr "欠落: "
 
-#: pcbnew/dialogs/dialog_netlist.cpp:286
+#: pcbnew/dialogs/dialog_netlist.cpp:292
 msgid "No extra footprints."
 msgstr "追加のフットプリントがありません。"
 
-#: pcbnew/dialogs/dialog_netlist.cpp:289
+#: pcbnew/dialogs/dialog_netlist.cpp:295
 msgid "Not in Netlist:"
 msgstr "ネットリストに含まれていません: "
 
-#: pcbnew/dialogs/dialog_netlist.cpp:314
+#: pcbnew/dialogs/dialog_netlist.cpp:320
 msgid "Too many errors: some are skipped"
 msgstr "大量のエラー: いくつか省略されました"
 
-#: pcbnew/dialogs/dialog_netlist.cpp:318
+#: pcbnew/dialogs/dialog_netlist.cpp:324
 msgid "Check footprints"
 msgstr "フットプリントのチェック"
 
-#: pcbnew/dialogs/dialog_netlist.cpp:362
+#: pcbnew/dialogs/dialog_netlist.cpp:368
 msgid "Save contents of message window"
 msgstr "メッセージ ウインドウ内のメッセージを保存する"
 
-#: pcbnew/dialogs/dialog_netlist.cpp:379
+#: pcbnew/dialogs/dialog_netlist.cpp:385
 #, c-format
 msgid "Cannot write message contents to file \"%s\"."
 msgstr "メッセージ内容をファイル \"%s\" へ書き出すことが出来ませんでした。"
 
-#: pcbnew/dialogs/dialog_netlist.cpp:381
+#: pcbnew/dialogs/dialog_netlist.cpp:387
 msgid "File Write Error"
 msgstr "ファイル書き出しエラー"
 
-#: pcbnew/dialogs/dialog_netlist.cpp:420 pcbnew/netlist.cpp:82
+#: pcbnew/dialogs/dialog_netlist.cpp:426 pcbnew/netlist.cpp:82
 #, c-format
 msgid "Cannot open netlist file \"%s\"."
 msgstr "ネットリスト ファイル \"%s\" が開けませんでした。"
 
-#: pcbnew/dialogs/dialog_netlist.cpp:421 pcbnew/netlist.cpp:83
+#: pcbnew/dialogs/dialog_netlist.cpp:427 pcbnew/netlist.cpp:83
 msgid "Netlist Load Error."
 msgstr "ネットリストの読み込みエラー"
 
-#: pcbnew/dialogs/dialog_netlist.cpp:430
+#: pcbnew/dialogs/dialog_netlist.cpp:436
 #, c-format
 msgid ""
 "Error loading netlist file:\n"
@@ -16471,7 +16499,7 @@ msgid "Test Footprints"
 msgstr "フットプリントのテスト"
 
 #: pcbnew/dialogs/dialog_netlist_fbp.cpp:99
-msgid "Read the current neltist file and list missing and extra footprints"
+msgid "Read the current netlist file and list missing and extra footprints"
 msgstr ""
 "現在のネットリスト ファイルを読み込み、エラーのあるフットプリントを一覧表示"
 
@@ -16480,7 +16508,7 @@ msgid "Rebuild Board Connectivity"
 msgstr "ボード結線情報の再構築"
 
 #: pcbnew/dialogs/dialog_netlist_fbp.cpp:104
-msgid "Rebuild the full ratsnest (usefull after a manual pad netname edition)"
+msgid "Rebuild the full ratsnest (useful after a manual pad netname edition)"
 msgstr "全てのラッツネストを再構築 (手作業でネット名を編集した後に便利です)"
 
 #: pcbnew/dialogs/dialog_netlist_fbp.cpp:108
@@ -16583,23 +16611,23 @@ msgstr "ロックされたフットプリントを強制的に編集"
 msgid "Back side (footprint is mirrored)"
 msgstr "裏面 (フットプリントは反転)"
 
-#: pcbnew/dialogs/dialog_pad_properties.cpp:742
+#: pcbnew/dialogs/dialog_pad_properties.cpp:743
 msgid "Pad size must be greater than zero"
 msgstr "パッドサイズは0以上である必要があります"
 
-#: pcbnew/dialogs/dialog_pad_properties.cpp:748
+#: pcbnew/dialogs/dialog_pad_properties.cpp:749
 msgid "Incorrect value for pad drill: pad drill bigger than pad size"
 msgstr "不正なパッド ドリル値: パッド ドリルがパッド径よりも大きいです"
 
-#: pcbnew/dialogs/dialog_pad_properties.cpp:754
+#: pcbnew/dialogs/dialog_pad_properties.cpp:757
 msgid "Error: pad has no layer"
 msgstr "エラー:パッドにレイヤ情報がありません"
 
-#: pcbnew/dialogs/dialog_pad_properties.cpp:761
+#: pcbnew/dialogs/dialog_pad_properties.cpp:764
 msgid "Error: the pad is not on a copper layer and has a hole"
 msgstr "エラー: パッドが銅箔レイヤ上になく、穴情報をもっています"
 
-#: pcbnew/dialogs/dialog_pad_properties.cpp:766
+#: pcbnew/dialogs/dialog_pad_properties.cpp:769
 msgid ""
 "For NPTH pad, set pad size value to pad drill value, if you do not want this "
 "pad plotted in gerber files"
@@ -16608,19 +16636,19 @@ msgstr ""
 "くない場合、\n"
 "ドリルの値をパッドサイズの値にセットしてください。"
 
-#: pcbnew/dialogs/dialog_pad_properties.cpp:784
+#: pcbnew/dialogs/dialog_pad_properties.cpp:789
 msgid "Incorrect value for pad offset"
 msgstr "不正なパッド オフセット値"
 
-#: pcbnew/dialogs/dialog_pad_properties.cpp:789
+#: pcbnew/dialogs/dialog_pad_properties.cpp:795
 msgid "Too large value for pad delta size"
 msgstr "パッドの デルタ サイズが大きすぎます"
 
-#: pcbnew/dialogs/dialog_pad_properties.cpp:797
+#: pcbnew/dialogs/dialog_pad_properties.cpp:803
 msgid "Error: Through hole pad: drill diameter set to 0"
 msgstr "エラー: スルーホールパッド: ドリル経に0が指定されいます"
 
-#: pcbnew/dialogs/dialog_pad_properties.cpp:802
+#: pcbnew/dialogs/dialog_pad_properties.cpp:808
 msgid ""
 "Error: Connector pads are not on the solder paste layer\n"
 "Use SMD pads instead"
@@ -16628,17 +16656,17 @@ msgstr ""
 "エラー: コネクタのパッドが半田ペーストレイヤにありません\n"
 "代わりにSMDパッドを使用してください"
 
-#: pcbnew/dialogs/dialog_pad_properties.cpp:811
+#: pcbnew/dialogs/dialog_pad_properties.cpp:817
 msgid "Error: only one external copper layer allowed for SMD or Connector pads"
 msgstr ""
 "エラー: SMD またはコネクタのパッドは、外層銅箔層のどちらか一つにのみ配置でき"
 "ます"
 
-#: pcbnew/dialogs/dialog_pad_properties.cpp:818
+#: pcbnew/dialogs/dialog_pad_properties.cpp:824
 msgid "Pad setup errors list"
 msgstr "パッド設定 エラー一覧"
 
-#: pcbnew/dialogs/dialog_pad_properties.cpp:936
+#: pcbnew/dialogs/dialog_pad_properties.cpp:942
 msgid "Unknown netname, netname not changed"
 msgstr "不明なネット名、ネット名は変更されていません"
 
@@ -16685,13 +16713,13 @@ msgstr "台形"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:83
 #: pcbnew/dialogs/dialog_pcb_text_properties_base.cpp:47
-#: pcbnew/dialogs/dialog_track_via_properties_base.cpp:130
+#: pcbnew/dialogs/dialog_track_via_properties_base.cpp:125
 msgid "Position X:"
 msgstr "X位置:"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:95
 #: pcbnew/dialogs/dialog_pcb_text_properties_base.cpp:80
-#: pcbnew/dialogs/dialog_track_via_properties_base.cpp:142
+#: pcbnew/dialogs/dialog_track_via_properties_base.cpp:136
 msgid "Position Y:"
 msgstr "Y位置:"
 
@@ -16703,7 +16731,7 @@ msgstr "サイズ X:"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:119
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:296
-#: pcbnew/dialogs/dialog_set_grid_base.cpp:45
+#: pcbnew/dialogs/dialog_set_grid_base.cpp:44
 msgid "Size Y:"
 msgstr "サイズ Y:"
 
@@ -16911,7 +16939,7 @@ msgstr ""
 "このパッドはボード上で表裏反転しています。\n"
 "裏と表レイヤは交換されます。"
 
-#: pcbnew/dialogs/dialog_pcb_text_properties.cpp:193
+#: pcbnew/dialogs/dialog_pcb_text_properties.cpp:196
 msgid "No layer selected, Please select the text layer"
 msgstr "レイヤが選択されていません。テキストレイヤを選択してください。"
 
@@ -16961,7 +16989,7 @@ msgstr ""
 "範囲でなければいけません。"
 
 #: pcbnew/dialogs/dialog_plot.cpp:719
-#: pcbnew/exporters/gen_modules_placefile.cpp:247
+#: pcbnew/exporters/gen_modules_placefile.cpp:246
 #, c-format
 msgid "Could not write plot files to folder \"%s\"."
 msgstr "フォルダー \"%s\" へプロットファイルを生成できませんでした。"
@@ -17559,14 +17587,14 @@ msgstr "フォルダを指定"
 msgid "Library folder (.pretty will be added to name, if missing)"
 msgstr "ライブラリ フォルダ (.pretty が名前に付加されます。)"
 
-#: pcbnew/dialogs/dialog_set_grid.cpp:233
+#: pcbnew/dialogs/dialog_set_grid.cpp:239
 #, c-format
 msgid "Incorrect grid size (size must be >= %.3f mm and <= %.3f mm)"
 msgstr ""
 "不正なグリッドサイズ (サイズは %.3f mm 以上、且つ %.3f mm 以下でなければなり"
 "ません)"
 
-#: pcbnew/dialogs/dialog_set_grid.cpp:242
+#: pcbnew/dialogs/dialog_set_grid.cpp:248
 #, c-format
 msgid "Incorrect grid origin (coordinates must be >= %.3f mm and <= %.3f mm)"
 msgstr ""
@@ -17577,27 +17605,27 @@ msgstr ""
 msgid "User Defined Grid"
 msgstr "ユーザ グリッド"
 
-#: pcbnew/dialogs/dialog_set_grid_base.cpp:71
+#: pcbnew/dialogs/dialog_set_grid_base.cpp:69
 msgid "X:"
 msgstr "X:"
 
-#: pcbnew/dialogs/dialog_set_grid_base.cpp:83
+#: pcbnew/dialogs/dialog_set_grid_base.cpp:80
 msgid "Y:"
 msgstr "Y:"
 
-#: pcbnew/dialogs/dialog_set_grid_base.cpp:98
+#: pcbnew/dialogs/dialog_set_grid_base.cpp:94
 msgid "Reset Grid Origin"
 msgstr "グリッド原点のリセット"
 
-#: pcbnew/dialogs/dialog_set_grid_base.cpp:105
+#: pcbnew/dialogs/dialog_set_grid_base.cpp:101
 msgid "Fast Switching"
 msgstr "高速切り替え用のグリッド"
 
-#: pcbnew/dialogs/dialog_set_grid_base.cpp:113
+#: pcbnew/dialogs/dialog_set_grid_base.cpp:109
 msgid "Grid 1:"
 msgstr "グリッド1:"
 
-#: pcbnew/dialogs/dialog_set_grid_base.cpp:120
+#: pcbnew/dialogs/dialog_set_grid_base.cpp:116
 msgid "Grid 2:"
 msgstr "グリッド2:"
 
@@ -17605,39 +17633,39 @@ msgstr "グリッド2:"
 msgid "+"
 msgstr "+"
 
-#: pcbnew/dialogs/dialog_track_via_properties.cpp:333
-#: pcbnew/dialogs/dialog_track_via_size.cpp:60
+#: pcbnew/dialogs/dialog_track_via_properties.cpp:334
+#: pcbnew/dialogs/dialog_track_via_size.cpp:62
 msgid "Invalid track width"
 msgstr "不正な配線幅"
 
-#: pcbnew/dialogs/dialog_track_via_properties.cpp:342
-#: pcbnew/dialogs/dialog_track_via_size.cpp:67
+#: pcbnew/dialogs/dialog_track_via_properties.cpp:343
+#: pcbnew/dialogs/dialog_track_via_size.cpp:69
 msgid "Invalid via diameter"
 msgstr "不正なビア径"
 
-#: pcbnew/dialogs/dialog_track_via_properties.cpp:349
-#: pcbnew/dialogs/dialog_track_via_size.cpp:74
+#: pcbnew/dialogs/dialog_track_via_properties.cpp:350
+#: pcbnew/dialogs/dialog_track_via_size.cpp:76
 msgid "Invalid via drill size"
 msgstr "不正なドリル径"
 
-#: pcbnew/dialogs/dialog_track_via_properties.cpp:356
-#: pcbnew/dialogs/dialog_track_via_size.cpp:81
+#: pcbnew/dialogs/dialog_track_via_properties.cpp:357
+#: pcbnew/dialogs/dialog_track_via_size.cpp:83
 msgid "Via drill size has to be smaller than via diameter"
 msgstr "ビアのドリルサイズはビアの直径より小さくなければなりません"
 
-#: pcbnew/dialogs/dialog_track_via_properties_base.cpp:101
+#: pcbnew/dialogs/dialog_track_via_properties_base.cpp:96
 msgid "Use net class width"
 msgstr "ネットクラスの幅を使用"
 
-#: pcbnew/dialogs/dialog_track_via_properties_base.cpp:165
+#: pcbnew/dialogs/dialog_track_via_properties_base.cpp:158
 msgid "Diameter:"
 msgstr "直径:"
 
-#: pcbnew/dialogs/dialog_track_via_properties_base.cpp:177
+#: pcbnew/dialogs/dialog_track_via_properties_base.cpp:169
 msgid "Drill:"
 msgstr "ドリル:"
 
-#: pcbnew/dialogs/dialog_track_via_properties_base.cpp:192
+#: pcbnew/dialogs/dialog_track_via_properties_base.cpp:183
 msgid "Use net class size"
 msgstr "ネットクラスのサイズを使用"
 
@@ -17854,99 +17882,99 @@ msgstr ""
 msgid "The text thickness is too large for the text size.  It will be clamped"
 msgstr "文字太さが文字サイズに比べて太過ぎるため、文字が潰れてしまいます。"
 
-#: pcbnew/drc.cpp:180
+#: pcbnew/drc.cpp:177
 msgid "Compile ratsnest...\n"
 msgstr "ラッツネストのコンパイル中...\n"
 
-#: pcbnew/drc.cpp:196
+#: pcbnew/drc.cpp:193
 msgid "Aborting\n"
 msgstr "停止割り込み中\n"
 
-#: pcbnew/drc.cpp:209
+#: pcbnew/drc.cpp:206
 msgid "Pad clearances...\n"
 msgstr "パッドのクリアランス...\n"
 
-#: pcbnew/drc.cpp:219
+#: pcbnew/drc.cpp:216
 msgid "Track clearances...\n"
 msgstr "配線のクリアランス...\n"
 
-#: pcbnew/drc.cpp:229
+#: pcbnew/drc.cpp:226
 msgid "Fill zones...\n"
 msgstr "ゾーンの塗りつぶし...\n"
 
-#: pcbnew/drc.cpp:239
+#: pcbnew/drc.cpp:236
 msgid "Test zones...\n"
 msgstr "ゾーンのテスト...\n"
 
-#: pcbnew/drc.cpp:250
+#: pcbnew/drc.cpp:247
 msgid "Unconnected pads...\n"
 msgstr "未接続パッド...\n"
 
-#: pcbnew/drc.cpp:262
+#: pcbnew/drc.cpp:259
 msgid "Keepout areas ...\n"
 msgstr "禁止エリア ...\n"
 
-#: pcbnew/drc.cpp:272
+#: pcbnew/drc.cpp:269
 msgid "Test texts...\n"
 msgstr "テストテキスト...\n"
 
-#: pcbnew/drc.cpp:285
+#: pcbnew/drc.cpp:282
 msgid "Finished"
 msgstr "終了"
 
-#: pcbnew/drc.cpp:323
+#: pcbnew/drc.cpp:320
 #, c-format
 msgid "NETCLASS: '%s' has Clearance:%s which is less than global:%s"
 msgstr ""
 "ネットクラス: '%s' のクリアランス:%s はグローバル クリアランス:%s よりも小さ"
 "いです"
 
-#: pcbnew/drc.cpp:339
+#: pcbnew/drc.cpp:336
 #, c-format
 msgid "NETCLASS: '%s' has TrackWidth:%s which is less than global:%s"
 msgstr "ネットクラス: '%s' の配線幅:%s はグローバル配線幅:%s より小さいです"
 
-#: pcbnew/drc.cpp:354
+#: pcbnew/drc.cpp:351
 #, c-format
 msgid "NETCLASS: '%s' has Via Dia:%s which is less than global:%s"
 msgstr "ネットクラス: '%s' のビア径:%s はグローバル ビア径:%s より小さいです"
 
-#: pcbnew/drc.cpp:369
+#: pcbnew/drc.cpp:366
 #, c-format
 msgid "NETCLASS: '%s' has Via Drill:%s which is less than global:%s"
 msgstr ""
 "ネットクラス: '%s' のビア ドリル径: %s はグローバル ビア ドリル径: %s より小"
 "さいです"
 
-#: pcbnew/drc.cpp:384
+#: pcbnew/drc.cpp:381
 #, c-format
 msgid "NETCLASS: '%s' has uVia Dia:%s which is less than global:%s"
 msgstr ""
 "ネットクラス: '%s' のマイクロビア径: %s はグローバル マイクロビア径: %s より"
 "小さいです"
 
-#: pcbnew/drc.cpp:399
+#: pcbnew/drc.cpp:396
 #, c-format
 msgid "NETCLASS: '%s' has uVia Drill:%s which is less than global:%s"
 msgstr ""
 "ネットクラス: '%s' のマイクロビア ドリル径 :%s はグローバル マイクロビア ドリ"
 "ル径 :%s より小さいです"
 
-#: pcbnew/drc.cpp:492
+#: pcbnew/drc.cpp:489
 msgid "Track clearances"
 msgstr "配線のクリアランス"
 
-#: pcbnew/eagle_plugin.cpp:1673
+#: pcbnew/eagle_plugin.cpp:1672
 #, c-format
 msgid "<package> name: '%s' duplicated in eagle <library>: '%s'"
 msgstr "<package> の名前:'%s' が，Eagleの <library> 名と重複しています:'%s'"
 
-#: pcbnew/eagle_plugin.cpp:1730
+#: pcbnew/eagle_plugin.cpp:1729
 #, c-format
 msgid "No '%s' package in library '%s'"
 msgstr "パッケージ '%s' がライブラリ '%s' 内に見つかりませんでした"
 
-#: pcbnew/eagle_plugin.cpp:2820
+#: pcbnew/eagle_plugin.cpp:2819
 #, c-format
 msgid "File '%s' is not readable."
 msgstr "ファイル '%s' が読み込めません。"
@@ -17967,81 +17995,81 @@ msgstr "新しい幅:"
 msgid "Edge Width"
 msgstr "エッジの幅"
 
-#: pcbnew/edit.cpp:693 pcbnew/edit.cpp:715 pcbnew/edit.cpp:741
-#: pcbnew/edit.cpp:769 pcbnew/edit.cpp:797 pcbnew/edit.cpp:825
+#: pcbnew/edit.cpp:694 pcbnew/edit.cpp:716 pcbnew/edit.cpp:742
+#: pcbnew/edit.cpp:770 pcbnew/edit.cpp:798 pcbnew/edit.cpp:826
 #, c-format
 msgid "Footprint %s found, but it is locked"
 msgstr "フットプリント %s はロックされています"
 
-#: pcbnew/edit.cpp:897 pcbnew/edit.cpp:916
+#: pcbnew/edit.cpp:898 pcbnew/edit.cpp:917
 #, c-format
 msgid "The parent (%s) of the pad is locked"
 msgstr "パッドの親 (%s) はロックされています"
 
-#: pcbnew/edit.cpp:1433 pcbnew/edit.cpp:1435
+#: pcbnew/edit.cpp:1434 pcbnew/edit.cpp:1436
 msgid "Add tracks"
 msgstr "配線を追加"
 
-#: pcbnew/edit.cpp:1445 pcbnew/edit.cpp:1492
+#: pcbnew/edit.cpp:1446 pcbnew/edit.cpp:1493
 #: pcbnew/tools/pcb_editor_control.cpp:222
 msgid "Add footprint"
 msgstr "フットプリントを追加"
 
-#: pcbnew/edit.cpp:1449 pcbnew/tools/drawing_tool.cpp:422
+#: pcbnew/edit.cpp:1450 pcbnew/tools/drawing_tool.cpp:422
 msgid "Add zones"
 msgstr "ゾーンを追加"
 
-#: pcbnew/edit.cpp:1452
+#: pcbnew/edit.cpp:1453
 msgid "Warning: zone display is OFF!!!"
 msgstr "警告: ゾーンの表示がOFFになっています!!!"
 
-#: pcbnew/edit.cpp:1460 pcbnew/tools/drawing_tool.cpp:430
+#: pcbnew/edit.cpp:1461 pcbnew/tools/drawing_tool.cpp:430
 msgid "Add keepout"
 msgstr "キープアウト(禁止)エリアを追加"
 
-#: pcbnew/edit.cpp:1464 pcbnew/menubar_pcbframe.cpp:423 pcbnew/tool_pcb.cpp:466
-#: pcbnew/tools/common_actions.cpp:384 pcbnew/tools/pcb_editor_control.cpp:371
+#: pcbnew/edit.cpp:1465 pcbnew/menubar_pcbframe.cpp:423 pcbnew/tool_pcb.cpp:466
+#: pcbnew/tools/common_actions.cpp:388 pcbnew/tools/pcb_editor_control.cpp:371
 msgid "Add layer alignment target"
 msgstr "層合わせマーク(ターゲットマーク)を追加"
 
-#: pcbnew/edit.cpp:1468 pcbnew/tools/pcb_editor_control.cpp:670
+#: pcbnew/edit.cpp:1469 pcbnew/tools/pcb_editor_control.cpp:681
 msgid "Adjust zero"
 msgstr "ゼロ設定"
 
-#: pcbnew/edit.cpp:1472 pcbnew/tools/pcbnew_control.cpp:657
+#: pcbnew/edit.cpp:1473 pcbnew/tools/pcbnew_control.cpp:657
 msgid "Adjust grid origin"
 msgstr "グリッドの原点設定"
 
-#: pcbnew/edit.cpp:1476 pcbnew/tools/drawing_tool.cpp:79
+#: pcbnew/edit.cpp:1477 pcbnew/tools/drawing_tool.cpp:79
 #: pcbnew/tools/drawing_tool.cpp:104
 msgid "Add graphic line"
 msgstr "図形ラインを追加"
 
-#: pcbnew/edit.cpp:1480 pcbnew/menubar_modedit.cpp:287
+#: pcbnew/edit.cpp:1481 pcbnew/menubar_modedit.cpp:287
 #: pcbnew/menubar_pcbframe.cpp:405 pcbnew/tool_modedit.cpp:176
 #: pcbnew/tool_pcb.cpp:456 pcbnew/tools/drawing_tool.cpp:183
 #: pcbnew/tools/drawing_tool.cpp:203
 msgid "Add graphic arc"
 msgstr "円弧を追加"
 
-#: pcbnew/edit.cpp:1484 pcbnew/menubar_modedit.cpp:276
+#: pcbnew/edit.cpp:1485 pcbnew/menubar_modedit.cpp:276
 #: pcbnew/menubar_pcbframe.cpp:408 pcbnew/tool_modedit.cpp:173
 #: pcbnew/tool_pcb.cpp:453 pcbnew/tools/drawing_tool.cpp:136
 #: pcbnew/tools/drawing_tool.cpp:156
 msgid "Add graphic circle"
 msgstr "円を追加"
 
-#: pcbnew/edit.cpp:1496 pcbnew/menubar_pcbframe.cpp:419 pcbnew/tool_pcb.cpp:463
+#: pcbnew/edit.cpp:1497 pcbnew/menubar_pcbframe.cpp:419 pcbnew/tool_pcb.cpp:463
 #: pcbnew/tools/drawing_tool.cpp:253
 msgid "Add dimension"
 msgstr "寸法線を追加"
 
-#: pcbnew/edit.cpp:1504 pcbnew/tool_pcb.cpp:428
-#: pcbnew/tools/pcb_editor_control.cpp:730
+#: pcbnew/edit.cpp:1505 pcbnew/tool_pcb.cpp:428
+#: pcbnew/tools/pcb_editor_control.cpp:753
 msgid "Highlight net"
 msgstr "ネットをハイライト"
 
-#: pcbnew/edit.cpp:1508
+#: pcbnew/edit.cpp:1509
 msgid "Select rats nest"
 msgstr "ラッツネストを選択"
 
@@ -18094,8 +18122,8 @@ msgstr "GenCAD 1.4 ボード ファイル (.cad)|*.cad"
 msgid "Save GenCAD Board File"
 msgstr "GenCAD ボード ファイルの保存"
 
-#: pcbnew/exporters/export_idf.cpp:585 pcbnew/exporters/export_idf.cpp:594
-#: pcbnew/exporters/export_idf.cpp:602 pcbnew/exporters/export_vrml.cpp:1397
+#: pcbnew/exporters/export_idf.cpp:586 pcbnew/exporters/export_idf.cpp:595
+#: pcbnew/exporters/export_idf.cpp:603 pcbnew/exporters/export_vrml.cpp:1397
 msgid "IDF Export Failed:\n"
 msgstr "IDF出力エラー:\n"
 
@@ -18115,47 +18143,47 @@ msgstr ""
 "VRMLファイル出力エラー:\n"
 "外形へ穴を追加できませんでした。"
 
-#: pcbnew/exporters/gen_modules_placefile.cpp:234
+#: pcbnew/exporters/gen_modules_placefile.cpp:233
 msgid "No footprint for automated placement."
 msgstr "自動配置するフットプリントがありません"
 
-#: pcbnew/exporters/gen_modules_placefile.cpp:274
+#: pcbnew/exporters/gen_modules_placefile.cpp:273
 #, c-format
 msgid "Unable to create '%s'."
 msgstr " '%s' を作成できません"
 
-#: pcbnew/exporters/gen_modules_placefile.cpp:281
+#: pcbnew/exporters/gen_modules_placefile.cpp:280
 #, c-format
 msgid "Place file: '%s'."
 msgstr "ファイルの配置: '%s'."
 
-#: pcbnew/exporters/gen_modules_placefile.cpp:283
+#: pcbnew/exporters/gen_modules_placefile.cpp:282
 #, c-format
 msgid "Front side (top side) place file: '%s'."
 msgstr "部品面 (表面) に配置されたファイル: '%s'."
 
-#: pcbnew/exporters/gen_modules_placefile.cpp:287
-#: pcbnew/exporters/gen_modules_placefile.cpp:321
+#: pcbnew/exporters/gen_modules_placefile.cpp:286
+#: pcbnew/exporters/gen_modules_placefile.cpp:320
 #, c-format
 msgid "Component count: %d."
 msgstr "コンポーネントの数: %d."
 
-#: pcbnew/exporters/gen_modules_placefile.cpp:292
-#: pcbnew/exporters/gen_modules_placefile.cpp:333
-msgid "Componment Placement File generation OK."
+#: pcbnew/exporters/gen_modules_placefile.cpp:291
+#: pcbnew/exporters/gen_modules_placefile.cpp:332
+msgid "Component Placement File generation OK."
 msgstr "コンポーネント 配置 ファイルの生成 - OK."
 
-#: pcbnew/exporters/gen_modules_placefile.cpp:318
+#: pcbnew/exporters/gen_modules_placefile.cpp:317
 #, c-format
 msgid "Back side (bottom side) place file: '%s'."
 msgstr "半田面 (裏面) に配置されたファイル: '%s'."
 
-#: pcbnew/exporters/gen_modules_placefile.cpp:329
+#: pcbnew/exporters/gen_modules_placefile.cpp:328
 #, c-format
 msgid "Full component count: %d\n"
 msgstr "全体のフットプリント数: %d\n"
 
-#: pcbnew/exporters/gen_modules_placefile.cpp:579
+#: pcbnew/exporters/gen_modules_placefile.cpp:558
 #, c-format
 msgid ""
 "Footprint report file created:\n"
@@ -18164,11 +18192,11 @@ msgstr ""
 "フットプリント レポートを生成しました:\n"
 "'%s'"
 
-#: pcbnew/exporters/gen_modules_placefile.cpp:581
+#: pcbnew/exporters/gen_modules_placefile.cpp:560
 msgid "Footprint Report"
 msgstr "フットプリント レポート"
 
-#: pcbnew/exporters/gen_modules_placefile.cpp:586
+#: pcbnew/exporters/gen_modules_placefile.cpp:565
 #, c-format
 msgid "Unable to create '%s'"
 msgstr "'%s' を作成できません"
@@ -18179,15 +18207,15 @@ msgstr "'%s' を作成できません"
 msgid "Create file %s\n"
 msgstr "ファイルの作成 %s\n"
 
-#: pcbnew/files.cpp:123
+#: pcbnew/files.cpp:124
 msgid "Open Board File"
 msgstr "ボード ファイルを開く"
 
-#: pcbnew/files.cpp:161
+#: pcbnew/files.cpp:162
 msgid "Save Board File As"
 msgstr "ボード ファイルを名前を付けて保存"
 
-#: pcbnew/files.cpp:186
+#: pcbnew/files.cpp:187
 #, c-format
 msgid ""
 "The file '%s' already exists.\n"
@@ -18198,40 +18226,40 @@ msgstr ""
 "\n"
 "上書きしますか？"
 
-#: pcbnew/files.cpp:205
+#: pcbnew/files.cpp:206
 msgid "Printed circuit board"
 msgstr "プリント基板"
 
-#: pcbnew/files.cpp:276
+#: pcbnew/files.cpp:277
 #, c-format
 msgid "Recovery file '%s' not found."
 msgstr "リカバリ ファイル '%s' が見つかりません。"
 
-#: pcbnew/files.cpp:282
+#: pcbnew/files.cpp:283
 #, c-format
 msgid "OK to load recovery or backup file '%s'"
 msgstr ""
 "リカバリ - バックアップ ファイル \"%s\" を読み込みます。よろしいですか？"
 
-#: pcbnew/files.cpp:342
+#: pcbnew/files.cpp:343
 msgid "noname"
 msgstr "名前なし"
 
-#: pcbnew/files.cpp:410
+#: pcbnew/files.cpp:417
 #, c-format
 msgid "PCB file '%s' is already open."
 msgstr "PCBファイル '%s' は既に開かれています。"
 
-#: pcbnew/files.cpp:420
+#: pcbnew/files.cpp:427
 msgid "The current board has been modified.  Do you wish to save the changes?"
 msgstr "現在のボードは変更されています。変更を保存しますか？"
 
-#: pcbnew/files.cpp:446
+#: pcbnew/files.cpp:453
 #, c-format
 msgid "Board '%s' does not exist.  Do you wish to create it?"
 msgstr "ボード '%s' は存在しません。新規作成しますか?"
 
-#: pcbnew/files.cpp:542
+#: pcbnew/files.cpp:548
 msgid ""
 "This file was created by an older version of Pcbnew.\n"
 "It will be stored in the new file format when you save this file again."
@@ -18239,17 +18267,17 @@ msgstr ""
 "このファイルは古いバージョンの Pcbnew で作成されています。\n"
 "次に保存する際に、新しいフォーマットで保存し直されます。"
 
-#: pcbnew/files.cpp:643
+#: pcbnew/files.cpp:652
 #, c-format
 msgid "Warning: unable to create backup file '%s'"
 msgstr "警告: バックアップ ファイル '%s' を作成できません"
 
-#: pcbnew/files.cpp:670 pcbnew/files.cpp:765
+#: pcbnew/files.cpp:679 pcbnew/files.cpp:774
 #, c-format
 msgid "No access rights to write to file '%s'"
 msgstr "'%s' ファイルへの書き込み権限がありません。"
 
-#: pcbnew/files.cpp:711 pcbnew/files.cpp:791
+#: pcbnew/files.cpp:720 pcbnew/files.cpp:800
 #, c-format
 msgid ""
 "Error saving board file '%s'.\n"
@@ -18258,22 +18286,22 @@ msgstr ""
 "ボード保存中のエラー '%s'\n"
 "%s"
 
-#: pcbnew/files.cpp:717
+#: pcbnew/files.cpp:726
 #, c-format
 msgid "Failed to create '%s'"
 msgstr "'%s' の作成に失敗しました"
 
-#: pcbnew/files.cpp:743
+#: pcbnew/files.cpp:752
 #, c-format
 msgid "Backup file: '%s'"
 msgstr "バックアップファイル: '%s'"
 
-#: pcbnew/files.cpp:745
+#: pcbnew/files.cpp:754
 #, c-format
 msgid "Wrote board file: '%s'"
 msgstr "ボードファイルに書き込みました: '%s'"
 
-#: pcbnew/files.cpp:800
+#: pcbnew/files.cpp:809
 #, c-format
 msgid ""
 "Board copied to:\n"
@@ -18413,57 +18441,57 @@ msgstr ""
 "データを取得することができませんでした: '%s'\n"
 "理由: '%s'"
 
-#: pcbnew/gpcb_plugin.cpp:117
+#: pcbnew/gpcb_plugin.cpp:116
 #, c-format
 msgid "Cannot convert \"%s\" to an integer"
 msgstr "\"%s\" を整数に変換できません"
 
-#: pcbnew/gpcb_plugin.cpp:299 pcbnew/gpcb_plugin.cpp:966
-#: pcbnew/kicad_plugin.cpp:1757
+#: pcbnew/gpcb_plugin.cpp:298 pcbnew/gpcb_plugin.cpp:965
+#: pcbnew/kicad_plugin.cpp:1780
 #, c-format
 msgid "footprint library path '%s' does not exist"
 msgstr "フットプリント ライブラリのパス '%s' は存在しません"
 
-#: pcbnew/gpcb_plugin.cpp:339
+#: pcbnew/gpcb_plugin.cpp:338
 #, c-format
 msgid "library <%s> has no footprint '%s' to delete"
 msgstr "ライブラリ <%s> には削除するフットプリント '%s' がありません"
 
-#: pcbnew/gpcb_plugin.cpp:440 pcbnew/pcb_parser.cpp:406
-#: pcbnew/pcb_parser.cpp:495
+#: pcbnew/gpcb_plugin.cpp:439 pcbnew/pcb_parser.cpp:444
+#: pcbnew/pcb_parser.cpp:549
 #, c-format
 msgid "unknown token \"%s\""
 msgstr "未知のトークン \"%s\""
 
-#: pcbnew/gpcb_plugin.cpp:447
+#: pcbnew/gpcb_plugin.cpp:446
 #, c-format
 msgid "Element token contains %d parameters."
 msgstr "要素は%dのパラメータを持っています。"
 
-#: pcbnew/gpcb_plugin.cpp:1034 pcbnew/kicad_plugin.cpp:1830
-#: pcbnew/kicad_plugin.cpp:1895 pcbnew/legacy_plugin.cpp:4648
-#: pcbnew/legacy_plugin.cpp:4693 pcbnew/librairi.cpp:475
+#: pcbnew/gpcb_plugin.cpp:1033 pcbnew/kicad_plugin.cpp:1853
+#: pcbnew/kicad_plugin.cpp:1918 pcbnew/legacy_plugin.cpp:4649
+#: pcbnew/legacy_plugin.cpp:4694 pcbnew/librairi.cpp:523
 #, c-format
 msgid "Library '%s' is read only"
 msgstr "ライブラリ '%s' は読み込み専用です。"
 
-#: pcbnew/gpcb_plugin.cpp:1053 pcbnew/kicad_plugin.cpp:1932
+#: pcbnew/gpcb_plugin.cpp:1052 pcbnew/kicad_plugin.cpp:1955
 #, c-format
 msgid "user does not have permission to delete directory '%s'"
 msgstr "現在のユーザは、ディレクトリ '%s' を削除する権限がありません"
 
-#: pcbnew/gpcb_plugin.cpp:1061 pcbnew/kicad_plugin.cpp:1940
+#: pcbnew/gpcb_plugin.cpp:1060 pcbnew/kicad_plugin.cpp:1963
 #, c-format
 msgid "library directory '%s' has unexpected sub-directories"
 msgstr ""
 "ライブラリのディレクトリ <%s> が予期しないサブディレクトリを含んでいます"
 
-#: pcbnew/gpcb_plugin.cpp:1080 pcbnew/kicad_plugin.cpp:1959
+#: pcbnew/gpcb_plugin.cpp:1079 pcbnew/kicad_plugin.cpp:1982
 #, c-format
 msgid "unexpected file '%s' was found in library path '%s'"
 msgstr "不正なファイル '%s' がライブラリパス '%s'から見つかりました"
 
-#: pcbnew/gpcb_plugin.cpp:1098 pcbnew/kicad_plugin.cpp:1977
+#: pcbnew/gpcb_plugin.cpp:1097 pcbnew/kicad_plugin.cpp:2000
 #, c-format
 msgid "footprint library '%s' cannot be deleted"
 msgstr "フットプリント ライブラリ '%s' は削除できません"
@@ -18562,7 +18590,7 @@ msgstr "'%s' プラグインには '%s' 機能はありません．"
 msgid "Plugin type '%s' is not found."
 msgstr "プラグインタイプ \"%s\" が見つかりません。"
 
-#: pcbnew/io_mgr.cpp:126
+#: pcbnew/io_mgr.cpp:129
 #, c-format
 msgid "Unknown PCB_FILE_T value: %d"
 msgstr "未知の PCB_FILE_T の値: %d"
@@ -18574,7 +18602,7 @@ msgstr ""
 "リファレンス \"%s\" のコンポーネントは、ネットリストから見つかりませんでし"
 "た。"
 
-#: pcbnew/kicad_netlist_reader.cpp:369 pcbnew/pcb_parser.cpp:1674
+#: pcbnew/kicad_netlist_reader.cpp:369 pcbnew/pcb_parser.cpp:1760
 #, c-format
 msgid ""
 "invalid footprint ID in\n"
@@ -18587,64 +18615,64 @@ msgstr ""
 "行: %d\n"
 "オフセット: %d"
 
-#: pcbnew/kicad_plugin.cpp:215
+#: pcbnew/kicad_plugin.cpp:214
 #, c-format
 msgid "Cannot create footprint library path '%s'"
 msgstr "フットプリント ライブラリのパス '%s' が生成できません"
 
-#: pcbnew/kicad_plugin.cpp:221
+#: pcbnew/kicad_plugin.cpp:220
 #, c-format
 msgid "Footprint library path '%s' is read only"
 msgstr "フットプリント ライブラリ パス '%s' は読み込み専用です"
 
-#: pcbnew/kicad_plugin.cpp:260
+#: pcbnew/kicad_plugin.cpp:259
 #, c-format
 msgid "Cannot rename temporary file '%s' to footprint library file '%s'"
 msgstr ""
 "一時ファイル '%s' のファイル名は、フットプリント ライブラリ ファイル '%s' に"
 "対しては変更できません"
 
-#: pcbnew/kicad_plugin.cpp:280
+#: pcbnew/kicad_plugin.cpp:279
 #, c-format
 msgid "Footprint library path '%s' does not exist"
 msgstr "フットプリント ライブラリのパス '%s' は存在しません"
 
-#: pcbnew/kicad_plugin.cpp:327 pcbnew/legacy_plugin.cpp:4703
+#: pcbnew/kicad_plugin.cpp:326 pcbnew/legacy_plugin.cpp:4704
 #, c-format
 msgid "library '%s' has no footprint '%s' to delete"
 msgstr "ライブラリ '%s' には削除するフットプリント '%s' がありません"
 
-#: pcbnew/kicad_plugin.cpp:1234 pcbnew/legacy_plugin.cpp:98
+#: pcbnew/kicad_plugin.cpp:1244 pcbnew/legacy_plugin.cpp:98
 #, c-format
 msgid "unknown pad type: %d"
 msgstr "未知のパッド形状です: %d"
 
-#: pcbnew/kicad_plugin.cpp:1247 pcbnew/legacy_plugin.cpp:99
+#: pcbnew/kicad_plugin.cpp:1257 pcbnew/legacy_plugin.cpp:99
 #, c-format
 msgid "unknown pad attribute: %d"
 msgstr "未知のパッド属性です: %d"
 
-#: pcbnew/kicad_plugin.cpp:1429
+#: pcbnew/kicad_plugin.cpp:1439
 #, c-format
 msgid "unknown via type %d"
 msgstr "未知のビア形状です: %d"
 
-#: pcbnew/kicad_plugin.cpp:1560
+#: pcbnew/kicad_plugin.cpp:1570
 #, c-format
 msgid "unknown zone corner smoothing type %d"
 msgstr "未知のゾーンの角の平滑化タイプ %d "
 
-#: pcbnew/kicad_plugin.cpp:1846
+#: pcbnew/kicad_plugin.cpp:1869
 #, c-format
 msgid "Footprint file name '%s' is not valid."
 msgstr "不正なフットプリント ファイル名です '%s' 。"
 
-#: pcbnew/kicad_plugin.cpp:1852
+#: pcbnew/kicad_plugin.cpp:1875
 #, c-format
 msgid "user does not have write permission to delete file '%s' "
 msgstr "現在のユーザは '%s' を削除するための書き込み権限がありません"
 
-#: pcbnew/kicad_plugin.cpp:1907
+#: pcbnew/kicad_plugin.cpp:1930
 #, c-format
 msgid "cannot overwrite library path '%s'"
 msgstr "ライブラリ パス '%s' は上書きできません"
@@ -18720,22 +18748,22 @@ msgstr ""
 msgid "unknown graphic type: %d"
 msgstr "未知のグラフィック タイプ: %d"
 
-#: pcbnew/legacy_plugin.cpp:761
+#: pcbnew/legacy_plugin.cpp:762
 #, c-format
 msgid "Unknown sheet type '%s' on line:%d"
 msgstr "未知のシートタイプ \"%s\" : %d 行目"
 
-#: pcbnew/legacy_plugin.cpp:1457
+#: pcbnew/legacy_plugin.cpp:1458
 #, c-format
 msgid "Unknown padshape '%c=0x%02x' on line: %d of footprint: '%s'"
 msgstr "未知のパッド形状 '%c=0x%02x' 、行: %d 、フットプリント: '%s'"
 
-#: pcbnew/legacy_plugin.cpp:2506
+#: pcbnew/legacy_plugin.cpp:2507
 #, c-format
 msgid "duplicate NETCLASS name '%s'"
 msgstr "重複したネットクラス名 '%s'"
 
-#: pcbnew/legacy_plugin.cpp:3033 pcbnew/legacy_plugin.cpp:3070
+#: pcbnew/legacy_plugin.cpp:3034 pcbnew/legacy_plugin.cpp:3071
 #, c-format
 msgid ""
 "invalid float number in file: '%s'\n"
@@ -18744,7 +18772,7 @@ msgstr ""
 "不正な浮動小数点数値が見つかりました: '%s' \n"
 "%d行目, %d文字目"
 
-#: pcbnew/legacy_plugin.cpp:3042 pcbnew/legacy_plugin.cpp:3078
+#: pcbnew/legacy_plugin.cpp:3043 pcbnew/legacy_plugin.cpp:3079
 #, c-format
 msgid ""
 "missing float number in file: '%s'\n"
@@ -18753,130 +18781,130 @@ msgstr ""
 "不正な浮動小数点数値が見つかりました: '%s' \n"
 "行番号: %d, 位置: %d"
 
-#: pcbnew/legacy_plugin.cpp:3243
+#: pcbnew/legacy_plugin.cpp:3244
 #, c-format
 msgid "Unable to open file '%s'"
 msgstr "ファイル '%s' が開けません"
 
-#: pcbnew/legacy_plugin.cpp:4350
+#: pcbnew/legacy_plugin.cpp:4351
 #, c-format
 msgid "File '%s' is empty or is not a legacy library"
 msgstr "ファイル \"%s\" は空であるか、古い形式のライブラリです"
 
-#: pcbnew/legacy_plugin.cpp:4488
+#: pcbnew/legacy_plugin.cpp:4489
 #, c-format
 msgid "Legacy library file '%s' is read only"
 msgstr "レガシー ライブラリ ファイル '%s' は読み込み専用です"
 
-#: pcbnew/legacy_plugin.cpp:4507
+#: pcbnew/legacy_plugin.cpp:4508
 #, c-format
 msgid "Unable to open or create legacy library file '%s'"
 msgstr ""
 "レガシー フォーマットのライブラリ ファイル '%s' を読み込み/保存できませんでし"
 "た"
 
-#: pcbnew/legacy_plugin.cpp:4533
+#: pcbnew/legacy_plugin.cpp:4534
 #, c-format
 msgid "Unable to rename tempfile '%s' to library file '%s'"
 msgstr ""
 "一時ファイル '%s' をライブラリ ファイル '%s' へファイル名の変更保存ができませ"
 "んでした"
 
-#: pcbnew/legacy_plugin.cpp:4716
+#: pcbnew/legacy_plugin.cpp:4717
 #, c-format
 msgid "library '%s' already exists, will not create a new"
 msgstr "ライブラリ '%s' は既に存在します。新規作成できません。"
 
-#: pcbnew/legacy_plugin.cpp:4745
+#: pcbnew/legacy_plugin.cpp:4746
 #, c-format
 msgid "library '%s' cannot be deleted"
 msgstr "ライブラリ '%s' が削除できませんでした"
 
-#: pcbnew/librairi.cpp:61
+#: pcbnew/librairi.cpp:60
 #, c-format
 msgid "Library '%s' exists, OK to replace ?"
 msgstr "ライブラリ '%s' は既に存在します。置換してもよろしいですか？"
 
-#: pcbnew/librairi.cpp:62
+#: pcbnew/librairi.cpp:61
 msgid "Create New Library Folder (the .pretty folder is the library)"
 msgstr "新しくライブラリのフォルダ (.prettyフォルダはライブラリ) を作成"
 
-#: pcbnew/librairi.cpp:63
+#: pcbnew/librairi.cpp:62
 #, c-format
 msgid "OK to delete footprint %s in library '%s'"
 msgstr "フットプリント %s (ライブラリ '%s' )を削除してもよろしいですか？"
 
-#: pcbnew/librairi.cpp:64
+#: pcbnew/librairi.cpp:63
 msgid "Import Footprint"
 msgstr "フットプリントのインポート"
 
-#: pcbnew/librairi.cpp:65
+#: pcbnew/librairi.cpp:64
 #, c-format
 msgid "File '%s' not found"
 msgstr "ファイル '%s' が見つかりません"
 
-#: pcbnew/librairi.cpp:66
+#: pcbnew/librairi.cpp:65
 msgid "Not a footprint file"
 msgstr "フットプリント ファイルではありません"
 
-#: pcbnew/librairi.cpp:67
+#: pcbnew/librairi.cpp:66
 #, c-format
 msgid "Unable to find or load footprint %s from lib path '%s'"
 msgstr ""
 "フットプリント %s をライブラリ パス '%s' から見つけることが出来ませんでした"
 
-#: pcbnew/librairi.cpp:68
+#: pcbnew/librairi.cpp:67
 #, c-format
 msgid "Unable to find or load footprint from path '%s'"
 msgstr "フットプリントを '%s' からロードすることができませんでした"
 
-#: pcbnew/librairi.cpp:69
+#: pcbnew/librairi.cpp:68
 #, c-format
 msgid ""
 "The footprint library '%s' could not be found in any of the search paths."
 msgstr "フットプリント ライブラリ <%s> はデフォルト検索パス内に存在しません。"
 
-#: pcbnew/librairi.cpp:70
+#: pcbnew/librairi.cpp:69
 #, c-format
 msgid "Library '%s' is read only, not writable"
 msgstr "ライブラリ '%s' は読み込み専用です。"
 
-#: pcbnew/librairi.cpp:72
+#: pcbnew/librairi.cpp:71
 msgid "Export Footprint"
 msgstr "フットプリントのエクスポート"
 
-#: pcbnew/librairi.cpp:73
+#: pcbnew/librairi.cpp:72
 msgid "Save Footprint"
 msgstr "フットプリントの保存"
 
-#: pcbnew/librairi.cpp:74
+#: pcbnew/librairi.cpp:73
 msgid "Enter footprint name:"
 msgstr "フットプリント名:"
 
-#: pcbnew/librairi.cpp:75
+#: pcbnew/librairi.cpp:74
 #, c-format
 msgid "Footprint exported to file '%s'"
 msgstr "フットプリントを '%s' へ出力しました"
 
-#: pcbnew/librairi.cpp:76
+#: pcbnew/librairi.cpp:75
 #, c-format
 msgid "Footprint %s deleted from library '%s'"
 msgstr "フットプリント %s をライブラリ '%s' から削除しました"
 
-#: pcbnew/librairi.cpp:77
+#: pcbnew/librairi.cpp:76
 msgid "New Footprint"
 msgstr "新規フットプリント"
 
-#: pcbnew/librairi.cpp:79
+#: pcbnew/librairi.cpp:78
 #, c-format
 msgid "Footprint %s already exists in library '%s'"
 msgstr "フットプリント %s は既にライブラリ %s 内に既に存在します。"
 
-#: pcbnew/librairi.cpp:80
+#: pcbnew/librairi.cpp:79
 msgid "No footprint name defined."
 msgstr "フットプリント名が定義されていません。"
 
-#: pcbnew/librairi.cpp:84
+#: pcbnew/librairi.cpp:83
 msgid ""
 "Writing/modifying legacy libraries (.mod files) is not allowed\n"
 "Please save the current library to the new .pretty format\n"
@@ -18890,7 +18918,7 @@ msgstr ""
 "フットプリント (.kicad_mod ファイル) を .pretty ライブラリ フォルダの中で保存"
 "してください．"
 
-#: pcbnew/librairi.cpp:90
+#: pcbnew/librairi.cpp:89
 msgid ""
 "Modifying legacy libraries (.mod files) is not allowed\n"
 "Please save the current library under the new .pretty format\n"
@@ -18902,19 +18930,24 @@ msgstr ""
 "現在のライブラリを新しい .pretty フォーマットで保存して，\n"
 "フットプリント lib テーブルを更新してください．"
 
-#: pcbnew/librairi.cpp:95
+#: pcbnew/librairi.cpp:94
 msgid "Legacy foot print export files (*.emp)|*.emp"
 msgstr "レガシー フットプリント ファイル (*.emp)|*.emp"
 
-#: pcbnew/librairi.cpp:96
+#: pcbnew/librairi.cpp:95
 msgid "GPcb foot print files (*)|*"
 msgstr "GPcb フットプリント ファイル (*)|*"
 
-#: pcbnew/librairi.cpp:520
+#: pcbnew/librairi.cpp:390
+#, c-format
+msgid "Unable to create or write file '%s'"
+msgstr "ファイル '%s' を作成／書込みできません"
+
+#: pcbnew/librairi.cpp:568
 msgid "No footprints to archive!"
 msgstr "アーカイブにフットプリントがありません！"
 
-#: pcbnew/librairi.cpp:623
+#: pcbnew/librairi.cpp:671
 #, c-format
 msgid ""
 "Error:\n"
@@ -18925,12 +18958,12 @@ msgstr ""
 "不正な文字 '%s' が見つかりました。\n"
 "('%s')"
 
-#: pcbnew/librairi.cpp:684
+#: pcbnew/librairi.cpp:732
 #, c-format
 msgid "Component [%s] replaced in '%s'"
 msgstr "コンポーネント [%s] を <%s> に置き換えました"
 
-#: pcbnew/librairi.cpp:685
+#: pcbnew/librairi.cpp:733
 #, c-format
 msgid "Component [%s] added in  '%s'"
 msgstr "コンポーネント [%s] を <%s> に追加しました"
@@ -19523,7 +19556,7 @@ msgid "&Footprint"
 msgstr "フットプリント(&F)"
 
 #: pcbnew/menubar_pcbframe.cpp:387 pcbnew/tool_pcb.cpp:436
-#: pcbnew/tools/common_actions.cpp:388
+#: pcbnew/tools/common_actions.cpp:392
 msgid "Add footprints"
 msgstr "フットプリントを追加"
 
@@ -19604,7 +19637,7 @@ msgstr "差動ペアのインタラクティブ配線"
 msgid "&Tune Track Length"
 msgstr "配線長の調整(&T)"
 
-#: pcbnew/menubar_pcbframe.cpp:454 pcbnew/tools/common_actions.cpp:530
+#: pcbnew/menubar_pcbframe.cpp:454 pcbnew/tools/common_actions.cpp:534
 msgid "Tune length of a single track"
 msgstr "単線の配線長を調整"
 
@@ -19612,7 +19645,7 @@ msgstr "単線の配線長を調整"
 msgid "Tune Differential Pair &Length"
 msgstr "差動ペアの配線長の調整(&L)"
 
-#: pcbnew/menubar_pcbframe.cpp:459 pcbnew/tools/common_actions.cpp:534
+#: pcbnew/menubar_pcbframe.cpp:459 pcbnew/tools/common_actions.cpp:538
 msgid "Tune length of a differential pair"
 msgstr "差動ペア配線の配線長を調整"
 
@@ -19889,11 +19922,11 @@ msgstr "フットプリントを編集"
 msgid "Transform Footprint"
 msgstr "フットプリントを変形"
 
-#: pcbnew/modedit_onclick.cpp:308 pcbnew/onrightclick.cpp:943
+#: pcbnew/modedit_onclick.cpp:308 pcbnew/onrightclick.cpp:938
 msgid "Move Pad"
 msgstr "パッドを移動"
 
-#: pcbnew/modedit_onclick.cpp:312 pcbnew/onrightclick.cpp:948
+#: pcbnew/modedit_onclick.cpp:312 pcbnew/onrightclick.cpp:943
 msgid "Edit Pad"
 msgstr "パッドを編集"
 
@@ -19933,7 +19966,7 @@ msgstr "テキストを複製"
 msgid "Create Text Array"
 msgstr "テキスト配列を作成"
 
-#: pcbnew/modedit_onclick.cpp:374 pcbnew/onrightclick.cpp:886
+#: pcbnew/modedit_onclick.cpp:374 pcbnew/onrightclick.cpp:881
 msgid "Move Text Exactly"
 msgstr "数値を指定してテキストをコピー"
 
@@ -20198,20 +20231,20 @@ msgstr ""
 "ファイル: <%s>\n"
 "行: %d"
 
-#: pcbnew/onleftclick.cpp:252 pcbnew/tools/drawing_tool.cpp:727
+#: pcbnew/onleftclick.cpp:258 pcbnew/tools/drawing_tool.cpp:727
 #: pcbnew/tools/drawing_tool.cpp:902
 msgid "Graphic not allowed on Copper layers"
 msgstr "図形は導体レイヤに配置できません"
 
-#: pcbnew/onleftclick.cpp:276
+#: pcbnew/onleftclick.cpp:282
 msgid "Tracks on Copper layers only "
 msgstr "配線は導体レイヤのみです"
 
-#: pcbnew/onleftclick.cpp:335
+#: pcbnew/onleftclick.cpp:341
 msgid "Texts not allowed on Edge Cut layer"
 msgstr "基板外形レイヤには文字列を配置できません"
 
-#: pcbnew/onleftclick.cpp:384 pcbnew/tools/drawing_tool.cpp:313
+#: pcbnew/onleftclick.cpp:390 pcbnew/tools/drawing_tool.cpp:313
 msgid "Dimension not allowed on Copper or Edge Cut layers"
 msgstr "寸法線は導体レイヤまたは外形線レイヤに配置できません"
 
@@ -20300,381 +20333,377 @@ msgid "Duplicate Target"
 msgstr "ターゲットを複製"
 
 #: pcbnew/onrightclick.cpp:311
-msgid "Create Target Array"
-msgstr "ターゲット配列を作成"
-
-#: pcbnew/onrightclick.cpp:316
 msgid "Edit Target"
 msgstr "ターゲットを編集"
 
-#: pcbnew/onrightclick.cpp:320
+#: pcbnew/onrightclick.cpp:315
 msgid "Delete Target"
 msgstr "ターゲットを削除"
 
-#: pcbnew/onrightclick.cpp:354
+#: pcbnew/onrightclick.cpp:349
 msgid "Get and Move Footprint"
 msgstr "フットプリントの検索と移動"
 
-#: pcbnew/onrightclick.cpp:367
+#: pcbnew/onrightclick.cpp:362
 msgid "Fill or Refill All Zones"
 msgstr "全てのゾーンを塗りつぶす"
 
-#: pcbnew/onrightclick.cpp:371
+#: pcbnew/onrightclick.cpp:366
 msgid "Remove Filled Areas in All Zones"
 msgstr "全てのゾーンの塗りつぶしエリアを削除"
 
-#: pcbnew/onrightclick.cpp:379 pcbnew/onrightclick.cpp:385
-#: pcbnew/onrightclick.cpp:403 pcbnew/onrightclick.cpp:416
-#: pcbnew/onrightclick.cpp:481 pcbnew/onrightclick.cpp:574
+#: pcbnew/onrightclick.cpp:374 pcbnew/onrightclick.cpp:380
+#: pcbnew/onrightclick.cpp:398 pcbnew/onrightclick.cpp:411
+#: pcbnew/onrightclick.cpp:476 pcbnew/onrightclick.cpp:569
 msgid "Select Working Layer"
 msgstr "作業レイヤの選択"
 
-#: pcbnew/onrightclick.cpp:393 pcbnew/onrightclick.cpp:473
-#: pcbnew/onrightclick.cpp:521
+#: pcbnew/onrightclick.cpp:388 pcbnew/onrightclick.cpp:468
+#: pcbnew/onrightclick.cpp:516
 msgid "Begin Track"
 msgstr "配線の開始"
 
-#: pcbnew/onrightclick.cpp:399 pcbnew/onrightclick.cpp:477
-#: pcbnew/onrightclick.cpp:645
+#: pcbnew/onrightclick.cpp:394 pcbnew/onrightclick.cpp:472
+#: pcbnew/onrightclick.cpp:640
 msgid "Select Track Width"
 msgstr "配線幅の選択"
 
-#: pcbnew/onrightclick.cpp:405
+#: pcbnew/onrightclick.cpp:400
 msgid "Select Layer Pair for Vias"
 msgstr "ビアのレイヤペアを選択"
 
-#: pcbnew/onrightclick.cpp:424
+#: pcbnew/onrightclick.cpp:419
 msgid "Footprint Documentation"
 msgstr "フットプリントのドキュメントを見る"
 
-#: pcbnew/onrightclick.cpp:434
+#: pcbnew/onrightclick.cpp:429
 msgid "Global Spread and Place"
 msgstr "グローバル移動/配置"
 
-#: pcbnew/onrightclick.cpp:436
+#: pcbnew/onrightclick.cpp:431
 msgid "Unlock All Footprints"
 msgstr "全てのフットプリントをアンロック"
 
-#: pcbnew/onrightclick.cpp:438
+#: pcbnew/onrightclick.cpp:433
 msgid "Lock All Footprints"
 msgstr "全てのフットプリントをロック"
 
-#: pcbnew/onrightclick.cpp:441
+#: pcbnew/onrightclick.cpp:436
 msgid "Spread out All Footprints"
 msgstr "全てのフットプリントを展開"
 
-#: pcbnew/onrightclick.cpp:443
+#: pcbnew/onrightclick.cpp:438
 msgid "Spread out Footprints not Already on Board"
 msgstr "ボード上に無い全てのフットプリントを展開"
 
-#: pcbnew/onrightclick.cpp:446
+#: pcbnew/onrightclick.cpp:441
 msgid "Automatically Place All Footprints"
 msgstr "全てのフットプリントを自動配置"
 
-#: pcbnew/onrightclick.cpp:448
+#: pcbnew/onrightclick.cpp:443
 msgid "Automatically Place New Footprints"
 msgstr "新しいフットプリントを自動配置"
 
-#: pcbnew/onrightclick.cpp:450
+#: pcbnew/onrightclick.cpp:445
 msgid "Automatically Place Next Footprints"
 msgstr "次のフットプリントを自動配置"
 
-#: pcbnew/onrightclick.cpp:453
+#: pcbnew/onrightclick.cpp:448
 msgid "Orient All Footprints"
 msgstr "全てのフットプリントの方向を揃える"
 
-#: pcbnew/onrightclick.cpp:460
+#: pcbnew/onrightclick.cpp:455
 msgid "Autoroute"
 msgstr "自動配線"
 
-#: pcbnew/onrightclick.cpp:462
+#: pcbnew/onrightclick.cpp:457
 msgid "Select Layer Pair"
 msgstr "レイヤ ペアの選択"
 
-#: pcbnew/onrightclick.cpp:465
+#: pcbnew/onrightclick.cpp:460
 msgid "Automatically Route All Footprints"
 msgstr "全てのフットプリントを自動配線"
 
-#: pcbnew/onrightclick.cpp:467
+#: pcbnew/onrightclick.cpp:462
 msgid "Reset Unrouted"
 msgstr "未配線をリセット"
 
-#: pcbnew/onrightclick.cpp:497
+#: pcbnew/onrightclick.cpp:492
 msgid "Zoom Block"
 msgstr "ブロックを拡大"
 
-#: pcbnew/onrightclick.cpp:501
+#: pcbnew/onrightclick.cpp:496
 msgid "Flip Block"
 msgstr "ブロックを裏返す"
 
-#: pcbnew/onrightclick.cpp:502
+#: pcbnew/onrightclick.cpp:497
 msgid "Rotate Block"
 msgstr "ブロックを回転"
 
-#: pcbnew/onrightclick.cpp:528
+#: pcbnew/onrightclick.cpp:523
 msgid "Drag Via"
 msgstr "ビアを移動"
 
-#: pcbnew/onrightclick.cpp:537
+#: pcbnew/onrightclick.cpp:532
 msgid "Move Node"
 msgstr "ノードを移動"
 
-#: pcbnew/onrightclick.cpp:543
+#: pcbnew/onrightclick.cpp:538
 msgid "Drag Segments, Keep Slope"
 msgstr "セグメントのドラッグ移動 (角度保持)"
 
-#: pcbnew/onrightclick.cpp:548
+#: pcbnew/onrightclick.cpp:543
 msgid "Drag Segment"
 msgstr "セグメントのドラッグ移動"
 
-#: pcbnew/onrightclick.cpp:553
+#: pcbnew/onrightclick.cpp:548
 msgid "Duplicate Track"
 msgstr "配線を複製"
 
-#: pcbnew/onrightclick.cpp:558
+#: pcbnew/onrightclick.cpp:553
 msgid "Move Track Exactly"
 msgstr "数値を指定してトラックを移動"
 
-#: pcbnew/onrightclick.cpp:563
+#: pcbnew/onrightclick.cpp:558
 msgid "Create Track Array"
 msgstr "配線配列を作成"
 
-#: pcbnew/onrightclick.cpp:569
+#: pcbnew/onrightclick.cpp:564
 msgid "Break Track"
 msgstr "配線を切断"
 
-#: pcbnew/onrightclick.cpp:579
+#: pcbnew/onrightclick.cpp:574
 msgid "Place Node"
 msgstr "ノードを配置"
 
-#: pcbnew/onrightclick.cpp:586 pcbnew/router/length_tuner_tool.cpp:54
+#: pcbnew/onrightclick.cpp:581 pcbnew/router/length_tuner_tool.cpp:54
 #: pcbnew/router/router_tool.cpp:67
 msgid "End Track"
 msgstr "配線の終了"
 
-#: pcbnew/onrightclick.cpp:590 pcbnew/router/router_tool.cpp:78
+#: pcbnew/onrightclick.cpp:585 pcbnew/router/router_tool.cpp:78
 msgid "Place Through Via"
 msgstr "貫通ビアを配置"
 
-#: pcbnew/onrightclick.cpp:593
+#: pcbnew/onrightclick.cpp:588
 msgid "Select Layer and Place Through Via"
 msgstr "スルーホールを配置するレイヤの選択"
 
-#: pcbnew/onrightclick.cpp:600 pcbnew/router/router_tool.cpp:84
+#: pcbnew/onrightclick.cpp:595 pcbnew/router/router_tool.cpp:84
 msgid "Place Blind/Buried Via"
 msgstr "ブラインドビア(BVH)/ベリッドホール(BH)を配置"
 
-#: pcbnew/onrightclick.cpp:604
+#: pcbnew/onrightclick.cpp:599
 msgid "Select Layer and Place Blind/Buried Via"
 msgstr "レイヤを指定してブラインド/ベリッドビアを配置"
 
-#: pcbnew/onrightclick.cpp:610 pcbnew/router/router_tool.cpp:101
+#: pcbnew/onrightclick.cpp:605 pcbnew/router/router_tool.cpp:101
 msgid "Switch Track Posture"
 msgstr "配線の形状を変更"
 
-#: pcbnew/onrightclick.cpp:618
+#: pcbnew/onrightclick.cpp:613
 msgid "Place Micro Via"
 msgstr "マイクロビアを配置"
 
-#: pcbnew/onrightclick.cpp:629
+#: pcbnew/onrightclick.cpp:624
 msgid "Change Via Size and Drill"
 msgstr "ビア径/ドリル径を変更"
 
-#: pcbnew/onrightclick.cpp:635
+#: pcbnew/onrightclick.cpp:630
 msgid "Change Segment Width"
 msgstr "セグメント幅を変更"
 
-#: pcbnew/onrightclick.cpp:639
+#: pcbnew/onrightclick.cpp:634
 msgid "Change Track Width"
 msgstr "配線幅を変更"
 
-#: pcbnew/onrightclick.cpp:654
+#: pcbnew/onrightclick.cpp:649
 msgid "Delete Via"
 msgstr "ビアを削除"
 
-#: pcbnew/onrightclick.cpp:661
+#: pcbnew/onrightclick.cpp:656
 msgid "Delete Track"
 msgstr "配線を削除"
 
-#: pcbnew/onrightclick.cpp:663
+#: pcbnew/onrightclick.cpp:658
 msgid "Delete Net"
 msgstr "ネットを削除"
 
-#: pcbnew/onrightclick.cpp:672
+#: pcbnew/onrightclick.cpp:667
 msgid "Edit All Tracks and Vias"
 msgstr "配線とビアのグローバル編集"
 
-#: pcbnew/onrightclick.cpp:678
+#: pcbnew/onrightclick.cpp:673
 msgid "Set Flags"
 msgstr "フラグをセット"
 
-#: pcbnew/onrightclick.cpp:680
+#: pcbnew/onrightclick.cpp:675
 msgid "Locked: Yes"
 msgstr "セグメントロック: Yes"
 
-#: pcbnew/onrightclick.cpp:681
+#: pcbnew/onrightclick.cpp:676
 msgid "Locked: No"
 msgstr "セグメントロック: No"
 
-#: pcbnew/onrightclick.cpp:690
+#: pcbnew/onrightclick.cpp:685
 msgid "Track Locked: Yes"
 msgstr "配線のロック: Yes"
 
-#: pcbnew/onrightclick.cpp:691
+#: pcbnew/onrightclick.cpp:686
 msgid "Track Locked: No"
 msgstr "配線のロック: No"
 
-#: pcbnew/onrightclick.cpp:693
+#: pcbnew/onrightclick.cpp:688
 msgid "Net Locked: Yes"
 msgstr "ネットのロック: Yes"
 
-#: pcbnew/onrightclick.cpp:694
+#: pcbnew/onrightclick.cpp:689
 msgid "Net Locked: No"
 msgstr "ネットのロック: No"
 
-#: pcbnew/onrightclick.cpp:708
+#: pcbnew/onrightclick.cpp:703
 msgid "Place Edge Outline"
 msgstr "エッジを配置"
 
-#: pcbnew/onrightclick.cpp:714
+#: pcbnew/onrightclick.cpp:709
 msgid "Place Corner"
 msgstr "角を配置"
 
-#: pcbnew/onrightclick.cpp:717
+#: pcbnew/onrightclick.cpp:712
 msgid "Place Zone"
 msgstr "ゾーンを配置"
 
-#: pcbnew/onrightclick.cpp:724
+#: pcbnew/onrightclick.cpp:719
 msgid "Keepout Area"
 msgstr "キープアウト(禁止)エリア"
 
-#: pcbnew/onrightclick.cpp:730
+#: pcbnew/onrightclick.cpp:725
 msgid "Move Corner"
 msgstr "角を移動"
 
-#: pcbnew/onrightclick.cpp:732
+#: pcbnew/onrightclick.cpp:727
 msgid "Delete Corner"
 msgstr "角を削除"
 
-#: pcbnew/onrightclick.cpp:737
+#: pcbnew/onrightclick.cpp:732
 msgid "Create Corner"
 msgstr "角を作成"
 
-#: pcbnew/onrightclick.cpp:738
+#: pcbnew/onrightclick.cpp:733
 msgid "Drag Outline Segment"
 msgstr "外枠セグメントをドラッグ"
 
-#: pcbnew/onrightclick.cpp:746
+#: pcbnew/onrightclick.cpp:741
 msgid "Add Similar Zone"
 msgstr "類似ゾーンを追加"
 
-#: pcbnew/onrightclick.cpp:749
+#: pcbnew/onrightclick.cpp:744
 msgid "Add Cutout Area"
 msgstr "切り抜きを追加"
 
-#: pcbnew/onrightclick.cpp:752
+#: pcbnew/onrightclick.cpp:747
 msgid "Duplicate Zone Onto Layer"
 msgstr "レイヤ上にゾーンを複製"
 
-#: pcbnew/onrightclick.cpp:757
+#: pcbnew/onrightclick.cpp:752
 msgid "Fill Zone"
 msgstr "ゾーンの塗りつぶし"
 
-#: pcbnew/onrightclick.cpp:763
+#: pcbnew/onrightclick.cpp:758
 msgid "Remove Filled Areas in Zone"
 msgstr "ゾーンの塗りつぶしを削除"
 
-#: pcbnew/onrightclick.cpp:766
+#: pcbnew/onrightclick.cpp:761
 msgid "Move Zone"
 msgstr "ゾーンを移動"
 
-#: pcbnew/onrightclick.cpp:769
+#: pcbnew/onrightclick.cpp:764
 msgid "Move Zone Exactly"
 msgstr "数値を指定してゾーンを移動"
 
-#: pcbnew/onrightclick.cpp:774
+#: pcbnew/onrightclick.cpp:769
 msgid "Edit Zone Properties"
 msgstr "ゾーンプロパティを編集"
 
-#: pcbnew/onrightclick.cpp:784
+#: pcbnew/onrightclick.cpp:779
 msgid "Delete Cutout"
 msgstr "切り抜きを削除"
 
-#: pcbnew/onrightclick.cpp:787
+#: pcbnew/onrightclick.cpp:782
 msgid "Delete Zone Outline"
 msgstr "ゾーン外枠を削除"
 
-#: pcbnew/onrightclick.cpp:807 pcbnew/onrightclick.cpp:999
+#: pcbnew/onrightclick.cpp:802 pcbnew/onrightclick.cpp:994
 #: pcbnew/tools/common_actions.cpp:100
 msgid "Move"
 msgstr "移動"
 
-#: pcbnew/onrightclick.cpp:811
+#: pcbnew/onrightclick.cpp:806
 msgid "Drag"
 msgstr "ドラッグ"
 
-#: pcbnew/onrightclick.cpp:816
+#: pcbnew/onrightclick.cpp:811
 msgid "Rotate +"
 msgstr "左に回転"
 
-#: pcbnew/onrightclick.cpp:820
+#: pcbnew/onrightclick.cpp:815
 msgid "Rotate -"
 msgstr "右に回転"
 
-#: pcbnew/onrightclick.cpp:821 pcbnew/onrightclick.cpp:1009
+#: pcbnew/onrightclick.cpp:816 pcbnew/onrightclick.cpp:1004
 #: pcbnew/tools/common_actions.cpp:125
 msgid "Flip"
 msgstr "裏返す"
 
-#: pcbnew/onrightclick.cpp:827
+#: pcbnew/onrightclick.cpp:822
 msgid "Edit Parameters"
 msgstr "パラメータを編集"
 
-#: pcbnew/onrightclick.cpp:832
+#: pcbnew/onrightclick.cpp:827
 msgid "Edit with Footprint Editor"
 msgstr "フットプリント エディタで編集"
 
-#: pcbnew/onrightclick.cpp:839
+#: pcbnew/onrightclick.cpp:834
 msgid "Delete Footprint"
 msgstr "フットプリントを削除"
 
-#: pcbnew/onrightclick.cpp:846
+#: pcbnew/onrightclick.cpp:841
 msgid "Move Footprint Exactly"
 msgstr "数値を指定してフットプリントを移動"
 
-#: pcbnew/onrightclick.cpp:851
+#: pcbnew/onrightclick.cpp:846
 msgid "Duplicate Footprint"
 msgstr "フットプリントを複製"
 
-#: pcbnew/onrightclick.cpp:856
+#: pcbnew/onrightclick.cpp:851
 msgid "Create Footprint Array"
 msgstr "フットプリント配列を作成"
 
-#: pcbnew/onrightclick.cpp:862
+#: pcbnew/onrightclick.cpp:857
 msgid "Exchange Footprint(s)"
 msgstr "フットプリントの交換"
 
-#: pcbnew/onrightclick.cpp:902 pcbnew/onrightclick.cpp:1016
+#: pcbnew/onrightclick.cpp:897 pcbnew/onrightclick.cpp:1011
 msgid "Reset Size"
 msgstr "サイズをリセット"
 
-#: pcbnew/onrightclick.cpp:945
+#: pcbnew/onrightclick.cpp:940
 msgid "Drag Pad"
 msgstr "パッドをドラッグ"
 
-#: pcbnew/onrightclick.cpp:953
+#: pcbnew/onrightclick.cpp:948
 msgid "Copy Current Settings to this Pad"
 msgstr "このパッドに現在の設定をコピー"
 
-#: pcbnew/onrightclick.cpp:957
+#: pcbnew/onrightclick.cpp:952
 msgid "Copy this Pad Settings to Current Settings"
 msgstr "このパッドの設定を現在の設定にコピー"
 
-#: pcbnew/onrightclick.cpp:962
+#: pcbnew/onrightclick.cpp:957
 msgid "Edit All Pads"
 msgstr "パッドのグローバル編集"
 
-#: pcbnew/onrightclick.cpp:963
+#: pcbnew/onrightclick.cpp:958
 msgid ""
 "Copy this pad's settings to all pads in this footprint (or similar "
 "footprints)"
@@ -20682,51 +20711,51 @@ msgstr ""
 "このパッドの設定をこのフットプリント (及び同様のフットプリント) 内の全ての"
 "パッドにコピー"
 
-#: pcbnew/onrightclick.cpp:971
+#: pcbnew/onrightclick.cpp:966
 msgid "Automatically Route Pad"
 msgstr "パッドの自動配線"
 
-#: pcbnew/onrightclick.cpp:972
+#: pcbnew/onrightclick.cpp:967
 msgid "Automatically Route Net"
 msgstr "ネットの自動配線"
 
-#: pcbnew/onrightclick.cpp:1002
+#: pcbnew/onrightclick.cpp:997
 msgid "Copy"
 msgstr "コピー"
 
-#: pcbnew/onrightclick.cpp:1047
+#: pcbnew/onrightclick.cpp:1042
 msgid "Auto Width"
 msgstr "自動幅"
 
-#: pcbnew/onrightclick.cpp:1048
+#: pcbnew/onrightclick.cpp:1043
 msgid ""
 "Use the track width when starting on a track, otherwise the current track "
 "width"
 msgstr "現在の配線幅ではなく、通常時の配線幅を使用"
 
-#: pcbnew/onrightclick.cpp:1058
+#: pcbnew/onrightclick.cpp:1053
 msgid "Use Netclass Values"
 msgstr "ネットクラスの値を使用"
 
-#: pcbnew/onrightclick.cpp:1059
+#: pcbnew/onrightclick.cpp:1054
 msgid "Use track and via sizes from their Netclass values"
 msgstr "ネットクラスの値の配線とビア径を使用"
 
-#: pcbnew/onrightclick.cpp:1065
+#: pcbnew/onrightclick.cpp:1060
 #, c-format
 msgid "Track %s"
 msgstr "配線 %s"
 
-#: pcbnew/onrightclick.cpp:1068 pcbnew/onrightclick.cpp:1094
+#: pcbnew/onrightclick.cpp:1063 pcbnew/onrightclick.cpp:1089
 msgid " uses NetClass"
 msgstr "ネットクラスを使用"
 
-#: pcbnew/onrightclick.cpp:1086
+#: pcbnew/onrightclick.cpp:1081
 #, c-format
 msgid "Via %s"
 msgstr "ビア %s"
 
-#: pcbnew/onrightclick.cpp:1090
+#: pcbnew/onrightclick.cpp:1085
 #, c-format
 msgid "Via %s, drill %s"
 msgstr "ビア %s (%s)"
@@ -20736,7 +20765,7 @@ msgstr "ビア %s (%s)"
 msgid "Delete Pad (footprint %s %s) ?"
 msgstr "パッドを削除しますか(フットプリント %s %s) ?"
 
-#: pcbnew/pcb_parser.cpp:138
+#: pcbnew/pcb_parser.cpp:139
 #, c-format
 msgid ""
 "invalid floating point number in\n"
@@ -20749,7 +20778,7 @@ msgstr ""
 "行数: %d\n"
 "文字: %d"
 
-#: pcbnew/pcb_parser.cpp:147
+#: pcbnew/pcb_parser.cpp:148
 #, c-format
 msgid ""
 "missing floating point number in\n"
@@ -20762,23 +20791,28 @@ msgstr ""
 "行数: %d\n"
 "文字: %d"
 
-#: pcbnew/pcb_parser.cpp:591
+#: pcbnew/pcb_parser.cpp:201
+#, c-format
+msgid "cannot interpret date code %d"
+msgstr "デートコード %d を解釈できません"
+
+#: pcbnew/pcb_parser.cpp:655
 #, c-format
 msgid "page type \"%s\" is not valid "
 msgstr "ページタイプ \"%s\" は不正です! "
 
-#: pcbnew/pcb_parser.cpp:823
+#: pcbnew/pcb_parser.cpp:887
 #, c-format
 msgid "Layer '%s' in file '%s' at line %d, is not in fixed layer hash"
 msgstr ""
 "レイヤ '%s' (ファイル: '%s' %d行) はこのレイヤハッシュで定義されていません。"
 
-#: pcbnew/pcb_parser.cpp:856
+#: pcbnew/pcb_parser.cpp:920
 #, c-format
 msgid "%d is not a valid layer count"
 msgstr "%d は有効なレイヤ番号ではありません"
 
-#: pcbnew/pcb_parser.cpp:887
+#: pcbnew/pcb_parser.cpp:951
 #, c-format
 msgid ""
 "Layer '%s' in file\n"
@@ -20791,20 +20825,20 @@ msgstr ""
 ", %d行, %d文字目) \n"
 "はこのレイヤセクションで定義されていません。"
 
-#: pcbnew/pcb_parser.cpp:1265
+#: pcbnew/pcb_parser.cpp:1329
 #, c-format
 msgid "duplicate NETCLASS name '%s' in file <%s> at line %d, offset %d"
 msgstr ""
 "重複したネットクラス '%s' がファイル <%s>  %d 行目, 位置 %d に見つかりました"
 
-#: pcbnew/pcb_parser.cpp:1908
+#: pcbnew/pcb_parser.cpp:2012
 #, c-format
 msgid "cannot handle footprint text type %s"
 msgstr "フットプリント テキスト タイプ %s は使用できません"
 
-#: pcbnew/pcb_parser.cpp:2316 pcbnew/pcb_parser.cpp:2322
-#: pcbnew/pcb_parser.cpp:2422 pcbnew/pcb_parser.cpp:2504
-#: pcbnew/pcb_parser.cpp:2568
+#: pcbnew/pcb_parser.cpp:2420 pcbnew/pcb_parser.cpp:2426
+#: pcbnew/pcb_parser.cpp:2526 pcbnew/pcb_parser.cpp:2608
+#: pcbnew/pcb_parser.cpp:2672
 #, c-format
 msgid ""
 "invalid net ID in\n"
@@ -20817,7 +20851,7 @@ msgstr ""
 "%d行目\n"
 "%d文字目"
 
-#: pcbnew/pcb_parser.cpp:2880
+#: pcbnew/pcb_parser.cpp:2988
 #, c-format
 msgid ""
 "There is a zone that belongs to a not existing net\n"
@@ -20833,7 +20867,7 @@ msgstr ""
 msgid "The auto save file '%s' could not be removed!"
 msgstr "自動保存ファイル '%s' は削除できませんでした!"
 
-#: pcbnew/pcbframe.cpp:976
+#: pcbnew/pcbframe.cpp:988
 msgid " [new file]"
 msgstr " [新規ファイル]"
 
@@ -21107,7 +21141,7 @@ msgid "Shows a dialog for changing the track width and via size."
 msgstr "配線幅とビア サイズ設定のダイアログを表示"
 
 #: pcbnew/router/router_tool.cpp:102
-msgid "Switches posture of the currenly routed track."
+msgid "Switches posture of the currently routed track."
 msgstr "作業中の配線の形を変更する。"
 
 #: pcbnew/router/router_tool.cpp:107
@@ -21166,11 +21200,11 @@ msgstr ""
 "マイクロ ビアは外層レイヤ (F.Cu/B.Cu) の間にだけ配置できます。また、直接、外"
 "層レイヤに隣接したものとなります。"
 
-#: pcbnew/router/router_tool.cpp:649
+#: pcbnew/router/router_tool.cpp:651
 msgid "Route Track"
 msgstr "配線"
 
-#: pcbnew/router/router_tool.cpp:656
+#: pcbnew/router/router_tool.cpp:658
 msgid "Router Differential Pair"
 msgstr "差動ペアの配線"
 
@@ -21188,13 +21222,13 @@ msgstr "ボードは正しくエクスポートされました。"
 msgid "Unable to export, please fix and try again."
 msgstr "エクスポートできません。問題点を修正してやり直してください。"
 
-#: pcbnew/specctra_export.cpp:1025 pcbnew/specctra_export.cpp:1132
-#: pcbnew/specctra_export.cpp:1268
+#: pcbnew/specctra_export.cpp:1034 pcbnew/specctra_export.cpp:1141
+#: pcbnew/specctra_export.cpp:1277
 #, c-format
 msgid "Unsupported DRAWSEGMENT type %s"
 msgstr "%s はサポートされていないDRAWSEGMENTタイプです"
 
-#: pcbnew/specctra_export.cpp:1157
+#: pcbnew/specctra_export.cpp:1166
 #, c-format
 msgid ""
 "Unable to find the next boundary segment with an endpoint of (%s mm, %s "
@@ -21204,7 +21238,7 @@ msgstr ""
 "終点 (%s mm, %s mm) で次の境界線が見つかりませんでした.\n"
 "基板外形図で、外形線を互いに隣接するように編集してください."
 
-#: pcbnew/specctra_export.cpp:1293
+#: pcbnew/specctra_export.cpp:1302
 #, c-format
 msgid ""
 "Unable to find the next keepout segment with an endpoint of (%s mm, %s mm).\n"
@@ -21213,12 +21247,12 @@ msgstr ""
 "終点 (%s mm, %s mm) で次の禁止領域の境界線が見つかりませんでした.\n"
 "基板外形図で、内部の境界線を互いに隣接するように編集してください."
 
-#: pcbnew/specctra_export.cpp:1452
+#: pcbnew/specctra_export.cpp:1461
 #, c-format
 msgid "Component with value of '%s' has empty reference id."
 msgstr "定数 \"%s\" のコンポーネントのリファレンスIDが空です。"
 
-#: pcbnew/specctra_export.cpp:1460
+#: pcbnew/specctra_export.cpp:1469
 #, c-format
 msgid "Multiple components have identical reference IDs of '%s'."
 msgstr "複数のコンポーネントが同一のリファレンスID '%s' を持っています。"
@@ -21353,7 +21387,7 @@ msgstr "フットプリントを印刷"
 msgid "Check footprint"
 msgstr "フットプリントの確認"
 
-#: pcbnew/tool_modedit.cpp:166 pcbnew/tools/common_actions.cpp:418
+#: pcbnew/tool_modedit.cpp:166 pcbnew/tools/common_actions.cpp:422
 #: pcbnew/tools/module_tools.cpp:106
 msgid "Add pads"
 msgstr "パッドを追加"
@@ -21775,127 +21809,127 @@ msgstr "ズーム イン"
 msgid "Zoom Out"
 msgstr "ズーム アウト"
 
-#: pcbnew/tools/common_actions.cpp:363
+#: pcbnew/tools/common_actions.cpp:367
 msgid "Fill"
 msgstr "塗りつぶし"
 
-#: pcbnew/tools/common_actions.cpp:363
+#: pcbnew/tools/common_actions.cpp:367
 msgid "Fill zone(s)"
 msgstr "ゾーンの塗りつぶし"
 
-#: pcbnew/tools/common_actions.cpp:367
+#: pcbnew/tools/common_actions.cpp:371
 msgid "Fill all"
 msgstr "全て塗りつぶし"
 
-#: pcbnew/tools/common_actions.cpp:367
+#: pcbnew/tools/common_actions.cpp:371
 msgid "Fill all zones"
 msgstr "全ゾーンの塗りつぶし"
 
-#: pcbnew/tools/common_actions.cpp:371
+#: pcbnew/tools/common_actions.cpp:375
 msgid "Unfill"
 msgstr "塗りつぶしを削除"
 
-#: pcbnew/tools/common_actions.cpp:371
+#: pcbnew/tools/common_actions.cpp:375
 msgid "Unfill zone(s)"
 msgstr "ゾーンの塗りつぶしを削除"
 
-#: pcbnew/tools/common_actions.cpp:375
+#: pcbnew/tools/common_actions.cpp:379
 msgid "Unfill all"
 msgstr "塗りつぶしを全て削除"
 
-#: pcbnew/tools/common_actions.cpp:375
+#: pcbnew/tools/common_actions.cpp:379
 msgid "Unfill all zones"
 msgstr "全ゾーンの塗りつぶしを削除"
 
-#: pcbnew/tools/common_actions.cpp:379
+#: pcbnew/tools/common_actions.cpp:383
 msgid "Merge zones"
 msgstr "ゾーンを結合"
 
-#: pcbnew/tools/common_actions.cpp:422
+#: pcbnew/tools/common_actions.cpp:426
 msgid "Enumerate pads"
 msgstr "パッドを列挙"
 
-#: pcbnew/tools/common_actions.cpp:426
+#: pcbnew/tools/common_actions.cpp:430
 msgid "Copy items"
 msgstr "アイテムをコピー"
 
-#: pcbnew/tools/common_actions.cpp:430
+#: pcbnew/tools/common_actions.cpp:434
 msgid "Paste items"
 msgstr "アイテムをペースト"
 
-#: pcbnew/tools/common_actions.cpp:510 pcbnew/tools/common_actions.cpp:511
+#: pcbnew/tools/common_actions.cpp:514 pcbnew/tools/common_actions.cpp:515
 msgid "Run push & shove router (single tracks)"
 msgstr "押しのけ配線の実行(単線(シングル))"
 
-#: pcbnew/tools/common_actions.cpp:515 pcbnew/tools/common_actions.cpp:516
+#: pcbnew/tools/common_actions.cpp:519 pcbnew/tools/common_actions.cpp:520
 msgid "Run push & shove router (differential pairs)"
 msgstr "押しのけ配線の実行(差動ペア)"
 
-#: pcbnew/tools/common_actions.cpp:520 pcbnew/tools/common_actions.cpp:521
+#: pcbnew/tools/common_actions.cpp:524 pcbnew/tools/common_actions.cpp:525
 msgid "Open Interactive Router settings"
 msgstr "インタラクティブ ルーターの設定を開く"
 
-#: pcbnew/tools/common_actions.cpp:525 pcbnew/tools/common_actions.cpp:526
+#: pcbnew/tools/common_actions.cpp:529 pcbnew/tools/common_actions.cpp:530
 msgid "Open Differential Pair Dimension settings"
 msgstr "差動ペアの寸法設定を開く"
 
-#: pcbnew/tools/common_actions.cpp:538
+#: pcbnew/tools/common_actions.cpp:542
 msgid "Tune skew of a differential pair"
 msgstr "差動ペアの遅延(スキュー)調整"
 
-#: pcbnew/tools/common_actions.cpp:551
+#: pcbnew/tools/common_actions.cpp:555
 msgid "Create corner"
 msgstr "角を作成"
 
-#: pcbnew/tools/common_actions.cpp:555
+#: pcbnew/tools/common_actions.cpp:559
 msgid "Remove corner"
 msgstr "角を削除"
 
-#: pcbnew/tools/common_actions.cpp:560
+#: pcbnew/tools/common_actions.cpp:564
 msgid "Align items to the top"
 msgstr "アイテムを上へ整列"
 
-#: pcbnew/tools/common_actions.cpp:561
+#: pcbnew/tools/common_actions.cpp:565
 msgid "Aligns selected items to the top edge"
 msgstr "選択したアイテムを上辺へ整列"
 
-#: pcbnew/tools/common_actions.cpp:565
+#: pcbnew/tools/common_actions.cpp:569
 msgid "Align items to the bottom"
 msgstr "アイテムを下へ整列"
 
-#: pcbnew/tools/common_actions.cpp:566
+#: pcbnew/tools/common_actions.cpp:570
 msgid "Aligns selected items to the bottom edge"
 msgstr "選択したアイテムを下辺へ整列"
 
-#: pcbnew/tools/common_actions.cpp:570
+#: pcbnew/tools/common_actions.cpp:574
 msgid "Align items to the left"
 msgstr "アイテムを左へ整列"
 
-#: pcbnew/tools/common_actions.cpp:571
+#: pcbnew/tools/common_actions.cpp:575
 msgid "Aligns selected items to the left edge"
 msgstr "選択したアイテムを左辺へ整列"
 
-#: pcbnew/tools/common_actions.cpp:575
+#: pcbnew/tools/common_actions.cpp:579
 msgid "Align items to the right"
 msgstr "アイテムを右へ整列"
 
-#: pcbnew/tools/common_actions.cpp:576
+#: pcbnew/tools/common_actions.cpp:580
 msgid "Aligns selected items to the right edge"
 msgstr "選択したアイテムを右辺へ整列"
 
-#: pcbnew/tools/common_actions.cpp:580
+#: pcbnew/tools/common_actions.cpp:584
 msgid "Distribute horizontally"
 msgstr "水平方向に配置"
 
-#: pcbnew/tools/common_actions.cpp:581
+#: pcbnew/tools/common_actions.cpp:585
 msgid "Distributes selected items along the horizontal axis"
 msgstr "選択したアイテムを水平方向に配置"
 
-#: pcbnew/tools/common_actions.cpp:585
+#: pcbnew/tools/common_actions.cpp:589
 msgid "Distribute vertically"
 msgstr "垂直方向に配置"
 
-#: pcbnew/tools/common_actions.cpp:586
+#: pcbnew/tools/common_actions.cpp:590
 msgid "Distributes selected items along the vertical axis"
 msgstr "選択したアイテムを垂直方向に配置"
 
@@ -21907,33 +21941,33 @@ msgstr "コンポーネントのリファレンスは削除できません。"
 msgid "Cannot delete component value."
 msgstr "コンポーネントの定数は削除できません。"
 
-#: pcbnew/tools/edit_tool.cpp:781
+#: pcbnew/tools/edit_tool.cpp:784
 #, c-format
 msgid "Duplicated %d item(s)"
 msgstr "重複した%dアイテム"
 
-#: pcbnew/tools/module_tools.cpp:229
+#: pcbnew/tools/module_tools.cpp:228
 msgid "Hold left mouse button and move cursor over pads to enumerate them"
 msgstr "列挙するためにマウスの左ボタンを押したままパッド上へカーソルを動かす"
 
-#: pcbnew/tools/module_tools.cpp:346
+#: pcbnew/tools/module_tools.cpp:345
 msgid "Select reference point"
 msgstr "基準点を選択"
 
-#: pcbnew/tools/module_tools.cpp:397
+#: pcbnew/tools/module_tools.cpp:396
 #, c-format
 msgid "Copied %d item(s)"
 msgstr "%d のアイテムをコピーしました"
 
-#: pcbnew/tools/module_tools.cpp:421
+#: pcbnew/tools/module_tools.cpp:420
 msgid "Invalid clipboard contents"
 msgstr "不正なクリップボードのデータ"
 
-#: pcbnew/tools/pcbnew_control.cpp:735
+#: pcbnew/tools/pcbnew_control.cpp:744
 msgid "Are you sure you want to delete item?"
 msgstr "本当にアイテムを削除してもよろしいですか？"
 
-#: pcbnew/tools/pcbnew_control.cpp:918
+#: pcbnew/tools/pcbnew_control.cpp:927
 msgid "Not available in OpenGL/Cairo canvases."
 msgstr "OpenGL(3D)/Cairo(2D) キャンバスでは無効."
 
@@ -21949,11 +21983,11 @@ msgstr "選択..."
 msgid "Zoom"
 msgstr "ズーム"
 
-#: pcbnew/tools/selection_tool.cpp:536
+#: pcbnew/tools/selection_tool.cpp:559
 msgid "Selection contains locked items. Do you want to continue?"
 msgstr "ロックされたアイテムを含んで選択しています。続けますか？"
 
-#: pcbnew/tools/selection_tool.cpp:785
+#: pcbnew/tools/selection_tool.cpp:795
 msgid "Clarify selection"
 msgstr "明示的な選択"
 
@@ -22052,7 +22086,7 @@ msgid "The outline of the duplicated zone fails DRC check!"
 msgstr "重複したゾーンの外形線が DRC で不正となりました！"
 
 #: pcbnew/zones_by_polygon.cpp:364 pcbnew/zones_by_polygon.cpp:422
-#: pcbnew/zones_by_polygon.cpp:809
+#: pcbnew/zones_by_polygon.cpp:812
 msgid "Area: DRC outline error"
 msgstr "エリア: DRCアウトライン エラー"
 
@@ -22060,12 +22094,12 @@ msgstr "エリア: DRCアウトライン エラー"
 msgid "Error: a keepout area is allowed only on copper layers"
 msgstr "エラー: キープアウト(禁止)エリアは導体レイヤ上のみに配置できます"
 
-#: pcbnew/zones_by_polygon.cpp:684
+#: pcbnew/zones_by_polygon.cpp:687
 msgid "DRC error: this start point is inside or too close an other area"
 msgstr "DRCエラー: 開始点が内部にあるか、他のエリアに近すぎます"
 
-#: pcbnew/zones_by_polygon.cpp:743
-msgid "DRC error: closing this area creates a drc error with an other area"
+#: pcbnew/zones_by_polygon.cpp:746
+msgid "DRC error: closing this area creates a DRC error with an other area"
 msgstr "DRCエラー: このゾーンを閉じると他のエリアとのDRCエラーが発生します"
 
 #: pcbnew/zones_by_polygon_fill_functions.cpp:46
@@ -22149,7 +22183,7 @@ msgstr "テキスト エディタ"
 msgid "Field Properties"
 msgstr "フィールドのプロパティ"
 
-#: eeschema/dialogs/dialog_eeschema_options_base.h:139
+#: eeschema/dialogs/dialog_eeschema_options_base.h:140
 msgid "Schematic Editor Options"
 msgstr "回路図エディタ オプション"
 
@@ -22358,7 +22392,7 @@ msgstr "未接続"
 msgid "Page Borders"
 msgstr "ページ境界線"
 
-#: gerbview/dialogs/gerbview_dialog_display_options_frame_base.h:65
+#: gerbview/dialogs/gerbview_dialog_display_options_frame_base.h:66
 msgid "Gerbview Options"
 msgstr "Gerbview オプション"
 
@@ -22377,7 +22411,7 @@ msgstr "エラータイプ(%d): <b>%s</b><ul><li> %s: %s </li><li> %s: %s </li><
 msgid "ErrType(%d): <b>%s</b><ul><li> %s: %s </li></ul>"
 msgstr "エラータイプ(%d): <b>%s</b><ul><li> %s: %s </li></ul>"
 
-#: include/common.h:307
+#: include/common.h:266
 #, c-format
 msgid " (%s):"
 msgstr " (%s):"
@@ -22410,6 +22444,27 @@ msgstr ""
 "位置 %d\n"
 "%s : %s"
 
+#: include/richio.h:220
+#, c-format
+msgid ""
+"KiCad was unable to open this file, as it was created with a more recent "
+"version than the one you are running. To open it, you'll need to upgrade "
+"KiCad to a more recent version.\n"
+"\n"
+"Date of KiCad version required (or newer): %s\n"
+"\n"
+"Full error text:\n"
+"%s"
+msgstr ""
+"KiCad は現在使っているバージョンより新しいバージョンで作られたこのファイルを"
+"開くことができません。このファイルを開くためにはKiCadを新しいバージョンへアッ"
+"プグレードする必要があります。\n"
+"\n"
+"必要とされる KiCad バージョンの日付 (または以降): %s\n"
+"\n"
+"エラーの全文:\n"
+"%s"
+
 #: kicad/dialogs/dialog_template_selector_base.h:68
 msgid "Project Template Selector"
 msgstr "プロジェクト テンプレートの選択"
@@ -22438,7 +22493,7 @@ msgstr "削除設定"
 msgid "Copper Zone Properties"
 msgstr "導体ゾーンのプロパティ"
 
-#: pcbnew/dialogs/dialog_create_array_base.h:114
+#: pcbnew/dialogs/dialog_create_array_base.h:113
 msgid "Create Array"
 msgstr "配列の作成"
 
@@ -22450,7 +22505,7 @@ msgstr "デザインルール エディタ"
 msgid "Dimension Properties"
 msgstr "寸法線のプロパティ"
 
-#: pcbnew/dialogs/dialog_drc_base.h:103
+#: pcbnew/dialogs/dialog_drc_base.h:107
 msgid "DRC Control"
 msgstr "DRC"
 
@@ -22459,7 +22514,7 @@ msgstr "DRC"
 msgid "Footprint Properties"
 msgstr "フットプリントのプロパティ"
 
-#: pcbnew/dialogs/dialog_edit_module_text_base.h:70
+#: pcbnew/dialogs/dialog_edit_module_text_base.h:72
 msgid "Footprint Text Properties"
 msgstr "フットプリント テキストのプロパティ"
 
@@ -22515,7 +22570,7 @@ msgstr "グローバル パッド編集"
 msgid "Graphic Item Properties"
 msgstr "図形のプロパティ"
 
-#: pcbnew/dialogs/dialog_graphic_items_options_base.h:71
+#: pcbnew/dialogs/dialog_graphic_items_options_base.h:72
 msgid "Text and Drawings"
 msgstr "テキストと図形"
 
@@ -22567,7 +22622,7 @@ msgstr "インタラクティブ ルーターの設定"
 msgid "Select Footprint Library Folder"
 msgstr "フットプリント ライブラリのフォルダを指定"
 
-#: pcbnew/dialogs/dialog_set_grid_base.h:70
+#: pcbnew/dialogs/dialog_set_grid_base.h:71
 msgid "Grid Properties"
 msgstr "グリッド プロパティ"
 
@@ -22575,11 +22630,11 @@ msgstr "グリッド プロパティ"
 msgid "Target Properties"
 msgstr "ターゲットのプロパティ"
 
-#: pcbnew/dialogs/dialog_track_via_properties_base.h:92
+#: pcbnew/dialogs/dialog_track_via_properties_base.h:94
 msgid "Track & Via Properties"
 msgstr "配線とビアのプロパティ"
 
-#: pcbnew/dialogs/dialog_track_via_size_base.h:57
+#: pcbnew/dialogs/dialog_track_via_size_base.h:62
 msgid "Track width and via size"
 msgstr "配線幅とビアサイズ"
 
