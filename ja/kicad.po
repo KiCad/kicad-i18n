@@ -2,18 +2,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-18 01:30+0900\n"
-"PO-Revision-Date: 2016-07-18 02:48+0900\n"
+"POT-Creation-Date: 2016-07-23 20:24+0900\n"
+"PO-Revision-Date: 2016-07-23 20:42+0900\n"
 "Last-Translator: starfort-jp <starfort@nifty.com>\n"
 "Language-Team: kicad_jp <kaoruzen@gmail.com>\n"
 "Language: ja_JP\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-KeywordsList: _\n"
+"X-Poedit-KeywordsList: _;_HKI\n"
 "X-Poedit-Basepath: kicad-6294\n"
 "X-Generator: Poedit 1.8.8\n"
 "X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: eeschema/hotkeys.cpp\n"
 
 #: 3d-viewer/3d_canvas.cpp:399
 msgid "Zoom +"
@@ -838,6 +839,126 @@ msgstr "ブロックをミラー反転"
 msgid "Marker Info"
 msgstr "マーカーの情報"
 
+#: common/colors.cpp:39 eeschema/dialogs/dialog_color_config.cpp:192
+msgid "Black"
+msgstr "黒"
+
+#: common/colors.cpp:40
+msgid "Gray 1"
+msgstr "灰色１"
+
+#: common/colors.cpp:41
+msgid "Gray 2"
+msgstr "灰色２"
+
+#: common/colors.cpp:42
+msgid "Gray 3"
+msgstr "灰色３"
+
+#: common/colors.cpp:43 eeschema/dialogs/dialog_color_config.cpp:191
+msgid "White"
+msgstr "白"
+
+#: common/colors.cpp:44
+msgid "L.Yellow"
+msgstr "淡黄色"
+
+#: common/colors.cpp:45
+msgid "Blue 1"
+msgstr "青色１"
+
+#: common/colors.cpp:46
+msgid "Green 1"
+msgstr "緑色１"
+
+#: common/colors.cpp:47
+msgid "Cyan 1"
+msgstr "シアン１"
+
+#: common/colors.cpp:48
+msgid "Red 1"
+msgstr "赤色１"
+
+#: common/colors.cpp:49
+msgid "Magenta 1"
+msgstr "マゼンタ１"
+
+#: common/colors.cpp:50
+msgid "Brown 1"
+msgstr "茶色１"
+
+#: common/colors.cpp:51
+msgid "Blue 2"
+msgstr "青色２"
+
+#: common/colors.cpp:52
+msgid "Green 2"
+msgstr "緑色２"
+
+#: common/colors.cpp:53
+msgid "Cyan 2"
+msgstr "シアン２"
+
+#: common/colors.cpp:54
+msgid "Red 2"
+msgstr "赤色２"
+
+#: common/colors.cpp:55
+msgid "Magenta 2"
+msgstr "マゼンタ２"
+
+#: common/colors.cpp:56
+msgid "Brown 2"
+msgstr "茶色２"
+
+#: common/colors.cpp:57
+msgid "Blue 3"
+msgstr "青色３"
+
+#: common/colors.cpp:58
+msgid "Green 3"
+msgstr "緑色３"
+
+#: common/colors.cpp:59
+msgid "Cyan 3"
+msgstr "シアン３"
+
+#: common/colors.cpp:60
+msgid "Red 3"
+msgstr "赤色３"
+
+#: common/colors.cpp:61
+msgid "Magenta 3"
+msgstr "マゼンタ３"
+
+#: common/colors.cpp:62
+msgid "Yellow 3"
+msgstr "黄色３"
+
+#: common/colors.cpp:63
+msgid "Blue 4"
+msgstr "青色４"
+
+#: common/colors.cpp:64
+msgid "Green 4"
+msgstr "緑色４"
+
+#: common/colors.cpp:65
+msgid "Cyan 4"
+msgstr "シアン４"
+
+#: common/colors.cpp:66
+msgid "Red 4"
+msgstr "赤色４"
+
+#: common/colors.cpp:67
+msgid "Magenta 4"
+msgstr "マゼンタ４"
+
+#: common/colors.cpp:68
+msgid "Yellow 4"
+msgstr "黄色４"
+
 #: common/common.cpp:152
 msgid "\""
 msgstr "inch"
@@ -1260,7 +1381,8 @@ msgstr "変更の確認"
 msgid "Select a row and press a new key combination to alter the binding."
 msgstr "項目を選択し、新しいキーを押して割り当てを変更してください。"
 
-#: common/dialogs/dialog_hotkeys_editor_base.cpp:39
+#: common/dialogs/dialog_hotkeys_editor_base.cpp:39 eeschema/hotkeys.cpp:124
+#: pagelayout_editor/hotkeys.cpp:89 pcbnew/hotkeys.cpp:193
 msgid "Undo"
 msgstr "元に戻す"
 
@@ -1276,11 +1398,11 @@ msgstr "このイメージに対してスケール値が小さすぎます。"
 msgid "Scale is too large for this image"
 msgstr "このイメージに対してスケール値が大きすぎます。"
 
-#: common/dialogs/dialog_image_editor_base.cpp:33
+#: common/dialogs/dialog_image_editor_base.cpp:33 eeschema/hotkeys.cpp:168
 msgid "Mirror X"
 msgstr "X軸で反転"
 
-#: common/dialogs/dialog_image_editor_base.cpp:36
+#: common/dialogs/dialog_image_editor_base.cpp:36 eeschema/hotkeys.cpp:166
 msgid "Mirror Y"
 msgstr "Y軸で反転"
 
@@ -1337,6 +1459,62 @@ msgstr "アイテム: "
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:196
 msgid "Messages:"
 msgstr "メッセージ: "
+
+#: common/dialogs/dialog_page_settings.cpp:63
+msgid "A4 210x297mm"
+msgstr "A4 210x297mm"
+
+#: common/dialogs/dialog_page_settings.cpp:64
+msgid "A3 297x420mm"
+msgstr "A3 297x420mm"
+
+#: common/dialogs/dialog_page_settings.cpp:65
+msgid "A2 420x594mm"
+msgstr "A2 420x594mm"
+
+#: common/dialogs/dialog_page_settings.cpp:66
+msgid "A1 594x841mm"
+msgstr "A1 594x841mm"
+
+#: common/dialogs/dialog_page_settings.cpp:67
+msgid "A0 841x1189mm"
+msgstr "A0 841x1189mm"
+
+#: common/dialogs/dialog_page_settings.cpp:68
+msgid "A 8.5x11in"
+msgstr "A 8.5x11in"
+
+#: common/dialogs/dialog_page_settings.cpp:69
+msgid "B 11x17in"
+msgstr "B 11x17in"
+
+#: common/dialogs/dialog_page_settings.cpp:70
+msgid "C 17x22in"
+msgstr "C 17x22in"
+
+#: common/dialogs/dialog_page_settings.cpp:71
+msgid "D 22x34in"
+msgstr "D 22x34in"
+
+#: common/dialogs/dialog_page_settings.cpp:72
+msgid "E 34x44in"
+msgstr "E 34x44in"
+
+#: common/dialogs/dialog_page_settings.cpp:73
+msgid "USLetter 8.5x11in"
+msgstr "USLetter 8.5x11in"
+
+#: common/dialogs/dialog_page_settings.cpp:74
+msgid "USLegal 8.5x14in"
+msgstr "USLegal 8.5x14in"
+
+#: common/dialogs/dialog_page_settings.cpp:75
+msgid "USLedger 11x17in"
+msgstr "USLedger 11x17in"
+
+#: common/dialogs/dialog_page_settings.cpp:76
+msgid "User (Custom)"
+msgstr "ユーザー (カスタム)"
 
 #: common/dialogs/dialog_page_settings.cpp:270
 #: common/dialogs/dialog_page_settings.cpp:716
@@ -2304,8 +2482,8 @@ msgstr "塗りつぶしモードで外形を表示"
 msgid "Show outlines in sketch mode"
 msgstr "スケッチモードで外形を表示"
 
-#: cvpcb/class_DisplayFootprintsFrame.cpp:401 pcbnew/moduleframe.cpp:691
-#: pcbnew/pcbframe.cpp:656
+#: cvpcb/class_DisplayFootprintsFrame.cpp:401 pcbnew/hotkeys.cpp:187
+#: pcbnew/moduleframe.cpp:691 pcbnew/pcbframe.cpp:656
 msgid "3D Viewer"
 msgstr "3Dビューア"
 
@@ -3386,14 +3564,6 @@ msgstr "コンポーネント"
 #: eeschema/dialogs/dialog_color_config.cpp:105
 msgid "Miscellaneous"
 msgstr "その他"
-
-#: eeschema/dialogs/dialog_color_config.cpp:191
-msgid "White"
-msgstr "白"
-
-#: eeschema/dialogs/dialog_color_config.cpp:192
-msgid "Black"
-msgstr "黒"
 
 #: eeschema/dialogs/dialog_color_config.cpp:274
 msgid ""
@@ -5341,7 +5511,7 @@ msgstr "固有のタイムスタンプ:"
 msgid "Find"
 msgstr "検索"
 
-#: eeschema/dialogs/dialog_schematic_find.cpp:48
+#: eeschema/dialogs/dialog_schematic_find.cpp:48 eeschema/hotkeys.cpp:207
 msgid "Find and Replace"
 msgstr "検索と置換"
 
@@ -5754,6 +5924,245 @@ msgstr "ナビゲータ"
 #: eeschema/hierarch.cpp:157
 msgid "Root"
 msgstr "ルート"
+
+#: eeschema/hotkeys.cpp:87
+msgid "Fit on Screen"
+msgstr "スクリーンにフィット"
+
+#: eeschema/hotkeys.cpp:89 gerbview/hotkeys.cpp:62
+#: pagelayout_editor/hotkeys.cpp:72 pcbnew/basepcbframe.cpp:837
+#: pcbnew/hotkeys.cpp:159 pcbnew/hotkeys.cpp:161
+#: pcbnew/tools/common_actions.cpp:210
+msgid "Zoom Auto"
+msgstr "自動ズーム"
+
+#: eeschema/hotkeys.cpp:93 gerbview/hotkeys.cpp:63
+#: pagelayout_editor/hotkeys.cpp:73 pcbnew/hotkeys.cpp:164
+msgid "Zoom Center"
+msgstr "中心へズーム"
+
+#: eeschema/hotkeys.cpp:98 eeschema/hotkeys.cpp:100 gerbview/hotkeys.cpp:64
+#: pagelayout_editor/hotkeys.cpp:75 pcbnew/hotkeys.cpp:168
+#: pcbnew/hotkeys.cpp:170
+msgid "Zoom Redraw"
+msgstr "再描画をズーム"
+
+#: eeschema/hotkeys.cpp:106 eeschema/hotkeys.cpp:108 gerbview/hotkeys.cpp:66
+#: pagelayout_editor/hotkeys.cpp:77 pcbnew/hotkeys.cpp:175
+#: pcbnew/hotkeys.cpp:177 pcbnew/tools/common_actions.cpp:190
+msgid "Zoom In"
+msgstr "ズーム イン"
+
+#: eeschema/hotkeys.cpp:113 eeschema/hotkeys.cpp:115 gerbview/hotkeys.cpp:65
+#: pagelayout_editor/hotkeys.cpp:76 pcbnew/hotkeys.cpp:182
+#: pcbnew/hotkeys.cpp:184 pcbnew/tools/common_actions.cpp:194
+msgid "Zoom Out"
+msgstr "ズーム アウト"
+
+#: eeschema/hotkeys.cpp:118 gerbview/hotkeys.cpp:67 kicad/menubar.cpp:136
+#: pagelayout_editor/hotkeys.cpp:78 pcbnew/hotkeys.cpp:189
+msgid "Help (this window)"
+msgstr "ヘルプ (このウィンドウ)"
+
+#: eeschema/hotkeys.cpp:119 gerbview/hotkeys.cpp:69
+#: pagelayout_editor/hotkeys.cpp:70 pcbnew/hotkeys.cpp:128
+msgid "Reset Local Coordinates"
+msgstr "ローカル座標をリセット"
+
+#: eeschema/hotkeys.cpp:120 eeschema/menubar.cpp:258
+#: eeschema/onrightclick.cpp:196
+msgid "Leave Sheet"
+msgstr "シートから抜ける"
+
+#: eeschema/hotkeys.cpp:128 eeschema/hotkeys.cpp:130
+#: pagelayout_editor/hotkeys.cpp:90 pcbnew/hotkeys.cpp:197
+#: pcbnew/hotkeys.cpp:199
+msgid "Redo"
+msgstr "やり直し"
+
+#: eeschema/hotkeys.cpp:135 pagelayout_editor/hotkeys.cpp:67
+#: pcbnew/hotkeys.cpp:67
+msgid "Mouse Left Click"
+msgstr "マウスの左クリック"
+
+#: eeschema/hotkeys.cpp:136 pagelayout_editor/hotkeys.cpp:68
+#: pcbnew/hotkeys.cpp:69
+msgid "Mouse Left Double Click"
+msgstr "マウスの左ダブルクリック"
+
+#: eeschema/hotkeys.cpp:139 eeschema/onrightclick.cpp:665
+msgid "Begin Wire"
+msgstr "配線の開始"
+
+#: eeschema/hotkeys.cpp:140 eeschema/onrightclick.cpp:715
+msgid "Begin Bus"
+msgstr "バスの開始"
+
+#: eeschema/hotkeys.cpp:141
+msgid "End Line Wire Bus"
+msgstr "ワイヤ／バスの線を終端"
+
+#: eeschema/hotkeys.cpp:144 eeschema/onrightclick.cpp:698
+#: eeschema/onrightclick.cpp:736
+msgid "Add Label"
+msgstr "ラベルを追加"
+
+#: eeschema/hotkeys.cpp:145
+msgid "Add Hierarchical Label"
+msgstr "階層ラベルを追加"
+
+#: eeschema/hotkeys.cpp:147 eeschema/onrightclick.cpp:703
+#: eeschema/onrightclick.cpp:741
+msgid "Add Global Label"
+msgstr "グローバル ラベルを追加"
+
+#: eeschema/hotkeys.cpp:149 eeschema/onrightclick.cpp:696
+#: eeschema/onrightclick.cpp:734
+msgid "Add Junction"
+msgstr "ジャンクションを追加"
+
+#: eeschema/hotkeys.cpp:150
+msgid "Add Component"
+msgstr "コンポーネントを追加"
+
+#: eeschema/hotkeys.cpp:152
+msgid "Add Power"
+msgstr "電源を追加"
+
+#: eeschema/hotkeys.cpp:154
+msgid "Add No Connect Flag"
+msgstr "空き端子フラグを追加"
+
+#: eeschema/hotkeys.cpp:156
+msgid "Add Sheet"
+msgstr "シートを追加"
+
+#: eeschema/hotkeys.cpp:158
+msgid "Add Bus Entry"
+msgstr "バス エントリを追加"
+
+#: eeschema/hotkeys.cpp:160
+msgid "Add Wire Entry"
+msgstr "ワイヤ エントリを追加"
+
+#: eeschema/hotkeys.cpp:162
+msgid "Add Graphic PolyLine"
+msgstr "図形ポリラインを追加"
+
+#: eeschema/hotkeys.cpp:164
+msgid "Add Graphic Text"
+msgstr "図形テキストを追加"
+
+#: eeschema/hotkeys.cpp:170
+msgid "Orient Normal Component"
+msgstr "標準のコンポーネントの方向"
+
+#: eeschema/hotkeys.cpp:172 pcbnew/hotkeys.cpp:116
+msgid "Rotate Item"
+msgstr "アイテムを回転"
+
+#: eeschema/hotkeys.cpp:173 pcbnew/hotkeys.cpp:113
+msgid "Edit Item"
+msgstr "アイテムを編集"
+
+#: eeschema/hotkeys.cpp:174
+msgid "Edit Component Value"
+msgstr "コンポーネントの定数を編集"
+
+#: eeschema/hotkeys.cpp:177
+msgid "Edit Component Reference"
+msgstr "コンポーネントのリファレンスを編集"
+
+#: eeschema/hotkeys.cpp:180
+msgid "Edit Component Footprint"
+msgstr "コンポーネントのフットプリントを編集"
+
+#: eeschema/hotkeys.cpp:183
+msgid "Edit with Component Editor"
+msgstr "コンポーネント ライブラリ エディタで編集"
+
+#: eeschema/hotkeys.cpp:187
+msgid "Move Schematic Item"
+msgstr "回路図のアイテムを移動"
+
+#: eeschema/hotkeys.cpp:191
+msgid "Copy Component or Label"
+msgstr "コンポーネントまたはラベルをコピー"
+
+#: eeschema/hotkeys.cpp:195 pcbnew/hotkeys.cpp:124
+msgid "Drag Item"
+msgstr "アイテムをドラッグ"
+
+#: eeschema/hotkeys.cpp:196 eeschema/onrightclick.cpp:841
+msgid "Save Block"
+msgstr "ブロックを保存"
+
+#: eeschema/hotkeys.cpp:197
+msgid "Move Block -> Drag Block"
+msgstr "ブロックを移動 -> ブロックをドラッグ"
+
+#: eeschema/hotkeys.cpp:199
+msgid "Repeat Last Item"
+msgstr "最後のアイテムを繰り返し"
+
+#: eeschema/hotkeys.cpp:200 pagelayout_editor/hotkeys.cpp:85
+msgid "Delete Item"
+msgstr "アイテムを削除"
+
+#: eeschema/hotkeys.cpp:201 eeschema/onrightclick.cpp:649
+#: eeschema/onrightclick.cpp:683
+msgid "Delete Node"
+msgstr "ノードを削除"
+
+#: eeschema/hotkeys.cpp:204 pcbnew/dialogs/dialog_find_base.cpp:38
+#: pcbnew/hotkeys.cpp:100
+msgid "Find Item"
+msgstr "アイテム検索"
+
+#: eeschema/hotkeys.cpp:205
+msgid "Find Next Item"
+msgstr "次のアイテムを検索"
+
+#: eeschema/hotkeys.cpp:209
+msgid "Find Next DRC Marker"
+msgstr "次の DRC マーカーを検索"
+
+#: eeschema/hotkeys.cpp:213
+msgid "Create Pin"
+msgstr "ピンの作成"
+
+#: eeschema/hotkeys.cpp:214
+msgid "Repeat Pin"
+msgstr "ピンの繰り返し"
+
+#: eeschema/hotkeys.cpp:215
+msgid "Move Library Item"
+msgstr "ライブラリ アイテムを移動"
+
+#: eeschema/hotkeys.cpp:218
+msgid "Save Library"
+msgstr "ライブラリを保存"
+
+#: eeschema/hotkeys.cpp:219
+msgid "Save Schematic"
+msgstr "回路図を保存"
+
+#: eeschema/hotkeys.cpp:220
+msgid "Load Schematic"
+msgstr "回路図を読み込み"
+
+#: eeschema/hotkeys.cpp:321 pagelayout_editor/hotkeys.cpp:114
+#: pcbnew/hotkeys.cpp:350
+msgid "Common"
+msgstr "共通"
+
+#: eeschema/hotkeys.cpp:322
+msgid "Schematic Editor"
+msgstr "回路図エディタ"
+
+#: eeschema/hotkeys.cpp:323 eeschema/libeditframe.cpp:181
+msgid "Library Editor"
+msgstr "コンポーネント ライブラリ エディタ"
 
 #: eeschema/hotkeys.cpp:735
 msgid "Add Pin"
@@ -6481,10 +6890,6 @@ msgstr "ファイル名:"
 msgid "Can't save file <%s>"
 msgstr "ファイル <%s> が保存できません"
 
-#: eeschema/libeditframe.cpp:181
-msgid "Library Editor"
-msgstr "コンポーネント ライブラリ エディタ"
-
 #: eeschema/libeditframe.cpp:317
 msgid "Save the changes in the library before closing?"
 msgstr "終了前にライブラリの変更を保存しますか？"
@@ -6827,10 +7232,6 @@ msgstr "階層シートのナビゲート"
 msgid "&Leave Sheet"
 msgstr "シートから抜ける(&L)"
 
-#: eeschema/menubar.cpp:258 eeschema/onrightclick.cpp:196
-msgid "Leave Sheet"
-msgstr "シートから抜ける"
-
 #: eeschema/menubar.cpp:264
 msgid "&Component"
 msgstr "コンポーネント(&C)"
@@ -6991,7 +7392,7 @@ msgstr "CvPcb の実行"
 msgid "&Layout Printed Circuit Board"
 msgstr "プリント基板のレイアウト(&L)"
 
-#: eeschema/menubar.cpp:477 kicad/menubar.cpp:370
+#: eeschema/menubar.cpp:477 kicad/menubar.cpp:145 kicad/menubar.cpp:370
 msgid "Run Pcbnew"
 msgstr "プリント基板エディタ(Pcbnew) を起動"
 
@@ -7281,7 +7682,7 @@ msgstr "縦軸でミラー"
 
 #: eeschema/onrightclick.cpp:384
 msgid "Orient Component"
-msgstr "コンポーネントの角度"
+msgstr "コンポーネントの方向"
 
 #: eeschema/onrightclick.cpp:390
 msgid "Copy Component"
@@ -7405,18 +7806,10 @@ msgstr "ジャンクション (接続点) をドラッグ"
 msgid "Break Wire"
 msgstr "配線を切断"
 
-#: eeschema/onrightclick.cpp:649 eeschema/onrightclick.cpp:683
-msgid "Delete Node"
-msgstr "ノードを削除"
-
 # コネクション→一連のネットの意であればそのまま用語として残す
 #: eeschema/onrightclick.cpp:651 eeschema/onrightclick.cpp:685
 msgid "Delete Connection"
 msgstr "コネクションを削除"
-
-#: eeschema/onrightclick.cpp:665
-msgid "Begin Wire"
-msgstr "配線の開始"
 
 #: eeschema/onrightclick.cpp:673
 msgid "Wire End"
@@ -7429,22 +7822,6 @@ msgstr "ワイヤをドラッグ"
 #: eeschema/onrightclick.cpp:681
 msgid "Delete Wire"
 msgstr "ワイヤを削除"
-
-#: eeschema/onrightclick.cpp:696 eeschema/onrightclick.cpp:734
-msgid "Add Junction"
-msgstr "ジャンクションを追加"
-
-#: eeschema/onrightclick.cpp:698 eeschema/onrightclick.cpp:736
-msgid "Add Label"
-msgstr "ラベルを追加"
-
-#: eeschema/onrightclick.cpp:703 eeschema/onrightclick.cpp:741
-msgid "Add Global Label"
-msgstr "グローバル ラベルを追加"
-
-#: eeschema/onrightclick.cpp:715
-msgid "Begin Bus"
-msgstr "バスの開始"
 
 #: eeschema/onrightclick.cpp:723
 msgid "Bus End"
@@ -7521,10 +7898,6 @@ msgstr "シート ピンを削除"
 #: eeschema/onrightclick.cpp:833
 msgid "Window Zoom"
 msgstr "選択範囲ズーム"
-
-#: eeschema/onrightclick.cpp:841
-msgid "Save Block"
-msgstr "ブロックを保存"
 
 #: eeschema/onrightclick.cpp:845
 msgid "Drag Block"
@@ -8286,6 +8659,7 @@ msgstr "ネットリストの生成"
 
 #: eeschema/tool_sch.cpp:162
 #: pcbnew/dialogs/dialog_edit_module_for_BoardEditor_base.cpp:134
+#: pcbnew/hotkeys.cpp:352
 msgid "Footprint Editor"
 msgstr "フットプリント エディタ"
 
@@ -9025,6 +9399,42 @@ msgstr "イメージ名: '%s', レイヤ: '%s'"
 msgid "X2 attr"
 msgstr "X2 属性"
 
+#: gerbview/hotkeys.cpp:68 pcbnew/hotkeys.cpp:223
+msgid "Switch Units"
+msgstr "単位を切替"
+
+#: gerbview/hotkeys.cpp:71
+msgid "Gbr Lines Display Mode"
+msgstr "GBR 線表示モード"
+
+#: gerbview/hotkeys.cpp:72
+msgid "Gbr Flashed Display Mode"
+msgstr "GBR フラッシュ表示モード"
+
+#: gerbview/hotkeys.cpp:73
+msgid "Gbr Polygons Display Mode"
+msgstr "GBR ポリゴン表示モード"
+
+#: gerbview/hotkeys.cpp:74
+msgid "Gbr Negative Obj Display Mode"
+msgstr "GBR ネガティブObj表示モード"
+
+#: gerbview/hotkeys.cpp:75
+msgid "DCodes Display Mode"
+msgstr "Dコード 表示モード"
+
+#: gerbview/hotkeys.cpp:77 pcbnew/hotkeys.cpp:91
+msgid "Switch to Next Layer"
+msgstr "次のレイヤへ切替"
+
+#: gerbview/hotkeys.cpp:78 pcbnew/hotkeys.cpp:93
+msgid "Switch to Previous Layer"
+msgstr "前のレイヤへ切替"
+
+#: gerbview/hotkeys.cpp:96
+msgid "Gerbview Hotkeys"
+msgstr "Gerbview ホットキー"
+
 #: gerbview/init_gbr_drawlayers.cpp:48
 msgid "Current data will be lost?"
 msgstr "現在のデータは失われます。よろしいですか？"
@@ -9213,7 +9623,7 @@ msgstr "ツール"
 
 #: gerbview/toolbars_gerber.cpp:155
 msgid "Turn polar coordinate on"
-msgstr "極座標表示に切り替え"
+msgstr "極座標表示に切替"
 
 #: gerbview/toolbars_gerber.cpp:159
 msgid "Set units to inches"
@@ -9462,6 +9872,54 @@ msgstr ""
 "プロジェクト名:\n"
 "%s\n"
 
+#: kicad/menubar.cpp:137
+msgid "Load project"
+msgstr "プロジェクトの読み込み"
+
+#: kicad/menubar.cpp:138
+msgid "Save project"
+msgstr "プロジェクトの保存"
+
+#: kicad/menubar.cpp:139 kicad/menubar.cpp:244
+msgid "New Project"
+msgstr "新規プロジェクト"
+
+#: kicad/menubar.cpp:140
+msgid "New Prj From Template"
+msgstr "テンプレートから新規プロジェクト"
+
+#: kicad/menubar.cpp:143 kicad/menubar.cpp:363
+msgid "Run Eeschema"
+msgstr "回路図エディタ(Eeschema) を起動"
+
+#: kicad/menubar.cpp:144
+msgid "Run LibEdit"
+msgstr "コンポーネント ライブラリ エディタ を起動"
+
+#: kicad/menubar.cpp:146
+msgid "Run FpEditor"
+msgstr "フットプリント エディタ を起動"
+
+#: kicad/menubar.cpp:147 kicad/menubar.cpp:378
+msgid "Run Gerbview"
+msgstr "ガーバビューア(GerbView) を起動"
+
+#: kicad/menubar.cpp:148 kicad/menubar.cpp:382
+msgid "Run Bitmap2Component"
+msgstr "画像変換ツール(Bitmap2Component) を起動"
+
+#: kicad/menubar.cpp:150
+msgid "Run PcbCalculator"
+msgstr "電気計算ツール(PcbCalculator) を起動"
+
+#: kicad/menubar.cpp:152
+msgid "Run PlEditor"
+msgstr "図枠エディタ(Pl_Editor) を起動"
+
+#: kicad/menubar.cpp:168
+msgid "Kicad Manager Hotkeys"
+msgstr "KiCad ホットキー マネージャー"
+
 #: kicad/menubar.cpp:213
 msgid "&Open Project"
 msgstr "プロジェクトを開く(&O)"
@@ -9489,10 +9947,6 @@ msgstr "テンプレートから新規プロジェクトを作成(&T)"
 #: kicad/menubar.cpp:239
 msgid "Create a new project from a template"
 msgstr "テンプレートから新規プロジェクト作成"
-
-#: kicad/menubar.cpp:244
-msgid "New Project"
-msgstr "新規プロジェクト"
 
 #: kicad/menubar.cpp:245 kicad/menubar.cpp:467
 msgid "Create new project"
@@ -9583,10 +10037,6 @@ msgstr "PDFビューア(&P)"
 msgid "PDF viewer preferences"
 msgstr "PDFビューアの設定"
 
-#: kicad/menubar.cpp:363
-msgid "Run Eeschema"
-msgstr "回路図エディタ(Eeschema) を起動"
-
 #: kicad/menubar.cpp:366
 msgid "Run Library Editor"
 msgstr "コンポーネント ライブラリ エディタ を起動"
@@ -9594,14 +10044,6 @@ msgstr "コンポーネント ライブラリ エディタ を起動"
 #: kicad/menubar.cpp:374
 msgid "Run Footprint Editor"
 msgstr "フットプリント エディタ を起動"
-
-#: kicad/menubar.cpp:378
-msgid "Run Gerbview"
-msgstr "ガーバビューア(GerbView) を起動"
-
-#: kicad/menubar.cpp:382
-msgid "Run Bitmap2Component"
-msgstr "画像変換ツール(Bitmap2Component) を起動"
 
 #: kicad/menubar.cpp:389
 msgid "Run Pcb Calculator"
@@ -10088,6 +10530,28 @@ msgstr "ファイルの作成"
 msgid "Unable to create <%s>"
 msgstr "<%s> を作成できません"
 
+#: pagelayout_editor/hotkeys.cpp:79 pagelayout_editor/onrightclick.cpp:97
+#: pcbnew/hotkeys.cpp:117 pcbnew/dialogs/dialog_move_exact_base.h:69
+msgid "Move Item"
+msgstr "アイテムの移動"
+
+#: pagelayout_editor/hotkeys.cpp:80 pagelayout_editor/onrightclick.cpp:111
+#: pcbnew/hotkeys.cpp:112
+msgid "Place Item"
+msgstr "アイテムの配置"
+
+#: pagelayout_editor/hotkeys.cpp:81 pagelayout_editor/onrightclick.cpp:83
+msgid "Move Start Point"
+msgstr "始点を移動"
+
+#: pagelayout_editor/hotkeys.cpp:83 pagelayout_editor/onrightclick.cpp:91
+msgid "Move End Point"
+msgstr "終点を移動"
+
+#: pagelayout_editor/hotkeys.cpp:119
+msgid "Page Layout Editor"
+msgstr "図枠エディタ"
+
 #: pagelayout_editor/menubar.cpp:62
 msgid "&New Page Layout Design"
 msgstr "新規図枠(&N)"
@@ -10159,23 +10623,6 @@ msgstr "テキストを追加"
 #: pagelayout_editor/onrightclick.cpp:55
 msgid "Add Bitmap"
 msgstr "ビットマップを追加"
-
-#: pagelayout_editor/onrightclick.cpp:83
-msgid "Move Start Point"
-msgstr "始点を移動"
-
-#: pagelayout_editor/onrightclick.cpp:91
-msgid "Move End Point"
-msgstr "終点を移動"
-
-#: pagelayout_editor/onrightclick.cpp:97
-#: pcbnew/dialogs/dialog_move_exact_base.h:69
-msgid "Move Item"
-msgstr "アイテムの移動"
-
-#: pagelayout_editor/onrightclick.cpp:111
-msgid "Place Item"
-msgstr "アイテムの配置"
 
 #: pagelayout_editor/page_layout_writer.cpp:103
 #: pagelayout_editor/page_layout_writer.cpp:130
@@ -11627,10 +12074,6 @@ msgstr "直交座標表示"
 #: pcbnew/basepcbframe.cpp:477
 msgid "Show pads in fill mode"
 msgstr "塗りつぶしモードでパッドを表示"
-
-#: pcbnew/basepcbframe.cpp:837 pcbnew/tools/common_actions.cpp:210
-msgid "Zoom Auto"
-msgstr "自動ズーム"
 
 #: pcbnew/basepcbframe.cpp:842
 msgid "Zoom "
@@ -14446,10 +14889,6 @@ msgstr "キーワード:"
 #: pcbnew/dialogs/dialog_find_base.cpp:29
 msgid "Do not warp mouse pointer"
 msgstr "マウスカーソルを移動しない"
-
-#: pcbnew/dialogs/dialog_find_base.cpp:38
-msgid "Find Item"
-msgstr "アイテム検索"
 
 #: pcbnew/dialogs/dialog_find_base.cpp:42
 msgid "Find Marker"
@@ -17613,13 +18052,13 @@ msgstr "X:"
 msgid "Y:"
 msgstr "Y:"
 
-#: pcbnew/dialogs/dialog_set_grid_base.cpp:94
+#: pcbnew/dialogs/dialog_set_grid_base.cpp:94 pcbnew/hotkeys.cpp:132
 msgid "Reset Grid Origin"
 msgstr "グリッド原点のリセット"
 
 #: pcbnew/dialogs/dialog_set_grid_base.cpp:101
 msgid "Fast Switching"
-msgstr "高速切り替え用のグリッド"
+msgstr "高速切替用のグリッド"
 
 #: pcbnew/dialogs/dialog_set_grid_base.cpp:109
 msgid "Grid 1:"
@@ -18508,6 +18947,275 @@ msgstr "ネット フィルター"
 msgid "Select Net"
 msgstr "ネットの選択"
 
+#: pcbnew/hotkeys.cpp:72
+msgid "Switch to Copper (B.Cu) layer"
+msgstr "導体レイヤ (B.Cu) へ切替"
+
+#: pcbnew/hotkeys.cpp:75
+msgid "Switch to Component (F.Cu) layer"
+msgstr "部品レイヤ (F.Cu) へ切替"
+
+#: pcbnew/hotkeys.cpp:78
+msgid "Switch to Inner layer 1"
+msgstr "内層レイヤ１へ切替"
+
+#: pcbnew/hotkeys.cpp:80
+msgid "Switch to Inner layer 2"
+msgstr "内層レイヤ２へ切替"
+
+#: pcbnew/hotkeys.cpp:82
+msgid "Switch to Inner layer 3"
+msgstr "内層レイヤ３へ切替"
+
+#: pcbnew/hotkeys.cpp:84
+msgid "Switch to Inner layer 4"
+msgstr "内層レイヤ４へ切替"
+
+#: pcbnew/hotkeys.cpp:86
+msgid "Switch to Inner layer 5"
+msgstr "内層レイヤ５へ切替"
+
+#: pcbnew/hotkeys.cpp:88
+msgid "Switch to Inner layer 6"
+msgstr "内層レイヤ６へ切替"
+
+#: pcbnew/hotkeys.cpp:96 pcbnew/librairi.cpp:72
+msgid "Save Footprint"
+msgstr "フットプリントの保存"
+
+#: pcbnew/hotkeys.cpp:97
+msgid "Save Board"
+msgstr "ボードを保存"
+
+#: pcbnew/hotkeys.cpp:98
+msgid "Save Board As"
+msgstr "名前を付けてボードを保存"
+
+#: pcbnew/hotkeys.cpp:99
+msgid "Load Board"
+msgstr "ボードを読み込み"
+
+#: pcbnew/hotkeys.cpp:101
+msgid "Delete Track Segment"
+msgstr "配線セグメントを削除"
+
+#: pcbnew/hotkeys.cpp:102
+msgid "Add New Track"
+msgstr "新規配線を追加"
+
+#: pcbnew/hotkeys.cpp:103
+msgid "Add Through Via"
+msgstr "貫通ビアを追加"
+
+#: pcbnew/hotkeys.cpp:104
+msgid "Select Layer and Add Through Via"
+msgstr "レイヤを指定して貫通ビアを追加"
+
+#: pcbnew/hotkeys.cpp:106
+msgid "Add MicroVia"
+msgstr "マイクロビアを追加"
+
+#: pcbnew/hotkeys.cpp:107
+msgid "Add Blind/Buried Via"
+msgstr "ブラインドビア(BVH)/ベリッドホール(BH)を追加"
+
+#: pcbnew/hotkeys.cpp:108
+msgid "Select Layer and Add Blind/Buried Via"
+msgstr "レイヤを指定してブラインド/ベリッドビアを追加"
+
+#: pcbnew/hotkeys.cpp:110 pcbnew/onrightclick.cpp:605
+#: pcbnew/router/router_tool.cpp:101
+msgid "Switch Track Posture"
+msgstr "配線の形状を変更"
+
+#: pcbnew/hotkeys.cpp:111
+msgid "Drag Track Keep Slope"
+msgstr "配線のドラッグ移動 (角度保持)"
+
+#: pcbnew/hotkeys.cpp:114 pcbnew/onrightclick.cpp:827
+msgid "Edit with Footprint Editor"
+msgstr "フットプリント エディタで編集"
+
+#: pcbnew/hotkeys.cpp:115
+msgid "Flip Item"
+msgstr "アイテムを裏返す"
+
+#: pcbnew/hotkeys.cpp:118
+msgid "Move Item Exactly"
+msgstr "数値を指定してアイテムを移動"
+
+#: pcbnew/hotkeys.cpp:119
+msgid "Duplicate Item"
+msgstr "アイテムの複製"
+
+#: pcbnew/hotkeys.cpp:120
+msgid "Duplicate Item and Increment"
+msgstr "アイテムの複製とインクリメント"
+
+#: pcbnew/hotkeys.cpp:122 pcbnew/dialogs/dialog_create_array_base.h:113
+msgid "Create Array"
+msgstr "配列の作成"
+
+#: pcbnew/hotkeys.cpp:123
+msgid "Copy Item"
+msgstr "アイテムをコピー"
+
+#: pcbnew/hotkeys.cpp:125 pcbnew/onrightclick.cpp:349
+msgid "Get and Move Footprint"
+msgstr "フットプリントの検索と移動"
+
+#: pcbnew/hotkeys.cpp:126
+msgid "Lock/Unlock Footprint"
+msgstr "フットプリントをロック／ロック解除"
+
+#: pcbnew/hotkeys.cpp:127
+msgid "Delete Track or Footprint"
+msgstr "配線またはフットプリントを削除"
+
+#: pcbnew/hotkeys.cpp:129
+msgid "Toggle High Contrast Mode"
+msgstr "ハイ コントラスト表示モードとの切替"
+
+#: pcbnew/hotkeys.cpp:131
+msgid "Set Grid Origin"
+msgstr "グリッド原点のセット"
+
+#: pcbnew/hotkeys.cpp:134
+msgid "Switch to Default Canvas"
+msgstr "描画キャンバスを 標準 に切替"
+
+#: pcbnew/hotkeys.cpp:140
+msgid "Switch to OpenGL Canvas"
+msgstr "描画キャンバスを OpenGL(3D) に切替"
+
+#: pcbnew/hotkeys.cpp:146
+msgid "Switch to Cairo Canvas"
+msgstr "描画キャンバスを Cairo(2D) に切替"
+
+#: pcbnew/hotkeys.cpp:153 pcbnew/onrightclick.cpp:362
+msgid "Fill or Refill All Zones"
+msgstr "全てのゾーンを塗りつぶす"
+
+#: pcbnew/hotkeys.cpp:155 pcbnew/onrightclick.cpp:366
+msgid "Remove Filled Areas in All Zones"
+msgstr "全てのゾーンの塗りつぶしエリアを削除"
+
+#: pcbnew/hotkeys.cpp:204
+msgid "Switch Track Width To Next"
+msgstr "配線幅を次のものに変更"
+
+#: pcbnew/hotkeys.cpp:207
+msgid "Switch Track Width To Previous"
+msgstr "配線幅を前のものに変更"
+
+#: pcbnew/hotkeys.cpp:211
+msgid "Switch Grid To Fast Grid1"
+msgstr "グリッドを高速グリッド１に切替"
+
+#: pcbnew/hotkeys.cpp:214
+msgid "Switch Grid To Fast Grid2"
+msgstr "グリッドを高速グリッド２に切替"
+
+#: pcbnew/hotkeys.cpp:217
+msgid "Switch Grid To Next"
+msgstr "グリッドを次のものに切替"
+
+#: pcbnew/hotkeys.cpp:220
+msgid "Switch Grid To Previous"
+msgstr "グリッドを前のものに切替"
+
+#: pcbnew/hotkeys.cpp:224
+msgid "Track Display Mode"
+msgstr "配線表示モード"
+
+#: pcbnew/hotkeys.cpp:226
+msgid "Add Footprint"
+msgstr "フットプリントを追加"
+
+#: pcbnew/hotkeys.cpp:229
+msgid "Record Macro 0"
+msgstr "マクロ 0 を記録"
+
+#: pcbnew/hotkeys.cpp:231
+msgid "Call Macro 0"
+msgstr "マクロ 0 の呼び出し"
+
+#: pcbnew/hotkeys.cpp:233
+msgid "Record Macro 1"
+msgstr "マクロ 1 を記録"
+
+#: pcbnew/hotkeys.cpp:235
+msgid "Call Macro 1"
+msgstr "マクロ 1 の呼び出し"
+
+#: pcbnew/hotkeys.cpp:237
+msgid "Record Macro 2"
+msgstr "マクロ 2 を記録"
+
+#: pcbnew/hotkeys.cpp:239
+msgid "Call Macro 2"
+msgstr "マクロ 2 の呼び出し"
+
+#: pcbnew/hotkeys.cpp:241
+msgid "Record Macro 3"
+msgstr "マクロ 3 を記録"
+
+#: pcbnew/hotkeys.cpp:243
+msgid "Call Macro 3"
+msgstr "マクロ 3 の呼び出し"
+
+#: pcbnew/hotkeys.cpp:245
+msgid "Record Macro 4"
+msgstr "マクロ 4 を記録"
+
+#: pcbnew/hotkeys.cpp:247
+msgid "Call Macro 4"
+msgstr "マクロ 4 の呼び出し"
+
+#: pcbnew/hotkeys.cpp:249
+msgid "Record Macro 5"
+msgstr "マクロ 5 を記録"
+
+#: pcbnew/hotkeys.cpp:251
+msgid "Call Macro 5"
+msgstr "マクロ 5 の呼び出し"
+
+#: pcbnew/hotkeys.cpp:253
+msgid "Record Macro 6"
+msgstr "マクロ 6 を記録"
+
+#: pcbnew/hotkeys.cpp:255
+msgid "Call Macro 6"
+msgstr "マクロ 6 の呼び出し"
+
+#: pcbnew/hotkeys.cpp:257
+msgid "Record Macro 7"
+msgstr "マクロ 7 を記録"
+
+#: pcbnew/hotkeys.cpp:259
+msgid "Call Macro 7"
+msgstr "マクロ 7 の呼び出し"
+
+#: pcbnew/hotkeys.cpp:261
+msgid "Record Macro 8"
+msgstr "マクロ 8 を記録"
+
+#: pcbnew/hotkeys.cpp:263
+msgid "Call Macro 8"
+msgstr "マクロ 8 の呼び出し"
+
+#: pcbnew/hotkeys.cpp:265
+msgid "Record Macro 9"
+msgstr "マクロ 9 を記録"
+
+#: pcbnew/hotkeys.cpp:267
+msgid "Call Macro 9"
+msgstr "マクロ 9 の呼び出し"
+
+#: pcbnew/hotkeys.cpp:351
+msgid "Board Editor"
+msgstr "基板エディタ"
+
 #: pcbnew/hotkeys_board_editor.cpp:63
 #, c-format
 msgid "Recording macro %d"
@@ -18873,10 +19581,6 @@ msgstr "ライブラリ '%s' は読み込み専用です。"
 msgid "Export Footprint"
 msgstr "フットプリントのエクスポート"
 
-#: pcbnew/librairi.cpp:72
-msgid "Save Footprint"
-msgstr "フットプリントの保存"
-
 #: pcbnew/librairi.cpp:73
 msgid "Enter footprint name:"
 msgstr "フットプリント名:"
@@ -19169,7 +19873,7 @@ msgstr "描画キャンバスを 標準 に切替 (&S)"
 
 #: pcbnew/menubar_modedit.cpp:247 pcbnew/menubar_pcbframe.cpp:364
 msgid "Switch the canvas implementation to default"
-msgstr "描画キャンバスを標準へ切り替え"
+msgstr "描画キャンバスを標準へ切替"
 
 #: pcbnew/menubar_modedit.cpp:250 pcbnew/menubar_pcbframe.cpp:367
 msgid "Switch Canvas to Open&GL"
@@ -19177,7 +19881,7 @@ msgstr "描画キャンバスを OpenGL(3D) に切替 (&G)"
 
 #: pcbnew/menubar_modedit.cpp:254 pcbnew/menubar_pcbframe.cpp:371
 msgid "Switch the canvas implementation to OpenGL"
-msgstr "描画キャンバスをOpenGLへ切り替え"
+msgstr "描画キャンバスをOpenGLへ切替"
 
 #: pcbnew/menubar_modedit.cpp:257 pcbnew/menubar_pcbframe.cpp:374
 msgid "Switch Canvas to &Cairo"
@@ -19185,7 +19889,7 @@ msgstr "描画キャンバスを Cairo(2D) に切替 (&C)"
 
 #: pcbnew/menubar_modedit.cpp:261 pcbnew/menubar_pcbframe.cpp:378
 msgid "Switch the canvas implementation to Cairo"
-msgstr "描画キャンバスをCairoへ切り替え"
+msgstr "描画キャンバスをCairoへ切替"
 
 #: pcbnew/menubar_modedit.cpp:269
 msgid "&Pad"
@@ -20340,18 +21044,6 @@ msgstr "ターゲットを編集"
 msgid "Delete Target"
 msgstr "ターゲットを削除"
 
-#: pcbnew/onrightclick.cpp:349
-msgid "Get and Move Footprint"
-msgstr "フットプリントの検索と移動"
-
-#: pcbnew/onrightclick.cpp:362
-msgid "Fill or Refill All Zones"
-msgstr "全てのゾーンを塗りつぶす"
-
-#: pcbnew/onrightclick.cpp:366
-msgid "Remove Filled Areas in All Zones"
-msgstr "全てのゾーンの塗りつぶしエリアを削除"
-
 #: pcbnew/onrightclick.cpp:374 pcbnew/onrightclick.cpp:380
 #: pcbnew/onrightclick.cpp:398 pcbnew/onrightclick.cpp:411
 #: pcbnew/onrightclick.cpp:476 pcbnew/onrightclick.cpp:569
@@ -20496,10 +21188,6 @@ msgstr "ブラインドビア(BVH)/ベリッドホール(BH)を配置"
 #: pcbnew/onrightclick.cpp:599
 msgid "Select Layer and Place Blind/Buried Via"
 msgstr "レイヤを指定してブラインド/ベリッドビアを配置"
-
-#: pcbnew/onrightclick.cpp:605 pcbnew/router/router_tool.cpp:101
-msgid "Switch Track Posture"
-msgstr "配線の形状を変更"
 
 #: pcbnew/onrightclick.cpp:613
 msgid "Place Micro Via"
@@ -20658,10 +21346,6 @@ msgstr "裏返す"
 #: pcbnew/onrightclick.cpp:822
 msgid "Edit Parameters"
 msgstr "パラメータを編集"
-
-#: pcbnew/onrightclick.cpp:827
-msgid "Edit with Footprint Editor"
-msgstr "フットプリント エディタで編集"
 
 #: pcbnew/onrightclick.cpp:834
 msgid "Delete Footprint"
@@ -21801,14 +22485,6 @@ msgstr "線幅を細く"
 msgid "Switch the arc posture"
 msgstr "円弧の形状を変更"
 
-#: pcbnew/tools/common_actions.cpp:190
-msgid "Zoom In"
-msgstr "ズーム イン"
-
-#: pcbnew/tools/common_actions.cpp:194
-msgid "Zoom Out"
-msgstr "ズーム アウト"
-
 #: pcbnew/tools/common_actions.cpp:367
 msgid "Fill"
 msgstr "塗りつぶし"
@@ -22349,7 +23025,7 @@ msgstr "部品表の生成"
 #: eeschema/help_common_strings.h:81
 msgid "Back-import component footprint fields via CvPcb .cmp file"
 msgstr ""
-"CvPcb の.cmp ファイルより、コンポーネント フットプリント フィールド情報をバッ"
+"CvPcb .cmp ファイルよりコンポーネント フットプリント フィールド情報をバッ"
 "クインポート"
 
 #: eeschema/help_common_strings.h:84
@@ -22457,8 +23133,8 @@ msgid ""
 "%s"
 msgstr ""
 "KiCad は現在使っているバージョンより新しいバージョンで作られたこのファイルを"
-"開くことができません。このファイルを開くためにはKiCadを新しいバージョンへアッ"
-"プグレードする必要があります。\n"
+"開くことができません。このファイルを開くためには KiCad を新しいバージョンへ"
+"アップグレードする必要があります。\n"
 "\n"
 "必要とされる KiCad バージョンの日付 (または以降): %s\n"
 "\n"
@@ -22492,10 +23168,6 @@ msgstr "削除設定"
 #: pcbnew/dialogs/dialog_copper_zones_base.h:130
 msgid "Copper Zone Properties"
 msgstr "導体ゾーンのプロパティ"
-
-#: pcbnew/dialogs/dialog_create_array_base.h:113
-msgid "Create Array"
-msgstr "配列の作成"
 
 #: pcbnew/dialogs/dialog_design_rules_base.h:112
 msgid "Design Rules Editor"
