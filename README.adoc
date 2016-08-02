@@ -6,9 +6,14 @@ translations for KiCad.
 It is cmake equipped to conform with the rest of the installation
 principles for KiCad.
 
+image:http://ci.kicad-pcb.org/job/any-kicad-i18n-stable/lastBuild/artifact/i18n_status.png["Build
+Status",
+link="http://ci.kicad-pcb.org/job/any-kicad-i18n-stable/lastBuild/artifact/i18n_status.png"]
+
 == Depends
 - Cmake
 - Gettext
+- Python with matplotlib (optional)
 
 == How to install
 ```sh
