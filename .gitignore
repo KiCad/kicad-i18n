@@ -7,3 +7,4 @@ install_manifest.txt
 Makefile
 CMakeFiles/*
 *.pot
+i18n_status.csv
