@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-06 20:04+0200\n"
-"PO-Revision-Date: 2015-12-29 15:13+0100\n"
-"Last-Translator: Kerusey Karyu <keruseykaryu@o2.pl>\n"
+"PO-Revision-Date: 2016-08-06 21:30+0200\n"
+"Last-Translator: Swift Geek <swiftgeek+poedit@gmail.com>\n"
 "Language-Team: Polish KiCAD Team: Mateusz Skowroński, Krzysztof Kawa, "
 "Kerusey Karyu, Daniel Dawid Majewski\n"
 "Language: pl_PL\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Basepath: D:/Programy/BAZAAR/KICADSRC\n"
 "X-Poedit-KeywordsList: _;_HKI\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Poedit 1.8.8\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SearchPath-0: kicad\n"
@@ -578,7 +578,6 @@ msgid "Delete File"
 msgstr "Usuń plik"
 
 #: kicad/dialogs/dialog_template_selector_base.cpp:26
-#, fuzzy
 msgid "Template path"
 msgstr "Ścieżka do szablonów"
 
@@ -618,7 +617,6 @@ msgid "Executable files ("
 msgstr "Pliki wykonywalne ("
 
 #: kicad/preferences.cpp:83
-#, fuzzy
 msgid "Select Preferred PDF Browser"
 msgstr "Wybierz preferowaną przeglądarkę PDF"
 
@@ -2854,9 +2852,9 @@ msgid "GPcb foot print files (*)|*"
 msgstr "Pliki footprintów GPcb (*)|*"
 
 #: pcbnew/librairi.cpp:390
-#, fuzzy, c-format
+#, c-format
 msgid "Unable to create or write file '%s'"
-msgstr "Nie mogę utworzyć pliku '%s'"
+msgstr "Nie mogę utworzyć lub zapisać pliku '%s'"
 
 #: pcbnew/librairi.cpp:568
 msgid "No footprints to archive!"
@@ -3568,9 +3566,8 @@ msgstr "Liczba komponentów: %d."
 
 #: pcbnew/exporters/gen_modules_placefile.cpp:291
 #: pcbnew/exporters/gen_modules_placefile.cpp:332
-#, fuzzy
 msgid "Component Placement File generation OK."
-msgstr "Plik położeń footprintów został poprawnie wygenerowany."
+msgstr "Plik położeń komponentów został poprawnie wygenerowany."
 
 #: pcbnew/exporters/gen_modules_placefile.cpp:308
 #: pcbnew/dialogs/dialog_SVG_print.cpp:312 pcbnew/dialogs/dialog_plot.cpp:819
@@ -4108,9 +4105,9 @@ msgstr ""
 "przesunięcie: %d"
 
 #: pcbnew/pcb_parser.cpp:201
-#, fuzzy, c-format
+#, c-format
 msgid "cannot interpret date code %d"
-msgstr "Nie można zapisać raportu do pliku '%s'."
+msgstr "Nie można zinterpretować kodu daty %d"
 
 #: pcbnew/pcb_parser.cpp:444 pcbnew/pcb_parser.cpp:549
 #: pcbnew/gpcb_plugin.cpp:439
@@ -5453,7 +5450,6 @@ msgid "DRC error: this start point is inside or too close an other area"
 msgstr "Błąd DRC: punkt początkowy jest wewnątrz lub za blisko innego obszaru"
 
 #: pcbnew/zones_by_polygon.cpp:746
-#, fuzzy
 msgid "DRC error: closing this area creates a DRC error with an other area"
 msgstr "Błąd DRC: zamknięcie tego obszaru wywołuje błąd DRC z innym obszarem"
 
@@ -6521,7 +6517,7 @@ msgstr ""
 
 #: pcbnew/tools/module_tools.cpp:345
 msgid "Select reference point"
-msgstr "Wybierz punkt referencyjny"
+msgstr "Wybierz punkt odniesienia"
 
 #: pcbnew/tools/module_tools.cpp:396
 #, c-format
@@ -6660,7 +6656,6 @@ msgid "Test Footprints"
 msgstr "Testuj footprinty"
 
 #: pcbnew/dialogs/dialog_netlist_fbp.cpp:99
-#, fuzzy
 msgid "Read the current netlist file and list missing and extra footprints"
 msgstr "Wczytaj bieżącą netlistę i wypisz brakujące lub dodatkowe footprinty"
 
@@ -6669,10 +6664,10 @@ msgid "Rebuild Board Connectivity"
 msgstr "Odbuduj połączenia płytki"
 
 #: pcbnew/dialogs/dialog_netlist_fbp.cpp:104
-#, fuzzy
 msgid "Rebuild the full ratsnest (useful after a manual pad netname edition)"
 msgstr ""
-"Odbuduj pełne połączenia (użyteczne po ręcznej zmianie nazwy sieci pola lut.)"
+"Przebuduj wszystkie połączenia (użyteczne po ręcznej zmianie nazwy sieci "
+"pola lutowniczego)"
 
 #: pcbnew/dialogs/dialog_netlist_fbp.cpp:108
 msgid "Save Messages to File"
@@ -6953,7 +6948,7 @@ msgstr "Wybierz nazwę pliku dla eksportu IDF"
 #: pcbnew/dialogs/dialog_export_idf_base.cpp:32
 #: pcbnew/dialogs/dialog_export_vrml_base.cpp:50
 msgid "Grid Reference Point:"
-msgstr "Punkt referencyjny siatki:"
+msgstr "Punkt odniesienia siatki:"
 
 #: pcbnew/dialogs/dialog_export_idf_base.cpp:36
 msgid "Adjust automatically"
@@ -7689,14 +7684,13 @@ msgstr ""
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:180
 #: gerbview/dialogs/gerbview_dialog_display_options_frame_base.cpp:97
 msgid "Use touchpad to pan"
-msgstr ""
+msgstr "Użyj gładzika aby przesunąć widok"
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:181
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:209
 #: gerbview/dialogs/gerbview_dialog_display_options_frame_base.cpp:98
-#, fuzzy
 msgid "Use touchpad to pan canvas"
-msgstr "Przełącz w tryb OpenGL"
+msgstr "Użyj gładzika aby przesunąć widok"
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:185
 msgid "&Pan while moving object"
@@ -8153,7 +8147,7 @@ msgid "%s: <b>Track Size</b> &lt; <b>Min Track Size</b><br>"
 msgstr "%s: <b>Szerokość ścieżki</b> &lt; <b>Min. szerokość ścieżki</b><br>"
 
 #: pcbnew/dialogs/dialog_design_rules.cpp:936
-#, fuzzy, c-format
+#, c-format
 msgid "%s: <b>Via Diameter</b> &lt; <b>Minimum Via Diameter</b><br>"
 msgstr "%s: <b>Średnica przelotki</b> &lt; <b>Min. średnica przelotki</b><br>"
 
@@ -9301,7 +9295,6 @@ msgid "Minimum width"
 msgstr "Szerokośc minimalna"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:118
-#, fuzzy
 msgid "Minimum thickness of filled areas."
 msgstr "Minimalna szerokość dla wypełnień stref."
 
@@ -12052,32 +12045,27 @@ msgid "Vertical, then horizontal"
 msgstr "Najpierw pionowo, potem poziomo"
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:108
-#, fuzzy
 msgid "Pad Numbering Direction"
-msgstr "Kierunek numeracji szyku"
+msgstr "Kierunek numeracji"
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:112
-#, fuzzy
 msgid "Reverse pad numbering on alternate rows or columns"
 msgstr "Odwrotna numeracja przy zmianie rzędu/kolumny"
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:115
 #: pcbnew/dialogs/dialog_create_array_base.cpp:250
-#, fuzzy
 msgid "Use first free number"
-msgstr "Użyj pierwszego wolnego numeru na schemacie"
+msgstr "Użyj pierwszego wolnego numeru"
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:115
 #: pcbnew/dialogs/dialog_create_array_base.cpp:250
-#, fuzzy
 msgid "From start value"
-msgstr "Obróć wartość"
+msgstr "Od wartości początkowej"
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:117
 #: pcbnew/dialogs/dialog_create_array_base.cpp:252
-#, fuzzy
 msgid "Initial pad number"
-msgstr "Pierwszy numer pola:"
+msgstr "Początkowy numer pola:"
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:121
 msgid "Continuous (1, 2, 3...)"
@@ -12088,9 +12076,8 @@ msgid "Coordinate (A1, A2, ... B1, ...)"
 msgstr "Według osi szyku (A1, A2, ... B1, ...)"
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:123
-#, fuzzy
 msgid "Pad Numbering Scheme"
-msgstr "Schemat numeracji"
+msgstr "Sposób numeracji"
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:127
 msgid "Primary axis numbering:"
@@ -12101,9 +12088,8 @@ msgid "Secondary axis numbering:"
 msgstr "Schemat numeracji drugiej ośi:"
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:152
-#, fuzzy
 msgid "Pad numbering start:"
-msgstr "Rozpoczęcie numeracji od:"
+msgstr "Rozpoczęcie numeracji pól od:"
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:172
 msgid "Grid Array"
@@ -12158,14 +12144,12 @@ msgstr ""
 "Obróć element i przesuń - elementy z wyboru wielokrotnego będą obracane razem"
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:248
-#, fuzzy
 msgid "Pad Numbering Options"
-msgstr "Ustawienia papieru"
+msgstr "Opcje numeracji pól"
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:259
-#, fuzzy
 msgid "Pad numbering start value:"
-msgstr "Rozpoczęcie numeracji od:"
+msgstr "Rozpoczęcie numeracji pól od:"
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:276
 msgid "Circular Array"
@@ -12573,9 +12557,8 @@ msgid "Alphabet, full 26 characters"
 msgstr "Alfabetycznie, pełne 26 znaków"
 
 #: pcbnew/dialogs/dialog_create_array.cpp:296
-#, fuzzy
 msgid "Bad parameters"
-msgstr "Edycja parametrów"
+msgstr "Złe parametry"
 
 #: pcbnew/dialogs/wizard_3DShape_Libs_downloader_base.cpp:25
 msgid "Welcome to the 3D shape Libraries downloader Wizard!"
@@ -12705,9 +12688,9 @@ msgid "Disk File Report Completed"
 msgstr "Zakończono raportowanie do pliku"
 
 #: pcbnew/dialogs/dialog_drc.cpp:199 pcbnew/dialogs/dialog_drc.cpp:262
-#, fuzzy, c-format
+#, c-format
 msgid "Unable to create report file '%s' "
-msgstr "Nie mogę utworzyć pliku '%s'"
+msgstr "Nie mogę utworzyć pliku raportu '%s'"
 
 #: pcbnew/dialogs/dialog_drc.cpp:281
 msgid "DRC report files (.rpt)|*.rpt"
@@ -13837,9 +13820,8 @@ msgid "Load Error"
 msgstr "Błąd wczytywania"
 
 #: common/footprint_info.cpp:309
-#, fuzzy
 msgid "Errors were encountered loading footprints:"
-msgstr "Wystąpiły błędy podczas ładowania footprintów"
+msgstr "Wystąpiły błędy podczas ładowania footprintów:"
 
 #: common/eda_text.cpp:385 eeschema/sch_text.cpp:758
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:90
@@ -13886,15 +13868,15 @@ msgstr "Czarny"
 
 #: common/colors.cpp:40
 msgid "Gray 1"
-msgstr ""
+msgstr "Szary 1"
 
 #: common/colors.cpp:41
 msgid "Gray 2"
-msgstr ""
+msgstr "Szary 2"
 
 #: common/colors.cpp:42
 msgid "Gray 3"
-msgstr ""
+msgstr "Szary 3"
 
 #: common/colors.cpp:43 eeschema/dialogs/dialog_color_config.cpp:191
 msgid "White"
@@ -13902,109 +13884,103 @@ msgstr "Biały"
 
 #: common/colors.cpp:44
 msgid "L.Yellow"
-msgstr ""
+msgstr "Jasnożółty"
 
 #: common/colors.cpp:45
 msgid "Blue 1"
-msgstr ""
+msgstr "Niebieski 1"
 
 #: common/colors.cpp:46
-#, fuzzy
 msgid "Green 1"
-msgstr "Grecki"
+msgstr "Zielony 1"
 
 #: common/colors.cpp:47
 msgid "Cyan 1"
-msgstr ""
+msgstr "Cyjan 1"
 
 #: common/colors.cpp:48
 msgid "Red 1"
-msgstr ""
+msgstr "Czerwony 1"
 
 #: common/colors.cpp:49
 msgid "Magenta 1"
-msgstr ""
+msgstr "Magenta 1"
 
 #: common/colors.cpp:50
-#, fuzzy
 msgid "Brown 1"
-msgstr "Przeglądaj"
+msgstr "Brązowy 1"
 
 #: common/colors.cpp:51
 msgid "Blue 2"
-msgstr ""
+msgstr "Niebieski 2"
 
 #: common/colors.cpp:52
-#, fuzzy
 msgid "Green 2"
-msgstr "Grecki"
+msgstr "Zielony 2"
 
 #: common/colors.cpp:53
 msgid "Cyan 2"
-msgstr ""
+msgstr "Cyjan 2"
 
 #: common/colors.cpp:54
 msgid "Red 2"
-msgstr ""
+msgstr "Czerwony 2"
 
 #: common/colors.cpp:55
 msgid "Magenta 2"
-msgstr ""
+msgstr "Magenta 2"
 
 #: common/colors.cpp:56
-#, fuzzy
 msgid "Brown 2"
-msgstr "Przeglądaj"
+msgstr "Brązowy 2"
 
 #: common/colors.cpp:57
 msgid "Blue 3"
-msgstr ""
+msgstr "Niebieski 3"
 
 #: common/colors.cpp:58
-#, fuzzy
 msgid "Green 3"
-msgstr "Grecki"
+msgstr "Zielony 2"
 
 #: common/colors.cpp:59
 msgid "Cyan 3"
-msgstr ""
+msgstr "Cyjan 3"
 
 #: common/colors.cpp:60
 msgid "Red 3"
-msgstr ""
+msgstr "Czerwony 3"
 
 #: common/colors.cpp:61
 msgid "Magenta 3"
-msgstr ""
+msgstr "Magenta 3"
 
 #: common/colors.cpp:62
 msgid "Yellow 3"
-msgstr ""
+msgstr "Żółty 3"
 
 #: common/colors.cpp:63
 msgid "Blue 4"
-msgstr ""
+msgstr "Niebieski 4"
 
 #: common/colors.cpp:64
-#, fuzzy
 msgid "Green 4"
-msgstr "Grecki"
+msgstr "Zielony 4"
 
 #: common/colors.cpp:65
 msgid "Cyan 4"
-msgstr ""
+msgstr "Cyjan 4"
 
 #: common/colors.cpp:66
 msgid "Red 4"
-msgstr ""
+msgstr "Czerwony 4"
 
 #: common/colors.cpp:67
 msgid "Magenta 4"
-msgstr ""
+msgstr "Magenta 4"
 
 #: common/colors.cpp:68
 msgid "Yellow 4"
-msgstr ""
+msgstr "Żółty 4"
 
 #: common/grid_tricks.cpp:113
 msgid "Cut\tCTRL+X"
@@ -14315,14 +14291,12 @@ msgid "No default editor found, you must choose it"
 msgstr "Nie znaleziono domyślnego edytora. Musisz go wybrać."
 
 #: common/pgm_base.cpp:352
-#, fuzzy
 msgid "Executable file (*.exe)|*.exe"
-msgstr "Plik wykonywalny (%s)|%s"
+msgstr "Plik wykonywalny (*.exe)|*.exe"
 
 #: common/pgm_base.cpp:354
-#, fuzzy
 msgid "Executable file (*)|*"
-msgstr "Pliki wykonywalne ("
+msgstr "Plik wykonywalny (*)|*"
 
 #: common/pgm_base.cpp:364
 msgid "Select Preferred Editor"
@@ -14910,7 +14884,6 @@ msgid "Add a new entry to the table."
 msgstr "Dodaje nowy wpis do tabeli"
 
 #: common/dialogs/dialog_env_var_config_base.cpp:65
-#, fuzzy
 msgid "Remove the selected entry from the table."
 msgstr "Usuwa wybrany wpis z tabeli"
 
@@ -16353,7 +16326,7 @@ msgid "Enter a new value for the %s field."
 msgstr "Wprowadź nową wartość dla pola %s."
 
 #: eeschema/libfield.cpp:91
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "The name '%s' conflicts with an existing entry in the component library "
 "'%s'.\n"
@@ -16456,7 +16429,6 @@ msgid "Hierarchical Sheet Pin %s"
 msgstr "Hierarchiczny pin arkusza %s"
 
 #: eeschema/sch_validators.cpp:80
-#, fuzzy
 msgid "reference designator"
 msgstr "Oznaczenie"
 
@@ -16465,70 +16437,66 @@ msgid "value"
 msgstr "wartość"
 
 #: eeschema/sch_validators.cpp:82
-#, fuzzy
 msgid "footprint"
 msgstr "Footprint"
 
 #: eeschema/sch_validators.cpp:83
-#, fuzzy
 msgid "data sheet"
 msgstr "Dokumentacja"
 
 #: eeschema/sch_validators.cpp:84
-#, fuzzy
 msgid "user defined"
-msgstr "Użytkownika"
+msgstr "Zdefiniowane przez użytkownika"
 
 #: eeschema/sch_validators.cpp:92
-#, fuzzy, c-format
+#, c-format
 msgid "The %s field cannot be empty."
 msgstr "Pole %s nie może być puste."
 
 #: eeschema/sch_validators.cpp:98
 msgid "carriage return"
-msgstr ""
+msgstr "powrót karetki (CR)"
 
 #: eeschema/sch_validators.cpp:100
 msgid "line feed"
-msgstr ""
+msgstr "nowy wiersz (LF)"
 
 #: eeschema/sch_validators.cpp:102
 msgid "tab"
-msgstr ""
+msgstr "tabulator"
 
 #: eeschema/sch_validators.cpp:104
 msgid "space"
-msgstr ""
+msgstr "spacja"
 
 #: eeschema/sch_validators.cpp:111
-#, fuzzy, c-format
+#, c-format
 msgid "%s or %s"
-msgstr "Wartość %s z %s"
+msgstr "%s lub %s"
 
 #: eeschema/sch_validators.cpp:113
 #, fuzzy, c-format
 msgid "%s, %s, or %s"
-msgstr "Pin %s, %s, %s"
+msgstr "Pin %s, %s lub %s"
 
 #: eeschema/sch_validators.cpp:115
 #, fuzzy, c-format
 msgid "%s, %s, %s, or %s"
-msgstr "Pin %s, %s, %s"
+msgstr "Pin %s, %s, %s lub %s"
 
 #: eeschema/sch_validators.cpp:120
 #, c-format
 msgid "The %s field cannot contain %s characters."
-msgstr ""
+msgstr "Pole %s nie może zawierać następujących znaków: %s"
 
 #: eeschema/sch_validators.cpp:124
 #, c-format
 msgid "The %s field cannot contain leading and/or trailing white space."
-msgstr ""
+msgstr "Pole %s nie może zaczynać się ani kończyć białym znakiem"
 
 #: eeschema/sch_validators.cpp:132
-#, fuzzy
 msgid "Field Validation Error"
-msgstr "Błąd zapisu pliku"
+msgstr "Błąd walidacji pola"
 
 #: eeschema/plot_schematic_SVG.cpp:94
 #, c-format
@@ -18186,12 +18154,10 @@ msgid ""
 msgstr "Wysokość pionowa pola tekstowego obecnie wybranego na schemacie"
 
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:150
-#, fuzzy
 msgid "X Position"
 msgstr "Pozycja X:"
 
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:162
-#, fuzzy
 msgid "Y Position"
 msgstr "Pozycja Y:"
 
@@ -18666,7 +18632,7 @@ msgstr "Panoramuj tylko do obszaru dającego się przesuwać"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:208
 msgid "Use touchpa&d to pan"
-msgstr ""
+msgstr "Użyj gła&dzika aby przesunąć widok"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:213
 msgid "Pan while moving ob&ject"
@@ -19216,7 +19182,6 @@ msgid "&Length:"
 msgstr "Długość:"
 
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib.cpp:251
-#, fuzzy
 msgid "Illegal reference.  References must start with a letter."
 msgstr "Niepoprawne oznaczenie. Oznaczenie musi rozpoczynać się literą"
 
@@ -19296,9 +19261,8 @@ msgstr ""
 "Pola tekstowe nie są modyfikowane."
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:185
-#, fuzzy
 msgid "The style of the currently selected field's text in the schematic"
-msgstr "Styl aktualnie zaznaczonego na schemacie pola tekstowego"
+msgstr "Styl aktualnie zaznaczonego na schemacie pola tekstowego na schemacie"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:200
 #: eeschema/dialogs/dialog_edit_component_in_schematic_fbp.cpp:209
@@ -19355,9 +19319,8 @@ msgid "S&hape"
 msgstr "Kształt"
 
 #: eeschema/dialogs/dialog_edit_one_field.cpp:193
-#, fuzzy
 msgid "Illegal reference field value!"
-msgstr "Pole oznaczenie nie jest poprawne! Bez zmian"
+msgstr "Pole odniesienia nie jest poprawne!"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:74
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.h:114
@@ -19561,12 +19524,12 @@ msgid "reference %s"
 msgstr "odnośnik %s"
 
 #: eeschema/find.cpp:254
-#, fuzzy, c-format
+#, c-format
 msgid "value %s"
-msgstr "wartość"
+msgstr "wartość %s"
 
 #: eeschema/find.cpp:258
-#, fuzzy, c-format
+#, c-format
 msgid "field %s"
 msgstr "Pole %s"
 
@@ -20735,14 +20698,12 @@ msgid "Enable/Disable orthographic projection"
 msgstr "Włącz/Wyłącz projekcję perspektywiczną"
 
 #: 3d-viewer/3d_toolbar.cpp:138
-#, fuzzy
 msgid "Create Image (PNG format)"
-msgstr "Zapisz obraz w formacie PNG"
+msgstr "Utwórz obraz w formacie PNG"
 
 #: 3d-viewer/3d_toolbar.cpp:141
-#, fuzzy
 msgid "Create Image (JPEG format)"
-msgstr "Zapisz obraz w formacie PNG"
+msgstr "Utwórz obraz w formacie JPEG"
 
 #: 3d-viewer/3d_toolbar.cpp:146
 msgid "Copy 3D Image to Clipboard"
@@ -20754,7 +20715,7 @@ msgstr "&Zakończ"
 
 #: 3d-viewer/3d_toolbar.cpp:157
 msgid "Use Touchpad to Pan"
-msgstr ""
+msgstr "Użyj gładzika aby przesunąć widok"
 
 #: 3d-viewer/3d_toolbar.cpp:163
 msgid "Realistic Mode"
@@ -21757,9 +21718,9 @@ msgid "Bitmap to Component Converter"
 msgstr "Konwerter map bitowych na symbole"
 
 #: new/sch_lib.cpp:237
-#, fuzzy, c-format
+#, c-format
 msgid "part '%s' not found in lib %s"
-msgstr "Nazwa symbolu '%s' nie została znaleziona w '%s'"
+msgstr "Nazwa symbolu '%s' nie została znaleziona w bibliotece '%s'"
 
 #: new/sch_sweet_parser.cpp:338
 msgid "invalid extends LPID"
@@ -21781,52 +21742,50 @@ msgstr ""
 #: new/sch_sweet_parser.cpp:709 new/sch_sweet_parser.cpp:748
 #: new/sch_sweet_parser.cpp:761 new/sch_sweet_parser.cpp:790
 #: new/sch_sweet_parser.cpp:821
-#, fuzzy
 msgid "undefined pin"
-msgstr "Nieokreślony"
+msgstr "nieokreślony pin"
 
 #: new/sch_sweet_parser.cpp:852 new/sch_sweet_parser.cpp:949
-#, fuzzy, c-format
+#, c-format
 msgid "undefined pin %s"
-msgstr "Nieokreślony"
+msgstr "nieokreślony pin %s"
 
 #: new/sch_sweet_parser.cpp:862 new/sch_sweet_parser.cpp:959
-#, fuzzy, c-format
+#, c-format
 msgid "pin %s already in pin_merge group %s"
-msgstr "Footprint %s już istnieje w bibliotece '%s'"
+msgstr "Pin %s już istnieje w grupie pin_merge '%s'"
 
 #: new/sch_sweet_parser.cpp:903
 #, c-format
 msgid "no pins with signal %s"
-msgstr ""
+msgstr "Brak pinów z sygnałem %s"
 
 #: new/sch_sweet_parser.cpp:915
-#, c-format
+#, fuzzy, c-format
 msgid "signal pin %s already in pin_merge group %s"
-msgstr ""
+msgstr "Sygnał pinu %s już istnieje w grupie pin_merge %s"
 
 #: new/sch_sweet_parser.cpp:998
-#, fuzzy, c-format
+#, c-format
 msgid "Unable to find property: %s"
-msgstr "Nie mogę znaleźć przeglądarki PDF dla <%s>"
+msgstr "Nie można znaleźć właściwości: %s"
 
 #: new/sweet_editor_panel.cpp:31
 msgid "Sweet"
-msgstr ""
+msgstr "Sweet"
 
 #: new/sweet_editor_panel.cpp:42
 msgid "Visual Part"
-msgstr ""
+msgstr "Komponent wizualny"
 
 #: new/sweet_editor_panel.cpp:59
-#, fuzzy
 msgid "Parsing Errors"
-msgstr "Drukuj w odbiciu lustrzanym"
+msgstr "Błędy parsowania"
 
 #: new/sch_lpid.cpp:208
 #, fuzzy
 msgid "Illegal character found in LPID string"
-msgstr "Znaleziono niepoprawny znak w ciągu FPID"
+msgstr "Znaleziono niepoprawny znak w ciągu LPID"
 
 #: new/sch_lpid.cpp:375
 #, fuzzy
@@ -21834,14 +21793,12 @@ msgid "Illegal character found in logical lib name"
 msgstr "Niepoprawny znak w danych o logicznej nazwie biblioteki"
 
 #: new/sch_lpid.cpp:406
-#, fuzzy
 msgid "Illegal character found in category"
-msgstr "Niepoprawny znak w danych o rewizji"
+msgstr "Niepoprawny znak w kategorii"
 
 #: new/sch_lpid.cpp:417
-#, fuzzy
 msgid "Illegal character found in base name"
-msgstr "Niepoprawny znak w danych o logicznej nazwie biblioteki"
+msgstr "Niepoprawny znak w nazwie będącej składową ścieżki"
 
 #: pcb_calculator/pcb_calculator_frame.cpp:144
 msgid ""
@@ -23462,27 +23419,26 @@ msgstr "Nowy element"
 #: include/common.h:266
 #, c-format
 msgid " (%s):"
-msgstr ""
+msgstr " (%s):"
 
 #: include/kiway_player.h:260
-#, fuzzy
 msgid "This file is already open."
-msgstr "Plik PCB '%s' jest już otwarty."
+msgstr "Ten plik jest już otwarty."
 
 #: include/class_drc_item.h:164
 #, c-format
 msgid "ErrType(%d): <b>%s</b><ul><li> %s </li></ul>"
-msgstr ""
+msgstr "ErrType(%d): <b>%s</b><ul><li> %s </li></ul>"
 
 #: include/class_drc_item.h:177
 #, c-format
 msgid "ErrType(%d): <b>%s</b><ul><li> %s: %s </li><li> %s: %s </li></ul>"
-msgstr ""
+msgstr "ErrType(%d): <b>%s</b><ul><li> %s: %s </li><li> %s: %s </li></ul>"
 
 #: include/class_drc_item.h:185
 #, c-format
 msgid "ErrType(%d): <b>%s</b><ul><li> %s: %s </li></ul>"
-msgstr ""
+msgstr "ErrType(%d): <b>%s</b><ul><li> %s: %s </li></ul>"
 
 #: include/richio.h:77
 #, c-format
@@ -23490,6 +23446,8 @@ msgid ""
 "IO_ERROR: %s\n"
 "from %s : %s"
 msgstr ""
+"IO_ERROR: %s\n"
+"z %s : %s"
 
 #: include/richio.h:78
 #, c-format
@@ -23500,6 +23458,11 @@ msgid ""
 "offset %d\n"
 "from %s : %s"
 msgstr ""
+"PARSE_ERROR: %s w wejściu/źródle\n"
+"'%s'\n"
+"linia %d\n"
+"offset %d\n"
+"z %s : %s"
 
 #: include/richio.h:220
 #, c-format
@@ -23513,6 +23476,14 @@ msgid ""
 "Full error text:\n"
 "%s"
 msgstr ""
+"KiCad nie był w stanie otworzyć tego pliku, ponieważ był stworzony przy "
+"użyciu wersji nowszej niż obecna. Aby go otworzyć, należy zaktualizować "
+"program KiCad do nowszej wersji.\n"
+"\n"
+"Data wymaganej wersji programu KiCad (lub nowsza): %s\n"
+"\n"
+"Pełny tekst błędu:\n"
+"%s"
 
 #~ msgid "Create Image (jpeg format)"
 #~ msgstr "Zapisz obraz w formacie JPEG"
