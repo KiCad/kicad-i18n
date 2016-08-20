@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-18 00:40+0900\n"
-"PO-Revision-Date: 2016-08-18 00:40+0900\n"
+"POT-Creation-Date: 2016-08-21 06:31+0900\n"
+"PO-Revision-Date: 2016-08-21 06:38+0900\n"
 "Last-Translator: starfort-jp <starfort@nifty.com>\n"
 "Language-Team: kicad_jp <kicad@kicad.jp>\n"
 "Language: ja_JP\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-KeywordsList: _;_HKI\n"
-"X-Poedit-Basepath: Source/kicad-7065\n"
+"X-Poedit-Basepath: Source/kicad-7083\n"
 "X-Generator: Poedit 1.8.8\n"
 "X-Poedit-SearchPath-0: .\n"
 
@@ -1818,7 +1818,7 @@ msgstr "名前"
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:225
 #: eeschema/dialogs/dialog_eeschema_config_fbp.cpp:38
 #: eeschema/dialogs/dialog_eeschema_config_fbp.cpp:87
-#: eeschema/dialogs/dialog_spice_model_base.cpp:390
+#: eeschema/dialogs/dialog_spice_model_base.cpp:392
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:75
 msgid "Add"
 msgstr "追加"
@@ -3174,7 +3174,7 @@ msgstr ""
 "%s"
 
 #: cvpcb/cvpcb_mainframe.cpp:430 cvpcb/cvpcb_mainframe.cpp:450
-#: pcbnew/moduleframe.cpp:871 pcbnew/moduleframe.cpp:891
+#: pcbnew/moduleframe.cpp:881 pcbnew/moduleframe.cpp:901
 #: pcbnew/pcbnew_config.cpp:142 pcbnew/pcbnew_config.cpp:164
 msgid "File Save Error"
 msgstr "ファイル保存エラー"
@@ -3298,7 +3298,7 @@ msgstr "フットプリント/コンポーネントequファイル(.equ ファ�
 #: cvpcb/dialogs/dialog_config_equfiles_base.cpp:39
 #: eeschema/dialogs/dialog_eeschema_config_fbp.cpp:48
 #: eeschema/dialogs/dialog_eeschema_config_fbp.cpp:93
-#: eeschema/dialogs/dialog_spice_model_base.cpp:398
+#: eeschema/dialogs/dialog_spice_model_base.cpp:400
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:80
 #: pcbnew/tools/common_actions.cpp:130
 msgid "Remove"
@@ -3694,7 +3694,7 @@ msgstr "同じようなグローバル ラベルです (大文字/小文字だ�
 msgid "none"
 msgstr "なし"
 
-#: eeschema/class_libentry.cpp:530
+#: eeschema/class_libentry.cpp:535
 #, c-format
 msgid ""
 "An attempt was made to remove the %s field from component %s in library %s."
@@ -3702,7 +3702,7 @@ msgstr ""
 "フィールド %s を コンポーネント %s  (ライブラリ %s ) から削除しようとしまし"
 "た。"
 
-#: eeschema/class_library.cpp:50
+#: eeschema/class_library.cpp:51
 #, c-format
 msgid ""
 "Library '%s' has duplicate entry name '%s'.\n"
@@ -3712,62 +3712,62 @@ msgstr ""
 "ライブラリ '%s' は重複するエントリ名 '%s' を持っています。\n"
 "回路図にコンポーネントを読み込む際に予期せぬ動作が発生する可能性があります。"
 
-#: eeschema/class_library.cpp:213
+#: eeschema/class_library.cpp:214
 #, c-format
 msgid "Cannot add duplicate alias '%s' to library '%s'."
 msgstr "重複したエイリアス '%s' は ライブラリ '%s' に追加できません。"
 
-#: eeschema/class_library.cpp:376
+#: eeschema/class_library.cpp:377
 msgid "The component library file name is not set."
 msgstr "コンポーネント ライブラリ ファイル名がセットされていません。"
 
-#: eeschema/class_library.cpp:384
+#: eeschema/class_library.cpp:385
 msgid "The file could not be opened."
 msgstr "そのファイルは開けません。"
 
-#: eeschema/class_library.cpp:392
+#: eeschema/class_library.cpp:393
 msgid "The file is empty!"
 msgstr "ファイルが空です！"
 
-#: eeschema/class_library.cpp:415
+#: eeschema/class_library.cpp:416
 msgid "The file is NOT an Eeschema library!"
 msgstr "このファイルは Eeschema ライブラリではありません"
 
-#: eeschema/class_library.cpp:421
+#: eeschema/class_library.cpp:422
 msgid "The file header is missing version and time stamp information."
 msgstr "ファイルのヘッダからバージョンとタイムスタンプの情報が失われています。"
 
-#: eeschema/class_library.cpp:465
+#: eeschema/class_library.cpp:466
 msgid "An error occurred attempting to read the header."
 msgstr "ヘッダの読込み中にエラーが発生しました。"
 
-#: eeschema/class_library.cpp:494
+#: eeschema/class_library.cpp:495
 #, c-format
 msgid "Library '%s' component load error %s."
 msgstr "ライブラリ '%s' コンポーネント読込みエラー %s。"
 
-#: eeschema/class_library.cpp:564
+#: eeschema/class_library.cpp:565
 #, c-format
 msgid "Could not open component document library file '%s'."
 msgstr "コンポーネント ドキュメント ライブラリ ファイル '%s' を開けません."
 
-#: eeschema/class_library.cpp:571
+#: eeschema/class_library.cpp:572
 #, c-format
 msgid "Part document library file '%s' is empty."
 msgstr "コンポーネントのドキュメント ライブラリ ファイル '%s' が空です。"
 
-#: eeschema/class_library.cpp:579
+#: eeschema/class_library.cpp:580
 #, c-format
 msgid "File '%s' is not a valid component library document file."
 msgstr ""
 "ファイル '%s' は不正なコンポーネント ライブラリ ドキュメント ファイルです。"
 
-#: eeschema/class_library.cpp:954
+#: eeschema/class_library.cpp:965
 #, c-format
 msgid "Unable to load project's '%s' file"
 msgstr "プロジェクト '%s' をロードできません"
 
-#: eeschema/class_library.cpp:1045
+#: eeschema/class_library.cpp:1056
 #, c-format
 msgid ""
 "Part library '%s' failed to load. Error:\n"
@@ -3776,7 +3776,7 @@ msgstr ""
 "パーツライブラリ '%s' の読み込みに失敗しました。エラー:\n"
 "%s"
 
-#: eeschema/class_library.cpp:1070
+#: eeschema/class_library.cpp:1082
 #, c-format
 msgid ""
 "Part library '%s' failed to load.\n"
@@ -4905,7 +4905,7 @@ msgstr "X 位置"
 msgid "Y Position"
 msgstr "Y 位置"
 
-#: eeschema/dialogs/dialog_edit_one_field.cpp:193
+#: eeschema/dialogs/dialog_edit_one_field.cpp:196
 msgid "Illegal reference field value!"
 msgstr "無効なリファレンス値です! "
 
@@ -6156,167 +6156,167 @@ msgstr "入れ替え(&R)"
 msgid "Replace &All"
 msgstr "全て置換(&A)"
 
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:27
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:229
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:29
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:231
 msgid "Decade"
 msgstr "ディケード"
 
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:27
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:229
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:29
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:231
 msgid "Octave"
 msgstr "オクターブ"
 
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:27
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:229
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:29
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:231
 msgid "Linear"
 msgstr "リニア"
 
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:29
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:231
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:31
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:233
 msgid "Frequency scale"
 msgstr "周波数スケール"
 
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:43
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:243
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:45
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:245
 msgid "Number of points"
 msgstr "ポイント数"
 
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:50
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:250
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:52
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:252
 msgid "Start frequency [Hz]"
 msgstr "開始周波数 [Hz]"
 
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:57
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:257
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:59
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:259
 msgid "Stop frequency [Hz]"
 msgstr "終了周波数 [Hz]"
 
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:74
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:76
 msgid "AC"
 msgstr "AC"
 
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:80
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:82
 msgid "DC sweep source 1"
 msgstr "DC スイープ ソース 1"
 
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:82
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:127
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:84
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:129
 msgid "Enable"
 msgstr "有効化"
 
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:90
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:135
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:92
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:137
 msgid "DC source"
 msgstr "DC ソース"
 
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:97
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:142
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:99
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:144
 msgid "Starting voltage [V]"
 msgstr "開始電圧 [V]"
 
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:104
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:149
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:106
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:151
 msgid "Final voltage [V]"
 msgstr "最終電圧 [V/A]"
 
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:111
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:156
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:113
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:158
 msgid "Increment step [V]"
 msgstr "増分幅 [V]"
 
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:125
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:127
 msgid "DC sweep source 2"
 msgstr "DC スイープ ソース 2"
 
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:173
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:175
 msgid "DC Transfer"
 msgstr "DC 伝送"
 
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:177
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:179
 msgid "Distortion"
 msgstr "歪み"
 
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:192
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:194
 msgid "Measured node"
 msgstr "測定ノード"
 
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:202
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:204
 msgid "Reference node"
 msgstr ""
 "基準\n"
 "ノード"
 
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:209
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:211
 msgid "(optional; default GND)"
 msgstr "(オプション; デフォルト GND)"
 
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:213
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:215
 msgid "Noise source"
 msgstr "ノイズ ソース"
 
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:274
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:276
 msgid "Noise"
 msgstr "雑音"
 
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:284
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:286
 msgid "This tab has no settings"
 msgstr "このタブには設定がありません"
 
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:295
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:297
 msgid "Operating Point"
 msgstr "動作点"
 
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:299
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:301
 msgid "Pole-Zero"
 msgstr "極零点"
 
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:303
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:305
 msgid "Sensitivity"
 msgstr "感度"
 
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:307
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:309
 msgid "Transfer Function"
 msgstr "伝達関数"
 
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:320
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:322
 msgid "Time step [s]"
 msgstr "時間ステップ [s]"
 
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:330
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:332
 msgid "Final time [s]"
 msgstr "最終時間 [s]"
 
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:340
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:342
 msgid "Initial time [s]"
 msgstr "初期時間 [s]"
 
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:347
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:349
 msgid "(optional; default 0)"
 msgstr "(オプション; デフォルト 0)"
 
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:361
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:363
 msgid "Transient"
 msgstr "過渡応答"
 
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:366
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:368
 msgid "Spice directives:"
 msgstr "Spice 命令:"
 
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:375
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:377
 msgid "Load directives from schematic"
 msgstr "回路図から命令をロード"
 
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:382
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:384
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:29
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:129
 msgid "Custom"
 msgstr "カスタム"
 
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:386
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:388
 msgid "Adjust passive component values (e.g. M -> Meg; 100 nF -> 100n)"
 msgstr "受動部品の値を修正 (例. M -> Meg; 100 nF -> 100n)"
 
-#: eeschema/dialogs/dialog_sim_settings_base.cpp:389
+#: eeschema/dialogs/dialog_sim_settings_base.cpp:391
 msgid "Add full path for .include library directives"
 msgstr ".include ライブラリ命令の絶対パスを追加"
 
@@ -6370,162 +6370,162 @@ msgstr "半導体"
 msgid "Integrated circuit"
 msgstr "集積回路"
 
-#: eeschema/dialogs/dialog_spice_model_base.cpp:135
+#: eeschema/dialogs/dialog_spice_model_base.cpp:137
 msgid "DC/AC analysis"
 msgstr "DC/AC 解析"
 
-#: eeschema/dialogs/dialog_spice_model_base.cpp:144
+#: eeschema/dialogs/dialog_spice_model_base.cpp:146
 msgid "DC [V/A]"
 msgstr "DC [V/A]"
 
-#: eeschema/dialogs/dialog_spice_model_base.cpp:159
+#: eeschema/dialogs/dialog_spice_model_base.cpp:161
 msgid "AC magnitude [V/A]"
 msgstr "AC 振幅 [V/A]"
 
-#: eeschema/dialogs/dialog_spice_model_base.cpp:168
+#: eeschema/dialogs/dialog_spice_model_base.cpp:170
 msgid "AC phase [rad]"
 msgstr "AC 位相 [rad]"
 
-#: eeschema/dialogs/dialog_spice_model_base.cpp:184
+#: eeschema/dialogs/dialog_spice_model_base.cpp:186
 msgid "Transient analysis"
 msgstr "過渡応答解析"
 
-#: eeschema/dialogs/dialog_spice_model_base.cpp:194
-#: eeschema/dialogs/dialog_spice_model_base.cpp:306
+#: eeschema/dialogs/dialog_spice_model_base.cpp:196
+#: eeschema/dialogs/dialog_spice_model_base.cpp:308
 msgid "Initial value [V/A]"
 msgstr "初期振幅値 [V/A]"
 
-#: eeschema/dialogs/dialog_spice_model_base.cpp:203
-#: eeschema/dialogs/dialog_spice_model_base.cpp:315
+#: eeschema/dialogs/dialog_spice_model_base.cpp:205
+#: eeschema/dialogs/dialog_spice_model_base.cpp:317
 msgid "Pulsed value [V/A]"
 msgstr "パルス振幅値 [V/A]"
 
-#: eeschema/dialogs/dialog_spice_model_base.cpp:210
+#: eeschema/dialogs/dialog_spice_model_base.cpp:212
 msgid "Delay time [s]"
 msgstr "遅延時間 [s]"
 
-#: eeschema/dialogs/dialog_spice_model_base.cpp:217
+#: eeschema/dialogs/dialog_spice_model_base.cpp:219
 msgid "Rise time [s]"
 msgstr "立ち上がり時間 [s]"
 
-#: eeschema/dialogs/dialog_spice_model_base.cpp:224
+#: eeschema/dialogs/dialog_spice_model_base.cpp:226
 msgid "Fall time [s]"
 msgstr "立ち下がり時間 [s]"
 
-#: eeschema/dialogs/dialog_spice_model_base.cpp:231
+#: eeschema/dialogs/dialog_spice_model_base.cpp:233
 msgid "Pulse width [s]"
 msgstr "パルス幅 [s]"
 
-#: eeschema/dialogs/dialog_spice_model_base.cpp:238
+#: eeschema/dialogs/dialog_spice_model_base.cpp:240
 msgid "Period [s]"
 msgstr "周期 [s]"
 
-#: eeschema/dialogs/dialog_spice_model_base.cpp:249
+#: eeschema/dialogs/dialog_spice_model_base.cpp:251
 msgid "Pulse"
 msgstr "パルス"
 
-#: eeschema/dialogs/dialog_spice_model_base.cpp:257
+#: eeschema/dialogs/dialog_spice_model_base.cpp:259
 msgid "DC offset [V/A]"
 msgstr "DC オフセット [V/A]"
 
-#: eeschema/dialogs/dialog_spice_model_base.cpp:266
+#: eeschema/dialogs/dialog_spice_model_base.cpp:268
 msgid "Amplitude [V/A]"
 msgstr "振幅 [V/A]"
 
-#: eeschema/dialogs/dialog_spice_model_base.cpp:273
+#: eeschema/dialogs/dialog_spice_model_base.cpp:275
 msgid "Frequency [Hz]"
 msgstr "周波数 [Hz]"
 
-#: eeschema/dialogs/dialog_spice_model_base.cpp:280
+#: eeschema/dialogs/dialog_spice_model_base.cpp:282
 msgid "Delay [s]"
 msgstr "遅延 [s]"
 
-#: eeschema/dialogs/dialog_spice_model_base.cpp:287
+#: eeschema/dialogs/dialog_spice_model_base.cpp:289
 msgid "Damping factor [1/s]"
 msgstr "減衰係数 [1/s]"
 
-#: eeschema/dialogs/dialog_spice_model_base.cpp:298
+#: eeschema/dialogs/dialog_spice_model_base.cpp:300
 msgid "Sinusoidal"
 msgstr "正弦"
 
-#: eeschema/dialogs/dialog_spice_model_base.cpp:322
+#: eeschema/dialogs/dialog_spice_model_base.cpp:324
 msgid "Rise delay time [s]"
 msgstr "立ち上がり遅延時間 [s]"
 
-#: eeschema/dialogs/dialog_spice_model_base.cpp:329
+#: eeschema/dialogs/dialog_spice_model_base.cpp:331
 msgid "Rise time constant [s]"
 msgstr "立ち上がり時定数 [s]"
 
-#: eeschema/dialogs/dialog_spice_model_base.cpp:336
+#: eeschema/dialogs/dialog_spice_model_base.cpp:338
 msgid "Fall delay time [s]"
 msgstr "立ち下がり遅延時間 [s]"
 
-#: eeschema/dialogs/dialog_spice_model_base.cpp:343
+#: eeschema/dialogs/dialog_spice_model_base.cpp:345
 msgid "Fall time constant [s]"
 msgstr "立ち下がり時定数 [s]"
 
-#: eeschema/dialogs/dialog_spice_model_base.cpp:354
+#: eeschema/dialogs/dialog_spice_model_base.cpp:356
 msgid "Exponential"
 msgstr "指数関数"
 
-#: eeschema/dialogs/dialog_spice_model_base.cpp:356
+#: eeschema/dialogs/dialog_spice_model_base.cpp:358
 msgid "Piece-wise linear"
 msgstr "区分線形"
 
-#: eeschema/dialogs/dialog_spice_model_base.cpp:371
+#: eeschema/dialogs/dialog_spice_model_base.cpp:373
 msgid "Time [s]"
 msgstr "時間 [s]"
 
-#: eeschema/dialogs/dialog_spice_model_base.cpp:380
+#: eeschema/dialogs/dialog_spice_model_base.cpp:382
 msgid "Value [V/A]"
 msgstr "値 [V/A]"
 
-#: eeschema/dialogs/dialog_spice_model_base.cpp:405
+#: eeschema/dialogs/dialog_spice_model_base.cpp:407
 msgid "Piece-wise Linear"
 msgstr "区分線形"
 
-#: eeschema/dialogs/dialog_spice_model_base.cpp:409
+#: eeschema/dialogs/dialog_spice_model_base.cpp:411
 msgid "FM"
 msgstr "FM"
 
-#: eeschema/dialogs/dialog_spice_model_base.cpp:413
+#: eeschema/dialogs/dialog_spice_model_base.cpp:415
 msgid "AM"
 msgstr "AM"
 
-#: eeschema/dialogs/dialog_spice_model_base.cpp:417
+#: eeschema/dialogs/dialog_spice_model_base.cpp:419
 msgid "Transient noise"
 msgstr "過渡ノイズ"
 
-#: eeschema/dialogs/dialog_spice_model_base.cpp:421
+#: eeschema/dialogs/dialog_spice_model_base.cpp:423
 msgid "Random"
 msgstr "ランダム"
 
-#: eeschema/dialogs/dialog_spice_model_base.cpp:425
+#: eeschema/dialogs/dialog_spice_model_base.cpp:427
 msgid "External data"
 msgstr "外部データ"
 
-#: eeschema/dialogs/dialog_spice_model_base.cpp:432
+#: eeschema/dialogs/dialog_spice_model_base.cpp:434
 msgid "Voltage"
 msgstr "電圧"
 
-#: eeschema/dialogs/dialog_spice_model_base.cpp:432
+#: eeschema/dialogs/dialog_spice_model_base.cpp:434
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:262
 msgid "Current"
 msgstr "電流"
 
-#: eeschema/dialogs/dialog_spice_model_base.cpp:434
+#: eeschema/dialogs/dialog_spice_model_base.cpp:436
 msgid "Source type"
 msgstr "ソース タイプ"
 
-#: eeschema/dialogs/dialog_spice_model_base.cpp:442
+#: eeschema/dialogs/dialog_spice_model_base.cpp:444
 msgid "Source"
 msgstr "ソース"
 
-#: eeschema/dialogs/dialog_spice_model_base.cpp:446
+#: eeschema/dialogs/dialog_spice_model_base.cpp:448
 msgid "Disable component for simulation"
 msgstr "シミュレーションで部品を無効化"
 
-#: eeschema/dialogs/dialog_spice_model_base.cpp:452
+#: eeschema/dialogs/dialog_spice_model_base.cpp:454
 msgid "Alternate node sequence:"
 msgstr "代替ノード シーエンス:"
 
@@ -6790,16 +6790,7 @@ msgstr "保存しないで読み込み"
 msgid "Schematic '%s' does not exist.  Do you wish to create it?"
 msgstr "回路図 '%s' は存在しません。新規作成しますか?"
 
-#: eeschema/files-io.cpp:294
-#, c-format
-msgid ""
-"Ready\n"
-"Project dir: '%s'\n"
-msgstr ""
-"準備完了\n"
-"作業中のディレクトリ: '%s'\n"
-
-#: eeschema/files-io.cpp:338
+#: eeschema/files-io.cpp:333
 #, c-format
 msgid ""
 "Error loading schematic file '%s'.\n"
@@ -6808,16 +6799,16 @@ msgstr ""
 "回路図読込み中のエラー '%s'\n"
 "%s"
 
-#: eeschema/files-io.cpp:342
+#: eeschema/files-io.cpp:337
 #, c-format
 msgid "Failed to load '%s'"
 msgstr "'%s' が開けませんでした"
 
-#: eeschema/files-io.cpp:405
+#: eeschema/files-io.cpp:400
 msgid "Import Schematic"
 msgstr "回路図のインポート"
 
-#: eeschema/files-io.cpp:521
+#: eeschema/files-io.cpp:516
 msgid ""
 "This operation cannot be undone. Besides, take into account that "
 "hierarchical sheets will not be appended.\n"
@@ -6829,7 +6820,7 @@ msgstr ""
 "\n"
 "操作を続行する前に現在の作業内容を保存しますか？"
 
-#: eeschema/files-io.cpp:545
+#: eeschema/files-io.cpp:540
 #, c-format
 msgid "Directory '%s' is not writable"
 msgstr "ディレクトリ '%s' は書き込み禁止されています"
@@ -7457,7 +7448,7 @@ msgid "Part Library Editor: "
 msgstr "コンポーネント ライブラリ エディタ:"
 
 #: eeschema/libedit.cpp:65 eeschema/viewlibs.cpp:141
-#: pcbnew/modview_frame.cpp:726
+#: pcbnew/modview_frame.cpp:728
 msgid "no library selected"
 msgstr "ライブラリが選択されていません"
 
@@ -9133,128 +9124,214 @@ msgstr "プラグインタイプ \"%s\" が見つかりません。"
 msgid "Unknown SCH_FILE_T value: %d"
 msgstr "未知の SCH_FILE_T の値: %d"
 
-#: eeschema/sch_legacy_plugin.cpp:113 eeschema/sch_legacy_plugin.cpp:158
-#: eeschema/sch_legacy_plugin.cpp:206 eeschema/sch_legacy_plugin.cpp:252
-#: eeschema/sch_legacy_plugin.cpp:292 eeschema/sch_legacy_plugin.cpp:304
-#: eeschema/sch_legacy_plugin.cpp:355 eeschema/sch_legacy_plugin.cpp:368
-#: eeschema/sch_legacy_plugin.cpp:387 eeschema/sch_legacy_plugin.cpp:790
+#: eeschema/sch_legacy_plugin.cpp:126 eeschema/sch_legacy_plugin.cpp:171
+#: eeschema/sch_legacy_plugin.cpp:219 eeschema/sch_legacy_plugin.cpp:265
+#: eeschema/sch_legacy_plugin.cpp:309 eeschema/sch_legacy_plugin.cpp:322
+#: eeschema/sch_legacy_plugin.cpp:373 eeschema/sch_legacy_plugin.cpp:386
+#: eeschema/sch_legacy_plugin.cpp:405 eeschema/sch_legacy_plugin.cpp:810
+#: eeschema/sch_legacy_plugin.cpp:2394
 msgid "unexpected end of line"
 msgstr "予期しない行の終端"
 
-#: eeschema/sch_legacy_plugin.cpp:255
+#: eeschema/sch_legacy_plugin.cpp:268
 msgid "expected single character token"
 msgstr "一文字のトークンを期待"
 
-#: eeschema/sch_legacy_plugin.cpp:315
+#: eeschema/sch_legacy_plugin.cpp:333
 msgid "expected unquoted string"
 msgstr "引用符で囲まれていない文字列を期待"
 
-#: eeschema/sch_legacy_plugin.cpp:373
+#: eeschema/sch_legacy_plugin.cpp:391
 msgid "expecting opening quote"
 msgstr "引用符の始まりを期待"
 
-#: eeschema/sch_legacy_plugin.cpp:410
+#: eeschema/sch_legacy_plugin.cpp:428
 msgid "expected quoted string"
 msgstr "引用符で囲まれた文字列を期待"
 
-#: eeschema/sch_legacy_plugin.cpp:413
+#: eeschema/sch_legacy_plugin.cpp:431
 msgid "no closing quote for string found"
 msgstr "文字列に引用符の終わりが見つかりません"
 
-#: eeschema/sch_legacy_plugin.cpp:593
+#: eeschema/sch_legacy_plugin.cpp:613
 #, c-format
 msgid "'%s' does not appear to be an Eeschema file"
 msgstr "'%s' は Eeschema のファイルではありません"
 
-#: eeschema/sch_legacy_plugin.cpp:621
+#: eeschema/sch_legacy_plugin.cpp:641
 msgid "Missing 'EELAYER END'"
 msgstr "'EELAYER END' が見つかりません"
 
-#: eeschema/sch_legacy_plugin.cpp:640
+#: eeschema/sch_legacy_plugin.cpp:660
 msgid "invalid page size"
 msgstr "不正なページ サイズ"
 
-#: eeschema/sch_legacy_plugin.cpp:666 eeschema/sch_legacy_plugin.cpp:928
-#: eeschema/sch_legacy_plugin.cpp:936
+#: eeschema/sch_legacy_plugin.cpp:686 eeschema/sch_legacy_plugin.cpp:948
+#: eeschema/sch_legacy_plugin.cpp:956 eeschema/sch_legacy_plugin.cpp:2012
 msgid "unexpected end of file"
 msgstr "予期しないファイルの終端"
 
-#: eeschema/sch_legacy_plugin.cpp:722
+#: eeschema/sch_legacy_plugin.cpp:742
 msgid "missing 'EndDescr'"
 msgstr "'EndDescr' が見つかりません"
 
-#: eeschema/sch_legacy_plugin.cpp:814
+#: eeschema/sch_legacy_plugin.cpp:834
 msgid "invalid sheet pin type"
 msgstr "不正なシート ピン タイプ"
 
-#: eeschema/sch_legacy_plugin.cpp:835
+#: eeschema/sch_legacy_plugin.cpp:855
 msgid "invalid sheet pin side"
 msgstr "不正なシート ピン サイド"
 
-#: eeschema/sch_legacy_plugin.cpp:857
+#: eeschema/sch_legacy_plugin.cpp:877
 msgid "missing '$EndSheet`"
 msgstr "'$EndSheet` が見つかりません"
 
-#: eeschema/sch_legacy_plugin.cpp:895
+#: eeschema/sch_legacy_plugin.cpp:915
 msgid "Unexpected end of file"
 msgstr "予期しないファイルの終端"
 
-#: eeschema/sch_legacy_plugin.cpp:1116
+#: eeschema/sch_legacy_plugin.cpp:1136
 msgid "invalid label type"
 msgstr "不正なラベル タイプ"
 
-#: eeschema/sch_legacy_plugin.cpp:1127
+#: eeschema/sch_legacy_plugin.cpp:1147
 msgid "expected 'Italics' or '~'"
 msgstr "'Italics' or '~' を期待"
 
-#: eeschema/sch_legacy_plugin.cpp:1308
+#: eeschema/sch_legacy_plugin.cpp:1328
 msgid "component field text horizontal justification must be L, R, or C"
 msgstr ""
 "コンポーネント フィールド テキストの水平位置揃えは、L, R または C でなければ"
 "なりません"
 
-#: eeschema/sch_legacy_plugin.cpp:1318
+#: eeschema/sch_legacy_plugin.cpp:1338
 msgid "component field text vertical justification must be B, T, or C"
 msgstr ""
 "コンポーネント フィールド テキストの垂直位置揃えは、B, T または C でなければ"
 "なりません"
 
-#: eeschema/sch_legacy_plugin.cpp:1323
+#: eeschema/sch_legacy_plugin.cpp:1343
 msgid "component field text attributes must be 3 characters wide"
 msgstr ""
 "コンポーネント フィールド テキストの属性は、３文字幅でなければなりません"
 
-#: eeschema/sch_legacy_plugin.cpp:1329
+#: eeschema/sch_legacy_plugin.cpp:1349
 msgid "component field text italics indicator must be I or N"
 msgstr ""
 "コンポーネント フィールド テキストの斜字指標は、 I または N でなければなりま"
 "せん"
 
-#: eeschema/sch_legacy_plugin.cpp:1335
+#: eeschema/sch_legacy_plugin.cpp:1355
 msgid "component field text bold indicator must be B or N"
 msgstr ""
 "コンポーネント フィールド テキストの太字指標は、 B または N でなければなりま"
 "せん"
 
-#: eeschema/sch_legacy_plugin.cpp:1349
+#: eeschema/sch_legacy_plugin.cpp:1369
 msgid "component field orientation must be H or V"
 msgstr "コンポーネント フィールド の方向は、 H または V でなければなりません"
 
-#: eeschema/sch_legacy_plugin.cpp:1381
+#: eeschema/sch_legacy_plugin.cpp:1401
 msgid "invalid component X1 transform value"
 msgstr "不正なコンポーネント X1 変換値"
 
-#: eeschema/sch_legacy_plugin.cpp:1386
+#: eeschema/sch_legacy_plugin.cpp:1406
 msgid "invalid component Y1 transform value"
 msgstr "不正なコンポーネント Y1 変換値"
 
-#: eeschema/sch_legacy_plugin.cpp:1391
+#: eeschema/sch_legacy_plugin.cpp:1411
 msgid "invalid component X2 transform value"
 msgstr "不正なコンポーネント X2 変換値"
 
-#: eeschema/sch_legacy_plugin.cpp:1396
+#: eeschema/sch_legacy_plugin.cpp:1416
 msgid "invalid component Y2 transform value"
 msgstr "不正なコンポーネント Y2 変換値"
+
+#: eeschema/sch_legacy_plugin.cpp:2091
+#, c-format
+msgid "user does not have permission to read library document file '%s'"
+msgstr ""
+"ユーザーはライブラリ ドキュメント ファイル '%s' の読み込み権限がありません"
+
+#: eeschema/sch_legacy_plugin.cpp:2099
+msgid "symbol document library file is empty"
+msgstr "シンボル ドキュメント ライブラリ ファイルが空です"
+
+#: eeschema/sch_legacy_plugin.cpp:2385
+msgid "invalid field ID"
+msgstr "不正なフィールド ID"
+
+#: eeschema/sch_legacy_plugin.cpp:2424
+msgid "invalid field text orientation parameter"
+msgstr "不正なフィールド テキストの方向パラメータ"
+
+#: eeschema/sch_legacy_plugin.cpp:2433
+msgid "invalid field text visibility parameter"
+msgstr "不正なフィールド テキストの可視属性パラメータ"
+
+#: eeschema/sch_legacy_plugin.cpp:2450
+msgid "invalid field text horizontal justification parameter"
+msgstr "不正なフィールド テキストの水平位置揃えパラメータ"
+
+#: eeschema/sch_legacy_plugin.cpp:2458
+msgid "invalid field text attributes size"
+msgstr "不正なフィールド テキスト属性サイズ"
+
+#: eeschema/sch_legacy_plugin.cpp:2468
+msgid "invalid field text vertical justification parameter"
+msgstr "不正なフィールド テキストの垂直位置揃えパラメータ"
+
+#: eeschema/sch_legacy_plugin.cpp:2476
+msgid "invalid field text italic parameter"
+msgstr "不正なフィールド テキストのイタリック (斜字) パラメータ"
+
+#: eeschema/sch_legacy_plugin.cpp:2481
+msgid "invalid field text bold parameter"
+msgstr "不正なフィールド テキストのボールド (太字) パラメータ"
+
+#: eeschema/sch_legacy_plugin.cpp:2570
+msgid "undefined DRAW entry"
+msgstr "未定義の DRAW エントリー"
+
+#: eeschema/sch_legacy_plugin.cpp:2576
+msgid "file ended prematurely loading component draw element"
+msgstr "コンポーネントの図形要素を読込み中、ファイルが途中で終了しました"
+
+#: eeschema/sch_legacy_plugin.cpp:2600
+msgid "invalid fill type, expected f, F, or N"
+msgstr "不正な塗潰しタイプ、f, F または N でなければなりません"
+
+#: eeschema/sch_legacy_plugin.cpp:2748
+msgid "invalid text stype, expected 'Normal' or 'Italic'"
+msgstr ""
+"不正なテキスト スタイル、'標準' または 'イタリック' でなければなりません"
+
+#: eeschema/sch_legacy_plugin.cpp:2769
+msgid "invalid horizontal text justication parameter, expected L, C, or R"
+msgstr ""
+"不正な水平テキストの位置揃えパラメータ、L, C または R でなければなりません"
+
+#: eeschema/sch_legacy_plugin.cpp:2788
+msgid "invalid vertical text justication parameter, expected T, C, or B"
+msgstr ""
+"不正な垂直テキストの位置揃えパラメータ、T, C または B でなければなりません"
+
+#: eeschema/sch_legacy_plugin.cpp:2912
+msgid "unknown pin type"
+msgstr "未知のピン タイプです"
+
+#: eeschema/sch_legacy_plugin.cpp:2965
+msgid "unknown pin attribute"
+msgstr "未知のパッド属性です"
+
+#: eeschema/sch_legacy_plugin.cpp:3008
+msgid "pin attributes do not define a valid pin shape"
+msgstr "ピン属性は有効なピン形状を定義していません"
+
+#: eeschema/sch_legacy_plugin.cpp:3097
+msgid "file ended prematurely while loading footprint filters"
+msgstr "フットプリント フィルタを読込み中、ファイルが途中で終了しました"
 
 #: eeschema/sch_line.cpp:458
 msgid "Vert."
@@ -9288,15 +9365,15 @@ msgstr "%s ライン 不明なレイヤ 始点 (%s,%s) 終点 (%s,%s)"
 msgid "Electronics Rule Check Error"
 msgstr "エレクトリカル ルール チェック(ERC) エラー"
 
-#: eeschema/sch_plugin.cpp:123
+#: eeschema/sch_plugin.cpp:130
 msgid "Enable <b>debug</b> logging for Symbol*() functions in this SCH_PLUGIN."
 msgstr "この SCH_PLUGIN で Symbol*() 関数の<b>debug</b>ログを有効にします"
 
-#: eeschema/sch_plugin.cpp:127
+#: eeschema/sch_plugin.cpp:134
 msgid "Regular expression <b>symbol name</b> filter."
 msgstr "正規表現で<b>symbol name</b>を絞込み。"
 
-#: eeschema/sch_plugin.cpp:131 pcbnew/plugin.cpp:128
+#: eeschema/sch_plugin.cpp:138 pcbnew/plugin.cpp:128
 msgid ""
 "Enable transaction logging. The mere presence of this option turns on the "
 "logging, no need to set a Value."
@@ -9304,15 +9381,15 @@ msgstr ""
 "トランザクションのログを許可する。このオプションを有効にするだけでログを開始"
 "します。値のセットは必要ありません。"
 
-#: eeschema/sch_plugin.cpp:136 pcbnew/plugin.cpp:133
+#: eeschema/sch_plugin.cpp:143 pcbnew/plugin.cpp:133
 msgid "User name for <b>login</b> to some special library server."
 msgstr "特別なライブラリサーバーへ <b>ログイン</b> するためのユーザー名."
 
-#: eeschema/sch_plugin.cpp:140 pcbnew/plugin.cpp:137
+#: eeschema/sch_plugin.cpp:147 pcbnew/plugin.cpp:137
 msgid "Password for <b>login</b> to some special library server."
 msgstr "特別なライブラリサーバーへ <b>ログイン</b> するためのパスワード."
 
-#: eeschema/sch_plugin.cpp:148
+#: eeschema/sch_plugin.cpp:155
 msgid ""
 "Enter the python symbol which implements the SCH_PLUGIN::Symbol*() functions."
 msgstr ""
@@ -9397,73 +9474,73 @@ msgstr "グローバル ラベル %s"
 msgid "Hierarchical Label %s"
 msgstr "階層ラベル %s"
 
-#: eeschema/sch_validators.cpp:80
+#: eeschema/sch_validators.cpp:85
 msgid "reference designator"
 msgstr "リファレンス記号"
 
-#: eeschema/sch_validators.cpp:81
+#: eeschema/sch_validators.cpp:86
 msgid "value"
 msgstr "定数"
 
-#: eeschema/sch_validators.cpp:82
+#: eeschema/sch_validators.cpp:87
 msgid "footprint"
 msgstr "フットプリント"
 
-#: eeschema/sch_validators.cpp:83
+#: eeschema/sch_validators.cpp:88
 msgid "data sheet"
 msgstr "データ シート"
 
-#: eeschema/sch_validators.cpp:84
+#: eeschema/sch_validators.cpp:89
 msgid "user defined"
 msgstr "ユーザ定義"
 
-#: eeschema/sch_validators.cpp:92
+#: eeschema/sch_validators.cpp:97
 #, c-format
 msgid "The %s field cannot be empty."
 msgstr "%s フィールドは空にできません。"
 
-#: eeschema/sch_validators.cpp:98
+#: eeschema/sch_validators.cpp:105
 msgid "carriage return"
 msgstr "復帰"
 
-#: eeschema/sch_validators.cpp:100
+#: eeschema/sch_validators.cpp:107
 msgid "line feed"
 msgstr "改行"
 
-#: eeschema/sch_validators.cpp:102
+#: eeschema/sch_validators.cpp:109
 msgid "tab"
 msgstr "タブ"
 
-#: eeschema/sch_validators.cpp:104
+#: eeschema/sch_validators.cpp:111
 msgid "space"
 msgstr "スペース"
 
-#: eeschema/sch_validators.cpp:111
+#: eeschema/sch_validators.cpp:118
 #, c-format
 msgid "%s or %s"
 msgstr "%s または %s"
 
-#: eeschema/sch_validators.cpp:113
+#: eeschema/sch_validators.cpp:120
 #, c-format
 msgid "%s, %s, or %s"
 msgstr "%s, %s, または %s"
 
-#: eeschema/sch_validators.cpp:115
+#: eeschema/sch_validators.cpp:122
 #, c-format
 msgid "%s, %s, %s, or %s"
 msgstr "%s, %s, %s, または %s"
 
-#: eeschema/sch_validators.cpp:120
+#: eeschema/sch_validators.cpp:127
 #, c-format
 msgid "The %s field cannot contain %s characters."
 msgstr "フィールド %s には文字 %s を含めることができません。"
 
-#: eeschema/sch_validators.cpp:124
+#: eeschema/sch_validators.cpp:131
 #, c-format
 msgid "The %s field cannot contain leading and/or trailing white space."
 msgstr "フィールド %s は空白文字からの開始や末尾への付加ができません。"
 
-#: eeschema/sch_validators.cpp:132
+#: eeschema/sch_validators.cpp:139
 msgid "Field Validation Error"
 msgstr "フィールド検証エラー"
 
@@ -9584,7 +9661,7 @@ msgstr "配線、バスを90度のみで描画"
 
 #: eeschema/schframe.cpp:789
 msgid "Do not show hidden pins"
-msgstr "非表示のピンを表示しない"
+msgstr "非表示ピンを表示しない"
 
 #: eeschema/schframe.cpp:790 eeschema/tool_sch.cpp:295
 msgid "Show hidden pins"
@@ -9706,51 +9783,107 @@ msgstr "シンプルな階層シートに変換しますか？"
 msgid "No new hierarchical labels found."
 msgstr "新しい階層ラベルが見つかりません"
 
-#: eeschema/sim/sim_plot_frame.cpp:122
+#: eeschema/sim/sim_plot_frame.cpp:135
 msgid "Run/Stop Simulation"
 msgstr "シミュレーションを実行/停止"
 
-#: eeschema/sim/sim_plot_frame.cpp:123 eeschema/sim/sim_plot_frame_base.cpp:51
+#: eeschema/sim/sim_plot_frame.cpp:136 eeschema/sim/sim_plot_frame_base.cpp:51
 msgid "Run Simulation"
 msgstr "シミュレーションを実行"
 
-#: eeschema/sim/sim_plot_frame.cpp:124
+#: eeschema/sim/sim_plot_frame.cpp:137
 msgid "Add Signals"
 msgstr "信号を追加"
 
-#: eeschema/sim/sim_plot_frame.cpp:125
+#: eeschema/sim/sim_plot_frame.cpp:138
 msgid "Add signals to plot"
 msgstr "プロットする信号を追加"
 
-#: eeschema/sim/sim_plot_frame.cpp:126
+#: eeschema/sim/sim_plot_frame.cpp:139
 msgid "Probe"
 msgstr "プローブ"
 
-#: eeschema/sim/sim_plot_frame.cpp:127
+#: eeschema/sim/sim_plot_frame.cpp:140
 msgid "Probe signals on the schematic"
 msgstr "回路図上の信号をプローブ"
 
-#: eeschema/sim/sim_plot_frame.cpp:128 eeschema/sim/sim_plot_frame_base.cpp:201
+#: eeschema/sim/sim_plot_frame.cpp:141 eeschema/sim/sim_plot_frame_base.cpp:201
 msgid "Tune"
 msgstr "調整"
 
-#: eeschema/sim/sim_plot_frame.cpp:129
+#: eeschema/sim/sim_plot_frame.cpp:142
 msgid "Tune component values"
 msgstr "コンポーネント定数を調整"
 
-#: eeschema/sim/sim_plot_frame.cpp:130
+#: eeschema/sim/sim_plot_frame.cpp:143
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:101
 msgid "Settings"
 msgstr "設定"
 
-#: eeschema/sim/sim_plot_frame.cpp:131
-#: eeschema/dialogs/dialog_sim_settings_base.h:119
+#: eeschema/sim/sim_plot_frame.cpp:144
+#: eeschema/dialogs/dialog_sim_settings_base.h:123
 msgid "Simulation settings"
 msgstr "シミュレーションの設定"
 
-#: eeschema/sim/sim_plot_frame.cpp:147
+#: eeschema/sim/sim_plot_frame.cpp:160
 msgid "Welcome!"
 msgstr "ようこそ！"
+
+#: eeschema/sim/sim_plot_frame.cpp:196 eeschema/sim/sim_plot_frame.cpp:864
+msgid "There were errors during netlist export, aborted."
+msgstr "ネットリストのエクスポート中にエラーが発生しました。中止します。"
+
+#: eeschema/sim/sim_plot_frame.cpp:202
+msgid "You need to select the simulation settings first."
+msgstr "先にシミュレーションの設定を選択する必要があります。"
+
+#: eeschema/sim/sim_plot_frame.cpp:653
+msgid "Open simulation workbook"
+msgstr "シミュレーション ワークブックを開く"
+
+#: eeschema/sim/sim_plot_frame.cpp:654 eeschema/sim/sim_plot_frame.cpp:670
+msgid "Workbook file (*.wbk)|*.wbk"
+msgstr "Workbook ファイル (*.wbk)|*.wbk"
+
+#: eeschema/sim/sim_plot_frame.cpp:669
+msgid "Save simulation workbook"
+msgstr "シミュレーション ワークブックを保存"
+
+#: eeschema/sim/sim_plot_frame.cpp:676
+msgid "There was an error while saving the workbook file"
+msgstr "ワークブック ファイルの保存中にエラーが発生しました"
+
+#: eeschema/sim/sim_plot_frame.cpp:685
+msgid "Save plot as image"
+msgstr "画像としてプロットを保存"
+
+#: eeschema/sim/sim_plot_frame.cpp:686
+msgid "PNG file (*.png)|*.png"
+msgstr "PNG ファイル (*.png)|*.png"
+
+#: eeschema/sim/sim_plot_frame.cpp:702
+msgid "Save plot data"
+msgstr "プロット データを保存"
+
+#: eeschema/sim/sim_plot_frame.cpp:898
+msgid "You need to run simulation first."
+msgstr "先にシミュレーションを実行する必要があります。"
+
+#: eeschema/sim/sim_plot_frame.cpp:945
+msgid "Signal"
+msgstr "信号"
+
+#: eeschema/sim/sim_plot_frame.cpp:1069
+msgid "Hide signal"
+msgstr "信号を非表示"
+
+#: eeschema/sim/sim_plot_frame.cpp:1074
+msgid "Hide cursor"
+msgstr "カーソルを非表示"
+
+#: eeschema/sim/sim_plot_frame.cpp:1076
+msgid "Show cursor"
+msgstr "カーソルを表示"
 
 #: eeschema/sim/sim_plot_frame_base.cpp:19
 msgid "New Plot"
@@ -22219,7 +22352,7 @@ msgstr "(アクティブなライブラリがありません)"
 msgid "Footprint Editor (active library: "
 msgstr "フットプリント エディタ (アクティブなライブラリ:"
 
-#: pcbnew/moduleframe.cpp:867 pcbnew/pcbnew_config.cpp:138
+#: pcbnew/moduleframe.cpp:877 pcbnew/pcbnew_config.cpp:138
 #, c-format
 msgid ""
 "Error occurred saving the global footprint library table:\n"
@@ -22230,7 +22363,7 @@ msgstr ""
 "\n"
 "%s"
 
-#: pcbnew/moduleframe.cpp:887 pcbnew/pcbnew_config.cpp:160
+#: pcbnew/moduleframe.cpp:897 pcbnew/pcbnew_config.cpp:160
 #, c-format
 msgid ""
 "Error occurred saving project specific footprint library table:\n"
@@ -24887,6 +25020,13 @@ msgstr ""
 #: pcbnew/import_dxf/dialog_dxf_import_base.h:72
 msgid "Import DXF File"
 msgstr "DXFファイルのインポート"
+
+#~ msgid ""
+#~ "Ready\n"
+#~ "Project dir: '%s'\n"
+#~ msgstr ""
+#~ "準備完了\n"
+#~ "作業中のディレクトリ: '%s'\n"
 
 #~ msgid "No tool"
 #~ msgstr "ツールなし"
