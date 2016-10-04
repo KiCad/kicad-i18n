@@ -80,7 +80,7 @@ msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-01 23:00+0200\n"
-"PO-Revision-Date: 2016-10-03 12:15+0200\n"
+"PO-Revision-Date: 2016-10-04 10:53+0200\n"
 "Last-Translator: Marco Ciampa <ciampix@libero.it>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: Italiano\n"
@@ -4465,12 +4465,12 @@ msgstr "Aggiorna zoom"
 #: pcbnew/hotkeys.cpp:193 common/dialogs/dialog_hotkeys_editor_base.cpp:39
 #: eeschema/hotkeys.cpp:124 pagelayout_editor/hotkeys.cpp:89
 msgid "Undo"
-msgstr "Annulla"
+msgstr "Ripristina"
 
 #: pcbnew/hotkeys.cpp:197 pcbnew/hotkeys.cpp:199 eeschema/hotkeys.cpp:128
 #: eeschema/hotkeys.cpp:130 pagelayout_editor/hotkeys.cpp:90
 msgid "Redo"
-msgstr "Ripristina"
+msgstr "Ripeti"
 
 #: pcbnew/hotkeys.cpp:204
 msgid "Switch Track Width To Next"
@@ -11576,7 +11576,7 @@ msgstr "x:"
 #: pcbnew/dialogs/dialog_move_exact_base.cpp:67
 #: gerbview/dialogs/dialog_layers_select_to_pcb_base.cpp:86
 msgid "Reset"
-msgstr "Annulla"
+msgstr "Reimposta"
 
 #: pcbnew/dialogs/dialog_move_exact_base.cpp:42
 msgid "y:"
