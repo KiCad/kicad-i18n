@@ -80,7 +80,7 @@ msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-01 23:00+0200\n"
-"PO-Revision-Date: 2016-10-05 09:02+0200\n"
+"PO-Revision-Date: 2016-10-07 08:27+0200\n"
 "Last-Translator: Marco Ciampa <ciampix@libero.it>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: Italiano\n"
@@ -12861,7 +12861,7 @@ msgstr "Cerca per:"
 
 #: pcbnew/dialogs/dialog_find_base.cpp:29
 msgid "Do not warp mouse pointer"
-msgstr "Non deformare il puntatore"
+msgstr "Non spostare il puntatore del mouse"
 
 #: pcbnew/dialogs/dialog_find_base.cpp:42
 msgid "Find Marker"
@@ -21402,7 +21402,7 @@ msgstr "Recupera componenti"
 
 #: eeschema/dialogs/dialog_schematic_find_base.cpp:28
 msgid "&Search for:"
-msgstr "&Cerca per:"
+msgstr "&Cerca:"
 
 #: eeschema/dialogs/dialog_schematic_find_base.cpp:33
 msgid "Text with optional wildcards"
@@ -21418,11 +21418,11 @@ msgstr "Direzione:"
 
 #: eeschema/dialogs/dialog_schematic_find_base.cpp:58
 msgid "F&orward"
-msgstr "P&rosegui"
+msgstr "&Avanti"
 
 #: eeschema/dialogs/dialog_schematic_find_base.cpp:63
 msgid "&Backward"
-msgstr "&Posteriore"
+msgstr "&Indietro"
 
 #: eeschema/dialogs/dialog_schematic_find_base.cpp:74
 msgid "Match whole wor&d"
@@ -21430,7 +21430,7 @@ msgstr "Corrispon&denza parole intere"
 
 #: eeschema/dialogs/dialog_schematic_find_base.cpp:78
 msgid "&Match case"
-msgstr "Corrispondenza &maiuscole e minuscole"
+msgstr "Distingue &maiuscole dalle minuscole"
 
 #: eeschema/dialogs/dialog_schematic_find_base.cpp:81
 msgid "Search &using simple wildcard matching"
@@ -21438,19 +21438,19 @@ msgstr "Cerca &usando semplici caratteri jolly"
 
 #: eeschema/dialogs/dialog_schematic_find_base.cpp:84
 msgid "Wrap around &end of search list"
-msgstr "Cerca alla &fine della lista di ricerca"
+msgstr "Riparte dall'inizio alla fin&e della ricerca"
 
 #: eeschema/dialogs/dialog_schematic_find_base.cpp:88
 msgid "Search all com&ponent fields"
-msgstr "Cerca in tutti i &campi del componente"
+msgstr "Cerca in tutti i cam&pi del componente"
 
 #: eeschema/dialogs/dialog_schematic_find_base.cpp:91
 msgid "Search all pin &names and numbers"
-msgstr "Cerca in tutti i &nomi e numeri dei piedini"
+msgstr "Cerc&a in tutti i nomi e numeri dei piedini"
 
 #: eeschema/dialogs/dialog_schematic_find_base.cpp:94
 msgid "Search the current &sheet onl&y"
-msgstr "Cerca soltanto nel foglio corrente"
+msgstr "Cerca &soltanto nel foglio corrente"
 
 #: eeschema/dialogs/dialog_schematic_find_base.cpp:97
 msgid "Replace componen&t reference designators"
@@ -21458,7 +21458,7 @@ msgstr "Sostituisci il designatore di riferimento del componen&te"
 
 #: eeschema/dialogs/dialog_schematic_find_base.cpp:102
 msgid "D&o not warp cursor to found item"
-msgstr "N&on deformare il puntatore per trovare elemento"
+msgstr "N&on spostare il puntatore all'elemento trovato"
 
 #: eeschema/dialogs/dialog_schematic_find_base.cpp:115
 msgid "&Replace"
