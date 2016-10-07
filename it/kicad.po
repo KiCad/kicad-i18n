@@ -17738,7 +17738,7 @@ msgstr "Uscita"
 #: eeschema/dialogs/dialog_edit_label_base.cpp:82 eeschema/pin_type.cpp:44
 #: eeschema/sch_text.cpp:785
 msgid "Bidirectional"
-msgstr "Biderezionale"
+msgstr "Bidirezionale"
 
 #: eeschema/lib_pin.cpp:186 eeschema/dialogs/dialog_sch_edit_sheet_pin.cpp:33
 #: eeschema/pin_type.cpp:47
@@ -18430,7 +18430,7 @@ msgstr "Pin uscita........."
 
 #: eeschema/erc.cpp:91
 msgid "Bidirectional Pin.."
-msgstr "Pin biderezionale.."
+msgstr "Pin bidirezionale.."
 
 #: eeschema/erc.cpp:92
 msgid "Tri-State Pin......"
@@ -18474,7 +18474,7 @@ msgstr "Pin Uscita"
 
 #: eeschema/erc.cpp:107
 msgid "Bidirectional Pin"
-msgstr "Pin biderezionale"
+msgstr "Pin bidirezionale"
 
 #: eeschema/erc.cpp:108
 msgid "Tri-State Pin"
