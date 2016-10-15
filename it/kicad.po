@@ -80,7 +80,7 @@ msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-01 23:00+0200\n"
-"PO-Revision-Date: 2016-10-07 08:27+0200\n"
+"PO-Revision-Date: 2016-10-15 13:26+0200\n"
 "Last-Translator: Marco Ciampa <ciampix@libero.it>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: Italiano\n"
@@ -21989,7 +21989,7 @@ msgstr "Opzioni editor schemi"
 #: eeschema/dialogs/dialog_rescue_each_base.h:65
 #: eeschema/project_rescue.cpp:527 eeschema/project_rescue.cpp:542
 msgid "Project Rescue Helper"
-msgstr "Assistente soccorso progetto"
+msgstr "Assistente recupero progetto"
 
 #: eeschema/dialogs/dialog_annotate_base.h:89
 msgid "Annotate Schematic"
