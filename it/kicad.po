@@ -5772,8 +5772,8 @@ msgid ""
 "Append another Pcbnew board to the current loaded board. Available only when "
 "Pcbnew runs in stand alone mode"
 msgstr ""
-"Aggiunge una nuova scheda a quella caricata attualmente. Funzione "
-"disponibile sono quando Pcbnew viene eseguito autonomamente"
+"Accoda una nuova scheda a quella caricata attualmente. Funzione disponibile "
+"sono quando Pcbnew viene eseguito autonomamente"
 
 #: pcbnew/menubar_pcbframe.cpp:111 pcbnew/menubar_pcbframe.cpp:115
 msgid "Save current board"
@@ -26013,7 +26013,7 @@ msgstr "Allinea a destra"
 
 #: pcbnew/tools/pcbnew_control.cpp:874
 msgid "Append a board"
-msgstr "Allega una scheda"
+msgstr "Accoda una scheda"
 
 #: pcbnew/cross-probing.cpp:254
 msgid "EEschema netlist"
