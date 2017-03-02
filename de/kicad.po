@@ -14545,7 +14545,7 @@ msgstr ""
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:413
 #: pcbnew/dialogs/dialog_plot_base.cpp:196
 msgid "Solder mask clearance:"
-msgstr "Abstand Lötstopmaske:"
+msgstr "Abstand Lötstoppmaske:"
 
 #: pcbnew/dialogs/dialog_edit_module_for_BoardEditor_base.cpp:249
 #: pcbnew/dialogs/dialog_edit_module_for_Modedit_base.cpp:183
@@ -21557,7 +21557,7 @@ msgstr "Footprint exakt verschieben"
 
 #: pcbnew/onrightclick.cpp:846
 msgid "Duplicate Footprint"
-msgstr "Doppelter Footprint"
+msgstr "Footprint duplizieren"
 
 #: pcbnew/onrightclick.cpp:851
 msgid "Create Footprint Array"
