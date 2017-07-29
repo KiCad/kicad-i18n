@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-15 09:14+0300\n"
-"PO-Revision-Date: 2017-07-15 09:21+0300\n"
+"POT-Creation-Date: 2017-07-29 13:56+0300\n"
+"PO-Revision-Date: 2017-07-29 13:57+0300\n"
 "Last-Translator: Eldar Khayrullin <eldar.khayrullin@mail.ru>\n"
 "Language-Team: Russian KiCad Translation Team: Andrey Fedorushkov, Eldar "
 "Khayrullin, Igor Plyatov <andrf@mail.ru>\n"
@@ -10149,21 +10149,26 @@ msgstr " *ОШИБКА*\n"
 msgid "Archive Project Files"
 msgstr "Архивировать файлы проекта"
 
-#: kicad/files-io.cpp:202
+#: kicad/files-io.cpp:183
+#, c-format
+msgid "Unable to create zip archive file '%s'"
+msgstr "Не удается создать zip архив '%s'"
+
+#: kicad/files-io.cpp:209
 #, c-format
 msgid "Archive file <%s>"
 msgstr "Файл архива <%s>"
 
-#: kicad/files-io.cpp:216
+#: kicad/files-io.cpp:223
 #, c-format
 msgid "(%lu bytes, compressed %d bytes)\n"
 msgstr "(%lu байт, сжатый %d байт)\n"
 
-#: kicad/files-io.cpp:222
+#: kicad/files-io.cpp:229
 msgid " >>Error\n"
 msgstr " >>Ошибка\n"
 
-#: kicad/files-io.cpp:229
+#: kicad/files-io.cpp:236
 #, c-format
 msgid ""
 "\n"
@@ -22087,7 +22092,7 @@ msgstr "Сохранить файл макросов"
 msgid "Read Macros File"
 msgstr "Читать файл макросов"
 
-#: pcbnew/plot_board_layers.cpp:116 pcbnew/plot_board_layers.cpp:301
+#: pcbnew/plot_board_layers.cpp:116 pcbnew/plot_board_layers.cpp:307
 #, c-format
 msgid "Your BOARD has a bad layer number for footprint %s"
 msgstr "Ваша плата содержит неверное число слоев для посад.места %s"
