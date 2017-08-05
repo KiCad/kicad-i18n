@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-05 09:10+0300\n"
-"PO-Revision-Date: 2017-08-05 09:19+0300\n"
+"PO-Revision-Date: 2017-08-05 10:18+0300\n"
 "Last-Translator: Eldar Khayrullin <eldar.khayrullin@mail.ru>\n"
 "Language-Team: Russian KiCad Translation Team: Andrey Fedorushkov, Eldar "
 "Khayrullin, Igor Plyatov <andrf@mail.ru>\n"
@@ -18113,7 +18113,7 @@ msgstr ""
 "Отметьте, чтобы чертить все слои в полигонном режиме.\n"
 "Снимите отметку, чтобы чертить в эскизном режиме в слоях, которые не "
 "поддерживают полигоны (*.SilkS, *_User, Edge.Cuts, Margin, *.CrtYd, *.Fab),\n"
-"и чертить в полигнонном режиме в остальных слоях (*.Cu, *.Adhes, *.Paste, *."
+"и чертить в полигонном режиме в остальных слоях (*.Cu, *.Adhes, *.Paste, *."
 "Mask)"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:360
@@ -23314,9 +23314,6 @@ msgstr "Старт заливки зоны..."
 #: pcbnew/zones_by_polygon_fill_functions.cpp:175
 msgid "Updating ratsnest..."
 msgstr "Обновление связей..."
-
-#~ msgid "Plot all text as lines"
-#~ msgstr "Чертить весь текст линиями"
 
 #~ msgid ""
 #~ "The Internet forum dedicated to KiCad Russian support, including GOST "
