@@ -25,7 +25,18 @@ $ rm -rf ~/tmp/kicad-i18n-build
 If you want to change the default install prefix to match your KiCad
 build, you can add `cmake` option for example use:
 ```
--DCMAKE_INSTALL_PREFIX=/usr
+-DCMAKE_INSTALL_PREFIX=~/kicad-install-dir
+```
+
+simplest command:
+```sh
+$ cd kicad-i18n
+$ mkdir -p ../kicad-i18n-build
+$ cd ../kicad-i18n-build
+$ cmake ../kicad-i18n -DCMAKE_INSTALL_PREFIX={your-kicad-install-dir}
+$ make install
+$ cd ..
+$ rm -rf kicad-i18n-build
 ```
 
 If you occurred some problems, use `cmake --trace -DCMAKE_VERBOSE_MAKEFILE=ON` instead `cmake` to
