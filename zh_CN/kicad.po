@@ -25443,3 +25443,6 @@ msgstr "解压ZIP项目文件(&U)"
 #: kicad/menubar.cpp:277
 msgid "Unarchive project files from zip archive"
 msgstr "选择一个ZIP项目文件，并解压"
+
+msgid "Rotate Clockwise"
+msgstr "顺时针旋转"
