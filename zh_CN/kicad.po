@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: KICAD\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 09:46+0200\n"
-"PO-Revision-Date: 2018-05-03 21:43+0800\n"
+"PO-Revision-Date: 2018-05-03 22:44+0800\n"
 "Last-Translator: Liu Guang <l.g110@163.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -738,9 +738,8 @@ msgid "&Edit"
 msgstr "编辑(&E)"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:68
-#, fuzzy
 msgid "Copy 3D Image"
-msgstr "将三维图像复制到剪贴板"
+msgstr "复制三维图像"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:71 cvpcb/menubar.cpp:109
 #: gerbview/menubar.cpp:393 kicad/menubar.cpp:477
@@ -1744,7 +1743,7 @@ msgstr "小十字"
 
 #: common/widgets/gal_options_panel.cpp:197
 msgid "Full window crosshair"
-msgstr ""
+msgstr "十字光标全屏"
 
 #: common/widgets/gal_options_panel.cpp:200
 #, fuzzy
@@ -2028,9 +2027,8 @@ msgid "KiCad printed circuit board files (*.kicad_pcb)|*."
 msgstr "KiCad PCB文件 (*.brd)|*.brd"
 
 #: common/wildcards_and_files_ext.cpp:186
-#, fuzzy
 msgid "KiCad footprint files (*.kicad_mod)|*."
-msgstr "KiCad s-expre 封装文件 (*.kicad_mod)|*.kicad_mod"
+msgstr "KiCad 封装文件 (*.kicad_mod)|*."
 
 #: common/wildcards_and_files_ext.cpp:192
 #, fuzzy
@@ -2058,9 +2056,8 @@ msgid "Page layout design files (*.kicad_wks)|*."
 msgstr "页面图框文件 (*.kicad_wks)|*kicad_wks"
 
 #: common/wildcards_and_files_ext.cpp:223
-#, fuzzy
 msgid "KiCad symbol footprint link files (*.cmp)|*."
-msgstr "KiCad 元件 - 封装链接文件 (*.cmp)|*.cmp"
+msgstr "KiCad 元件封装链接文件 (*.cmp)|*.cmp"
 
 #: common/wildcards_and_files_ext.cpp:230
 #, fuzzy
@@ -3182,7 +3179,6 @@ msgid "Name:"
 msgstr "名称："
 
 #: common/dialogs/dialog_env_var_config.cpp:138
-#, fuzzy
 msgid "Path:"
 msgstr "路径:"
 
@@ -3272,9 +3268,8 @@ msgstr ""
 "<b>KICAD_PTEMPLATES</b>可选定义项，可以定义你所创建的自己的项目模板文件夹。"
 
 #: common/dialogs/dialog_env_var_config.cpp:425
-#, fuzzy
 msgid "Select Path for Environment Variable"
-msgstr "环境变量"
+msgstr "选择环境变量的路径"
 
 #: common/dialogs/dialog_env_var_config.cpp:458
 msgid "Environment variable name cannot be empty."
@@ -3626,9 +3621,8 @@ msgid "Hotkeys Editor"
 msgstr "快捷键编辑器"
 
 #: common/dialogs/dialog_env_var_config_base.h:65
-#, fuzzy
 msgid "Environment Variable Configuration"
-msgstr "环境变量"
+msgstr "环境变量配置"
 
 #: common/dialogs/dialog_env_var_config_base.h:97
 #, fuzzy
@@ -4091,9 +4085,8 @@ msgid "No editor defined in KiCad. Please choose it."
 msgstr "没有定义Kicad编辑器, 请选择"
 
 #: cvpcb/dialogs/dialog_config_equfiles.cpp:248
-#, fuzzy
 msgid "Footprint Association File"
-msgstr "保存封装关联文件"
+msgstr "封装关联文件"
 
 #: cvpcb/dialogs/dialog_config_equfiles.cpp:293
 #, fuzzy, c-format
@@ -4299,9 +4292,8 @@ msgid "Save (all sheets)"
 msgstr "离开 图页"
 
 #: eeschema/tool_sch.cpp:75
-#, fuzzy
 msgid "Edit Page settings"
-msgstr "页面设置"
+msgstr "编辑页面设置"
 
 #: eeschema/tool_sch.cpp:80
 msgid "Print schematic"
@@ -4837,9 +4829,8 @@ msgid "Place Block"
 msgstr "放置 块"
 
 #: eeschema/onrightclick.cpp:874 eeschema/libedit_onrightclick.cpp:348
-#, fuzzy
 msgid "Cut Block"
-msgstr "复制 块"
+msgstr "剪切块"
 
 #: eeschema/onrightclick.cpp:877 eeschema/libedit_onrightclick.cpp:351
 msgid "Copy Block"
@@ -5283,9 +5274,8 @@ msgid "Revert Symbol"
 msgstr "电源符号"
 
 #: eeschema/widgets/cmp_tree_pane.cpp:84
-#, fuzzy
 msgid "Cut Symbol"
-msgstr "符号"
+msgstr "剪切符号"
 
 #: eeschema/widgets/cmp_tree_pane.cpp:86
 #, fuzzy
@@ -5571,9 +5561,8 @@ msgid "Converted"
 msgstr "转换"
 
 #: eeschema/backanno.cpp:221
-#, fuzzy
 msgid "Load Symbol Footprint Link File"
-msgstr "打开元件和封装链接文件"
+msgstr "加载元件封装链接文件"
 
 #: eeschema/backanno.cpp:232
 msgid "Keep existing footprint field visibility"
@@ -5841,31 +5830,28 @@ msgstr "显示格点(&G)"
 
 #: eeschema/menubar.cpp:197 gerbview/menubar.cpp:227
 #: pcbnew/menubar_pcb_editor.cpp:656 pcbnew/menubar_footprint_editor.cpp:256
-#, fuzzy
 msgid "&Imperial"
-msgstr "导入(&I)"
+msgstr "英制(&I)"
 
 #: eeschema/menubar.cpp:197 gerbview/menubar.cpp:227
 #: pcbnew/menubar_pcb_editor.cpp:656 pcbnew/menubar_footprint_editor.cpp:256
 msgid "Use imperial units"
-msgstr ""
+msgstr "使用英制单位"
 
 #: eeschema/menubar.cpp:201 gerbview/menubar.cpp:231
 #: pcbnew/menubar_pcb_editor.cpp:660 pcbnew/menubar_footprint_editor.cpp:260
 msgid "&Metric"
-msgstr ""
+msgstr "公制(&M)"
 
 #: eeschema/menubar.cpp:201 gerbview/menubar.cpp:231
 #: pcbnew/menubar_pcb_editor.cpp:660 pcbnew/menubar_footprint_editor.cpp:260
-#, fuzzy
 msgid "Use metric units"
-msgstr "测量单位 (&M):"
+msgstr "使用公制单位"
 
 #: eeschema/menubar.cpp:205 gerbview/menubar.cpp:235
 #: pcbnew/menubar_pcb_editor.cpp:664 pcbnew/menubar_footprint_editor.cpp:264
-#, fuzzy
 msgid "&Units"
-msgstr "单位"
+msgstr "单位(&U)"
 
 #: eeschema/menubar.cpp:206 gerbview/menubar.cpp:236
 #: pcbnew/menubar_pcb_editor.cpp:665 pcbnew/menubar_footprint_editor.cpp:265
@@ -5878,7 +5864,7 @@ msgstr "选择要显示的库"
 #: pcbnew/menubar_footprint_editor.cpp:270
 #: pcbnew/menubar_footprint_editor.cpp:275
 msgid "Full Window Crosshair"
-msgstr ""
+msgstr "十字光标全屏"
 
 #: eeschema/menubar.cpp:218
 msgid "Change cursor shape (not supported in Legacy graphics)"
@@ -5997,16 +5983,14 @@ msgid "Save all sheets in schematic"
 msgstr "保存原理图所有图页"
 
 #: eeschema/menubar.cpp:391
-#, fuzzy
 msgid "Save &Current Sheet"
-msgstr "仅保存当前图页(&C)"
+msgstr "保存当前图页(&C)"
 
 #: eeschema/menubar.cpp:392
 msgid "Save only current schematic sheet"
 msgstr "仅保存当前原理图页"
 
 #: eeschema/menubar.cpp:397
-#, fuzzy
 msgid "Save C&urrent Sheet As..."
 msgstr "另存当前电路图页(&U)"
 
@@ -6016,9 +6000,8 @@ msgid "Save current schematic sheet with new name"
 msgstr "另存当前原理图页..."
 
 #: eeschema/menubar.cpp:408
-#, fuzzy
 msgid "App&end Schematic Sheet..."
-msgstr "追加原理图页(&E)"
+msgstr "添加原理图页(&E)..."
 
 #: eeschema/menubar.cpp:409
 #, fuzzy
@@ -6026,9 +6009,8 @@ msgid "Import schematic sheet content from another project to current sheet"
 msgstr "从其它项目中导入原理图到当前图页"
 
 #: eeschema/menubar.cpp:413
-#, fuzzy
 msgid "&Import Non KiCad Schematic File..."
-msgstr "导入非KiCad电路板文件"
+msgstr "导入非KiCad原理图文件(&I)..."
 
 #: eeschema/menubar.cpp:414
 #, fuzzy
@@ -6070,9 +6052,8 @@ msgid "Export files"
 msgstr "导入文件"
 
 #: eeschema/menubar.cpp:452 pcbnew/menubar_pcb_editor.cpp:936
-#, fuzzy
 msgid "Page S&ettings..."
-msgstr "页面设置"
+msgstr "页面设置(&E)"
 
 #: eeschema/menubar.cpp:453 pcbnew/menubar_pcb_editor.cpp:937
 #, fuzzy
@@ -6082,9 +6063,8 @@ msgstr "设置图页和图框"
 #: eeschema/menubar.cpp:456 gerbview/menubar.cpp:163
 #: pagelayout_editor/menubar.cpp:95 pcbnew/menubar_pcb_editor.cpp:940
 #: pcbnew/menubar_footprint_editor.cpp:132
-#, fuzzy
 msgid "&Print..."
-msgstr "打印(&P)"
+msgstr "打印(&P)..."
 
 #: eeschema/menubar.cpp:458
 msgid "Print schematic sheet"
@@ -6115,7 +6095,7 @@ msgstr "重做(&R)"
 
 #: eeschema/menubar.cpp:489 pcbnew/menubar_pcb_editor.cpp:523
 msgid "&Cut"
-msgstr ""
+msgstr "剪切(&C)"
 
 #: eeschema/menubar.cpp:491 pcbnew/menubar_pcb_editor.cpp:525
 #: pcbnew/menubar_footprint_editor.cpp:176
@@ -6125,9 +6105,8 @@ msgstr "复制选择单元到剪贴板"
 
 #: eeschema/menubar.cpp:494 pcbnew/menubar_pcb_editor.cpp:528
 #: pcbnew/menubar_footprint_editor.cpp:177
-#, fuzzy
 msgid "&Copy"
-msgstr "复制"
+msgstr "复制(&C)"
 
 #: eeschema/menubar.cpp:496 pcbnew/menubar_pcb_editor.cpp:530
 #: pcbnew/menubar_footprint_editor.cpp:179
@@ -6145,14 +6124,12 @@ msgid "&Find..."
 msgstr "查找(&F)..."
 
 #: eeschema/menubar.cpp:516
-#, fuzzy
 msgid "Find and Re&place..."
-msgstr "查找和替换(&P)"
+msgstr "查找和替换(&P)..."
 
 #: eeschema/menubar.cpp:525
-#, fuzzy
 msgid "Update Field Values..."
-msgstr "更新电压值"
+msgstr "更新字段值..."
 
 #: eeschema/menubar.cpp:526
 #, fuzzy
@@ -6550,9 +6527,8 @@ msgid ""
 msgstr ""
 
 #: eeschema/files-io.cpp:399
-#, fuzzy
 msgid "Append Schematic"
-msgstr "打开原理图"
+msgstr "添加原理图"
 
 #: eeschema/files-io.cpp:448 eeschema/sheet.cpp:262
 msgid ""
@@ -6887,9 +6863,8 @@ msgstr "重做"
 
 #: eeschema/hotkeys.cpp:240 pcbnew/tools/edit_tool.cpp:185
 #: pcbnew/hotkeys.cpp:275
-#, fuzzy
 msgid "Cut"
-msgstr "计数:"
+msgstr "剪切"
 
 #: eeschema/hotkeys.cpp:348 pagelayout_editor/hotkeys.cpp:126
 #: pcbnew/hotkeys.cpp:374
@@ -10245,9 +10220,8 @@ msgstr ""
 "文本字段不能被修改。"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:112
-#, fuzzy
 msgid "Update Field Values"
-msgstr "更新电压值"
+msgstr "更新字段值"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:113
 #, fuzzy
@@ -11999,7 +11973,7 @@ msgstr "重做最后操作"
 
 #: eeschema/help_common_strings.h:45
 msgid "Zoom to fit schematic page"
-msgstr ""
+msgstr "缩放到适合原理图页面"
 
 #: eeschema/help_common_strings.h:46
 msgid "Redraw schematic view"
@@ -14686,7 +14660,7 @@ msgstr "删除选择项"
 
 #: pagelayout_editor/toolbars_pl_editor.cpp:92
 msgid "Zoom to fit page"
-msgstr ""
+msgstr "缩放到适合页面"
 
 #: pagelayout_editor/toolbars_pl_editor.cpp:104
 msgid ""
@@ -16746,9 +16720,8 @@ msgstr "编辑 焊盘"
 
 #: pcbnew/onrightclick.cpp:890 pcbnew/tools/pad_tool.cpp:51
 #: pcbnew/footprint_editor_onclick.cpp:320
-#, fuzzy
 msgid "Copy Pad Properties"
-msgstr "焊盘属性"
+msgstr "复制焊盘属性"
 
 #: pcbnew/onrightclick.cpp:894 pcbnew/tools/pad_tool.cpp:57
 #: pcbnew/tools/pad_tool.cpp:234 pcbnew/tools/pad_tool.cpp:387
@@ -20277,7 +20250,7 @@ msgstr "重做最后撤消操作"
 
 #: pcbnew/menubar_footprint_editor.cpp:174
 msgid "Cu&t"
-msgstr ""
+msgstr "剪切(&T)"
 
 #: pcbnew/menubar_footprint_editor.cpp:228 pcbnew/tool_footprint_viewer.cpp:93
 #: pcbnew/tool_footprint_viewer.cpp:156
@@ -22336,7 +22309,6 @@ msgid "Open Board File"
 msgstr "打开电路板文件"
 
 #: pcbnew/files.cpp:143
-#, fuzzy
 msgid "Import Non KiCad Board File"
 msgstr "导入非KiCad电路板文件"
 
