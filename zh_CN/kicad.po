@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: KICAD\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-02 09:46+0200\n"
-"PO-Revision-Date: 2018-05-09 01:32+0800\n"
+"PO-Revision-Date: 2018-05-09 12:53+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-KeywordsList: _HKI;_\n"
 "X-Poedit-Basepath: E:/kicad\n"
-"X-Generator: Poedit 2.0.7\n"
+"X-Generator: Poedit 2.0.3\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-SearchPath-0: kicad\n"
 "X-Poedit-SearchPath-1: pcbnew\n"
@@ -770,7 +770,6 @@ msgid "Material Properties"
 msgstr "材料属性"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:110
-#, fuzzy
 msgid "Use All Properties"
 msgstr "使用所有属性"
 
@@ -4471,9 +4470,8 @@ msgid "Open Documentation"
 msgstr "封装文档文件"
 
 #: eeschema/onrightclick.cpp:443
-#, fuzzy
 msgid "Edit Properties..."
-msgstr "属性编辑(&P)"
+msgstr "编辑属性..."
 
 #: eeschema/onrightclick.cpp:458
 msgid "Edit Footprint..."
@@ -5044,9 +5042,8 @@ msgstr "新建库 (&N)..."
 
 #: eeschema/widgets/cmp_tree_pane.cpp:54 eeschema/widgets/cmp_tree_pane.cpp:95
 #: eeschema/menubar_libedit.cpp:66
-#, fuzzy
 msgid "&Add Library..."
-msgstr "添加库"
+msgstr "添加库(&A)..."
 
 #: eeschema/widgets/cmp_tree_pane.cpp:56 eeschema/menubar_libedit.cpp:76
 #: eeschema/lib_edit_frame.cpp:561
@@ -5066,9 +5063,8 @@ msgid "New Sy&mbol..."
 msgstr "新建符号 (&M)..."
 
 #: eeschema/widgets/cmp_tree_pane.cpp:66 eeschema/menubar_libedit.cpp:202
-#, fuzzy
 msgid "&Import Symbol..."
-msgstr "导入图形符号"
+msgstr "导入符号(&I)..."
 
 #: eeschema/widgets/cmp_tree_pane.cpp:68
 msgid "Paste Symbol"
@@ -5083,9 +5079,8 @@ msgid "Remove Symbol"
 msgstr "删除符号"
 
 #: eeschema/widgets/cmp_tree_pane.cpp:76
-#, fuzzy
 msgid "E&xport Symbol..."
-msgstr "导出图形符号"
+msgstr "导出符号(&E)..."
 
 #: eeschema/widgets/cmp_tree_pane.cpp:78 eeschema/menubar_libedit.cpp:194
 #: eeschema/lib_edit_frame.cpp:511
@@ -7032,9 +7027,8 @@ msgid "Deselect current tool"
 msgstr "不选择当前工具"
 
 #: eeschema/tool_lib.cpp:85
-#, fuzzy
 msgid "Move symbol anchor"
-msgstr "重设部件锚点"
+msgstr "移动符号锚点"
 
 #: eeschema/tool_lib.cpp:89
 msgid "Import existing drawings"
@@ -7049,9 +7043,8 @@ msgid "Create a new library"
 msgstr "创建一个新库"
 
 #: eeschema/tool_lib.cpp:120
-#, fuzzy
 msgid "Add an existing library"
-msgstr "打开已有的电路板"
+msgstr "打开已有的库"
 
 #: eeschema/tool_lib.cpp:124
 msgid "Save current library"
@@ -7082,9 +7075,8 @@ msgid "Edit field properties"
 msgstr "编辑字段属性"
 
 #: eeschema/tool_lib.cpp:170 eeschema/menubar_libedit.cpp:237
-#, fuzzy
 msgid "Check duplicate and off grid pins"
-msgstr "重复和关闭网格外引脚测试"
+msgstr "检查重复和关闭网格引脚"
 
 #: eeschema/tool_lib.cpp:205
 #, fuzzy
@@ -7109,7 +7101,7 @@ msgstr "显示针脚电气类型"
 
 #: eeschema/tool_lib.cpp:278
 msgid "Toggles the search tree"
-msgstr ""
+msgstr "切换搜索树"
 
 #: eeschema/sch_text.cpp:614
 msgid "Graphic Text"
@@ -7233,9 +7225,8 @@ msgid "&Search Tree"
 msgstr "搜索树(&S):"
 
 #: eeschema/menubar_libedit.cpp:180
-#, fuzzy
 msgid "Toggles the search tree visibility"
-msgstr "启用可见性"
+msgstr "切换搜索树可见性"
 
 #: eeschema/menubar_libedit.cpp:188
 msgid "&New Symbol..."
@@ -7257,27 +7248,24 @@ msgid "Import a symbol to the current library"
 msgstr "当前库打开元件并编辑"
 
 #: eeschema/menubar_libedit.cpp:208
-#, fuzzy
 msgid "&Export Symbol..."
-msgstr "导出图形符号"
+msgstr "导出符号(&E)..."
 
 #: eeschema/menubar_libedit.cpp:209
 msgid "Export the current symbol"
 msgstr "导出当前符号"
 
 #: eeschema/menubar_libedit.cpp:216
-#, fuzzy
 msgid "&Properties..."
-msgstr "属性..."
+msgstr "属性(&P)..."
 
 #: eeschema/menubar_libedit.cpp:222
 msgid "&Fields..."
 msgstr "字段(&F)..."
 
 #: eeschema/menubar_libedit.cpp:230
-#, fuzzy
 msgid "Pi&n Table..."
-msgstr "引脚列表"
+msgstr "引脚列表(&N)..."
 
 #: eeschema/menubar_libedit.cpp:236 eeschema/dialogs/dialog_erc_base.h:86
 msgid "Electrical Rules Checker"
@@ -10388,9 +10376,8 @@ msgid "Common to all &units in symbol"
 msgstr "适用于所有单元(&U)"
 
 #: eeschema/dialogs/dialog_lib_edit_pin_base.cpp:93
-#, fuzzy
 msgid "Schematic Properties:"
-msgstr "原理图属性"
+msgstr "原理图属性:"
 
 #: eeschema/dialogs/dialog_lib_edit_pin_base.cpp:95
 msgid "&Visible"
@@ -11717,33 +11704,28 @@ msgid ""
 msgstr ""
 
 #: eeschema/help_common_strings.h:84
-#, fuzzy
 msgid "Add pins to symbol"
-msgstr "添加引脚到元件"
+msgstr "添加引脚到符号"
 
 #: eeschema/help_common_strings.h:85
-#, fuzzy
 msgid "Add text to symbol body"
-msgstr "添加文字到元件主体"
+msgstr "添加文本到符号主体"
 
 #: eeschema/help_common_strings.h:86
 msgid "Add graphic rectangle to symbol body"
 msgstr "添加矩形到符号"
 
 #: eeschema/help_common_strings.h:87
-#, fuzzy
 msgid "Add circles to symbol body"
-msgstr "添加圆到元件"
+msgstr "添加圆到符号主体"
 
 #: eeschema/help_common_strings.h:88
-#, fuzzy
 msgid "Add arcs to symbol body"
-msgstr "添加圆弧到元件"
+msgstr "添加圆弧到符号主体"
 
 #: eeschema/help_common_strings.h:89
-#, fuzzy
 msgid "Add lines and polygons to symbol body"
-msgstr "添加线和多边形到元件"
+msgstr "添加线和多边形到符号主体"
 
 #: eeschema/lib_bezier.h:63
 msgid "Bezier"
@@ -11809,9 +11791,8 @@ msgid "Sheet Pin Properties"
 msgstr "图页引脚属性"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.h:115
-#, fuzzy
 msgid "Library Symbol Properties"
-msgstr "元件库属性"
+msgstr "符号库属性"
 
 #: eeschema/dialogs/dialog_fields_editor_global_base.h:71
 msgid "Symbol Fields"
@@ -11854,9 +11835,8 @@ msgid "Netlist"
 msgstr "网络列表"
 
 #: eeschema/dialogs/dialog_netlist_base.h:117
-#, fuzzy
 msgid "Plugin Properties"
-msgstr "引脚属性"
+msgstr "插件属性"
 
 #: eeschema/dialogs/dialog_lib_edit_draw_item_base.h:60
 msgid "Drawing Properties"
@@ -14366,9 +14346,8 @@ msgid "Not on page 1"
 msgstr "不适用于第 1 页"
 
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:82
-#, fuzzy
 msgid "Horizontal align:"
-msgstr "水平间距："
+msgstr "水平对齐："
 
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:95
 msgid "Vertical align:"
@@ -14391,12 +14370,10 @@ msgid "Comment:"
 msgstr "注释："
 
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:225
-#, fuzzy
 msgid "Start X:"
 msgstr "起点 X："
 
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:239
-#, fuzzy
 msgid "Start Y:"
 msgstr "起点 Y："
 
@@ -16165,9 +16142,8 @@ msgid "Move Zone Exactly..."
 msgstr "精确移动区域"
 
 #: pcbnew/onrightclick.cpp:708
-#, fuzzy
 msgid "Edit Zone Properties..."
-msgstr "编辑区域属性"
+msgstr "编辑区域属性..."
 
 #: pcbnew/onrightclick.cpp:718
 msgid "Delete Cutout"
@@ -16676,12 +16652,10 @@ msgid "Select reference point for the block being copied..."
 msgstr ""
 
 #: pcbnew/tools/footprint_editor_tools.cpp:63
-#, fuzzy
 msgid "Add Pad"
 msgstr "添加焊盘"
 
 #: pcbnew/tools/footprint_editor_tools.cpp:63
-#, fuzzy
 msgid "Add a pad"
 msgstr "添加焊盘"
 
@@ -17815,9 +17789,8 @@ msgid "Adjust dimensions for texts and drawings"
 msgstr "调整文本和图形尺寸"
 
 #: pcbnew/menubar_pcb_editor.cpp:180 pcbnew/menubar_footprint_editor.cpp:345
-#, fuzzy
 msgid "Default &Pad Properties..."
-msgstr "焊盘属性"
+msgstr "默认焊盘属性(&P)..."
 
 #: pcbnew/menubar_pcb_editor.cpp:181
 msgid "Adjust default pad characteristics"
@@ -19482,27 +19455,24 @@ msgid "The item is locked. Do you want to continue?"
 msgstr "选择包含锁定项, 你要继续吗?"
 
 #: pcbnew/menubar_footprint_editor.cpp:58
-#, fuzzy
 msgid "Set Acti&ve Library..."
-msgstr "选择当前工作库(&V)"
+msgstr "设置活动库(&V)..."
 
 #: pcbnew/menubar_footprint_editor.cpp:59 pcbnew/tool_footprint_editor.cpp:51
 msgid "Select active library"
 msgstr "选择当前工作库"
 
 #: pcbnew/menubar_footprint_editor.cpp:65
-#, fuzzy
 msgid "&New Footprint..."
-msgstr "新建封装 (&N)"
+msgstr "新建封装 (&N)..."
 
 #: pcbnew/menubar_footprint_editor.cpp:67
 msgid "Create new footprint"
 msgstr "创建新的封装"
 
 #: pcbnew/menubar_footprint_editor.cpp:70
-#, fuzzy
 msgid "&Open Footprint..."
-msgstr "新建封装 (&N)"
+msgstr "打开封装编辑(&O)..."
 
 #: pcbnew/menubar_footprint_editor.cpp:72
 #, fuzzy
@@ -19564,9 +19534,8 @@ msgid "Print current footprint"
 msgstr "打印当前封装"
 
 #: pcbnew/menubar_footprint_editor.cpp:142
-#, fuzzy
 msgid "P&roperties..."
-msgstr "属性..."
+msgstr "属性(&R)..."
 
 #: pcbnew/menubar_footprint_editor.cpp:143
 msgid "Edit footprint properties"
@@ -20371,9 +20340,8 @@ msgid "Tune Single Track (Modern Toolset only)"
 msgstr ""
 
 #: pcbnew/hotkeys.cpp:104
-#, fuzzy
 msgid "Tune Differential Pair Length (Modern Toolset only)"
-msgstr "调整差分对长度(&L)"
+msgstr "调整差分对长度(仅限于现代工具箱)"
 
 #: pcbnew/hotkeys.cpp:106
 #, fuzzy
@@ -20815,7 +20783,6 @@ msgid "New footprint"
 msgstr "新建封装"
 
 #: pcbnew/tool_footprint_editor.cpp:74
-#, fuzzy
 msgid "New footprint using footprint wizard"
 msgstr "新封装使用封装向导"
 
@@ -20828,7 +20795,6 @@ msgid "Load footprint from current board"
 msgstr "从当前电路板打开封装"
 
 #: pcbnew/tool_footprint_editor.cpp:89
-#, fuzzy
 msgid "Update footprint into current board"
 msgstr "更新当前电路板封装"
 
@@ -27113,9 +27079,8 @@ msgid "Do not modify pads having a different orientation"
 msgstr "不修改不同方向的焊盘"
 
 #: pcbnew/dialogs/dialog_global_pads_edition_base.cpp:43
-#, fuzzy
 msgid "Pad Properties..."
-msgstr "焊盘属性"
+msgstr "焊盘属性..."
 
 #: pcbnew/dialogs/dialog_global_pads_edition_base.cpp:49
 msgid "Change Pads on Footprint"
