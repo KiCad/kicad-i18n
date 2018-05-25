@@ -10,7 +10,9 @@
 #
 #####################################
 
-LANG=C
+LC_ALL=C
+
+export LC_ALL
 
 display_help() {
   echo "Usage: $0 [-k] [-p] [locale]"
