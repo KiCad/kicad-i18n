@@ -5011,10 +5011,6 @@ msgstr "Arquivos DXF (.dxf)|*.dxf"
 msgid "Save Drill Plot File"
 msgstr "Salvar Diagrama de furação"
 
-#: pcbnew/gendrill.cpp:789
-msgid "Unable to create file"
-msgstr "Impossível criar arquivo"
-
 #: pcbnew/gendrill.cpp:813
 msgid "Drill report files (.rpt)|*.rpt"
 msgstr "Arquivos relatório de furação (.rpt)|*.rpt"
