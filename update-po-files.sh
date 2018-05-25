@@ -88,7 +88,7 @@ echo "LANG;TRANSLATED;FUZZY;UNTRANSLATED" > "${CSVFILE}"
 for i in $LINGUAS
 do
   echo "## $i"
-  msgmerge --force-po $LOCALDIR/$i/kicad.po $LOCALDIR/kicad.pot -o $LOCALDIR/$i/kicad.po 2> /dev/null
+  msgmerge -N --force-po $LOCALDIR/$i/kicad.po $LOCALDIR/kicad.pot -o $LOCALDIR/$i/kicad.po 2> /dev/null
   if [ "$i" = "en" ] ; then
     msgen $LOCALDIR/$i/kicad.po -o $LOCALDIR/$i/kicad.po.tmp && mv $LOCALDIR/$i/kicad.po.tmp $LOCALDIR/$i/kicad.po
   fi
