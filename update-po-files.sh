@@ -10,7 +10,9 @@
 #
 #####################################
 
-LANG=C
+LC_ALL=C
+
+export LC_ALL
 
 display_help() {
   echo "Usage: $0 [-k] [-p] [locale]"
@@ -59,17 +61,10 @@ POTDIRS=`cat $LOCALDIR/POTDIRS|grep -v '^#'|grep -v '^\s*$'` #Read file without 
 
 cd $SOURCEDIR
 
-#Generate source file list
-for f in $POTDIRS
-do
-  find $f -name "*.cpp" >>$LOCALDIR/POTFILES #List files
-  find $f -name "*.h"   >>$LOCALDIR/POTFILES #List files
-done
-
 #Generate/update template pot file
-xgettext -f $LOCALDIR/POTFILES -k_ -k_HKI -kwxPLURAL:1,2 --force-po --from-code utf-8 -o $LOCALDIR/kicad.pot
-
-rm $LOCALDIR/POTFILES
+find $POTDIRS -name '*.cpp' -or -name '*.h' |
+  sort |
+  xgettext -f- -k_ -k_HKI -kwxPLURAL:1,2 --force-po --from-code utf-8 -o $LOCALDIR/kicad.pot
 
 #check if present in locale list
 validate() { echo $LINGUAS | grep -F -q -w "$1"; }
@@ -93,7 +88,7 @@ echo "LANG;TRANSLATED;FUZZY;UNTRANSLATED" > "${CSVFILE}"
 for i in $LINGUAS
 do
   echo "## $i"
-  msgmerge --force-po $LOCALDIR/$i/kicad.po $LOCALDIR/kicad.pot -o $LOCALDIR/$i/kicad.po 2> /dev/null
+  msgmerge -N --force-po $LOCALDIR/$i/kicad.po $LOCALDIR/kicad.pot -o $LOCALDIR/$i/kicad.po 2> /dev/null
   if [ "$i" = "en" ] ; then
     msgen $LOCALDIR/$i/kicad.po -o $LOCALDIR/$i/kicad.po.tmp && mv $LOCALDIR/$i/kicad.po.tmp $LOCALDIR/$i/kicad.po
   fi
