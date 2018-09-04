@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-18 21:11+0200\n"
-"PO-Revision-Date: 2018-09-04 16:30-0300\n"
+"PO-Revision-Date: 2018-09-04 17:23-0300\n"
 "Last-Translator: Francisco R. Pereira <frosch_bin@yahoo.com.br>\n"
 "Language-Team: kicad team\n"
 "Language: pt_BR\n"
@@ -2040,7 +2040,7 @@ msgstr "Valor:"
 #: pcbnew/dialogs/wizard_3DShape_Libs_downloader_base.cpp:69
 #: pcbnew/import_dxf/dialog_dxf_import_base.cpp:33
 msgid "Browse"
-msgstr "Navegar"
+msgstr "Procurar"
 
 #: common/dialogs/dialog_env_var_config_base.h:65
 msgid "Environment Variable Configuration"
@@ -13379,7 +13379,7 @@ msgid ""
 "Convert bitmap images to schematic or PCB elements"
 msgstr ""
 "Importar bitmap\n"
-"Converter imagens bitmap para elementos esquemáticos ou PCB"
+"Converter imagens bitmap em elementos esquemáticos ou PCB"
 
 #: kicad/commandframe.cpp:103
 msgid "Calculator tools"
@@ -13387,7 +13387,7 @@ msgstr "Ferramentas de cálculo"
 
 #: kicad/commandframe.cpp:107
 msgid "Worksheet layout editor"
-msgstr "Editor de layout de planilha"
+msgstr "Editor de layout de página de desenho"
 
 #: kicad/dialogs/dialog_template_selector.cpp:123
 msgid "<html><h1>Template Selector</h1></html>"
@@ -13415,7 +13415,7 @@ msgstr "Arquivo de projeto KiCad"
 
 #: kicad/files-io.cpp:63
 msgid "Unzip Project"
-msgstr "Descomprimir Projeto"
+msgstr "Descompactar Projeto"
 
 #: kicad/files-io.cpp:70
 #, c-format
@@ -13603,7 +13603,7 @@ msgstr "&Projeto…"
 
 #: kicad/menubar.cpp:221
 msgid "Create new blank project"
-msgstr "Criar novo projeto em branco"
+msgstr "Cria um novo projeto em branco"
 
 #: kicad/menubar.cpp:223
 msgid "Project from &Template..."
@@ -13611,7 +13611,7 @@ msgstr "Projeto a Partir de &Modelo…"
 
 #: kicad/menubar.cpp:226 kicad/menubar.cpp:512
 msgid "Create new project from template"
-msgstr "Criar novo projeto a partir de modelo"
+msgstr "Cria um novo projeto a partir de modelo"
 
 #: kicad/menubar.cpp:230 pagelayout_editor/menubar.cpp:62
 #: pcbnew/menubar_pcb_editor.cpp:797
@@ -13620,7 +13620,7 @@ msgstr "&Novo"
 
 #: kicad/menubar.cpp:231 kicad/menubar.cpp:508
 msgid "Create new project"
-msgstr "Criar novo projeto"
+msgstr "Cria um novo projeto"
 
 #: kicad/menubar.cpp:235
 msgid "&Open Project..."
@@ -13656,11 +13656,11 @@ msgstr "Importar arquivos de projeto de outros softwares"
 
 #: kicad/menubar.cpp:280
 msgid "&Archive Project..."
-msgstr "&Arquivar Projeto…"
+msgstr "&Compactar Projeto…"
 
 #: kicad/menubar.cpp:281
 msgid "Archive all needed project files into zip archive"
-msgstr "Salvar todos os arquivos necessários ao projeto em arquivo zip"
+msgstr "Armazena o projeto em um arquivo zip"
 
 #: kicad/menubar.cpp:287
 msgid "&Unarchive Project..."
@@ -13668,7 +13668,7 @@ msgstr "&Descompactar Projeto…"
 
 #: kicad/menubar.cpp:288 kicad/menubar.cpp:538
 msgid "Unarchive project files from zip archive"
-msgstr "Descompactar projeto de um arquivo zip"
+msgstr "Recupera um projeto armazenado em arquivo zip"
 
 #: kicad/menubar.cpp:298
 msgid "Close KiCad"
@@ -13680,7 +13680,7 @@ msgstr "&Atualizar"
 
 #: kicad/menubar.cpp:307 kicad/menubar.cpp:545
 msgid "Refresh project tree"
-msgstr "Atualizar árvore do projeto"
+msgstr "Atualiza a árvore do projeto"
 
 #: kicad/menubar.cpp:320
 msgid "Open Text E&ditor"
@@ -13696,7 +13696,7 @@ msgstr "&Abrir Arquivo Local…"
 
 #: kicad/menubar.cpp:328
 msgid "Edit local file"
-msgstr "Editar arquivo local"
+msgstr "Edita um arquivo local"
 
 #: kicad/menubar.cpp:344
 msgid "&Set Text Editor..."
@@ -13767,8 +13767,8 @@ msgid ""
 "Bitmap2Component - Convert bitmap images to schematic\n"
 "or PCB elements"
 msgstr ""
-"Bitmap2Component - Converta imagens bitmap para elementos esquemáticos\n"
-"ou elementos da PCB"
+"Bitmap2Component - Converte imagens bitmap em elementos esquemáticos\n"
+" ou elementos da PCB"
 
 #: kicad/menubar.cpp:425
 msgid "Run PCB Calculator"
@@ -13780,11 +13780,11 @@ msgstr "Calculadora PCB - Calculadora de componentes, larguras de trilha, etc."
 
 #: kicad/menubar.cpp:430
 msgid "Edit Page Layout"
-msgstr "Editar Layout de Página"
+msgstr "Editar Layout da Página"
 
 #: kicad/menubar.cpp:432
 msgid "Pl editor - Worksheet layout editor"
-msgstr "Editor PL - Editor de layout de planilha"
+msgstr "Page Layout Editor - Editor de layout de página de desenho"
 
 #: kicad/menubar.cpp:440
 msgid "KiCad &Manual"
@@ -13808,7 +13808,7 @@ msgstr "Abrir um projeto existente"
 
 #: kicad/menubar.cpp:533
 msgid "Archive all project files"
-msgstr "Compactar todos os arquivos do projeto"
+msgstr "Armazena o projeto em um arquivo zip"
 
 #: kicad/preferences.cpp:63
 msgid "You must choose a PDF viewer before using this option."
@@ -14081,7 +14081,7 @@ msgstr "Novo Item"
 
 #: pagelayout_editor/dialogs/dialogs_for_printing.cpp:219
 msgid "Print Page Layout"
-msgstr "Imprimir Layout de Página"
+msgstr "Imprimir Layout da Página"
 
 #: pagelayout_editor/dialogs/dialogs_for_printing.cpp:224
 msgid "An error occurred attempting to print the page layout."
@@ -14253,7 +14253,7 @@ msgstr "Arquivo \"%s\" carregado"
 
 #: pagelayout_editor/files.cpp:108
 msgid "Append Existing Page Layout File"
-msgstr "Anexar Arquivo de Layout de Página eExistente"
+msgstr "Anexar Arquivo de Layout de Página Existente"
 
 #: pagelayout_editor/files.cpp:119 pagelayout_editor/files.cpp:145
 #, c-format
