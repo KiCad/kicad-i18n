@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-18 21:11+0200\n"
-"PO-Revision-Date: 2018-09-04 17:23-0300\n"
+"PO-Revision-Date: 2018-09-04 21:37-0300\n"
 "Last-Translator: Francisco R. Pereira <frosch_bin@yahoo.com.br>\n"
 "Language-Team: kicad team\n"
 "Language: pt_BR\n"
@@ -15900,17 +15900,17 @@ msgstr "Remover net com apenas uma ilha %s."
 #: pcbnew/board_netlist_updater.cpp:635 pcbnew/class_board.cpp:2760
 #, c-format
 msgid "Remove single pad net \"%s\" on \"%s\" pad \"%s\"\n"
-msgstr ""
+msgstr "Remover rede com única ilha \"%s\" em \"%s\" ilha \"%s\"\n"
 
 #: pcbnew/board_netlist_updater.cpp:700
 #, c-format
 msgid "Component %s pad %s not found in footprint %s\n"
-msgstr ""
+msgstr "Do componente %s a ilha %s não foi encontrada no footprint %s.\n"
 
 #: pcbnew/board_netlist_updater.cpp:731
 #, c-format
 msgid "Processing component \"%s:%s:%s\".\n"
-msgstr ""
+msgstr "Processando componente \"%s:%s:%s\".\n"
 
 #: pcbnew/board_netlist_updater.cpp:771
 msgid "Update netlist"
@@ -15926,6 +15926,8 @@ msgid ""
 "Errors occurred during the netlist update. Unless you fix them, your board "
 "will not be consistent with the schematics."
 msgstr ""
+"Ocorreram erros durante a atualização da netlist. A menos que você os "
+"conserte, sua placa não estará consistente com os esquemas."
 
 #: pcbnew/board_netlist_updater.cpp:793
 msgid "Netlist update successful!"
@@ -16004,7 +16006,7 @@ msgstr "Não-roteado"
 #: pcbnew/class_board.cpp:2442
 #, c-format
 msgid "Checking netlist symbol footprint \"%s:%s:%s\".\n"
-msgstr ""
+msgstr "Checando footprint do símbolo da netlist \"%s:%s:%s\".\n"
 
 #: pcbnew/class_board.cpp:2566
 #, c-format
@@ -16014,23 +16016,25 @@ msgstr "Altrando o footprint \"%s:%s\" referente a \"%s\".\n"
 #: pcbnew/class_board.cpp:2582
 #, c-format
 msgid "Changing footprint \"%s:%s\" value from \"%s\" to \"%s\".\n"
-msgstr ""
+msgstr "Alterando o valor do footprint \"%s:%s\" de \"%s\" para \"%s\".\n"
 
 #: pcbnew/class_board.cpp:2599
 #, c-format
 msgid "Changing component path \"%s:%s\" to \"%s\".\n"
-msgstr ""
+msgstr "Alterando caminho do componente de \"%s:%s\" para \"%s\".\n"
 
 #: pcbnew/class_board.cpp:2623
 #, c-format
 msgid "Clearing component \"%s:%s\" pin \"%s\" net name.\n"
-msgstr ""
+msgstr "Limpando do componente \"%s:%s\" o nome de rede no pino \"%s\".\n"
 
 #: pcbnew/class_board.cpp:2642
 #, c-format
 msgid ""
 "Changing footprint \"%s:%s\" pad \"%s\" net name from \"%s\" to \"%s\".\n"
 msgstr ""
+"Alterando do footprint \"%s:%s\" o nome de rede da ilha \"%s\" de \"%s\" para "
+"\"%s\".\n"
 
 #: pcbnew/class_board.cpp:2799
 #, c-format
@@ -16042,11 +16046,12 @@ msgstr ""
 #, c-format
 msgid "Updating copper zone (net name \"%s\") to net name \"%s\"."
 msgstr ""
+"Atualizando a zona de cobre (nome de rede \"%s\") para o nome de rede \"%s\"."
 
 #: pcbnew/class_board.cpp:2842
 #, c-format
 msgid "Copper zone (net name \"%s\") has no pads connected."
-msgstr ""
+msgstr "A zona de cobre (nome de rede \"%s\") não possui ilhas conectadas."
 
 #: pcbnew/class_board_item.cpp:44 pcbnew/class_pad.cpp:1163
 msgid "Rect"
@@ -16089,7 +16094,7 @@ msgstr "Segmento"
 #: pcbnew/class_drawsegment.cpp:729
 #, c-format
 msgid "Pcb Graphic: %s, length %s on %s"
-msgstr ""
+msgstr "Gráfico do PCB: %s, comprimento %s em %s"
 
 #: pcbnew/class_edge_mod.cpp:252
 msgid "TimeStamp"
@@ -16102,7 +16107,7 @@ msgstr "Camada de Footprint"
 #: pcbnew/class_edge_mod.cpp:265
 #, c-format
 msgid "Graphic (%s) on %s of %s"
-msgstr ""
+msgstr "Gráfico (%s) em %s de %s"
 
 #: pcbnew/class_marker_pcb.cpp:97
 msgid "Marker"
@@ -16116,7 +16121,7 @@ msgstr "TipoErro (%d)- %s:"
 #: pcbnew/class_marker_pcb.cpp:134
 #, c-format
 msgid "Marker @(%d,%d)"
-msgstr ""
+msgstr "Marcador @(%d,%d)"
 
 #: pcbnew/class_module.cpp:565
 msgid "Last Change"
@@ -16238,16 +16243,16 @@ msgstr "Não Laminado"
 #: pcbnew/class_pad.cpp:1210
 #, c-format
 msgid "Pad on %s of %s"
-msgstr ""
+msgstr "Ilha em %s de %s"
 
 #: pcbnew/class_pad.cpp:1216
 #, c-format
 msgid "Pad %s on %s of %s"
-msgstr ""
+msgstr "Ilha %s em %s de %s"
 
 #: pcbnew/class_pad.cpp:1364
 msgid "No layers"
-msgstr ""
+msgstr "Sem camadas"
 
 #: pcbnew/class_pad.cpp:1384
 msgid "Internal"
@@ -16296,27 +16301,27 @@ msgstr "Valor %s de %s"
 #: pcbnew/class_text_mod.cpp:433
 #, c-format
 msgid "Text \"%s\" on %s of %s"
-msgstr ""
+msgstr "Texto \"%s\" em %s de %s"
 
 #: pcbnew/class_track.cpp:145
 #, c-format
 msgid "Zone (%08lX) [%s] on %s"
-msgstr ""
+msgstr "Zona (%08lX) [%s] em %s"
 
 #: pcbnew/class_track.cpp:182
 #, c-format
 msgid "Blind/Buried Via %s, net[%s] (%d) on layers %s/%s"
-msgstr ""
+msgstr "Via Cega/Enterrada %s, rede[%s] (%d) nas camadas %s/%s"
 
 #: pcbnew/class_track.cpp:185
 #, c-format
 msgid "Micro Via %s, Net [%s] (%d) on layers %s/%s"
-msgstr ""
+msgstr "Micro Via %s, Rede [%s] (%d) nas camadas %s/%s"
 
 #: pcbnew/class_track.cpp:189
 #, c-format
 msgid "Via %s net [%s] (%d) on layers %s/%s"
-msgstr ""
+msgstr "Via %s rede [%s] (%d) nas camadas %s/%s"
 
 #: pcbnew/class_track.cpp:1100
 msgid "Full Length"
@@ -16397,7 +16402,7 @@ msgstr "Não encontrado"
 #: pcbnew/class_track.cpp:1643
 #, c-format
 msgid "Track %s, net [%s] (%d) on layer %s, length: %s"
-msgstr ""
+msgstr "Trilha %s, rede [%s] (%d) na camada %s, comprimento: %s"
 
 #: pcbnew/class_zone.cpp:817
 msgid "Zone Outline"
@@ -16465,7 +16470,7 @@ msgstr "(Afastamento)"
 
 #: pcbnew/class_zone.cpp:1078
 msgid "** NO BOARD DEFINED **"
-msgstr ""
+msgstr "* * NENHUMA PLACA DEFINIDA * *"
 
 #: pcbnew/class_zone.cpp:1090
 #, c-format
@@ -16546,7 +16551,7 @@ msgstr ""
 #: pcbnew/dialogs/dialog_SVG_print.cpp:304
 #, c-format
 msgid "Plot: \"%s\" OK."
-msgstr ""
+msgstr "Plotagem: \"%s\" OK."
 
 #: pcbnew/dialogs/dialog_SVG_print.cpp:310 pcbnew/dialogs/dialog_plot.cpp:913
 #: pcbnew/exporters/gen_footprints_placefile.cpp:340
@@ -16577,9 +16582,10 @@ msgstr "Camadas de cobre:"
 msgid "Technical layers:"
 msgstr "Camadas técnicas:"
 
+# Verificar
 #: pcbnew/dialogs/dialog_SVG_print_base.cpp:78
 msgid "Print SVG Options:"
-msgstr ""
+msgstr "Opções de impressão SVG:"
 
 #: pcbnew/dialogs/dialog_SVG_print_base.cpp:80
 #: pcbnew/dialogs/dialog_graphic_items_options_base.cpp:102
@@ -16594,9 +16600,10 @@ msgstr ""
 "Seleção do tamanho da caneta utilizada para desenhar itens que não têm "
 "tamanho de caneta especificado."
 
+# Verificar
 #: pcbnew/dialogs/dialog_SVG_print_base.cpp:97
 msgid "Full page with  frame ref"
-msgstr ""
+msgstr "Página inteira com referência de quadro"
 
 #: pcbnew/dialogs/dialog_SVG_print_base.cpp:97
 msgid "Current page size"
@@ -16608,7 +16615,7 @@ msgstr "Somente área da placa"
 
 #: pcbnew/dialogs/dialog_SVG_print_base.cpp:99
 msgid "SVG Page Size:"
-msgstr ""
+msgstr "Tamanho da Página SVG:"
 
 #: pcbnew/dialogs/dialog_SVG_print_base.cpp:103
 msgid "Print board edges"
@@ -16632,11 +16639,11 @@ msgstr "Um arquivo por camada"
 
 #: pcbnew/dialogs/dialog_SVG_print_base.cpp:120
 msgid "All in one file"
-msgstr ""
+msgstr "Tudo em um arquivo"
 
 #: pcbnew/dialogs/dialog_SVG_print_base.cpp:122
 msgid "File Option:"
-msgstr ""
+msgstr "Opção de arquivo:"
 
 #: pcbnew/dialogs/dialog_SVG_print_base.cpp:126
 #: pcbnew/dialogs/dialog_plot.cpp:58 pcbnew/dialogs/dialog_plot_base.h:144
@@ -16730,16 +16737,16 @@ msgstr "Opções de Limpeza"
 #: pcbnew/dialogs/dialog_copper_zones.cpp:394
 #, c-format
 msgid "Clearance must be smaller than %f\" / %f mm."
-msgstr ""
+msgstr "O afastamento deve ser menor que %f\" / %f mm."
 
 #: pcbnew/dialogs/dialog_copper_zones.cpp:406
 #, c-format
 msgid "Minimum width must be larger than %f\" / %f mm."
-msgstr ""
+msgstr "Largura mínima deve ser maior que %f\" / %f mm."
 
 #: pcbnew/dialogs/dialog_copper_zones.cpp:446
 msgid "Thermal relief spoke must be greater than the minimum width."
-msgstr ""
+msgstr "A raia do alívio térmico deve ser maior que a largura mínima."
 
 #: pcbnew/dialogs/dialog_copper_zones.cpp:459
 #: pcbnew/dialogs/dialog_print_using_printer.cpp:487
@@ -16752,11 +16759,11 @@ msgstr "Nenhuma net selecionada."
 
 #: pcbnew/dialogs/dialog_copper_zones.cpp:504
 msgid "Chamfer distance"
-msgstr ""
+msgstr "Distância do chanfro"
 
 #: pcbnew/dialogs/dialog_copper_zones.cpp:510
 msgid "Fillet radius"
-msgstr ""
+msgstr "Raio do arredondamento"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:40
 #: pcbnew/dialogs/dialog_dimension_editor_base.cpp:84
@@ -16769,7 +16776,7 @@ msgstr "Camada:"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:64
 msgid "Net Filtering:"
-msgstr ""
+msgstr "Filtragem de Rede:"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:66
 #: pcbnew/dialogs/dialog_dimension_editor_base.cpp:80
@@ -16780,23 +16787,23 @@ msgstr "Exibir:"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:70
 msgid "Show all (alphabetical)"
-msgstr ""
+msgstr "Mostrar tudo (alfabético)"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:70
 msgid "Show all (pad count)"
-msgstr ""
+msgstr "Mostrar tudo (contagem de ilha)"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:70
 msgid "Filtered (alphabetical)"
-msgstr ""
+msgstr "Filtrado (alfabético)"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:70
 msgid "Filtered (pad count)"
-msgstr ""
+msgstr "Filtrada (contagem de ilha)"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:76
 msgid "Hidden net filter:"
-msgstr ""
+msgstr "Filtro de rede oculto:"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:81
 msgid ""
@@ -16808,7 +16815,7 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:85
 msgid "Visible net filter:"
-msgstr ""
+msgstr "Filtro de rede visível:"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:89
 msgid "*"
@@ -16857,7 +16864,7 @@ msgstr "Arredondar Canto"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:135
 msgid "Chamfer distance (mm):"
-msgstr ""
+msgstr "Distância do chanfro (mm):"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:148
 msgid "Default pad connection:"
@@ -16878,9 +16885,10 @@ msgstr ""
 msgid "Thermal relief"
 msgstr "Alívio térmico"
 
+# Verificar
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:154
 msgid "THT thermal"
-msgstr ""
+msgstr "THT térmico"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:161
 msgid "Thermal Reliefs:"
@@ -16896,7 +16904,7 @@ msgstr "Isolamento entre ilhas da mesma rede e áreas preenchidas."
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:172
 msgid "Spoke width:"
-msgstr ""
+msgstr "Largura do raia:"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:177
 msgid "Width of copper in thermal reliefs."
@@ -16927,7 +16935,7 @@ msgstr "Modo de preenchimento:"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:209
 msgid "Boundary mode:"
-msgstr ""
+msgstr "Modo de limite:"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:213
 msgid "Low Resolution"
@@ -16940,22 +16948,22 @@ msgstr "Alta Resolução"
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:225
 #: pcbnew/dialogs/dialog_keepout_area_properties_base.cpp:54
 msgid "Outline slope:"
-msgstr ""
+msgstr "Inclinação do contorno:"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:229
 #: pcbnew/dialogs/dialog_keepout_area_properties_base.cpp:59
 msgid "Arbitrary"
-msgstr ""
+msgstr "Arbitrário"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:229
 #: pcbnew/dialogs/dialog_keepout_area_properties_base.cpp:59
 msgid "H, V, and 45 deg only"
-msgstr ""
+msgstr "H, V, e 45 graus apenas"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:235
 #: pcbnew/dialogs/dialog_keepout_area_properties_base.cpp:65
 msgid "Outline style:"
-msgstr ""
+msgstr "Estilo do contorno:"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:239
 #: pcbnew/dialogs/dialog_keepout_area_properties_base.cpp:70
@@ -17246,7 +17254,7 @@ msgstr "* (Qualquer)"
 
 #: pcbnew/dialogs/dialog_design_rules.cpp:708
 msgid "Design Rule Setting Error"
-msgstr ""
+msgstr "Erro de Configuração de Regra de Desenho"
 
 #: pcbnew/dialogs/dialog_design_rules.cpp:735
 msgid "New Net Class Name:"
@@ -17254,11 +17262,11 @@ msgstr "Novo Nome de Classe de Net:"
 
 #: pcbnew/dialogs/dialog_design_rules.cpp:755
 msgid "Duplicate net class names are not allowed."
-msgstr ""
+msgstr "Nomes de classe de rede duplicados não são permitidos."
 
 #: pcbnew/dialogs/dialog_design_rules.cpp:819
 msgid "The default net class cannot be removed"
-msgstr ""
+msgstr "A classe de rede padrão não pode ser removida"
 
 #: pcbnew/dialogs/dialog_design_rules.cpp:1026
 #, c-format
@@ -17322,7 +17330,7 @@ msgstr ""
 #: pcbnew/dialogs/dialog_design_rules.cpp:1117
 #, c-format
 msgid "Netclass: <b>%s</b><br>"
-msgstr ""
+msgstr "Classe de Rede: <b>%s</b><br>"
 
 #: pcbnew/dialogs/dialog_design_rules.cpp:1137
 #, c-format
@@ -17340,20 +17348,22 @@ msgstr "<b>Trilha extra %d Tamanho</b> %s &gt; <b>1 polegada</b><br>"
 msgid "<b>Extra Via %d Size</b> %s &lt; <b>Min Via Size</b><br>"
 msgstr "<b>Via Extra %d Tamanho</b> %s &lt; <b>Tamanho Mínimo de Via</b><br>"
 
+# Verificar
 #: pcbnew/dialogs/dialog_design_rules.cpp:1176
 #, c-format
 msgid "<b>No via drill size define in row %d</b><br>"
-msgstr ""
+msgstr "<b>Sem definição de tamanho do furo da via na linha %d</b><br>"
 
+# Verificar
 #: pcbnew/dialogs/dialog_design_rules.cpp:1186
 #, c-format
 msgid "<b>Extra Via %d Drill</b> %s &lt; <b>Min Via Drill %s</b><br>"
-msgstr ""
+msgstr "<b>Furo da Via Extra %d</b> %s &lt; <b>Furo Mínimo da Via %s</b><br>"
 
 #: pcbnew/dialogs/dialog_design_rules.cpp:1195
 #, c-format
 msgid "<b>Extra Via %d Size</b> %s &le; <b> Drill Size</b> %s<br>"
-msgstr ""
+msgstr "<b>Tamanho da Via Extra %d</b> %s &le; <b> Tamanho do Furo</b> %s<br>"
 
 #: pcbnew/dialogs/dialog_design_rules.cpp:1204
 #, c-format
@@ -17374,7 +17384,7 @@ msgstr "Diâmetro da Via"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:51
 msgid "Via Drill"
-msgstr ""
+msgstr "Furo da Via"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:52
 msgid "uVia Dia"
@@ -17387,11 +17397,11 @@ msgstr "furo da uVia"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:54
 msgid "Diff Pair Width"
-msgstr ""
+msgstr "Largura do Par Diferencial"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:55
 msgid "Diff Pair Gap"
-msgstr ""
+msgstr "Lacuna do Par Diferencial"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:68
 msgid "Net Class parameters"
@@ -17415,7 +17425,7 @@ msgstr "Mover a classe Net selecionada uma linha acima"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:97
 msgid "Net Class Membership:"
-msgstr ""
+msgstr "Associação da Classe de Rede:"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:112
 msgid "Select all nets in the left list"
@@ -17443,7 +17453,7 @@ msgstr "Editor de Classes de Nets"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:183
 msgid "Routing Options:"
-msgstr ""
+msgstr "Opções de Roteamento:"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:191
 #: pcbnew/dialogs/dialog_drc_base.cpp:60
@@ -17460,11 +17470,11 @@ msgstr "Furo mínimo de via:"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:227
 msgid "Allow blind/buried vias"
-msgstr ""
+msgstr "Permitir vias cegas/enterradas"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:236
 msgid "Allow micro vias (uVias)"
-msgstr ""
+msgstr "Permitir micro vias (uVias)"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:242
 msgid "Minimum uVia diameter:"
@@ -17480,6 +17490,9 @@ msgid ""
 "Netclass values on demand,\n"
 "for arbitrary vias or track segments."
 msgstr ""
+"Diâmetros de vias e largura de trilhas específicas, que podem ser utilizadas "
+"para substituir valores padrão\n"
+"da Classe de Rede por demanda, para vias arbitrárias ou segmentos de trilha."
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:285
 msgid "Custom Via Sizes:"
@@ -17599,15 +17612,15 @@ msgstr "Editor de Regras de Design"
 
 #: pcbnew/dialogs/dialog_dimension_editor_base.cpp:58
 msgid "Text position X:"
-msgstr ""
+msgstr "Posição do texto X:"
 
 #: pcbnew/dialogs/dialog_dimension_editor_base.cpp:65
 msgid "Text position Y:"
-msgstr ""
+msgstr "Posição do texto Y:"
 
 #: pcbnew/dialogs/dialog_dimension_editor_base.h:69
 msgid "Dimension Properties"
-msgstr ""
+msgstr "Propriedades de Dimensão"
 
 #: pcbnew/dialogs/dialog_display_options_base.cpp:31
 msgid "Annotations:"
@@ -17631,23 +17644,24 @@ msgstr "Em ilhas e trilhas"
 
 #: pcbnew/dialogs/dialog_display_options_base.cpp:35
 msgid "Show net names:"
-msgstr ""
+msgstr "Mostrar nomes de rede:"
 
 #: pcbnew/dialogs/dialog_display_options_base.cpp:37
 msgid "Show or hide net names on pads and/or tracks."
-msgstr ""
+msgstr "Mostrar ou ocultar nomes de rede em ilhas e/ou trilhas."
 
 #: pcbnew/dialogs/dialog_display_options_base.cpp:41
 msgid "Show pad numbers"
 msgstr "Exibir números de Ilha"
 
+# Verificar
 #: pcbnew/dialogs/dialog_display_options_base.cpp:45
 msgid "Show pad no net connection indicator"
-msgstr ""
+msgstr "Mostrar indicador de \"nehuma rede conectada\" na ilha"
 
 #: pcbnew/dialogs/dialog_display_options_base.cpp:53
 msgid "Clearance Outlines:"
-msgstr ""
+msgstr "Contornos do Afastamento:"
 
 #: pcbnew/dialogs/dialog_display_options_base.cpp:55
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:182
