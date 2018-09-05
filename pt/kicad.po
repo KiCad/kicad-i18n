@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-18 21:11+0200\n"
-"PO-Revision-Date: 2018-09-04 21:37-0300\n"
+"PO-Revision-Date: 2018-09-05 16:11-0300\n"
 "Last-Translator: Francisco R. Pereira <frosch_bin@yahoo.com.br>\n"
 "Language-Team: kicad team\n"
 "Language: pt_BR\n"
@@ -35,11 +35,11 @@ msgstr "caminho existe mais não é um arquivo regular"
 
 #: 3d-viewer/3d_cache/3d_cache.cpp:564
 msgid "failed to create 3D configuration directory"
-msgstr "falha ao criar pasta de configuração 3D"
+msgstr "falha ao criar diretório de configuração 3D"
 
 #: 3d-viewer/3d_cache/3d_cache.cpp:566
 msgid "config directory"
-msgstr "pasta de configuração"
+msgstr "diretório de configuração"
 
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:473
 msgid "The given path does not exist"
@@ -2784,7 +2784,7 @@ msgstr "Copiar células selecionadas para a área de transferência"
 
 #: common/grid_tricks.cpp:178
 msgid "Paste\tCTRL+V"
-msgstr "Colar    CTRL+V"
+msgstr "Colar\tCTRL+V"
 
 #: common/grid_tricks.cpp:178
 msgid "Paste clipboard cells to matrix at current cell"
@@ -17679,7 +17679,7 @@ msgstr "Nova trilha com área de via"
 
 #: pcbnew/dialogs/dialog_display_options_base.cpp:55
 msgid "New and edited tracks with via area"
-msgstr ""
+msgstr "Trilhas novas e editadas com área de via"
 
 #: pcbnew/dialogs/dialog_display_options_base.cpp:55
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:182
@@ -17689,13 +17689,16 @@ msgstr "Sempre"
 
 #: pcbnew/dialogs/dialog_display_options_base.cpp:57
 msgid "Show track clearance:"
-msgstr ""
+msgstr "Exibir isolamento da trilha:"
 
 #: pcbnew/dialogs/dialog_display_options_base.cpp:59
 msgid ""
 "Show or hide the track and via clearance area. If \"New track\" is selected, "
 "track clearance area is shown only when creating the track."
 msgstr ""
+"Mostra ou oculta a área de isolamento da trilha e da via. Se \"Nova trilha\" "
+"estiver selecionada, a área de isolamento da trilha será exibida somente ao "
+"criar a trilha."
 
 #: pcbnew/dialogs/dialog_display_options_base.cpp:63
 msgid "Show pad clearance"
@@ -17767,7 +17770,7 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:116
 msgid "Check footprint courtyard overlap"
-msgstr ""
+msgstr "Checar sobreposição do pátio do footprint"
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:119
 msgid "Check courtyard missing in footprints"
