@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-18 21:11+0200\n"
-"PO-Revision-Date: 2018-09-05 16:11-0300\n"
+"PO-Revision-Date: 2018-09-06 14:11-0300\n"
 "Last-Translator: Francisco R. Pereira <frosch_bin@yahoo.com.br>\n"
 "Language-Team: kicad team\n"
 "Language: pt_BR\n"
@@ -19383,7 +19383,7 @@ msgstr "Excluir Itens"
 #: pcbnew/dialogs/dialog_select_net_from_list.cpp:147
 #, c-format
 msgid "net %.3d"
-msgstr ""
+msgstr "rede %.3d"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias.cpp:213
 msgid "Set current Net tracks and vias sizes and drill to the current values?"
@@ -19458,6 +19458,8 @@ msgstr "Opção de Edição Global:"
 msgid ""
 "Set tracks and vias of the current Net to the current selected user value"
 msgstr ""
+"Define o valor de trilhas e vias da rede atual para o valor de usuário "
+"atualmente selecionado"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:145
 msgid "Set tracks and vias of the current Net to the Netclass value"
@@ -19487,11 +19489,11 @@ msgstr "Campos de Footprint:"
 
 #: pcbnew/dialogs/dialog_global_footprints_fields_edition_base.cpp:28
 msgid "Reference designator"
-msgstr ""
+msgstr "Designador de Referência"
 
 #: pcbnew/dialogs/dialog_global_footprints_fields_edition_base.cpp:34
 msgid "User defined"
-msgstr ""
+msgstr "Definido pelo usuário"
 
 #: pcbnew/dialogs/dialog_global_footprints_fields_edition_base.cpp:40
 msgid "Footprint filter:"
@@ -19503,14 +19505,18 @@ msgid ""
 "If not void, footprint names should match this filter.\n"
 "A filter can be something like SM* (case insensitive)"
 msgstr ""
+"Um filtro para selecionar footprints para edição.\n"
+"Se não estiver vazio, os nomes de footprint devem corresponder a este "
+"filtro.\n"
+"O filtro pode ser algo como SM* (insensível a maiúsculas)"
 
 #: pcbnew/dialogs/dialog_global_footprints_fields_edition_base.cpp:56
 msgid "Current Text Dimensions:"
-msgstr ""
+msgstr "Dimensões do Texto Atual:"
 
 #: pcbnew/dialogs/dialog_global_footprints_fields_edition_base.h:61
 msgid "Set Text Size"
-msgstr ""
+msgstr "Definir o Tamanho do Texto"
 
 #: pcbnew/dialogs/dialog_global_pads_edition_base.cpp:23
 msgid "Pad Filter :"
@@ -19530,19 +19536,19 @@ msgstr "Não modificar ilhas que tem orientação diferente"
 
 #: pcbnew/dialogs/dialog_global_pads_edition_base.cpp:43
 msgid "Pad Properties..."
-msgstr ""
+msgstr "Propriedades da Ilha..."
 
 #: pcbnew/dialogs/dialog_global_pads_edition_base.cpp:49
 msgid "Change Pads on Footprint"
-msgstr ""
+msgstr "Alterar Ilhas no Footprint"
 
 #: pcbnew/dialogs/dialog_global_pads_edition_base.cpp:52
 msgid "Change Pads on Identical Footprints"
-msgstr ""
+msgstr "Alterar Ilhas em Footprints Idênticos"
 
 #: pcbnew/dialogs/dialog_global_pads_edition_base.h:56
 msgid "Push Pad Properties"
-msgstr ""
+msgstr "Aplicar Propriedades da Ilha"
 
 #: pcbnew/dialogs/dialog_graphic_item_properties.cpp:156
 #: pcbnew/dialogs/dialog_graphic_item_properties_for_fp_editor.cpp:168
@@ -19595,6 +19601,10 @@ msgid ""
 "\n"
 "Please fix it."
 msgstr ""
+"Este item estava em uma camada proibida ou inexistente.\n"
+"Foi movido para a primeira camada permitida.\n"
+"\n"
+"Por favor, conserte."
 
 #: pcbnew/dialogs/dialog_graphic_item_properties.cpp:296
 msgid "Modify drawing properties"
@@ -19628,7 +19638,7 @@ msgstr "A espessura do item deve ser maior que zero."
 #: pcbnew/dialogs/dialog_graphic_item_properties.cpp:376
 #: pcbnew/dialogs/dialog_graphic_item_properties_for_fp_editor.cpp:379
 msgid "The default thickness must be greater than zero."
-msgstr ""
+msgstr "A espessura padrão deve ser maior que zero."
 
 #: pcbnew/dialogs/dialog_graphic_item_properties.cpp:380
 #: pcbnew/dialogs/dialog_graphic_item_properties_for_fp_editor.cpp:383
@@ -19665,7 +19675,7 @@ msgstr "Espessura do Item:"
 
 #: pcbnew/dialogs/dialog_graphic_item_properties_base.cpp:111
 msgid "Default thickness:"
-msgstr ""
+msgstr "Espessura padrão:"
 
 #: pcbnew/dialogs/dialog_graphic_item_properties_base.h:80
 msgid "Graphic Item Properties"
@@ -19676,6 +19686,8 @@ msgid ""
 "This item was on an unknown layer.\n"
 "It has been moved to the front silk screen layer. Please fix it."
 msgstr ""
+"Este item estava em uma camada desconhecida.\n"
+"Foi movido para a camada de serigrafia frontal. Por favor, conserte."
 
 #: pcbnew/dialogs/dialog_graphic_item_properties_for_fp_editor.cpp:257
 msgid ""
@@ -19683,6 +19695,9 @@ msgid ""
 "This is very dangerous because DRC does not handle it.\n"
 "Are you sure?"
 msgstr ""
+"O item gráfico ficará em uma camada de cobre.\n"
+"Isso é perigoso porque a RDC não sabe como lidar com isso.\n"
+"Tem certeza?"
 
 #: pcbnew/dialogs/dialog_graphic_items_options_base.cpp:25
 msgid "Graphics:"
@@ -19717,11 +19732,11 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_graphic_items_options_base.h:73
 msgid "Text and Drawings"
-msgstr ""
+msgstr "Texto e Desenhos"
 
 #: pcbnew/dialogs/dialog_keepout_area_properties.cpp:249
 msgid "Tracks, vias, and pads are allowed. The keepout is useless"
-msgstr ""
+msgstr "São permitidas trilhas, vias e ilhas. O afastamento não terá efeito"
 
 #: pcbnew/dialogs/dialog_keepout_area_properties.cpp:255
 msgid "No layers selected."
@@ -19729,15 +19744,15 @@ msgstr "Nenhuma camada selecionada."
 
 #: pcbnew/dialogs/dialog_keepout_area_properties_base.cpp:39
 msgid "Keepout tracks"
-msgstr ""
+msgstr "Afastar trilhas"
 
 #: pcbnew/dialogs/dialog_keepout_area_properties_base.cpp:42
 msgid "Keepout vias"
-msgstr ""
+msgstr "Afastar vias"
 
 #: pcbnew/dialogs/dialog_keepout_area_properties_base.cpp:45
 msgid "Keepout copper pours"
-msgstr ""
+msgstr "Afastar áreas de cobre"
 
 #: pcbnew/dialogs/dialog_keepout_area_properties_base.h:63
 msgid "Keepout Area Properties"
@@ -19755,9 +19770,10 @@ msgstr "Camada Inferior/Traseira:"
 msgid "Select Layer"
 msgstr "Apagar Camada"
 
+# Verificar
 #: pcbnew/dialogs/dialog_layer_selection_base.h:81
 msgid "Select Copper Layer Pair:"
-msgstr ""
+msgstr "Selecionar Par de Camadas de Cobre:"
 
 #: pcbnew/dialogs/dialog_layers_setup.cpp:347
 msgid "Enabled"
@@ -19766,7 +19782,7 @@ msgstr "Ativado"
 #: pcbnew/dialogs/dialog_layers_setup.cpp:645
 #, c-format
 msgid "Board thickness %s is out of range."
-msgstr ""
+msgstr "A espessura da placa %s está fora do alcance."
 
 #: pcbnew/dialogs/dialog_layers_setup.cpp:662
 #, c-format
@@ -19776,12 +19792,18 @@ msgid ""
 "These items will be no longer accessible\n"
 "Do you wish to continue?"
 msgstr ""
+"Os footprints têm alguns itens em camadas removidas:\n"
+"%s\n"
+"Esstes itens não estarão mais acessíveis\n"
+"Deseja continuar?"
 
 #: pcbnew/dialogs/dialog_layers_setup.cpp:670
 msgid ""
 "Items have been found on removed layers. This operation will delete all items "
 "from removed layers and cannot be undone. Do you wish to continue?"
 msgstr ""
+"Itens foram encontrados em camadas removidas. Esta operação irá excluir todos "
+"os itens de camadas removidas e não pode ser desfeito. Deseja continuar?"
 
 #: pcbnew/dialogs/dialog_layers_setup.cpp:804
 msgid "Layer name may not be empty."
@@ -19797,11 +19819,11 @@ msgstr "O nome de camada ‘signal’ é reservado."
 
 #: pcbnew/dialogs/dialog_layers_setup.cpp:828
 msgid "Duplicate layer names are not permitted."
-msgstr ""
+msgstr "Nomes de camadas duplicadas não são permitidos."
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:25
 msgid "Preset Layer Groupings:"
-msgstr ""
+msgstr "Agrupamentos de Camadas Predefinidos:"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:29
 msgid "Two layers, parts on Front only"
@@ -19899,22 +19921,25 @@ msgstr "Espessura da Placa:"
 msgid "CrtYd_Front_later"
 msgstr "CrtYd_Front_later"
 
+# Melhorar
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:132
 msgid "If you want a courtyard layer for the front side of the board"
-msgstr ""
+msgstr "Se você quer uma camada do pátio para a parte dianteira da placa"
 
+# Verificar
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:145
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1578
 msgid "Off-board, testing"
-msgstr ""
+msgstr "Fora da placa, testando"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:149
 msgid "Fab_Front_later"
 msgstr "Fab_Front_later"
 
+# Melhorar
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:160
 msgid "If you want a fabrication layer for the front side of the board"
-msgstr ""
+msgstr "Se você quer uma camada da fabricação para a parte dianteira da placa"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:170
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1553
@@ -19940,35 +19965,39 @@ msgstr "Se você quiser um adesivo de exemplo para a camada superior da placa"
 msgid "On-board, non-copper"
 msgstr "Na placa, sem cobre"
 
+# Verificar
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:199
 msgid "SoldP_Front_later"
-msgstr ""
+msgstr "SoldP_Front_later"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:210
 msgid "If you want a solder paster layer for front side of the board"
 msgstr ""
 "Se você quiser uma camada de pasta de solta para o lado superior da placa"
 
+# Verificar
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:224
 msgid "SilkS_Front_later"
-msgstr ""
+msgstr "SilkS_Front_later"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:235
 msgid "If you want a silk screen layer for the front side of the board"
 msgstr "Se você quiser uma camada de serigrafia para o lado superior da placa"
 
+# Verificar
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:249
 msgid "Mask_Front_later"
-msgstr ""
+msgstr "Mask_Front_later"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:260
 msgid "If you want a solder mask layer for the front of the board"
 msgstr ""
 "Se você quiser uma camada de máscara de solta para a camada superior da placa"
 
+# Verificar
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:274
 msgid "Front_later"
-msgstr ""
+msgstr "Front_later"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:283
 msgid "Layer name of front (top) copper layer"
@@ -20285,9 +20314,10 @@ msgstr "Nome da camada de cobre inferior (bottom)"
 msgid "If you want a back copper layer"
 msgstr "Se quiser uma camada de cobre inferior"
 
+# Verificar
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1432
 msgid "Mask_Back_later"
-msgstr ""
+msgstr "Mask_Back_later"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1443
 msgid "If you want a solder mask layer for the back side of the board"
@@ -20318,9 +20348,10 @@ msgstr "Adhes_Back_later"
 msgid "If you want an adhesive layer for the back side of the board"
 msgstr "Se você quiser uma camada de adesivo para o lado de trás da placa"
 
+# Verificar
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1532
 msgid "Fab_Back_later"
-msgstr ""
+msgstr "Fab_Back_later"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1543
 msgid "If you want a fabrication layer for the back side of the board"
