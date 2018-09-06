@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-18 21:11+0200\n"
-"PO-Revision-Date: 2018-09-06 14:11-0300\n"
+"PO-Revision-Date: 2018-09-06 17:37-0300\n"
 "Last-Translator: Francisco R. Pereira <frosch_bin@yahoo.com.br>\n"
 "Language-Team: kicad team\n"
 "Language: pt_BR\n"
@@ -12356,7 +12356,7 @@ msgstr "Arquivo %s não encontrado"
 
 #: gerbview/excellon_read_drill_file.cpp:200
 msgid "Error reading EXCELLON drill file"
-msgstr "Erro de leitura no arquivo EXCELLON de furação"
+msgstr "Erro de leitura no arquivo de perfuração EXCELLON"
 
 #: gerbview/excellon_read_drill_file.cpp:434
 msgid "ICI command has no parameter"
@@ -12491,7 +12491,7 @@ msgstr "Carregando Arquivos Gerber…"
 
 #: gerbview/files.cpp:355
 msgid "Open Excellon Drill File(s)"
-msgstr "Abrir Arquivo(s) de Furação Excellon"
+msgstr "Abrir Arquivo(s) de Perfuração Excellon"
 
 #: gerbview/files.cpp:454
 #, c-format
@@ -17774,7 +17774,7 @@ msgstr "Checar sobreposição do pátio do footprint"
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:119
 msgid "Check courtyard missing in footprints"
-msgstr ""
+msgstr "Verificar falta de pátio nos footprints"
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:131
 msgid "Create Report File:"
@@ -17826,11 +17826,11 @@ msgstr "Mensagens de erro:"
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:223
 msgid "Marker count:"
-msgstr ""
+msgstr "Contagem de marcadores:"
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:234
 msgid "Unconnected count:"
-msgstr ""
+msgstr "Contagem de desconectados:"
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:251
 msgid "MARKERs, double click any to go there in PCB, right click for popup menu"
@@ -17916,24 +17916,24 @@ msgstr "Editar nome do arquivo 3D"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor.cpp:613
 msgid "Error: invalid footprint parameter"
-msgstr ""
+msgstr "Erro: parâmetro do footprint inválido"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor.cpp:619
 msgid "Error: invalid 3D parameter"
-msgstr ""
+msgstr "Erro: parâmetro 3D inválido"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor.cpp:639
 msgid "Error: invalid or missing footprint parameter"
-msgstr ""
+msgstr "Erro: parâmetro do footprint inválido ou ausente"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor.cpp:645
 msgid "Error: invalid or missing 3D parameter"
-msgstr ""
+msgstr "Erro: parâmetro 3D inválido ou ausente"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor.cpp:654
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor.cpp:505
 msgid "Error: footprint local net clearance is < 0"
-msgstr ""
+msgstr "Erro: afastamento da rede local do footprint é < 0"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor.cpp:777
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor.cpp:597
@@ -17955,7 +17955,7 @@ msgstr "Inferior"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:65
 msgid "Board Side:"
-msgstr ""
+msgstr "Lado da Placa:"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:69
 #: pcbnew/dialogs/dialog_edit_footprint_text_base.cpp:119
@@ -17985,30 +17985,32 @@ msgstr "Outros"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:75
 msgid "Rotation (-360 to 360):"
-msgstr ""
+msgstr "Rotação (-360 a 360):"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:125
 msgid "Sheet path:"
-msgstr ""
+msgstr "Local da folha:"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:130
 msgid ""
 "An unique ID (a time stamp) to identify the component.\n"
 "This is an alternate identifier to the reference."
 msgstr ""
+"Um ID exclusivo (um carimbo de data/hora) para identificar o componente.\n"
+"Este é um identificador alternativo para a referência."
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:142
 msgid "Update Footprint from Library"
-msgstr ""
+msgstr "Atualizar Footprint a partir da Biblioteca"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:148
 msgid "Change Footprint"
-msgstr ""
+msgstr "Alterar Footprint"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:151
 #: pcbnew/footprint_edit_frame.cpp:766 pcbnew/hotkeys.cpp:498
 msgid "Footprint Editor"
-msgstr ""
+msgstr "Editor de Footprint"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:160
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor_base.cpp:105
@@ -18023,7 +18025,7 @@ msgstr "Montagem de superfície"
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:162
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor_base.cpp:107
 msgid "Placement Type:"
-msgstr ""
+msgstr "Tipo de Posicionamento:"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:166
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor_base.cpp:111
@@ -18051,12 +18053,12 @@ msgstr "Auto-posicionar:"
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:181
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor_base.cpp:126
 msgid "Allow 90 degree rotation:"
-msgstr ""
+msgstr "Permitir rotação de 90 graus:"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:194
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor_base.cpp:139
 msgid "Allow 180 degree rotation:"
-msgstr ""
+msgstr "Permitir rotação de 180 graus:"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:208
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor_base.cpp:153
@@ -18076,19 +18078,23 @@ msgstr "Utilizar configuração da zona"
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:232
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor_base.cpp:176
 msgid "Set clearances to 0 to use netclass values."
-msgstr ""
+msgstr "Defina o isolamento em 0 para utilizar os valores da Classe de Rede."
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:238
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor_base.cpp:182
 msgid ""
 "Positive clearance means area bigger than the pad (usual for solder mask)."
 msgstr ""
+"Isolamento positivo significa área maior que a ilha (comum para máscara de "
+"solda)."
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:244
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor_base.cpp:188
 msgid ""
 "Negative clearance means area smaller than the pad (usual for solder paste)."
 msgstr ""
+"Isolamento negativo significa área menor que a ilha (comum para pastade "
+"solda)."
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:253
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor_base.cpp:197
@@ -18215,13 +18221,15 @@ msgstr "Propriedades do Footprint"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor.cpp:191
 msgid "Use this attribute for most non SMD footprints"
-msgstr ""
+msgstr "Utilize este atributo para a maioria dos footprints não SMD"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor.cpp:196
 msgid ""
 "Use this attribute for \"virtual\" footprints drawn on board\n"
 "like an edge connector (old ISA PC bus for instance)"
 msgstr ""
+"Utilize este atributo para footprints \"virtuais\" desenhados na placa\n"
+"como um conector de borda (antigo barramento PC ISA por exemplo)"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor.cpp:220
 msgid "Enable hotkey move commands and Auto Placement"
@@ -18235,11 +18243,11 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor.cpp:371
 msgid "Filepath:"
-msgstr ""
+msgstr "Local do arquivo:"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor.cpp:371
 msgid "Edit 3D Shape Name"
-msgstr ""
+msgstr "Editar Nome da Forma 3D"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor.cpp:489
 #, c-format
@@ -18248,18 +18256,21 @@ msgid ""
 "one of invalid chars \"%s\" found\n"
 "in \"%s\""
 msgstr ""
+"Erro:\n"
+"um destes caracteres inválidos \"%s\" encontrado\n"
+"em \"%s\""
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor_base.cpp:63
 msgid "Document link:"
-msgstr ""
+msgstr "Link do documento:"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor_base.cpp:80
 msgid "Footprint name in library:"
-msgstr ""
+msgstr "Nome do footprint na biblioteca:"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor_base.cpp:87
 msgid "Library nickname:"
-msgstr ""
+msgstr "Apelido da biblioteca:"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor_base.cpp:111
 #: pcbnew/dialogs/dialog_track_via_properties_base.cpp:31
@@ -18275,6 +18286,8 @@ msgid ""
 "This item has an illegal layer id.\n"
 "Now, forced on the front silk screen layer. Please, fix it"
 msgstr ""
+"Este item tem uma ID de camada ilegal.\n"
+"Está agora forçado na camada frontal de serigrafia. Por favor, conserte"
 
 #: pcbnew/dialogs/dialog_edit_footprint_text.cpp:266
 #: pcbnew/dialogs/dialog_pcb_text_properties.cpp:308
@@ -18289,7 +18302,7 @@ msgstr "Modificar texto do módulo"
 #: pcbnew/dialogs/dialog_edit_footprint_text_base.cpp:25
 #, c-format
 msgid "Footprint %s (%s) orientation %.1f"
-msgstr ""
+msgstr "Footprint %s (%s) orientação %.1f"
 
 #: pcbnew/dialogs/dialog_edit_footprint_text_base.cpp:74
 msgid "Offset X:"
@@ -18301,21 +18314,23 @@ msgstr "Deslocamento Y:"
 
 #: pcbnew/dialogs/dialog_edit_footprint_text_base.cpp:125
 msgid "Rotation (-180.0 to 180.0)"
-msgstr ""
+msgstr "Rotação (-180,0 a 180,0)"
 
 #: pcbnew/dialogs/dialog_edit_footprint_text_base.cpp:132
 msgid "Unlock text orientation"
-msgstr ""
+msgstr "Desbloquear orientação do texto"
 
 #: pcbnew/dialogs/dialog_edit_footprint_text_base.cpp:133
 msgid ""
 "If orientation is locked, the text will always face near the bottom or right "
 "edge of the board."
 msgstr ""
+"Se a orientação estiver bloqueada, o texto sempre terá a face voltada a borda "
+"inferior ou direita da placa."
 
 #: pcbnew/dialogs/dialog_edit_footprint_text_base.h:78
 msgid "Footprint Text Properties"
-msgstr ""
+msgstr "Propriedades de Texto do Footprint"
 
 #: pcbnew/dialogs/dialog_enum_pads_base.cpp:19
 msgid "Pad names are restricted to 4 characters (including number)."
@@ -18359,7 +18374,7 @@ msgstr "** Não foi possível criar o arquivo \"%s\" ***\n"
 #: pcbnew/dialogs/dialog_exchange_footprints.cpp:434
 #, c-format
 msgid "Change footprint \"%s\" (from \"%s\") to \"%s\""
-msgstr ""
+msgstr "Alterar o footprint \"%s\" (de \"%s\") para \"%s\""
 
 #: pcbnew/dialogs/dialog_exchange_footprints.cpp:443
 msgid "footprint not found"
@@ -18371,7 +18386,7 @@ msgstr "Sem footprints!"
 
 #: pcbnew/dialogs/dialog_exchange_footprints.cpp:545
 msgid "Save Footprint Association File"
-msgstr ""
+msgstr "Salvar Arquivo de Associação de Footprint"
 
 #: pcbnew/dialogs/dialog_exchange_footprints.cpp:556
 #, c-format
@@ -18414,7 +18429,7 @@ msgstr "Novo identificador de footprint:"
 
 #: pcbnew/dialogs/dialog_exchange_footprints_base.cpp:113
 msgid "Export Footprint Associations"
-msgstr ""
+msgstr "Exportar Associações de Footprints"
 
 #: pcbnew/dialogs/dialog_exchange_footprints_base.cpp:127
 msgid "Apply"
@@ -18676,23 +18691,23 @@ msgstr "Rastreamento de Erros de Script Python"
 
 #: pcbnew/dialogs/dialog_fp_lib_table.cpp:74
 msgid "All supported library formats|"
-msgstr ""
+msgstr "Todos os formatos de biblioteca suportados|"
 
 #: pcbnew/dialogs/dialog_fp_lib_table_base.cpp:137
 msgid "Add a PCB library row to this table"
-msgstr ""
+msgstr "Adicionar uma linha de biblioteca PCB a esta tabela"
 
 #: pcbnew/dialogs/dialog_fp_lib_table_base.cpp:142
 msgid "Remove a PCB library from this library table"
-msgstr ""
+msgstr "Remover uma biblioteca PCB desta tabela de bibliotecas"
 
 #: pcbnew/dialogs/dialog_fp_lib_table_base.cpp:156
 msgid "Options Editor"
-msgstr ""
+msgstr "Editor de Opções"
 
 #: pcbnew/dialogs/dialog_fp_lib_table_base.cpp:157
 msgid "Zoom into the options table for current row"
-msgstr ""
+msgstr "Exibir a tabela de opções para a linha atual"
 
 #: pcbnew/dialogs/dialog_fp_lib_table_base.h:81
 msgid "Footprint Libraries"
@@ -18713,7 +18728,7 @@ msgstr "Opções para a Biblioteca \"%s\""
 
 #: pcbnew/dialogs/dialog_fp_plugin_options_base.cpp:23
 msgid "Plugin Options:"
-msgstr ""
+msgstr "Opções do Plugin:"
 
 #: pcbnew/dialogs/dialog_fp_plugin_options_base.cpp:39
 msgid "Option"
@@ -18725,7 +18740,7 @@ msgstr "Acrescentar"
 
 #: pcbnew/dialogs/dialog_fp_plugin_options_base.cpp:58
 msgid "Append a blank row"
-msgstr ""
+msgstr "Adicionar uma linha em branco"
 
 #: pcbnew/dialogs/dialog_fp_plugin_options_base.cpp:63
 msgid "Delete the selected row"
@@ -18733,15 +18748,15 @@ msgstr "Apagar a linha selecionada"
 
 #: pcbnew/dialogs/dialog_fp_plugin_options_base.cpp:68
 msgid "Move the selected row up one position"
-msgstr ""
+msgstr "Mover a linha selecionada uma posição acima"
 
 #: pcbnew/dialogs/dialog_fp_plugin_options_base.cpp:73
 msgid "Move the selected row down one position"
-msgstr ""
+msgstr "Mover a linha selecionada uma posição abaixo"
 
 #: pcbnew/dialogs/dialog_fp_plugin_options_base.cpp:90
 msgid "Option Choices:"
-msgstr ""
+msgstr "Seleção de Opções:"
 
 #: pcbnew/dialogs/dialog_fp_plugin_options_base.cpp:94
 msgid "Options supported by current plugin"
@@ -18749,11 +18764,11 @@ msgstr "Opções suportadas pelo plugin atual"
 
 #: pcbnew/dialogs/dialog_fp_plugin_options_base.cpp:98
 msgid "<< Append Selected Option"
-msgstr ""
+msgstr "<< Adicionar opção selecionada"
 
 #: pcbnew/dialogs/dialog_fp_plugin_options_base.cpp:101
 msgid "Option Specific Help:"
-msgstr ""
+msgstr "Ajuda Específica da Opção:"
 
 #: pcbnew/dialogs/dialog_freeroute_exchange.cpp:101
 msgid "Freeroute Help"
@@ -18827,7 +18842,7 @@ msgstr "CSV"
 
 #: pcbnew/dialogs/dialog_gen_footprint_position_file_base.cpp:75
 msgid "One file per side"
-msgstr ""
+msgstr "Um arquivo por lado"
 
 #: pcbnew/dialogs/dialog_gen_footprint_position_file_base.cpp:75
 msgid "Single file for board"
@@ -18848,11 +18863,11 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_gen_footprint_position_file_base.cpp:86
 msgid "With INSERT attribute set"
-msgstr ""
+msgstr "Com o conjunto de atributos INSERT"
 
 #: pcbnew/dialogs/dialog_gen_footprint_position_file_base.cpp:86
 msgid "Force INSERT attribute for all SMD footprints"
-msgstr ""
+msgstr "Forçar o atributo INSERT em todos os footprints SMD"
 
 #: pcbnew/dialogs/dialog_gen_footprint_position_file_base.cpp:88
 msgid "Footprints Selection:"
@@ -18864,10 +18879,15 @@ msgid ""
 "This option can force this option for all footprints having only SMD pads.\n"
 "Warning: this options will modify the board."
 msgstr ""
+"Somente footprints com a opção INSERT serão listados no arquivo de "
+"posicionamento.\n"
+"Esta opção pode forçar esta opção em todos os footprints que têm apenas ilhas "
+"SMD.\n"
+"Atenção: estas opções modificarão a placa."
 
 #: pcbnew/dialogs/dialog_gen_footprint_position_file_base.cpp:101
 msgid "Generate File"
-msgstr ""
+msgstr "Gerar Arquivo"
 
 #: pcbnew/dialogs/dialog_gen_footprint_position_file_base.h:64
 msgid "Generate Footprint Position Files"
@@ -18880,7 +18900,7 @@ msgstr "Exportar para configurações do GenCAD"
 #: pcbnew/dialogs/dialog_gencad_export_options.cpp:124
 #, c-format
 msgid "File %s already exists. Overwrite?"
-msgstr ""
+msgstr "O arquivo %s já existe. Substituir?"
 
 #: pcbnew/dialogs/dialog_gencad_export_options.cpp:134
 msgid "Flip bottom footprint padstacks"
@@ -18909,7 +18929,7 @@ msgstr "Salvar arquivo de placa GenCAD"
 
 #: pcbnew/dialogs/dialog_gendrill.cpp:139 pcbnew/dialogs/dialog_gendrill.cpp:140
 msgid "Use Netclass values"
-msgstr ""
+msgstr "Usar Valores da Classe de Rede"
 
 #: pcbnew/dialogs/dialog_gendrill.cpp:397
 #, c-format
@@ -18938,7 +18958,7 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:22
 msgid "Output Directory:"
-msgstr ""
+msgstr "Diretório de Saída:"
 
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:43
 msgid "Excellon"
@@ -18972,9 +18992,10 @@ msgstr "Suprimir zeros à direita"
 msgid "Keep zeros"
 msgstr "Manter zeros"
 
+# Verificar
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:57
 msgid "Zeros Format:"
-msgstr ""
+msgstr "Formato dos Zeros:"
 
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:59
 msgid "Choose EXCELLON numbers notation"
@@ -19007,7 +19028,7 @@ msgstr "Criar um mapa de furação no formato PS ou HPGL ou outros formatos"
 
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:95
 msgid "Excellon Drill File Options:"
-msgstr ""
+msgstr "Opções de Arquivo de Perfuração Excellon:"
 
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:97
 msgid "Mirror Y axis"
@@ -19035,7 +19056,7 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:107
 msgid "PTH and NPTH holes in single file"
-msgstr ""
+msgstr "Furos PTH e NPTH em um único arquivo"
 
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:108
 msgid ""
@@ -19060,7 +19081,7 @@ msgstr "Escolher a origem da coordenada: absoluta ou relativa ao eixo auxiliar"
 
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:129
 msgid "Default Via Drill:"
-msgstr ""
+msgstr "Furo de Via Padrão:"
 
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:131
 msgid "Via Drill Value"
@@ -19116,13 +19137,17 @@ msgstr "Gerar Arquivos de Furação"
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:31
 msgid "&Auto save (minutes):"
-msgstr ""
+msgstr "&Auto salvar (minutos):"
 
+# Verificar
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:36
 msgid ""
 "Delay after the first change to create a backup file of the board on disk. If "
 "set to 0, auto backup is disabled."
 msgstr ""
+"Intervalo após a primeira alteração para a criação do arquivo de backup da "
+"placa de circuito em disco.\n"
+"Se definido como 0, o backup automático será desabilitado."
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:75
 msgid "Show icons in menus"
@@ -25103,7 +25128,7 @@ msgstr ""
 
 #: pcbnew/menubar_pcb_editor.cpp:905
 msgid "Generate excellon2 drill file"
-msgstr "Criar arquivo de furação excellon2"
+msgstr "Criar arquivo de perfuração excellon2"
 
 #: pcbnew/menubar_pcb_editor.cpp:909
 msgid "&Footprint (.rpt) Report..."
