@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-18 21:11+0200\n"
-"PO-Revision-Date: 2018-09-11 16:24-0300\n"
+"PO-Revision-Date: 2018-09-12 17:18-0300\n"
 "Last-Translator: Francisco R. Pereira <frosch_bin@yahoo.com.br>\n"
 "Language-Team: kicad team\n"
 "Language: pt_BR\n"
@@ -6841,7 +6841,7 @@ msgid ""
 msgstr ""
 "Este esquema foi feito utilizando bibliotecas de símbolos antigas que podem "
 "quebrar o esquema.  Alguns símbolos podem precisar estar vinculados a um nome "
-"de símbolo diferente.  Alguns símbolos podem precisar ser \"resgatados"
+"de símbolo diferente.  Alguns símbolos podem precisar ser \"recuperados"
 "\" (copiados e renomeados) em uma nova biblioteca.\n"
 "\n"
 "As seguintes alterações são recomendadas para atualizar o projeto."
@@ -6882,7 +6882,7 @@ msgstr ""
 
 #: eeschema/dialogs/dialog_rescue_each.cpp:324
 msgid "Rescue Symbols"
-msgstr "Resgatar Símbolos"
+msgstr "Recuperar Símbolos"
 
 #: eeschema/dialogs/dialog_rescue_each_base.cpp:22
 msgid "Symbols to update:"
@@ -9860,11 +9860,11 @@ msgstr "&Editor de Biblioteca de Símbolos"
 
 #: eeschema/menubar.cpp:568
 msgid "&Rescue Symbols..."
-msgstr "Símbolos de &Resgate…"
+msgstr "&Recuperar Símbolos..."
 
 #: eeschema/menubar.cpp:569
 msgid "Find old symbols in project and rename/rescue them"
-msgstr "Encontrar símbolos antigos no projeto e renomea-los/resgatá-los"
+msgstr "Encontrar símbolos antigos no projeto e renomeá-los/recuperá-los"
 
 #: eeschema/menubar.cpp:574
 msgid "Remap Symbols..."
@@ -24027,9 +24027,10 @@ msgid "Rotate Item Clockwise (Modern Toolset only)"
 msgstr ""
 "Girar Item no Sentido Horário (Apenas no Conjunto de Ferramentas Moderno)"
 
+# Verificar
 #: pcbnew/hotkeys.cpp:137
 msgid "Move Item Exactly"
-msgstr ""
+msgstr "Mover Item com Precisão"
 
 # Revisar
 #: pcbnew/hotkeys.cpp:138
@@ -24175,30 +24176,35 @@ msgstr "Adicionar Footprint"
 #: pcbnew/hotkeys.cpp:260
 msgid "Increment Layer Transparency (Modern Toolset only)"
 msgstr ""
+"Incrementar a transparência da camada (apenas no Conjunto de Ferramentas "
+"Moderno)"
 
 #: pcbnew/hotkeys.cpp:263
 msgid "Decrement Layer Transparency (Modern Toolset only)"
 msgstr ""
+"Decrementar a transparência da camada (apenas no Conjunto de Ferramentas "
+"Moderno)"
 
 #: pcbnew/hotkeys.cpp:267
 msgid "Increment High Contrast"
-msgstr ""
+msgstr "Incrementar Alto Contraste"
 
 #: pcbnew/hotkeys.cpp:268
 msgid "Decrement High Contrast"
-msgstr ""
+msgstr "Decrementar Alto Contraste"
 
 #: pcbnew/hotkeys.cpp:270
+#, fuzzy
 msgid "Select Trivial Connection"
-msgstr ""
+msgstr "Selecionar Conexão Trivial"
 
 #: pcbnew/hotkeys.cpp:272
 msgid "Select Copper Connection"
-msgstr ""
+msgstr "Selecionar Conexão de Cobre"
 
 #: pcbnew/hotkeys.cpp:274
 msgid "Routing Options"
-msgstr ""
+msgstr "Opções de Roteamento"
 
 #: pcbnew/hotkeys.cpp:276
 msgid "Custom Track/Via Size"
@@ -24210,19 +24216,22 @@ msgstr "Aumentar Tamanho da Via"
 
 #: pcbnew/hotkeys.cpp:282
 msgid "Decrease Via Size"
-msgstr ""
+msgstr "Diminuir Tamanho da Via"
 
 #: pcbnew/hotkeys.cpp:284
 msgid "Toggle Highlight of Selected Net (Modern Toolset only)"
 msgstr ""
+"Alternar Destaque da Rede Selecionada (apenas no conjunto de ferramentas "
+"moderno)"
 
 #: pcbnew/hotkeys.cpp:308
 msgid "Toggle Cursor Display (Modern Toolset only)"
 msgstr ""
+"Alternar a exibição do cursor (apenas no conjunto de ferramentas moderno)"
 
 #: pcbnew/hotkeys.cpp:497
 msgid "Board Editor"
-msgstr ""
+msgstr "Editor de Placa"
 
 #: pcbnew/import_dxf/dialog_dxf_import.cpp:235
 msgid "Open File"
@@ -24230,47 +24239,47 @@ msgstr "Abrir Arquivo"
 
 #: pcbnew/import_dxf/dialog_dxf_import.cpp:259
 msgid "Error: No DXF filename!"
-msgstr ""
+msgstr "Erro: Nenhum nome de arquivo DXF!"
 
 #: pcbnew/import_dxf/dialog_dxf_import_base.cpp:42
 msgid "Center of page"
-msgstr ""
+msgstr "Centro da página"
 
 #: pcbnew/import_dxf/dialog_dxf_import_base.cpp:42
 msgid "Upper left corner of page"
-msgstr ""
+msgstr "Canto superior esquerdo da página"
 
 #: pcbnew/import_dxf/dialog_dxf_import_base.cpp:42
 msgid "Center left side of page"
-msgstr ""
+msgstr "Centro do lado esquerdo da página"
 
 #: pcbnew/import_dxf/dialog_dxf_import_base.cpp:42
 msgid "Lower left corner of page"
-msgstr ""
+msgstr "Canto inferior esquerdo da página"
 
 #: pcbnew/import_dxf/dialog_dxf_import_base.cpp:42
 msgid "User defined position"
-msgstr ""
+msgstr "Posição definida pelo usuário"
 
 #: pcbnew/import_dxf/dialog_dxf_import_base.cpp:44
 msgid "Place DXF Origin (0,0) Point:"
-msgstr ""
+msgstr "Coloque o Ponto de Origem DXF (0,0):"
 
 #: pcbnew/import_dxf/dialog_dxf_import_base.cpp:54
 msgid "User defined position:"
-msgstr ""
+msgstr "Posição definida pelo usuário:"
 
 #: pcbnew/import_dxf/dialog_dxf_import_base.cpp:80
 msgid "DXF origin on PCB Grid, X Coordinate"
-msgstr ""
+msgstr "Origem do DXF na grade da PCI, coordenada X"
 
 #: pcbnew/import_dxf/dialog_dxf_import_base.cpp:100
 msgid "DXF origin on PCB Grid, Y Coordinate"
-msgstr ""
+msgstr "Origem do DXF na grade da PCI, coordenada Y"
 
 #: pcbnew/import_dxf/dialog_dxf_import_base.cpp:115
 msgid "Select PCB grid units"
-msgstr ""
+msgstr "Selecione as unidades da grade da PCI"
 
 #: pcbnew/import_dxf/dialog_dxf_import_base.cpp:134
 msgid "Import parameters:"
@@ -24282,11 +24291,11 @@ msgstr "Largura de linha padrão:"
 
 #: pcbnew/import_dxf/dialog_dxf_import_base.cpp:163
 msgid "Graphic layer:"
-msgstr ""
+msgstr "Camada gráfica:"
 
 #: pcbnew/import_dxf/dialog_dxf_import_base.h:77
 msgid "Import DXF File"
-msgstr ""
+msgstr "Importar Arquivo DXF"
 
 #: pcbnew/initpcb.cpp:47
 msgid ""
@@ -24297,17 +24306,18 @@ msgstr ""
 #: pcbnew/io_mgr.cpp:89
 #, c-format
 msgid "UNKNOWN (%d)"
-msgstr ""
+msgstr "DESCONHECIDO (%d)"
 
 #: pcbnew/kicad_clipboard.cpp:302
 msgid "Clipboard content is not KiCad compatible"
-msgstr ""
+msgstr "O conteúdo da área de transferência não é compatível com o KiCad"
 
 #: pcbnew/kicad_netlist_reader.cpp:253
 #, c-format
 msgid "Cannot find component with reference \"%s\" in netlist."
-msgstr ""
+msgstr "Não é possível localizar componente com a referência \"%s\" na netlist."
 
+# Revisar
 #: pcbnew/kicad_netlist_reader.cpp:374
 #, c-format
 msgid ""
@@ -24316,50 +24326,58 @@ msgid ""
 "line: %d\n"
 "offset: %d"
 msgstr ""
+"ID de footprint inválido em\n"
+"arquivo: \"%s\"\n"
+"linha: %d\n"
+"caracter: %d"
 
+# Revisar
 #: pcbnew/kicad_plugin.cpp:193
 #, c-format
 msgid "Cannot create footprint library path \"%s\""
-msgstr ""
+msgstr "Não foi possível criar o diretório da biblioteca de footprint \"%s\""
 
+# Revisar
 #: pcbnew/kicad_plugin.cpp:199
 #, c-format
 msgid "Footprint library path \"%s\" is read only"
-msgstr ""
+msgstr "O diretório da biblioteca de footprint \"%s\" é somente para leitura"
 
 #: pcbnew/kicad_plugin.cpp:238
 #, c-format
 msgid "Cannot rename temporary file \"%s\" to footprint library file \"%s\""
 msgstr ""
+"Não foi possível renomear o arquivo temporário \"%s\" para o arquivo de "
+"biblioteca de footprint \"%s\""
 
 #: pcbnew/kicad_plugin.cpp:266
 #, c-format
 msgid "Footprint library path \"%s\" does not exist"
-msgstr ""
+msgstr "O diretório da biblioteca de footprint \"%s\" não existe"
 
 #: pcbnew/kicad_plugin.cpp:1294 pcbnew/legacy_plugin.cpp:96
 #, c-format
 msgid "unknown pad type: %d"
-msgstr ""
+msgstr "tipo de ilha desconhecido: %d"
 
 #: pcbnew/kicad_plugin.cpp:1307 pcbnew/legacy_plugin.cpp:97
 #, c-format
 msgid "unknown pad attribute: %d"
-msgstr ""
+msgstr "atributo de ilha desconhecido: %d"
 
 #: pcbnew/kicad_plugin.cpp:1615
 #, c-format
 msgid "unknown via type %d"
-msgstr ""
+msgstr "tipo de via desconhecido %d"
 
 #: pcbnew/kicad_plugin.cpp:1753
 #, c-format
 msgid "unknown zone corner smoothing type %d"
-msgstr ""
+msgstr "tipo de suavização de canto de zona desconhecido %d"
 
 #: pcbnew/kicad_plugin.cpp:1943
 msgid "this file does not contain a PCB"
-msgstr ""
+msgstr "este arquivo não contém uma PCI"
 
 #: pcbnew/kicad_plugin.cpp:2076
 #, c-format
@@ -24367,6 +24385,8 @@ msgid ""
 "Library \"%s\" does not exist.\n"
 "Would you like to create it?"
 msgstr ""
+"A biblioteca \"%s\" não existe.\n"
+"Gostaria de criá-la?"
 
 #: pcbnew/kicad_plugin.cpp:2079
 #, c-format
@@ -24376,66 +24396,86 @@ msgstr "Criar uma nova biblioteca \"%s?"
 #: pcbnew/kicad_plugin.cpp:2108
 #, c-format
 msgid "Footprint file name \"%s\" is not valid."
-msgstr ""
+msgstr "O nome do arquivo de footprint \"%s\" não é válido."
 
 #: pcbnew/kicad_plugin.cpp:2114
 #, c-format
 msgid "user does not have write permission to delete file \"%s\" "
-msgstr ""
+msgstr "o usuário não tem permissão para excluir o arquivo \"%s\" "
 
 #: pcbnew/kicad_plugin.cpp:2181
 #, c-format
 msgid "cannot overwrite library path \"%s\""
-msgstr ""
+msgstr "não foi possível sobrescrever o caminho da biblioteca \"%s\""
 
 #: pcbnew/layer_widget.cpp:130
 msgid "Change Layer Color for "
-msgstr ""
+msgstr "Alterar a Cor da Camada para "
 
 #: pcbnew/layer_widget.cpp:182
 msgid "Change Render Color for "
-msgstr ""
+msgstr "Alterar a Cor de Renderização para "
 
+# Melhorar
 #: pcbnew/layer_widget.cpp:334
 msgid "Left double click or middle click for color change, right click for menu"
 msgstr ""
+"Clique-duplo com o botão esquerdo ou um clique com o do meio para alterar a "
+"cor, clique com o botão direito para o menu"
 
 #: pcbnew/layer_widget.cpp:342
 msgid "Enable this for visibility"
 msgstr "Ativar este para visibilidade"
 
+# Melhorar
 #: pcbnew/layer_widget.cpp:408
 msgid "Left double click or middle click for color change"
 msgstr ""
+"Clique-duplo com o botão esquerdo ou um clique com o do meio para alterar a "
+"cor"
 
+# Revisar
 #: pcbnew/legacy_netlist_reader.cpp:120
 msgid "Cannot parse time stamp in symbol section of netlist."
 msgstr ""
+"Não foi possível checar o carimbo de data/hora na seção de símbolos da "
+"netlist."
 
 #: pcbnew/legacy_netlist_reader.cpp:130
 msgid "Cannot parse footprint name in symbol section of netlist."
 msgstr ""
+"Não foi possível checar o nome do footprint na seção de símbolos da netlist."
 
 #: pcbnew/legacy_netlist_reader.cpp:144
 msgid "Cannot parse reference designator in symbol section of netlist."
 msgstr ""
+"Não foi possível checar o designador de referência na seção de símbolos da "
+"netlist."
 
 #: pcbnew/legacy_netlist_reader.cpp:154
 msgid "Cannot parse value in symbol section of netlist."
-msgstr ""
+msgstr "Não foi possível checar o valor na seção de símbolos da netlist."
 
+# Revisar
 #: pcbnew/legacy_netlist_reader.cpp:191
 msgid "Cannot parse pin name in symbol net section of netlist."
 msgstr ""
+"Não foi possível checar o nome do pino na seção de rede de símbolos da "
+"netlist."
 
+# Revisar
 #: pcbnew/legacy_netlist_reader.cpp:200
 msgid "Cannot parse net name in symbol net section of netlist."
 msgstr ""
+"Não foi possível checar o nome da rede na seção de rede de símbolos da "
+"netlist."
 
 #: pcbnew/legacy_netlist_reader.cpp:248
 #, c-format
 msgid "Cannot find symbol \"%s\" in footprint filter section of netlist."
 msgstr ""
+"Não foi possível localizar o símbolo \"%s\" na seção de filtro de footprint "
+"da netlist."
 
 #: pcbnew/legacy_plugin.cpp:94
 #, c-format
@@ -24444,31 +24484,36 @@ msgid ""
 "I only support format version <= %d.\n"
 "Please upgrade Pcbnew to load this file."
 msgstr ""
+"O arquivo \"%s\" está na versão de formato: %d.\n"
+"Eu só suporto uma versão de formato <= %d.\n"
+"Por favor, atualize o Pcbnew para carregar este arquivo."
 
 #: pcbnew/legacy_plugin.cpp:95
 #, c-format
 msgid "unknown graphic type: %d"
-msgstr ""
+msgstr "tipo gráfico desconhecido: %d"
 
 #: pcbnew/legacy_plugin.cpp:730
 #, c-format
 msgid "Unknown sheet type \"%s\" on line:%d"
-msgstr ""
+msgstr "Tipo de folha desconhecida \"%s\" na linha: %d"
 
 #: pcbnew/legacy_plugin.cpp:1374
 #, c-format
 msgid "Missing '$EndMODULE' for MODULE \"%s\""
-msgstr ""
+msgstr "Faltando '$EndMODULE' para o MÓDULO \"%s\""
 
 #: pcbnew/legacy_plugin.cpp:1426
 #, c-format
 msgid "Unknown padshape '%c=0x%02x' on line: %d of footprint: \"%s\""
 msgstr ""
+"Formato de ilha desconhecido '%c=0x%02x' na linha: %d do footprint: \"%s\""
 
 #: pcbnew/legacy_plugin.cpp:1632
 #, c-format
 msgid "Unknown EDGE_MODULE type:'%c=0x%02x' on line:%d of footprint:\"%s\""
 msgstr ""
+"Tipo de EDGE_MODULE desconhecido:'%c=0x%02x' na linha:%d do footprint:\"%s\""
 
 #: pcbnew/legacy_plugin.cpp:2460
 #, c-format
@@ -24478,17 +24523,17 @@ msgstr "nome duplicado de NETCLASS \"%s\""
 #: pcbnew/legacy_plugin.cpp:2542 pcbnew/legacy_plugin.cpp:2553
 #, c-format
 msgid "Bad ZAux for CZONE_CONTAINER \"%s\""
-msgstr ""
+msgstr "ZAux ruim para o CZONE_CONTAINER \"%s\""
 
 #: pcbnew/legacy_plugin.cpp:2570
 #, c-format
 msgid "Bad ZSmoothing for CZONE_CONTAINER \"%s\""
-msgstr ""
+msgstr "ZSmoothing ruim para o CZONE_CONTAINER \"%s\""
 
 #: pcbnew/legacy_plugin.cpp:2644
 #, c-format
 msgid "Bad ZClearance padoption for CZONE_CONTAINER \"%s\""
-msgstr ""
+msgstr "ZClearance padoption ruim para o CZONE_CONTAINER \"%s\""
 
 #: pcbnew/legacy_plugin.cpp:2992 pcbnew/legacy_plugin.cpp:3029
 #, c-format
@@ -24496,6 +24541,8 @@ msgid ""
 "invalid float number in file: \"%s\"\n"
 "line: %d, offset: %d"
 msgstr ""
+"número de ponto flutuante inválido no arquivo: \"%s\"\n"
+"linha: %d, offset: %d"
 
 #: pcbnew/legacy_plugin.cpp:3001 pcbnew/legacy_plugin.cpp:3037
 #, c-format
@@ -24503,11 +24550,13 @@ msgid ""
 "missing float number in file: \"%s\"\n"
 "line: %d, offset: %d"
 msgstr ""
+"número de ponto flutuante faltando no arquivo: \"%s\"\n"
+"linha: %d, offset: %d"
 
 #: pcbnew/legacy_plugin.cpp:3263
 #, c-format
 msgid "File \"%s\" is empty or is not a legacy library"
-msgstr ""
+msgstr "O arquivo \"%s\" está vazio ou não é uma biblioteca legada"
 
 #: pcbnew/load_select_footprint.cpp:432
 #, c-format
@@ -24518,11 +24567,17 @@ msgid ""
 "in any of the library search paths.  Verify your system is configured "
 "properly so the footprint libraries can be found."
 msgstr ""
+"Nenhuma footprint pôde ser lido a partir dos arquivo(s) de biblioteca:\n"
+"\n"
+"%s\n"
+"e em nenhum dos caminhos de pesquisa de bibliotecas.  Verifique se o sistema "
+"está configurado corretamente para que as bibliotecas de footprint possam ser "
+"encontradas."
 
 #: pcbnew/load_select_footprint.cpp:487
 #, c-format
 msgid "Footprints [%d items]"
-msgstr ""
+msgstr "Footprints [%d itens]"
 
 #: pcbnew/load_select_footprint.cpp:501
 msgid "No footprint found."
@@ -24543,12 +24598,12 @@ msgstr ""
 #: pcbnew/load_select_footprint.cpp:540
 #, c-format
 msgid "Footprints [%u items]"
-msgstr ""
+msgstr "Footprints [%u itens]"
 
 #: pcbnew/load_select_footprint.cpp:606
 #, c-format
 msgid "Footprint \"%s\" saved"
-msgstr ""
+msgstr "Footprint \"%s\" salvo"
 
 #: pcbnew/load_select_footprint.cpp:620
 #, c-format
@@ -24557,11 +24612,11 @@ msgstr "Biblioteca de footprint \"%s\" salva como \"%s\"."
 
 #: pcbnew/menubar_footprint_editor.cpp:58
 msgid "Set Acti&ve Library..."
-msgstr ""
+msgstr "Definir a Biblioteca Ati&va..."
 
 #: pcbnew/menubar_footprint_editor.cpp:59 pcbnew/tool_footprint_editor.cpp:51
 msgid "Select active library"
-msgstr ""
+msgstr "Selecionar Biblioteca Ativa"
 
 #: pcbnew/menubar_footprint_editor.cpp:65
 msgid "&New Footprint..."
@@ -24569,19 +24624,19 @@ msgstr "&Novo Footprint…"
 
 #: pcbnew/menubar_footprint_editor.cpp:67
 msgid "Create new footprint"
-msgstr ""
+msgstr "Criar novo footprint"
 
 #: pcbnew/menubar_footprint_editor.cpp:70
 msgid "&Open Footprint..."
-msgstr ""
+msgstr "&Abrir Footprint..."
 
 #: pcbnew/menubar_footprint_editor.cpp:72
 msgid "Open a footprint from a library"
-msgstr ""
+msgstr "Abrir um footprint de uma biblioteca"
 
 #: pcbnew/menubar_footprint_editor.cpp:80
 msgid "Save footprint"
-msgstr ""
+msgstr "Salvar footprint"
 
 #: pcbnew/menubar_footprint_editor.cpp:90
 msgid "Footprint from &Current Board..."
@@ -24589,23 +24644,25 @@ msgstr "Footprint da Placa &Atual…"
 
 #: pcbnew/menubar_footprint_editor.cpp:91
 msgid "Import a footprint from the current board"
-msgstr ""
+msgstr "Importar um footprint da placa atual"
 
 #: pcbnew/menubar_footprint_editor.cpp:95
 msgid "Footprint from &KiCad File..."
-msgstr ""
+msgstr "Footprint de um arquivo &Kicad..."
 
 #: pcbnew/menubar_footprint_editor.cpp:96
 msgid "Import a footprint from an existing footprint file"
-msgstr ""
+msgstr "Importar um footprint de um arquivo de footprint existente"
 
 #: pcbnew/menubar_footprint_editor.cpp:100
 msgid "Footprint Outlines from &DXF File..."
-msgstr ""
+msgstr "Contornos de Footprint de um arquivo &DXF..."
 
+# Revisar
 #: pcbnew/menubar_footprint_editor.cpp:101
 msgid "Import 2D Drawing DXF file to Footprint Editor on Drawings layer"
 msgstr ""
+"Importar arquivo DXF de desenho 2D para Editor de Footprint na camada Desenhos"
 
 #: pcbnew/menubar_footprint_editor.cpp:113
 msgid "&Active Library..."
@@ -24625,31 +24682,31 @@ msgstr "Exportar a placa atual para um arquivo"
 
 #: pcbnew/menubar_footprint_editor.cpp:134
 msgid "Print current footprint"
-msgstr ""
+msgstr "Imprimir footprint atual"
 
 #: pcbnew/menubar_footprint_editor.cpp:142
 msgid "P&roperties..."
-msgstr ""
+msgstr "P&ropriedades..."
 
 #: pcbnew/menubar_footprint_editor.cpp:143
 msgid "Edit footprint properties"
-msgstr ""
+msgstr "Editar propriedades do footprint"
 
 #: pcbnew/menubar_footprint_editor.cpp:151
 msgid "Close footprint editor"
-msgstr ""
+msgstr "Fechar editor de footprint"
 
 #: pcbnew/menubar_footprint_editor.cpp:160
 msgid "Undo last action"
-msgstr ""
+msgstr "Desfazer última ação"
 
 #: pcbnew/menubar_footprint_editor.cpp:166
 msgid "Redo last action"
-msgstr ""
+msgstr "Refazer última ação"
 
 #: pcbnew/menubar_footprint_editor.cpp:174
 msgid "Cu&t"
-msgstr ""
+msgstr "Cor&tar"
 
 #: pcbnew/menubar_footprint_editor.cpp:189 pcbnew/menubar_pcb_editor.cpp:535
 #: pcbnew/tool_pcb_editor.cpp:495
@@ -24658,20 +24715,20 @@ msgstr "Deletar Ítens"
 
 #: pcbnew/menubar_footprint_editor.cpp:196 pcbnew/menubar_pcb_editor.cpp:591
 msgid "&Library Browser"
-msgstr ""
+msgstr "Navegador de &Bibliotecas"
 
 #: pcbnew/menubar_footprint_editor.cpp:197 pcbnew/menubar_pcb_editor.cpp:592
 msgid "Open the Library Browser"
-msgstr ""
+msgstr "Abrir o Navegador de Bibliotecas"
 
 #: pcbnew/menubar_footprint_editor.cpp:200 pcbnew/menubar_pcb_editor.cpp:595
 msgid "&3D Viewer"
-msgstr ""
+msgstr "Visualizador &3D"
 
 #: pcbnew/menubar_footprint_editor.cpp:228 pcbnew/tool_footprint_viewer.cpp:93
 #: pcbnew/tool_footprint_viewer.cpp:156
 msgid "Zoom to fit footprint"
-msgstr ""
+msgstr "Zoom para enquadrar o footprint"
 
 #: pcbnew/menubar_footprint_editor.cpp:246 pcbnew/menubar_pcb_editor.cpp:641
 msgid "Grid &Settings..."
@@ -24679,21 +24736,21 @@ msgstr "&Configurações da Grade…"
 
 #: pcbnew/menubar_footprint_editor.cpp:246 pcbnew/menubar_pcb_editor.cpp:641
 msgid "Adjust custom user-defined grid dimensions"
-msgstr ""
+msgstr "Ajustar dimensões de grade definidas pelo usuário personalizadas"
 
 #: pcbnew/menubar_footprint_editor.cpp:270
 #: pcbnew/menubar_footprint_editor.cpp:275 pcbnew/menubar_pcb_editor.cpp:666
 #: pcbnew/menubar_pcb_editor.cpp:671
 msgid "Full Window Crosshair"
-msgstr ""
+msgstr "Alvo de Tela Inteira"
 
 #: pcbnew/menubar_footprint_editor.cpp:286 pcbnew/menubar_pcb_editor.cpp:703
 msgid "Sketch &Pads"
-msgstr ""
+msgstr "Esboçar &Ilhas"
 
 #: pcbnew/menubar_footprint_editor.cpp:290 pcbnew/menubar_pcb_editor.cpp:721
 msgid "Sketch Footprint &Edges"
-msgstr ""
+msgstr "Esboçar &Bordas do Footprint"
 
 #: pcbnew/menubar_footprint_editor.cpp:290 pcbnew/menubar_pcb_editor.cpp:721
 msgid "Show footprint edges in outline mode"
@@ -24701,15 +24758,15 @@ msgstr "Exibir bordas de footprint em modo contorno"
 
 #: pcbnew/menubar_footprint_editor.cpp:293 pcbnew/menubar_pcb_editor.cpp:725
 msgid "Sketch Footprint Te&xt"
-msgstr ""
+msgstr "Esboçar Te&xto do Footprint"
 
 #: pcbnew/menubar_footprint_editor.cpp:293 pcbnew/menubar_pcb_editor.cpp:725
 msgid "Show footprint text in outline mode"
-msgstr ""
+msgstr "Mostrar o texto do footprint no modo contorno"
 
 #: pcbnew/menubar_footprint_editor.cpp:297 pcbnew/menubar_pcb_editor.cpp:729
 msgid "&Drawing Mode"
-msgstr ""
+msgstr "Modo de &Desenho"
 
 #: pcbnew/menubar_footprint_editor.cpp:298
 #: pcbnew/menubar_footprint_editor.cpp:326 pcbnew/menubar_pcb_editor.cpp:730
@@ -24735,7 +24792,7 @@ msgstr "Tornar a camada atual mais transparente"
 
 #: pcbnew/menubar_footprint_editor.cpp:318 pcbnew/menubar_pcb_editor.cpp:750
 msgid "&Increase Layer Opacity"
-msgstr ""
+msgstr "&Aumentar a Opacidade da Camada"
 
 #: pcbnew/menubar_footprint_editor.cpp:321 pcbnew/menubar_pcb_editor.cpp:753
 msgid "Make the current layer less transparent"
@@ -24743,11 +24800,11 @@ msgstr "Tornar a camada atual menos transparente"
 
 #: pcbnew/menubar_footprint_editor.cpp:325 pcbnew/menubar_pcb_editor.cpp:757
 msgid "&Contrast Mode"
-msgstr ""
+msgstr "Modo de &Contraste"
 
 #: pcbnew/menubar_footprint_editor.cpp:339 pcbnew/menubar_pcb_editor.cpp:175
 msgid "Te&xts and Drawings..."
-msgstr ""
+msgstr "Te&xtos e Desenhos..."
 
 #: pcbnew/menubar_footprint_editor.cpp:340 pcbnew/menubar_pcb_editor.cpp:176
 msgid "Adjust dimensions for texts and drawings"
@@ -24759,15 +24816,15 @@ msgstr "Propriedades Padrão de &Ilha…"
 
 #: pcbnew/menubar_footprint_editor.cpp:346
 msgid "Edit settings for new pads"
-msgstr ""
+msgstr "Editar configurações para novas ilhas"
 
 #: pcbnew/menubar_footprint_editor.cpp:354
 msgid "&Pad"
-msgstr ""
+msgstr "&Ilha"
 
 #: pcbnew/menubar_footprint_editor.cpp:360
 msgid "&Text"
-msgstr ""
+msgstr "&Texto"
 
 #: pcbnew/menubar_footprint_editor.cpp:362
 msgid "Add graphic text"
@@ -24779,21 +24836,21 @@ msgstr "&Linha"
 
 #: pcbnew/menubar_footprint_editor.cpp:384 pcbnew/menubar_pcb_editor.cpp:386
 msgid "&Polygon"
-msgstr ""
+msgstr "&Polígono"
 
 #: pcbnew/menubar_footprint_editor.cpp:386 pcbnew/menubar_pcb_editor.cpp:387
 #: pcbnew/tool_footprint_editor.cpp:178 pcbnew/tool_pcb_editor.cpp:481
 #: pcbnew/tools/drawing_tool.cpp:715
 msgid "Add graphic polygon"
-msgstr ""
+msgstr "Adicionar polígono gráfico"
 
 #: pcbnew/menubar_footprint_editor.cpp:392
 msgid "A&nchor"
-msgstr ""
+msgstr "Â&ncora"
 
 #: pcbnew/menubar_footprint_editor.cpp:394 pcbnew/tool_footprint_editor.cpp:185
 msgid "Place footprint reference anchor"
-msgstr ""
+msgstr "Colocar âncora de referência do footprint"
 
 #: pcbnew/menubar_footprint_editor.cpp:399 pcbnew/menubar_pcb_editor.cpp:407
 msgid "&Grid Origin"
@@ -24801,23 +24858,24 @@ msgstr "Origem da &Grade"
 
 #: pcbnew/menubar_footprint_editor.cpp:400 pcbnew/menubar_pcb_editor.cpp:408
 msgid "Set grid origin point"
-msgstr ""
+msgstr "Definir ponto de origem da grade"
 
 #: pcbnew/menubar_footprint_editor.cpp:408 pcbnew/menubar_pcb_editor.cpp:312
 msgid "&Measure"
-msgstr ""
+msgstr "&Medir"
 
 #: pcbnew/menubar_footprint_editor.cpp:417
 msgid "&Update Footprint on PCB"
-msgstr ""
+msgstr "&Atualizar Footprint na PCI"
 
+# Revisar
 #: pcbnew/menubar_footprint_editor.cpp:418
 msgid "Push updated footprint through to current board"
-msgstr ""
+msgstr "Enviar footprint atualizado para a placa atual"
 
 #: pcbnew/menubar_footprint_editor.cpp:422
 msgid "&Insert Footprint on PCB"
-msgstr ""
+msgstr "&Inserir Footprint na PCI"
 
 #: pcbnew/menubar_footprint_editor.cpp:423
 msgid "Insert footprint onto current board"
@@ -24829,7 +24887,7 @@ msgstr "&Apagar um Footprint na Biblioteca Ativa"
 
 #: pcbnew/menubar_footprint_editor.cpp:430
 msgid "Choose and delete a footprint from the active library"
-msgstr ""
+msgstr "Escolha e exclua um footprint da biblioteca ativa"
 
 #: pcbnew/menubar_footprint_editor.cpp:445 pcbnew/menubar_pcb_editor.cpp:336
 msgid "Manage Footprint Li&braries..."
@@ -24845,7 +24903,7 @@ msgstr "&Configurações Gerais…"
 
 #: pcbnew/menubar_footprint_editor.cpp:450
 msgid "Change footprint editor settings."
-msgstr ""
+msgstr "Alterar configurações do editor de footprint."
 
 #: pcbnew/menubar_footprint_editor.cpp:456 pcbnew/menubar_pcb_editor.cpp:212
 msgid "&Display Options..."
@@ -24853,23 +24911,24 @@ msgstr "Opções de &Exibição…"
 
 #: pcbnew/menubar_footprint_editor.cpp:457
 msgid "Graphics acceleration, grid and cursor settings."
-msgstr ""
+msgstr "Configurações de aceleração gráfica, grade e cursor."
 
+# Revisar
 #: pcbnew/menubar_footprint_editor.cpp:472
 msgid "Modern Toolset (&Fallback)"
-msgstr ""
+msgstr "Conjunto de Ferramentas Moderno (&Contingência)"
 
 #: pcbnew/menubar_footprint_editor.cpp:492
 msgid "Open the Pcbnew Manual"
-msgstr ""
+msgstr "Abrir o Manual do Pcbnew"
 
 #: pcbnew/menubar_footprint_editor.cpp:524 pcbnew/menubar_pcb_editor.cpp:141
 msgid "&Setup"
-msgstr ""
+msgstr "&Configuração"
 
 #: pcbnew/menubar_pcb_editor.cpp:143
 msgid "Ro&ute"
-msgstr ""
+msgstr "Ro&tear"
 
 #: pcbnew/menubar_pcb_editor.cpp:163
 msgid "&Layers Setup..."
@@ -24885,89 +24944,95 @@ msgstr "Regras de &Design…"
 
 #: pcbnew/menubar_pcb_editor.cpp:169
 msgid "Open design rules editor"
-msgstr ""
+msgstr "Abrir editor de regras de desenho"
 
 #: pcbnew/menubar_pcb_editor.cpp:181
 msgid "Adjust default pad characteristics"
 msgstr "Ajustar características padrão da ilha"
 
+# Revisar
 #: pcbnew/menubar_pcb_editor.cpp:185
 msgid "Pads to &Mask Clearance..."
-msgstr ""
+msgstr "Isolamento entre Ilhas e &Máscara..."
 
 #: pcbnew/menubar_pcb_editor.cpp:186
 msgid "Adjust global clearance between pads and solder resist mask"
-msgstr ""
+msgstr "Ajustar o afastamento global entre ilhas e máscara resistente a solda"
 
 #: pcbnew/menubar_pcb_editor.cpp:190
 msgid "&Differential Pairs..."
-msgstr ""
+msgstr "Pares &Diferenciais..."
 
 #: pcbnew/menubar_pcb_editor.cpp:191
 msgid "Define global gap/width for differential pairs."
-msgstr ""
+msgstr "Definir Intervalo/Largura global para pares diferenciais."
 
 #: pcbnew/menubar_pcb_editor.cpp:206
 msgid "&General Settings"
-msgstr ""
+msgstr "Configurações &Gerais"
 
 #: pcbnew/menubar_pcb_editor.cpp:206
 msgid "Select general options for Pcbnew"
-msgstr ""
+msgstr "Selecionar opções gerais para o Pcbnew"
 
+# Revisar
 #: pcbnew/menubar_pcb_editor.cpp:213
 msgid ""
 "Graphics acceleration, grid, cursor, annotation and clearance outline "
 "settings."
 msgstr ""
+"Configurações de aceleração gráfica, grade, cursor, anotações e contornos de "
+"isolamento."
 
+# Revisar
+# &Uma Trilha?
 #: pcbnew/menubar_pcb_editor.cpp:261
 msgid "&Single Track"
-msgstr ""
+msgstr "&Única Trilha"
 
 #: pcbnew/menubar_pcb_editor.cpp:264
 msgid "Interactively route single track"
-msgstr ""
+msgstr "Rotear interativamente uma única trilha"
 
 #: pcbnew/menubar_pcb_editor.cpp:267
 msgid "&Differential Pair"
-msgstr ""
+msgstr "Par &Diferencial"
 
 #: pcbnew/menubar_pcb_editor.cpp:270
 msgid "Interactively route differential pair"
-msgstr ""
+msgstr "Rotear interativamente um par diferencial"
 
 #: pcbnew/menubar_pcb_editor.cpp:275
 msgid "&Tune Track Length"
-msgstr ""
+msgstr "&Ajustar Comprimento da Trilha"
 
 #: pcbnew/menubar_pcb_editor.cpp:278
 msgid "Tune length of single track"
-msgstr ""
+msgstr "Ajustar o comprimento de uma única trilha"
 
 #: pcbnew/menubar_pcb_editor.cpp:281
 msgid "Tune Differential Pair &Length"
-msgstr ""
+msgstr "Ajustar &Comprimento do Par Diferencial"
 
 #: pcbnew/menubar_pcb_editor.cpp:284
 msgid "Tune length of differential pair"
-msgstr ""
+msgstr "Ajustar o comprimento do par diferencial"
 
 #: pcbnew/menubar_pcb_editor.cpp:287
 msgid "Tune Differential Pair &Skew/Phase"
-msgstr ""
+msgstr "Ajustar &Inclinação/Fase do Par Diferencial"
 
 #: pcbnew/menubar_pcb_editor.cpp:290
 msgid "Tune skew/phase of a differential pair"
-msgstr ""
+msgstr "Ajustar inclinação/fase de um par diferencial"
 
 #: pcbnew/menubar_pcb_editor.cpp:296
 msgid "&Interactive Router Settings..."
-msgstr ""
+msgstr "Configurações do Roteador &Interativo..."
 
 #: pcbnew/menubar_pcb_editor.cpp:297
 msgid "Configure interactive router"
-msgstr ""
+msgstr "Configurar roteador interativo"
 
 #: pcbnew/menubar_pcb_editor.cpp:308
 msgid "&List Nets"
@@ -24975,11 +25040,11 @@ msgstr "&Lista de Nets"
 
 #: pcbnew/menubar_pcb_editor.cpp:309
 msgid "View list of nets with names and IDs"
-msgstr ""
+msgstr "Ver lista de redes com nomes e IDs"
 
 #: pcbnew/menubar_pcb_editor.cpp:320
 msgid "&Design Rules Checker"
-msgstr ""
+msgstr "Verificador de Regras de &Desenho"
 
 #: pcbnew/menubar_pcb_editor.cpp:321 pcbnew/tool_pcb_editor.cpp:305
 msgid "Perform design rules check"
@@ -24987,67 +25052,69 @@ msgstr "Verificar Regras de Desenho (RDC)"
 
 #: pcbnew/menubar_pcb_editor.cpp:337
 msgid "Edit the global and project footprint library lists"
-msgstr ""
+msgstr "Editar as listas de bibliotecas de footprint globais e do projeto"
 
+# Revisar
 #: pcbnew/menubar_pcb_editor.cpp:342
 msgid "Add &3D Shapes Libraries Wizard..."
-msgstr ""
+msgstr "Adicionar Assistente de Bibliotecas de Formas &3D..."
 
 #: pcbnew/menubar_pcb_editor.cpp:343
 msgid "Download 3D shape libraries from GitHub"
-msgstr ""
+msgstr "Baixar bibliotecas de formas 3D do GitHub"
 
 #: pcbnew/menubar_pcb_editor.cpp:354
 msgid "&Footprint"
-msgstr ""
+msgstr "&Footprint"
 
 #: pcbnew/menubar_pcb_editor.cpp:358
 msgid "&Via"
-msgstr ""
+msgstr "&Via"
 
 #: pcbnew/menubar_pcb_editor.cpp:359
 msgid "Add via"
-msgstr ""
+msgstr "Adicionar via"
 
 #: pcbnew/menubar_pcb_editor.cpp:362
 msgid "&Zone"
-msgstr ""
+msgstr "&Zona"
 
 #: pcbnew/menubar_pcb_editor.cpp:363
 msgid "Add filled zone"
-msgstr ""
+msgstr "Adicionar zona preenchida"
 
 #: pcbnew/menubar_pcb_editor.cpp:366
 msgid "&Keepout Area"
-msgstr ""
+msgstr "Área de &Afastamento"
 
 #: pcbnew/menubar_pcb_editor.cpp:367
 msgid "Add keepout area"
-msgstr ""
+msgstr "Adicionar área de afastamento"
 
 #: pcbnew/menubar_pcb_editor.cpp:370
 msgid "Te&xt"
-msgstr ""
+msgstr "Te&xto"
 
 #: pcbnew/menubar_pcb_editor.cpp:372 pcbnew/tool_pcb_editor.cpp:484
 msgid "Add text on copper layers or graphic text"
-msgstr ""
+msgstr "Adicionar texto em camadas de cobre ou texto gráfico"
 
 #: pcbnew/menubar_pcb_editor.cpp:392
 msgid "&Dimension"
-msgstr ""
+msgstr "&Dimensão"
 
 #: pcbnew/menubar_pcb_editor.cpp:396
 msgid "La&yer Alignment Target"
-msgstr ""
+msgstr "Alvo de Alinhamento de &Camada"
 
 #: pcbnew/menubar_pcb_editor.cpp:402
 msgid "Drill and &Place Offset"
-msgstr ""
+msgstr "Deslocamento do Furo e &Posicionamento"
 
+# Revisar
 #: pcbnew/menubar_pcb_editor.cpp:403
 msgid "Place origin point for drill and place files"
-msgstr ""
+msgstr "Colocar o ponto de origem para arquivos de furação e posicionamento"
 
 #: pcbnew/menubar_pcb_editor.cpp:417
 msgid "Load &Netlist..."
@@ -25055,31 +25122,32 @@ msgstr "Carregar &Netlist…"
 
 #: pcbnew/menubar_pcb_editor.cpp:418
 msgid "Read netlist and update board connectivity"
-msgstr ""
+msgstr "Ler netlist e atualizar a conectividade da placa"
 
 #: pcbnew/menubar_pcb_editor.cpp:424
 msgid "Update PCB design with current schematic (forward annotation)"
-msgstr ""
+msgstr "Atualiza o projeto da PCI a partir do esquema atual (anotação à frente)"
 
+# Revisar
 #: pcbnew/menubar_pcb_editor.cpp:430
 msgid "Update Footprints from Library..."
-msgstr ""
+msgstr "Atualizar Footprints a partir da Biblioteca.."
 
 #: pcbnew/menubar_pcb_editor.cpp:431
 msgid "Update footprints to include any changes from the library"
-msgstr ""
+msgstr "Atualizar footprints para incluir quaisquer alterações da biblioteca"
 
 #: pcbnew/menubar_pcb_editor.cpp:437
 msgid "Set &Layer Pair..."
-msgstr ""
+msgstr "Definir Par de &Camadas..."
 
 #: pcbnew/menubar_pcb_editor.cpp:437
 msgid "Change active layer pair"
-msgstr ""
+msgstr "Alterar par de camadas ativas"
 
 #: pcbnew/menubar_pcb_editor.cpp:442
 msgid "&Scripting Console"
-msgstr ""
+msgstr "Console de &Script"
 
 #: pcbnew/menubar_pcb_editor.cpp:443
 msgid "Show/Hide the Python scripting console"
@@ -25087,23 +25155,23 @@ msgstr "Exibir/Ocultar o console de script do Python"
 
 #: pcbnew/menubar_pcb_editor.cpp:453
 msgid "&External Plugins..."
-msgstr ""
+msgstr "Plugins &Externos..."
 
 #: pcbnew/menubar_pcb_editor.cpp:454
 msgid "Execute or reload python action plugins"
-msgstr ""
+msgstr "Executar ou recarregar plugins de ação python"
 
 #: pcbnew/menubar_pcb_editor.cpp:458
 msgid "&Refresh Plugins"
-msgstr ""
+msgstr "&Atualizar Plugins"
 
 #: pcbnew/menubar_pcb_editor.cpp:459
 msgid "Reload all python plugins and refresh plugin menus"
-msgstr ""
+msgstr "Recarregar todos os plugins python e atualizar os menus de plugin"
 
 #: pcbnew/menubar_pcb_editor.cpp:484
 msgid "Display current hotkeys list and corresponding commands"
-msgstr ""
+msgstr "Exibir lista de teclas de atalho atual e comandos correspondentes"
 
 #: pcbnew/menubar_pcb_editor.cpp:545 pcbnew/onrightclick.cpp:610
 msgid "Edit All Tracks and Vias..."
@@ -25111,19 +25179,20 @@ msgstr "Editar Todas as Trilhas e Vias…"
 
 #: pcbnew/menubar_pcb_editor.cpp:548
 msgid "Set Footp&rint Field Sizes..."
-msgstr ""
+msgstr "Definir Tamanhos de Campo de Foorprint..."
 
 #: pcbnew/menubar_pcb_editor.cpp:549
 msgid "Set text size and width of footprint fields"
-msgstr ""
+msgstr "Definir tamanho e largura do texto de campos de footprint"
 
 #: pcbnew/menubar_pcb_editor.cpp:553
 msgid "Change Footprints..."
 msgstr "Alterar Footprints…"
 
+# Revisar
 #: pcbnew/menubar_pcb_editor.cpp:554
 msgid "Assign different footprints from the library"
-msgstr ""
+msgstr "Atribuir footprints alternativos da biblioteca"
 
 #: pcbnew/menubar_pcb_editor.cpp:558
 msgid "&Move and Swap Layers..."
@@ -25131,7 +25200,7 @@ msgstr "&Mover e Trocar Camadas…"
 
 #: pcbnew/menubar_pcb_editor.cpp:559
 msgid "Move tracks or drawings from a layer to another layer"
-msgstr ""
+msgstr "Mover trilhas ou desenhos de uma camada para outra"
 
 #: pcbnew/menubar_pcb_editor.cpp:564
 msgid "&Global Deletions..."
@@ -25147,15 +25216,16 @@ msgstr "&Limpar Trilhas e Vias…"
 
 #: pcbnew/menubar_pcb_editor.cpp:570
 msgid "Clean stubs, vias, delete break points or unconnected tracks"
-msgstr "Limpar stubs, apagar pontos de interrupção e trilhas desconectadas"
+msgstr ""
+"Limpar costuras, vias, apagar pontos de interrupção e trilhas desconectadas"
 
 #: pcbnew/menubar_pcb_editor.cpp:581
 msgid "Show La&yers Manager"
-msgstr ""
+msgstr "Exibir Gerenciador de &Camadas"
 
 #: pcbnew/menubar_pcb_editor.cpp:586
 msgid "Show Microwa&ve Toolbar"
-msgstr ""
+msgstr "Exibir Barra de Ferramentas de Microon&das"
 
 #: pcbnew/menubar_pcb_editor.cpp:597
 msgid "Show board in 3D viewer"
@@ -25172,11 +25242,12 @@ msgstr "Exibir emaranhado da placa"
 
 #: pcbnew/menubar_pcb_editor.cpp:689
 msgid "&Fill Zones"
-msgstr ""
+msgstr "&Preencher Zonas"
 
+# Revisar
 #: pcbnew/menubar_pcb_editor.cpp:693
 msgid "&Wireframe Zones"
-msgstr ""
+msgstr "Zonas &Wireframe"
 
 #: pcbnew/menubar_pcb_editor.cpp:693 pcbnew/tool_pcb_editor.cpp:389
 msgid "Show outlines of filled areas only in zones"
@@ -25184,7 +25255,7 @@ msgstr "Exibir apenas o contorno de áreas preenchidas dentro de zonas"
 
 #: pcbnew/menubar_pcb_editor.cpp:697
 msgid "&Sketch Zones"
-msgstr ""
+msgstr "&Esboçar Zonas"
 
 #: pcbnew/menubar_pcb_editor.cpp:697 pcbnew/tool_pcb_editor.cpp:386
 msgid "Do not show filled areas in zones"
@@ -25192,7 +25263,7 @@ msgstr "Não exibir áreas preenchidas dentro de zonas"
 
 #: pcbnew/menubar_pcb_editor.cpp:707
 msgid "Sketch &Vias"
-msgstr ""
+msgstr "Esboçar &Vias"
 
 #: pcbnew/menubar_pcb_editor.cpp:707 pcbnew/tool_pcb_editor.cpp:398
 #: pcbnew/toolbars_update_user_interface.cpp:152
@@ -25201,7 +25272,7 @@ msgstr "Exibir vias em modo contorno"
 
 #: pcbnew/menubar_pcb_editor.cpp:710
 msgid "Sketch &Tracks"
-msgstr ""
+msgstr "Esboçar &Trilhas"
 
 #: pcbnew/menubar_pcb_editor.cpp:713 pcbnew/tool_pcb_editor.cpp:402
 #: pcbnew/toolbars_update_user_interface.cpp:163
@@ -25210,23 +25281,23 @@ msgstr "Exibir trilhas em modo preenchido"
 
 #: pcbnew/menubar_pcb_editor.cpp:717
 msgid "Sketch &Graphic Items"
-msgstr ""
+msgstr "Esboçar Itens &Gráficos"
 
 #: pcbnew/menubar_pcb_editor.cpp:717
 msgid "Show graphic items in outline mode"
-msgstr ""
+msgstr "Exibir itens gráficos em modo contorno"
 
 #: pcbnew/menubar_pcb_editor.cpp:762
 msgid "Flip &Board View"
-msgstr ""
+msgstr "Inverter Visualização da &Placa"
 
 #: pcbnew/menubar_pcb_editor.cpp:763
 msgid "Flip (mirror) the board view"
-msgstr ""
+msgstr "Inverter (espelhar) visualização da placa"
 
 #: pcbnew/menubar_pcb_editor.cpp:799
 msgid "Create new board"
-msgstr ""
+msgstr "Criar nova placa"
 
 #: pcbnew/menubar_pcb_editor.cpp:804 pcbnew/tool_pcb_editor.cpp:249
 msgid "Open existing board"
@@ -25234,7 +25305,7 @@ msgstr "Abrir placa existente"
 
 #: pcbnew/menubar_pcb_editor.cpp:809
 msgid "Open recently opened board"
-msgstr ""
+msgstr "Abrir placa previamente aberta"
 
 #: pcbnew/menubar_pcb_editor.cpp:817
 msgid "Save current board"
@@ -25242,27 +25313,29 @@ msgstr "Salvar placa atual"
 
 #: pcbnew/menubar_pcb_editor.cpp:827
 msgid "Sa&ve As..."
-msgstr ""
+msgstr "Sal&var Como..."
 
 #: pcbnew/menubar_pcb_editor.cpp:829
 msgid "Save current board with new name"
-msgstr ""
+msgstr "Salvar placa atual com novo nome"
 
 #: pcbnew/menubar_pcb_editor.cpp:836
 msgid "Sa&ve Copy As..."
-msgstr ""
+msgstr "Sal&var Cópia Como..."
 
 #: pcbnew/menubar_pcb_editor.cpp:838
 msgid "Save copy of the current board"
-msgstr ""
+msgstr "Salvar cópia da placa atual"
 
 #: pcbnew/menubar_pcb_editor.cpp:845
 msgid "Resc&ue"
-msgstr ""
+msgstr "Rec&uperar"
 
 #: pcbnew/menubar_pcb_editor.cpp:846
 msgid "Clear board and get last rescue file automatically saved by Pcbnew"
 msgstr ""
+"Limpar placa e resgatar o último arquivo de recuperação automaticamente salvo "
+"pelo Pcbnew"
 
 #: pcbnew/menubar_pcb_editor.cpp:852
 msgid "&Append Board..."
@@ -25270,31 +25343,31 @@ msgstr "&Adicionar Placa…"
 
 #: pcbnew/menubar_pcb_editor.cpp:853
 msgid "Append another board to currently loaded board"
-msgstr ""
+msgstr "Anexar outra placa à placa atualmente carregada"
 
 #: pcbnew/menubar_pcb_editor.cpp:857
 msgid "Import Non-KiCad Board File..."
-msgstr ""
+msgstr "Importar Arquivo de Placa não KiCad..."
 
 #: pcbnew/menubar_pcb_editor.cpp:858
 msgid "Import board file from other applications"
-msgstr ""
+msgstr "Importar arquivo de placa de outros aplicativos"
 
 #: pcbnew/menubar_pcb_editor.cpp:863
 msgid "Revert to Las&t Backup"
-msgstr ""
+msgstr "Rever&ter para o Último Backup"
 
 #: pcbnew/menubar_pcb_editor.cpp:864
 msgid "Clear board and get previous backup version of board"
-msgstr ""
+msgstr "Limpar placa e obter versão anterior de backup da placa"
 
 #: pcbnew/menubar_pcb_editor.cpp:873
 msgid "&Specctra Session..."
-msgstr ""
+msgstr "&Specctra Session..."
 
 #: pcbnew/menubar_pcb_editor.cpp:874
 msgid "Import routed \"Specctra Session\" (*.ses) file"
-msgstr ""
+msgstr "Importar arquivo roteado \"Specctra Session\" (*.ses)"
 
 #: pcbnew/menubar_pcb_editor.cpp:878
 msgid "&DXF File..."
@@ -25302,7 +25375,7 @@ msgstr "Arquivo &DXF…"
 
 #: pcbnew/menubar_pcb_editor.cpp:879
 msgid "Import 2D Drawing DXF file to Pcbnew on Drawings layer"
-msgstr ""
+msgstr "Importar arquivo DXF de desenho 2D para o Pcbnew na camada Desenhos"
 
 #: pcbnew/menubar_pcb_editor.cpp:893
 msgid "Export board"
@@ -25315,10 +25388,11 @@ msgstr "Arquivo de &Posição (.pos) de Footprint…"
 #: pcbnew/menubar_pcb_editor.cpp:900
 msgid "Generate footprint position file for pick and place"
 msgstr ""
+"Gerar arquivo de posicionamento de footprint para equipamentos pick and place"
 
 #: pcbnew/menubar_pcb_editor.cpp:904
 msgid "&Drill (.drl) File..."
-msgstr ""
+msgstr "Arquivo de Furação(.drl)..."
 
 #: pcbnew/menubar_pcb_editor.cpp:905
 msgid "Generate excellon2 drill file"
@@ -25330,7 +25404,7 @@ msgstr "Relatório (.rpt) de &Footprint…"
 
 #: pcbnew/menubar_pcb_editor.cpp:910
 msgid "Create report of all footprints from current board"
-msgstr ""
+msgstr "Criar relatório de todos os footprints da placa atual"
 
 #: pcbnew/menubar_pcb_editor.cpp:914
 msgid "IPC-D-356 Netlist File..."
@@ -25338,7 +25412,7 @@ msgstr "Arquivo de Netlist IPC-D-356…"
 
 #: pcbnew/menubar_pcb_editor.cpp:915
 msgid "Generate IPC-D-356 netlist file"
-msgstr ""
+msgstr "Gerar arquivo netlist IPC-D-356"
 
 #: pcbnew/menubar_pcb_editor.cpp:919
 msgid "&BOM File..."
@@ -25346,11 +25420,11 @@ msgstr "Arquivo &BOM…"
 
 #: pcbnew/menubar_pcb_editor.cpp:920
 msgid "Create bill of materials from current schematic"
-msgstr ""
+msgstr "Criar lista de materiais a partir do esquema atual"
 
 #: pcbnew/menubar_pcb_editor.cpp:924
 msgid "&Fabrication Outputs"
-msgstr ""
+msgstr "Saídas para &Fabricação"
 
 #: pcbnew/menubar_pcb_editor.cpp:925
 msgid "Generate files for fabrication"
@@ -25373,6 +25447,8 @@ msgid ""
 "Archive all footprints in existing library in footprint Lib table(does not "
 "remove other footprints in this library)"
 msgstr ""
+"Arquivar todos os footprints da biblioteca existente na tabela de bibliotecas "
+"de Footprint (não remove outros footprints desta biblioteca)"
 
 #: pcbnew/menubar_pcb_editor.cpp:957
 msgid "&Create New Library and Archive Footprints..."
@@ -25383,22 +25459,24 @@ msgid ""
 "Archive all footprints in new library\n"
 "(if the library already exists it will be deleted)"
 msgstr ""
+"Arquivar todos os footprints na nova biblioteca\n"
+"(se a biblioteca já existir será excluída)"
 
 #: pcbnew/menubar_pcb_editor.cpp:964
 msgid "Arc&hive Footprints"
-msgstr ""
+msgstr "Arqu&ivar Footprints"
 
 #: pcbnew/menubar_pcb_editor.cpp:965
 msgid "Archive or add all footprints in library file"
-msgstr ""
+msgstr "Arquivar ou adicionar todos os footprints no arquivo de biblioteca"
 
 #: pcbnew/menubar_pcb_editor.cpp:969
 msgid "Close Pcbnew"
-msgstr ""
+msgstr "Fechar Pcbnew"
 
 #: pcbnew/menubar_pcb_editor.cpp:977
 msgid "S&pecctra DSN..."
-msgstr ""
+msgstr "S&pecctra DSN..."
 
 #: pcbnew/menubar_pcb_editor.cpp:978
 msgid "Export current board to \"Specctra DSN\" file"
@@ -25414,55 +25492,59 @@ msgstr "Exportar em formato GenCAD"
 
 #: pcbnew/menubar_pcb_editor.cpp:986
 msgid "&VRML..."
-msgstr ""
+msgstr "&VRML..."
 
 #: pcbnew/menubar_pcb_editor.cpp:987
 msgid "Export VRML board representation"
-msgstr ""
+msgstr "Exportar representação em VRML da placa"
 
 #: pcbnew/menubar_pcb_editor.cpp:991
 msgid "I&DFv3..."
-msgstr ""
+msgstr "I&DFv3..."
 
+# Revisar
 #: pcbnew/menubar_pcb_editor.cpp:991
 msgid "IDFv3 board and symbol export"
-msgstr ""
+msgstr "Exportação de símbolo e placa em IDFv3"
 
 #: pcbnew/menubar_pcb_editor.cpp:995
 msgid "S&TEP..."
-msgstr ""
+msgstr "S&TEP..."
 
 #: pcbnew/menubar_pcb_editor.cpp:995
 msgid "STEP export"
-msgstr ""
+msgstr "Exportar STEP"
 
 #: pcbnew/menubar_pcb_editor.cpp:999
 msgid "&SVG..."
-msgstr ""
+msgstr "&SVG..."
 
 #: pcbnew/menubar_pcb_editor.cpp:1000
 msgid "Export board file in Scalable Vector Graphics format"
-msgstr ""
+msgstr "Exportar placa no formato de Gráficos Vetoriais Escaláveis (SVG)"
 
 #: pcbnew/menubar_pcb_editor.cpp:1004
 msgid "&Footprint Association (.cmp) File..."
 msgstr "Arquivo de Associação (.cmp) de &Footprint…"
 
+# Revisar
 #: pcbnew/menubar_pcb_editor.cpp:1005
 msgid "Export footprint association file (*.cmp) for schematic back annotation"
 msgstr ""
+"Exportar arquivo de associação de footprint (*.cmp) para a anotação de "
+"retorno do esquema"
 
 #: pcbnew/microwave.cpp:246
 msgid "Gap Size:"
-msgstr ""
+msgstr "Tamanho da Lacuna:"
 
 #: pcbnew/microwave.cpp:252
 msgid "Stub Size:"
-msgstr ""
+msgstr "Tamanho da Costura:"
 
 #: pcbnew/microwave.cpp:259
 msgid "Arc Stub Radius Value:"
-msgstr ""
+msgstr "Valor do Raio da Costura do Arco:"
 
 #: pcbnew/microwave.cpp:270 pcbnew/microwave.cpp:288
 msgid "Create microwave module"
@@ -25560,11 +25642,11 @@ msgstr "Adicionar Fenda"
 #: pcbnew/muwave_command.cpp:68 pcbnew/tools/microwave_tool.cpp:71
 #: pcbnew/tools/microwave_tool.cpp:152
 msgid "Add Stub"
-msgstr "Adicionar Toco"
+msgstr "Adicionar Costura"
 
 #: pcbnew/muwave_command.cpp:72 pcbnew/tools/microwave_tool.cpp:77
 msgid "Add Arc Stub"
-msgstr "Adicionar Arco de Toco"
+msgstr "Adicionar Costura de Arco"
 
 #: pcbnew/muwave_command.cpp:76 pcbnew/tools/microwave_tool.cpp:83
 #: pcbnew/tools/microwave_tool.cpp:168
@@ -27112,12 +27194,14 @@ msgstr "Criar fenda de comprimento específico (para aplicações de micro-ondas
 
 #: pcbnew/tool_pcb_editor.cpp:546 pcbnew/tools/microwave_tool.cpp:71
 msgid "Create stub of specified length for microwave applications"
-msgstr "Criar toco de comprimento específico para (aplicações de micro-ondas)"
+msgstr ""
+"Criar costura de comprimento específico para (aplicações em micro-ondas)"
 
 #: pcbnew/tool_pcb_editor.cpp:551 pcbnew/tools/microwave_tool.cpp:77
 msgid "Create stub (arc) of specified length for microwave applications"
 msgstr ""
-"Criar toco (arco) de comprimento específico (para aplicações de micro-ondas)"
+"Criar costura (arco) de comprimento específico (para aplicações em micro-"
+"ondas)"
 
 #: pcbnew/tool_pcb_editor.cpp:556
 msgid "Create a polynomial shape for microwave applications"
@@ -27534,7 +27618,7 @@ msgstr ""
 
 #: pcbnew/tools/microwave_tool.cpp:160
 msgid "Add Stub (Arc)"
-msgstr ""
+msgstr "Adicionar Costura (Arco)"
 
 #: pcbnew/tools/microwave_tool.cpp:229
 msgid "Place microwave feature"
