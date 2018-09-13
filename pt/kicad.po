@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-18 21:11+0200\n"
-"PO-Revision-Date: 2018-09-12 17:18-0300\n"
+"PO-Revision-Date: 2018-09-13 18:00-0300\n"
 "Last-Translator: Francisco R. Pereira <frosch_bin@yahoo.com.br>\n"
 "Language-Team: kicad team\n"
 "Language: pt_BR\n"
@@ -10815,8 +10815,8 @@ msgid ""
 "mode. In order to create/update PCBs from schematics, you need to launch "
 "Kicad shell and create a PCB project."
 msgstr ""
-"Não é possível atualizar a PCI, porque o Editor de Esquema foi aberto em modo "
-"stand-alone. Para criar/atualizar PCIs a partir de esquemas, você precisa "
+"Não foi possível atualizar a PCI, porque o Editor de Esquema foi aberto em "
+"modo autônomo. Para criar/atualizar PCIs a partir de esquemas, você precisa "
 "iniciar o shell do KiCad e criar um projeto de PCI."
 
 #: eeschema/sch_edit_frame.cpp:1007
@@ -17389,12 +17389,12 @@ msgstr "Furo da Via"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:52
 msgid "uVia Dia"
-msgstr "diâmetro da uVia"
+msgstr "Diâmetro da µVia"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:53
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:90
 msgid "uVia Drill"
-msgstr "furo da uVia"
+msgstr "Furo da µVia"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:54
 msgid "Diff Pair Width"
@@ -17475,15 +17475,15 @@ msgstr "Permitir vias cegas/enterradas"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:236
 msgid "Allow micro vias (uVias)"
-msgstr "Permitir micro vias (uVias)"
+msgstr "Permitir micro vias (µVias)"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:242
 msgid "Minimum uVia diameter:"
-msgstr "Diâmetro mínimo de uVia:"
+msgstr "Diâmetro mínimo de µVia:"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:255
 msgid "Minimum uVia drill:"
-msgstr "Furo mínimo de uVia:"
+msgstr "Furo mínimo de µVia:"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:277
 msgid ""
@@ -17741,7 +17741,7 @@ msgstr "Introduza o diâmetro mínimo aceitável para uma via padrão"
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:90
 msgid "Minimum uVia size:"
-msgstr "Tamanho mínimo de uVia:"
+msgstr "Tamanho mínimo de µVia:"
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:92 pcbnew/dialogs/dialog_drc_base.cpp:101
 msgid "Enter the minimum acceptable diameter for a micro via"
@@ -19485,7 +19485,7 @@ msgstr "Furo da Via"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:89
 msgid "uVia size"
-msgstr "tamanho da uVia"
+msgstr "tamanho da µVia"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:97
 msgid "Netclass value"
@@ -22025,7 +22025,7 @@ msgstr "Comprimento do alvo:"
 
 #: pcbnew/dialogs/dialog_pns_length_tuning_settings_base.cpp:87
 msgid "Meandering"
-msgstr "Meandros"
+msgstr "Sinuosidade"
 
 #: pcbnew/dialogs/dialog_pns_length_tuning_settings_base.cpp:98
 msgid "Min amplitude (Amin):"
@@ -22729,13 +22729,12 @@ msgstr "CLASSE DE REDE: \"%s\" tem furo de via:%s que é menor que o global:%s"
 #: pcbnew/drc.cpp:626
 #, c-format
 msgid "NETCLASS: \"%s\" has uVia Dia:%s which is less than global:%s"
-msgstr ""
-"CLASSE DE REDE: \"%s\" tem diâmetro de uVia:%s que é menor que o global:%s"
+msgstr "CLASSE DE REDE: \"%s\" tem diâmetro de µVia:%s menor que o global:%s"
 
 #: pcbnew/drc.cpp:639
 #, c-format
 msgid "NETCLASS: \"%s\" has uVia Drill:%s which is less than global:%s"
-msgstr "CLASSE DE REDE: \"%s\" tem furo de uVia:%s que é menor que o global:%s"
+msgstr "CLASSE DE REDE: \"%s\" tem furo de µVia:%s menor que o global:%s"
 
 #: pcbnew/drc.cpp:737
 msgid "Track clearances"
@@ -22870,27 +22869,27 @@ msgstr "Furo de micro via muito pequeno"
 
 #: pcbnew/drc_item.cpp:105
 msgid "NetClass Track Width &lt; global limit"
-msgstr "Largura de trilha da Classe de  Net &lt; limite global"
+msgstr "Largura da Trilha da Classe de  Rede &lt; limite global"
 
 #: pcbnew/drc_item.cpp:107
 msgid "NetClass Clearance &lt; global limit"
-msgstr "Isolamento da Classe de  Net &lt; limite global"
+msgstr "Isolamento da Classe de  Rede &lt; limite global"
 
 #: pcbnew/drc_item.cpp:109
 msgid "NetClass Via Dia &lt; global limit"
-msgstr "Diâmetro de Via da Classe de  Net &lt; limite global"
+msgstr "Diâmetro da Via da Classe de  Rede &lt; limite global"
 
 #: pcbnew/drc_item.cpp:111
 msgid "NetClass Via Drill &lt; global limit"
-msgstr "Furo de Via da Classe de  Net &lt; limite global"
+msgstr "Furo da Via da Classe de  Rede &lt; limite global"
 
 #: pcbnew/drc_item.cpp:113
 msgid "NetClass uVia Dia &lt; global limit"
-msgstr "Diâmetro microVia da  Classe de  Net &lt; limite global"
+msgstr "Diâmetro da µVia da  Classe de  Rede &lt; limite global"
 
 #: pcbnew/drc_item.cpp:115
 msgid "NetClass uVia Drill &lt; global limit"
-msgstr "Diâmetro furo da microVia da Classe de  Net &lt; limite global"
+msgstr "Diâmetro do furo da µVia da Classe de  Rede &lt; limite global"
 
 #: pcbnew/drc_item.cpp:118
 msgid "Via inside a keepout area"
@@ -23971,19 +23970,19 @@ msgstr ""
 
 #: pcbnew/hotkeys.cpp:111 pcbnew/router/length_tuner_tool.cpp:63
 msgid "Increase meander spacing by one step."
-msgstr "Aumente o espaçamento do meandro em um passo."
+msgstr "Aumentar o espaçamento da sinuosidade em um passo."
 
 #: pcbnew/hotkeys.cpp:113 pcbnew/router/length_tuner_tool.cpp:68
 msgid "Decrease meander spacing by one step."
-msgstr "Diminua o espaçamento do meandro em um passo."
+msgstr "Diminuir o espaçamento da sinuosidade em um passo."
 
 #: pcbnew/hotkeys.cpp:115 pcbnew/router/length_tuner_tool.cpp:73
 msgid "Increase meander amplitude by one step."
-msgstr "Aumente a amplitude do meandro em um passo."
+msgstr "Aumentar a amplitude da sinuosidade em um passo."
 
 #: pcbnew/hotkeys.cpp:117 pcbnew/router/length_tuner_tool.cpp:78
 msgid "Decrease meander amplitude by one step."
-msgstr "Diminua a amplitude do meandro em um passo."
+msgstr "Diminuir a amplitude da sinuosidade em um passo."
 
 #: pcbnew/hotkeys.cpp:120
 msgid "Add Through Via"
@@ -24329,7 +24328,7 @@ msgstr ""
 "ID de footprint inválido em\n"
 "arquivo: \"%s\"\n"
 "linha: %d\n"
-"caracter: %d"
+"posição: %d"
 
 # Revisar
 #: pcbnew/kicad_plugin.cpp:193
@@ -24542,7 +24541,7 @@ msgid ""
 "line: %d, offset: %d"
 msgstr ""
 "número de ponto flutuante inválido no arquivo: \"%s\"\n"
-"linha: %d, offset: %d"
+"linha: %d, posição: %d"
 
 #: pcbnew/legacy_plugin.cpp:3001 pcbnew/legacy_plugin.cpp:3037
 #, c-format
@@ -24551,7 +24550,7 @@ msgid ""
 "line: %d, offset: %d"
 msgstr ""
 "número de ponto flutuante faltando no arquivo: \"%s\"\n"
-"linha: %d, offset: %d"
+"linha: %d, posição: %d"
 
 #: pcbnew/legacy_plugin.cpp:3263
 #, c-format
@@ -25217,7 +25216,7 @@ msgstr "&Limpar Trilhas e Vias…"
 #: pcbnew/menubar_pcb_editor.cpp:570
 msgid "Clean stubs, vias, delete break points or unconnected tracks"
 msgstr ""
-"Limpar costuras, vias, apagar pontos de interrupção e trilhas desconectadas"
+"Limpar segmentos, vias, apagar pontos de interrupção e trilhas desconectadas"
 
 #: pcbnew/menubar_pcb_editor.cpp:581
 msgid "Show La&yers Manager"
@@ -25540,11 +25539,11 @@ msgstr "Tamanho da Lacuna:"
 
 #: pcbnew/microwave.cpp:252
 msgid "Stub Size:"
-msgstr "Tamanho da Costura:"
+msgstr "Tamanho do Segmento:"
 
 #: pcbnew/microwave.cpp:259
 msgid "Arc Stub Radius Value:"
-msgstr "Valor do Raio da Costura do Arco:"
+msgstr "Raio do Segmento de Arco:"
 
 #: pcbnew/microwave.cpp:270 pcbnew/microwave.cpp:288
 msgid "Create microwave module"
@@ -25552,7 +25551,7 @@ msgstr "Criar  módulo de microondas"
 
 #: pcbnew/microwave.cpp:287
 msgid "Angle in degrees:"
-msgstr ""
+msgstr "Ângulo em graus:"
 
 #: pcbnew/microwave.cpp:300
 msgid "Incorrect number, abort"
@@ -25592,15 +25591,16 @@ msgstr "Formato não tem pontos!"
 
 #: pcbnew/microwave.cpp:706
 msgid "No pad for this footprint"
-msgstr ""
+msgstr "Nenhuma ilha para este footprint"
 
 #: pcbnew/microwave.cpp:714
 msgid "Only one pad for this footprint"
-msgstr ""
+msgstr "Apenas uma ilha para este footprint"
 
+# Verificar
 #: pcbnew/microwave.cpp:725
 msgid "Gap:"
-msgstr ""
+msgstr "Espaçamento:"
 
 #: pcbnew/microwave.cpp:725
 msgid "Create Microwave Gap"
@@ -25616,7 +25616,7 @@ msgstr "Comprimento necessário < comprimento mínimo"
 
 #: pcbnew/microwave/microwave_inductor.cpp:333
 msgid "Requested length too large"
-msgstr ""
+msgstr "Comprimento solicitado muito grande"
 
 #: pcbnew/microwave/microwave_inductor.cpp:339
 msgid "Component Value:"
@@ -25642,11 +25642,11 @@ msgstr "Adicionar Fenda"
 #: pcbnew/muwave_command.cpp:68 pcbnew/tools/microwave_tool.cpp:71
 #: pcbnew/tools/microwave_tool.cpp:152
 msgid "Add Stub"
-msgstr "Adicionar Costura"
+msgstr "Adicionar Segmento"
 
 #: pcbnew/muwave_command.cpp:72 pcbnew/tools/microwave_tool.cpp:77
 msgid "Add Arc Stub"
-msgstr "Adicionar Costura de Arco"
+msgstr "Adicionar Segmento de Arco"
 
 #: pcbnew/muwave_command.cpp:76 pcbnew/tools/microwave_tool.cpp:83
 #: pcbnew/tools/microwave_tool.cpp:168
@@ -25665,9 +25665,10 @@ msgstr "Código da Net"
 msgid "Net Length"
 msgstr "Comprimento da Net"
 
+# Verificar
 #: pcbnew/netinfo_item.cpp:148
 msgid "On Board"
-msgstr ""
+msgstr "Na Placa"
 
 #: pcbnew/netinfo_item.cpp:152
 msgid "In Package"
@@ -25689,7 +25690,7 @@ msgstr "Componentes"
 #: pcbnew/netlist.cpp:254
 #, c-format
 msgid "No footprint defined for symbol \"%s\".\n"
-msgstr ""
+msgstr "Nenhum footprint definido para o símbolo \"%s\".\n"
 
 #: pcbnew/netlist.cpp:276
 #, c-format
@@ -25697,6 +25698,8 @@ msgid ""
 "Footprint of symbol \"%s\" changed: board footprint \"%s\", netlist footprint "
 "\"%s\"\n"
 msgstr ""
+"O footprint do símbolo \"%s\" foi alterado: footprint da placa \"%s\", "
+"footprint da netlist \"%s\"\n"
 
 #: pcbnew/netlist.cpp:306
 #, c-format
@@ -25719,34 +25722,38 @@ msgid ""
 "file: \"%s\"\n"
 "line: %d"
 msgstr ""
+"ID de footprint inválido em\n"
+"arquivo: \"%s\"\n"
+"linha: %d"
 
 #: pcbnew/onleftclick.cpp:262
 msgid "Graphic not allowed on Copper layers"
-msgstr ""
+msgstr "Gráfico não permitido em camadas de cobre"
 
 #: pcbnew/onleftclick.cpp:286 pcbnew/router/router_tool.cpp:651
 msgid "Tracks on Copper layers only"
-msgstr ""
+msgstr "Trilhas apenas em camadas de cobre"
 
+# Revisar
 #: pcbnew/onleftclick.cpp:345
 msgid "Texts not allowed on Edge Cut layer"
-msgstr ""
+msgstr "Textos não permitidos em camadas de corte de bordas"
 
 #: pcbnew/onleftclick.cpp:397
 msgid "Dimension not allowed on Copper or Edge Cut layers"
-msgstr ""
+msgstr "Dimensão não permitida em camadas de cobre ou corte de borda"
 
 #: pcbnew/onleftclick.cpp:450
 msgid "Via Tool not available in Legacy Toolset"
-msgstr ""
+msgstr "Ferramenta de Via não disponível no conjunto de ferramentas legado"
 
 #: pcbnew/onleftclick.cpp:455
 msgid "Measurement Tool not available in Legacy Toolset"
-msgstr ""
+msgstr "Ferramenta de Medição não disponível no conjunto de ferramentas legado"
 
 #: pcbnew/onrightclick.cpp:194
 msgid "Delete All Drawings on Layer"
-msgstr ""
+msgstr "Excluir Todos os Desenhos da Camada"
 
 #: pcbnew/onrightclick.cpp:201
 msgid "Delete Zone Filling"
@@ -25768,12 +25775,12 @@ msgstr "Selecionar e Mover Footprint…"
 #: pcbnew/onrightclick.cpp:368 pcbnew/onrightclick.cpp:381
 #: pcbnew/onrightclick.cpp:418 pcbnew/onrightclick.cpp:512
 msgid "Select Working Layer..."
-msgstr ""
+msgstr "Selecionar Camada de Trabalho..."
 
 #: pcbnew/onrightclick.cpp:358 pcbnew/onrightclick.cpp:410
 #: pcbnew/onrightclick.cpp:459
 msgid "Begin Track"
-msgstr ""
+msgstr "Iniciar Trilha"
 
 #: pcbnew/onrightclick.cpp:364 pcbnew/onrightclick.cpp:414
 #: pcbnew/onrightclick.cpp:583
@@ -25782,27 +25789,29 @@ msgstr "Selecionar Largura de Trilha"
 
 #: pcbnew/onrightclick.cpp:370
 msgid "Select Layer Pair for Vias..."
-msgstr ""
+msgstr "Selecionar Par de Camadas para Vias..."
 
 #: pcbnew/onrightclick.cpp:389
 msgid "Footprint Documentation"
 msgstr "Documentação de footprint"
 
+# Revisar
 #: pcbnew/onrightclick.cpp:398
 msgid "Global Spread and Place"
-msgstr ""
+msgstr "Espalhamento e Disposição Globais"
 
 #: pcbnew/onrightclick.cpp:400
 msgid "Spread out All Footprints"
-msgstr ""
+msgstr "Espalhar Todos os Footprints"
 
+# Revisar
 #: pcbnew/onrightclick.cpp:402
 msgid "Spread out Footprints not Already on Board"
-msgstr ""
+msgstr "Espalhar Footprints que não Estão na Placa"
 
 #: pcbnew/onrightclick.cpp:404
 msgid "Unlock All Footprints"
-msgstr ""
+msgstr "Desbloquear Todos os Footprints"
 
 #: pcbnew/onrightclick.cpp:406
 msgid "Lock All Footprints"
@@ -25828,7 +25837,7 @@ msgstr "Arrastar Segmento"
 
 #: pcbnew/onrightclick.cpp:501
 msgid "Create Track Array..."
-msgstr ""
+msgstr "Criar Trilhas Encadeadas..."
 
 #: pcbnew/onrightclick.cpp:507 pcbnew/router/router_tool.cpp:122
 msgid "Break Track"
@@ -25845,19 +25854,19 @@ msgstr "Encerrar Trilha"
 
 #: pcbnew/onrightclick.cpp:528 pcbnew/router/router_tool.cpp:150
 msgid "Place Through Via"
-msgstr ""
+msgstr "Colocar Via Passante"
 
 #: pcbnew/onrightclick.cpp:531 pcbnew/router/router_tool.cpp:171
 msgid "Select Layer and Place Through Via..."
-msgstr ""
+msgstr "Selecionar Camada e Colocar Via Passante..."
 
 #: pcbnew/onrightclick.cpp:538 pcbnew/router/router_tool.cpp:157
 msgid "Place Blind/Buried Via"
-msgstr ""
+msgstr "Colocar Via Cega/Enterrada"
 
 #: pcbnew/onrightclick.cpp:542 pcbnew/router/router_tool.cpp:179
 msgid "Select Layer and Place Blind/Buried Via..."
-msgstr ""
+msgstr "Selecionar Camada e Colocar Via Cega/Enterrada..."
 
 #: pcbnew/onrightclick.cpp:556
 msgid "Place Micro Via"
@@ -25933,7 +25942,7 @@ msgstr "Inserir Zona"
 
 #: pcbnew/onrightclick.cpp:662
 msgid "Keepout Area"
-msgstr ""
+msgstr "Área de Afastamento"
 
 #: pcbnew/onrightclick.cpp:675 pcbnew/tools/point_editor.cpp:54
 msgid "Create Corner"
@@ -25989,7 +25998,7 @@ msgstr "Editar Parâmetros…"
 
 #: pcbnew/onrightclick.cpp:800 pcbnew/tools/edit_tool.cpp:157
 msgid "Update Footprint..."
-msgstr ""
+msgstr "Atualizar Footprint..."
 
 #: pcbnew/onrightclick.cpp:803 pcbnew/tools/edit_tool.cpp:162
 msgid "Change Footprint..."
@@ -25997,11 +26006,11 @@ msgstr "Alterar Footprint…"
 
 #: pcbnew/onrightclick.cpp:810
 msgid "Lock Footprint"
-msgstr ""
+msgstr "Bloquear Footprint"
 
 #: pcbnew/onrightclick.cpp:817
 msgid "Unlock Footprint"
-msgstr ""
+msgstr "Desbloquear Footprint"
 
 #: pcbnew/onrightclick.cpp:861 pcbnew/onrightclick.cpp:968
 msgid "Reset Size"
@@ -26009,7 +26018,7 @@ msgstr "Tamanhos Responsivos"
 
 #: pcbnew/onrightclick.cpp:904
 msgid "Drag Pad"
-msgstr ""
+msgstr "Arrastar Ilha"
 
 #: pcbnew/onrightclick.cpp:921
 msgid ""
@@ -26056,7 +26065,7 @@ msgstr "Via %s"
 #: pcbnew/onrightclick.cpp:1042
 #, c-format
 msgid "Via %s, drill %s"
-msgstr ""
+msgstr "Via %s, furo %s"
 
 #: pcbnew/pad_edition_functions.cpp:171
 #, c-format
@@ -26077,7 +26086,7 @@ msgstr "Exibir ilhas em modo preenchido"
 
 #: pcbnew/pcb_base_frame.cpp:1023
 msgid "Zoom "
-msgstr ""
+msgstr "Zoom "
 
 #: pcbnew/pcb_edit_frame.cpp:403
 msgid "Layers Manager"
@@ -26086,7 +26095,7 @@ msgstr "Gerenciador de Camadas"
 #: pcbnew/pcb_edit_frame.cpp:709
 #, c-format
 msgid "The auto save file \"%s\" could not be removed!"
-msgstr ""
+msgstr "O arquivo de salvamento automático \"%s\" não pôde ser removido!"
 
 #: pcbnew/pcb_edit_frame.cpp:1112
 msgid " [new file]"
@@ -26094,7 +26103,7 @@ msgstr " [arquivo novo]"
 
 #: pcbnew/pcb_edit_frame.cpp:1116
 msgid "Pcbnew"
-msgstr ""
+msgstr "Pcbnew"
 
 #: pcbnew/pcb_edit_frame.cpp:1227
 msgid ""
@@ -26102,14 +26111,17 @@ msgid ""
 "to create or update PCBs from schematics, you need to launch the KiCad "
 "project manager and create a PCB project."
 msgstr ""
+"Não foi possível atualizar a PCI, porque o Pcbnew foi aberto em modo "
+"autônomo. Para criar ou atualizar PCIs a partir de esquemas, você precisa "
+"iniciar o gerente de projeto KiCad e criar um projeto de PCI."
 
 #: pcbnew/pcb_layer_box_selector.cpp:97
 msgid "(not activated)"
-msgstr ""
+msgstr "(não ativado)"
 
 #: pcbnew/pcb_layer_widget.cpp:68
 msgid "Footprints Front"
-msgstr ""
+msgstr "Frente do Footprint"
 
 #: pcbnew/pcb_layer_widget.cpp:68
 msgid "Show footprints that are on board's front"
@@ -26117,7 +26129,7 @@ msgstr "Exibir footprints que estão na camada superior das placas"
 
 #: pcbnew/pcb_layer_widget.cpp:69
 msgid "Footprints Back"
-msgstr ""
+msgstr "Costas do Footprint"
 
 #: pcbnew/pcb_layer_widget.cpp:69
 msgid "Show footprints that are on board's back"
@@ -26125,7 +26137,7 @@ msgstr "Mostar footprints que estão na camada inferior das placas"
 
 #: pcbnew/pcb_layer_widget.cpp:70
 msgid "Show footprint values"
-msgstr ""
+msgstr "Exibir valores do footprint"
 
 #: pcbnew/pcb_layer_widget.cpp:71
 msgid "References"
@@ -26133,19 +26145,19 @@ msgstr "Referências"
 
 #: pcbnew/pcb_layer_widget.cpp:71
 msgid "Show footprint references"
-msgstr ""
+msgstr "Exibir referências do footprint"
 
 #: pcbnew/pcb_layer_widget.cpp:72
 msgid "Footprint Text Front"
-msgstr ""
+msgstr "Frente do Texto do Footprint"
 
 #: pcbnew/pcb_layer_widget.cpp:72
 msgid "Show footprint text on board's front"
-msgstr ""
+msgstr "Mostrar o texto do footprint na frente da placa"
 
 #: pcbnew/pcb_layer_widget.cpp:73
 msgid "Footprint Text Back"
-msgstr ""
+msgstr "Costas do Texto do Footprint"
 
 #: pcbnew/pcb_layer_widget.cpp:73
 msgid "Show footprint text on board's back"
@@ -26177,15 +26189,15 @@ msgstr "Exibir ilhas do footprint na camada inferior das placas"
 
 #: pcbnew/pcb_layer_widget.cpp:77
 msgid "Through Hole Pads"
-msgstr ""
+msgstr "Ilhas de Furo Passante"
 
 #: pcbnew/pcb_layer_widget.cpp:77
 msgid "Show through hole pads in specific color"
-msgstr ""
+msgstr "Exibir ilhas de furo passante na cor especificada"
 
 #: pcbnew/pcb_layer_widget.cpp:79
 msgid "Show tracks"
-msgstr ""
+msgstr "Exibir trilhas"
 
 #: pcbnew/pcb_layer_widget.cpp:80
 msgid "Show through vias"
@@ -26205,11 +26217,11 @@ msgstr "Mostar micro vias"
 
 #: pcbnew/pcb_layer_widget.cpp:83
 msgid "Non Plated Holes"
-msgstr ""
+msgstr "Furos Não Revestidos"
 
 #: pcbnew/pcb_layer_widget.cpp:83
 msgid "Show non plated holes in specific color"
-msgstr ""
+msgstr "Exibir furos não revestidos na cor especificada"
 
 #: pcbnew/pcb_layer_widget.cpp:85
 msgid "Ratsnest"
@@ -26249,7 +26261,7 @@ msgstr "Cursor"
 
 #: pcbnew/pcb_layer_widget.cpp:89
 msgid "PCB Cursor"
-msgstr ""
+msgstr "Cursor da PCI"
 
 #: pcbnew/pcb_layer_widget.cpp:90
 msgid "Aux items"
@@ -26257,7 +26269,7 @@ msgstr "Itens auxiliares"
 
 #: pcbnew/pcb_layer_widget.cpp:90
 msgid "Auxiliary items (rulers, assistants, axes, etc.)"
-msgstr ""
+msgstr "Itens auxiliares (réguas, assistentes, eixos, etc.)"
 
 #: pcbnew/pcb_layer_widget.cpp:92
 msgid "Background"
@@ -26269,35 +26281,35 @@ msgstr "Fundo da PCI"
 
 #: pcbnew/pcb_layer_widget.cpp:172
 msgid "Show All Copper Layers"
-msgstr ""
+msgstr "Exibir Todas as Camadas de Cobre"
 
 #: pcbnew/pcb_layer_widget.cpp:175
 msgid "Hide All Copper Layers But Active"
-msgstr ""
+msgstr "Ocultar Todas as Camadas de Cobre, Menos a Ativa"
 
 #: pcbnew/pcb_layer_widget.cpp:178
 msgid "Always Hide All Copper Layers But Active"
-msgstr ""
+msgstr "Sempre Ocultar Todas as Camadas de Cobre, Menos a Ativa"
 
 #: pcbnew/pcb_layer_widget.cpp:181
 msgid "Hide All Copper Layers"
-msgstr ""
+msgstr "Ocultar Todas as Camadas de Cobre"
 
 #: pcbnew/pcb_layer_widget.cpp:187
 msgid "Show All Non Copper Layers"
-msgstr ""
+msgstr "Exibir Todas as Camadas Não de Cobre"
 
 #: pcbnew/pcb_layer_widget.cpp:190
 msgid "Hide All Non Copper Layers"
-msgstr ""
+msgstr "Ocultar Todas as Camadas Não de Cobre"
 
 #: pcbnew/pcb_layer_widget.cpp:202
 msgid "Show All Front Layers"
-msgstr ""
+msgstr "Exibir Todas as Camadas da Frente"
 
 #: pcbnew/pcb_layer_widget.cpp:205
 msgid "Show All Back Layers"
-msgstr ""
+msgstr "Exibir Todas as Camadas de Trás"
 
 #: pcbnew/pcb_layer_widget.cpp:505
 msgid "Front copper layer"
@@ -26309,7 +26321,7 @@ msgstr "Camada de cobre inferior"
 
 #: pcbnew/pcb_layer_widget.cpp:513
 msgid "Inner copper layer"
-msgstr ""
+msgstr "Camada de cobre interna"
 
 #: pcbnew/pcb_layer_widget.cpp:537
 msgid "Adhesive on board's front"
@@ -26353,31 +26365,32 @@ msgstr "Comentários explicativos"
 
 #: pcbnew/pcb_layer_widget.cpp:547 pcbnew/pcb_layer_widget.cpp:548
 msgid "User defined meaning"
-msgstr ""
+msgstr "Significado definido pelo usuário"
 
 #: pcbnew/pcb_layer_widget.cpp:549
 msgid "Board's perimeter definition"
-msgstr ""
+msgstr "Definição do perímetro da placa"
 
+# Revisar
 #: pcbnew/pcb_layer_widget.cpp:550
 msgid "Board's edge setback outline"
-msgstr ""
+msgstr "Contorno do recuo de borda da placa"
 
 #: pcbnew/pcb_layer_widget.cpp:551
 msgid "Footprint courtyards on board's front"
-msgstr ""
+msgstr "Pátios de footprints na frente da placa"
 
 #: pcbnew/pcb_layer_widget.cpp:552
 msgid "Footprint courtyards on board's back"
-msgstr ""
+msgstr "Pátios de footprints a trás da placa"
 
 #: pcbnew/pcb_layer_widget.cpp:553
 msgid "Footprint assembly on board's front"
-msgstr ""
+msgstr "Montagem de footprints na frente da placa"
 
 #: pcbnew/pcb_layer_widget.cpp:554
 msgid "Footprint assembly on board's back"
-msgstr ""
+msgstr "Montagem de footprints a trás da placa"
 
 #: pcbnew/pcb_parser.cpp:135
 #, c-format
@@ -26387,6 +26400,10 @@ msgid ""
 "line: %d\n"
 "offset: %d"
 msgstr ""
+"Número de ponto flutuante inválido em\n"
+"arquivo: \"%s\"\n"
+"linha: %d\n"
+"posição: %d"
 
 #: pcbnew/pcb_parser.cpp:144
 #, c-format
@@ -26396,31 +26413,38 @@ msgid ""
 "line: %d\n"
 "offset: %d"
 msgstr ""
+"Número de ponto flutuante ausente em\n"
+"arquivo: \"%s\"\n"
+"linha: %d\n"
+"posição: %d"
 
 #: pcbnew/pcb_parser.cpp:197
 #, c-format
 msgid "Cannot interpret date code %d"
-msgstr ""
+msgstr "Não foi possível interpretar o código de data %d"
 
 #: pcbnew/pcb_parser.cpp:473 pcbnew/pcb_parser.cpp:578
 #, c-format
 msgid "Unknown token \"%s\""
-msgstr ""
+msgstr "Token desconhecido \"%s\""
 
 #: pcbnew/pcb_parser.cpp:684
 #, c-format
 msgid "Page type \"%s\" is not valid "
-msgstr ""
+msgstr "Tipo de página \"%s\" não é válido "
 
+# Revisar
 #: pcbnew/pcb_parser.cpp:916
 #, c-format
 msgid "Layer \"%s\" in file \"%s\" at line %d, is not in fixed layer hash"
 msgstr ""
+"A camada \"%s\" no arquivo \"%s\" na linha %d, não está no hash de camada "
+"fixado"
 
 #: pcbnew/pcb_parser.cpp:949
 #, c-format
 msgid "%d is not a valid layer count"
-msgstr ""
+msgstr "%d não é uma contagem de camada válida"
 
 #: pcbnew/pcb_parser.cpp:980
 #, c-format
@@ -26430,11 +26454,18 @@ msgid ""
 "at line %d, position %d\n"
 "was not defined in the layers section"
 msgstr ""
+"A camada \"%s\" no arquivo\n"
+"\"%s\"\n"
+"na linha %d, posição %d\n"
+"não foi definida na seção de camadas"
 
+# Revisar
 #: pcbnew/pcb_parser.cpp:1366
 #, c-format
 msgid "Duplicate NETCLASS name \"%s\" in file \"%s\" at line %d, offset %d"
 msgstr ""
+"Nome de Classe de Rede duplicado \"%s\" no arquivo \"%s\" na linha %d, "
+"posição %d"
 
 #: pcbnew/pcb_parser.cpp:1802
 #, c-format
@@ -26444,11 +26475,15 @@ msgid ""
 "line: %d\n"
 "offset: %d"
 msgstr ""
+"ID de footprint inválido em\n"
+"arquivo: \"%s\"\n"
+"linha: %d\n"
+"posição: %d"
 
 #: pcbnew/pcb_parser.cpp:2053
 #, c-format
 msgid "Cannot handle footprint text type %s"
-msgstr ""
+msgstr "Não foi possível lidar com o tipo de texto de footprint %s"
 
 #: pcbnew/pcb_parser.cpp:2478 pcbnew/pcb_parser.cpp:2484
 #: pcbnew/pcb_parser.cpp:2713 pcbnew/pcb_parser.cpp:2795
@@ -26460,6 +26495,10 @@ msgid ""
 "line: %d\n"
 "offset: %d"
 msgstr ""
+"ID de rede inválido em\n"
+"arquivo: \"%s\"\n"
+"linha: %d\n"
+"posição: %d"
 
 #: pcbnew/pcb_parser.cpp:3185
 #, c-format
@@ -26468,6 +26507,9 @@ msgid ""
 "\"%s\"\n"
 "you should verify and edit it (run DRC test)."
 msgstr ""
+"Há uma zona que pertence a uma rede inexistente\n"
+"\"%s\"\n"
+"você deve verificar e editá-la (executar teste RDC)."
 
 #: pcbnew/pcbnew.cpp:341
 msgid ""
@@ -26480,34 +26522,47 @@ msgid ""
 "See the \"Footprint Library Table\" section of the CvPcb or Pcbnew "
 "documentation for more information."
 msgstr ""
+"Você executou o Pcbnew pela primeira vez usando o novo método de tabela de "
+"bibliotecas de footprint para encontrar footprints.\n"
+"O Pcbnew copiou a tabela padrão ou criou uma tabela vazia na pasta de "
+"configurações do KiCad.\n"
+"Você deve primeiro configurar a tabela de biblioteca para incluir todas as "
+"bibliotecas de footprint que deseja utilizar.\n"
+"Consulte a seção \"Tabela de Bibliotecas de Footprint\" na documentação do "
+"CvPcb ou Pcbnew para obter mais informações."
 
 #: pcbnew/pcbnew.cpp:358
 msgid ""
 "An error occurred attempting to load the global footprint library table:\n"
 "Please edit this global footprint library table in Preferences menu"
 msgstr ""
+"Ocorreu um erro ao carregar a tabela de bibliotecas de símbolo global.\n"
+"Por favor edite esta tabela global de bibliotecas de símbolo no menu "
+"Preferências"
 
 #: pcbnew/plot_board_layers.cpp:122 pcbnew/plot_board_layers.cpp:317
 #, c-format
 msgid "Your BOARD has a bad layer number for footprint %s"
-msgstr ""
+msgstr "Sua PLACA tem um número de camada ruim para o footprint %s"
 
 #: pcbnew/plugin.cpp:136
 msgid "Enable <b>debug</b> logging for Footprint*() functions in this PLUGIN."
 msgstr ""
+"Habilitar o registro de <b>depuração</b> para funções Footprint*() neste "
+"PLUGIN."
 
 #: pcbnew/plugin.cpp:140
 msgid "Regular expression <b>footprint name</b> filter."
-msgstr ""
+msgstr "Filtro com expressão regular para <b>nome de footprint</b>."
 
 #: pcbnew/plugin.cpp:161
 msgid ""
 "Enter the python module which implements the PLUGIN::Footprint*() functions."
-msgstr ""
+msgstr "Insira o módulo python que implemente as funções PLUGIN::Footprint*()."
 
 #: pcbnew/printout_controler.cpp:103
 msgid "Multiple Layers"
-msgstr ""
+msgstr "Múltiplas Camadas"
 
 #: pcbnew/router/length_tuner_tool.cpp:51 pcbnew/router/router_tool.cpp:140
 msgid "New Track"
@@ -26515,35 +26570,36 @@ msgstr "Nova Faixa"
 
 #: pcbnew/router/length_tuner_tool.cpp:51 pcbnew/router/router_tool.cpp:140
 msgid "Starts laying a new track."
-msgstr ""
+msgstr "Começa a colocar uma nova trilha."
 
 #: pcbnew/router/length_tuner_tool.cpp:54
 msgid "Stops laying the current meander."
-msgstr ""
+msgstr "Parar de depositar a sinuosidade atual."
 
 #: pcbnew/router/length_tuner_tool.cpp:58
 msgid "Length Tuning Settings..."
-msgstr ""
+msgstr "Configurações de Ajuste de Comprimento..."
 
 #: pcbnew/router/length_tuner_tool.cpp:58
 msgid "Sets the length tuning parameters for currently routed item."
 msgstr ""
+"Define os parâmetros de ajuste de comprimento para o item atualmente roteado."
 
 #: pcbnew/router/length_tuner_tool.cpp:63
 msgid "Increase Spacing"
-msgstr ""
+msgstr "Aumentar Espaçamento"
 
 #: pcbnew/router/length_tuner_tool.cpp:68
 msgid "Decrease Spacing"
-msgstr ""
+msgstr "Diminuir Espaçamento"
 
 #: pcbnew/router/length_tuner_tool.cpp:73
 msgid "Increase Amplitude"
-msgstr ""
+msgstr "Aumentar Amplitude"
 
 #: pcbnew/router/length_tuner_tool.cpp:78
 msgid "Decrease Amplitude"
-msgstr ""
+msgstr "Diminuir Amplitude"
 
 #: pcbnew/router/length_tuner_tool.cpp:93
 msgid "Length Tuner"
@@ -26551,49 +26607,58 @@ msgstr "Afinador de Comprimento"
 
 #: pcbnew/router/length_tuner_tool.cpp:235
 msgid "Tune Trace Length"
-msgstr ""
+msgstr "Ajustar Comprimento do Traço"
 
 #: pcbnew/router/length_tuner_tool.cpp:242
 msgid "Tune Diff Pair Length"
-msgstr ""
+msgstr "Ajustar Comprimento do Par Diferencial"
 
 #: pcbnew/router/length_tuner_tool.cpp:249
 msgid "Tune Diff Pair Skew"
-msgstr ""
+msgstr "Ajustar Inclinação do Par Diferencial"
 
 #: pcbnew/router/pns_diff_pair_placer.cpp:450
 msgid ""
 "Unable to find complementary differential pair nets. Make sure the names of "
 "the nets belonging to a differential pair end with either _N/_P or +/-."
 msgstr ""
+"Não foi possível encontrar redes de pares diferenciais complementares. "
+"Certifique-se de que os nomes das redes pertencentes a um par diferencial "
+"terminem com _N/_P ou +/-."
 
 #: pcbnew/router/pns_diff_pair_placer.cpp:471
 msgid ""
 "Can't find a suitable starting point.  If starting from an existing "
 "differential pair make sure you are at the end. "
 msgstr ""
+"Não foi possível encontrar um ponto de partida adequado.  Se está iniciando "
+"de um par diferencial existente certifique-se de estar no final. "
 
 #: pcbnew/router/pns_diff_pair_placer.cpp:524
 #, c-format
 msgid "Can't find a suitable starting point for coupled net \"%s\"."
 msgstr ""
+"Não foi possível encontrar um ponto de partida adequado para a rede acoplada "
+"\"%s\"."
 
 #: pcbnew/router/pns_diff_pair_placer.cpp:554
 msgid "Can't start a differential pair  in the middle of nowhere."
-msgstr ""
+msgstr "Não se pode começar um par diferencial no meio do nada."
 
 #: pcbnew/router/pns_diff_pair_placer.cpp:581
 msgid "Current track/via gap setting violates design rules for this net."
 msgstr ""
+"A configuração de espaçamento da trilha/via atual, viola as regras de design "
+"desta rede."
 
 #: pcbnew/router/pns_diff_pair_placer.cpp:588
 msgid "Current track width setting violates design rules."
-msgstr ""
+msgstr "Configuração de largura da trilha atual viola as regras de desenho."
 
 #: pcbnew/router/pns_dp_meander_placer.cpp:75
 #: pcbnew/router/pns_meander_placer.cpp:66
 msgid "Please select a track whose length you want to tune."
-msgstr ""
+msgstr "Por favor, selecione uma trilha cujo comprimento você deseja ajustar."
 
 #: pcbnew/router/pns_dp_meander_placer.cpp:92
 msgid ""
@@ -27184,28 +27249,32 @@ msgstr ""
 msgid "Set the origin point for the grid"
 msgstr ""
 
+# Revisar
 #: pcbnew/tool_pcb_editor.cpp:534 pcbnew/tools/microwave_tool.cpp:89
 msgid "Create line of specified length for microwave applications"
-msgstr "Criar fios de comprimento específico (para aplicações de micro-ondas)"
+msgstr "Criar fios de comprimento específico para aplicações de micro-ondas"
 
+# Revisar
 #: pcbnew/tool_pcb_editor.cpp:539 pcbnew/tools/microwave_tool.cpp:65
 msgid "Create gap of specified length for microwave applications"
-msgstr "Criar fenda de comprimento específico (para aplicações de micro-ondas)"
+msgstr "Criar fenda de comprimento específico para aplicações de micro-ondas"
 
+# Revisar
 #: pcbnew/tool_pcb_editor.cpp:546 pcbnew/tools/microwave_tool.cpp:71
 msgid "Create stub of specified length for microwave applications"
 msgstr ""
-"Criar costura de comprimento específico para (aplicações em micro-ondas)"
+"Criar segmento especificando seu comprimento, para aplicações em micro-ondas"
 
+# Revisar
 #: pcbnew/tool_pcb_editor.cpp:551 pcbnew/tools/microwave_tool.cpp:77
 msgid "Create stub (arc) of specified length for microwave applications"
 msgstr ""
-"Criar costura (arco) de comprimento específico (para aplicações em micro-"
-"ondas)"
+"Criar segmento (arco) especificando seu comprimento, para aplicações em micro-"
+"ondas"
 
 #: pcbnew/tool_pcb_editor.cpp:556
 msgid "Create a polynomial shape for microwave applications"
-msgstr "Criar forma polinômica (para aplicações de micro-ondas)"
+msgstr "Criar forma polinômica para aplicações em micro-ondas"
 
 #: pcbnew/tool_pcb_editor.cpp:609
 msgid ""
@@ -27618,7 +27687,7 @@ msgstr ""
 
 #: pcbnew/tools/microwave_tool.cpp:160
 msgid "Add Stub (Arc)"
-msgstr "Adicionar Costura (Arco)"
+msgstr "Adicionar Segmento (Arco)"
 
 #: pcbnew/tools/microwave_tool.cpp:229
 msgid "Place microwave feature"
