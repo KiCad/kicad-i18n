@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-18 21:11+0200\n"
-"PO-Revision-Date: 2018-09-13 18:00-0300\n"
+"PO-Revision-Date: 2018-09-14 16:28-0300\n"
 "Last-Translator: Francisco R. Pereira <frosch_bin@yahoo.com.br>\n"
 "Language-Team: kicad team\n"
 "Language: pt_BR\n"
@@ -24193,7 +24193,6 @@ msgid "Decrement High Contrast"
 msgstr "Decrementar Alto Contraste"
 
 #: pcbnew/hotkeys.cpp:270
-#, fuzzy
 msgid "Select Trivial Connection"
 msgstr "Selecionar Conexão Trivial"
 
@@ -26666,21 +26665,24 @@ msgid ""
 "sure the names of the nets belonging to a differential pair end with either "
 "_N/_P or +/-."
 msgstr ""
+"Não foi possível encontrar uma rede de par diferencial complementar para o "
+"ajuste de comprimento. Certifique-se que os nomes das redes pertencentes a um "
+"par diferencial terminem com _N/_P ou +/-."
 
 #: pcbnew/router/pns_dp_meander_placer.cpp:368
 #: pcbnew/router/pns_meander_placer.cpp:243
 msgid "Too long: "
-msgstr ""
+msgstr "Muito comprido: "
 
 #: pcbnew/router/pns_dp_meander_placer.cpp:371
 #: pcbnew/router/pns_meander_placer.cpp:246
 msgid "Too short: "
-msgstr ""
+msgstr "Muito curto: "
 
 #: pcbnew/router/pns_dp_meander_placer.cpp:374
 #: pcbnew/router/pns_meander_placer.cpp:249
 msgid "Tuned: "
-msgstr ""
+msgstr "Sintonizado: "
 
 #: pcbnew/router/pns_dp_meander_placer.cpp:377
 #: pcbnew/router/pns_meander_placer.cpp:252
@@ -26691,7 +26693,7 @@ msgstr "?"
 #: pcbnew/router/pns_kicad_iface.cpp:797
 #, c-format
 msgid "Malformed keep-out zone at (%d, %d)"
-msgstr ""
+msgstr "Zona de afastamento malformada em (%d, %d)"
 
 #: pcbnew/router/pns_kicad_iface.cpp:800
 #, c-format
@@ -26700,14 +26702,17 @@ msgid ""
 "This zone cannot be handled by the track layout tool.\n"
 "Please verify it is not a self-intersecting polygon."
 msgstr ""
+"%s\n"
+"Essa zona não pôde ser tratada pela ferramenta de disposição de trilhas.\n"
+"Por favor, verifique se o polígono não se auto-intersecta."
 
 #: pcbnew/router/pns_kicad_iface.cpp:1108
 msgid "Added a track"
-msgstr ""
+msgstr "Adicionada uma trilha"
 
 #: pcbnew/router/pns_meander_skew_placer.cpp:53
 msgid "Please select a differential pair trace you want to tune."
-msgstr ""
+msgstr "Selecione o traço de par diferencial que deseja configurar."
 
 #: pcbnew/router/pns_meander_skew_placer.cpp:72
 msgid ""
@@ -26715,136 +26720,150 @@ msgid ""
 "the names of the nets belonging to a differential pair end with either _N/_P "
 "or +/-."
 msgstr ""
+"Não foi possível encontrar uma rede de par diferencial complementar para "
+"ajuste de inclinação. Certifique-se que os nomes das redes pertencentes a um "
+"par diferencial terminem com _N/_P ou +/-."
 
+# Revisar
 #: pcbnew/router/pns_meander_skew_placer.cpp:154
 msgid "Too long: skew "
-msgstr ""
+msgstr "Muito comprido: inclinação "
 
 #: pcbnew/router/pns_meander_skew_placer.cpp:157
 msgid "Too short: skew "
-msgstr ""
+msgstr "Muito curto: inclinação "
 
 #: pcbnew/router/pns_meander_skew_placer.cpp:160
 msgid "Tuned: skew "
-msgstr ""
+msgstr "Ajustado: inclinação "
 
 #: pcbnew/router/pns_router.cpp:175
 msgid "Cannot start routing inside a keepout area or board outline."
 msgstr ""
+"Não é possível iniciar o roteamento dentro de uma área de afastamento ou "
+"contorno de placa."
 
 #: pcbnew/router/router_tool.cpp:84
 msgid "Interactive Router (Single Tracks)"
-msgstr ""
+msgstr "Roteador interativo (Trilhas Únicas)"
 
 #: pcbnew/router/router_tool.cpp:85
 msgid "Run push & shove router (single tracks)"
-msgstr ""
+msgstr "Executar roteamento de empurrar & arrastar (trilhas únicas)"
 
 #: pcbnew/router/router_tool.cpp:89
 msgid "Interactive Router (Differential Pairs)"
-msgstr ""
+msgstr "Roteador Interativo (Pares Diferenciais)"
 
 #: pcbnew/router/router_tool.cpp:90
 msgid "Run push & shove router (differential pairs)"
-msgstr ""
+msgstr "Executar roteamento de empurrar & arrastar (pares diferenciais)"
 
 #: pcbnew/router/router_tool.cpp:94
 msgid "Interactive Router Settings..."
-msgstr ""
+msgstr "Configurações do Roteador Interativo..."
 
 #: pcbnew/router/router_tool.cpp:95
 msgid "Open Interactive Router settings"
-msgstr ""
+msgstr "Abrir Configurações do Roteador Interativo"
 
 #: pcbnew/router/router_tool.cpp:99
 msgid "Differential Pair Dimension Settings..."
-msgstr ""
+msgstr "Configurações de Dimensão do Par Diferencial..."
 
 #: pcbnew/router/router_tool.cpp:100
 msgid "Open Differential Pair Dimension settings"
-msgstr ""
+msgstr "Abrir Configurações de Dimensão do Par Diferencial"
 
 #: pcbnew/router/router_tool.cpp:105
 msgid "Tune length of a single track"
-msgstr ""
+msgstr "Ajustar o comprimento de uma única trilha"
 
 #: pcbnew/router/router_tool.cpp:109
 msgid "Tune length of a differential pair"
-msgstr ""
+msgstr "Ajustar o comprimento de um par diferencial"
 
 #: pcbnew/router/router_tool.cpp:113
 msgid "Tune skew of a differential pair"
-msgstr ""
+msgstr "Ajustar a inclinação de um par diferencial"
 
 #: pcbnew/router/router_tool.cpp:117
 msgid "Drag Track/Via"
-msgstr ""
+msgstr "Arrastar Trilha/Via"
 
 #: pcbnew/router/router_tool.cpp:117
 msgid "Drags tracks and vias without breaking connections"
-msgstr ""
+msgstr "Arrasta trilhas e vias sem quebrar conexões"
 
 #: pcbnew/router/router_tool.cpp:123
 msgid ""
 "Splits the track segment into two segments connected at the cursor position."
 msgstr ""
+"Divide o segmento de trilha em dois segmentos conectados na posição do cursor."
 
 #: pcbnew/router/router_tool.cpp:128
 msgid "Drag (45 degree mode)"
-msgstr ""
+msgstr "Arrastar (modo de 45 graus)"
 
 #: pcbnew/router/router_tool.cpp:129
 msgid "Drags the track segment while keeping connected tracks at 45 degrees."
-msgstr ""
+msgstr "Arrasta o segmento de trilha, mantendo trilhas conectadas em 45 graus."
 
 #: pcbnew/router/router_tool.cpp:134
 msgid "Drag (free angle)"
-msgstr ""
+msgstr "Arrastar (ângulo livre)"
 
+# Revisar
 #: pcbnew/router/router_tool.cpp:135
 msgid ""
 "Drags the nearest joint in the track without restricting the track angle."
-msgstr ""
+msgstr "Arrasta a junção mais próxima na trilha sem restringir seu ângulo."
 
 #: pcbnew/router/router_tool.cpp:143
 msgid "Stops laying the current track."
-msgstr ""
+msgstr "Parar de depositar a trilha atual."
 
 #: pcbnew/router/router_tool.cpp:146
 msgid "Auto-end Track"
-msgstr ""
+msgstr "Trilha de Final Automático"
 
 #: pcbnew/router/router_tool.cpp:146
 msgid "Automagically finishes currently routed track."
-msgstr ""
+msgstr "Termina automagicamente a trilha atualmente roteada."
 
 #: pcbnew/router/router_tool.cpp:151
 msgid "Adds a through-hole via at the end of currently routed track."
 msgstr ""
+"Adiciona uma via de furo passante ao final da trilha atualmente roteada."
 
 #: pcbnew/router/router_tool.cpp:158
 msgid "Adds a blind or buried via at the end of currently routed track."
 msgstr ""
+"Adiciona uma via cega ou enterrada ao final da trilha atualmente roteada."
 
 #: pcbnew/router/router_tool.cpp:164
 msgid "Place Microvia"
-msgstr ""
+msgstr "Inserir Microvia"
 
 #: pcbnew/router/router_tool.cpp:164
 msgid "Adds a microvia at the end of currently routed track."
-msgstr ""
+msgstr "Adiciona uma microvia ao final da trilha atualmente roteada."
 
 #: pcbnew/router/router_tool.cpp:172
 msgid ""
 "Select a layer, then add a through-hole via at the end of currently routed "
 "track."
 msgstr ""
+"Selecione uma camada e, em seguida, adicione uma via de furo passante ao "
+"final da faixa atualmente roteada."
 
 #: pcbnew/router/router_tool.cpp:180
 msgid ""
 "Select a layer, then add a blind or buried via at the end of currently routed "
 "track."
 msgstr ""
+"Selecione uma camada e, em seguida, adicione uma via cega ou enterrada ao "
+"final da faixa atualmente roteada."
 
 #: pcbnew/router/router_tool.cpp:186
 msgid "Custom Track/Via Size..."
@@ -26853,14 +26872,15 @@ msgstr "Tamanho de Trilha/Via Customizado…"
 #: pcbnew/router/router_tool.cpp:187
 msgid "Shows a dialog for changing the track width and via size."
 msgstr ""
+"Mostra uma caixa de diálogo para alterar a largura da trilha e tamanho da via."
 
 #: pcbnew/router/router_tool.cpp:193
 msgid "Switches posture of the currently routed track."
-msgstr ""
+msgstr "Alterna a postura da trilha atualmente roteada."
 
 #: pcbnew/router/router_tool.cpp:208
 msgid "Select Track/Via Width"
-msgstr ""
+msgstr "Selecione a Largura da Trilha/Via"
 
 #: pcbnew/router/router_tool.cpp:218
 msgid "Custom Size"
@@ -26868,53 +26888,56 @@ msgstr "Tamanho Customizado"
 
 #: pcbnew/router/router_tool.cpp:221
 msgid "Use Starting Track Width"
-msgstr ""
+msgstr "Utilizar Largura da Trilha Inicial"
 
 #: pcbnew/router/router_tool.cpp:222
 msgid "Route using the width of the starting track."
-msgstr ""
+msgstr "Rotear utilizando a largura da trilha inicial."
 
 #: pcbnew/router/router_tool.cpp:224
 msgid "Use Net Class Values"
-msgstr ""
+msgstr "Utilizar Valores da Classe de Rede"
 
 #: pcbnew/router/router_tool.cpp:225
 msgid "Use track and via sizes from the net class"
-msgstr ""
+msgstr "Usar tamanhos de via e trilha a partir dos valores da classe de rede"
 
 #: pcbnew/router/router_tool.cpp:307
 msgid "Interactive Router"
-msgstr ""
+msgstr "Roteador Interativo"
 
 #: pcbnew/router/router_tool.cpp:527
 msgid "Blind/buried vias have to be enabled in the design settings."
 msgstr ""
+"Vias cegas/enterradas devem ser habilitadas nas configurações de desenho."
 
 #: pcbnew/router/router_tool.cpp:533
 msgid "Microvias have to be enabled in the design settings."
-msgstr ""
+msgstr "Microvias devem ser habilitadas nas configurações de desenho."
 
 #: pcbnew/router/router_tool.cpp:540
 msgid "Only through vias are allowed on 2 layer boards."
-msgstr ""
+msgstr "Apenas vias passantes são permitidas em placas de 2 camadas."
 
 #: pcbnew/router/router_tool.cpp:547
 msgid ""
 "Microvias can be placed only between the outer layers (F.Cu/B.Cu) and the "
 "ones directly adjacent to them."
 msgstr ""
+"Microvias podem ser colocadas apenas entre camadas exteriores (F.Cu/B.Cu) e "
+"as diretamente adjacentes a elas."
 
 #: pcbnew/router/router_tool.cpp:822
 msgid "Route Track"
-msgstr ""
+msgstr "Rotear Trilha"
 
 #: pcbnew/router/router_tool.cpp:829
 msgid "Router Differential Pair"
-msgstr ""
+msgstr "Rotear Par Diferencial"
 
 #: pcbnew/router/router_tool.cpp:929 pcbnew/router/router_tool.cpp:1078
 msgid "The item is locked. Do you want to continue?"
-msgstr ""
+msgstr "O item está bloqueado. Quer continuar?"
 
 #: pcbnew/sel_layer.cpp:303
 msgid "Warning: The Top Layer and Bottom Layer are same."
@@ -26926,17 +26949,18 @@ msgstr "Placa exportada OK."
 
 #: pcbnew/specctra_import_export/specctra_export.cpp:162
 msgid "Unable to export, please fix and try again"
-msgstr ""
+msgstr "Não foi possível exportar, favor corrigir e tentar novamente"
 
 #: pcbnew/specctra_import_export/specctra_export.cpp:934
 #, c-format
 msgid "Symbol with value of \"%s\" has empty reference id."
-msgstr ""
+msgstr "O símbolo com valor de \"%s\" tem ID de referência vazio."
 
+# Revisar
 #: pcbnew/specctra_import_export/specctra_export.cpp:942
 #, c-format
 msgid "Multiple symbols have identical reference IDs of \"%s\"."
-msgstr ""
+msgstr "Diversos símbolos têm IDs de referência idênticos a \"%s\"."
 
 #: pcbnew/specctra_import_export/specctra_import.cpp:78
 msgid "Merge Specctra Session file:"
@@ -26983,10 +27007,11 @@ msgstr "Está faltando a seção \"routes\" no arquivo de seção"
 msgid "Session file is missing the \"library_out\" section"
 msgstr "Está faltando a seção \"library_out\" no arquivo de seção"
 
+# Revisar
 #: pcbnew/specctra_import_export/specctra_import.cpp:407
 #, c-format
 msgid "Session file has 'reference' to non-existent symbol \"%s\""
-msgstr ""
+msgstr "O arquivo de sessão faz 'referência' ao símbolo inexistente \"%s\""
 
 #: pcbnew/specctra_import_export/specctra_import.cpp:546
 #, c-format
@@ -26995,7 +27020,7 @@ msgstr "Um fio_via referencia uma pilha-de-ilha inexistente \"%s\""
 
 #: pcbnew/swap_layers.cpp:90
 msgid "Move Layers:"
-msgstr ""
+msgstr "Mover Camadas:"
 
 #: pcbnew/swap_layers.cpp:238 pcbnew/swap_layers.cpp:245
 #: pcbnew/swap_layers.cpp:322
@@ -27012,44 +27037,47 @@ msgstr "&Cancelar"
 
 #: pcbnew/swig/pcbnew_action_plugins.cpp:76
 msgid "Exception on python action plugin code"
-msgstr ""
+msgstr "Exceção no código do plugin de ação python"
 
 #: pcbnew/swig/pcbnew_action_plugins.cpp:88
 #: pcbnew/swig/pcbnew_footprint_wizards.cpp:82
 #, c-format
 msgid "Method \"%s\" not found, or not callable"
-msgstr ""
+msgstr "Método \"%s\" não encontrado, ou não pôde ser chamado"
 
 #: pcbnew/swig/pcbnew_action_plugins.cpp:89
 #: pcbnew/swig/pcbnew_footprint_wizards.cpp:83
 msgid "Unknown Method"
-msgstr ""
+msgstr "Método Desconhecido"
 
+# Revisar
 #: pcbnew/swig/pcbnew_action_plugins.cpp:304
 #, c-format
 msgid ""
 "(PCB_EDIT_FRAME::OnActionPlugin) needs work: BOARD_ITEM type (%d) not handled"
 msgstr ""
+"(PCB_EDIT_FRAME::OnActionPlugin) precisa de trabalho: BOARD_ITEM tipo (%d) "
+"não tratado"
 
 #: pcbnew/swig/pcbnew_footprint_wizards.cpp:69
 msgid "Exception on python footprint wizard code"
-msgstr ""
+msgstr "Exceção no código do assistente de footprint python"
 
 #: pcbnew/target_edit.cpp:155
 msgid "Modified alignment target"
-msgstr ""
+msgstr "Alvo de alinhamento modificado"
 
 #: pcbnew/tool_footprint_editor.cpp:54
 msgid "Save footprint in active library"
-msgstr ""
+msgstr "Salvar footprint na biblioteca ativa"
 
 #: pcbnew/tool_footprint_editor.cpp:58
 msgid "Create new library and save current footprint"
-msgstr ""
+msgstr "Criar nova biblioteca e salvar o footprint atual"
 
 #: pcbnew/tool_footprint_editor.cpp:61 pcbnew/tool_pcb_editor.cpp:266
 msgid "Open footprint viewer"
-msgstr ""
+msgstr "Abrir visualizador de footprint"
 
 #: pcbnew/tool_footprint_editor.cpp:65
 msgid "Delete part from active library"
@@ -27057,23 +27085,23 @@ msgstr "Apagar peça da biblioteca ativa"
 
 #: pcbnew/tool_footprint_editor.cpp:69
 msgid "New footprint"
-msgstr ""
+msgstr "Novo footprint"
 
 #: pcbnew/tool_footprint_editor.cpp:74
 msgid "New footprint using footprint wizard"
-msgstr ""
+msgstr "Novo footprint utilizando o assistente de footprint"
 
 #: pcbnew/tool_footprint_editor.cpp:80
 msgid "Load footprint from library"
-msgstr ""
+msgstr "Carregar footprint da biblioteca"
 
 #: pcbnew/tool_footprint_editor.cpp:85
 msgid "Load footprint from current board"
-msgstr ""
+msgstr "Carregar footprint da placa atual"
 
 #: pcbnew/tool_footprint_editor.cpp:89
 msgid "Update footprint into current board"
-msgstr ""
+msgstr "Atualizar o footprint na placa atual"
 
 #: pcbnew/tool_footprint_editor.cpp:93
 msgid "Insert footprint into current board"
@@ -27081,27 +27109,27 @@ msgstr "Inserir footprint na placa atual"
 
 #: pcbnew/tool_footprint_editor.cpp:97
 msgid "Import footprint"
-msgstr ""
+msgstr "Importar footprint"
 
 #: pcbnew/tool_footprint_editor.cpp:100
 msgid "Export footprint"
-msgstr ""
+msgstr "Exportar footprint"
 
 #: pcbnew/tool_footprint_editor.cpp:107
 msgid "Redo last undo command"
-msgstr ""
+msgstr "Refazer último comando desfeito"
 
 #: pcbnew/tool_footprint_editor.cpp:112
 msgid "Footprint properties"
-msgstr ""
+msgstr "Propriedades do footprint"
 
 #: pcbnew/tool_footprint_editor.cpp:116
 msgid "Print footprint"
-msgstr ""
+msgstr "Imprimir footprint"
 
 #: pcbnew/tool_footprint_editor.cpp:143
 msgid "Check footprint"
-msgstr ""
+msgstr "Verificar footprint"
 
 #: pcbnew/tool_footprint_editor.cpp:219
 msgid "Display Polar Coord ON"
@@ -27123,9 +27151,10 @@ msgstr "Exibir Esboço de Bordas"
 msgid "Select library to browse"
 msgstr "Selecione biblioteca a ser examinada"
 
+# Revisar
 #: pcbnew/tool_footprint_viewer.cpp:58
 msgid "Select footprint to browse"
-msgstr ""
+msgstr "Selecione o footprint para examinar"
 
 #: pcbnew/tool_footprint_viewer.cpp:64
 msgid "Display previous footprint"
@@ -27141,35 +27170,35 @@ msgstr "Inserir footprint na placa"
 
 #: pcbnew/tool_footprint_viewer.cpp:133
 msgid "Set Active Library..."
-msgstr ""
+msgstr "Definir Biblioteca Ativa..."
 
 #: pcbnew/tool_footprint_viewer.cpp:134
 msgid "Select library to be displayed"
-msgstr ""
+msgstr "Selecionar biblioteca a ser exibida"
 
 #: pcbnew/tool_footprint_viewer.cpp:140
 msgid "Close footprint viewer"
-msgstr ""
+msgstr "Fechar visualizador de footprint"
 
 #: pcbnew/tool_footprint_viewer.cpp:154
 msgid "&Fit on Screen"
-msgstr ""
+msgstr "&Ajustar à tela"
 
 #: pcbnew/tool_footprint_viewer.cpp:166
 msgid "3&D Viewer"
-msgstr ""
+msgstr "Visualizador 3&D"
 
 #: pcbnew/tool_footprint_viewer.cpp:176
 msgid "Open the Pcbnew manual"
-msgstr ""
+msgstr "Abrir o Manual do Pcbnew"
 
 #: pcbnew/tool_footprint_viewer.cpp:187
 msgid "&About Pcbnew"
-msgstr ""
+msgstr "&Sobre o Pcbnew"
 
 #: pcbnew/tool_footprint_viewer.cpp:188
 msgid "About Pcbnew PCB designer"
-msgstr ""
+msgstr "Sobre o Pcbnew PCB designer"
 
 #: pcbnew/tool_pcb_editor.cpp:55
 msgid ""
@@ -27189,11 +27218,11 @@ msgstr "Salvar Placa"
 
 #: pcbnew/tool_pcb_editor.cpp:257
 msgid "Page settings for paper size and texts"
-msgstr ""
+msgstr "Configurações de página para tamanho de papel e textos"
 
 #: pcbnew/tool_pcb_editor.cpp:262
 msgid "Open footprint editor"
-msgstr ""
+msgstr "Abrir editor de footprint"
 
 #: pcbnew/tool_pcb_editor.cpp:278
 msgid "Plot (HPGL, PostScript, or GERBER format)"
@@ -27217,37 +27246,41 @@ msgstr "Exibir emaranhado local"
 
 #: pcbnew/tool_pcb_editor.cpp:454
 msgid "Add footprints"
-msgstr ""
+msgstr "Adicionar footprints"
 
 #: pcbnew/tool_pcb_editor.cpp:457
 msgid "Route tracks"
-msgstr ""
+msgstr "Rotear trilhas"
 
 #: pcbnew/tool_pcb_editor.cpp:460 pcbnew/tools/drawing_tool.cpp:1685
 msgid "Add vias"
-msgstr ""
+msgstr "Adicionar vias"
 
 #: pcbnew/tool_pcb_editor.cpp:463
 msgid "Add filled zones"
-msgstr ""
+msgstr "Adicionar zonas preenchidas"
 
 #: pcbnew/tool_pcb_editor.cpp:467
 msgid "Add keepout areas"
-msgstr ""
+msgstr "Adicionar áreas de afastamento"
 
 #: pcbnew/tool_pcb_editor.cpp:472
 msgid "Add graphic lines"
-msgstr ""
+msgstr "Adicionar linhas gráficas"
 
+# Revisar
 #: pcbnew/tool_pcb_editor.cpp:500
 msgid ""
 "Place the auxiliary axis origin for some plot file formats,\n"
 "and for drill and place files"
 msgstr ""
+"Definir a origem do eixo auxiliar para alguns formatos de arquivo de "
+"plotagem,\n"
+"e para arquivos de furação e posicionamento"
 
 #: pcbnew/tool_pcb_editor.cpp:506
 msgid "Set the origin point for the grid"
-msgstr ""
+msgstr "Definir o ponto de origem da grade"
 
 # Revisar
 #: pcbnew/tool_pcb_editor.cpp:534 pcbnew/tools/microwave_tool.cpp:89
@@ -27325,6 +27358,10 @@ msgid ""
 "Toolset.\n"
 "Use Route > Interactive Router Settings... for Modern Toolset."
 msgstr ""
+"Desabilitar a verificação de regras de desenho ao rotear/editar trilhas com o "
+"conjunto de ferramentas legado.\n"
+"Utilize \"Rotear > Configurações de Rotemento Interativo...\" para o conjunto "
+"de ferramentas moderno."
 
 #: pcbnew/toolbars_update_user_interface.cpp:133
 msgid ""
@@ -27332,6 +27369,10 @@ msgid ""
 "Toolset.\n"
 "Use Route > Interactive Router Settings... for Modern Toolset."
 msgstr ""
+"Habilitar a verificação de regras de desenho ao rotear/editar trilhas com o "
+"conjunto de ferramentas legado.\n"
+"Utilize \"Rotear > Configurações de Rotemento Interativo...\" para o conjunto "
+"de ferramentas moderno."
 
 #: pcbnew/toolbars_update_user_interface.cpp:141
 msgid "Hide board ratsnest"
@@ -27355,51 +27396,52 @@ msgstr "Modo de exibição de alto contraste"
 
 #: pcbnew/tools/drawing_tool.cpp:71 pcbnew/tools/drawing_tool.cpp:1097
 msgid "Draw a line"
-msgstr ""
+msgstr "Desenhar uma linha"
 
 #: pcbnew/tools/drawing_tool.cpp:75
 msgid "Draw a graphic polygon"
-msgstr ""
+msgstr "Desenhar um polígono gráfico"
 
 #: pcbnew/tools/drawing_tool.cpp:79 pcbnew/tools/drawing_tool.cpp:278
 msgid "Draw a circle"
-msgstr ""
+msgstr "Desenhar um círculo"
 
 #: pcbnew/tools/drawing_tool.cpp:83 pcbnew/tools/drawing_tool.cpp:310
 msgid "Draw an arc"
-msgstr ""
+msgstr "Desenhar um arco"
 
 #: pcbnew/tools/drawing_tool.cpp:87
 msgid "Add a text"
-msgstr ""
+msgstr "Adicionar um texto"
 
 #: pcbnew/tools/drawing_tool.cpp:91
 msgid "Add a dimension"
-msgstr ""
+msgstr "Adicionar uma dimensão"
 
 #: pcbnew/tools/drawing_tool.cpp:95
 msgid "Add a filled zone"
-msgstr ""
+msgstr "Adicionar uma zona preenchida"
 
+# Revisar
 #: pcbnew/tools/drawing_tool.cpp:99
 msgid "Add free-standing vias"
-msgstr ""
+msgstr "Adicionar via livre"
 
 #: pcbnew/tools/drawing_tool.cpp:103
 msgid "Add a keepout area"
-msgstr ""
+msgstr "Adicionar área de afastamento"
 
 #: pcbnew/tools/drawing_tool.cpp:107
 msgid "Add a cutout area of an existing zone"
-msgstr ""
+msgstr "Adicionar uma área de recorte de uma zona existente"
 
 #: pcbnew/tools/drawing_tool.cpp:112
 msgid "Add a zone with the same settings as an existing zone"
-msgstr ""
+msgstr "Adicionar uma zona com as mesmas configurações que uma zona existente"
 
 #: pcbnew/tools/drawing_tool.cpp:121 pcbnew/tools/drawing_tool.cpp:921
 msgid "Place the footprint anchor"
-msgstr ""
+msgstr "Colocar a âncora do footprint"
 
 #: pcbnew/tools/drawing_tool.cpp:126
 msgid "Increase the line width"
@@ -27411,11 +27453,11 @@ msgstr "Decrementar a largura da linha"
 
 #: pcbnew/tools/drawing_tool.cpp:134
 msgid "Switch Arc Posture"
-msgstr ""
+msgstr "Alternar Postura do Arco"
 
 #: pcbnew/tools/drawing_tool.cpp:134
 msgid "Switch the arc posture"
-msgstr ""
+msgstr "Alternar a postura do arco"
 
 #: pcbnew/tools/drawing_tool.cpp:142
 msgid "Delete Last Point"
@@ -27423,35 +27465,35 @@ msgstr "Apagar Último Ponto"
 
 #: pcbnew/tools/drawing_tool.cpp:142
 msgid "Delete the last point added to the current item"
-msgstr ""
+msgstr "Excluir o último ponto adicionado ao item atual"
 
 #: pcbnew/tools/drawing_tool.cpp:147
 msgid "Close the outline of a zone in progress"
-msgstr ""
+msgstr "Fechar o contorno de uma zona em andamento"
 
 #: pcbnew/tools/drawing_tool.cpp:241
 msgid "Draw a line segment"
-msgstr ""
+msgstr "Desenhar um segmento de linha"
 
 #: pcbnew/tools/drawing_tool.cpp:445
 msgid "Place a text"
-msgstr ""
+msgstr "Colocar um texto"
 
 #: pcbnew/tools/drawing_tool.cpp:619
 msgid "Draw a dimension"
-msgstr ""
+msgstr "Desenhar uma dimensão"
 
 #: pcbnew/tools/drawing_tool.cpp:701
 msgid "Add zone cutout"
-msgstr ""
+msgstr "Adicionar recorte de zona"
 
 #: pcbnew/tools/drawing_tool.cpp:725
 msgid "Add similar zone"
-msgstr ""
+msgstr "Adicionar zona similar"
 
 #: pcbnew/tools/drawing_tool.cpp:898
 msgid "Place a DXF drawing"
-msgstr ""
+msgstr "Colocar um desenho DXF"
 
 #: pcbnew/tools/drawing_tool.cpp:941
 msgid "Move the footprint reference anchor"
@@ -27459,15 +27501,15 @@ msgstr "Mover a ancora de referencia do footprint"
 
 #: pcbnew/tools/drawing_tool.cpp:1328 pcbnew/tools/point_editor.cpp:237
 msgid "Self-intersecting polygons are not allowed"
-msgstr ""
+msgstr "Polígonos com auto-intersecção não são permitidos"
 
 #: pcbnew/tools/drawing_tool.cpp:1687
 msgid "Place via"
-msgstr ""
+msgstr "Colocar via"
 
 #: pcbnew/tools/edit_tool.cpp:82
 msgid "Open in Footprint Editor"
-msgstr ""
+msgstr "Abrir no Editor de Footprint"
 
 #: pcbnew/tools/edit_tool.cpp:83
 msgid "Opens the selected footprint in the Footprint Editor"
@@ -27475,23 +27517,24 @@ msgstr "Abre o footprint selecionado no Editor de Footprint"
 
 #: pcbnew/tools/edit_tool.cpp:88
 msgid "Copy Pad Properties to Default Pad Properties"
-msgstr ""
+msgstr "Copiar Propriedades da Ilha para Propriedades Padrão de Ilha"
 
 #: pcbnew/tools/edit_tool.cpp:89
 msgid "Copies the properties of the selected pad to the default pad properties."
 msgstr ""
+"Copia as propriedades da Ilha selecionada para as propriedades padrão de Ilha."
 
 #: pcbnew/tools/edit_tool.cpp:93
 msgid "Copy Default Pad Properties to Pads"
-msgstr ""
+msgstr "Copiar Propriedades Padrão de Ilha para Ilhas"
 
 #: pcbnew/tools/edit_tool.cpp:94
 msgid "Copies the default pad properties to the selected pad(s)."
-msgstr ""
+msgstr "Copia as propriedades padrão de ilha para a(s) ilha(s) selecionada(s)."
 
 #: pcbnew/tools/edit_tool.cpp:98
 msgid "Push Pad Settings..."
-msgstr ""
+msgstr "Aplicar Configurações de Ilha..."
 
 #: pcbnew/tools/edit_tool.cpp:99
 msgid ""
@@ -27501,29 +27544,30 @@ msgstr ""
 "Copiar as propriedades da ilha selecionada em todas as ilhas do mesmo "
 "footprint (ou footprints similares)."
 
+# Revisar
 #: pcbnew/tools/edit_tool.cpp:104
 msgid "Edit Activate"
-msgstr ""
+msgstr "Editar Ativador"
 
 #: pcbnew/tools/edit_tool.cpp:108
 msgid "Moves the selected item(s)"
-msgstr ""
+msgstr "Move o(s) item(s) selecionado(s)"
 
 #: pcbnew/tools/edit_tool.cpp:112
 msgid "Duplicates the selected item(s)"
-msgstr ""
+msgstr "Duplica o(s) item(s) selecionado(s)"
 
 #: pcbnew/tools/edit_tool.cpp:116
 msgid "Duplicates the selected item(s), incrementing pad numbers"
-msgstr ""
+msgstr "Duplica o(s) item(s) selecionado(s), incrementando números de ilha"
 
 #: pcbnew/tools/edit_tool.cpp:120
 msgid "Moves the selected item(s) by an exact amount"
-msgstr ""
+msgstr "Move o(s) item(s) selecionado(s) por uma quantidade exata"
 
 #: pcbnew/tools/edit_tool.cpp:125
 msgid "Create array"
-msgstr ""
+msgstr "Criar matriz"
 
 #: pcbnew/tools/edit_tool.cpp:129
 msgid "Rotates selected item(s) clockwise"
@@ -27531,11 +27575,11 @@ msgstr "Rotaciona o(s) iten(s) selecionado(s) no sentido horário"
 
 #: pcbnew/tools/edit_tool.cpp:134
 msgid "Rotates selected item(s) counterclockwise"
-msgstr ""
+msgstr "Gira o(s) item(s) selecionado(s) no sentido anti-horário"
 
 #: pcbnew/tools/edit_tool.cpp:139
 msgid "Flips selected item(s)"
-msgstr ""
+msgstr "Inverte o(s) item(s) selecionado(s)"
 
 #: pcbnew/tools/edit_tool.cpp:143
 msgid "Mirrors selected item"
@@ -27551,11 +27595,11 @@ msgstr "Apagar (Alternativo)"
 
 #: pcbnew/tools/edit_tool.cpp:157
 msgid "Update the footprint from the library"
-msgstr ""
+msgstr "Atualiza o footprint a partir da biblioteca"
 
 #: pcbnew/tools/edit_tool.cpp:162
 msgid "Assign a different footprint from the library"
-msgstr ""
+msgstr "Atribui um footprint alternativo da biblioteca"
 
 #: pcbnew/tools/edit_tool.cpp:167
 msgid "Properties..."
@@ -27563,7 +27607,7 @@ msgstr "Propriedades..."
 
 #: pcbnew/tools/edit_tool.cpp:167
 msgid "Displays item properties dialog"
-msgstr ""
+msgstr "Exibe a caixa de diálogo de propriedades do item"
 
 #: pcbnew/tools/edit_tool.cpp:175
 msgid "Measuring Tool"
@@ -27571,32 +27615,32 @@ msgstr "Ferramenta de Medida"
 
 #: pcbnew/tools/edit_tool.cpp:180
 msgid "Copy selected content to clipboard"
-msgstr ""
+msgstr "Copia o conteúdo selecionado para a área de transferência"
 
 #: pcbnew/tools/edit_tool.cpp:185
 msgid "Cut selected content to clipboard"
-msgstr ""
+msgstr "Recorta o conteúdo selecionado para a área de transferência"
 
 #: pcbnew/tools/edit_tool.cpp:635
 msgid "Edit track width/via size"
-msgstr ""
+msgstr "Editar largura da trilha / tamanho da via"
 
 #: pcbnew/tools/edit_tool.cpp:662
 msgid "Edit track/via properties"
-msgstr ""
+msgstr "Editar propriedades da trilha/via"
 
 #: pcbnew/tools/edit_tool.cpp:957
 msgid "Move exact"
-msgstr ""
+msgstr "Mover com precisão"
 
 #: pcbnew/tools/edit_tool.cpp:1032
 #, c-format
 msgid "Duplicated %d item(s)"
-msgstr ""
+msgstr "Item(s) %d duplicados"
 
 #: pcbnew/tools/edit_tool.cpp:1391
 msgid "Select reference point for the block being copied..."
-msgstr ""
+msgstr "Selecione o ponto de referência para o bloco sendo copiado..."
 
 #: pcbnew/tools/footprint_editor_tools.cpp:63
 msgid "Add Pad"
@@ -27604,58 +27648,65 @@ msgstr "Adicionar Ilha"
 
 #: pcbnew/tools/footprint_editor_tools.cpp:63
 msgid "Add a pad"
-msgstr ""
+msgstr "Adicionar uma Ilha"
 
 #: pcbnew/tools/footprint_editor_tools.cpp:67
 #: pcbnew/tools/footprint_editor_tools.cpp:472
 msgid "Create Pad from Selected Shapes"
-msgstr ""
+msgstr "Criar Ilha a partir das Formas Selecionadas"
 
 #: pcbnew/tools/footprint_editor_tools.cpp:68
 msgid "Creates a custom-shaped pads from a set of selected shapes"
 msgstr ""
+"Cria ilhas com forma customizada a partir de um conjunto de formas "
+"selecionadas"
 
 #: pcbnew/tools/footprint_editor_tools.cpp:73
 msgid "Explode Pad to Graphic Shapes"
-msgstr ""
+msgstr "Explodir Ilha para Formas Gráficas"
 
 #: pcbnew/tools/footprint_editor_tools.cpp:74
 msgid "Converts a custom-shaped pads to a set of graphical shapes"
 msgstr ""
+"Converte ilhas com forma customizada para um conjunto de formas gráficas"
 
 #: pcbnew/tools/footprint_editor_tools.cpp:79
 msgid "Renumber Pads..."
-msgstr ""
+msgstr "Renumerar Ilhas..."
 
 #: pcbnew/tools/footprint_editor_tools.cpp:79
 msgid "Renumber pads by clicking on them in the desired order"
-msgstr ""
+msgstr "Renumera ilhas clicando sobre elas na ordem desejada"
 
 #: pcbnew/tools/footprint_editor_tools.cpp:114
 msgid "Add pads"
-msgstr ""
+msgstr "Adicionar ilhas"
 
+# Revisar
 #: pcbnew/tools/footprint_editor_tools.cpp:118
 msgid "Place pad"
-msgstr ""
+msgstr "Posicionar ilha"
 
 #: pcbnew/tools/footprint_editor_tools.cpp:152
 msgid "Click on successive pads to renumber them"
-msgstr ""
+msgstr "Clique em ilhas sucessivas para renumera-las"
 
 #: pcbnew/tools/footprint_editor_tools.cpp:238
 msgid "Renumber pads"
-msgstr ""
+msgstr "Renumerar ilhas"
 
 #: pcbnew/tools/footprint_editor_tools.cpp:313
 msgid "Explode pad to shapes"
-msgstr ""
+msgstr "Explodir ilha para formas"
 
+# Revisar
 #: pcbnew/tools/footprint_editor_tools.cpp:381
 msgid ""
 "Cannot convert items to a custom-shaped pad:\n"
 "selection contains more than one reference pad."
 msgstr ""
+"Não foi possível converter itens para uma ilha com forma personalizada:\n"
+"a seleção contém mais de uma ilha de referência."
 
 #: pcbnew/tools/footprint_editor_tools.cpp:389
 msgid ""
@@ -27695,11 +27746,11 @@ msgstr ""
 
 #: pcbnew/tools/microwave_tool.cpp:278
 msgid "Add microwave inductor"
-msgstr ""
+msgstr "Adiciona indutor de microondas"
 
 #: pcbnew/tools/microwave_tool.cpp:300
 msgid "Add Microwave Inductor"
-msgstr ""
+msgstr "Adicionar Indutor de Microondas"
 
 #: pcbnew/tools/pad_tool.cpp:51
 msgid "Copy current pad's properties to the default pad properties"
@@ -27715,7 +27766,7 @@ msgstr ""
 
 #: pcbnew/tools/pcb_editor_control.cpp:96
 msgid "Merge Zones"
-msgstr ""
+msgstr "Mesclar Zonas"
 
 #: pcbnew/tools/pcb_editor_control.cpp:96
 #: pcbnew/tools/pcb_editor_control.cpp:752
@@ -27736,7 +27787,7 @@ msgstr ""
 
 #: pcbnew/tools/pcb_editor_control.cpp:110
 msgid "Add a footprint"
-msgstr ""
+msgstr "Adicionar um footprint"
 
 #: pcbnew/tools/pcb_editor_control.cpp:126
 msgid "Lock"
@@ -27748,19 +27799,19 @@ msgstr "Desbloquear"
 
 #: pcbnew/tools/pcb_editor_control.cpp:217
 msgid "Locking"
-msgstr ""
+msgstr "Bloqueio"
 
 #: pcbnew/tools/pcb_editor_control.cpp:484
 msgid "Place a module"
-msgstr ""
+msgstr "Inserir um módulo"
 
 #: pcbnew/tools/pcb_editor_control.cpp:636
 msgid "Place a layer alignment target"
-msgstr ""
+msgstr "Inserir um alvo de alinhamento de camada"
 
 #: pcbnew/tools/pcb_editor_control.cpp:807
 msgid "Duplicate zone"
-msgstr ""
+msgstr "Duplicar zona"
 
 #: pcbnew/tools/pcb_editor_control.cpp:1103
 msgid "Pick Components for Local Ratsnest"
@@ -27780,6 +27831,8 @@ msgid ""
 "Error loading board.\n"
 "%s"
 msgstr ""
+"Erro ao carregar a placa.\n"
+" %s"
 
 #: pcbnew/tools/pcbnew_control.cpp:1127
 msgid "Not available in OpenGL/Cairo canvases."
@@ -27787,7 +27840,7 @@ msgstr ""
 
 #: pcbnew/tools/placement_tool.cpp:42
 msgid "Align to Top"
-msgstr ""
+msgstr "Alinhar ao Topo"
 
 #: pcbnew/tools/placement_tool.cpp:43
 msgid "Aligns selected items to the top edge"
@@ -27795,7 +27848,7 @@ msgstr ""
 
 #: pcbnew/tools/placement_tool.cpp:47
 msgid "Align to Bottom"
-msgstr ""
+msgstr "Alinhar ao Fundo"
 
 #: pcbnew/tools/placement_tool.cpp:48
 msgid "Aligns selected items to the bottom edge"
@@ -27803,7 +27856,7 @@ msgstr ""
 
 #: pcbnew/tools/placement_tool.cpp:52
 msgid "Align to Left"
-msgstr ""
+msgstr "Alinhar à Esquerda"
 
 #: pcbnew/tools/placement_tool.cpp:53
 msgid "Aligns selected items to the left edge"
@@ -27811,7 +27864,7 @@ msgstr ""
 
 #: pcbnew/tools/placement_tool.cpp:57
 msgid "Align to Right"
-msgstr ""
+msgstr "Alinhar à Direita"
 
 #: pcbnew/tools/placement_tool.cpp:58
 msgid "Aligns selected items to the right edge"
@@ -27819,7 +27872,7 @@ msgstr ""
 
 #: pcbnew/tools/placement_tool.cpp:62
 msgid "Align to Middle"
-msgstr ""
+msgstr "Alinhar ao Meio"
 
 #: pcbnew/tools/placement_tool.cpp:63
 msgid "Aligns selected items to the vertical center"
@@ -27827,7 +27880,7 @@ msgstr ""
 
 #: pcbnew/tools/placement_tool.cpp:67
 msgid "Align to Center"
-msgstr ""
+msgstr "Alinhar ao Centro"
 
 #: pcbnew/tools/placement_tool.cpp:68
 msgid "Aligns selected items to the horizontal center"
@@ -27835,7 +27888,7 @@ msgstr ""
 
 #: pcbnew/tools/placement_tool.cpp:72
 msgid "Distribute Horizontally"
-msgstr ""
+msgstr "Distribuir Horizontalmente"
 
 #: pcbnew/tools/placement_tool.cpp:73
 msgid "Distributes selected items along the horizontal axis"
@@ -27843,7 +27896,7 @@ msgstr ""
 
 #: pcbnew/tools/placement_tool.cpp:77
 msgid "Distribute Vertically"
-msgstr ""
+msgstr "Distribuir Verticalmente"
 
 #: pcbnew/tools/placement_tool.cpp:78
 msgid "Distributes selected items along the vertical axis"
@@ -27851,7 +27904,7 @@ msgstr ""
 
 #: pcbnew/tools/placement_tool.cpp:106
 msgid "Align/Distribute"
-msgstr ""
+msgstr "Alinhar/Distribuir"
 
 #: pcbnew/tools/placement_tool.cpp:240 pcbnew/tools/selection_tool.cpp:728
 msgid "Selection contains locked items. Do you want to continue?"
@@ -27859,27 +27912,27 @@ msgstr ""
 
 #: pcbnew/tools/placement_tool.cpp:286
 msgid "Align to top"
-msgstr ""
+msgstr "Alinhar ao topo"
 
 #: pcbnew/tools/placement_tool.cpp:326
 msgid "Align to bottom"
-msgstr ""
+msgstr "Alinhar ao fundo"
 
 #: pcbnew/tools/placement_tool.cpp:381
 msgid "Align to left"
-msgstr ""
+msgstr "Alinhar à esquerda"
 
 #: pcbnew/tools/placement_tool.cpp:436
 msgid "Align to right"
-msgstr ""
+msgstr "Alinhar à direita"
 
 #: pcbnew/tools/placement_tool.cpp:477
 msgid "Align to middle"
-msgstr ""
+msgstr "Alinhar ao meio"
 
 #: pcbnew/tools/placement_tool.cpp:518
 msgid "Align to center"
-msgstr ""
+msgstr "Alinhar ao centro"
 
 #: pcbnew/tools/placement_tool.cpp:569
 msgid "Distribute horizontally"
@@ -27887,7 +27940,7 @@ msgstr "Distribuir horizontalmente"
 
 #: pcbnew/tools/placement_tool.cpp:656
 msgid "Distribute vertically"
-msgstr ""
+msgstr "Distribuir verticalmente"
 
 #: pcbnew/tools/point_editor.cpp:54
 msgid "Create a corner"
@@ -27895,39 +27948,41 @@ msgstr "Criar canto"
 
 #: pcbnew/tools/point_editor.cpp:58
 msgid "Remove Corner"
-msgstr ""
+msgstr "Remover Canto"
 
 #: pcbnew/tools/point_editor.cpp:58
 msgid "Remove corner"
-msgstr ""
+msgstr "Remove canto"
 
 #: pcbnew/tools/point_editor.cpp:358
 msgid "Drag a corner"
-msgstr ""
+msgstr "Arrasta um canto"
 
 #: pcbnew/tools/point_editor.cpp:945
 msgid "Add a zone corner"
-msgstr ""
+msgstr "Adiciona um canto de zona"
 
 #: pcbnew/tools/point_editor.cpp:984
 msgid "Split segment"
-msgstr ""
+msgstr "Dividir segmento"
 
 #: pcbnew/tools/point_editor.cpp:1057
 msgid "Remove a zone/polygon corner"
-msgstr ""
+msgstr "Remove um canto de zona/polígono"
 
 #: pcbnew/tools/position_relative_tool.cpp:44
 msgid "Position Relative To..."
-msgstr ""
+msgstr "Posicionar Relativo A..."
 
 #: pcbnew/tools/position_relative_tool.cpp:45
 msgid "Positions the selected item(s) by an exact amount relative to another"
 msgstr ""
+"Posiciona o(s) item(s) selecionado(s) por um valor exato em relação a outro"
 
+# Revisar
 #: pcbnew/tools/selection_tool.cpp:97
 msgid "Trivial Connection"
-msgstr ""
+msgstr "Conexão Trivial"
 
 #: pcbnew/tools/selection_tool.cpp:97
 msgid "Selects a connection between two junctions."
@@ -27952,7 +28007,7 @@ msgstr ""
 
 #: pcbnew/tools/selection_tool.cpp:110
 msgid "Whole Net"
-msgstr ""
+msgstr "Rede Inteira"
 
 #: pcbnew/tools/selection_tool.cpp:110
 msgid "Selects all tracks & vias belonging to the same net."
@@ -27993,7 +28048,7 @@ msgstr ""
 
 #: pcbnew/tools/selection_tool.cpp:1335
 msgid "Filter selection"
-msgstr ""
+msgstr "Seleção de filtro"
 
 #: pcbnew/tools/size_menu.cpp:130
 msgid "Track "
@@ -28013,7 +28068,7 @@ msgstr "tamanho de classe net"
 
 #: pcbnew/tools/size_menu.cpp:159
 msgid ", drill: default"
-msgstr ""
+msgstr ", furo: padrão"
 
 #: pcbnew/tools/size_menu.cpp:163
 msgid ", drill: "
@@ -28021,7 +28076,7 @@ msgstr ", furo: "
 
 #: pcbnew/tools/zone_create_helper.cpp:156
 msgid "Add a zone cutout"
-msgstr ""
+msgstr "Adicionar um recorte de zona"
 
 #: pcbnew/tools/zone_create_helper.cpp:171
 msgid "Add a zone"
@@ -28029,7 +28084,7 @@ msgstr "Adicionar Zona"
 
 #: pcbnew/tools/zone_create_helper.cpp:184
 msgid "Add a graphical polygon"
-msgstr ""
+msgstr "Adicionar um polígono gráfico"
 
 #: pcbnew/tools/zone_filler_tool.cpp:47
 msgid "Fill"
@@ -28041,7 +28096,7 @@ msgstr "Preencher zona(s)"
 
 #: pcbnew/tools/zone_filler_tool.cpp:51
 msgid "Fill All"
-msgstr ""
+msgstr "Preencher Todos"
 
 #: pcbnew/tools/zone_filler_tool.cpp:51
 msgid "Fill all zones"
@@ -28049,55 +28104,55 @@ msgstr "Preencher todas as zonas"
 
 #: pcbnew/tools/zone_filler_tool.cpp:55
 msgid "Unfill"
-msgstr ""
+msgstr "Remover Preenchimento"
 
 #: pcbnew/tools/zone_filler_tool.cpp:55
 msgid "Unfill zone(s)"
-msgstr ""
+msgstr "Remove preenchimento de zona(s)"
 
 #: pcbnew/tools/zone_filler_tool.cpp:59
 msgid "Unfill All"
-msgstr ""
+msgstr "Remover Todos os Preenchimentos"
 
 #: pcbnew/tools/zone_filler_tool.cpp:59
 msgid "Unfill all zones"
-msgstr ""
+msgstr "Remove preenchimento de todas as zonas"
 
 #: pcbnew/tools/zone_filler_tool.cpp:116
 msgid "Fill All Zones"
-msgstr ""
+msgstr "Preencher Todas as Zonas"
 
 #: pcbnew/tools/zone_filler_tool.cpp:145
 msgid "Unfill Zone"
-msgstr ""
+msgstr "Remover Preenchimento da Zona"
 
 #: pcbnew/tools/zone_filler_tool.cpp:163
 msgid "Unfill All Zones"
-msgstr ""
+msgstr "Remover Preenchimento de Todas as Zonas"
 
 #: pcbnew/tracks_cleaner.cpp:169 pcbnew/tracks_cleaner.cpp:741
 msgid "Board cleanup"
-msgstr ""
+msgstr "Limpeza da placa"
 
 #: pcbnew/zone_filler.cpp:114
 msgid "Checking zone fills..."
-msgstr ""
+msgstr "Verificando preenchimentos da zona..."
 
 #: pcbnew/zone_filler.cpp:161
 msgid "Removing insulated copper islands..."
-msgstr ""
+msgstr "Removendo ilhas de cobre isoladas..."
 
 #: pcbnew/zone_filler.cpp:188
 msgid "Zone fills are out-of-date. Re-fill?"
-msgstr ""
+msgstr "Preenchimentos da zona estão desatualizados. Preencher novamente?"
 
 #: pcbnew/zone_filler.cpp:215
 msgid "Performing polygon fills..."
-msgstr ""
+msgstr "Realizando preenchimentos de polígono..."
 
 #: pcbnew/zone_filler.cpp:267
 msgid "Performing segment fills..."
-msgstr ""
+msgstr "Realizando preenchimentos de segmento..."
 
 #: pcbnew/zone_filler.cpp:294
 msgid "Committing changes..."
@@ -28105,7 +28160,7 @@ msgstr "Submetendo alterações…"
 
 #: pcbnew/zone_filler.cpp:301
 msgid "Fill Zone(s)"
-msgstr ""
+msgstr "Preencher Zona(s)"
 
 #: pcbnew/zones_by_polygon.cpp:139
 msgid "The duplicated zone cannot be on the same layers as the original zone."
