@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-18 21:11+0200\n"
-"PO-Revision-Date: 2018-09-14 16:28-0300\n"
+"PO-Revision-Date: 2018-09-16 16:31-0300\n"
 "Last-Translator: Francisco R. Pereira <frosch_bin@yahoo.com.br>\n"
 "Language-Team: kicad team\n"
 "Language: pt_BR\n"
@@ -27658,8 +27658,7 @@ msgstr "Criar Ilha a partir das Formas Selecionadas"
 #: pcbnew/tools/footprint_editor_tools.cpp:68
 msgid "Creates a custom-shaped pads from a set of selected shapes"
 msgstr ""
-"Cria ilhas com forma customizada a partir de um conjunto de formas "
-"selecionadas"
+"Cria ilhas personalizadas a partir de um conjunto de formas selecionadas"
 
 #: pcbnew/tools/footprint_editor_tools.cpp:73
 msgid "Explode Pad to Graphic Shapes"
@@ -27667,8 +27666,7 @@ msgstr "Explodir Ilha para Formas Gráficas"
 
 #: pcbnew/tools/footprint_editor_tools.cpp:74
 msgid "Converts a custom-shaped pads to a set of graphical shapes"
-msgstr ""
-"Converte ilhas com forma customizada para um conjunto de formas gráficas"
+msgstr "Converte ilhas personalizadas em um conjunto de formas gráficas"
 
 #: pcbnew/tools/footprint_editor_tools.cpp:79
 msgid "Renumber Pads..."
@@ -27705,7 +27703,7 @@ msgid ""
 "Cannot convert items to a custom-shaped pad:\n"
 "selection contains more than one reference pad."
 msgstr ""
-"Não foi possível converter itens para uma ilha com forma personalizada:\n"
+"Não foi possível converter itens para uma ilha personalizada:\n"
 "a seleção contém mais de uma ilha de referência."
 
 #: pcbnew/tools/footprint_editor_tools.cpp:389
@@ -27714,6 +27712,9 @@ msgid ""
 "selection contains unsupported items.\n"
 "Only graphical lines, circles, arcs and polygons are allowed."
 msgstr ""
+"Não foi possível converter itens em uma ilha personalizada:\n"
+"a seleção contém itens sem suporte.\n"
+"Somente linhas gráficas, círculos, arcos e polígonos são permitidos."
 
 #: pcbnew/tools/footprint_editor_tools.cpp:435
 msgid ""
@@ -27721,28 +27722,34 @@ msgid ""
 "unable to determine the anchor point position.\n"
 "Consider adding a small anchor pad to the selection and try again."
 msgstr ""
+"Não foi possível converter itens em uma ilha personalizada:\n"
+"não foi possível determinar a posição do ponto de ancoragem.\n"
+"Considere adicionar uma pequena ilha de âncoragem à seleção e tente novamente."
 
 #: pcbnew/tools/footprint_editor_tools.cpp:458
 msgid ""
 "Cannot convert items to a custom-shaped pad:\n"
 "selected items do not form a single solid shape."
 msgstr ""
+"Não foi possível converter itens em uma ilha personalizada:\n"
+"itens selecionados não formam uma única forma sólida."
 
 #: pcbnew/tools/microwave_tool.cpp:83
 msgid "Create polynomial shape for microwave applications"
-msgstr ""
+msgstr "Criar forma polinomial para aplicações em microondas"
 
 #: pcbnew/tools/microwave_tool.cpp:89
 msgid "Add Microwave Line"
-msgstr ""
+msgstr "Adicionar Linha de Microonda"
 
 #: pcbnew/tools/microwave_tool.cpp:160
 msgid "Add Stub (Arc)"
 msgstr "Adicionar Segmento (Arco)"
 
+# Revisar
 #: pcbnew/tools/microwave_tool.cpp:229
 msgid "Place microwave feature"
-msgstr ""
+msgstr "Coloca recurso de microondas"
 
 #: pcbnew/tools/microwave_tool.cpp:278
 msgid "Add microwave inductor"
@@ -27754,15 +27761,15 @@ msgstr "Adicionar Indutor de Microondas"
 
 #: pcbnew/tools/pad_tool.cpp:51
 msgid "Copy current pad's properties to the default pad properties"
-msgstr ""
+msgstr "Copia propriedades da ilha atual para as propriedades padrão de ilha"
 
 #: pcbnew/tools/pad_tool.cpp:57
 msgid "Copy the default pad properties to the current pad"
-msgstr ""
+msgstr "Copia propriedades padrão de ilha para a ilha atual"
 
 #: pcbnew/tools/pad_tool.cpp:63
 msgid "Copy the current pad settings to other pads"
-msgstr ""
+msgstr "Copia as configurações atuais da ilha para outras ilhas"
 
 #: pcbnew/tools/pcb_editor_control.cpp:96
 msgid "Merge Zones"
@@ -27775,7 +27782,7 @@ msgstr "Mesclar zonas"
 
 #: pcbnew/tools/pcb_editor_control.cpp:100
 msgid "Duplicate zone outline onto a different layer"
-msgstr ""
+msgstr "Duplica o contorno da zona em uma camada diferente"
 
 #: pcbnew/tools/pcb_editor_control.cpp:106
 msgid "Add Layer Alignment Target"
@@ -27783,7 +27790,7 @@ msgstr "Adicionar marca de alinhamento"
 
 #: pcbnew/tools/pcb_editor_control.cpp:106
 msgid "Add a layer alignment target"
-msgstr ""
+msgstr "Adicionar uma marcação de alinhamento de camada"
 
 #: pcbnew/tools/pcb_editor_control.cpp:110
 msgid "Add a footprint"
@@ -27819,11 +27826,11 @@ msgstr "Escolher Componentes para Emaranhado Local"
 
 #: pcbnew/tools/pcbnew_control.cpp:243
 msgid "Paste content from clipboard"
-msgstr ""
+msgstr "Colar conteúdo da área de transferência"
 
 #: pcbnew/tools/pcbnew_control.cpp:906
 msgid "Invalid clipboard contents"
-msgstr ""
+msgstr "Conteúdo da área de transferência inválido"
 
 #: pcbnew/tools/pcbnew_control.cpp:1089
 #, c-format
@@ -27836,7 +27843,7 @@ msgstr ""
 
 #: pcbnew/tools/pcbnew_control.cpp:1127
 msgid "Not available in OpenGL/Cairo canvases."
-msgstr ""
+msgstr "Não disponível em telas OpenGL/Cairo."
 
 #: pcbnew/tools/placement_tool.cpp:42
 msgid "Align to Top"
@@ -27844,7 +27851,7 @@ msgstr "Alinhar ao Topo"
 
 #: pcbnew/tools/placement_tool.cpp:43
 msgid "Aligns selected items to the top edge"
-msgstr ""
+msgstr "Alinha itens selecionados à borda superior"
 
 #: pcbnew/tools/placement_tool.cpp:47
 msgid "Align to Bottom"
@@ -27852,7 +27859,7 @@ msgstr "Alinhar ao Fundo"
 
 #: pcbnew/tools/placement_tool.cpp:48
 msgid "Aligns selected items to the bottom edge"
-msgstr ""
+msgstr "Alinha itens selecionados à borda inferior"
 
 #: pcbnew/tools/placement_tool.cpp:52
 msgid "Align to Left"
@@ -27860,7 +27867,7 @@ msgstr "Alinhar à Esquerda"
 
 #: pcbnew/tools/placement_tool.cpp:53
 msgid "Aligns selected items to the left edge"
-msgstr ""
+msgstr "Alinha itens selecionados à borda esquerda"
 
 #: pcbnew/tools/placement_tool.cpp:57
 msgid "Align to Right"
@@ -27868,7 +27875,7 @@ msgstr "Alinhar à Direita"
 
 #: pcbnew/tools/placement_tool.cpp:58
 msgid "Aligns selected items to the right edge"
-msgstr ""
+msgstr "Alinha itens selecionados à borda direita"
 
 #: pcbnew/tools/placement_tool.cpp:62
 msgid "Align to Middle"
@@ -27876,7 +27883,7 @@ msgstr "Alinhar ao Meio"
 
 #: pcbnew/tools/placement_tool.cpp:63
 msgid "Aligns selected items to the vertical center"
-msgstr ""
+msgstr "Alinha itens selecionados para o centro vertical"
 
 #: pcbnew/tools/placement_tool.cpp:67
 msgid "Align to Center"
@@ -27884,7 +27891,7 @@ msgstr "Alinhar ao Centro"
 
 #: pcbnew/tools/placement_tool.cpp:68
 msgid "Aligns selected items to the horizontal center"
-msgstr ""
+msgstr "Alinha itens selecionados para o centro horizontal"
 
 #: pcbnew/tools/placement_tool.cpp:72
 msgid "Distribute Horizontally"
@@ -27892,7 +27899,7 @@ msgstr "Distribuir Horizontalmente"
 
 #: pcbnew/tools/placement_tool.cpp:73
 msgid "Distributes selected items along the horizontal axis"
-msgstr ""
+msgstr "Distribui itens selecionados ao longo do eixo horizontal"
 
 #: pcbnew/tools/placement_tool.cpp:77
 msgid "Distribute Vertically"
@@ -27900,7 +27907,7 @@ msgstr "Distribuir Verticalmente"
 
 #: pcbnew/tools/placement_tool.cpp:78
 msgid "Distributes selected items along the vertical axis"
-msgstr ""
+msgstr "Distribui itens selecionados ao longo do eixo vertical"
 
 #: pcbnew/tools/placement_tool.cpp:106
 msgid "Align/Distribute"
@@ -27908,7 +27915,7 @@ msgstr "Alinhar/Distribuir"
 
 #: pcbnew/tools/placement_tool.cpp:240 pcbnew/tools/selection_tool.cpp:728
 msgid "Selection contains locked items. Do you want to continue?"
-msgstr ""
+msgstr "A seleção contém itens bloqueados. Deseja continuar?"
 
 #: pcbnew/tools/placement_tool.cpp:286
 msgid "Align to top"
@@ -27986,7 +27993,7 @@ msgstr "Conexão Trivial"
 
 #: pcbnew/tools/selection_tool.cpp:97
 msgid "Selects a connection between two junctions."
-msgstr ""
+msgstr "Seleciona uma conexão entre duas junções."
 
 #: pcbnew/tools/selection_tool.cpp:101
 msgid "Copper Connection"
@@ -28003,7 +28010,7 @@ msgstr "Expandir Conexão Selecionada"
 #: pcbnew/tools/selection_tool.cpp:106
 msgid ""
 "Expands the current selection to select a connection between two junctions."
-msgstr ""
+msgstr "Expande a seleção atual para selecionar uma conexão entre duas junções."
 
 #: pcbnew/tools/selection_tool.cpp:110
 msgid "Whole Net"
@@ -28011,19 +28018,20 @@ msgstr "Rede Inteira"
 
 #: pcbnew/tools/selection_tool.cpp:110
 msgid "Selects all tracks & vias belonging to the same net."
-msgstr ""
+msgstr "Seleciona todas as trilhas e vias pertencentes à mesma rede."
 
 #: pcbnew/tools/selection_tool.cpp:114
 msgid "Selects all modules and tracks in the schematic sheet"
-msgstr ""
+msgstr "Seleciona todos os módulos e trilhas na folha esquemática"
 
+# Revisar
 #: pcbnew/tools/selection_tool.cpp:118
 msgid "Items in Same Hierarchical Sheet"
-msgstr ""
+msgstr "Itens na Mesma Folha Hierárquica"
 
 #: pcbnew/tools/selection_tool.cpp:119
 msgid "Selects all modules and tracks in the same schematic sheet"
-msgstr ""
+msgstr "Seleciona todos os módulos e trilhas da mesma folha esquemática"
 
 #: pcbnew/tools/selection_tool.cpp:123
 msgid "Find Item..."
@@ -28031,12 +28039,12 @@ msgstr "Pesquisar Item…"
 
 #: pcbnew/tools/selection_tool.cpp:123
 msgid "Searches the document for an item"
-msgstr ""
+msgstr "Procura no documento por um item"
 
 #: pcbnew/tools/selection_tool.cpp:128
 msgid ""
 "Selects a footprint by reference and places it under the cursor for moving"
-msgstr ""
+msgstr "Seleciona um footprint por referência e coloca-o no cursor para mover"
 
 #: pcbnew/tools/selection_tool.cpp:133
 msgid "Filter Selection..."
@@ -28044,7 +28052,7 @@ msgstr "Filtrar Seleção…"
 
 #: pcbnew/tools/selection_tool.cpp:133
 msgid "Filter the types of items in the selection"
-msgstr ""
+msgstr "Filtra os tipos de itens na seleção"
 
 #: pcbnew/tools/selection_tool.cpp:1335
 msgid "Filter selection"
@@ -28164,15 +28172,15 @@ msgstr "Preencher Zona(s)"
 
 #: pcbnew/zones_by_polygon.cpp:139
 msgid "The duplicated zone cannot be on the same layers as the original zone."
-msgstr ""
+msgstr "A zona duplicada não pode estar nas mesmas camadas que a zona original."
 
 #: pcbnew/zones_by_polygon.cpp:145
 msgid "The duplicated zone cannot be on the same layer as the original zone."
-msgstr ""
+msgstr "A zona duplicada não pode estar na mesma camada que a zona original."
 
 #: pcbnew/zones_by_polygon.cpp:177
 msgid "Warning: The new zone fails DRC"
-msgstr ""
+msgstr "Aviso: A nova zona não atende a RDC"
 
 #: pcbnew/zones_by_polygon.cpp:379 pcbnew/zones_by_polygon.cpp:438
 #: pcbnew/zones_by_polygon.cpp:831
@@ -28181,11 +28189,12 @@ msgstr "Área: erro de RDC no contorno"
 
 #: pcbnew/zones_by_polygon.cpp:553
 msgid "Error: a keepout area is allowed only on copper layers"
-msgstr ""
+msgstr "Erro: uma área de afastamento só é permitida em camadas de cobre"
 
 #: pcbnew/zones_by_polygon.cpp:701
 msgid "DRC error: this start point is inside or too close another area"
 msgstr ""
+"Erro RDC: este ponto de partida está dentro ou muito perto de outra área"
 
 #: pcbnew/zones_by_polygon.cpp:769
 msgid "DRC error: closing this area creates a DRC error with another area"
@@ -28195,10 +28204,11 @@ msgstr "Erro de RDC: fechar esta área cria um erro de RDC com outra área"
 msgid "Modify zone properties"
 msgstr "Modificar propriedades da zona"
 
+# Revisar
 #: pcbnew/zones_by_polygon.cpp:982
 #, c-format
 msgid "Refill %d Zones"
-msgstr ""
+msgstr "Preencher Zonas %d"
 
 #: pcbnew/zones_by_polygon_fill_functions.cpp:120
 msgid "Checking Zones"
