@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: KICAD\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-11 09:37+0800\n"
-"PO-Revision-Date: 2018-09-16 16:00+0800\n"
+"PO-Revision-Date: 2018-09-16 22:57+0800\n"
 "Last-Translator: Liu Guang <l.g110@163.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -16732,11 +16732,11 @@ msgstr "设置："
 #: pcbnew/dialogs/dialog_drc_base.cpp:48
 #: pcbnew/dialogs/dialog_plot_base.cpp:199
 msgid "Clearance:"
-msgstr "间隙："
+msgstr "间隙:"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:116
 msgid "Minimum width:"
-msgstr "最小宽度："
+msgstr "最小宽度:"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:118
 msgid "Minimum thickness of filled areas."
@@ -16787,7 +16787,7 @@ msgstr "防散热<花焊盘>"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:163
 msgid "Antipad clearance:"
-msgstr "与焊盘间距："
+msgstr "隔离焊盘间距:"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:168
 msgid "Clearance between pads in the same net and filled areas."
@@ -16795,7 +16795,7 @@ msgstr "同一网络和填充区域之间的焊盘间隙。"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:172
 msgid "Spoke width:"
-msgstr "导线宽度："
+msgstr "导线宽度:"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:177
 msgid "Width of copper in thermal reliefs."
@@ -16829,7 +16829,7 @@ msgstr "边界模式："
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:213
 msgid "Low Resolution"
-msgstr "低分辨率："
+msgstr "低分辨率"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:213
 msgid "High Resolution"
