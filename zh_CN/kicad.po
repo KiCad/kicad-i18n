@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: KICAD\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-11 09:37+0800\n"
-"PO-Revision-Date: 2018-09-16 22:57+0800\n"
+"PO-Revision-Date: 2018-09-16 23:42+0800\n"
 "Last-Translator: Liu Guang <l.g110@163.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -16637,7 +16637,7 @@ msgstr "最小宽度必须大于 %f\" / %f mm."
 
 #: pcbnew/dialogs/dialog_copper_zones.cpp:446
 msgid "Thermal relief spoke must be greater than the minimum width."
-msgstr "防散热线宽必须大于最小宽度。"
+msgstr "热隔离线宽必须大于最小宽度。"
 
 #: pcbnew/dialogs/dialog_copper_zones.cpp:459
 #: pcbnew/dialogs/dialog_print_using_printer.cpp:487
@@ -16775,15 +16775,15 @@ msgstr ""
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor_base.cpp:164
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:543
 msgid "Thermal relief"
-msgstr "防散热<花焊盘>"
+msgstr "热隔离<花焊盘>"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:154
 msgid "THT thermal"
-msgstr "插件(THT)防散热"
+msgstr "插件(THT)热隔离"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:161
 msgid "Thermal Reliefs:"
-msgstr "防散热<花焊盘>"
+msgstr "热隔离<花焊盘>"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:163
 msgid "Antipad clearance:"
@@ -16799,7 +16799,7 @@ msgstr "导线宽度:"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:177
 msgid "Width of copper in thermal reliefs."
-msgstr "防散热<花焊盘>连接线的宽度。"
+msgstr "热隔离<花焊盘>连接线的宽度。"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:190
 msgid "Zone priority level:"
@@ -21200,11 +21200,11 @@ msgstr "来自父系封装"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:552
 msgid "Thermal relief width:"
-msgstr "防散热线宽："
+msgstr "热隔离线宽："
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:563
 msgid "Thermal relief gap:"
-msgstr "防散热间距："
+msgstr "热隔离间距："
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:598
 msgid "Custom pad shape in zone:"
