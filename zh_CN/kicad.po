@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: KICAD\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-11 09:37+0800\n"
-"PO-Revision-Date: 2018-09-11 12:35+0800\n"
+"PO-Revision-Date: 2018-09-16 16:00+0800\n"
 "Last-Translator: Liu Guang <l.g110@163.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -4916,7 +4916,7 @@ msgstr "否"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:25
 msgid "Unit:"
-msgstr "单位:"
+msgstr "单元："
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:37
 msgid "Interchangeable units:"
@@ -4989,7 +4989,7 @@ msgstr "Y轴镜像"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:58
 msgid "Aspect:"
-msgstr "方向"
+msgstr "方向："
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:60
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:81
@@ -5401,19 +5401,19 @@ msgstr "风格(&y)"
 #: eeschema/dialogs/dialog_sch_edit_sheet_pin.cpp:30 eeschema/pin_type.cpp:38
 #: eeschema/sch_text.cpp:683
 msgid "Input"
-msgstr "输入"
+msgstr "Input"
 
 #: eeschema/dialogs/dialog_edit_label_base.cpp:82
 #: eeschema/dialogs/dialog_sch_edit_sheet_pin.cpp:31 eeschema/pin_type.cpp:41
 #: eeschema/sch_text.cpp:684
 msgid "Output"
-msgstr "输出"
+msgstr "Output"
 
 #: eeschema/dialogs/dialog_edit_label_base.cpp:82
 #: eeschema/dialogs/dialog_sch_edit_sheet_pin.cpp:32 eeschema/pin_type.cpp:44
 #: eeschema/sch_text.cpp:685
 msgid "Bidirectional"
-msgstr "双向"
+msgstr "Bidirectional"
 
 #: eeschema/dialogs/dialog_edit_label_base.cpp:82 eeschema/sch_text.cpp:686
 msgid "Tri-State"
@@ -5424,7 +5424,7 @@ msgstr "三态"
 #: eeschema/dialogs/dialog_spice_model_base.cpp:199 eeschema/pin_type.cpp:50
 #: eeschema/sch_text.cpp:687
 msgid "Passive"
-msgstr "无源"
+msgstr "Passive"
 
 #: eeschema/dialogs/dialog_edit_label_base.cpp:84
 msgid "S&hape:"
@@ -6766,7 +6766,7 @@ msgstr "工程恢复助手"
 
 #: eeschema/dialogs/dialog_sch_edit_sheet_pin.cpp:33 eeschema/pin_type.cpp:47
 msgid "Tri-state"
-msgstr "三态"
+msgstr "Tri-state"
 
 #: eeschema/dialogs/dialog_sch_edit_sheet_pin_base.cpp:40
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:128
@@ -15122,15 +15122,15 @@ msgstr "最小间距"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:1306
 msgid "Via: (diam - drill)"
-msgstr "过孔：（直径 - 钻孔）"
+msgstr "过孔：（钻孔 - 直径）"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:1307
 msgid "Plated Pad: (diam - drill)"
-msgstr "电镀焊盘：（直径 - 钻孔）"
+msgstr "电镀焊盘：（钻孔 - 直径）"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:1308
 msgid "NP Pad: (diam - drill)"
-msgstr "NPTH焊盘（直径 - 钻孔）"
+msgstr "非电镀焊盘：（钻孔 - 直径）"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:1327
 msgid "Board Classes"
@@ -17252,20 +17252,20 @@ msgstr "间距"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:50
 msgid "Via Dia"
-msgstr "过孔直径"
+msgstr "过孔外径"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:51
 msgid "Via Drill"
-msgstr "过孔钻孔"
+msgstr "过孔内径"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:52
 msgid "uVia Dia"
-msgstr "微孔直径"
+msgstr "微孔外径"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:53
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:90
 msgid "uVia Drill"
-msgstr "微孔钻孔"
+msgstr "微孔内孔"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:54
 msgid "Diff Pair Width"
@@ -17334,11 +17334,11 @@ msgstr "最小布线宽度："
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:202
 msgid "Minimum via diameter:"
-msgstr "最小过孔直径："
+msgstr "最小过孔外径："
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:213
 msgid "Minimum via drill:"
-msgstr "最小钻孔直径："
+msgstr "最小过孔内径："
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:227
 msgid "Allow blind/buried vias"
@@ -17350,11 +17350,11 @@ msgstr "允许微孔"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:242
 msgid "Minimum uVia diameter:"
-msgstr "最小微孔直径："
+msgstr "最小微孔外径："
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:255
 msgid "Minimum uVia drill:"
-msgstr "最小微孔钻孔："
+msgstr "最小微孔内径："
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:277
 msgid ""
@@ -17362,7 +17362,7 @@ msgid ""
 "default Netclass values on demand,\n"
 "for arbitrary vias or track segments."
 msgstr ""
-"具体过孔直径和布线宽度,可以按需要替换默认的网络类值给任何过孔或布线段。"
+"具体过孔外径和布线宽度，可以按需要替换默认的网络类值给任何过孔或布线段。"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:285
 msgid "Custom Via Sizes:"
@@ -18708,6 +18708,9 @@ msgid ""
 "This option can force this option for all footprints having only SMD pads.\n"
 "Warning: this options will modify the board."
 msgstr ""
+"仅当封装使用INSERT设置时列出在放置文件.\n"
+"此选项可以强制所有的封装与SMD焊盘。\n"
+"警告: 这个设置将修改到电路板."
 
 #: pcbnew/dialogs/dialog_gen_footprint_position_file_base.cpp:101
 msgid "Generate File"
@@ -19280,15 +19283,15 @@ msgstr "布线尺寸"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:87
 msgid "Via diameter"
-msgstr "过孔直径"
+msgstr "过孔外径"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:88
 msgid "Via drill"
-msgstr "过孔钻孔"
+msgstr "过孔内径"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:89
 msgid "uVia size"
-msgstr "微孔尺寸"
+msgstr "微孔外径"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:97
 msgid "Netclass value"
@@ -20245,7 +20248,7 @@ msgstr "开启/关闭 文档图形层"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.h:415
 msgid "Layer Setup"
-msgstr "图层设置"
+msgstr "层设置"
 
 #: pcbnew/dialogs/dialog_mask_clearance_base.cpp:27
 msgid ""
