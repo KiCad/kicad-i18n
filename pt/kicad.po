@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-18 21:11+0200\n"
-"PO-Revision-Date: 2018-09-16 16:31-0300\n"
+"PO-Revision-Date: 2018-09-18 16:10-0300\n"
 "Last-Translator: Francisco R. Pereira <frosch_bin@yahoo.com.br>\n"
 "Language-Team: kicad team\n"
 "Language: pt_BR\n"
@@ -7797,12 +7797,12 @@ msgid ""
 "skip this step, you will be responsible for manually remapping the symbols."
 msgstr ""
 "Este esquema utiliza atualmente o método de busca na lista de bibliotecas de "
-"símbolos do projeto para carregar símbolos de biblioteca. O KiCad tentará "
+"símbolos do projeto para carregar símbolos de biblioteca.  O KiCad tentará "
 "mapear os símbolos existentes para usarem a nova tabela de biblioteca de "
-"símbolos. O remapeamento mudará alguns arquivos do projeto, e esquemas podem "
-"não ser  mais compatíveis com versões anteriores do KiCad. Todos os arquivos "
+"símbolos.  O remapeamento mudará alguns arquivos do projeto, e esquemas podem "
+"não ser mais compatíveis com versões anteriores do KiCad.  Todos os arquivos "
 "que forem alterados serão antes copiados para a pasta \"remap_backup\" na "
-"pasta do projeto, caso precise reverter as alterações. Se optar por ignorar "
+"pasta do projeto, caso precise reverter as alterações.  Se optar por ignorar "
 "esta etapa, será responsável por realizar o remapeamento dos símbolos "
 "manualmente."
 
@@ -8207,7 +8207,7 @@ msgid ""
 "load \n"
 "hierarchical sheet schematics."
 msgstr ""
-"O esquema completo não pôde ser carregado. Ocorreram erros ao carregar "
+"O esquema completo não pôde ser carregado.  Ocorreram erros ao carregar "
 "esquemas de folha hierárquica."
 
 #: eeschema/files-io.cpp:316 eeschema/files-io.cpp:882
@@ -9081,7 +9081,7 @@ msgstr "Não é possível enumerar a biblioteca \"%s\""
 #: eeschema/lib_manager.cpp:337
 #, c-format
 msgid "Cannot load aliases from library \"%s\""
-msgstr "Não é possível carregar aliases da biblioteca \"%s\""
+msgstr "Não foi possível carregar os aliases da biblioteca \"%s\""
 
 #: eeschema/lib_manager.cpp:368 eeschema/lib_manager.cpp:533
 #, c-format
@@ -10815,9 +10815,9 @@ msgid ""
 "mode. In order to create/update PCBs from schematics, you need to launch "
 "Kicad shell and create a PCB project."
 msgstr ""
-"Não foi possível atualizar a PCI, porque o Editor de Esquema foi aberto em "
-"modo autônomo. Para criar/atualizar PCIs a partir de esquemas, você precisa "
-"iniciar o shell do KiCad e criar um projeto de PCI."
+"Não foi possível atualizar a PCI, porque o Editor de Esquema Eletrônico foi "
+"aberto em modo autônomo. Para criar/atualizar PCIs a partir de esquemas, você "
+"precisa iniciar o shell do KiCad e criar um projeto de PCI."
 
 #: eeschema/sch_edit_frame.cpp:1007
 msgid "Schematic"
@@ -10830,7 +10830,7 @@ msgstr "Novo Esquema"
 #: eeschema/sch_edit_frame.cpp:1053
 #, c-format
 msgid "Schematic file \"%s\" already exists, use Open instead"
-msgstr "Arquivo de esquema \"%s\" já existe, utilize a opção Abrir"
+msgstr "O arquivo de esquema \"%s\" já existe, utilize a opção Abrir"
 
 #: eeschema/sch_edit_frame.cpp:1074
 msgid "Open Schematic"
@@ -11328,9 +11328,9 @@ msgid ""
 "if not all of the symbol library links will be broken.  Do you want to "
 "continue?"
 msgstr ""
-"O esquema \"%s\" não foi remapeado para a tabela da biblioteca de símbolos. A "
+"O esquema \"%s\" não foi remapeado para a tabela de biblioteca de símbolos. A "
 "maioria, se não todos os links da biblioteca de símbolos, serão quebrados. "
-"Você quer continuar?"
+"Deseja continuar?"
 
 #: eeschema/sheetlab.cpp:167
 msgid "No new hierarchical labels found."
@@ -11471,7 +11471,7 @@ msgstr "Adicionar sinais…"
 
 #: eeschema/sim/sim_plot_frame_base.cpp:59
 msgid "Probe from schematics"
-msgstr "Sondar à partir do esquema"
+msgstr "Sondar à partir de esquemas"
 
 #: eeschema/sim/sim_plot_frame_base.cpp:62
 msgid "Tune component value"
@@ -11781,7 +11781,7 @@ msgstr "Fe&char"
 
 #: eeschema/tool_viewlib.cpp:174
 msgid "Close schematic symbol viewer"
-msgstr "Fechar o visualizador de símbolos de esquema"
+msgstr "Fechar o visualizador de símbolos esquemáticos"
 
 #: eeschema/tool_viewlib.cpp:197
 msgid "&Show Pin Electrical Type"
@@ -13356,7 +13356,7 @@ msgstr "Ativo"
 
 #: kicad/commandframe.cpp:72
 msgid "Schematic layout editor"
-msgstr "Editor de layout esquemático"
+msgstr "Editor de esquema eletrônico - Eeschema"
 
 #: kicad/commandframe.cpp:76
 msgid "Symbol library editor"
@@ -13364,15 +13364,15 @@ msgstr "Editor de biblioteca de símbolos"
 
 #: kicad/commandframe.cpp:83
 msgid "PCB layout editor"
-msgstr "Editor de layout de PCI"
+msgstr "Editor de projeto de PCI - Pcbnew"
 
 #: kicad/commandframe.cpp:87
 msgid "Footprint library editor"
-msgstr "Editor de bibliotecas de footprint"
+msgstr "Editor de biblioteca de footprint"
 
 #: kicad/commandframe.cpp:94
 msgid "Gerber viewer"
-msgstr "Visualizador Gerber"
+msgstr "Visualizador gerber - GerbView"
 
 #: kicad/commandframe.cpp:98
 msgid ""
@@ -13380,7 +13380,7 @@ msgid ""
 "Convert bitmap images to schematic or PCB elements"
 msgstr ""
 "Importar bitmap\n"
-"Converter imagens bitmap em elementos esquemáticos ou de PCI"
+"Converte imagens bitmap em elementos esquemáticos ou de PCI"
 
 #: kicad/commandframe.cpp:103
 msgid "Calculator tools"
@@ -13388,7 +13388,7 @@ msgstr "Ferramentas de cálculo"
 
 #: kicad/commandframe.cpp:107
 msgid "Worksheet layout editor"
-msgstr "Editor de layout de página de desenho"
+msgstr "Editor de folha de desenho - Page Layout Editor"
 
 #: kicad/dialogs/dialog_template_selector.cpp:123
 msgid "<html><h1>Template Selector</h1></html>"
@@ -13604,7 +13604,7 @@ msgstr "&Projeto…"
 
 #: kicad/menubar.cpp:221
 msgid "Create new blank project"
-msgstr "Cria um novo projeto em branco"
+msgstr "Novo projeto em branco"
 
 #: kicad/menubar.cpp:223
 msgid "Project from &Template..."
@@ -13612,7 +13612,7 @@ msgstr "Projeto a Partir de &Modelo…"
 
 #: kicad/menubar.cpp:226 kicad/menubar.cpp:512
 msgid "Create new project from template"
-msgstr "Cria um novo projeto a partir de modelo"
+msgstr "Novo projeto a partir de modelo"
 
 #: kicad/menubar.cpp:230 pagelayout_editor/menubar.cpp:62
 #: pcbnew/menubar_pcb_editor.cpp:797
@@ -13621,7 +13621,7 @@ msgstr "&Novo"
 
 #: kicad/menubar.cpp:231 kicad/menubar.cpp:508
 msgid "Create new project"
-msgstr "Cria um novo projeto"
+msgstr "Novo projeto"
 
 #: kicad/menubar.cpp:235
 msgid "&Open Project..."
@@ -13629,7 +13629,7 @@ msgstr "&Abrir Projeto…"
 
 #: kicad/menubar.cpp:237
 msgid "Open an existing project"
-msgstr "Abrir um projeto existente"
+msgstr "Abre um projeto existente"
 
 #: kicad/menubar.cpp:247
 msgid "Open a recent project"
@@ -13645,7 +13645,7 @@ msgstr "EAGLE CAD…"
 
 #: kicad/menubar.cpp:264
 msgid "Import EAGLE CAD XML schematic and board"
-msgstr "Importar esquema e placa em XML EAGLE CAD"
+msgstr "Importar esquema eletrônico e placa no formato XML EAGLE CAD"
 
 #: kicad/menubar.cpp:270
 msgid "Import Project"
@@ -13661,7 +13661,7 @@ msgstr "&Compactar Projeto…"
 
 #: kicad/menubar.cpp:281
 msgid "Archive all needed project files into zip archive"
-msgstr "Armazena o projeto em um arquivo zip"
+msgstr "Armazenar projeto em um arquivo zip"
 
 #: kicad/menubar.cpp:287
 msgid "&Unarchive Project..."
@@ -13669,7 +13669,7 @@ msgstr "&Descompactar Projeto…"
 
 #: kicad/menubar.cpp:288 kicad/menubar.cpp:538
 msgid "Unarchive project files from zip archive"
-msgstr "Recupera um projeto armazenado em arquivo zip"
+msgstr "Recuperar projeto de um arquivo zip"
 
 #: kicad/menubar.cpp:298
 msgid "Close KiCad"
@@ -13681,7 +13681,7 @@ msgstr "&Atualizar"
 
 #: kicad/menubar.cpp:307 kicad/menubar.cpp:545
 msgid "Refresh project tree"
-msgstr "Atualiza a árvore do projeto"
+msgstr "Atualizar árvore do projeto"
 
 #: kicad/menubar.cpp:320
 msgid "Open Text E&ditor"
@@ -13785,7 +13785,7 @@ msgstr "Editar Layout da Página"
 
 #: kicad/menubar.cpp:432
 msgid "Pl editor - Worksheet layout editor"
-msgstr "Page Layout Editor - Editor de layout de página de desenho"
+msgstr "Page Layout Editor - Editor de folha de desenho"
 
 #: kicad/menubar.cpp:440
 msgid "KiCad &Manual"
@@ -13805,11 +13805,11 @@ msgstr "&Navegar"
 
 #: kicad/menubar.cpp:517
 msgid "Open existing project"
-msgstr "Abrir um projeto existente"
+msgstr "Abrir projeto existente"
 
 #: kicad/menubar.cpp:533
 msgid "Archive all project files"
-msgstr "Armazena o projeto em um arquivo zip"
+msgstr "Armazenar projeto em um arquivo zip"
 
 #: kicad/preferences.cpp:63
 msgid "You must choose a PDF viewer before using this option."
@@ -13833,7 +13833,7 @@ msgstr "Criar um novo diretório para o projeto"
 
 #: kicad/prjconfig.cpp:222
 msgid "Create New Project"
-msgstr "Criar Novo Diretório"
+msgstr "Criar Novo Projeto"
 
 #: kicad/prjconfig.cpp:249
 #, c-format
@@ -13944,16 +13944,16 @@ msgid ""
 "Current project directory:\n"
 "%s"
 msgstr ""
-"Pasta do projeto atual:\n"
+"Local do projeto atual:\n"
 "%s"
 
 #: kicad/tree_project_frame.cpp:221
 msgid "Create New Directory"
-msgstr "Criar Novo Diretório"
+msgstr "Criar Nova Pasta"
 
 #: kicad/tree_project_frame.cpp:682 kicad/tree_project_frame.cpp:689
 msgid "New D&irectory..."
-msgstr "Novo Diretório…"
+msgstr "Nova &Pasta…"
 
 #: kicad/tree_project_frame.cpp:683 kicad/tree_project_frame.cpp:690
 msgid "Create a New Directory"
@@ -13961,7 +13961,7 @@ msgstr "Criar um Novo Diretório"
 
 #: kicad/tree_project_frame.cpp:693
 msgid "&Delete Directory"
-msgstr "&Apagar Diretório"
+msgstr "&Apagar Pasta"
 
 #: kicad/tree_project_frame.cpp:694 kicad/tree_project_frame.cpp:709
 msgid "Delete the Directory and its content"
@@ -13969,7 +13969,7 @@ msgstr "Apagar o Diretório e seu conteúdo"
 
 #: kicad/tree_project_frame.cpp:700
 msgid "&Edit in a Text Editor"
-msgstr "&Editar em um Editor de Texto"
+msgstr "&Abrir em um Editor de Texto"
 
 #: kicad/tree_project_frame.cpp:701
 msgid "Open the file in a Text Editor"
@@ -13990,7 +13990,7 @@ msgstr "&Apagar Arquivo"
 #: kicad/tree_project_frame.cpp:758
 #, c-format
 msgid "Change filename: \"%s\""
-msgstr "Alterar nome do arquivo: \"%s\""
+msgstr "Alterar o nome do arquivo: \"%s\""
 
 #: kicad/tree_project_frame.cpp:761
 msgid "Change filename"
@@ -14023,7 +14023,7 @@ msgstr "Você realmente quer apagar \"%s\""
 
 #: kicad/treeproject_item.cpp:137
 msgid "Delete File"
-msgstr "Apagar Arquivo"
+msgstr "Excluir"
 
 #: pagelayout_editor/dialogs/dialog_new_dataitem_base.cpp:30
 msgid "Y start:"
@@ -14259,7 +14259,7 @@ msgstr "Anexar Arquivo de Layout de Página Existente"
 #: pagelayout_editor/files.cpp:119 pagelayout_editor/files.cpp:145
 #, c-format
 msgid "Unable to load %s file"
-msgstr "Não é possível carregar o arquivo %s"
+msgstr "Não foi possível carregar o arquivo %s"
 
 #: pagelayout_editor/files.cpp:127
 #, c-format
@@ -14303,7 +14303,7 @@ msgstr "Mover Ponto Final"
 
 #: pagelayout_editor/hotkeys.cpp:131 pagelayout_editor/pl_editor_frame.cpp:333
 msgid "Page Layout Editor"
-msgstr "Editor de Layout de Página"
+msgstr "Page Layout Editor"
 
 #: pagelayout_editor/menubar.cpp:64
 msgid "Create new page layout design"
@@ -14335,7 +14335,7 @@ msgstr "Pré-&visualização…"
 
 #: pagelayout_editor/menubar.cpp:105
 msgid "Close Page Layout Editor"
-msgstr "Fechar Editor de Layout de Página"
+msgstr "Fechar o Page Layout Editor"
 
 #: pagelayout_editor/menubar.cpp:146
 msgid "&Line..."
@@ -14375,11 +14375,11 @@ msgstr "Ocultar &Grade"
 
 #: pagelayout_editor/menubar.cpp:201
 msgid "Page Layout Editor &Manual"
-msgstr "&Manual do Editor de Layout de Página"
+msgstr "&Manual do Page Layout Editor"
 
 #: pagelayout_editor/menubar.cpp:202
 msgid "Open the Page Layout Editor Manual"
-msgstr "Abrir o Manual do Editor de Layout de Página"
+msgstr "Abrir o Manual do Page Layout Editor"
 
 #: pagelayout_editor/onrightclick.cpp:45
 msgid "Add Line..."
@@ -15928,7 +15928,7 @@ msgid ""
 "will not be consistent with the schematics."
 msgstr ""
 "Ocorreram erros durante a atualização da netlist. A menos que você os "
-"conserte, sua placa não estará consistente com os esquemas."
+"conserte, sua placa não estará consistente com os esquemas eletrônicos."
 
 #: pcbnew/board_netlist_updater.cpp:793
 msgid "Netlist update successful!"
@@ -25124,7 +25124,9 @@ msgstr "Ler netlist e atualizar a conectividade da placa"
 
 #: pcbnew/menubar_pcb_editor.cpp:424
 msgid "Update PCB design with current schematic (forward annotation)"
-msgstr "Atualiza o projeto da PCI a partir do esquema atual (anotação à frente)"
+msgstr ""
+"Atualiza o projeto da PCI a partir do esquema eletrônico atual (anotação à "
+"frente)"
 
 # Revisar
 #: pcbnew/menubar_pcb_editor.cpp:430
@@ -25418,7 +25420,7 @@ msgstr "Arquivo &BOM…"
 
 #: pcbnew/menubar_pcb_editor.cpp:920
 msgid "Create bill of materials from current schematic"
-msgstr "Criar lista de materiais a partir do esquema atual"
+msgstr "Criar lista de materiais a partir do esquema eletrônico atual"
 
 #: pcbnew/menubar_pcb_editor.cpp:924
 msgid "&Fabrication Outputs"
@@ -26111,8 +26113,8 @@ msgid ""
 "project manager and create a PCB project."
 msgstr ""
 "Não foi possível atualizar a PCI, porque o Pcbnew foi aberto em modo "
-"autônomo. Para criar ou atualizar PCIs a partir de esquemas, você precisa "
-"iniciar o gerente de projeto KiCad e criar um projeto de PCI."
+"autônomo. Para criar ou atualizar PCIs a partir de esquemas eletrônicos, você "
+"precisa iniciar o gerente de projeto KiCad e criar um projeto de PCI."
 
 #: pcbnew/pcb_layer_box_selector.cpp:97
 msgid "(not activated)"
@@ -26248,11 +26250,11 @@ msgstr "Mostar origens de textos e footprints como uma cruz"
 
 #: pcbnew/pcb_layer_widget.cpp:88
 msgid "Worksheet"
-msgstr "Planilha"
+msgstr "Folha de Desenho"
 
 #: pcbnew/pcb_layer_widget.cpp:88
 msgid "Show worksheet"
-msgstr "Exibir worksheet"
+msgstr "Exibir folha de desenho"
 
 #: pcbnew/pcb_layer_widget.cpp:89
 msgid "Cursor"
