@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: KICAD\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-11 09:37+0800\n"
-"PO-Revision-Date: 2018-09-16 23:42+0800\n"
+"PO-Revision-Date: 2018-09-21 16:00+0800\n"
 "Last-Translator: Liu Guang <l.g110@163.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -17157,7 +17157,8 @@ msgstr "不允许移除默认的网络类"
 #, c-format
 msgid " - <b>Track Size</b> (%f %s) &lt; <b>Min Track Size</b> (%f %s)<br>"
 msgstr ""
-" - <b>此网络类的布线宽度</b>(%f %s) &lt; <b>全局的导线最小宽度</b>(%f %s)<br>"
+" - <b>此网络类的布线宽度</b>(%f %s) &lt; <b> 全局规则的最小布线宽度</b>(%f "
+"%s)<br>"
 
 #: pcbnew/dialogs/dialog_design_rules.cpp:1039
 #, c-format
@@ -17165,42 +17166,46 @@ msgid ""
 " - <b>Differential Pair Size</b> (%f %s) &lt; <b>Min Track Size</b> (%f "
 "%s)<br>"
 msgstr ""
-" - <b>此网络类的差分线宽度</b>(%f %s) &lt; <b>全局的导线最小宽度</b>(%f "
+" - <b>此网络类的差分对宽度</b>(%f %s) &lt; <b> 全局规则的最小布线宽度</b>(%f "
 "%s)<br>"
 
 #: pcbnew/dialogs/dialog_design_rules.cpp:1053
 #, c-format
 msgid ""
 " - <b>Via Diameter</b> (%f %s) &lt; <b>Minimum Via Diameter</b> (%f %s)<br>"
-msgstr " - <b>过孔直径</b> (%f %s)&lt; <b>最小过孔直径</b> (%f %s)<br>"
+msgstr ""
+" - <b>过孔外径</b> (%f %s) &lt; <b>全局规则的最小过孔外径</b> (%f %s)<br>"
 
 #: pcbnew/dialogs/dialog_design_rules.cpp:1065
 #, c-format
 msgid " - <b>Via Drill</b> (%f %s) &ge; <b>Via Dia</b> (%f %s)<br>"
-msgstr "- <b>过孔钻孔</b> (%f %s)&ge; <b>孔直径</b> (%f %s)<br>"
+msgstr " - <b>过孔内径</b> (%f %s)&ge; <b>过孔外径</b> (%f %s)<br>"
 
 #: pcbnew/dialogs/dialog_design_rules.cpp:1074
 #, c-format
 msgid " - <b>Via Drill</b> (%f %s) &lt; <b>Min Via Drill</b> (%f %s)<br>"
-msgstr "- <b>过孔钻孔</b> (%f %s) &lt; <b>最小钻孔</b> (%f %s)<br>"
+msgstr ""
+" - <b>过孔内径</b> (%f %s) &lt; <b>全局规则的最小过孔内径</b> (%f %s)<br>"
 
 #: pcbnew/dialogs/dialog_design_rules.cpp:1087
 #, c-format
 msgid ""
 " - <b>MicroVia Diameter</b> (%f %s) &lt; <b>MicroVia Min Diameter</b> (%f "
 "%s)<br>"
-msgstr "-  <b>微过孔直径</b> (%f %s)&lt; <b>最小微过孔直径</b> (%f %s)<br>"
+msgstr ""
+" - <b>微孔外径</b> (%f %s)&lt; <b>全局规则的最小微孔外径</b> (%f %s)<br>"
 
 #: pcbnew/dialogs/dialog_design_rules.cpp:1099
 #, c-format
 msgid " - <b>MicroVia Drill</b> (%f %s) &ge; <b>MicroVia Dia</b> (%f %s)<br>"
-msgstr " - <b>微过孔钻孔</b> (%f %s)&ge; <b>微过孔直径</b> (%f %s)<br>"
+msgstr " - <b>微孔内径</b> (%f %s)&ge; <b>微孔外径</b> (%f %s)<br>"
 
 #: pcbnew/dialogs/dialog_design_rules.cpp:1108
 #, c-format
 msgid ""
 " - <b>MicroVia Drill</b> (%f %s) &lt; <b>MicroVia Min Drill</b> (%f %s)<br>"
-msgstr " - <b>微过孔钻孔</b>(%f %s) &lt; <b>微过孔最小钻孔</b>(%f %s)<br>"
+msgstr ""
+" - <b>微孔内径</b>(%f %s) &lt; <b>全局规则的最小微孔内径</b>(%f %s)<br>"
 
 #: pcbnew/dialogs/dialog_design_rules.cpp:1117
 #, c-format
@@ -17269,11 +17274,11 @@ msgstr "微孔内孔"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:54
 msgid "Diff Pair Width"
-msgstr "差分线宽度"
+msgstr "差分对宽度"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:55
 msgid "Diff Pair Gap"
-msgstr "差分线间距"
+msgstr "差分对间距"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:68
 msgid "Net Class parameters"
@@ -17664,11 +17669,11 @@ msgstr "启动设计规则检查"
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:196
 msgid "List Unconnected"
-msgstr "列出未连接"
+msgstr "未连接列表"
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:197
 msgid "List unconnected pads or tracks"
-msgstr "列出未连接的焊盘或布线"
+msgstr "未连接的焊盘或布线列表"
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:201
 msgid "Delete All Markers"
