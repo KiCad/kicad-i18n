@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-18 21:11+0200\n"
-"PO-Revision-Date: 2018-09-18 16:10-0300\n"
+"PO-Revision-Date: 2018-09-27 16:26-0300\n"
 "Last-Translator: Francisco R. Pereira <frosch_bin@yahoo.com.br>\n"
 "Language-Team: kicad team\n"
 "Language: pt_BR\n"
@@ -570,7 +570,7 @@ msgstr "Copiar imagem 3D"
 #: pagelayout_editor/menubar.cpp:235 pcbnew/menubar_footprint_editor.cpp:523
 #: pcbnew/menubar_pcb_editor.cpp:140 pcbnew/tool_footprint_viewer.cpp:194
 msgid "&View"
-msgstr "&Visualizar"
+msgstr "&Vista"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:76 eeschema/menubar.cpp:166
 #: eeschema/menubar_libedit.cpp:154 eeschema/tool_viewlib.cpp:180
@@ -888,8 +888,7 @@ msgstr "&Listar Atalhos…"
 #: gerbview/menubar.cpp:371 kicad/menubar.cpp:452
 #: pagelayout_editor/menubar.cpp:213
 msgid "Displays the current hotkeys list and corresponding commands"
-msgstr ""
-"Apresenta a lista de teclas de atalho corrente e os comandos correspondentes"
+msgstr "Apresentar lista de teclas de atalho atual e comandos correspondentes"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:340 eeschema/menubar.cpp:655
 #: eeschema/menubar_libedit.cpp:342 eeschema/tool_viewlib.cpp:216
@@ -905,7 +904,7 @@ msgstr "&Envolva-se"
 #: pagelayout_editor/menubar.cpp:219 pcbnew/menubar_footprint_editor.cpp:510
 #: pcbnew/menubar_pcb_editor.cpp:491
 msgid "Contribute to KiCad (opens a web browser)"
-msgstr "Contribua com o KiCad (abre no navegador)"
+msgstr "Contribuir com o KiCad (abre no navegador)"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:347 cvpcb/menubar.cpp:103
 #: eeschema/menubar.cpp:662 eeschema/menubar_libedit.cpp:351
@@ -2603,7 +2602,7 @@ msgstr "Opções de Ícones"
 
 #: common/eda_base_frame.cpp:704
 msgid "Select show icons in menus and icons sizes"
-msgstr "Selecione exibir ícones em menus e tamanhos de ícones"
+msgstr "Selecionar exibição de ícones em menus e tamanhos de ícones"
 
 #: common/eda_doc.cpp:148 eeschema/dialogs/dialog_edit_component_in_lib.cpp:467
 msgid "Doc Files"
@@ -2832,7 +2831,7 @@ msgstr "&Importar Teclas de Atalho…"
 
 #: common/hotkeys_basic.cpp:831 eeschema/menubar.cpp:715
 msgid "Load existing hotkey configuration file"
-msgstr "Recarregar arquivo de teclas de atalho existente"
+msgstr "Carregar arquivo de configuração de teclas de atalho existente"
 
 #: common/hotkeys_basic.cpp:836 eeschema/menubar.cpp:719
 msgid "&Hotkeys Options"
@@ -13364,11 +13363,11 @@ msgstr "Editor de biblioteca de símbolos"
 
 #: kicad/commandframe.cpp:83
 msgid "PCB layout editor"
-msgstr "Editor de projeto de PCI - Pcbnew"
+msgstr "Editor de layout de PCI - Pcbnew"
 
 #: kicad/commandframe.cpp:87
 msgid "Footprint library editor"
-msgstr "Editor de biblioteca de footprint"
+msgstr "Editor de biblioteca de footprints"
 
 #: kicad/commandframe.cpp:94
 msgid "Gerber viewer"
@@ -13379,12 +13378,12 @@ msgid ""
 "Import bitmap\n"
 "Convert bitmap images to schematic or PCB elements"
 msgstr ""
-"Importar bitmap\n"
+"Conversor de bitmap\n"
 "Converte imagens bitmap em elementos esquemáticos ou de PCI"
 
 #: kicad/commandframe.cpp:103
 msgid "Calculator tools"
-msgstr "Ferramentas de cálculo"
+msgstr "Calculadora PCI"
 
 #: kicad/commandframe.cpp:107
 msgid "Worksheet layout editor"
@@ -13525,13 +13524,14 @@ msgstr "%s fechado [pid=%d]\n"
 msgid "%s %s opened [pid=%ld]\n"
 msgstr "%s %s aberto [pid=%ld]\n"
 
+# Verificar
 #: kicad/mainframe.cpp:363
 msgid "Component library editor failed to load:\n"
 msgstr "Editor de biblioteca de componentes falhou ao carregar:\n"
 
 #: kicad/mainframe.cpp:435
 msgid "Footprint library editor failed to load:\n"
-msgstr "Editor de biblioteca de footprint falhou ao carregar:\n"
+msgstr "O editor de biblioteca de footprints falhou ao carregar:\n"
 
 #: kicad/mainframe.cpp:502
 msgid "Load File to Edit"
@@ -13697,7 +13697,7 @@ msgstr "&Abrir Arquivo Local…"
 
 #: kicad/menubar.cpp:328
 msgid "Edit local file"
-msgstr "Edita um arquivo local"
+msgstr "Editar um arquivo local"
 
 #: kicad/menubar.cpp:344
 msgid "&Set Text Editor..."
@@ -13705,7 +13705,7 @@ msgstr "&Definir Editor de Texto..."
 
 #: kicad/menubar.cpp:345
 msgid "Set your preferred text editor"
-msgstr "Defina seu editor de texto preferido"
+msgstr "Definir o editor de texto preferido"
 
 #: kicad/menubar.cpp:353
 msgid "System &Default PDF Viewer"
@@ -13713,7 +13713,7 @@ msgstr "Visualizador de PDF &Padrão do Sistema"
 
 #: kicad/menubar.cpp:354
 msgid "Use system default PDF viewer"
-msgstr "Utilize o visualizador de PDF padrão do sistema"
+msgstr "Utilizar o visualizador de PDF padrão do sistema"
 
 #: kicad/menubar.cpp:362
 msgid "&Favorite PDF Viewer"
@@ -13721,7 +13721,7 @@ msgstr "Visualizador de PDF &favorito"
 
 #: kicad/menubar.cpp:363
 msgid "Use favorite PDF viewer"
-msgstr "Utilize o visualizador de PDF favorito"
+msgstr "Utilizar o visualizador de PDF favorito"
 
 #: kicad/menubar.cpp:373
 msgid "Set &PDF Viewer..."
@@ -13741,7 +13741,7 @@ msgstr "Preferências do Visualizador de PDF"
 
 #: kicad/menubar.cpp:399
 msgid "Edit Schematic"
-msgstr "Editar Esquema"
+msgstr "Editar Esquema Eletrônico"
 
 #: kicad/menubar.cpp:402
 msgid "Edit Schematic Symbols"
@@ -13767,9 +13767,7 @@ msgstr "Converter Imagem"
 msgid ""
 "Bitmap2Component - Convert bitmap images to schematic\n"
 "or PCB elements"
-msgstr ""
-"Bitmap2Component - Converte imagens bitmap em elementos esquemáticos\n"
-" ou elementos da PCI"
+msgstr "Converter imagens bitmap em elementos esquemáticos ou elementos da PCI"
 
 #: kicad/menubar.cpp:425
 msgid "Run PCB Calculator"
@@ -13777,15 +13775,15 @@ msgstr "Executar Calculadora PCI"
 
 #: kicad/menubar.cpp:427
 msgid "Pcb calculator - Calculator for components, track width, etc."
-msgstr "Calculadora PCI - Calculadora de componentes, larguras de trilha, etc."
+msgstr "Abrir ferramentas para cálculo de componentes, larguras de trilha, etc."
 
 #: kicad/menubar.cpp:430
 msgid "Edit Page Layout"
-msgstr "Editar Layout da Página"
+msgstr "Editar Folha de Desenho"
 
 #: kicad/menubar.cpp:432
 msgid "Pl editor - Worksheet layout editor"
-msgstr "Page Layout Editor - Editor de folha de desenho"
+msgstr "Abrir o editor de folha de desenho"
 
 #: kicad/menubar.cpp:440
 msgid "KiCad &Manual"
@@ -18011,7 +18009,7 @@ msgstr "Alterar Footprint"
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:151
 #: pcbnew/footprint_edit_frame.cpp:766 pcbnew/hotkeys.cpp:498
 msgid "Footprint Editor"
-msgstr "Editor de Footprint"
+msgstr "Editor de Footprints"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:160
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor_base.cpp:105
@@ -24660,7 +24658,8 @@ msgstr "Contornos de Footprint de um arquivo &DXF..."
 #: pcbnew/menubar_footprint_editor.cpp:101
 msgid "Import 2D Drawing DXF file to Footprint Editor on Drawings layer"
 msgstr ""
-"Importar arquivo DXF de desenho 2D para Editor de Footprint na camada Desenhos"
+"Importar arquivo DXF de desenho 2D para Editor de Footprints na camada "
+"Desenhos"
 
 #: pcbnew/menubar_footprint_editor.cpp:113
 msgid "&Active Library..."
@@ -24692,7 +24691,7 @@ msgstr "Editar propriedades do footprint"
 
 #: pcbnew/menubar_footprint_editor.cpp:151
 msgid "Close footprint editor"
-msgstr "Fechar editor de footprint"
+msgstr "Fechar editor de footprints"
 
 #: pcbnew/menubar_footprint_editor.cpp:160
 msgid "Undo last action"
@@ -24901,7 +24900,7 @@ msgstr "&Configurações Gerais…"
 
 #: pcbnew/menubar_footprint_editor.cpp:450
 msgid "Change footprint editor settings."
-msgstr "Alterar configurações do editor de footprint."
+msgstr "Alterar configurações do editor de footprints."
 
 #: pcbnew/menubar_footprint_editor.cpp:456 pcbnew/menubar_pcb_editor.cpp:212
 msgid "&Display Options..."
