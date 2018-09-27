@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-18 21:11+0200\n"
-"PO-Revision-Date: 2018-09-27 16:26-0300\n"
+"PO-Revision-Date: 2018-09-27 17:02-0300\n"
 "Last-Translator: Francisco R. Pereira <frosch_bin@yahoo.com.br>\n"
 "Language-Team: kicad team\n"
 "Language: pt_BR\n"
@@ -141,7 +141,7 @@ msgstr "Apelidos não podem conter nenhum destes caracteres "
 #: common/dialogs/dialog_env_var_config.cpp:325
 #: common/dialogs/dialog_env_var_config.cpp:506
 msgid "Environment Variable Help"
-msgstr "Ajuda para Variáveis de Ambiente"
+msgstr "Ajuda de Variáveis de Ambiente"
 
 #: 3d-viewer/3d_cache/dialogs/dlg_3d_pathconfig_base.cpp:37
 #: cvpcb/dialogs/dialog_config_equfiles_base.cpp:80
@@ -1860,10 +1860,10 @@ msgid ""
 "ignored."
 msgstr ""
 "Entre com o nome e o valor de cada variável de ambiente.  Entradas em cinza "
-"são de nomes definidos externamente a nível de sistema ou usuário.  Variáveis "
-"de ambiente definidas em nível de sistema ou usuário tem precedência em "
-"relação às definidas nesta tabela.  Isto significa que os valores nesta "
-"tabela são ignorados."
+"são de nomes definidos externamente pelo sistema ou usuário.  Variáveis de "
+"ambiente definidas pelo sistema ou usuário tem precedência em relação às "
+"definidas nesta tabela, isto significa que, neste caso, os valores desta "
+"tabela serão ignorados."
 
 #: common/dialogs/dialog_env_var_config.cpp:297
 msgid ""
@@ -1871,9 +1871,9 @@ msgid ""
 "field will only accept upper case letters, digits, and the underscore "
 "characters."
 msgstr ""
-"Para garantir que nomes de variáveis de ambiente sejam válidas em todas as "
+"Para garantir que nomes de variáveis de ambiente sejam válidos em todas as "
 "plataformas, o campo nome irá aceitar apenas letras maiúsculas, dígitos e o "
-"subtraço."
+"caractere sublinhado."
 
 #: common/dialogs/dialog_env_var_config.cpp:300
 msgid ""
@@ -1943,7 +1943,7 @@ msgstr ""
 
 #: common/dialogs/dialog_env_var_config.cpp:432
 msgid "Select Path for Environment Variable"
-msgstr "Selecione o caminho para variável de ambiente"
+msgstr "Selecione o local para a variável de ambiente"
 
 #: common/dialogs/dialog_env_var_config.cpp:465
 msgid "Environment variable name cannot be empty."
@@ -1968,13 +1968,13 @@ msgid ""
 "allowed in environment variable names and the environment variable name "
 "cannot start with a digit (0-9)."
 msgstr ""
-"Uma variável de ambiente é utilizada para substituições em cadeia de "
+"Uma variável de ambiente é utilizada para ser substituída em cadeias de "
 "caracteres.<br>Variáveis de ambiente são utilizadas principalmente para "
-"locais de arquivos, para tornar o Kicad portável entre plataformas.<br><br>se "
+"locais de arquivos, tornando o Kicad portável entre plataformas.<br><br>Se "
 "uma variável de ambiente for definida como <b>MYLIBPATH</b> com um valor "
 "<b>e:/kicad_libs</b>, então um nome de biblioteca <b>${MYLIBPATH}/mylib.lib</"
 "b> será expandido para <b>e:/kicad_libs/mylib.lib</b><br><br><b>Nota:</"
-"b><br>Somente caracteres <b>ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_</b> são "
+"b><br>Somente os caracteres <b>ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_</b> são "
 "permitidos em nomes de variáveis de ambiente, e o nome de variável de "
 "ambiente não pode iniciar com um dígito (0-9)."
 
@@ -2799,7 +2799,7 @@ msgstr "Selecionar todas as células"
 
 #: common/hotkeys_basic.cpp:456 common/hotkeys_basic.cpp:486
 msgid "Hotkeys List"
-msgstr "Lista de Teclas de Atalho"
+msgstr "Teclas de Atalho"
 
 #: common/hotkeys_basic.cpp:756
 msgid "Read Hotkey Configuration File:"
@@ -3011,7 +3011,7 @@ msgstr "Arquivo executável (*)|*"
 
 #: common/pgm_base.cpp:391
 msgid "Select Preferred Editor"
-msgstr "Selecionar Editor Preferido"
+msgstr "Selecionar um Editor de Texto"
 
 #: common/pgm_base.cpp:412
 #, c-format
@@ -13535,7 +13535,7 @@ msgstr "O editor de biblioteca de footprints falhou ao carregar:\n"
 
 #: kicad/mainframe.cpp:502
 msgid "Load File to Edit"
-msgstr "Carregar arquivo para Editar"
+msgstr "Carregar Arquivo para Edição"
 
 #: kicad/mainframe.cpp:551
 #, c-format
@@ -13560,11 +13560,11 @@ msgstr "Executar Eeschema"
 
 #: kicad/menubar.cpp:147
 msgid "Run LibEdit"
-msgstr "Executar LibEdit"
+msgstr "Executar Editor de Biblioteca de Símbolos"
 
 #: kicad/menubar.cpp:149
 msgid "Run FpEditor"
-msgstr "Executar FpEditor"
+msgstr "Executar Editor de Biblioteca de Footprints"
 
 #: kicad/menubar.cpp:150
 msgid "Run Gerbview"
@@ -13572,15 +13572,15 @@ msgstr "Executar Gerbview"
 
 #: kicad/menubar.cpp:151
 msgid "Run Bitmap2Component"
-msgstr "Executar Bitmap2Component"
+msgstr "Executar Conversor de Bitmap"
 
 #: kicad/menubar.cpp:153
 msgid "Run PcbCalculator"
-msgstr "Executar PcbCalculator"
+msgstr "Executar Calculadora PCI"
 
 #: kicad/menubar.cpp:155
 msgid "Run PlEditor"
-msgstr "Executar PlEditor"
+msgstr "Executar Editor de Folha de Desenho"
 
 #: kicad/menubar.cpp:158
 msgid "New Project"
