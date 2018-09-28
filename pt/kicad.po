@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-18 21:11+0200\n"
-"PO-Revision-Date: 2018-09-27 17:02-0300\n"
+"PO-Revision-Date: 2018-09-28 18:01-0300\n"
 "Last-Translator: Francisco R. Pereira <frosch_bin@yahoo.com.br>\n"
 "Language-Team: kicad team\n"
 "Language: pt_BR\n"
@@ -940,7 +940,7 @@ msgstr "Renderizar a tela atual utilizando Raytracing"
 #: pcbnew/footprint_wizard_frame.cpp:679 pcbnew/help_common_strings.h:19
 #: pcbnew/tool_footprint_editor.cpp:123 pcbnew/tool_footprint_viewer.cpp:78
 msgid "Zoom in"
-msgstr "Mais zoom"
+msgstr "Ampliar"
 
 #: 3d-viewer/3d_viewer/3d_toolbar.cpp:80 3d-viewer/3d_viewer/hotkeys.cpp:52
 #: eeschema/help_common_strings.h:44 eeschema/tool_viewlib.cpp:71
@@ -949,7 +949,7 @@ msgstr "Mais zoom"
 #: pcbnew/footprint_wizard_frame.cpp:684 pcbnew/help_common_strings.h:20
 #: pcbnew/tool_footprint_editor.cpp:126 pcbnew/tool_footprint_viewer.cpp:83
 msgid "Zoom out"
-msgstr "Menos zoom"
+msgstr "Reduzir"
 
 #: 3d-viewer/3d_viewer/3d_toolbar.cpp:84 eeschema/tool_viewlib.cpp:76
 #: gerbview/toolbars_gerber.cpp:75 pagelayout_editor/toolbars_pl_editor.cpp:82
@@ -1147,7 +1147,7 @@ msgstr "Rotacionar 45º no eixo Z"
 
 #: 3d-viewer/3d_viewer/hotkeys.cpp:51
 msgid "Zoom in "
-msgstr "Mais zoom "
+msgstr "Ampliar "
 
 #: 3d-viewer/3d_viewer/hotkeys.cpp:53
 msgid "Toggle 3D models with type Through Hole"
@@ -1481,7 +1481,7 @@ msgstr "Colar Bloco"
 #: pcbnew/footprint_editor_utils.cpp:941 pcbnew/tool_footprint_editor.cpp:133
 #: pcbnew/tool_pcb_editor.cpp:295
 msgid "Zoom to selection"
-msgstr "Enquadrar selecionado"
+msgstr "Enquadrar a seleção"
 
 #: common/block_commande.cpp:101
 msgid "Block Rotate"
@@ -1692,7 +1692,7 @@ msgstr "Site de desenvolvimento no Launchpad - "
 
 #: common/dialog_about/AboutDialog_main.cpp:141
 msgid "Official KiCad library repositories - "
-msgstr "Repositórios oficiais de biblioteca do KiCad - "
+msgstr "Repositórios oficiais de bibliotecas do KiCad - "
 
 #: common/dialog_about/AboutDialog_main.cpp:148
 msgid "Bug tracker"
@@ -2202,15 +2202,15 @@ msgstr "E 34x44in"
 
 #: common/dialogs/dialog_page_settings.cpp:73
 msgid "USLetter 8.5x11in"
-msgstr "USLetter 8.5x11in"
+msgstr "Carta 216x279 mm"
 
 #: common/dialogs/dialog_page_settings.cpp:74
 msgid "USLegal 8.5x14in"
-msgstr "USLegal 8.5x14in"
+msgstr "Ofício 216x356 mm"
 
 #: common/dialogs/dialog_page_settings.cpp:75
 msgid "USLedger 11x17in"
-msgstr "USLedger 11x17in"
+msgstr "Tabloide 279x432 mm"
 
 #: common/dialogs/dialog_page_settings.cpp:76
 msgid "User (Custom)"
@@ -2364,7 +2364,7 @@ msgstr "Título"
 
 #: common/dialogs/dialog_page_settings_base.cpp:232
 msgid "Company"
-msgstr "Companhia"
+msgstr "Firma"
 
 #: common/dialogs/dialog_page_settings_base.cpp:256
 msgid "Comment1"
@@ -3112,7 +3112,7 @@ msgstr "Cancelar ferramenta atual"
 #: pagelayout_editor/hotkeys.cpp:80 pagelayout_editor/menubar.cpp:125
 #: pcbnew/hotkeys.cpp:213 pcbnew/hotkeys.cpp:215
 msgid "Zoom In"
-msgstr "Mais Zoom"
+msgstr "Ampliar"
 
 #: common/tool/actions.cpp:20 common/widgets/mathplot.cpp:1768
 #: common/zoom.cpp:281 eeschema/hotkeys.cpp:113 eeschema/hotkeys.cpp:115
@@ -3120,7 +3120,7 @@ msgstr "Mais Zoom"
 #: pagelayout_editor/hotkeys.cpp:79 pagelayout_editor/menubar.cpp:128
 #: pcbnew/hotkeys.cpp:220 pcbnew/hotkeys.cpp:222
 msgid "Zoom Out"
-msgstr "Menos Zoom"
+msgstr "Reduzir"
 
 #: common/tool/actions.cpp:32 common/widgets/mathplot.cpp:1765
 #: common/zoom.cpp:277
@@ -3147,7 +3147,7 @@ msgstr "Zoom Automático"
 #: pagelayout_editor/menubar.cpp:134 pcbnew/hotkeys.cpp:225
 #: pcbnew/menubar_footprint_editor.cpp:231 pcbnew/menubar_pcb_editor.cpp:626
 msgid "Zoom to Selection"
-msgstr "Enquadrar Selecionado"
+msgstr "Enquadrar a Seleção"
 
 #: common/tool/common_tools.cpp:39
 msgid "Toggle Always Show Cursor"
@@ -3267,7 +3267,7 @@ msgstr "Pequeno alvo"
 
 #: common/widgets/gal_options_panel.cpp:197
 msgid "Full window crosshair"
-msgstr "Alvo de tela inteira"
+msgstr "Cursor de tela inteira"
 
 #: common/widgets/gal_options_panel.cpp:200
 msgid "Cursor shape:"
@@ -3945,7 +3945,7 @@ msgstr "Modificar forma do cursor"
 #: pcbnew/tool_footprint_editor.cpp:236 pcbnew/tool_pcb_editor.cpp:372
 msgid "Change cursor shape (not supported in Legacy Toolset)"
 msgstr ""
-"Modificar forma do cursor (não suportado no Conjunto de Ferramentas legado)"
+"Modificar forma do cursor (não suportado no Conjunto de Ferramentas Legado)"
 
 #: cvpcb/display_footprints_frame.cpp:202
 #: pcbnew/menubar_footprint_editor.cpp:286 pcbnew/menubar_pcb_editor.cpp:703
@@ -4412,7 +4412,7 @@ msgstr "Esquema salvo"
 
 #: eeschema/dialogs/dialog_annotate.cpp:117
 msgid "Annotation Messages:"
-msgstr "Mensagens de Anotação:"
+msgstr "Mensagens da Anotação:"
 
 #: eeschema/dialogs/dialog_annotate.cpp:206
 msgid "Clear and annotate all of the symbols on the entire schematic?"
@@ -4452,11 +4452,11 @@ msgstr ""
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:38
 msgid "Use the entire schematic"
-msgstr "Use todo o esquema"
+msgstr "Utilizar todo o esquema"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:38
 msgid "Use the current page only"
-msgstr "Use somente a página atual"
+msgstr "Utilizar somente a página atual"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:40
 msgid "Scope:"
@@ -4464,27 +4464,27 @@ msgstr "Escopo:"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:45
 msgid "Order:"
-msgstr "Pedido:"
+msgstr "Ordenação:"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:50
 msgid "Sort components by &X position"
-msgstr "Separe os componentes pela posição &X"
+msgstr "Ordenar componentes pela posição &X"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:65
 msgid "Sort components by &Y position"
-msgstr "Separe os componentes pela posição &Y"
+msgstr "Ordenar componentes pela posição &Y"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:80
 msgid "Keep existing annotations"
-msgstr "Mantenha as anotações existentes"
+msgstr "Manter anotações existentes"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:80
 msgid "Reset existing annotations"
-msgstr "Limpa as anotações existentes"
+msgstr "Redefinir anotações existentes"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:80
 msgid "Reset, but keep order of multi-unit parts"
-msgstr "Redefinir, porém mantendo a ordem das partes de multi-unidade"
+msgstr "Redefinir, porém mantendo a ordem de partes multi-unidade"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:82
 #: eeschema/dialogs/dialog_lib_edit_text_base.cpp:75
@@ -4499,11 +4499,11 @@ msgstr "Opções:"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:87
 msgid "Numbering:"
-msgstr "Numerando:"
+msgstr "Numeração:"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:94
 msgid "Use first free number after:"
-msgstr "Use o primeiro número livre após:"
+msgstr "Utilizar o primeiro número livre após:"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:100
 msgid "First free after sheet number X 100"
@@ -4515,7 +4515,7 @@ msgstr "Primeiro livre após o número da folha X 1000"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:124
 msgid "Keep this dialog open"
-msgstr "Mantenha esta caixa de diálogo aberta"
+msgstr "Manter esta caixa de diálogo aberta"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:136
 msgid "Don't ask for confirmation"
@@ -4531,7 +4531,7 @@ msgstr "Limpar Anotação"
 
 #: eeschema/dialogs/dialog_annotate_base.h:80
 msgid "Annotate Schematic"
-msgstr "Anotaçao do esquema"
+msgstr "Anotar Esquema"
 
 #: eeschema/dialogs/dialog_bom.cpp:356
 #, c-format
@@ -4552,7 +4552,7 @@ msgstr "Este nome já existe. Abortar"
 
 #: eeschema/dialogs/dialog_bom.cpp:529 eeschema/dialogs/dialog_netlist.cpp:846
 msgid "Plugin files:"
-msgstr "Arquivos Plugin:"
+msgstr "Arquivos de Plugin:"
 
 #: eeschema/dialogs/dialog_bom.cpp:646
 msgid "Plugin file name not found. Cannot edit plugin file"
@@ -4566,7 +4566,7 @@ msgstr "Nenhum editor de texto selecionado no KiCad. Escolha um"
 
 #: eeschema/dialogs/dialog_bom.cpp:661
 msgid "Bom Generation Help"
-msgstr "Ajudar do Gerador de BOM"
+msgstr "Ajuda do Gerador de Lista de Materiais"
 
 #: eeschema/dialogs/dialog_bom_base.cpp:38
 msgid "Plugins:"
@@ -4612,7 +4612,7 @@ msgstr "Informações do plugin:"
 
 #: eeschema/dialogs/dialog_bom_base.h:95
 msgid "Bill of Material"
-msgstr "Lista de Material"
+msgstr "Lista de Materiais"
 
 #: eeschema/dialogs/dialog_choose_component.cpp:298
 msgid "No footprint specified"
@@ -5429,7 +5429,7 @@ msgstr ""
 
 #: eeschema/dialogs/dialog_edit_components_libid_base.h:64
 msgid "Symbol Library References"
-msgstr "Referências da Biblioteca de Símbolos"
+msgstr "Referências de Biblioteca de Símbolos"
 
 #: eeschema/dialogs/dialog_edit_label.cpp:197
 msgid "Global Label Properties"
@@ -5766,7 +5766,7 @@ msgstr "&Mostrar Grade"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:124
 msgid "&Restrict buses and wires to H and V orientation"
-msgstr "&Restringir fios e barramentos à orientação H ou V"
+msgstr "&Restringir fios e barramentos à orientação Horizontal ou Vertical"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:127
 msgid "S&how hidden pins"
@@ -5774,7 +5774,7 @@ msgstr "Ex&ibir pinos ocultos"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:130
 msgid "Show page limi&ts"
-msgstr "Exibir limi&tes de página"
+msgstr "Exibir limi&tes da folha"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:134
 msgid "Footprint previews in symbol chooser (experimental)"
@@ -5783,7 +5783,7 @@ msgstr "Pré-visualizações de footprint no seletor de símbolos (experimental)
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:144
 #: pcbnew/class_text_mod.cpp:391
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Visualização"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:157
 msgid "&Measurement units:"
@@ -5839,7 +5839,7 @@ msgstr "&Sempre alinhar campos dispostos automaticamente à grade de 50 mil"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:250
 msgid "Editing"
-msgstr "Editando"
+msgstr "Edição"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:271
 msgid "Hotkeys:"
@@ -5894,7 +5894,7 @@ msgstr "Apa&gar"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:379
 msgid "Field Name Templates"
-msgstr "Modelo de Nome de Campo"
+msgstr "Modelos de Nome de Campo"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.h:138
 msgid "Schematic Editor Options"
@@ -5951,7 +5951,7 @@ msgstr "Erros:"
 
 #: eeschema/dialogs/dialog_erc_base.cpp:62
 msgid "Create ERC file report"
-msgstr "Cria relatório ERC"
+msgstr "Gerar relatório ERC"
 
 #: eeschema/dialogs/dialog_erc_base.cpp:88
 msgid "Error list:"
@@ -5971,7 +5971,7 @@ msgstr "ERC"
 
 #: eeschema/dialogs/dialog_erc_base.cpp:123
 msgid "Label to Label Connections:"
-msgstr "Conexões de Etiqueta para Etiqueta:"
+msgstr "Conexões Rótulo a Rótulo:"
 
 #: eeschema/dialogs/dialog_erc_base.cpp:125
 msgid "Test similar labels"
@@ -6004,7 +6004,7 @@ msgstr "Conexões Pino a Pino:"
 
 #: eeschema/dialogs/dialog_erc_base.cpp:144
 msgid "Initialize to Default"
-msgstr "Inicializar para o Padrão"
+msgstr "Retornar ao Padrão"
 
 #: eeschema/dialogs/dialog_erc_base.h:86 eeschema/menubar_libedit.cpp:236
 msgid "Electrical Rules Checker"
@@ -6043,7 +6043,7 @@ msgstr "Footprint"
 #: eeschema/lib_field.cpp:461 eeschema/libedit.cpp:702
 #: eeschema/template_fieldnames.cpp:50
 msgid "Datasheet"
-msgstr "Datasheet"
+msgstr "Ficha Técnica"
 
 #: eeschema/dialogs/dialog_fields_editor_global_base.cpp:29
 msgid "Group symbols"
@@ -6443,11 +6443,11 @@ msgstr "Opções do Editor de Bibliotecas"
 
 #: eeschema/dialogs/dialog_netlist.cpp:300
 msgid "Default format"
-msgstr "Formato default"
+msgstr "Formato padrão"
 
 #: eeschema/dialogs/dialog_netlist.cpp:397
 msgid "Reformat passive symbol values"
-msgstr "Reformatar valores de símbolo passivos"
+msgstr "Reformatar valores de símbolos passivos"
 
 #: eeschema/dialogs/dialog_netlist.cpp:399
 msgid "Reformat passive symbol values e.g. 1M -> 1Meg"
@@ -6464,7 +6464,7 @@ msgstr "&Executar simulador"
 #: eeschema/dialogs/dialog_netlist.cpp:457
 #: eeschema/dialogs/dialog_netlist_base.cpp:105
 msgid "Netlist command:"
-msgstr "Comando para Netlist:"
+msgstr "Comando Netlist:"
 
 #: eeschema/dialogs/dialog_netlist.cpp:470
 msgid "Title:"
@@ -6510,7 +6510,7 @@ msgstr "Remover Plugin…"
 
 #: eeschema/dialogs/dialog_netlist_base.cpp:61
 msgid "Use default netname"
-msgstr "Usar o netname padrão"
+msgstr "Utilizar nome de rede padrão"
 
 #: eeschema/dialogs/dialog_netlist_base.cpp:70
 msgid "Default Netlist Filename:"
@@ -6556,7 +6556,7 @@ msgstr ""
 #: pcbnew/exporters/gen_footprints_placefile.cpp:195
 #: pcbnew/exporters/gen_footprints_placefile.cpp:204
 msgid "Plot Output Directory"
-msgstr "Diretório de Saída da Plotagem"
+msgstr "Pasta de Saída da Plotagem"
 
 #: eeschema/dialogs/dialog_plot_schematic.cpp:192
 #: pcbnew/dialogs/dialog_gendrill.cpp:329 pcbnew/dialogs/dialog_plot.cpp:393
@@ -6577,7 +6577,7 @@ msgstr "Não foi possível gravar arquivos de plotagem na pasta \"%s\"."
 #: pcbnew/dialogs/dialog_gen_footprint_position_file_base.cpp:26
 #: pcbnew/dialogs/dialog_plot_base.cpp:42
 msgid "Output directory:"
-msgstr "Diretório de saída:"
+msgstr "Pasta de saída:"
 
 #: eeschema/dialogs/dialog_plot_schematic_base.cpp:29
 msgid ""
@@ -6689,11 +6689,11 @@ msgstr "Centralizar à página"
 
 #: eeschema/dialogs/dialog_plot_schematic_base.cpp:69
 msgid "Align:"
-msgstr "Alinhar:"
+msgstr "Alinhamento:"
 
 #: eeschema/dialogs/dialog_plot_schematic_base.cpp:73
 msgid "Pen width:"
-msgstr "Largura da caneta:"
+msgstr "Espessura da caneta:"
 
 #: eeschema/dialogs/dialog_plot_schematic_base.cpp:87
 #: pcbnew/dialogs/dialog_plot_base.cpp:83
@@ -6709,8 +6709,8 @@ msgid ""
 "Selection of the default pen thickness used to draw items, when their "
 "thickness is set to 0."
 msgstr ""
-"Seleção da espessura mínima da caneta usada para desenhar itens, quando a "
-"espessura é definida para 0."
+"Seleção da espessura mínima da caneta utilizada para desenhar itens, quando "
+"sua espessura for definida em 0."
 
 #: eeschema/dialogs/dialog_plot_schematic_base.cpp:98
 #: gerbview/dialogs/dialog_print_using_printer_base.cpp:83
@@ -6741,16 +6741,17 @@ msgid ""
 "or in black and white mode, better to print it when using  black and white "
 "printers"
 msgstr ""
-"Escolha se deseja desenhar a folha como aparece na tela,\n"
-"ou em modo preto e branco, melhor opção para impressoras preto e branco"
+"Escolha se deseja plotar a folha como aparece na tela, ou em modo preto e "
+"branco(melhor opção para impressoras preto e branco)"
 
 #: eeschema/dialogs/dialog_plot_schematic_base.cpp:106
 msgid "Plot border and title block"
 msgstr "Plotar borda e legenda"
 
+# Revisar
 #: eeschema/dialogs/dialog_plot_schematic_base.cpp:108
 msgid "Print the frame references."
-msgstr "Imprimir as referências do quadro."
+msgstr "Imprime a folha de referências."
 
 #: eeschema/dialogs/dialog_plot_schematic_base.cpp:120
 msgid "Plot Current Page"
@@ -6803,13 +6804,14 @@ msgstr "Opções de impressão:"
 msgid "Print sheet &reference and title block"
 msgstr "Imprimir folha de &referência e legenda"
 
+# Revisar
 #: eeschema/dialogs/dialog_print_using_printer_base.cpp:30
 msgid "Print (or not) the Frame references."
-msgstr "Imprimir (ou não) as referências do quadro."
+msgstr "Imprimir (ou não) a folha de referências."
 
 #: eeschema/dialogs/dialog_print_using_printer_base.cpp:34
 msgid "Print in &black and white only"
-msgstr "Imprimir Preto e &Branco somente"
+msgstr "Imprimir somente em &preto e branco"
 
 #: eeschema/dialogs/dialog_print_using_printer_base.cpp:44
 msgid "Page Setup"
@@ -7000,9 +7002,10 @@ msgstr "&Diferenciar maiúsculas"
 msgid "Search &using simple wildcard matching"
 msgstr "Pesquisar &utilizando caracteres curinga simples"
 
+# Revisar
 #: eeschema/dialogs/dialog_schematic_find_base.cpp:84
 msgid "Wrap around &end of search list"
-msgstr "Fique em torno do &final da lista de pesquisa"
+msgstr "Ficar em torno do &final da lista de pesquisa"
 
 #: eeschema/dialogs/dialog_schematic_find_base.cpp:88
 msgid "Search all com&ponent fields"
@@ -7903,7 +7906,7 @@ msgstr "Remapear Símbolos"
 
 #: eeschema/dialogs/dialog_update_fields_base.cpp:19
 msgid "Select fields to update:"
-msgstr "Selecione campos para atualizar:"
+msgstr "Selecione os campos para atualizar:"
 
 #: eeschema/dialogs/dialog_update_fields_base.cpp:33
 msgid "Select None"
@@ -7923,7 +7926,8 @@ msgstr "Omitir campos vazios"
 
 #: eeschema/dialogs/dialog_update_fields_base.cpp:45
 msgid "Do not clear existing entries if library field is empty"
-msgstr "Não limpe as entradas existentes se o campo da biblioteca estiver vazio"
+msgstr ""
+"Não limpar as entradas existentes se o mesmo campo na biblioteca estiver vazio"
 
 #: eeschema/dialogs/dialog_update_fields_base.h:57
 msgid "Update Symbol Fields"
@@ -8045,7 +8049,7 @@ msgstr "Não Especificado"
 
 #: eeschema/erc.cpp:95 eeschema/erc.cpp:111
 msgid "Power Input Pin"
-msgstr "Entrada de Alimentação"
+msgstr "Pino de Alimentação"
 
 #: eeschema/erc.cpp:96 eeschema/erc.cpp:112
 msgid "Power Output Pin"
@@ -8393,7 +8397,7 @@ msgstr "Ajustar à página do esquema"
 
 #: eeschema/help_common_strings.h:46
 msgid "Redraw schematic view"
-msgstr "Redesenhar vista do esquema"
+msgstr "Redesenhar a vista do esquema"
 
 #: eeschema/help_common_strings.h:48 eeschema/lib_edit_frame.cpp:1265
 #: eeschema/schedit.cpp:609 pcbnew/edit.cpp:1576
@@ -8412,19 +8416,19 @@ msgstr "Encontre e substitua o texto em itens do esquema"
 
 #: eeschema/help_common_strings.h:53
 msgid "Place symbol"
-msgstr "Coloque o símbolo"
+msgstr "Adicionar símbolo"
 
 #: eeschema/help_common_strings.h:54
 msgid "Place power port"
-msgstr "Adicionar alimentação"
+msgstr "Adicionar porta de alimentação"
 
 #: eeschema/help_common_strings.h:55
 msgid "Place wire"
-msgstr "Inserir fio"
+msgstr "Adicionar fio"
 
 #: eeschema/help_common_strings.h:56
 msgid "Place bus"
-msgstr "Inserir barramento"
+msgstr "Adicionar barramento"
 
 #: eeschema/help_common_strings.h:57
 msgid "Place wire to bus entry"
@@ -8432,15 +8436,15 @@ msgstr "Adicionar entrada de fio em barramento"
 
 #: eeschema/help_common_strings.h:58
 msgid "Place bus to bus entry"
-msgstr "Adiconar entrada de barramento em barramento"
+msgstr "Adicionar entrada de barramento em barramento"
 
 #: eeschema/help_common_strings.h:59
 msgid "Place no connection flag"
-msgstr "Adicionar marca de Não Conectado"
+msgstr "Adicionar marcador de não conectado"
 
 #: eeschema/help_common_strings.h:61
 msgid "Place net label"
-msgstr "Inserir o nome da net"
+msgstr "Adicionar rótulo de rede"
 
 #: eeschema/help_common_strings.h:64
 msgid ""
@@ -8448,21 +8452,21 @@ msgid ""
 "Warning: inside global hierarchy , all global labels with same name are "
 "connected"
 msgstr ""
-"Colocar uma etiqueta global.\n"
-"Atenção: dentro da hierarquia global, todas as etiquetas globais de mesmo "
-"nome são interconectadas"
+"Adicionar rótulo global.\n"
+"Atenção: dentro da hierarquia global, todos os rótulos globais de mesmo nome "
+"são interconectados"
 
 #: eeschema/help_common_strings.h:66
 msgid ""
 "Place a hierarchical label. Label will be seen as a hierarchical pin in the "
 "sheet"
 msgstr ""
-"Colocar etiqueta hierárquica. Esta etiqueta será vista como um pino "
-"hierárquico na folha"
+"Adicionar rótulo hierárquico. Este rótulo será visto na folha como um pino "
+"hierárquico"
 
 #: eeschema/help_common_strings.h:68
 msgid "Place junction"
-msgstr "Inserir junção"
+msgstr "Adicionar junção"
 
 #: eeschema/help_common_strings.h:69
 msgid "Create hierarchical sheet"
@@ -8472,11 +8476,11 @@ msgstr "Criar folha hierárquica"
 msgid ""
 "Place hierarchical pin imported from the corresponding hierarchical label"
 msgstr ""
-"Colocar o pino hierárquico importado do rótulo hierárquico correspondente"
+"Adicionar pino hierárquico importado do rótulo hierárquico correspondente"
 
 #: eeschema/help_common_strings.h:72
 msgid "Place hierarchical pin in sheet"
-msgstr "Adicionar pino hierárquico à  folha"
+msgstr "Adicionar pino hierárquico"
 
 #: eeschema/help_common_strings.h:73
 msgid "Place graphic lines or polygons"
@@ -8484,7 +8488,7 @@ msgstr "Adicionar linha gráfica ou polígono"
 
 #: eeschema/help_common_strings.h:74
 msgid "Place text"
-msgstr "Colocar texto"
+msgstr "Adicionar texto"
 
 #: eeschema/help_common_strings.h:76
 msgid "Annotate schematic symbols"
@@ -8502,13 +8506,14 @@ msgstr "Procurar biblioteca de componentes"
 msgid "Generate bill of materials"
 msgstr "Gerar lista de materiais"
 
+# Revisar
 #: eeschema/help_common_strings.h:81
 msgid ""
 "Back-import symbol footprint association fields from the .cmp back import "
 "file created by Pcbnew"
 msgstr ""
 "Campos de associação de footprint de símbolo de back-import do arquivo de "
-"back-import .cmp criados por Pcbnew"
+"back-import .cmp criado pelo Pcbnew"
 
 #: eeschema/help_common_strings.h:84
 msgid "Add pins to symbol"
@@ -8617,7 +8622,7 @@ msgstr "Adicionar Símbolo"
 
 #: eeschema/hotkeys.cpp:141
 msgid "Add Power"
-msgstr "Adiconar Alimentação"
+msgstr "Adicionar Alimentação"
 
 #: eeschema/hotkeys.cpp:143
 msgid "Add No Connect Flag"
@@ -9297,7 +9302,7 @@ msgstr "Símbolo de alimentação"
 #: eeschema/libedit.cpp:701 eeschema/sch_component.cpp:1430
 #: eeschema/viewlibs.cpp:244
 msgid "Key words"
-msgstr "Palavras Chaves"
+msgstr "Palavras Chave"
 
 #: eeschema/libedit_onrightclick.cpp:89 eeschema/onrightclick.cpp:159
 #: gerbview/onrightclick.cpp:63 pagelayout_editor/onrightclick.cpp:79
@@ -9529,7 +9534,7 @@ msgstr "&Sair da Folha"
 #: eeschema/menubar.cpp:174 eeschema/menubar_libedit.cpp:162
 #: eeschema/tool_viewlib.cpp:188 pcbnew/menubar_footprint_editor.cpp:226
 msgid "&Zoom to Fit"
-msgstr "&Zoom para Enquadrar"
+msgstr "&Enquadrar"
 
 #: eeschema/menubar.cpp:191 gerbview/menubar.cpp:217
 #: pagelayout_editor/menubar.cpp:176 pagelayout_editor/pl_editor_config.cpp:67
@@ -9545,7 +9550,7 @@ msgstr "&Imperial"
 #: eeschema/menubar.cpp:197 gerbview/menubar.cpp:227
 #: pcbnew/menubar_footprint_editor.cpp:256 pcbnew/menubar_pcb_editor.cpp:651
 msgid "Use imperial units"
-msgstr "Usar unidades imperiais"
+msgstr "Utilizar unidades imperiais"
 
 #: eeschema/menubar.cpp:201 gerbview/menubar.cpp:231
 #: pcbnew/menubar_footprint_editor.cpp:260 pcbnew/menubar_pcb_editor.cpp:655
@@ -9565,15 +9570,15 @@ msgstr "&Unidades"
 #: eeschema/menubar.cpp:206 gerbview/menubar.cpp:236
 #: pcbnew/menubar_footprint_editor.cpp:265 pcbnew/menubar_pcb_editor.cpp:660
 msgid "Select which units are displayed"
-msgstr "Selecione quais unidades são exibidas"
+msgstr "Selecione a unidade a ser exibida"
 
 #: eeschema/menubar.cpp:212 eeschema/menubar.cpp:217
 msgid "Full &Window Crosshair"
-msgstr "Alvo de &Tela Inteira"
+msgstr "Cursor de &Tela Inteira"
 
 #: eeschema/menubar.cpp:218
 msgid "Change cursor shape (not supported in Legacy graphics)"
-msgstr "Alterar forma do cursor (não suportado em gráficos Legados)"
+msgstr "Alterar forma do cursor (não suportado no modo gráfico legado)"
 
 #: eeschema/menubar.cpp:225
 msgid "Show Hidden &Pins"
@@ -9585,7 +9590,7 @@ msgstr "&Símbolo"
 
 #: eeschema/menubar.cpp:245
 msgid "&Power Port"
-msgstr "&Porta de Alimentação"
+msgstr "&Alimentação"
 
 #: eeschema/menubar.cpp:251
 msgid "&Wire"
@@ -9633,7 +9638,7 @@ msgstr "I&mportar Rótulo Hierárquico"
 
 #: eeschema/menubar.cpp:320
 msgid "Hierarchical Pi&n to Sheet"
-msgstr "Pi&no Hierárquico para Folha"
+msgstr "Pi&no Hierárquico"
 
 #: eeschema/menubar.cpp:326
 msgid "Graphic Pol&yline"
@@ -9654,7 +9659,8 @@ msgstr "&Novo…"
 #: eeschema/menubar.cpp:367
 msgid "Clear current schematic hierarchy and start new schematic root sheet"
 msgstr ""
-"Limpar hierarquia esquemática atual e iniciar nova folha esquemática raiz"
+"Limpar a hierarquia esquemática atual e iniciar uma nova folha esquemática "
+"raiz"
 
 #: eeschema/menubar.cpp:370 pagelayout_editor/menubar.cpp:67
 #: pcbnew/menubar_pcb_editor.cpp:802
@@ -9663,7 +9669,7 @@ msgstr "&Abrir…"
 
 #: eeschema/menubar.cpp:372
 msgid "Open existing schematic"
-msgstr "Abrir esquema existente"
+msgstr "Abrir um esquema existente"
 
 #: eeschema/menubar.cpp:376 kicad/menubar.cpp:246
 #: pagelayout_editor/menubar.cpp:77 pcbnew/menubar_pcb_editor.cpp:808
@@ -9672,7 +9678,7 @@ msgstr "Abrir &Recente"
 
 #: eeschema/menubar.cpp:377
 msgid "Open recently opened schematic"
-msgstr "Abrir esquema recentemente aberto"
+msgstr "Abrir um esquema recente"
 
 #: eeschema/menubar.cpp:383 kicad/menubar.cpp:254
 #: pagelayout_editor/menubar.cpp:83 pcbnew/menubar_footprint_editor.cpp:78
@@ -9682,7 +9688,7 @@ msgstr "&Salvar"
 
 #: eeschema/menubar.cpp:386
 msgid "Save all sheets in schematic"
-msgstr "Salvar todas as folhas no esquema"
+msgstr "Salvar todas as folhas de esquema"
 
 #: eeschema/menubar.cpp:391
 msgid "Save &Current Sheet"
@@ -9698,7 +9704,7 @@ msgstr "Salvar Folha At&ual Como…"
 
 #: eeschema/menubar.cpp:401
 msgid "Save current schematic sheet with new name"
-msgstr "Salvar folha esquemática atual com novo nome"
+msgstr "Salvar a folha de esquema atual com um novo nome"
 
 #: eeschema/menubar.cpp:408
 msgid "App&end Schematic Sheet..."
@@ -9707,7 +9713,7 @@ msgstr "An&exar Folha de Esquema…"
 #: eeschema/menubar.cpp:409
 msgid "Import schematic sheet content from another project to current sheet"
 msgstr ""
-"Importar conteúdo da folha esquemática de outro projeto para a folha atual"
+"Importar o conteúdo da folha de esquema de outro projeto para a folha atual"
 
 #: eeschema/menubar.cpp:413
 msgid "&Import Non KiCad Schematic File..."
@@ -9754,7 +9760,7 @@ msgstr "Configuração d&e Página…"
 
 #: eeschema/menubar.cpp:453 pcbnew/menubar_pcb_editor.cpp:932
 msgid "Settings for sheet size and frame references"
-msgstr "Configurações para o tamanho da folha e referências de quadro"
+msgstr "Configurar o tamanho da folha e a legenda"
 
 #: eeschema/menubar.cpp:456 gerbview/menubar.cpp:163
 #: pagelayout_editor/menubar.cpp:95 pcbnew/menubar_footprint_editor.cpp:132
@@ -9764,7 +9770,7 @@ msgstr "&Imprimir…"
 
 #: eeschema/menubar.cpp:458
 msgid "Print schematic sheet"
-msgstr "Imprimir folha de esquema"
+msgstr "Imprimir folha do esquema"
 
 #: eeschema/menubar.cpp:461 pcbnew/menubar_pcb_editor.cpp:941
 msgid "P&lot..."
@@ -9826,7 +9832,8 @@ msgstr "Atualizar Valores do Campo..."
 
 #: eeschema/menubar.cpp:526
 msgid "Sets symbol fields to original library values"
-msgstr "Redefinir campos de símbolo para valores originais da biblioteca"
+msgstr ""
+"Redefinir os campos dos símbolos para os valores originais da biblioteca"
 
 #: eeschema/menubar.cpp:534
 msgid "Electrical Rules &Checker"
@@ -9851,7 +9858,7 @@ msgstr "&Abrir Editor de PCI"
 
 #: eeschema/menubar.cpp:556 kicad/menubar.cpp:148
 msgid "Run Pcbnew"
-msgstr "Executar PcbNew"
+msgstr "Executar o Pcbnew"
 
 #: eeschema/menubar.cpp:563
 msgid "Symbol Library &Editor"
@@ -9863,7 +9870,7 @@ msgstr "&Recuperar Símbolos..."
 
 #: eeschema/menubar.cpp:569
 msgid "Find old symbols in project and rename/rescue them"
-msgstr "Encontrar símbolos antigos no projeto e renomeá-los/recuperá-los"
+msgstr "Procurar símbolos antigos no projeto e renomeá-los/recuperá-los"
 
 #: eeschema/menubar.cpp:574
 msgid "Remap Symbols..."
@@ -9877,15 +9884,15 @@ msgstr ""
 
 #: eeschema/menubar.cpp:582
 msgid "Edit Symbol Field&s..."
-msgstr "Editar Campo%s de Símbolo…"
+msgstr "Editar Campo&s dos Símbolos…"
 
 #: eeschema/menubar.cpp:587
 msgid "Edit Symbol Library References..."
-msgstr "Editar Referências de Biblioteca de Símbolo…"
+msgstr "Editar Referências de Biblioteca de Símbolos…"
 
 #: eeschema/menubar.cpp:588
 msgid "Edit links between schematic symbols and library symbols"
-msgstr "Editar vínculos entre símbolos esquemáticos e símbolos de biblioteca"
+msgstr "Editar vínculos entre os símbolos no esquema e símbolos em bibliotecas"
 
 #: eeschema/menubar.cpp:595
 msgid "&Annotate Schematic..."
@@ -9909,7 +9916,7 @@ msgstr "&Atribuir Footprints…"
 
 #: eeschema/menubar.cpp:616 eeschema/tool_sch.cpp:162
 msgid "Assign PCB footprints to schematic symbols"
-msgstr "Atribuir footprints para símbolos esquemáticos"
+msgstr "Atribuir footprints à símbolos esquemáticos"
 
 #: eeschema/menubar.cpp:625
 msgid "Simula&tor"
@@ -10039,7 +10046,7 @@ msgstr "Refazer"
 #: eeschema/menubar_libedit.cpp:163 eeschema/tool_lib.cpp:184
 #: eeschema/tool_viewlib.cpp:81 eeschema/tool_viewlib.cpp:189
 msgid "Zoom to fit symbol"
-msgstr "Zoom para ajustar ao símbolo"
+msgstr "Enquadrar o símbolo"
 
 #: eeschema/menubar_libedit.cpp:179
 msgid "&Search Tree"
@@ -10523,7 +10530,7 @@ msgstr "Não especificado"
 
 #: eeschema/pin_type.cpp:56
 msgid "Power input"
-msgstr "Entrada de alimentação"
+msgstr "Alimentação"
 
 #: eeschema/pin_type.cpp:59
 msgid "Power output"
@@ -11178,11 +11185,11 @@ msgstr "Gostaria de limpar esta folha?"
 
 #: eeschema/schedit.cpp:510
 msgid "Highlight specific net"
-msgstr "Realçar net específica"
+msgstr "Realçar rede específica"
 
 #: eeschema/schedit.cpp:524
 msgid "Add no connect"
-msgstr "Adicionar marca de não conectado"
+msgstr "Adicionar marcador de não conectado"
 
 #: eeschema/schedit.cpp:529
 msgid "Add wire"
@@ -11735,7 +11742,7 @@ msgstr "Executar o Pcbnew para realizar a disposição da PCI"
 #: eeschema/tool_sch.cpp:204 pcbnew/edit.cpp:1580 pcbnew/tool_pcb_editor.cpp:446
 #: pcbnew/tools/pcb_editor_control.cpp:1045
 msgid "Highlight net"
-msgstr "Realçar net"
+msgstr "Realçar rede"
 
 #: eeschema/tool_sch.cpp:292
 msgid "Set unit to inch"
@@ -11751,7 +11758,7 @@ msgstr "Orientação HV para fios e barramentos"
 
 #: eeschema/tool_viewlib.cpp:54
 msgid "Select symbol to browse"
-msgstr "Selecione o componente a ser examinado"
+msgstr "Selecione o símbolo a ser examinado"
 
 #: eeschema/tool_viewlib.cpp:59
 msgid "Display previous symbol"
@@ -11759,11 +11766,11 @@ msgstr "Exibir símbolo anterior"
 
 #: eeschema/tool_viewlib.cpp:63
 msgid "Display next symbol"
-msgstr "Exibir próximo elemento"
+msgstr "Exibir próximo símbolo"
 
 #: eeschema/tool_viewlib.cpp:107
 msgid "View symbol documents"
-msgstr "Ver documentação do componente"
+msgstr "Visualizar documentação do componente"
 
 #: eeschema/tool_viewlib.cpp:115
 msgid "Insert symbol in schematic"
@@ -11870,7 +11877,7 @@ msgstr "Etiqueta global"
 #: eeschema/widgets/widget_eeschema_color_config.cpp:63
 #: pcbnew/dialogs/dialog_select_net_from_list_base.cpp:54
 msgid "Net name"
-msgstr "Nome da Net"
+msgstr "Nome da rede"
 
 #: eeschema/widgets/widget_eeschema_color_config.cpp:64
 msgid "Notes"
@@ -11882,7 +11889,7 @@ msgstr "Marca de Não Conectado"
 
 #: eeschema/widgets/widget_eeschema_color_config.cpp:71
 msgid "Body background"
-msgstr "Fundo do Body"
+msgstr "Fundo do corpo"
 
 #: eeschema/widgets/widget_eeschema_color_config.cpp:73
 msgid "Pin number"
@@ -12889,7 +12896,7 @@ msgstr "Exibir ou ocultar o gerenciador de camadas"
 
 #: gerbview/menubar.cpp:204 gerbview/toolbars_gerber.cpp:84
 msgid "Zoom to fit"
-msgstr "Zoom para enquadrar"
+msgstr "Enquadrar"
 
 #: gerbview/menubar.cpp:212
 msgid "Refresh screen"
@@ -13281,7 +13288,7 @@ msgstr "Exibir gerenciador de camadas"
 
 #: gerbview/tools/gerbview_control.cpp:46
 msgid "Highlight Net"
-msgstr "Realçar Net"
+msgstr "Realçar Rede"
 
 #: gerbview/tools/gerbview_control.cpp:50
 msgid "Highlight Component"
@@ -18957,7 +18964,7 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:22
 msgid "Output Directory:"
-msgstr "Diretório de Saída:"
+msgstr "Pasta de Saída:"
 
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:43
 msgid "Excellon"
@@ -19181,7 +19188,7 @@ msgstr "Mostrar o emaranhado completo."
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:133
 msgid "Show page limits"
-msgstr "Exibir limites de página"
+msgstr "Exibir limites da folha"
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:140
 #: pcbnew/dialogs/dialog_modedit_options_base.cpp:178
@@ -22304,7 +22311,7 @@ msgstr "Imprimir ref. do quadro"
 # Revisar
 #: pcbnew/dialogs/dialog_print_using_printer_base.cpp:111
 msgid "Print Frame references."
-msgstr "Imprimir referências do quadro."
+msgstr "Imprimir folha de referências."
 
 #: pcbnew/dialogs/dialog_print_using_printer_base.cpp:121
 msgid "No drill mark"
@@ -24725,7 +24732,7 @@ msgstr "Visualizador &3D"
 #: pcbnew/menubar_footprint_editor.cpp:228 pcbnew/tool_footprint_viewer.cpp:93
 #: pcbnew/tool_footprint_viewer.cpp:156
 msgid "Zoom to fit footprint"
-msgstr "Zoom para enquadrar o footprint"
+msgstr "Enquadrar o footprint"
 
 #: pcbnew/menubar_footprint_editor.cpp:246 pcbnew/menubar_pcb_editor.cpp:641
 msgid "Grid &Settings..."
@@ -24739,7 +24746,7 @@ msgstr "Ajustar dimensões de grade definidas pelo usuário personalizadas"
 #: pcbnew/menubar_footprint_editor.cpp:275 pcbnew/menubar_pcb_editor.cpp:666
 #: pcbnew/menubar_pcb_editor.cpp:671
 msgid "Full Window Crosshair"
-msgstr "Alvo de Tela Inteira"
+msgstr "Cursor de Tela Inteira"
 
 #: pcbnew/menubar_footprint_editor.cpp:286 pcbnew/menubar_pcb_editor.cpp:703
 msgid "Sketch &Pads"
