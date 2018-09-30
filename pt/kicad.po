@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-18 21:11+0200\n"
-"PO-Revision-Date: 2018-09-28 18:01-0300\n"
+"PO-Revision-Date: 2018-09-30 09:52-0300\n"
 "Last-Translator: Francisco R. Pereira <frosch_bin@yahoo.com.br>\n"
 "Language-Team: kicad team\n"
 "Language: pt_BR\n"
@@ -570,7 +570,7 @@ msgstr "Copiar imagem 3D"
 #: pagelayout_editor/menubar.cpp:235 pcbnew/menubar_footprint_editor.cpp:523
 #: pcbnew/menubar_pcb_editor.cpp:140 pcbnew/tool_footprint_viewer.cpp:194
 msgid "&View"
-msgstr "&Vista"
+msgstr "&Exibir"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:76 eeschema/menubar.cpp:166
 #: eeschema/menubar_libedit.cpp:154 eeschema/tool_viewlib.cpp:180
@@ -4137,15 +4137,15 @@ msgstr "Editar tabela de bibliotecas de footprint"
 
 #: cvpcb/tool_cvpcb.cpp:50
 msgid "View selected footprint"
-msgstr "Ver footprint selecionado"
+msgstr "Visualizar footprint selecionado"
 
 #: cvpcb/tool_cvpcb.cpp:55
 msgid "Select previous unlinked symbol"
-msgstr "Selecione o símbolo desvinculado anterior"
+msgstr "Selecione o símbolo sem vínculo anterior"
 
 #: cvpcb/tool_cvpcb.cpp:59
 msgid "Select next unlinked symbol"
-msgstr "Selecione o próximo símbolo desvinculado"
+msgstr "Selecione o próximo símbolo sem vínculo"
 
 #: cvpcb/tool_cvpcb.cpp:64
 msgid "Perform automatic footprint association"
@@ -9521,7 +9521,7 @@ msgstr "Navegador de &Bibliotecas"
 
 #: eeschema/menubar.cpp:139
 msgid "Show &Hierarchical Navigator"
-msgstr "Exibir Navegador &Hierárquico"
+msgstr "Navegador &Hierárquico"
 
 #: eeschema/menubar.cpp:140 eeschema/tool_sch.cpp:133
 msgid "Navigate schematic hierarchy"
@@ -9582,7 +9582,7 @@ msgstr "Alterar forma do cursor (não suportado no modo gráfico legado)"
 
 #: eeschema/menubar.cpp:225
 msgid "Show Hidden &Pins"
-msgstr "Exibir &Pinos Ocultos"
+msgstr "&Pinos Ocultos"
 
 #: eeschema/menubar.cpp:239 eeschema/menubar_libedit.cpp:359
 msgid "&Symbol"
@@ -16606,10 +16606,9 @@ msgstr ""
 "Seleção do tamanho da caneta utilizada para desenhar itens que não têm "
 "tamanho de caneta especificado."
 
-# Verificar
 #: pcbnew/dialogs/dialog_SVG_print_base.cpp:97
 msgid "Full page with  frame ref"
-msgstr "Página inteira com referência de quadro"
+msgstr "Página inteira com legenda"
 
 #: pcbnew/dialogs/dialog_SVG_print_base.cpp:97
 msgid "Current page size"
@@ -22306,7 +22305,7 @@ msgstr "Opções Genéricas:"
 
 #: pcbnew/dialogs/dialog_print_using_printer_base.cpp:109
 msgid "Print frame ref"
-msgstr "Imprimir ref. do quadro"
+msgstr "Imprimir legenda"
 
 # Revisar
 #: pcbnew/dialogs/dialog_print_using_printer_base.cpp:111
