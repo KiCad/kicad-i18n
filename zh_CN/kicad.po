@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: KICAD\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-11 09:37+0800\n"
-"PO-Revision-Date: 2018-09-21 16:00+0800\n"
+"PO-Revision-Date: 2018-09-30 23:27+0800\n"
 "Last-Translator: Liu Guang <l.g110@163.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -2190,7 +2190,7 @@ msgstr "纵向"
 #: common/dialogs/dialog_page_settings.cpp:435
 #, c-format
 msgid "Page layout description file \"%s\" not found. Abort"
-msgstr "终止，页面图框文件 <%s> 没有找到."
+msgstr "终止，页面布局描述文件 <%s> 没有找到."
 
 #: common/dialogs/dialog_page_settings.cpp:466
 #, c-format
@@ -2231,7 +2231,7 @@ msgid ""
 "instead of\n"
 "\"%s\"?"
 msgstr ""
-"页面布局设计文件名已更改。\n"
+"页面布局描述文件名已更改。\n"
 "你想使用相对路径：\n"
 "\"%s\"\n"
 "代替\n"
@@ -3014,7 +3014,7 @@ msgstr "加载项目占用空间库表时出错"
 #: common/richio.cpp:167 tools/io_benchmark/stdstream_line_reader.cpp:76
 #, c-format
 msgid "Unable to open filename \"%s\" for reading"
-msgstr "无法打开文件名 '%s' 阅读"
+msgstr "无法打开文件名 '%s' 进行读取"
 
 #: common/richio.cpp:201 common/richio.cpp:296
 msgid "Maximum line length exceeded"
@@ -5417,7 +5417,7 @@ msgstr "Bidirectional"
 
 #: eeschema/dialogs/dialog_edit_label_base.cpp:82 eeschema/sch_text.cpp:686
 msgid "Tri-State"
-msgstr "三态"
+msgstr "Tri-State"
 
 #: eeschema/dialogs/dialog_edit_label_base.cpp:82
 #: eeschema/dialogs/dialog_sch_edit_sheet_pin.cpp:34
@@ -6074,7 +6074,7 @@ msgstr "元件中所有单元共用(&U)"
 #: eeschema/dialogs/dialog_lib_edit_draw_item_base.cpp:75
 #: eeschema/dialogs/dialog_lib_edit_pin_base.cpp:86
 msgid "Common to all body &styles (DeMorgan)"
-msgstr "所有主体风格(德摩根)共用 (&S)"
+msgstr "适用于所有主体样式(德摩根)(&S)"
 
 #: eeschema/dialogs/dialog_lib_edit_draw_item_base.cpp:84
 msgid "Fill Style:"
@@ -6126,7 +6126,7 @@ msgstr "图形样式(&S):"
 
 #: eeschema/dialogs/dialog_lib_edit_pin_base.cpp:83
 msgid "Common to all &units in symbol"
-msgstr "适用于所有单元(&U)"
+msgstr "适用于符号中所有单元(&U)"
 
 #: eeschema/dialogs/dialog_lib_edit_pin_base.cpp:93
 msgid "Schematic Properties:"
@@ -13167,7 +13167,7 @@ msgstr "计算器工具"
 
 #: kicad/commandframe.cpp:107
 msgid "Worksheet layout editor"
-msgstr "工作表布局编辑器"
+msgstr "页面布局编辑器"
 
 #: kicad/dialogs/dialog_template_selector.cpp:123
 msgid "<html><h1>Template Selector</h1></html>"
@@ -13561,7 +13561,7 @@ msgstr "编辑页面布局"
 
 #: kicad/menubar.cpp:432
 msgid "Pl editor - Worksheet layout editor"
-msgstr "Pl 编辑器 - 工作表布局编辑器"
+msgstr "PL编辑器 - 页面布局编辑器"
 
 #: kicad/menubar.cpp:440
 msgid "KiCad &Manual"
@@ -13932,7 +13932,7 @@ msgstr "新建项"
 
 #: pagelayout_editor/dialogs/dialogs_for_printing.cpp:219
 msgid "Print Page Layout"
-msgstr "打印边框"
+msgstr "打印页面边框"
 
 #: pagelayout_editor/dialogs/dialogs_for_printing.cpp:224
 msgid "An error occurred attempting to print the page layout."
@@ -14087,14 +14087,14 @@ msgstr "常规选项"
 
 #: pagelayout_editor/files.cpp:48
 msgid "Page Layout Description File"
-msgstr "页面图框文件"
+msgstr "页面布局描述文件"
 
 #: pagelayout_editor/files.cpp:53 pagelayout_editor/files.cpp:88
 msgid ""
 "The current page layout has been modified.\n"
 "Do you wish to discard the changes?"
 msgstr ""
-"当前的图纸文件已经被修改\n"
+"当前的页面布局已经被修改\n"
 "是否放弃当前修改并打开文件？"
 
 #: pagelayout_editor/files.cpp:63 pagelayout_editor/files.cpp:151
@@ -14153,7 +14153,7 @@ msgstr "移动终点"
 
 #: pagelayout_editor/hotkeys.cpp:131 pagelayout_editor/pl_editor_frame.cpp:333
 msgid "Page Layout Editor"
-msgstr "图纸编辑器"
+msgstr "页面布局编辑器"
 
 #: pagelayout_editor/menubar.cpp:64
 msgid "Create new page layout design"
@@ -14310,11 +14310,11 @@ msgstr "明确选择"
 
 #: pagelayout_editor/toolbars_pl_editor.cpp:51
 msgid "New page layout design"
-msgstr "新建图纸"
+msgstr "新建页面布局设计"
 
 #: pagelayout_editor/toolbars_pl_editor.cpp:57
 msgid "Save page layout design"
-msgstr "保存图纸"
+msgstr "保存页面布局设计"
 
 #: pagelayout_editor/toolbars_pl_editor.cpp:62
 msgid "Page settings"
