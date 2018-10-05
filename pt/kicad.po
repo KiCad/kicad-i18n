@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-18 21:11+0200\n"
-"PO-Revision-Date: 2018-09-30 09:52-0300\n"
+"PO-Revision-Date: 2018-10-01 11:45-0300\n"
 "Last-Translator: Francisco R. Pereira <frosch_bin@yahoo.com.br>\n"
 "Language-Team: kicad team\n"
 "Language: pt_BR\n"
@@ -2388,7 +2388,7 @@ msgstr "Arquivo de descrição de layout de página"
 
 #: common/dialogs/dialog_page_settings_base.h:119
 msgid "Page Settings"
-msgstr "Configurações de Página"
+msgstr "Configurações da Página"
 
 #: common/dialogs/dialog_text_entry_base.cpp:22
 msgid "MyLabel"
@@ -5153,7 +5153,7 @@ msgstr "Editar Modelo Spice"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:107
 msgid "Reset Field Properties"
-msgstr "Redefinir Propriedades do Campo"
+msgstr "Redefinir Propriedades dos Campos"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:108
 msgid ""
@@ -5161,17 +5161,17 @@ msgid ""
 "value.\n"
 "Field values are not modified."
 msgstr ""
-"Definir a posição e estilo dos campos e a orientação do símbolo para os "
-"valores da biblioteca padrão.\n"
-"Os conteúdos dos campos não serão alterados."
+"Redefine a posição e estilo dos campos e a orientação dos símbolos para os "
+"valores padrão da biblioteca.\n"
+"Os valores dos campos não serão alterados."
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:112
 msgid "Update Field Values"
-msgstr "Atualizar Valores do Campo"
+msgstr "Redefinir Valores dos Campos"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:113
 msgid "Sets fields to the original library values"
-msgstr "Define campos para os valores da biblioteca original"
+msgstr "Redefine os campos para os valores originais da biblioteca"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:121
 msgid "Fields:"
@@ -5180,20 +5180,20 @@ msgstr "Campos:"
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:135
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:32
 msgid "Move the selected optional field up one position"
-msgstr "Mover o campo opcional selecionado uma posição acima"
+msgstr "Mover o campo selecionado uma posição acima"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:140
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:37
 msgid "Move the selected optional field down one position"
-msgstr "Mover o campo opcional selecionado uma posição abaixo"
+msgstr "Mover o campo selecionado uma posição abaixo"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:148
 msgid "Delete optional field"
-msgstr "Apagar campo opcional"
+msgstr "Apagar campo personalizado"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:153
 msgid "Create new custom field"
-msgstr "Criar novo campo personalizado"
+msgstr "Adicionar campo personalizado"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:169
 #: eeschema/dialogs/dialog_lib_edit_text_base.cpp:101
@@ -5205,7 +5205,7 @@ msgstr "Alinhar a esquerda"
 #: eeschema/dialogs/dialog_lib_edit_text_base.cpp:101
 #: eeschema/dialogs/dialog_lib_edit_text_base.cpp:107
 msgid "Align center"
-msgstr "Alinhar centralizado"
+msgstr "Centralizado"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:169
 #: eeschema/dialogs/dialog_lib_edit_text_base.cpp:101
@@ -5224,7 +5224,7 @@ msgstr "Alinhar pelo topo"
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:175
 #: eeschema/dialogs/dialog_lib_edit_text_base.cpp:107
 msgid "Align bottom"
-msgstr "Alinha por baixo"
+msgstr "Alinhar por baixo"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:177
 msgid "Vertical Position:"
@@ -5770,7 +5770,7 @@ msgstr "&Restringir fios e barramentos à orientação Horizontal ou Vertical"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:127
 msgid "S&how hidden pins"
-msgstr "Ex&ibir pinos ocultos"
+msgstr "Mos&trar pinos ocultos"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:130
 msgid "Show page limi&ts"
@@ -7054,7 +7054,7 @@ msgstr "Você precisa selecionar uma fonte DC (varredura 2)"
 #: eeschema/dialogs/dialog_sim_settings_base.cpp:29
 #: eeschema/dialogs/dialog_sim_settings_base.cpp:273
 msgid "Decade"
-msgstr "Década"
+msgstr "Décima"
 
 #: eeschema/dialogs/dialog_sim_settings_base.cpp:29
 #: eeschema/dialogs/dialog_sim_settings_base.cpp:273
@@ -7255,7 +7255,7 @@ msgstr "Adicionar caminho completo para diretivas de biblioteca .include"
 #: eeschema/dialogs/dialog_sim_settings_base.h:132
 #: eeschema/sim/sim_plot_frame.cpp:179
 msgid "Simulation settings"
-msgstr "Configurações de simulação"
+msgstr "Configurações da simulação"
 
 #: eeschema/dialogs/dialog_spice_model.cpp:738
 msgid "Select library"
@@ -8393,7 +8393,7 @@ msgstr "Refazer último comando"
 
 #: eeschema/help_common_strings.h:45
 msgid "Zoom to fit schematic page"
-msgstr "Ajustar à página do esquema"
+msgstr "Ajustar esquema à página"
 
 #: eeschema/help_common_strings.h:46
 msgid "Redraw schematic view"
@@ -9582,7 +9582,7 @@ msgstr "Alterar forma do cursor (não suportado no modo gráfico legado)"
 
 #: eeschema/menubar.cpp:225
 msgid "Show Hidden &Pins"
-msgstr "&Pinos Ocultos"
+msgstr "Mostrar &Pinos Ocultos"
 
 #: eeschema/menubar.cpp:239 eeschema/menubar_libedit.cpp:359
 msgid "&Symbol"
@@ -10801,7 +10801,7 @@ msgstr ""
 
 #: eeschema/sch_edit_frame.cpp:788
 msgid "Draw wires and buses in any direction"
-msgstr "Desenho de fios e barramentos em qualquer direção"
+msgstr "Desenhar fios e barramentos em qualquer direção"
 
 #: eeschema/sch_edit_frame.cpp:789
 msgid "Draw horizontal and vertical wires and buses only"
@@ -11705,7 +11705,7 @@ msgstr "Salvar (todas as folhas)"
 
 #: eeschema/tool_sch.cpp:75
 msgid "Edit Page settings"
-msgstr "Editar Configurações de Página"
+msgstr "Editar Configurações da Página"
 
 #: eeschema/tool_sch.cpp:80
 msgid "Print schematic"
