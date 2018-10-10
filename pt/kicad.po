@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-18 21:11+0200\n"
-"PO-Revision-Date: 2018-10-10 09:06-0300\n"
+"PO-Revision-Date: 2018-10-10 16:09-0300\n"
 "Last-Translator: Francisco R. Pereira <frosch_bin@yahoo.com.br>\n"
 "Language-Team: kicad team\n"
 "Language: pt_BR\n"
@@ -2114,7 +2114,7 @@ msgstr "Espelhar Y"
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:99
 #: pcbnew/onrightclick.cpp:959 pcbnew/tools/edit_tool.cpp:717
 msgid "Rotate"
-msgstr "Girar"
+msgstr "Vertical"
 
 #: common/dialogs/dialog_image_editor_base.cpp:42
 msgid "Grey"
@@ -2761,7 +2761,7 @@ msgstr ""
 #: common/gestfich.cpp:384
 #, c-format
 msgid "Unable to find a PDF viewer for \"%s\""
-msgstr "Não foi possível encontrar um visualizador de PDF para \"%s\""
+msgstr "Não foi possível localizar um visualizador de PDF para \"%s\""
 
 #: common/grid_tricks.cpp:176
 msgid "Cut\tCTRL+X"
@@ -3056,7 +3056,7 @@ msgstr "Não mostre esta mensagem novamente."
 #: common/project.cpp:258
 #, c-format
 msgid "Unable to find \"%s\" template config file."
-msgstr "Não foi possível encontrar o arquivo modelo de configuração \"%s\"."
+msgstr "Não foi possível localizar o arquivo modelo de configuração \"%s\"."
 
 #: common/project.cpp:261
 msgid "Error copying project file template"
@@ -3563,7 +3563,7 @@ msgstr "Ajustar à Tela"
 
 #: common/zoom.cpp:304
 msgid "Zoom: "
-msgstr "Ampliar: "
+msgstr "Ampliação: "
 
 #: common/zoom.cpp:331 eeschema/dialogs/dialog_annotate_base.cpp:158
 #: eeschema/dialogs/dialog_bom_base.cpp:62
@@ -4128,7 +4128,7 @@ msgid ""
 "correctly the next time you import the netlist in Pcbnew."
 msgstr ""
 "\n"
-"Você deve reassociá-los manualmente se deseja que sejam atualizados da "
+"Você deve reatribuí-los manualmente se deseja que sejam atualizados da "
 "próxima vez que importar a netlist no Pcbnew."
 
 #: cvpcb/tool_cvpcb.cpp:45
@@ -4203,7 +4203,7 @@ msgstr "Anotação completa."
 
 #: eeschema/backanno.cpp:221
 msgid "Load Symbol Footprint Link File"
-msgstr "Carregar o Arquivo de Link de Footprint de Componente"
+msgstr "Carregar Arquivo de Associação entre Símbolo Esquemático e Footprint"
 
 #: eeschema/backanno.cpp:232
 msgid "Keep existing footprint field visibility"
@@ -4356,7 +4356,7 @@ msgstr "Símbolo"
 
 #: eeschema/cmp_tree_model_adapter_base.cpp:221
 msgid "Desc"
-msgstr "Desc"
+msgstr "Descrição"
 
 #: eeschema/component_references_lister.cpp:554
 #, c-format
@@ -4856,8 +4856,7 @@ msgstr "Nome do Arquivo de Documentação:"
 msgid ""
 "Enter the documentation file (a .pdf document) associated with the symbol."
 msgstr ""
-"Entre com o Arquivo de Documentação (um documento .pdf) associado com o "
-"símbolo."
+"Entre com o Arquivo de Documentação (um documento .pdf) associado ao símbolo."
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:147
 msgid "Copy Document from Parent"
@@ -4998,7 +4997,7 @@ msgstr ""
 #: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:996
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib.cpp:805
 msgid "Browse Footprints"
-msgstr "Navegar Footprints"
+msgstr "Pesquisar Footprints"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:998
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib.cpp:807
@@ -5087,7 +5086,7 @@ msgstr "Orientação (graus):"
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:52
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:73
 msgid "Select if the symbol is to be rotated when drawn"
-msgstr "Selecione se o símbolo deve ser girado quando desenhado"
+msgstr "Seleciona a rotação aplicada ao símbolo quando for desenhado"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:56
 msgid "Mirror around X axis"
@@ -5104,8 +5103,7 @@ msgstr "Aspecto:"
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:60
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:81
 msgid "Pick the graphical transformation to be used when displaying the symbol"
-msgstr ""
-"Seleciona a transformação gráfica a ser utilizada na exibição do símbolo"
+msgstr "Seleciona a transformação gráfica utilizada na exibição do símbolo"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:64
 msgid "Convert shape"
@@ -5233,13 +5231,13 @@ msgstr "Posição Vertical:"
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:188
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:92
 msgid "Visibility:"
-msgstr "Visibilidade:"
+msgstr "Exibição:"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:190
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:94
 #: eeschema/dialogs/dialog_fields_editor_global.cpp:543
 msgid "Show"
-msgstr "Exibir"
+msgstr "Visível"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:191
 msgid "Make selected field visible"
@@ -5247,7 +5245,7 @@ msgstr "Tornar o campo selecionado visível"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:196
 msgid "Rotated 90 degrees the selected field"
-msgstr "Girado em 90 graus o campo selecionado"
+msgstr "Gira o campo selecionado em 90 graus"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:203
 #: eeschema/dialogs/dialog_edit_label_base.cpp:75
@@ -5358,7 +5356,7 @@ msgstr "Posição Y:"
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.h:113
 #: eeschema/dialogs/dialog_lib_new_component_base.h:60
 msgid "Symbol Properties"
-msgstr "Propriedades dos Símbolos"
+msgstr "Propriedades do Símbolo"
 
 #: eeschema/dialogs/dialog_edit_components_libid.cpp:366
 #, c-format
@@ -5422,7 +5420,7 @@ msgid ""
 "If  some components are orphan (the linked symbol is found nowhere),\n"
 "try to find a candidate having the same name in one of loaded symbol libraries"
 msgstr ""
-"Se alguns componentes são órfãos (o símbolo vinculado não é encontrado em "
+"Se alguns componentes são órfãos (o símbolo vinculado não está localizado em "
 "nenhum lugar),\n"
 "tente encontrar um candidato com o mesmo nome em uma das bibliotecas de "
 "símbolos"
@@ -6815,7 +6813,7 @@ msgstr "Imprimir somente em &preto e branco"
 
 #: eeschema/dialogs/dialog_print_using_printer_base.cpp:44
 msgid "Page Setup"
-msgstr "Configuração de Página"
+msgstr "Configurar Página"
 
 #: eeschema/dialogs/dialog_print_using_printer_base.cpp:50
 #: eeschema/dialogs/dialog_print_using_printer_base.h:54
@@ -6976,7 +6974,7 @@ msgstr "Texto com opção de caracteres curinga"
 
 #: eeschema/dialogs/dialog_schematic_find_base.cpp:38
 msgid "Replace &with:"
-msgstr "Trocar &por:"
+msgstr "Substituir &por:"
 
 #: eeschema/dialogs/dialog_schematic_find_base.cpp:49
 msgid "Direction:"
@@ -7017,7 +7015,7 @@ msgstr "Pesquisar todos os &nomes e números de pinos"
 
 #: eeschema/dialogs/dialog_schematic_find_base.cpp:94
 msgid "Search the current &sheet only"
-msgstr "Pesquise apenas na &página atual"
+msgstr "Pesquisar apenas na &página atual"
 
 #: eeschema/dialogs/dialog_schematic_find_base.cpp:97
 msgid "Replace componen&t reference designators"
@@ -7025,11 +7023,11 @@ msgstr "Substituir os designadores de referência do componen&te"
 
 #: eeschema/dialogs/dialog_schematic_find_base.cpp:102
 msgid "D&o not warp cursor to found item"
-msgstr "Nã&o mova o cursor para o item encontrado"
+msgstr "Nã&o posicionar o cursor no item encontrado"
 
 #: eeschema/dialogs/dialog_schematic_find_base.cpp:111
 msgid "&Find"
-msgstr "&Procurar"
+msgstr "&Localizar"
 
 #: eeschema/dialogs/dialog_schematic_find_base.cpp:115
 msgid "&Replace"
@@ -7288,19 +7286,19 @@ msgstr "Tipo passivo"
 
 #: eeschema/dialogs/dialog_spice_model_base.cpp:54
 msgid "Spice value in simulation"
-msgstr "Valor do Spice na simulação"
+msgstr "Valor Spice na simulação"
 
 #: eeschema/dialogs/dialog_spice_model_base.cpp:67
 msgid ""
 "In Spice values,the decimal separator is the point.\n"
 "Values can use Spice unit symbols."
 msgstr ""
-"Nos valores do Spice, o separador decimal é o ponto.\n"
+"Nos valores utilizados pelo Spice, o separador decimal é o ponto.\n"
 "Os valores podem utilizar os símbolos de unidade do Spice."
 
 #: eeschema/dialogs/dialog_spice_model_base.cpp:71
 msgid "Spice unit symbols in values (case insensitive):"
-msgstr "Símbolos de unidade do Spice nos valores (insensível a maiúsculas)"
+msgstr "Símbolos de unidades Spice em valores (insensível a maiúscula)"
 
 #: eeschema/dialogs/dialog_spice_model_base.cpp:81
 msgid "f"
@@ -7489,7 +7487,7 @@ msgstr "Valor inicial:"
 #: eeschema/dialogs/dialog_spice_model_base.cpp:351
 #: eeschema/dialogs/dialog_spice_model_base.cpp:511
 msgid "Pulsed value:"
-msgstr "Valor de pulso:"
+msgstr "Valor do pulso:"
 
 #: eeschema/dialogs/dialog_spice_model_base.cpp:362
 msgid "Delay time:"
@@ -7576,7 +7574,7 @@ msgstr "Linear Atento a Peças"
 
 #: eeschema/dialogs/dialog_spice_model_base.cpp:587
 msgid "Time:"
-msgstr "Hora:"
+msgstr "Período:"
 
 #: eeschema/dialogs/dialog_spice_model_base.cpp:596
 msgid "second"
@@ -7626,7 +7624,7 @@ msgstr "Fonte"
 
 #: eeschema/dialogs/dialog_spice_model_base.cpp:673
 msgid "Disable symbol for simulation"
-msgstr "Desabilitar símbolo para simulação"
+msgstr "Desabilitar símbolo durante a simulação"
 
 #: eeschema/dialogs/dialog_spice_model_base.cpp:679
 msgid "Alternate node sequence:"
@@ -7999,7 +7997,7 @@ msgstr "Não foi possível carregar imagem de \"%s\""
 #: eeschema/edit_component_in_schematic.cpp:65
 #, c-format
 msgid "Edit %s Field"
-msgstr "Editar Campo %s"
+msgstr "Editar o Campo %s"
 
 #: eeschema/eeschema.cpp:278
 msgid ""
@@ -8408,11 +8406,11 @@ msgstr "Excluir item"
 
 #: eeschema/help_common_strings.h:51
 msgid "Find symbols and text"
-msgstr "Procurar componentes e textos"
+msgstr "Localizar componentes e textos"
 
 #: eeschema/help_common_strings.h:52
 msgid "Find and replace text in schematic items"
-msgstr "Encontre e substitua o texto em itens do esquema"
+msgstr "Localize e substitua o texto em itens do esquema"
 
 #: eeschema/help_common_strings.h:53
 msgid "Place symbol"
@@ -8512,8 +8510,8 @@ msgid ""
 "Back-import symbol footprint association fields from the .cmp back import "
 "file created by Pcbnew"
 msgstr ""
-"Campos de associação de footprint de símbolo de back-import do arquivo de "
-"back-import .cmp criado pelo Pcbnew"
+"Reimportar campos de associação entre símbolos e footprints de um arquivo "
+"para reimportação .cmp criado pelo Pcbnew"
 
 #: eeschema/help_common_strings.h:84
 msgid "Add pins to symbol"
@@ -8708,11 +8706,11 @@ msgstr "Apagar Nó"
 #: eeschema/hotkeys.cpp:192 pcbnew/dialogs/dialog_find_base.cpp:39
 #: pcbnew/hotkeys.cpp:96
 msgid "Find Item"
-msgstr "Procurar Item"
+msgstr "Localizar Item"
 
 #: eeschema/hotkeys.cpp:193
 msgid "Find Next Item"
-msgstr "Procurar Próximo Item"
+msgstr "localizar Próximo Item"
 
 #: eeschema/hotkeys.cpp:197
 msgid "Find Next DRC Marker"
@@ -9820,11 +9818,11 @@ msgstr "&Apagar"
 
 #: eeschema/menubar.cpp:512 pcbnew/menubar_pcb_editor.cpp:540
 msgid "&Find..."
-msgstr "&Procurar…"
+msgstr "&Localizar…"
 
 #: eeschema/menubar.cpp:516
 msgid "Find and Re&place..."
-msgstr "Pesquisar e &Substituir…"
+msgstr "Localizar e &Substituir…"
 
 #: eeschema/menubar.cpp:525
 msgid "Update Field Values..."
@@ -9870,7 +9868,7 @@ msgstr "&Recuperar Símbolos..."
 
 #: eeschema/menubar.cpp:569
 msgid "Find old symbols in project and rename/rescue them"
-msgstr "Procurar símbolos antigos no projeto e renomeá-los/recuperá-los"
+msgstr "Localizar símbolos antigos no projeto e renomeá-los/recuperá-los"
 
 #: eeschema/menubar.cpp:574
 msgid "Remap Symbols..."
@@ -10168,7 +10166,7 @@ msgstr "Falhou ao criar arquivo \"%s\""
 #: eeschema/netlist_exporters/netlist_exporter_pspice.cpp:103
 #, c-format
 msgid "Could not find library file %s"
-msgstr "Não foi possível encontrar o arquivo de biblioteca %s"
+msgstr "Não foi possível localizar o arquivo de biblioteca %s"
 
 #: eeschema/netlist_generator.cpp:115
 msgid "Run command:"
@@ -10777,7 +10775,7 @@ msgstr "Incapaz de ler o arquivo \"%s\""
 #: eeschema/sch_eagle_plugin.cpp:1086
 #, c-format
 msgid "Could not find %s in the imported library"
-msgstr "Não foi possível encontrar %s na biblioteca importada"
+msgstr "Não foi possível localizar %s na biblioteca importada"
 
 #: eeschema/sch_edit_frame.cpp:177 pcbnew/class_zone.cpp:1085
 msgid "Not Found"
@@ -10805,11 +10803,11 @@ msgstr "Desenhar fios e barramentos em qualquer direção"
 
 #: eeschema/sch_edit_frame.cpp:789
 msgid "Draw horizontal and vertical wires and buses only"
-msgstr "Desenhar apenas fios horizontais, verticais e barramentos"
+msgstr "Desenhar fios e barramentos apenas na horizontal ou vertical"
 
 #: eeschema/sch_edit_frame.cpp:798
 msgid "Do not show hidden pins"
-msgstr "Não mostrar pinos ocultos"
+msgstr "Não exibir pinos ocultos"
 
 #: eeschema/sch_edit_frame.cpp:799 eeschema/tool_sch.cpp:312
 msgid "Show hidden pins"
@@ -11733,11 +11731,11 @@ msgstr "Gerar netlist"
 
 #: eeschema/tool_sch.cpp:168
 msgid "Edit symbol fields"
-msgstr "Editar campos do símbolo"
+msgstr "Editar campos de símbolos"
 
 #: eeschema/tool_sch.cpp:177
 msgid "Run Pcbnew to layout printed circuit board"
-msgstr "Executar o Pcbnew para realizar a disposição da PCI"
+msgstr "Executar o Pcbnew para o desenho da placa de circuito impresso"
 
 #: eeschema/tool_sch.cpp:204 pcbnew/edit.cpp:1580 pcbnew/tool_pcb_editor.cpp:446
 #: pcbnew/tools/pcb_editor_control.cpp:1045
@@ -13931,7 +13929,7 @@ msgstr "Não foi possível abrir a pasta com meta informações para este modelo
 #: kicad/project_template.cpp:63
 msgid "Cound't find the meta HTML information file for this template!"
 msgstr ""
-"Não foi possível encontrar o arquivo de informação meta HTML para este modelo!"
+"Não foi possível localizar o arquivo de informação meta HTML para este modelo!"
 
 #: kicad/project_template.cpp:205
 #, c-format
@@ -18660,7 +18658,7 @@ msgstr "Não mover ponteiro do mouse"
 
 #: pcbnew/dialogs/dialog_find_base.cpp:43
 msgid "Find Marker"
-msgstr "Procurar Marcador"
+msgstr "Localizar Marcador"
 
 #: pcbnew/dialogs/dialog_footprint_wizard_list.cpp:146
 msgid "All footprint generator scripts were loaded"
@@ -23467,7 +23465,7 @@ msgstr "Nenhuma placa está aberta."
 
 #: pcbnew/footprint_editor_utils.cpp:431
 msgid "Unable to find the footprint source on the main board"
-msgstr "Não é possível encontrar a fonte do footprint na placa principal"
+msgstr "Não foi possível localizar a fonte do footprint na placa principal"
 
 #: pcbnew/footprint_editor_utils.cpp:432
 msgid ""
@@ -23888,7 +23886,7 @@ msgstr "Desfazer última edição"
 
 #: pcbnew/help_common_strings.h:17
 msgid "Find components and text in current loaded board"
-msgstr "Procurar componentes e textos na placa atual"
+msgstr "Localizar componentes e textos na placa atual"
 
 #: pcbnew/help_common_strings.h:21
 msgid "Zoom to fit board or page"
@@ -26529,7 +26527,7 @@ msgid ""
 "documentation for more information."
 msgstr ""
 "Você executou o Pcbnew pela primeira vez usando o novo método de tabela de "
-"bibliotecas de footprint para encontrar footprints.\n"
+"bibliotecas de footprint para localizar footprints.\n"
 "O Pcbnew copiou a tabela padrão ou criou uma tabela vazia na pasta de "
 "configurações do KiCad.\n"
 "Você deve primeiro configurar a tabela de biblioteca para incluir todas as "
@@ -26628,7 +26626,7 @@ msgid ""
 "Unable to find complementary differential pair nets. Make sure the names of "
 "the nets belonging to a differential pair end with either _N/_P or +/-."
 msgstr ""
-"Não foi possível encontrar redes de pares diferenciais complementares. "
+"Não foi possível localizar redes de pares diferenciais complementares. "
 "Certifique-se de que os nomes das redes pertencentes a um par diferencial "
 "terminem com _N/_P ou +/-."
 
@@ -26637,14 +26635,14 @@ msgid ""
 "Can't find a suitable starting point.  If starting from an existing "
 "differential pair make sure you are at the end. "
 msgstr ""
-"Não foi possível encontrar um ponto de partida adequado.  Se está iniciando "
+"Não foi possível localizar um ponto de partida adequado.  Se está iniciando "
 "de um par diferencial existente certifique-se de estar no final. "
 
 #: pcbnew/router/pns_diff_pair_placer.cpp:524
 #, c-format
 msgid "Can't find a suitable starting point for coupled net \"%s\"."
 msgstr ""
-"Não foi possível encontrar um ponto de partida adequado para a rede acoplada "
+"Não foi possível localizar um ponto de partida adequado para a rede acoplada "
 "\"%s\"."
 
 #: pcbnew/router/pns_diff_pair_placer.cpp:554
@@ -26672,7 +26670,7 @@ msgid ""
 "sure the names of the nets belonging to a differential pair end with either "
 "_N/_P or +/-."
 msgstr ""
-"Não foi possível encontrar uma rede de par diferencial complementar para o "
+"Não foi possível localizar uma rede de par diferencial complementar para o "
 "ajuste de comprimento. Certifique-se que os nomes das redes pertencentes a um "
 "par diferencial terminem com _N/_P ou +/-."
 
@@ -26727,7 +26725,7 @@ msgid ""
 "the names of the nets belonging to a differential pair end with either _N/_P "
 "or +/-."
 msgstr ""
-"Não foi possível encontrar uma rede de par diferencial complementar para "
+"Não foi possível localizar uma rede de par diferencial complementar para "
 "ajuste de inclinação. Certifique-se que os nomes das redes pertencentes a um "
 "par diferencial terminem com _N/_P ou +/-."
 
@@ -28042,7 +28040,7 @@ msgstr "Seleciona todos os módulos e trilhas da mesma folha esquemática"
 
 #: pcbnew/tools/selection_tool.cpp:123
 msgid "Find Item..."
-msgstr "Pesquisar Item…"
+msgstr "Localizar Item…"
 
 #: pcbnew/tools/selection_tool.cpp:123
 msgid "Searches the document for an item"
