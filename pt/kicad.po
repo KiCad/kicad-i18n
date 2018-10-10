@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-18 21:11+0200\n"
-"PO-Revision-Date: 2018-10-01 11:45-0300\n"
+"PO-Revision-Date: 2018-10-10 09:06-0300\n"
 "Last-Translator: Francisco R. Pereira <frosch_bin@yahoo.com.br>\n"
 "Language-Team: kicad team\n"
 "Language: pt_BR\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Basepath: ../../kicad-source-mirror\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2\n"
 "X-Poedit-SearchPath-0: 3d-viewer\n"
 "X-Poedit-SearchPath-1: bitmap2component\n"
 "X-Poedit-SearchPath-2: common\n"
@@ -206,7 +206,7 @@ msgstr "Mover para Cima"
 #: pcbnew/dialogs/dialog_fp_lib_table_base.cpp:151
 #: pcbnew/dialogs/dialog_fp_plugin_options_base.cpp:72
 msgid "Move Down"
-msgstr "Mover para baixo"
+msgstr "Mover para Baixo"
 
 #: 3d-viewer/3d_cache/dialogs/dlg_3d_pathconfig_base.h:62
 msgid "3D Search Path Configuration"
@@ -600,35 +600,35 @@ msgstr "&Redesenhar"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:94 3d-viewer/3d_viewer/3d_toolbar.cpp:92
 msgid "Rotate X Clockwise"
-msgstr "Rotacionar X Sentido Horário"
+msgstr "Girar X Sentido Horário"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:98 3d-viewer/3d_viewer/3d_toolbar.cpp:96
 msgid "Rotate X Counterclockwise"
-msgstr "Rotacionar X Sentido Anti-horário"
+msgstr "Girar X Sentido Anti-horário"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:104 3d-viewer/3d_viewer/3d_toolbar.cpp:101
 msgid "Rotate Y Clockwise"
-msgstr "Rotacionar Y Sentido Horário"
+msgstr "Girar Y Sentido Horário"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:108 3d-viewer/3d_viewer/3d_toolbar.cpp:105
 msgid "Rotate Y Counterclockwise"
-msgstr "Rotacionar Y Sentido Anti-horário"
+msgstr "Girar Y Sentido Anti-horário"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:114 3d-viewer/3d_viewer/3d_toolbar.cpp:110
 msgid "Rotate Z Clockwise"
-msgstr "Rotacionar Z Sentido Horário"
+msgstr "Girar Z Sentido Horário"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:118 3d-viewer/3d_viewer/3d_toolbar.cpp:114
 msgid "Rotate Z Counterclockwise"
-msgstr "Rotacionar Z Sentido Anti-horário"
+msgstr "Girar Z Sentido Anti-horário"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:124 3d-viewer/3d_viewer/3d_toolbar.cpp:118
 msgid "Move left"
-msgstr "Mover a esquerda"
+msgstr "Mover para esquerda"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:128 3d-viewer/3d_viewer/3d_toolbar.cpp:121
 msgid "Move right"
-msgstr "Mover a direita"
+msgstr "Mover para direita"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:132 3d-viewer/3d_viewer/3d_toolbar.cpp:124
 msgid "Move up"
@@ -1143,7 +1143,7 @@ msgstr "Vista por Baixo"
 
 #: 3d-viewer/3d_viewer/hotkeys.cpp:50
 msgid "Rotate 45 degrees over Z axis"
-msgstr "Rotacionar 45º no eixo Z"
+msgstr "Girar 45º no eixo Z"
 
 #: 3d-viewer/3d_viewer/hotkeys.cpp:51
 msgid "Zoom in "
@@ -1485,7 +1485,7 @@ msgstr "Enquadrar a seleção"
 
 #: common/block_commande.cpp:101
 msgid "Block Rotate"
-msgstr "Rotacionar Bloco"
+msgstr "Girar Bloco"
 
 #: common/block_commande.cpp:105
 msgid "Block Flip"
@@ -2114,7 +2114,7 @@ msgstr "Espelhar Y"
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:99
 #: pcbnew/onrightclick.cpp:959 pcbnew/tools/edit_tool.cpp:717
 msgid "Rotate"
-msgstr "Rotacionar"
+msgstr "Girar"
 
 #: common/dialogs/dialog_image_editor_base.cpp:42
 msgid "Grey"
@@ -3713,7 +3713,7 @@ msgstr ""
 
 #: cvpcb/cvpcb_mainframe.cpp:678
 msgid "key words"
-msgstr "palavras chave"
+msgstr "palavra chave"
 
 #: cvpcb/cvpcb_mainframe.cpp:691
 msgid "pin count"
@@ -3725,7 +3725,7 @@ msgstr "biblioteca"
 
 #: cvpcb/cvpcb_mainframe.cpp:709
 msgid "search text"
-msgstr "procurar texto"
+msgstr "busca textual"
 
 #: cvpcb/cvpcb_mainframe.cpp:713
 msgid "No filtering"
@@ -3825,19 +3825,19 @@ msgstr "Opções de Desenho:"
 
 #: cvpcb/dialogs/dialog_display_options_base.cpp:25
 msgid "Graphic items sketch mode"
-msgstr "Modo de esboço de itens gráficos"
+msgstr "Itens gráficos em modo esboço"
 
 #: cvpcb/dialogs/dialog_display_options_base.cpp:28
 msgid "Texts sketch mode"
-msgstr "Modo de esboço de textos"
+msgstr "Textos em modo esboço"
 
 #: cvpcb/dialogs/dialog_display_options_base.cpp:31
 msgid "Pad sketch mode"
-msgstr "Modo de esboço de ilha"
+msgstr "Ilhas em modo esboço"
 
 #: cvpcb/dialogs/dialog_display_options_base.cpp:34
 msgid "Show pad &number"
-msgstr "Exibir &número da Ilha"
+msgstr "Exibir &número das Ilhas"
 
 #: cvpcb/dialogs/dialog_display_options_base.cpp:41
 #: gerbview/dialogs/gerbview_dialog_display_options_frame_base.cpp:71
@@ -3866,12 +3866,12 @@ msgid ""
 "Enable touchpad-friendly controls (pan with scroll action, zoom with Ctrl"
 "+scroll)."
 msgstr ""
-"Ativar controles amigáveis ao uso de touchpad (deslizar com a ação de "
+"Ativar controles amigáveis ao uso de touchpad (deslizar tela com a ação de "
 "rolagem, zoom com Ctrl+scroll)."
 
 #: cvpcb/dialogs/dialog_display_options_base.cpp:53
 msgid "Pan while moving object"
-msgstr "Deslizar enquanto move o objeto"
+msgstr "Deslizar tela ao mover o objeto"
 
 #: cvpcb/dialogs/dialog_display_options_base.cpp:54
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:95
@@ -3879,8 +3879,8 @@ msgid ""
 "When drawing a track or moving an item, pan when approaching the edge of the "
 "display."
 msgstr ""
-"Quando estiver desenhando uma trilha ou movendo um item, deslizar ao "
-"aproximar os cantos da tela."
+"Quando estiver desenhando uma trilha ou movendo um item, deslizar tela ao "
+"aproximar os cantos."
 
 #: cvpcb/dialogs/fp_conflict_assignment_selector.cpp:37
 msgid "Ref"
@@ -4519,7 +4519,7 @@ msgstr "Manter esta caixa de diálogo aberta"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:136
 msgid "Don't ask for confirmation"
-msgstr "Não pedir confirmação"
+msgstr "Não solicitar confirmação"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:152
 msgid "Annotate"
@@ -4586,7 +4586,7 @@ msgstr "Remover plugin"
 
 #: eeschema/dialogs/dialog_bom_base.cpp:77
 msgid "Edit Plugin File"
-msgstr "Editar Arquivo de Plugin"
+msgstr "Editar Arquivo do Plugin"
 
 #: eeschema/dialogs/dialog_bom_base.cpp:89
 msgid "Command line:"
@@ -5866,7 +5866,7 @@ msgstr "Use o touchpad para mover a tela"
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:295
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:94
 msgid "&Pan while moving object"
-msgstr "&Deslizar enquanto move o objeto"
+msgstr "&Deslizar tela ao mover o objeto"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:305
 msgid "Controls"
@@ -6047,11 +6047,11 @@ msgstr "Ficha Técnica"
 
 #: eeschema/dialogs/dialog_fields_editor_global_base.cpp:29
 msgid "Group symbols"
-msgstr "Grupos de símbolos"
+msgstr "Agrupar símbolos"
 
 #: eeschema/dialogs/dialog_fields_editor_global_base.cpp:31
 msgid "Group components together based on common properties"
-msgstr "Agrupar componentes juntos com base em propriedades comuns"
+msgstr "Agrupar componentes com base em propriedades comuns"
 
 #: eeschema/dialogs/dialog_fields_editor_global_base.h:72
 msgid "Symbol Fields"
@@ -6447,11 +6447,11 @@ msgstr "Formato padrão"
 
 #: eeschema/dialogs/dialog_netlist.cpp:397
 msgid "Reformat passive symbol values"
-msgstr "Reformatar valores de símbolos passivos"
+msgstr "Reformatar valores passivos de símbolos"
 
 #: eeschema/dialogs/dialog_netlist.cpp:399
 msgid "Reformat passive symbol values e.g. 1M -> 1Meg"
-msgstr "Reformatar valores passivos do símbolo, por exemplo 1M -> 1Meg"
+msgstr "Reformata os valores passivos do símbolo, por exemplo 1M -> 1Meg"
 
 #: eeschema/dialogs/dialog_netlist.cpp:404
 msgid "Simulator command:"
@@ -7246,7 +7246,7 @@ msgstr "Customizado"
 
 #: eeschema/dialogs/dialog_sim_settings_base.cpp:442
 msgid "Adjust passive symbol values (e.g. M -> Meg; 100 nF -> 100n)"
-msgstr "Ajustar valores de símbolos passivos (e.x. M -> Meg; 100nF -> 100n)"
+msgstr "Ajustar valores passivos de símbolos (e.x. M -> Meg; 100nF -> 100n)"
 
 #: eeschema/dialogs/dialog_sim_settings_base.cpp:445
 msgid "Add full path for .include library directives"
@@ -7723,16 +7723,16 @@ msgstr "Bibliotecas Específicas do Projeto"
 #: eeschema/dialogs/dialog_sym_lib_table_base.cpp:134
 #: pcbnew/dialogs/dialog_fp_lib_table_base.cpp:133
 msgid "Browse Libraries..."
-msgstr "Navegar nas Bibliotecas…"
+msgstr "Procurar Biblioteca…"
 
 #: eeschema/dialogs/dialog_sym_lib_table_base.cpp:137
 #: pcbnew/dialogs/dialog_fp_lib_table_base.cpp:136
 msgid "Append Library"
-msgstr "Anexar Biblioteca"
+msgstr "Adicionar Biblioteca"
 
 #: eeschema/dialogs/dialog_sym_lib_table_base.cpp:138
 msgid "Add a symbol library row to this table"
-msgstr "Adicionar uma linha de biblioteca de símbolos a esta tabela"
+msgstr "Adicionar uma biblioteca de símbolos a esta tabela"
 
 #: eeschema/dialogs/dialog_sym_lib_table_base.cpp:142
 #: pcbnew/dialogs/dialog_fp_lib_table_base.cpp:141
@@ -7756,7 +7756,7 @@ msgstr "Mover a linha selecionada uma posição abaixo"
 #: eeschema/dialogs/dialog_sym_lib_table_base.cpp:164
 #: pcbnew/dialogs/dialog_fp_lib_table_base.cpp:168
 msgid "Path Substitutions:"
-msgstr "Substituições de Caminho:"
+msgstr "Substituições de Locais de Arquivos:"
 
 #: eeschema/dialogs/dialog_sym_lib_table_base.cpp:182
 #: pcbnew/dialogs/dialog_fp_lib_table_base.cpp:186
@@ -7766,7 +7766,7 @@ msgstr "Variável de Ambiente"
 #: eeschema/dialogs/dialog_sym_lib_table_base.cpp:183
 #: pcbnew/dialogs/dialog_fp_lib_table_base.cpp:187
 msgid "Path Segment"
-msgstr "Segmento de Caminho"
+msgstr "Local dos Arquivos"
 
 #: eeschema/dialogs/dialog_sym_lib_table_base.cpp:195
 #: pcbnew/dialogs/dialog_fp_lib_table_base.cpp:199
@@ -8041,7 +8041,7 @@ msgstr "Tri-State"
 
 #: eeschema/erc.cpp:93 eeschema/erc.cpp:109
 msgid "Passive Pin"
-msgstr "Passivo"
+msgstr "Pino Passivo"
 
 #: eeschema/erc.cpp:94 eeschema/erc.cpp:110
 msgid "Unspecified Pin"
@@ -8674,7 +8674,7 @@ msgstr "Editar Footprint do Símbolo"
 
 #: eeschema/hotkeys.cpp:172
 msgid "Edit with Symbol Editor"
-msgstr "Editar com Editor de Símbolos"
+msgstr "Abrir no Editor de Símbolos"
 
 #: eeschema/hotkeys.cpp:176
 msgid "Move Schematic Item"
@@ -9884,7 +9884,7 @@ msgstr ""
 
 #: eeschema/menubar.cpp:582
 msgid "Edit Symbol Field&s..."
-msgstr "Editar Campo&s dos Símbolos…"
+msgstr "Editar Campo&s de Símbolos…"
 
 #: eeschema/menubar.cpp:587
 msgid "Edit Symbol Library References..."
@@ -9892,7 +9892,7 @@ msgstr "Editar Referências de Biblioteca de Símbolos…"
 
 #: eeschema/menubar.cpp:588
 msgid "Edit links between schematic symbols and library symbols"
-msgstr "Editar vínculos entre os símbolos no esquema e símbolos em bibliotecas"
+msgstr "Editar vínculos entre os símbolos do esquema e símbolos em bibliotecas"
 
 #: eeschema/menubar.cpp:595
 msgid "&Annotate Schematic..."
@@ -9904,7 +9904,7 @@ msgstr "Gerar Arquivo &Netlist…"
 
 #: eeschema/menubar.cpp:601
 msgid "Generate netlist file"
-msgstr "Gerar arquivo netlist"
+msgstr "Gerar o arquivo netlist"
 
 #: eeschema/menubar.cpp:606
 msgid "Generate Bill of &Materials..."
@@ -9951,7 +9951,7 @@ msgstr "Gerenciar Bibliotecas de Símbolos..."
 
 #: eeschema/menubar.cpp:681
 msgid "Edit the global and project symbol library lists"
-msgstr "Editar as listas de bibliotecas de símbolos globais e de projeto"
+msgstr "Editar as listas de bibliotecas de símbolos globais e do projeto"
 
 #: eeschema/menubar.cpp:690
 msgid "General &Options"
@@ -10206,7 +10206,7 @@ msgstr "Nenhum Objeto"
 #: eeschema/netlist_generator.cpp:254
 #, c-format
 msgid "Net count = %d"
-msgstr "Número de Nets = %d"
+msgstr "Número de redes = %d"
 
 #: eeschema/onrightclick.cpp:100
 msgid "Edit Text..."
@@ -10262,15 +10262,15 @@ msgstr "Girar Referência"
 
 #: eeschema/onrightclick.cpp:328
 msgid "Rotate Value"
-msgstr "Rotacionar Valor"
+msgstr "Girar Valor"
 
 #: eeschema/onrightclick.cpp:329
 msgid "Rotate Footprint Field"
-msgstr "Rotacionar Campo do Footprint"
+msgstr "Girar Campo do Footprint"
 
 #: eeschema/onrightclick.cpp:330
 msgid "Rotate Field"
-msgstr "Rotacionar Campo"
+msgstr "Girar Campo"
 
 #: eeschema/onrightclick.cpp:342 eeschema/onrightclick.cpp:453
 msgid "Edit Reference..."
@@ -10339,7 +10339,7 @@ msgstr "Editar Footprint…"
 
 #: eeschema/onrightclick.cpp:495
 msgid "Edit with Library Editor"
-msgstr "Editar com Editor de Bibliotecas"
+msgstr "Abrir no Editor de Bibliotecas"
 
 #: eeschema/onrightclick.cpp:502 pagelayout_editor/pl_editor_frame.cpp:141
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:328
@@ -16104,7 +16104,7 @@ msgstr "Gráfico da PCI: %s, comprimento %s em %s"
 
 #: pcbnew/class_edge_mod.cpp:252
 msgid "TimeStamp"
-msgstr "TimeStamp"
+msgstr "Etiqueta de Data e Hora"
 
 #: pcbnew/class_edge_mod.cpp:253
 msgid "Footprint Layer"
@@ -18700,7 +18700,7 @@ msgstr "Todos os formatos de biblioteca suportados|"
 
 #: pcbnew/dialogs/dialog_fp_lib_table_base.cpp:137
 msgid "Add a PCB library row to this table"
-msgstr "Adicionar uma linha de biblioteca PCI a esta tabela"
+msgstr "Adicionar uma biblioteca PCI a esta tabela"
 
 #: pcbnew/dialogs/dialog_fp_lib_table_base.cpp:142
 msgid "Remove a PCB library from this library table"
@@ -18724,7 +18724,7 @@ msgid ""
 "<b>Append Selected Option</b> button."
 msgstr ""
 "Selecione uma <b>Opção</b> da caixa de seleção acima, em seguida, clique no "
-"botão <b>Adicionar Opção Selecionada</b>."
+"botão <b>Adicionar opção selecionada</b>."
 
 #: pcbnew/dialogs/dialog_fp_plugin_options.cpp:64
 #, c-format
@@ -18741,7 +18741,7 @@ msgstr "Opção"
 
 #: pcbnew/dialogs/dialog_fp_plugin_options_base.cpp:57
 msgid "Append"
-msgstr "Acrescentar"
+msgstr "Adicionar"
 
 #: pcbnew/dialogs/dialog_fp_plugin_options_base.cpp:58
 msgid "Append a blank row"
@@ -20776,7 +20776,7 @@ msgstr "Erro ao Carregar Netlist"
 #: pcbnew/dialogs/dialog_netlist_base.cpp:33
 #: pcbnew/dialogs/dialog_update_pcb_base.cpp:33
 msgid "Timestamp"
-msgstr "Timestamp"
+msgstr "Etiqueta de dada e hora"
 
 #: pcbnew/dialogs/dialog_netlist_base.cpp:35
 msgid "Footprint Selection:"
@@ -23343,7 +23343,7 @@ msgstr "Espelhar Bloco (alt + arrastar mouse)"
 
 #: pcbnew/footprint_editor_onclick.cpp:263
 msgid "Rotate Block (ctrl + drag mouse)"
-msgstr "Rotacionar Bloco (ctrl + arrastar mouse)"
+msgstr "Girar Bloco (ctrl + arrastar mouse)"
 
 #: pcbnew/footprint_editor_onclick.cpp:266
 msgid "Delete Block (shift+ctrl + drag mouse)"
@@ -24019,7 +24019,7 @@ msgstr "Arrastar Trilha Mantendo Inclinação"
 
 #: pcbnew/hotkeys.cpp:131 pcbnew/onrightclick.cpp:770
 msgid "Edit with Footprint Editor"
-msgstr "Editar com o Editor de Footprints"
+msgstr "Abrir no Editor de Footprints"
 
 #: pcbnew/hotkeys.cpp:132
 msgid "Flip Item"
