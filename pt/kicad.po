@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-18 21:11+0200\n"
-"PO-Revision-Date: 2018-10-11 08:07-0300\n"
+"PO-Revision-Date: 2018-10-11 15:59-0300\n"
 "Last-Translator: Francisco R. Pereira <frosch_bin@yahoo.com.br>\n"
 "Language-Team: kicad team\n"
 "Language: pt_BR\n"
@@ -3917,19 +3917,19 @@ msgstr "Visualizador de Footprint"
 #: cvpcb/display_footprints_frame.cpp:178 pcbnew/pcb_base_frame.cpp:614
 #: pcbnew/tool_pcb_editor.cpp:357
 msgid "Display polar coordinates"
-msgstr "Exibir coordenadas polares"
+msgstr "Utilizar coordenadas polares"
 
 #: cvpcb/display_footprints_frame.cpp:182 eeschema/tool_lib.cpp:254
 #: gerbview/toolbars_gerber.cpp:237 pcbnew/tool_footprint_editor.cpp:223
 #: pcbnew/tool_pcb_editor.cpp:360
 msgid "Set units to inches"
-msgstr "Definir unidade para polegadas"
+msgstr "Unidades em polegadas"
 
 #: cvpcb/display_footprints_frame.cpp:186 eeschema/tool_lib.cpp:259
 #: gerbview/toolbars_gerber.cpp:241 pcbnew/tool_footprint_editor.cpp:227
 #: pcbnew/tool_pcb_editor.cpp:363
 msgid "Set units to millimeters"
-msgstr "Definir unidade para milímetros"
+msgstr "Unidades em milímetros"
 
 #: cvpcb/display_footprints_frame.cpp:191 eeschema/menubar.cpp:213
 #: eeschema/tool_lib.cpp:264 eeschema/tool_sch.cpp:301
@@ -5619,7 +5619,7 @@ msgstr "O texto (ou valor) do campo correntemente selecionado"
 
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:137
 msgid "Show in Browser"
-msgstr "Mostrar no Navegador"
+msgstr "Exibir no Navegador"
 
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:156
 msgid ""
@@ -8696,7 +8696,7 @@ msgstr "Repetir Último Item"
 
 #: eeschema/hotkeys.cpp:188 pagelayout_editor/hotkeys.cpp:90
 msgid "Delete Item"
-msgstr "Deletar Item"
+msgstr "Apagar Item"
 
 #: eeschema/hotkeys.cpp:189 eeschema/onrightclick.cpp:674
 #: eeschema/onrightclick.cpp:708
@@ -8710,7 +8710,7 @@ msgstr "Localizar Item"
 
 #: eeschema/hotkeys.cpp:193
 msgid "Find Next Item"
-msgstr "localizar Próximo Item"
+msgstr "Localizar Próximo Item"
 
 #: eeschema/hotkeys.cpp:197
 msgid "Find Next DRC Marker"
@@ -12680,7 +12680,7 @@ msgstr "Itens"
 
 #: gerbview/gerbview_layer_widget.cpp:116 pcbnew/pcb_layer_widget.cpp:91
 msgid "Show the (x,y) grid dots"
-msgstr "Mostar os (x,y) pontos de grade"
+msgstr "Mostrar os pontos da grade (x,y)"
 
 #: gerbview/gerbview_layer_widget.cpp:117
 msgid "DCodes"
@@ -12688,7 +12688,7 @@ msgstr "DCodes"
 
 #: gerbview/gerbview_layer_widget.cpp:117
 msgid "Show DCodes identification"
-msgstr "Mostar identificação DCodes"
+msgstr "Mostrar identificação DCodes"
 
 #: gerbview/gerbview_layer_widget.cpp:118
 msgid "Neg. Obj."
@@ -12700,7 +12700,7 @@ msgstr "Exibir objetos negativos nesta cor"
 
 #: gerbview/gerbview_layer_widget.cpp:140 pcbnew/pcb_layer_widget.cpp:197
 msgid "Show All Layers"
-msgstr "Mostar todas as camadas"
+msgstr "Exibir Todas as Camadas"
 
 #: gerbview/gerbview_layer_widget.cpp:144
 msgid "Hide All Layers But Active"
@@ -12712,7 +12712,7 @@ msgstr "Sempre Ocultar Todas as Camadas Menos a Ativa"
 
 #: gerbview/gerbview_layer_widget.cpp:151 pcbnew/pcb_layer_widget.cpp:195
 msgid "Hide All Layers"
-msgstr "Ocultar todas as camadas"
+msgstr "Ocultar Todas as Camadas"
 
 #: gerbview/gerbview_layer_widget.cpp:155
 msgid "Sort Layers if X2 Mode"
@@ -12903,7 +12903,7 @@ msgstr "Atualizar tela"
 #: gerbview/menubar.cpp:221 pcbnew/menubar_footprint_editor.cpp:250
 #: pcbnew/menubar_pcb_editor.cpp:645
 msgid "Display &Polar Coordinates"
-msgstr "Exibir Coordenadas &Polares"
+msgstr "Utilizar Coordenadas &Polares"
 
 #: gerbview/menubar.cpp:242
 msgid "Sketch F&lashed Items"
@@ -13179,11 +13179,11 @@ msgstr "DCode:"
 
 #: gerbview/toolbars_gerber.cpp:221
 msgid "Measure distance between two points"
-msgstr "Meça a distância entre dois pontos"
+msgstr "Medir a distância entre dois pontos"
 
 #: gerbview/toolbars_gerber.cpp:233
 msgid "Turn polar coordinates on"
-msgstr "Ativar coordenadas polares"
+msgstr "Utilizar coordenadas polares"
 
 #: gerbview/toolbars_gerber.cpp:270
 msgid "Show negatives objects in ghost color"
@@ -13238,11 +13238,11 @@ msgstr "<Nada selecionado>"
 
 #: gerbview/toolbars_gerber.cpp:526
 msgid "Turn on rectangular coordinates"
-msgstr "Ativar coordenadas retangulares"
+msgstr "Utilizar coordenadas retangulares"
 
 #: gerbview/toolbars_gerber.cpp:527
 msgid "Turn on polar coordinates"
-msgstr "Ativar coordenadas polares"
+msgstr "Utilizar coordenadas polares"
 
 #: gerbview/toolbars_gerber.cpp:539
 msgid "Show flashed items in fill mode"
@@ -16142,7 +16142,7 @@ msgstr "Lado da Placa"
 
 #: pcbnew/class_module.cpp:572
 msgid "Back (Flipped)"
-msgstr "Costas (Invertido)"
+msgstr "Verso (Invertido)"
 
 #: pcbnew/class_module.cpp:572
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:63
@@ -16386,7 +16386,7 @@ msgstr "Via encoberta (interna)"
 
 #: pcbnew/class_track.cpp:1264 pcbnew/pcb_layer_widget.cpp:80
 msgid "Through Via"
-msgstr "Via passante"
+msgstr "Via Passante"
 
 #: pcbnew/class_track.cpp:1290 pcbnew/dialogs/dialog_design_rules_base.cpp:304
 msgid "Diameter"
@@ -19326,7 +19326,7 @@ msgstr "Listar tudo"
 
 #: pcbnew/dialogs/dialog_get_footprint_base.cpp:53
 msgid "Select by Browser"
-msgstr "Selecionar por Pesquisa"
+msgstr "Selecionar por Biblioteca"
 
 #: pcbnew/dialogs/dialog_get_footprint_base.h:62
 msgid "Choose Footprint"
@@ -24411,7 +24411,7 @@ msgstr "não foi possível sobrescrever o caminho da biblioteca \"%s\""
 
 #: pcbnew/layer_widget.cpp:130
 msgid "Change Layer Color for "
-msgstr "Alterar a Cor da Camada para "
+msgstr "Alterar a Cor da Camada "
 
 #: pcbnew/layer_widget.cpp:182
 msgid "Change Render Color for "
@@ -24713,7 +24713,7 @@ msgstr "Cor&tar"
 #: pcbnew/menubar_footprint_editor.cpp:189 pcbnew/menubar_pcb_editor.cpp:535
 #: pcbnew/tool_pcb_editor.cpp:495
 msgid "Delete items"
-msgstr "Deletar Ítens"
+msgstr "Excluir Itens"
 
 #: pcbnew/menubar_footprint_editor.cpp:196 pcbnew/menubar_pcb_editor.cpp:591
 msgid "&Library Browser"
@@ -24730,7 +24730,7 @@ msgstr "Visualizador &3D"
 #: pcbnew/menubar_footprint_editor.cpp:228 pcbnew/tool_footprint_viewer.cpp:93
 #: pcbnew/tool_footprint_viewer.cpp:156
 msgid "Zoom to fit footprint"
-msgstr "Enquadrar o footprint"
+msgstr "Enquadrar footprint"
 
 #: pcbnew/menubar_footprint_editor.cpp:246 pcbnew/menubar_pcb_editor.cpp:641
 msgid "Grid &Settings..."
@@ -24764,7 +24764,7 @@ msgstr "Esboçar Te&xto do Footprint"
 
 #: pcbnew/menubar_footprint_editor.cpp:293 pcbnew/menubar_pcb_editor.cpp:725
 msgid "Show footprint text in outline mode"
-msgstr "Mostrar o texto do footprint no modo contorno"
+msgstr "Exibir o texto do footprint no modo contorno"
 
 #: pcbnew/menubar_footprint_editor.cpp:297 pcbnew/menubar_pcb_editor.cpp:729
 msgid "&Drawing Mode"
@@ -24774,7 +24774,7 @@ msgstr "Modo de &Desenho"
 #: pcbnew/menubar_footprint_editor.cpp:326 pcbnew/menubar_pcb_editor.cpp:730
 #: pcbnew/menubar_pcb_editor.cpp:758
 msgid "Select how items are displayed"
-msgstr "Selecionar como os ítens são exibidos"
+msgstr "Selecionar como os itens são exibidos"
 
 #: pcbnew/menubar_footprint_editor.cpp:304 pcbnew/menubar_pcb_editor.cpp:736
 msgid "&High Contrast Mode"
@@ -25281,7 +25281,7 @@ msgstr "Esboçar &Trilhas"
 #: pcbnew/menubar_pcb_editor.cpp:713 pcbnew/tool_pcb_editor.cpp:402
 #: pcbnew/toolbars_update_user_interface.cpp:163
 msgid "Show tracks in outline mode"
-msgstr "Exibir trilhas em modo preenchido"
+msgstr "Exibir trilhas em modo contorno"
 
 #: pcbnew/menubar_pcb_editor.cpp:717
 msgid "Sketch &Graphic Items"
@@ -26083,7 +26083,7 @@ msgstr "Erro carregando bibliotecas de footprint do projeto"
 
 #: pcbnew/pcb_base_frame.cpp:613
 msgid "Display rectangular coordinates"
-msgstr "Exibir coordenadas retangulares"
+msgstr "Utilizar coordenadas retangulares"
 
 #: pcbnew/pcb_base_frame.cpp:626
 msgid "Show pads in fill mode"
@@ -26126,23 +26126,23 @@ msgstr "(não ativado)"
 
 #: pcbnew/pcb_layer_widget.cpp:68
 msgid "Footprints Front"
-msgstr "Frente do Footprint"
+msgstr "Footprints - Frente"
 
 #: pcbnew/pcb_layer_widget.cpp:68
 msgid "Show footprints that are on board's front"
-msgstr "Exibir footprints que estão na camada superior das placas"
+msgstr "Exibir footprints que estão na camada superior da placa"
 
 #: pcbnew/pcb_layer_widget.cpp:69
 msgid "Footprints Back"
-msgstr "Costas do Footprint"
+msgstr "Footprints - Verso"
 
 #: pcbnew/pcb_layer_widget.cpp:69
 msgid "Show footprints that are on board's back"
-msgstr "Mostar footprints que estão na camada inferior das placas"
+msgstr "Exibir footprints que estão na camada inferior da placa"
 
 #: pcbnew/pcb_layer_widget.cpp:70
 msgid "Show footprint values"
-msgstr "Exibir valores do footprint"
+msgstr "Exibir valores dos footprints"
 
 #: pcbnew/pcb_layer_widget.cpp:71
 msgid "References"
@@ -26150,47 +26150,47 @@ msgstr "Referências"
 
 #: pcbnew/pcb_layer_widget.cpp:71
 msgid "Show footprint references"
-msgstr "Exibir referências do footprint"
+msgstr "Exibir referências dos footprints"
 
 #: pcbnew/pcb_layer_widget.cpp:72
 msgid "Footprint Text Front"
-msgstr "Frente do Texto do Footprint"
+msgstr "Texto dos Footprints - Frente"
 
 #: pcbnew/pcb_layer_widget.cpp:72
 msgid "Show footprint text on board's front"
-msgstr "Mostrar o texto do footprint na frente da placa"
+msgstr "Exibir texto dos footprints que estão na camada superior da placa"
 
 #: pcbnew/pcb_layer_widget.cpp:73
 msgid "Footprint Text Back"
-msgstr "Costas do Texto do Footprint"
+msgstr "Texto dos Footprints - Verso"
 
 #: pcbnew/pcb_layer_widget.cpp:73
 msgid "Show footprint text on board's back"
-msgstr "Mostar texto de footprint na camada inferior das placas"
+msgstr "Exibir texto dos footprints que estão na camada inferior da placa"
 
 #: pcbnew/pcb_layer_widget.cpp:74
 msgid "Hidden Text"
-msgstr "Texto oculto"
+msgstr "Texto Oculto"
 
 #: pcbnew/pcb_layer_widget.cpp:74
 msgid "Show footprint text marked as invisible"
-msgstr "Exibir texto do footpirnt marcado como invisível"
+msgstr "Exibir texto dos footpirnts marcados como invisíveis"
 
 #: pcbnew/pcb_layer_widget.cpp:75
 msgid "Pads Front"
-msgstr "Ilhas da camada superior"
+msgstr "Ilhas - Frente"
 
 #: pcbnew/pcb_layer_widget.cpp:75
 msgid "Show footprint pads on board's front"
-msgstr "Mostar ilhas de footprints da camada superior das placas"
+msgstr "Exibir ilhas dos footprints que estão na camada superior da placa"
 
 #: pcbnew/pcb_layer_widget.cpp:76
 msgid "Pads Back"
-msgstr "Ilhas camada inferior"
+msgstr "Ilhas - Verso"
 
 #: pcbnew/pcb_layer_widget.cpp:76
 msgid "Show footprint pads on board's back"
-msgstr "Exibir ilhas do footprint na camada inferior das placas"
+msgstr "Exibir ilhas dos footprints que estão na camada inferior da placa"
 
 #: pcbnew/pcb_layer_widget.cpp:77
 msgid "Through Hole Pads"
@@ -26214,11 +26214,11 @@ msgstr "Via encoberta (interna)"
 
 #: pcbnew/pcb_layer_widget.cpp:81
 msgid "Show blind or buried vias"
-msgstr "Mostar vias encobertas ou cegas"
+msgstr "Exibir vias encobertas ou cegas"
 
 #: pcbnew/pcb_layer_widget.cpp:82
 msgid "Show micro vias"
-msgstr "Mostar micro vias"
+msgstr "Exibir micro vias"
 
 #: pcbnew/pcb_layer_widget.cpp:83
 msgid "Non Plated Holes"
@@ -26234,7 +26234,7 @@ msgstr "Emaranhado"
 
 #: pcbnew/pcb_layer_widget.cpp:85
 msgid "Show unconnected nets as a ratsnest"
-msgstr "Exibe as redes desconectadas em forma de emaranhado"
+msgstr "Exibir redes desconectadas na forma de um emaranhado"
 
 #: pcbnew/pcb_layer_widget.cpp:86
 msgid "No-Connects"
@@ -26242,7 +26242,7 @@ msgstr "Não Conectados"
 
 #: pcbnew/pcb_layer_widget.cpp:86
 msgid "Show a marker on pads which have no net connected"
-msgstr "Mostar uma marca em ilhas que não tem net conectada"
+msgstr "Exibir uma marcação nas ilhas que não tem uma rede conectada"
 
 #: pcbnew/pcb_layer_widget.cpp:87
 msgid "Anchors"
@@ -26250,7 +26250,7 @@ msgstr "Âncoras"
 
 #: pcbnew/pcb_layer_widget.cpp:87
 msgid "Show footprint and text origins as a cross"
-msgstr "Mostar origens de textos e footprints como uma cruz"
+msgstr "Mostrar ponto de origem de textos e footprints como uma cruz"
 
 #: pcbnew/pcb_layer_widget.cpp:88
 msgid "Worksheet"
@@ -27155,12 +27155,12 @@ msgstr "Exibir Esboço de Bordas"
 
 #: pcbnew/tool_footprint_viewer.cpp:54
 msgid "Select library to browse"
-msgstr "Selecione biblioteca a ser examinada"
+msgstr "Procurar biblioteca"
 
 # Revisar
 #: pcbnew/tool_footprint_viewer.cpp:58
 msgid "Select footprint to browse"
-msgstr "Selecione o footprint para examinar"
+msgstr "Procurar footprint"
 
 #: pcbnew/tool_footprint_viewer.cpp:64
 msgid "Display previous footprint"
@@ -27291,29 +27291,29 @@ msgstr "Definir o ponto de origem da grade"
 # Revisar
 #: pcbnew/tool_pcb_editor.cpp:534 pcbnew/tools/microwave_tool.cpp:89
 msgid "Create line of specified length for microwave applications"
-msgstr "Criar fios de comprimento específico para aplicações de micro-ondas"
+msgstr "Criar linha de comprimento específico, para aplicações em micro-ondas"
 
 # Revisar
 #: pcbnew/tool_pcb_editor.cpp:539 pcbnew/tools/microwave_tool.cpp:65
 msgid "Create gap of specified length for microwave applications"
-msgstr "Criar fenda de comprimento específico para aplicações de micro-ondas"
+msgstr "Criar fenda de comprimento específico, para aplicações em micro-ondas"
 
 # Revisar
 #: pcbnew/tool_pcb_editor.cpp:546 pcbnew/tools/microwave_tool.cpp:71
 msgid "Create stub of specified length for microwave applications"
 msgstr ""
-"Criar segmento especificando seu comprimento, para aplicações em micro-ondas"
+"Criar segmento de comprimento específico, para aplicações em micro-ondas"
 
 # Revisar
 #: pcbnew/tool_pcb_editor.cpp:551 pcbnew/tools/microwave_tool.cpp:77
 msgid "Create stub (arc) of specified length for microwave applications"
 msgstr ""
-"Criar segmento (arco) especificando seu comprimento, para aplicações em micro-"
+"Criar segmento (arco) de comprimento específico, para aplicações em micro-"
 "ondas"
 
 #: pcbnew/tool_pcb_editor.cpp:556
 msgid "Create a polynomial shape for microwave applications"
-msgstr "Criar forma polinômica para aplicações em micro-ondas"
+msgstr "Criar forma polinômica, para aplicações em micro-ondas"
 
 #: pcbnew/tool_pcb_editor.cpp:609
 msgid ""
@@ -27364,9 +27364,9 @@ msgid ""
 "Toolset.\n"
 "Use Route > Interactive Router Settings... for Modern Toolset."
 msgstr ""
-"Desabilitar a verificação de regras de desenho ao rotear/editar trilhas com o "
-"conjunto de ferramentas legado.\n"
-"Utilize \"Rotear > Configurações de Rotemento Interativo...\" para o conjunto "
+"Desabilitar a verificação de regras de desenho ao rotear/editar trilhas "
+"utilizando o conjunto de ferramentas legado.\n"
+"Utilize \"Rotear > Configurações do Roteador Interativo...\" para o conjunto "
 "de ferramentas moderno."
 
 #: pcbnew/toolbars_update_user_interface.cpp:133
@@ -27398,7 +27398,7 @@ msgstr "Modo de contraste normal"
 
 #: pcbnew/toolbars_update_user_interface.cpp:175
 msgid "High contrast display mode"
-msgstr "Modo de exibição de alto contraste"
+msgstr "Modo de alto contraste"
 
 #: pcbnew/tools/drawing_tool.cpp:71 pcbnew/tools/drawing_tool.cpp:1097
 msgid "Draw a line"
