@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-18 21:11+0200\n"
-"PO-Revision-Date: 2018-10-10 16:09-0300\n"
+"PO-Revision-Date: 2018-10-11 08:07-0300\n"
 "Last-Translator: Francisco R. Pereira <frosch_bin@yahoo.com.br>\n"
 "Language-Team: kicad team\n"
 "Language: pt_BR\n"
@@ -4745,7 +4745,7 @@ msgstr ""
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:35
 msgid "Show pin number"
-msgstr "Mostre o número do pino"
+msgstr "Exibir números dos pinos"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:37
 msgid "Show or hide pin numbers"
@@ -4753,7 +4753,7 @@ msgstr "Exibir ou ocultar números dos pinos"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:41
 msgid "Show pin name"
-msgstr "Exibir o nome do pino"
+msgstr "Exibir nomes dos pinos"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:43
 msgid "Show or hide pin names"
@@ -4761,7 +4761,7 @@ msgstr "Exibir ou ocultar nomes dos pinos"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:47
 msgid "Place pin names inside"
-msgstr "Colocar o nome dos pinos internamente"
+msgstr "Nomes dos pinos no lado de dentro"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:49
 msgid ""
@@ -4796,7 +4796,7 @@ msgstr ""
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:98
 msgid "Define as power symbol"
-msgstr "Define como símbolo de alimentação"
+msgstr "Definir como símbolo de alimentação"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:99
 msgid "Check this option when the symbol is a power symbol"
@@ -4860,11 +4860,11 @@ msgstr ""
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:147
 msgid "Copy Document from Parent"
-msgstr "Copiar Documento do Pai"
+msgstr "Copiar Documento do Componente Pai"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:150
 msgid "Browse Files"
-msgstr "Procurar Arquivos"
+msgstr "Procurar Arquivo"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:168
 msgid "Alias List:"
@@ -5562,11 +5562,11 @@ msgstr "Nome do Chip"
 
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:45
 msgid "Delete one of the optional fields"
-msgstr "Apagar um dos campos opcionais"
+msgstr "Apagar campo personalizado"
 
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:50
 msgid "Add a new custom field"
-msgstr "Adicionar um novo campo customizado"
+msgstr "Adicionar campo personalizado"
 
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:57
 msgid "Edit Spice model"
@@ -5642,7 +5642,7 @@ msgstr "A coordenada Y do texto relativo à posição da âncora do símbolo"
 
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.h:96
 msgid "Field Properties"
-msgstr "Propriedades do Campo"
+msgstr "Propriedades dos Campos"
 
 #: eeschema/dialogs/dialog_edit_line_style_base.cpp:49
 msgid "Color:"
@@ -6385,23 +6385,23 @@ msgstr "As unidades não são intercambiáveis"
 
 #: eeschema/dialogs/dialog_lib_new_component_base.cpp:81
 msgid "Pin Settings:"
-msgstr "Configurações de Pinos:"
+msgstr "Configurações dos Pinos:"
 
 #: eeschema/dialogs/dialog_lib_new_component_base.cpp:92
 msgid "Pin text position offset:"
-msgstr "Deslocamento da posição do texto do pino:"
+msgstr "Deslocamento na posição do texto dos pinos:"
 
 #: eeschema/dialogs/dialog_lib_new_component_base.cpp:105
 msgid "Show pin number text"
-msgstr "Exibir o texto do número do pino"
+msgstr "Exibir números dos pinos"
 
 #: eeschema/dialogs/dialog_lib_new_component_base.cpp:109
 msgid "Show pin name text"
-msgstr "Exibir o texto do nome do pino"
+msgstr "Exibir nomes dos pinos"
 
 #: eeschema/dialogs/dialog_lib_new_component_base.cpp:113
 msgid "Pin name inside"
-msgstr "Nome do pino para dentro"
+msgstr "Nomes dos pinos no lado de dentro"
 
 #: eeschema/dialogs/dialog_libedit_options_base.cpp:54
 msgid "&Default line width:"
@@ -8515,7 +8515,7 @@ msgstr ""
 
 #: eeschema/help_common_strings.h:84
 msgid "Add pins to symbol"
-msgstr "Adicionar pinos"
+msgstr "Adicionar pino"
 
 #: eeschema/help_common_strings.h:85
 msgid "Add text to symbol body"
@@ -9982,7 +9982,7 @@ msgstr "&Nova Biblioteca…"
 
 #: eeschema/menubar_libedit.cpp:61
 msgid "Creates an empty library"
-msgstr "Cria uma biblioteca vazia"
+msgstr "Criar uma nova biblioteca"
 
 #: eeschema/menubar_libedit.cpp:66 eeschema/widgets/cmp_tree_pane.cpp:54
 #: eeschema/widgets/cmp_tree_pane.cpp:95
@@ -9991,7 +9991,7 @@ msgstr "&Adicionar Biblioteca…"
 
 #: eeschema/menubar_libedit.cpp:67
 msgid "Adds a previously created library"
-msgstr "Adiciona uma biblioteca criada anteriormente"
+msgstr "Adicionar uma biblioteca criada anteriormente"
 
 #: eeschema/menubar_libedit.cpp:77
 msgid "Save the current library"
@@ -10064,7 +10064,7 @@ msgstr "Criar um novo símbolo vazio"
 
 #: eeschema/menubar_libedit.cpp:195
 msgid "Saves the current symbol to the library"
-msgstr "Salva o símbolo atual na biblioteca"
+msgstr "Salvar o símbolo atual na biblioteca"
 
 #: eeschema/menubar_libedit.cpp:202 eeschema/widgets/cmp_tree_pane.cpp:66
 msgid "&Import Symbol..."
@@ -10096,7 +10096,7 @@ msgstr "&Campos…"
 
 #: eeschema/menubar_libedit.cpp:223 eeschema/tool_lib.cpp:165
 msgid "Edit field properties"
-msgstr "Editar propriedades do campo"
+msgstr "Editar propriedades dos campos"
 
 #: eeschema/menubar_libedit.cpp:230
 msgid "Pi&n Table..."
@@ -11618,11 +11618,11 @@ msgstr "Mover âncora do símbolo"
 
 #: eeschema/tool_lib.cpp:89
 msgid "Import existing drawings"
-msgstr "Importar desenhos existentes"
+msgstr "Importar desenho"
 
 #: eeschema/tool_lib.cpp:93
 msgid "Export current drawing"
-msgstr "Exportar desenho atual"
+msgstr "Exportar desenho"
 
 #: eeschema/tool_lib.cpp:116
 msgid "Create a new library"
@@ -11654,11 +11654,11 @@ msgstr "Exportar símbolo"
 
 #: eeschema/tool_lib.cpp:196 eeschema/tool_viewlib.cpp:89
 msgid "Show as \"De Morgan\" normal symbol"
-msgstr "Exibir como elemento \"De Morgan\" normal"
+msgstr "Exibir como componente \"De Morgan\" normal"
 
 #: eeschema/tool_lib.cpp:199 eeschema/tool_viewlib.cpp:94
 msgid "Show as \"De Morgan\" convert symbol"
-msgstr "Exibir como elemento \"De Morgan\" convertido"
+msgstr "Exibir como componente \"De Morgan\" convertido"
 
 #: eeschema/tool_lib.cpp:205
 msgid "Show associated datasheet or document"
@@ -11683,11 +11683,11 @@ msgstr "Desligar grade"
 
 #: eeschema/tool_lib.cpp:274
 msgid "Show pins electrical type"
-msgstr "Exibir tipo elétrico dos pinos"
+msgstr "Exibir o tipo elétrico dos pinos"
 
 #: eeschema/tool_lib.cpp:278
 msgid "Toggles the search tree"
-msgstr "Alterna a árvore de pesquisa"
+msgstr "Alternar visibilidade da árvore de pesquisa"
 
 #: eeschema/tool_sch.cpp:61
 msgid "New schematic"
@@ -12602,7 +12602,7 @@ msgstr "Justificar em Y"
 
 #: gerbview/gerber_file_image.cpp:370
 msgid "Image Justify Offset"
-msgstr "Deslocamento da Justificação da Imagem"
+msgstr "Deslocamento na Justificação da Imagem"
 
 #: gerbview/gerber_file_image_list.cpp:191
 #, c-format
@@ -13754,7 +13754,7 @@ msgstr "Editar Símbolos Esquemáticos"
 
 #: kicad/menubar.cpp:406
 msgid "Edit PCB Layout"
-msgstr "Editar layout da PCI"
+msgstr "Editar Layout da PCI"
 
 #: kicad/menubar.cpp:410
 msgid "Edit PCB Footprints"
@@ -13780,7 +13780,8 @@ msgstr "Executar Calculadora PCI"
 
 #: kicad/menubar.cpp:427
 msgid "Pcb calculator - Calculator for components, track width, etc."
-msgstr "Abrir ferramentas para cálculo de componentes, larguras de trilha, etc."
+msgstr ""
+"Calculadora PCI - Calculadora para componentes, larguras de trilha, etc."
 
 #: kicad/menubar.cpp:430
 msgid "Edit Page Layout"
