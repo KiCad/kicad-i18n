@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-18 21:11+0200\n"
-"PO-Revision-Date: 2018-10-11 15:59-0300\n"
+"PO-Revision-Date: 2018-10-13 20:49-0300\n"
 "Last-Translator: Francisco R. Pereira <frosch_bin@yahoo.com.br>\n"
 "Language-Team: kicad team\n"
 "Language: pt_BR\n"
@@ -13,6 +13,7 @@ msgstr ""
 "X-Poedit-Basepath: ../../kicad-source-mirror\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Generator: Poedit 2.2\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Poedit-SearchPath-0: 3d-viewer\n"
 "X-Poedit-SearchPath-1: bitmap2component\n"
 "X-Poedit-SearchPath-2: common\n"
@@ -645,7 +646,7 @@ msgstr "&Preferências"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:142
 msgid "Use Touchpad to Pan"
-msgstr "Use touchpad para movimentar"
+msgstr "Utilizar Touchpad para Movimentar"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:148
 #: cvpcb/dialogs/dialog_display_options_base.h:60
@@ -2043,7 +2044,7 @@ msgstr "Procurar"
 
 #: common/dialogs/dialog_env_var_config_base.h:65
 msgid "Environment Variable Configuration"
-msgstr "Configurações de Variável de Ambiente"
+msgstr "Configurações de Variáveis de Ambiente"
 
 #: common/dialogs/dialog_env_var_config_base.h:97
 msgid "Edit Environment Variable"
@@ -2388,7 +2389,7 @@ msgstr "Arquivo de descrição de layout de página"
 
 #: common/dialogs/dialog_page_settings_base.h:119
 msgid "Page Settings"
-msgstr "Configurações da Página"
+msgstr "Configurações de Página"
 
 #: common/dialogs/dialog_text_entry_base.cpp:22
 msgid "MyLabel"
@@ -3858,7 +3859,7 @@ msgstr "Centralizar o cursor na tela ao aplicar zoom."
 #: gerbview/dialogs/gerbview_dialog_display_options_frame_base.cpp:78
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:89
 msgid "Use touchpad to pan"
-msgstr "Usar o touchpad para movimentar"
+msgstr "Utilizar touchpad para movimentar"
 
 #: cvpcb/dialogs/dialog_display_options_base.cpp:49
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:90
@@ -3871,7 +3872,7 @@ msgstr ""
 
 #: cvpcb/dialogs/dialog_display_options_base.cpp:53
 msgid "Pan while moving object"
-msgstr "Deslizar tela ao mover o objeto"
+msgstr "Deslizar tela ao mover objetos"
 
 #: cvpcb/dialogs/dialog_display_options_base.cpp:54
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:95
@@ -4404,7 +4405,7 @@ msgstr "Clarificar Seleção"
 
 #: eeschema/cross-probing.cpp:82
 msgid "Selected net: "
-msgstr "Net selecionado: "
+msgstr "Rede selecionada: "
 
 #: eeschema/cross-probing.cpp:287
 msgid "Schematic saved"
@@ -5638,7 +5639,7 @@ msgstr "Posição Y:"
 
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:180
 msgid "The Y coordinate of the text relative to the symbol anchor position"
-msgstr "A coordenada Y do texto relativo à posição da âncora do símbolo"
+msgstr "A coordenada Y do texto relativo à posição de ancoragem do símbolo"
 
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.h:96
 msgid "Field Properties"
@@ -5854,17 +5855,17 @@ msgstr "Manter o cursor em seu local atual ao aplicar zoom"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:290
 msgid "Use touchpa&d to pan"
-msgstr "Usar touchpa&d para movimentar"
+msgstr "Utilizar touchpa&d para movimentar"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:291
 #: gerbview/dialogs/gerbview_dialog_display_options_frame_base.cpp:79
 msgid "Use touchpad to pan canvas"
-msgstr "Use o touchpad para mover a tela"
+msgstr "Utilizar touchpad para mover a tela"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:295
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:94
 msgid "&Pan while moving object"
-msgstr "&Deslizar tela ao mover o objeto"
+msgstr "&Deslizar tela ao mover objetos"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:305
 msgid "Controls"
@@ -7984,7 +7985,7 @@ msgstr "Footprint diferente atribuído em outra unidade do mesmo componente"
 msgid ""
 "Different net assigned to a shared pin in another unit of the same component"
 msgstr ""
-"Net diferente atribuída a um pino compartilhado em outra unidade do mesmo "
+"Rede diferente atribuída a um pino compartilhado em outra unidade do mesmo "
 "componente"
 
 #: eeschema/edit_bitmap.cpp:115 eeschema/edit_bitmap.cpp:125
@@ -8098,7 +8099,7 @@ msgstr "Pino %s (%s) do componente %s está desconectado."
 #: eeschema/erc.cpp:376
 #, c-format
 msgid "Pin %s (%s) of component %s is not driven (Net %d)."
-msgstr "Pino %s (%s) do componente %s não está conduzindo (Net %d)"
+msgstr "Pino %s (%s) do componente %s não está conduzindo (Rede %d)"
 
 #: eeschema/erc.cpp:390
 msgid "More than 1 pin connected to an UnConnect symbol."
@@ -8112,7 +8113,7 @@ msgstr "Pino %s (%s) do componente %s está conectado a "
 #: eeschema/erc.cpp:420
 #, c-format
 msgid "pin %s (%s) of component %s (net %d)."
-msgstr "pino %s (%s) do componente %s (net %d)."
+msgstr "pino %s (%s) do componente %s (rede %d)."
 
 #: eeschema/erc.cpp:592
 msgid "ERC report"
@@ -8383,11 +8384,11 @@ msgstr ""
 
 #: eeschema/help_common_strings.h:40
 msgid "Undo last command"
-msgstr "Desfazer último comando"
+msgstr "Desfazer"
 
 #: eeschema/help_common_strings.h:41
 msgid "Redo last command"
-msgstr "Refazer último comando"
+msgstr "Refazer"
 
 #: eeschema/help_common_strings.h:45
 msgid "Zoom to fit schematic page"
@@ -8714,7 +8715,7 @@ msgstr "Localizar Próximo Item"
 
 #: eeschema/hotkeys.cpp:197
 msgid "Find Next DRC Marker"
-msgstr "Localizar o Próximo Marcador RDC"
+msgstr "Localizar o Próximo Marcador DRC"
 
 #: eeschema/hotkeys.cpp:203
 msgid "Create Pin"
@@ -8934,7 +8935,7 @@ msgstr "Adicionar linha"
 
 #: eeschema/lib_edit_frame.cpp:1243
 msgid "Set anchor position"
-msgstr "Definir posição de ancoragem"
+msgstr "Definir posição da âncora"
 
 #: eeschema/lib_edit_frame.cpp:1247
 msgid "Import"
@@ -9754,11 +9755,11 @@ msgstr "Exportar arquivos"
 
 #: eeschema/menubar.cpp:452 pcbnew/menubar_pcb_editor.cpp:931
 msgid "Page S&ettings..."
-msgstr "Configuração d&e Página…"
+msgstr "Configurações d&e Página…"
 
 #: eeschema/menubar.cpp:453 pcbnew/menubar_pcb_editor.cpp:932
 msgid "Settings for sheet size and frame references"
-msgstr "Configurar o tamanho da folha e a legenda"
+msgstr "Configurar tamanho da folha e legenda"
 
 #: eeschema/menubar.cpp:456 gerbview/menubar.cpp:163
 #: pagelayout_editor/menubar.cpp:95 pcbnew/menubar_footprint_editor.cpp:132
@@ -11703,7 +11704,7 @@ msgstr "Salvar (todas as folhas)"
 
 #: eeschema/tool_sch.cpp:75
 msgid "Edit Page settings"
-msgstr "Editar Configurações da Página"
+msgstr "Editar Configurações de Página"
 
 #: eeschema/tool_sch.cpp:80
 msgid "Print schematic"
@@ -11801,7 +11802,7 @@ msgstr "&Sobre o Eeschema"
 
 #: eeschema/tool_viewlib.cpp:223
 msgid "About Eeschema schematic designer"
-msgstr "Sobre designer de esquemas Eeschema"
+msgstr "Sobre o editor de esquemas Eeschema"
 
 #: eeschema/viewlib_frame.cpp:117 pcbnew/footprint_viewer_frame.cpp:752
 msgid "Library Browser"
@@ -12564,7 +12565,7 @@ msgstr "Eixo AB"
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:53
 #: pcbnew/dialogs/dialog_track_via_properties_base.cpp:24
 msgid "Net:"
-msgstr "Net:"
+msgstr "Rede:"
 
 #: gerbview/gerber_draw_item.cpp:751
 #, c-format
@@ -13083,7 +13084,7 @@ msgstr "Destacar Itens do Componente \"%s\""
 #: gerbview/onrightclick.cpp:115 gerbview/tools/selection_tool.cpp:112
 #, c-format
 msgid "Highlight Items of Net \"%s\""
-msgstr "Realçar itens da Net \"%s\""
+msgstr "Realçar Itens da Rede \"%s\""
 
 #: gerbview/onrightclick.cpp:126 gerbview/tools/selection_tool.cpp:122
 #, c-format
@@ -14311,7 +14312,7 @@ msgstr "Page Layout Editor"
 
 #: pagelayout_editor/menubar.cpp:64
 msgid "Create new page layout design"
-msgstr "Criar novo design de layout de página"
+msgstr "Criar novo desenho de layout de página"
 
 #: pagelayout_editor/menubar.cpp:69 pagelayout_editor/toolbars_pl_editor.cpp:54
 msgid "Open an existing page layout design file"
@@ -14323,7 +14324,7 @@ msgstr "Abrir um arquivo de layout de página recente"
 
 #: pagelayout_editor/menubar.cpp:85
 msgid "Save current page layout design file"
-msgstr "Salvar arquivo de design de layout de página atual"
+msgstr "Salvar arquivo de desenho de layout de página atual"
 
 #: pagelayout_editor/menubar.cpp:88
 msgid "Save &As..."
@@ -14331,7 +14332,7 @@ msgstr "Salvar &Como…"
 
 #: pagelayout_editor/menubar.cpp:90
 msgid "Save current page layout design file with a different name"
-msgstr "Salvar arquivo de design de layout de página atual com outro nome"
+msgstr "Salvar arquivo de desenho de layout de página atual com outro nome"
 
 #: pagelayout_editor/menubar.cpp:99
 msgid "Print Pre&view..."
@@ -14359,11 +14360,11 @@ msgstr "&Bitmap..."
 
 #: pagelayout_editor/menubar.cpp:160
 msgid "&Append Existing Page Layout Design File..."
-msgstr "&Anexar Arquivo de Design de Layout de Página..."
+msgstr "&Anexar Arquivo de Desenho de Layout de Página..."
 
 #: pagelayout_editor/menubar.cpp:161
 msgid "Append an existing page layout design file to current file"
-msgstr "Anexar arquivo de design de layout de página ao arquivo atual"
+msgstr "Anexar arquivo de desenho de layout de página ao arquivo atual"
 
 #: pagelayout_editor/menubar.cpp:171 pagelayout_editor/pl_editor_config.cpp:58
 msgid "&Background Black"
@@ -14403,12 +14404,12 @@ msgstr "Adicionar Bitmap…"
 
 #: pagelayout_editor/onrightclick.cpp:54
 msgid "Append Existing Page Layout Design File..."
-msgstr "Anexar Arquivo de Design de Layout de Página..."
+msgstr "Anexar Arquivo de Desenho de Layout de Página..."
 
 #: pagelayout_editor/page_layout_writer.cpp:100
 #: pagelayout_editor/page_layout_writer.cpp:128
 msgid "Error writing page layout design file"
-msgstr "Erro gravando arquivo de de design de layout de página"
+msgstr "Erro gravando arquivo de de desenho de layout de página"
 
 #: pagelayout_editor/pl_editor.cpp:149
 msgid "pl_editor is already running. Continue?"
@@ -14425,7 +14426,7 @@ msgstr "origem: canto Inferior Direito da página"
 
 #: pagelayout_editor/pl_editor_frame.cpp:148
 msgid "Design"
-msgstr "Design"
+msgstr "Desenho"
 
 #: pagelayout_editor/pl_editor_frame.cpp:225
 msgid "Save changes in a new file before closing?"
@@ -14463,15 +14464,15 @@ msgstr "Refinamento da Seleção"
 
 #: pagelayout_editor/toolbars_pl_editor.cpp:51
 msgid "New page layout design"
-msgstr "Novo design de layout de página"
+msgstr "Novo desenho de layout de página"
 
 #: pagelayout_editor/toolbars_pl_editor.cpp:57
 msgid "Save page layout design"
-msgstr "Salvar design de layout de página"
+msgstr "Salvar desenho de layout de página"
 
 #: pagelayout_editor/toolbars_pl_editor.cpp:62
 msgid "Page settings"
-msgstr "Configurações da página"
+msgstr "Configurações de página"
 
 #: pagelayout_editor/toolbars_pl_editor.cpp:65
 msgid "Print page layout"
@@ -14490,7 +14491,7 @@ msgid ""
 "Show title block like it will be displayed in applications\n"
 "texts with format are replaced by the full text"
 msgstr ""
-"Exibir legenda como será exibida em aplicativos\n"
+"Mostrar como a legenda será exibida nos aplicativos\n"
 "textos com formatação são substituídos pelo texto completo"
 
 #: pagelayout_editor/toolbars_pl_editor.cpp:109
@@ -14498,7 +14499,7 @@ msgid ""
 "Show title block in edit mode: texts are shown as is:\n"
 "texts with format are displayed with no change"
 msgstr ""
-"Exibir legenda em modo edição: textos são exibidos como estão:\n"
+"Exibir legenda no modo edição: textos são exibidos como estão:\n"
 "textos com formatação são exibidos sem modificação"
 
 #: pagelayout_editor/toolbars_pl_editor.cpp:117
@@ -15723,7 +15724,7 @@ msgstr "OK para abortar?"
 
 #: pcbnew/autorouter/autorout.cpp:90
 msgid "Net not selected"
-msgstr "Net não selecionada"
+msgstr "Rede não selecionada"
 
 #: pcbnew/autorouter/autorout.cpp:98
 msgid "Footprint not selected"
@@ -15743,7 +15744,7 @@ msgstr "Inserir Células"
 
 #: pcbnew/autorouter/move_and_route_event_functions.cpp:133 pcbnew/edit.cpp:1289
 msgid "Not locked footprints inside the board will be moved. OK?"
-msgstr "Footprints não travados na placa serão movidos. OK?"
+msgstr "Footprints não bloqueados na placa serão movidos. OK?"
 
 #: pcbnew/autorouter/move_and_route_event_functions.cpp:139 pcbnew/edit.cpp:1295
 msgid "No footprint found!"
@@ -15900,7 +15901,7 @@ msgstr "Removendo footprint não utilizado \"%s:%s\".\n"
 #: pcbnew/board_netlist_updater.cpp:631
 #, c-format
 msgid "Remove single pad net %s."
-msgstr "Remover net com apenas uma ilha %s."
+msgstr "Remover rede com apenas uma ilha %s."
 
 #: pcbnew/board_netlist_updater.cpp:635 pcbnew/class_board.cpp:2760
 #, c-format
@@ -15977,7 +15978,7 @@ msgstr "Fornecedor e referência"
 
 #: pcbnew/class_board.cpp:102
 msgid "This is the default net class."
-msgstr "Esta é a classe de net padrão."
+msgstr "Esta é a classe de rede padrão."
 
 #: pcbnew/class_board.cpp:1133 pcbnew/class_module.cpp:584
 #: pcbnew/netinfo_item.cpp:120 pcbnew/pcb_draw_panel_gal.cpp:334
@@ -15992,7 +15993,7 @@ msgstr "Vias"
 
 #: pcbnew/class_board.cpp:1139 pcbnew/pcb_draw_panel_gal.cpp:340
 msgid "Track Segments"
-msgstr "Segmento de Trilha"
+msgstr "Segmentos de Trilha"
 
 #: pcbnew/class_board.cpp:1142 pcbnew/pcb_draw_panel_gal.cpp:343
 msgid "Nodes"
@@ -16002,7 +16003,7 @@ msgstr "Nós"
 #: pcbnew/dialogs/dialog_select_net_from_list_base.h:59
 #: pcbnew/pcb_draw_panel_gal.cpp:346
 msgid "Nets"
-msgstr "Nets"
+msgstr "Redes"
 
 #: pcbnew/class_board.cpp:1148 pcbnew/pcb_draw_panel_gal.cpp:349
 msgid "Unrouted"
@@ -16197,7 +16198,7 @@ msgstr "Ilha"
 
 #: pcbnew/class_pad.cpp:717 pcbnew/dialogs/dialog_design_rules.cpp:55
 msgid "Net"
-msgstr "Net"
+msgstr "Rede"
 
 #: pcbnew/class_pad.cpp:736 pcbnew/class_track.cpp:1297
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:305
@@ -16358,11 +16359,11 @@ msgstr "Furo da Via NC"
 
 #: pcbnew/class_track.cpp:1141 pcbnew/class_zone.cpp:856
 msgid "NetName"
-msgstr "Nome Net"
+msgstr "Nome da Rede"
 
 #: pcbnew/class_track.cpp:1145 pcbnew/class_zone.cpp:860
 msgid "NetCode"
-msgstr "Código Net"
+msgstr "Código da Rede"
 
 #: pcbnew/class_track.cpp:1192
 msgid "Track"
@@ -16398,7 +16399,7 @@ msgstr "(Específico)"
 
 #: pcbnew/class_track.cpp:1322
 msgid "(NetClass)"
-msgstr "(NetClass)"
+msgstr "(Classe de Rede)"
 
 #: pcbnew/class_track.cpp:1635
 msgid "Not found"
@@ -16724,7 +16725,7 @@ msgstr "&Mesclar segmentos sobrepostos"
 
 #: pcbnew/dialogs/dialog_cleaning_options_base.cpp:33
 msgid "merge aligned track segments, and remove null segments"
-msgstr "juntar segmentos de trilhas alinhados, e remover segmentos nulos"
+msgstr "anexar segmentos de trilhas alinhados, e remover segmentos nulos"
 
 #: pcbnew/dialogs/dialog_cleaning_options_base.cpp:37
 msgid "Delete &dangling tracks"
@@ -16759,7 +16760,7 @@ msgstr "Nenhuma camada selecionada."
 
 #: pcbnew/dialogs/dialog_copper_zones.cpp:470
 msgid "No net selected."
-msgstr "Nenhuma net selecionada."
+msgstr "Nenhuma rede selecionada."
 
 #: pcbnew/dialogs/dialog_copper_zones.cpp:504
 msgid "Chamfer distance"
@@ -16844,7 +16845,7 @@ msgstr "Configurações:"
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:109
 #: pcbnew/dialogs/dialog_drc_base.cpp:48 pcbnew/dialogs/dialog_plot_base.cpp:199
 msgid "Clearance:"
-msgstr "Depuração:"
+msgstr "Isolamento:"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:116
 msgid "Minimum width:"
@@ -16931,7 +16932,7 @@ msgstr ""
 "Quando uma zona está dentro de outra:\n"
 "* Se a sua prioridade for superior, os seus contornos são removidos da outra "
 "zona.\n"
-"* Se a sua prioridade é igual, um erro de RDC é gerado."
+"* Se a sua prioridade é igual, um erro de DRC é gerado."
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:199
 msgid "Fill mode:"
@@ -16998,7 +16999,7 @@ msgid ""
 "Export this zone setup (excluding layer and net selection) to all other "
 "copper zones."
 msgstr ""
-"Exportar as definições desta zona (excluindo seleções de camada e net) para "
+"Exportar as definições desta zona (excluindo seleções de camada e rede) para "
 "todas as outras zonas de cobre."
 
 #: pcbnew/dialogs/dialog_copper_zones_base.h:138
@@ -17066,7 +17067,7 @@ msgstr "Parâmetros incorrectos"
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:31
 msgid "Horizontal count:"
-msgstr "Contador horizontal:"
+msgstr "Contagem horizontal:"
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:35
 #: pcbnew/dialogs/dialog_create_array_base.cpp:42
@@ -17128,7 +17129,7 @@ msgstr "Vertical, então horizontal"
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:112
 msgid "Pad Numbering Direction:"
-msgstr "Direção da Numeração da Ilha:"
+msgstr "Direção da Numeração de Ilhas:"
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:116
 msgid "Reverse numbering on alternate rows/columns"
@@ -17147,7 +17148,7 @@ msgstr "Do valor inicial"
 #: pcbnew/dialogs/dialog_create_array_base.cpp:121
 #: pcbnew/dialogs/dialog_create_array_base.cpp:262
 msgid "Initial Pad Number:"
-msgstr "Número Inicial da Ilha:"
+msgstr "Número Inicial de Ilha:"
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:125
 msgid "Continuous (1, 2, 3...)"
@@ -17159,7 +17160,7 @@ msgstr "Coordenar (A1, A2, ... B1, ...)"
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:127
 msgid "Pad Numbering Scheme:"
-msgstr "Esquema de Numeração de Ilha:"
+msgstr "Esquema de Numeração de Ilhas:"
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:131
 msgid "Primary axis numbering:"
@@ -17262,7 +17263,7 @@ msgstr "Erro de Configuração de Regra de Desenho"
 
 #: pcbnew/dialogs/dialog_design_rules.cpp:735
 msgid "New Net Class Name:"
-msgstr "Novo Nome de Classe de Net:"
+msgstr "Novo Nome de Classe de Rede:"
 
 #: pcbnew/dialogs/dialog_design_rules.cpp:755
 msgid "Duplicate net class names are not allowed."
@@ -17376,7 +17377,7 @@ msgstr "<b>Via Extra %d Tamanho</b>%s &gt; <b>1 Polegada!</b><br>"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:27
 msgid "Net Classes:"
-msgstr "Classes de  Nets:"
+msgstr "Classes de Rede:"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:48
 msgid "Clearance"
@@ -17409,11 +17410,11 @@ msgstr "Lacuna do Par Diferencial"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:68
 msgid "Net Class parameters"
-msgstr "Parâmetros da Classe Net"
+msgstr "Parâmetros da Classe de Rede"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:76
 msgid "Add another Net Class"
-msgstr "Adicionar outra Classe de Net"
+msgstr "Adicionar outra Classe de Rede"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:81
 msgid ""
@@ -17425,7 +17426,7 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:86
 msgid "Move the currently selected Net Class up one row"
-msgstr "Mover a classe Net selecionada uma linha acima"
+msgstr "Mover a classe de rede selecionada uma linha acima"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:97
 msgid "Net Class Membership:"
@@ -17433,11 +17434,12 @@ msgstr "Associação da Classe de Rede:"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:112
 msgid "Select all nets in the left list"
-msgstr "Selecionar todas as nets da lista da esquerda"
+msgstr "Selecionar todas as redes da lista da esquerda"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:129
 msgid "Move the selected nets in the right list to the left list"
-msgstr "Move as nets selecionadas na lista da direita para a lista da esquerda"
+msgstr ""
+"Mover as redes selecionadas na lista da direita para a lista da esquerda"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:133
 msgid ">>>"
@@ -17445,15 +17447,16 @@ msgstr ">>>"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:134
 msgid "Move the selected nets in the left list to the right list"
-msgstr "Mover as nets selecionadas na lista da esquerda para a lista da direita"
+msgstr ""
+"Mover as redes selecionadas na lista da esquerda para a lista da direita"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:154
 msgid "Select all nets in the right list"
-msgstr "Selecionar todas as nets da lista da edireita"
+msgstr "Selecionar todas as redes na lista da direita"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:174
 msgid "Net Classes Editor"
-msgstr "Editor de Classes de Nets"
+msgstr "Editor de Classes de Rede"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:183
 msgid "Routing Options:"
@@ -17608,11 +17611,11 @@ msgstr "Trilha 12"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:390
 msgid "Global Design Rules"
-msgstr "Regras de Design Globais"
+msgstr "Regras de Desenho Globais"
 
 #: pcbnew/dialogs/dialog_design_rules_base.h:120
 msgid "Design Rules Editor"
-msgstr "Editor de Regras de Design"
+msgstr "Editor de Regras de Desenho"
 
 #: pcbnew/dialogs/dialog_dimension_editor_base.cpp:58
 msgid "Text position X:"
@@ -17724,11 +17727,11 @@ msgstr "Não é possível criar o arquivo de relatório \"%s\""
 
 #: pcbnew/dialogs/dialog_drc.cpp:346
 msgid "Save DRC Report File"
-msgstr "Salvar Arquivo de Relatório RDC"
+msgstr "Salvar Arquivo de Relatório DRC"
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:52
 msgid "By Netclass"
-msgstr "Por Classes de  Nets"
+msgstr "Por Classes de Rede"
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:62 pcbnew/dialogs/dialog_drc_base.cpp:71
 msgid "Enter the minimum acceptable value for a track width"
@@ -17752,7 +17755,7 @@ msgstr "Introduza o diâmetro mínimo aceitável para uma micro via"
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:108
 msgid "Refill all zones before performing DRC"
-msgstr "Preencher todas as zonas antes de executar a RDC"
+msgstr "Preencher todas as zonas antes de executar a DRC"
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:111
 msgid "Report all errors for tracks (slower)"
@@ -17766,15 +17769,15 @@ msgid ""
 "If unselected, only the first DRC violation will be reported for each track "
 "connection."
 msgstr ""
-"Se selecionada, todas as violações de RDC para trilhas serão relatadas.  Isto "
-"pode ser lento para projetos complexos.\n"
+"Caso selecionada, todas as violações de DRC das trilhas serão relatadas.  "
+"Isto pode ser lento em projetos complexos.\n"
 "\n"
-"Se não for selecionada, somente a primeira violação da RDC será reportada "
-"para cada conexão de faixa."
+"Caso não selecionada, somente a primeira violação da DRC será reportada para "
+"cada conexão de trilha."
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:116
 msgid "Check footprint courtyard overlap"
-msgstr "Checar sobreposição do pátio do footprint"
+msgstr "Verificar sobreposições em pátios de footprints"
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:119
 msgid "Check courtyard missing in footprints"
@@ -17798,7 +17801,7 @@ msgstr "Iniciar DRC"
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:192
 msgid "Start the Design Rule Checker"
-msgstr "Checar Regras de Design (DRC)"
+msgstr "Iniciar Verificação de Regras de Desenho"
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:196
 msgid "List Unconnected"
@@ -17814,7 +17817,7 @@ msgstr "Apagar Todos os Marcadores"
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:202
 msgid "Delete every marker"
-msgstr "Apagar Todo Marcador"
+msgstr "Apagar todos os marcadores"
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:206
 msgid "Delete Current Marker"
@@ -17844,7 +17847,7 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:260
 msgid "Problems / Markers"
-msgstr "Problems /Marcadores"
+msgstr "Problemas /Marcadores"
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:266
 msgid "A list of unconnected pads, right click for popup menu"
@@ -17857,7 +17860,7 @@ msgstr "Desconectado"
 
 #: pcbnew/dialogs/dialog_drc_base.h:117
 msgid "DRC Control"
-msgstr "Controle de RDC"
+msgstr "Controle de Verificação de Regras de Desenho"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor.cpp:345
 msgid ""
@@ -18024,12 +18027,12 @@ msgstr "Furo passante"
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:160
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor_base.cpp:105
 msgid "Surface mount"
-msgstr "Montagem de superfície"
+msgstr "Montagem em superfície"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:162
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor_base.cpp:107
 msgid "Placement Type:"
-msgstr "Tipo de Posicionamento:"
+msgstr "Tipo de Encaixe:"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:166
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor_base.cpp:111
@@ -18038,21 +18041,21 @@ msgstr "Livre"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:166
 msgid "Lock pads"
-msgstr "Travar ilhas"
+msgstr "Bloquear ilhas"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:166
 msgid "Lock footprint"
-msgstr "Travar footprint"
+msgstr "Bloquear footprint"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:168
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor_base.cpp:113
 msgid "Move and Place:"
-msgstr "Mover e Posicionar:"
+msgstr "Movimento e Posicionamento:"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:176
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor_base.cpp:121
 msgid "Auto Place:"
-msgstr "Auto-posicionar:"
+msgstr "Auto Posicionamento:"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:181
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor_base.cpp:126
@@ -18072,7 +18075,7 @@ msgstr "Configurações Locais:"
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:216
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor_base.cpp:160
 msgid "Pad connection to zones:"
-msgstr "Conexão da ilha às zonas:"
+msgstr "Conexão das ilhas às zonas:"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:220
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor_base.cpp:164
@@ -18113,7 +18116,7 @@ msgid ""
 "This value can be superseded by a pad local value."
 msgstr ""
 "Este é o isolamento local para todas as ilhas deste footprint\n"
-"Se 0, os valores da classe de Net serão usados\n"
+"Caso seja 0, os valores da classe de rede serão utilizados\n"
 "Este valor pode ser sobreposto por um valor da ilha local."
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:266
@@ -18279,7 +18282,7 @@ msgstr "Apelido da biblioteca:"
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor_base.cpp:111
 #: pcbnew/dialogs/dialog_track_via_properties_base.cpp:31
 msgid "Locked"
-msgstr "Travado"
+msgstr "Bloqueado"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor_base.cpp:278
 msgid "3D Shape Names:"
@@ -18358,7 +18361,7 @@ msgstr "Atualizar Footprints a partir da Biblioteca"
 
 #: pcbnew/dialogs/dialog_exchange_footprints.cpp:96
 msgid "Change Footprints"
-msgstr "Alterar Footprints"
+msgstr "Trocar Footprints"
 
 #: pcbnew/dialogs/dialog_exchange_footprints.cpp:97
 #: pcbnew/dialogs/wizard_3DShape_Libs_downloader.cpp:212
@@ -18420,7 +18423,7 @@ msgstr "%s footprints com valor correspondente (%s)"
 #: pcbnew/dialogs/dialog_exchange_footprints_base.cpp:39
 #, c-format
 msgid "%s footprints with value:"
-msgstr "%s footprint com valor:"
+msgstr "%s footprints com valor:"
 
 #: pcbnew/dialogs/dialog_exchange_footprints_base.cpp:45
 #, c-format
@@ -18801,7 +18804,7 @@ msgstr "Exportar/Importar para/a partir do FreeRoute:"
 
 #: pcbnew/dialogs/dialog_freeroute_exchange_base.cpp:40
 msgid "Export a Specctra Design (*.dsn) File"
-msgstr "Exportar um arquivo Design Spectra (*.dsn)"
+msgstr "Exportar Arquivo de Desenho Spectra (*.dsn)"
 
 #: pcbnew/dialogs/dialog_freeroute_exchange_base.cpp:41
 msgid "Export a Specctra DSN file (to FreeRouter)"
@@ -18809,7 +18812,7 @@ msgstr "Exportar um arquivo DSN Spectra (para FreeRouter)"
 
 #: pcbnew/dialogs/dialog_freeroute_exchange_base.cpp:45
 msgid "Export a Specctra Design and Launch FreeRoute"
-msgstr "Exportar um Design Specctra e Iniciar o FreeRoute"
+msgstr "Exportar um Desenho Specctra e Iniciar o FreeRoute"
 
 #: pcbnew/dialogs/dialog_freeroute_exchange_base.cpp:46
 msgid ""
@@ -18867,7 +18870,7 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_gen_footprint_position_file_base.cpp:86
 msgid "With INSERT attribute set"
-msgstr "Com o conjunto de atributos INSERT"
+msgstr "Todos com o atributo INSERT marcado"
 
 #: pcbnew/dialogs/dialog_gen_footprint_position_file_base.cpp:86
 msgid "Force INSERT attribute for all SMD footprints"
@@ -18899,7 +18902,7 @@ msgstr "Gerar Arquivos de Posicionamento de Footprint"
 
 #: pcbnew/dialogs/dialog_gencad_export_options.cpp:39
 msgid "Export to GenCAD settings"
-msgstr "Exportar para configurações do GenCAD"
+msgstr "Configurações de Exportação para GenCAD"
 
 #: pcbnew/dialogs/dialog_gencad_export_options.cpp:124
 #, c-format
@@ -18908,7 +18911,7 @@ msgstr "O arquivo %s já existe. Substituir?"
 
 #: pcbnew/dialogs/dialog_gencad_export_options.cpp:134
 msgid "Flip bottom footprint padstacks"
-msgstr "Inverter as ilhas do footprint de baixo"
+msgstr "Inverter pilhas de ilha dos footprints de baixo"
 
 #: pcbnew/dialogs/dialog_gencad_export_options.cpp:135
 msgid "Generate unique pin names"
@@ -18933,7 +18936,7 @@ msgstr "Salvar arquivo de placa GenCAD"
 
 #: pcbnew/dialogs/dialog_gendrill.cpp:139 pcbnew/dialogs/dialog_gendrill.cpp:140
 msgid "Use Netclass values"
-msgstr "Usar Valores da Classe de Rede"
+msgstr "Utilizar Valores da Classe de Rede"
 
 #: pcbnew/dialogs/dialog_gendrill.cpp:397
 #, c-format
@@ -18996,7 +18999,6 @@ msgstr "Suprimir zeros à direita"
 msgid "Keep zeros"
 msgstr "Manter zeros"
 
-# Verificar
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:57
 msgid "Zeros Format:"
 msgstr "Formato dos Zeros:"
@@ -19036,7 +19038,7 @@ msgstr "Opções de Arquivo de Perfuração Excellon:"
 
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:97
 msgid "Mirror Y axis"
-msgstr "Espelhar o eixo Y"
+msgstr "Espelhar no eixo Y"
 
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:98
 msgid ""
@@ -19244,7 +19246,7 @@ msgstr ""
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:182
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:190
 msgid "When creating tracks"
-msgstr "Quando criando trilhas"
+msgstr "Ao criar trilhas"
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:184
 msgid "Magnetic Pads:"
@@ -19276,7 +19278,7 @@ msgstr "&Impor regras de desenho ao rotear"
 msgid ""
 "Enable DRC control. When DRC control is disabled, all connections are allowed."
 msgstr ""
-"Ativar o controle RDC. Quando o controle RDC está desabilitado, todas as "
+"Ativar o controle DRC. Quando o controle DRC está desabilitado, todas as "
 "conexões são permitidas."
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:207
@@ -19297,7 +19299,7 @@ msgstr "Forçar direções das trilhas em H, V ou 45 graus ao desenhá-las."
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:219
 msgid "&Use double segmented tracks"
-msgstr "&Utilize trilhas segmentadas duplas"
+msgstr "&Utilizar trilhas segmentadas duplas"
 
 # Melhorar
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:221
@@ -19326,7 +19328,7 @@ msgstr "Listar tudo"
 
 #: pcbnew/dialogs/dialog_get_footprint_base.cpp:53
 msgid "Select by Browser"
-msgstr "Selecionar por Biblioteca"
+msgstr "Pesquisar Bibliotecas"
 
 #: pcbnew/dialogs/dialog_get_footprint_base.h:62
 msgid "Choose Footprint"
@@ -19393,19 +19395,19 @@ msgstr "Trilhas roteadas automaticamente"
 
 #: pcbnew/dialogs/dialog_global_deletion_base.cpp:61
 msgid "Locked tracks"
-msgstr "Trilhas travadas"
+msgstr "Trilhas bloqueadas"
 
 #: pcbnew/dialogs/dialog_global_deletion_base.cpp:64
 msgid "Unlocked tracks"
-msgstr "Trilhas destravadas"
+msgstr "Trilhas desbloqueadas"
 
 #: pcbnew/dialogs/dialog_global_deletion_base.cpp:72
 msgid "Locked footprints"
-msgstr "Footprints travados"
+msgstr "Footprints bloqueados"
 
 #: pcbnew/dialogs/dialog_global_deletion_base.cpp:75
 msgid "Unlocked footprints"
-msgstr "Footprints destravados"
+msgstr "Footprints desbloqueados"
 
 #: pcbnew/dialogs/dialog_global_deletion_base.cpp:82
 msgid "All layers"
@@ -19448,15 +19450,15 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias.cpp:232
 msgid "Set All Tracks and Vias to Netclass value"
-msgstr "Definir todas as trilhas e Vias para valor da Classe Net"
+msgstr "Definir todas as trilhas e Vias para valor da Classe de Rede"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias.cpp:241
 msgid "Set All Via to Netclass value"
-msgstr "Definir Todas as Vias para o valor da Classe Net"
+msgstr "Definir Todas as Vias para o valor da Classe de Rede"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias.cpp:250
 msgid "Set All Track to Netclass value"
-msgstr "Define Todas as Trilhas para o valor da classe Net"
+msgstr "Define Todas as Trilhas para o valor da Classe de Rede"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:22
 msgid "Current Settings:"
@@ -19464,11 +19466,11 @@ msgstr "Configurações Atuais:"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:44
 msgid "Current Net:"
-msgstr "Net Corrente:"
+msgstr "Rede Atual:"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:54
 msgid "Current NetClass:"
-msgstr "Clansse Net corrente:"
+msgstr "Classe de Rede Atual:"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:59
 msgid "unknown"
@@ -19492,7 +19494,7 @@ msgstr "tamanho da µVia"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:97
 msgid "Netclass value"
-msgstr "Valores de Classes de  Nets"
+msgstr "Valor da classe de rede"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:98
 msgid "Current value"
@@ -19506,26 +19508,27 @@ msgstr "Opção de Edição Global:"
 msgid ""
 "Set tracks and vias of the current Net to the current selected user value"
 msgstr ""
-"Define o valor de trilhas e vias da rede atual para o valor de usuário "
+"Definir o valor das trilhas e vias da rede atual para o valor de usuário "
 "atualmente selecionado"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:145
 msgid "Set tracks and vias of the current Net to the Netclass value"
-msgstr "Define trilhas e vias da Net atual para os valores da Classe Net"
+msgstr ""
+"Definir os valores das trilhas e vias da Rede atual para os da Classe de Rede"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:148
 msgid "Set all tracks and vias to their Netclass value"
-msgstr "Definir todas as trilhas e Vias para seus valores da Classe Net"
+msgstr "Definir todas as trilhas e vias para os valores de sua Classe de Rede"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:151
 msgid "Set all vias (no track) to their Netclass value"
 msgstr ""
-"Define todas as vias (não trilhas) para os valores de sua Classe de Rede"
+"Definir todas as vias (não trilhas) para os valores de sua Classe de Rede"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:154
 msgid "Set all tracks (no via) to their Netclass value"
 msgstr ""
-"Defini todas as trilhas (não vias) para os valores de sua Classe de Rede"
+"Definir todas as trilhas (não vias) para os valores de sua Classe de Rede"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.h:71
 msgid "Global Edition of Tracks and Vias"
@@ -19537,7 +19540,7 @@ msgstr "Campos de Footprint:"
 
 #: pcbnew/dialogs/dialog_global_footprints_fields_edition_base.cpp:28
 msgid "Reference designator"
-msgstr "Designador de Referência"
+msgstr "Referência"
 
 #: pcbnew/dialogs/dialog_global_footprints_fields_edition_base.cpp:34
 msgid "User defined"
@@ -19744,7 +19747,7 @@ msgid ""
 "Are you sure?"
 msgstr ""
 "O item gráfico ficará em uma camada de cobre.\n"
-"Isso é perigoso porque a RDC não sabe como lidar com isso.\n"
+"Isso é perigoso porque a DRC não sabe como lidar com isso.\n"
 "Tem certeza?"
 
 #: pcbnew/dialogs/dialog_graphic_items_options_base.cpp:25
@@ -20497,7 +20500,7 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_mask_clearance_base.cpp:59
 msgid "Solder mask min width:"
-msgstr "Largura mínima da máscara da solda:"
+msgstr "Largura mínima da máscara de solda:"
 
 #: pcbnew/dialogs/dialog_mask_clearance_base.cpp:61
 msgid ""
@@ -20779,7 +20782,7 @@ msgstr "Etiqueta de dada e hora"
 
 #: pcbnew/dialogs/dialog_netlist_base.cpp:35
 msgid "Footprint Selection:"
-msgstr "Seleção de Footprint:"
+msgstr "Seleção de Footprints:"
 
 #: pcbnew/dialogs/dialog_netlist_base.cpp:37
 msgid ""
@@ -20801,7 +20804,7 @@ msgstr "Manter"
 
 #: pcbnew/dialogs/dialog_netlist_base.cpp:43
 msgid "Exchange Footprint:"
-msgstr "Trocar Footprint:"
+msgstr "Trocar Footprints:"
 
 #: pcbnew/dialogs/dialog_netlist_base.cpp:45
 msgid ""
@@ -20857,19 +20860,18 @@ msgstr "Leia o arquivo netlist atual e liste os footprints ausentes e extras"
 
 #: pcbnew/dialogs/dialog_netlist_base.cpp:106
 msgid "Rebuild Board Connectivity"
-msgstr "Reconstruir Conectividade da Placa"
+msgstr "Reconstruir Conectividades da Placa"
 
-# Revisar
 #: pcbnew/dialogs/dialog_netlist_base.cpp:107
 msgid "Rebuild the full ratsnest (useful after a manual pad netname edition)"
 msgstr ""
-"Reconstruir completamente o emaranhado (útil após a edição manual do nome de "
-"rede de uma ilha)"
+"Reconstruir completamente o emaranhado de conexões (útil após a edição manual "
+"do nome de rede de uma ilha)"
 
-# Revisar
 #: pcbnew/dialogs/dialog_netlist_base.cpp:123
 msgid "Dry run. Only report changes in message panel"
-msgstr "Funcionamento a seco. Reportar mudanças apenas no painel de mensagens"
+msgstr ""
+"Funcionamento a seco. Apenas reporta as alterações no painel de mensagens"
 
 #: pcbnew/dialogs/dialog_netlist_base.cpp:124
 msgid ""
@@ -20878,8 +20880,8 @@ msgid ""
 "Changes are only reported in message panel, for info"
 msgstr ""
 "Funcionamento a Seco:\n"
-"A netlist é lida, mas nenhuma alteração é realmente feita na placa.\n"
-"Alterações serão reportadas no painel de mensagens apenas para informação"
+"A netlist é lida, porém nenhuma alteração será realizada na placa.\n"
+"Alterações serão apenas reportadas no painel de mensagens como informação"
 
 #: pcbnew/dialogs/dialog_netlist_base.cpp:128
 msgid "Silent mode"
@@ -21159,7 +21161,7 @@ msgstr "Número da ilha:"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:50
 msgid "Net name:"
-msgstr "Nome da net:"
+msgstr "Nome da rede:"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:60
 msgid "Pad type:"
@@ -21653,7 +21655,7 @@ msgstr "Formato de plotagem:"
 #: pcbnew/dialogs/dialog_plot_base.cpp:69
 #: pcbnew/dialogs/dialog_print_using_printer_base.cpp:20
 msgid "Included Layers:"
-msgstr "Camadas Inclusas:"
+msgstr "Camadas:"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:91
 msgid "Plot sheet reference on all layers"
@@ -21689,7 +21691,8 @@ msgstr "Excluir camada de borda da PCI de outras camadas"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:113
 msgid "Do not plot the contents of the PCB edge layer on any other layers."
-msgstr "Não plote o conteúdo da camada de borda da PCI em nenhuma outra camada."
+msgstr ""
+"Não plotar o conteúdo da camada de borda da PCI em nenhuma outra camada."
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:117
 msgid "Exclude pads from silkscreen"
@@ -21707,7 +21710,8 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:123
 msgid "Use auxiliary axis as coordinates origin in plot files"
-msgstr "Use o eixo auxiliar como origem de coordenadas em arquivos de plotagem"
+msgstr ""
+"Utilizar o eixo auxiliar como origem de coordenadas em arquivos de plotagem"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:127
 msgid "Mirrored plot"
@@ -21719,7 +21723,7 @@ msgstr "Plotagem negativa"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:133
 msgid "Check zone fills before plotting"
-msgstr "Checar preenchimento das zonas antes de plotar"
+msgstr "Verificar preenchimento das zonas antes de plotar"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:142
 msgid "Drill marks:"
@@ -21767,7 +21771,7 @@ msgstr "Largura de linha para, por exemplo, referências de folhas."
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:192
 msgid "Solder Mask Options:"
-msgstr "Opções de Máscara da Solda:"
+msgstr "Opções da Máscara de Solda:"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:201
 msgid "Margin between pads and solder mask"
@@ -21800,7 +21804,7 @@ msgid ""
 "Use Protel Gerber extensions (.GBL, .GTL, etc...)\n"
 "No longer recommended. The official extension is .gbr"
 msgstr ""
-"Utilize extensões Gerber Protel (.GBL .GTL, etc...)\n"
+"Utilizar extensões Gerber Protel (.GBL .GTL, etc...)\n"
 "Não mais recomendado. A extensão oficial é .gbr"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:235
@@ -21841,7 +21845,7 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:250
 msgid "Subtract soldermask from silkscreen"
-msgstr "Remover máscara de solda da serigrafia"
+msgstr "Remover máscara de solda de serigrafias"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:251
 msgid "Remove silkscreen from areas without soldermask"
@@ -21849,22 +21853,22 @@ msgstr "Remover serigrafia de áreas sem máscara de solda"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:258
 msgid "4.5, unit mm"
-msgstr "4,5, unidade mm"
+msgstr "4,5 - unidade mm"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:258
 msgid "4.6, unit mm"
-msgstr "4,6, unidade mm"
+msgstr "4,6 - unidade mm"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:260
 msgid "Coordinate Format"
-msgstr "Formato de Coordenadas"
+msgstr "Formato das Coordenadas"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:262
 msgid ""
 "Resolution of coordinates in Gerber files.\n"
 "Use the higher value if possible."
 msgstr ""
-"Resolução de coordenadas em arquivos Gerber.\n"
+"Resolução das coordenadas em arquivos Gerber.\n"
 "Utilize o valor mais alto, se possível."
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:274
@@ -21943,7 +21947,7 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:381
 msgid "Run DRC..."
-msgstr "Executar RDC..."
+msgstr "Executar DRC..."
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:407
 msgid "Select Fab Layers"
@@ -22064,15 +22068,15 @@ msgstr "Ajuste do Comprimento do Traço"
 
 #: pcbnew/dialogs/dialog_pns_settings.cpp:34
 msgid "DRC violation: highlight obstacles"
-msgstr "Violação RDC: destacar obstáculos"
+msgstr "Violação DRC: destacar obstáculos"
 
 #: pcbnew/dialogs/dialog_pns_settings.cpp:35
 msgid "DRC violation: shove tracks and vias"
-msgstr "Violação RDC: empurrar trilhas e vias"
+msgstr "Violação DRC: empurrar trilhas e vias"
 
 #: pcbnew/dialogs/dialog_pns_settings.cpp:36
 msgid "DRC violation: walk around obstacles"
-msgstr "Violação RDC: contornar obstáculos"
+msgstr "Violação DRC: contornar obstáculos"
 
 #: pcbnew/dialogs/dialog_pns_settings_base.cpp:19
 msgid "Highlight collisions"
@@ -22172,7 +22176,7 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_pns_settings_base.cpp:76
 msgid "Allow DRC violations"
-msgstr "Permitir violações da RDC"
+msgstr "Permitir violações da DRC"
 
 #: pcbnew/dialogs/dialog_pns_settings_base.cpp:77
 msgid ""
@@ -22180,7 +22184,7 @@ msgid ""
 "violating the DRC rules."
 msgstr ""
 "(Apenas no modo de destaque de colisões) - permite estabelecer uma trilha "
-"mesmo que viole a RDC."
+"mesmo que viole a DRC."
 
 #: pcbnew/dialogs/dialog_pns_settings_base.cpp:81
 msgid "Suggest track finish"
@@ -22216,24 +22220,24 @@ msgstr "Configurações do Roteador Interativo"
 
 #: pcbnew/dialogs/dialog_position_relative.cpp:144
 msgid "Distance from anchor:"
-msgstr "Distância da âncora:"
+msgstr "Distância a partir da âncora:"
 
 #: pcbnew/dialogs/dialog_position_relative.cpp:151
 msgid "Position from anchor X:"
-msgstr "Posição da âncora X:"
+msgstr "Posição a partir da âncora X:"
 
 #: pcbnew/dialogs/dialog_position_relative.cpp:152
 msgid "Position from anchor Y:"
-msgstr "Posição da âncora Y:"
+msgstr "Posição a partir da âncora Y:"
 
 #: pcbnew/dialogs/dialog_position_relative_base.cpp:21
 #: pcbnew/dialogs/dialog_position_relative_base.cpp:82
 msgid "The Anchor position is the origin of coordinates for the transform."
-msgstr "A posição de âncora é a origem das coordenadas para a transformação."
+msgstr "A posição da âncora é a origem de coordenadas para a transformação."
 
 #: pcbnew/dialogs/dialog_position_relative_base.cpp:80
 msgid "Anchor position X:"
-msgstr "Definir posição de ancoragem X:"
+msgstr "Posição da Âncora X:"
 
 #: pcbnew/dialogs/dialog_position_relative_base.cpp:105
 msgid "Select Anchor Position"
@@ -22341,7 +22345,7 @@ msgstr "Impressão de Página:"
 
 #: pcbnew/dialogs/dialog_select_net_from_list_base.cpp:25
 msgid "Net name filter:"
-msgstr "Filtro de nome da Net:"
+msgstr "Filtro de nome de rede:"
 
 #: pcbnew/dialogs/dialog_select_net_from_list_base.cpp:32
 msgid "Show zero pad nets"
@@ -22460,7 +22464,7 @@ msgstr "Trilhas:"
 
 #: pcbnew/dialogs/dialog_track_via_properties_base.cpp:110
 msgid "Use net class width"
-msgstr "Usar largura de classe de rede"
+msgstr "Utilizar largura da classe de rede"
 
 #: pcbnew/dialogs/dialog_track_via_properties_base.cpp:132
 msgid "Vias:"
@@ -23883,7 +23887,7 @@ msgstr "biblioteca de footprint \"%s\" não pode ser apagada"
 
 #: pcbnew/help_common_strings.h:15 pcbnew/tool_footprint_editor.cpp:105
 msgid "Undo last edition"
-msgstr "Desfazer última edição"
+msgstr "Desfazer"
 
 #: pcbnew/help_common_strings.h:17
 msgid "Find components and text in current loaded board"
@@ -24115,7 +24119,7 @@ msgstr "Colocar DXF"
 
 #: pcbnew/hotkeys.cpp:163 pcbnew/tools/drawing_tool.cpp:121
 msgid "Place the Footprint Anchor"
-msgstr "Colocar a âncora do footprint"
+msgstr "Colocar a Âncora do Footprint"
 
 #: pcbnew/hotkeys.cpp:165 pcbnew/tools/drawing_tool.cpp:126
 msgid "Increase Line Width"
@@ -24264,7 +24268,7 @@ msgstr "Posição definida pelo usuário"
 
 #: pcbnew/import_dxf/dialog_dxf_import_base.cpp:44
 msgid "Place DXF Origin (0,0) Point:"
-msgstr "Coloque o Ponto de Origem DXF (0,0):"
+msgstr "Posicione o Ponto de Origem DXF (0,0):"
 
 #: pcbnew/import_dxf/dialog_dxf_import_base.cpp:54
 msgid "User defined position:"
@@ -24284,7 +24288,7 @@ msgstr "Selecione as unidades da grade da PCI"
 
 #: pcbnew/import_dxf/dialog_dxf_import_base.cpp:134
 msgid "Import parameters:"
-msgstr "Importar parâmetros:"
+msgstr "Parâmetros de importação:"
 
 #: pcbnew/import_dxf/dialog_dxf_import_base.cpp:150
 msgid "Default line width:"
@@ -24439,36 +24443,37 @@ msgstr ""
 #: pcbnew/legacy_netlist_reader.cpp:120
 msgid "Cannot parse time stamp in symbol section of netlist."
 msgstr ""
-"Não foi possível checar o carimbo de data/hora na seção de símbolos da "
+"Não foi possível verificar o carimbo de data/hora na seção de símbolos da "
 "netlist."
 
 #: pcbnew/legacy_netlist_reader.cpp:130
 msgid "Cannot parse footprint name in symbol section of netlist."
 msgstr ""
-"Não foi possível checar o nome do footprint na seção de símbolos da netlist."
+"Não foi possível verificar o nome do footprint na seção de símbolos da "
+"netlist."
 
 #: pcbnew/legacy_netlist_reader.cpp:144
 msgid "Cannot parse reference designator in symbol section of netlist."
 msgstr ""
-"Não foi possível checar o designador de referência na seção de símbolos da "
+"Não foi possível verificar o designador de referência na seção de símbolos da "
 "netlist."
 
 #: pcbnew/legacy_netlist_reader.cpp:154
 msgid "Cannot parse value in symbol section of netlist."
-msgstr "Não foi possível checar o valor na seção de símbolos da netlist."
+msgstr "Não foi possível verificar o valor na seção de símbolos da netlist."
 
 # Revisar
 #: pcbnew/legacy_netlist_reader.cpp:191
 msgid "Cannot parse pin name in symbol net section of netlist."
 msgstr ""
-"Não foi possível checar o nome do pino na seção de rede de símbolos da "
+"Não foi possível verificar o nome do pino na seção de rede de símbolos da "
 "netlist."
 
 # Revisar
 #: pcbnew/legacy_netlist_reader.cpp:200
 msgid "Cannot parse net name in symbol net section of netlist."
 msgstr ""
-"Não foi possível checar o nome da rede na seção de rede de símbolos da "
+"Não foi possível verificar o nome da rede na seção de rede de símbolos da "
 "netlist."
 
 #: pcbnew/legacy_netlist_reader.cpp:248
@@ -24519,7 +24524,7 @@ msgstr ""
 #: pcbnew/legacy_plugin.cpp:2460
 #, c-format
 msgid "duplicate NETCLASS name \"%s\""
-msgstr "nome duplicado de NETCLASS \"%s\""
+msgstr "nome duplicado de CLASSE DE REDE \"%s\""
 
 #: pcbnew/legacy_plugin.cpp:2542 pcbnew/legacy_plugin.cpp:2553
 #, c-format
@@ -24700,11 +24705,11 @@ msgstr "Fechar editor de footprints"
 
 #: pcbnew/menubar_footprint_editor.cpp:160
 msgid "Undo last action"
-msgstr "Desfazer última ação"
+msgstr "Desfazer"
 
 #: pcbnew/menubar_footprint_editor.cpp:166
 msgid "Redo last action"
-msgstr "Refazer última ação"
+msgstr "Refazer"
 
 #: pcbnew/menubar_footprint_editor.cpp:174
 msgid "Cu&t"
@@ -24786,7 +24791,7 @@ msgstr "Utilizar modo de alto contraste"
 
 #: pcbnew/menubar_footprint_editor.cpp:312 pcbnew/menubar_pcb_editor.cpp:744
 msgid "&Decrease Layer Opacity"
-msgstr "&Decrementa Opacidade da Camada"
+msgstr "&Diminuir Opacidade da Camada"
 
 #: pcbnew/menubar_footprint_editor.cpp:315 pcbnew/menubar_pcb_editor.cpp:747
 msgid "Make the current layer more transparent"
@@ -24794,7 +24799,7 @@ msgstr "Tornar a camada atual mais transparente"
 
 #: pcbnew/menubar_footprint_editor.cpp:318 pcbnew/menubar_pcb_editor.cpp:750
 msgid "&Increase Layer Opacity"
-msgstr "&Aumentar a Opacidade da Camada"
+msgstr "&Aumentar Opacidade da Camada"
 
 #: pcbnew/menubar_footprint_editor.cpp:321 pcbnew/menubar_pcb_editor.cpp:753
 msgid "Make the current layer less transparent"
@@ -24942,7 +24947,7 @@ msgstr "Habilita e define propriedades das camadas"
 
 #: pcbnew/menubar_pcb_editor.cpp:168
 msgid "&Design Rules..."
-msgstr "Regras de &Design…"
+msgstr "Regras de &Desenho…"
 
 #: pcbnew/menubar_pcb_editor.cpp:169
 msgid "Open design rules editor"
@@ -25038,7 +25043,7 @@ msgstr "Configurar roteador interativo"
 
 #: pcbnew/menubar_pcb_editor.cpp:308
 msgid "&List Nets"
-msgstr "&Lista de Nets"
+msgstr "&Listar Redes"
 
 #: pcbnew/menubar_pcb_editor.cpp:309
 msgid "View list of nets with names and IDs"
@@ -25046,20 +25051,19 @@ msgstr "Ver lista de redes com nomes e IDs"
 
 #: pcbnew/menubar_pcb_editor.cpp:320
 msgid "&Design Rules Checker"
-msgstr "Verificador de Regras de &Desenho"
+msgstr "Verificador de Regras de &Desenho (DRC)"
 
 #: pcbnew/menubar_pcb_editor.cpp:321 pcbnew/tool_pcb_editor.cpp:305
 msgid "Perform design rules check"
-msgstr "Verificar Regras de Desenho (RDC)"
+msgstr "Verificar Regras de Desenho (DRC)"
 
 #: pcbnew/menubar_pcb_editor.cpp:337
 msgid "Edit the global and project footprint library lists"
 msgstr "Editar as listas de bibliotecas de footprint globais e do projeto"
 
-# Revisar
 #: pcbnew/menubar_pcb_editor.cpp:342
 msgid "Add &3D Shapes Libraries Wizard..."
-msgstr "Adicionar Assistente de Bibliotecas de Formas &3D..."
+msgstr "Assistente Para Adicionar Bibliotecas de Formas &3D..."
 
 #: pcbnew/menubar_pcb_editor.cpp:343
 msgid "Download 3D shape libraries from GitHub"
@@ -25120,7 +25124,7 @@ msgstr "Colocar o ponto de origem para arquivos de furação e posicionamento"
 
 #: pcbnew/menubar_pcb_editor.cpp:417
 msgid "Load &Netlist..."
-msgstr "Carregar &Netlist…"
+msgstr "Ler &Netlist…"
 
 #: pcbnew/menubar_pcb_editor.cpp:418
 msgid "Read netlist and update board connectivity"
@@ -25191,7 +25195,7 @@ msgstr "Definir tamanho e largura do texto de campos de footprint"
 
 #: pcbnew/menubar_pcb_editor.cpp:553
 msgid "Change Footprints..."
-msgstr "Alterar Footprints…"
+msgstr "Trocar Footprints…"
 
 # Revisar
 #: pcbnew/menubar_pcb_editor.cpp:554
@@ -25420,7 +25424,7 @@ msgstr "Gerar arquivo netlist IPC-D-356"
 
 #: pcbnew/menubar_pcb_editor.cpp:919
 msgid "&BOM File..."
-msgstr "Arquivo &BOM…"
+msgstr "Lista de &Materiais…"
 
 #: pcbnew/menubar_pcb_editor.cpp:920
 msgid "Create bill of materials from current schematic"
@@ -25664,11 +25668,11 @@ msgstr "Nome da ligação"
 
 #: pcbnew/netinfo_item.cpp:97
 msgid "Net Code"
-msgstr "Código da Net"
+msgstr "Código de Rede"
 
 #: pcbnew/netinfo_item.cpp:144
 msgid "Net Length"
-msgstr "Comprimento da Net"
+msgstr "Comprimento da Rede"
 
 # Verificar
 #: pcbnew/netinfo_item.cpp:148
@@ -25911,27 +25915,27 @@ msgstr "Definir Marcador"
 
 #: pcbnew/onrightclick.cpp:618
 msgid "Locked: Yes"
-msgstr "Travado: Sim"
+msgstr "Bloqueado: Sim"
 
 #: pcbnew/onrightclick.cpp:619
 msgid "Locked: No"
-msgstr "Travado: Não"
+msgstr "Bloqueado: Não"
 
 #: pcbnew/onrightclick.cpp:628
 msgid "Track Locked: Yes"
-msgstr "Trilha Travada: Sim"
+msgstr "Trilha Bloqueada: Sim"
 
 #: pcbnew/onrightclick.cpp:629
 msgid "Track Locked: No"
-msgstr "Trilha Travada: Não"
+msgstr "Trilha Bloqueada: Não"
 
 #: pcbnew/onrightclick.cpp:631
 msgid "Net Locked: Yes"
-msgstr "Ligação Travada: Sim"
+msgstr "Ligação Bloqueada: Sim"
 
 #: pcbnew/onrightclick.cpp:632
 msgid "Net Locked: No"
-msgstr "Ligação Travada: Não"
+msgstr "Ligação Bloqueada: Não"
 
 #: pcbnew/onrightclick.cpp:646
 msgid "Place Edge Outline"
@@ -26047,11 +26051,12 @@ msgstr ""
 
 #: pcbnew/onrightclick.cpp:1010
 msgid "Use Netclass Values"
-msgstr "Usar Valores da Classe Net"
+msgstr "Utilizar Valores da Classe de Rede"
 
 #: pcbnew/onrightclick.cpp:1011
 msgid "Use track and via sizes from their Netclass values"
-msgstr "Usar tamanhos de via e trilha a partir dos valores da classe Net"
+msgstr ""
+"Utilizar tamanhos de via e trilha a partir dos valores da classe de rede"
 
 #: pcbnew/onrightclick.cpp:1017
 #, c-format
@@ -26060,7 +26065,7 @@ msgstr "Trilha %s"
 
 #: pcbnew/onrightclick.cpp:1020 pcbnew/onrightclick.cpp:1046
 msgid " uses NetClass"
-msgstr " usa NetClass"
+msgstr " utiliza Classe de Rede"
 
 #: pcbnew/onrightclick.cpp:1038
 #, c-format
@@ -26242,7 +26247,7 @@ msgstr "Não Conectados"
 
 #: pcbnew/pcb_layer_widget.cpp:86
 msgid "Show a marker on pads which have no net connected"
-msgstr "Exibir uma marcação nas ilhas que não tem uma rede conectada"
+msgstr "Exibir uma marca nas ilhas que não tem uma rede conectada"
 
 #: pcbnew/pcb_layer_widget.cpp:87
 msgid "Anchors"
@@ -26514,7 +26519,7 @@ msgid ""
 msgstr ""
 "Há uma zona que pertence a uma rede inexistente\n"
 "\"%s\"\n"
-"você deve verificar e editá-la (executar teste RDC)."
+"você deve verificar e editá-la (executar teste DRC)."
 
 #: pcbnew/pcbnew.cpp:341
 msgid ""
@@ -26653,7 +26658,7 @@ msgstr "Não se pode começar um par diferencial no meio do nada."
 #: pcbnew/router/pns_diff_pair_placer.cpp:581
 msgid "Current track/via gap setting violates design rules for this net."
 msgstr ""
-"A configuração de espaçamento da trilha/via atual, viola as regras de design "
+"A configuração de espaçamento da trilha/via atual, viola as regras de desenho "
 "desta rede."
 
 #: pcbnew/router/pns_diff_pair_placer.cpp:588
@@ -26970,7 +26975,7 @@ msgstr "Diversos símbolos têm IDs de referência idênticos a \"%s\"."
 
 #: pcbnew/specctra_import_export/specctra_import.cpp:78
 msgid "Merge Specctra Session file:"
-msgstr "Juntar aquivo Specctra Session:"
+msgstr "Anexar aquivo Specctra Session:"
 
 #: pcbnew/specctra_import_export/specctra_import.cpp:110
 msgid ""
@@ -26992,7 +26997,7 @@ msgstr "Arquivo Session usa identificador de camada inválido:  \"%s\""
 
 #: pcbnew/specctra_import_export/specctra_import.cpp:264
 msgid "Session via padstack has no shapes"
-msgstr "Pilha de ilhas da seção não tem formas"
+msgstr "Pilha de ilhas da via da seção não tem formas"
 
 #: pcbnew/specctra_import_export/specctra_import.cpp:271
 #: pcbnew/specctra_import_export/specctra_import.cpp:289
@@ -27022,7 +27027,7 @@ msgstr "O arquivo de sessão faz 'referência' ao símbolo inexistente \"%s\""
 #: pcbnew/specctra_import_export/specctra_import.cpp:546
 #, c-format
 msgid "A wire_via references a missing padstack \"%s\""
-msgstr "Um fio_via referencia uma pilha-de-ilha inexistente \"%s\""
+msgstr "Um fio_via referencia uma pilha de ilha inexistente \"%s\""
 
 #: pcbnew/swap_layers.cpp:90
 msgid "Move Layers:"
@@ -27123,7 +27128,7 @@ msgstr "Exportar footprint"
 
 #: pcbnew/tool_footprint_editor.cpp:107
 msgid "Redo last undo command"
-msgstr "Refazer último comando desfeito"
+msgstr "Refazer"
 
 #: pcbnew/tool_footprint_editor.cpp:112
 msgid "Footprint properties"
@@ -27155,12 +27160,12 @@ msgstr "Exibir Esboço de Bordas"
 
 #: pcbnew/tool_footprint_viewer.cpp:54
 msgid "Select library to browse"
-msgstr "Procurar biblioteca"
+msgstr "Selecionar biblioteca"
 
 # Revisar
 #: pcbnew/tool_footprint_viewer.cpp:58
 msgid "Select footprint to browse"
-msgstr "Procurar footprint"
+msgstr "Selecionar footprint"
 
 #: pcbnew/tool_footprint_viewer.cpp:64
 msgid "Display previous footprint"
@@ -27204,7 +27209,7 @@ msgstr "&Sobre o Pcbnew"
 
 #: pcbnew/tool_footprint_viewer.cpp:188
 msgid "About Pcbnew PCB designer"
-msgstr "Sobre o Pcbnew PCB designer"
+msgstr "Sobre Editor de PCI Pcbnew"
 
 #: pcbnew/tool_pcb_editor.cpp:55
 msgid ""
@@ -27244,7 +27249,7 @@ msgstr "Exibir/Ocultar o console de Script do Python"
 
 #: pcbnew/tool_pcb_editor.cpp:352
 msgid "Enable design rule checking"
-msgstr "Ativar Regras de Desenho (RDC)"
+msgstr "Ativar Verificaçao de Regras de Desenho"
 
 #: pcbnew/tool_pcb_editor.cpp:450
 msgid "Display local ratsnest"
@@ -27288,23 +27293,19 @@ msgstr ""
 msgid "Set the origin point for the grid"
 msgstr "Definir o ponto de origem da grade"
 
-# Revisar
 #: pcbnew/tool_pcb_editor.cpp:534 pcbnew/tools/microwave_tool.cpp:89
 msgid "Create line of specified length for microwave applications"
 msgstr "Criar linha de comprimento específico, para aplicações em micro-ondas"
 
-# Revisar
 #: pcbnew/tool_pcb_editor.cpp:539 pcbnew/tools/microwave_tool.cpp:65
 msgid "Create gap of specified length for microwave applications"
 msgstr "Criar fenda de comprimento específico, para aplicações em micro-ondas"
 
-# Revisar
 #: pcbnew/tool_pcb_editor.cpp:546 pcbnew/tools/microwave_tool.cpp:71
 msgid "Create stub of specified length for microwave applications"
 msgstr ""
 "Criar segmento de comprimento específico, para aplicações em micro-ondas"
 
-# Revisar
 #: pcbnew/tool_pcb_editor.cpp:551 pcbnew/tools/microwave_tool.cpp:77
 msgid "Create stub (arc) of specified length for microwave applications"
 msgstr ""
@@ -27375,8 +27376,8 @@ msgid ""
 "Toolset.\n"
 "Use Route > Interactive Router Settings... for Modern Toolset."
 msgstr ""
-"Habilitar a verificação de regras de desenho ao rotear/editar trilhas com o "
-"conjunto de ferramentas legado.\n"
+"Habilitar a verificação de regras de desenho ao rotear/editar trilhas to de "
+"ferramentas legado.\n"
 "Utilize \"Rotear > Configurações de Rotemento Interativo...\" para o conjunto "
 "de ferramentas moderno."
 
@@ -28070,7 +28071,7 @@ msgstr "Trilha "
 
 #: pcbnew/tools/size_menu.cpp:133
 msgid "net class width"
-msgstr "largura de classe net"
+msgstr "largura da classe de rede"
 
 #: pcbnew/tools/size_menu.cpp:146
 msgid "Via "
@@ -28078,7 +28079,7 @@ msgstr "Via "
 
 #: pcbnew/tools/size_menu.cpp:150
 msgid "net class size"
-msgstr "tamanho de classe net"
+msgstr "tamanho da classe de rede"
 
 #: pcbnew/tools/size_menu.cpp:159
 msgid ", drill: default"
@@ -28110,7 +28111,7 @@ msgstr "Preencher zona(s)"
 
 #: pcbnew/tools/zone_filler_tool.cpp:51
 msgid "Fill All"
-msgstr "Preencher Todos"
+msgstr "Preencher Todas"
 
 #: pcbnew/tools/zone_filler_tool.cpp:51
 msgid "Fill all zones"
@@ -28186,12 +28187,12 @@ msgstr "A zona duplicada não pode estar na mesma camada que a zona original."
 
 #: pcbnew/zones_by_polygon.cpp:177
 msgid "Warning: The new zone fails DRC"
-msgstr "Aviso: A nova zona não atende a RDC"
+msgstr "Aviso: A nova zona não atende a DRC"
 
 #: pcbnew/zones_by_polygon.cpp:379 pcbnew/zones_by_polygon.cpp:438
 #: pcbnew/zones_by_polygon.cpp:831
 msgid "Area: DRC outline error"
-msgstr "Área: erro de RDC no contorno"
+msgstr "Área: erro de DRC no contorno"
 
 #: pcbnew/zones_by_polygon.cpp:553
 msgid "Error: a keepout area is allowed only on copper layers"
@@ -28200,11 +28201,11 @@ msgstr "Erro: uma área de afastamento só é permitida em camadas de cobre"
 #: pcbnew/zones_by_polygon.cpp:701
 msgid "DRC error: this start point is inside or too close another area"
 msgstr ""
-"Erro RDC: este ponto de partida está dentro ou muito perto de outra área"
+"Erro DRC: este ponto de partida está dentro ou muito perto de outra área"
 
 #: pcbnew/zones_by_polygon.cpp:769
 msgid "DRC error: closing this area creates a DRC error with another area"
-msgstr "Erro de RDC: fechar esta área cria um erro de RDC com outra área"
+msgstr "Erro DRC: fechar esta área cria um erro de DRC com outra área"
 
 #: pcbnew/zones_by_polygon.cpp:927 pcbnew/zones_by_polygon.cpp:991
 msgid "Modify zone properties"
@@ -28218,7 +28219,7 @@ msgstr "Preencher Zonas %d"
 
 #: pcbnew/zones_by_polygon_fill_functions.cpp:120
 msgid "Checking Zones"
-msgstr "Checar Zonas"
+msgstr "Verificando Zonas"
 
 #~ msgid "Track Len"
 #~ msgstr "Comprimento Trilha"
