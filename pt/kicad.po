@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-18 21:11+0200\n"
-"PO-Revision-Date: 2018-10-13 20:49-0300\n"
+"PO-Revision-Date: 2018-10-15 16:53-0300\n"
 "Last-Translator: Francisco R. Pereira <frosch_bin@yahoo.com.br>\n"
 "Language-Team: kicad team\n"
 "Language: pt_BR\n"
@@ -105,7 +105,7 @@ msgstr "Nenhuma entrada selecionada"
 #: 3d-viewer/3d_cache/dialogs/dlg_3d_pathconfig.cpp:193
 #: 3d-viewer/3d_cache/dialogs/dlg_3d_pathconfig.cpp:200
 msgid "Delete alias entry"
-msgstr "Apagar entrada de apelido"
+msgstr "Apagar entrada de alias"
 
 #: 3d-viewer/3d_cache/dialogs/dlg_3d_pathconfig.cpp:199
 #: 3d-viewer/3d_cache/dialogs/dlg_3d_pathconfig.cpp:239
@@ -118,25 +118,25 @@ msgstr "Múltiplas entradas selecionadas; por favor selecione apenas uma"
 #: 3d-viewer/3d_cache/dialogs/dlg_3d_pathconfig.cpp:233
 #: 3d-viewer/3d_cache/dialogs/dlg_3d_pathconfig.cpp:240
 msgid "Move alias up"
-msgstr "Mover apelido acima"
+msgstr "Mover alias acima"
 
 #: 3d-viewer/3d_cache/dialogs/dlg_3d_pathconfig.cpp:274
 #: 3d-viewer/3d_cache/dialogs/dlg_3d_pathconfig.cpp:281
 msgid "Move alias down"
-msgstr "Mover apelido abaixo"
+msgstr "Mover alias abaixo"
 
 #: 3d-viewer/3d_cache/dialogs/dlg_3d_pathconfig.cpp:370
 msgid ""
 "Enter the name and path for each 3D alias variable.<br>KiCad environment "
 "variables and their values are shown for reference only and cannot be edited."
 msgstr ""
-"Insira o nome e caminho para cada apelido de variável 3D.<br>Variáveis de "
+"Insira o nome e caminho para cada alias de variável 3D.<br>Variáveis de "
 "ambiente KiCad e seus valores são exibidos apenas para referência e não podem "
 "ser editados."
 
 #: 3d-viewer/3d_cache/dialogs/dlg_3d_pathconfig.cpp:374
 msgid "Alias names may not contain any of the characters "
-msgstr "Apelidos não podem conter nenhum destes caracteres "
+msgstr "Nomes de alias não podem conter nenhum destes caracteres "
 
 #: 3d-viewer/3d_cache/dialogs/dlg_3d_pathconfig.cpp:378
 #: common/dialogs/dialog_env_var_config.cpp:325
@@ -185,11 +185,11 @@ msgstr "Descrição"
 
 #: 3d-viewer/3d_cache/dialogs/dlg_3d_pathconfig_base.cpp:107
 msgid "Add Alias"
-msgstr "Adicionar Apelido"
+msgstr "Adicionar Alias"
 
 #: 3d-viewer/3d_cache/dialogs/dlg_3d_pathconfig_base.cpp:110
 msgid "Remove Alias"
-msgstr "Remover Apelido"
+msgstr "Remover Alias"
 
 #: 3d-viewer/3d_cache/dialogs/dlg_3d_pathconfig_base.cpp:113
 #: cvpcb/dialogs/dialog_config_equfiles_base.cpp:42
@@ -1482,7 +1482,7 @@ msgstr "Colar Bloco"
 #: pcbnew/footprint_editor_utils.cpp:941 pcbnew/tool_footprint_editor.cpp:133
 #: pcbnew/tool_pcb_editor.cpp:295
 msgid "Zoom to selection"
-msgstr "Enquadrar a seleção"
+msgstr "Enquadrar selecionado"
 
 #: common/block_commande.cpp:101
 msgid "Block Rotate"
@@ -3148,7 +3148,7 @@ msgstr "Zoom Automático"
 #: pagelayout_editor/menubar.cpp:134 pcbnew/hotkeys.cpp:225
 #: pcbnew/menubar_footprint_editor.cpp:231 pcbnew/menubar_pcb_editor.cpp:626
 msgid "Zoom to Selection"
-msgstr "Enquadrar a Seleção"
+msgstr "Enquadrar Selecionado"
 
 #: common/tool/common_tools.cpp:39
 msgid "Toggle Always Show Cursor"
@@ -3210,11 +3210,11 @@ msgstr "Sem Suavização"
 
 #: common/widgets/gal_options_panel.cpp:87
 msgid "Subpixel Antialiasing (High Quality)"
-msgstr "Suavização Subpixel (Alta Qualidade)"
+msgstr "Suavização de Subpixel (Alta Qualidade)"
 
 #: common/widgets/gal_options_panel.cpp:88
 msgid "Subpixel Antialiasing (Ultra Quality)"
-msgstr "Suavização Subpixel (Ultra Qualidade)"
+msgstr "Suavização de Subpixel (Ultra Qualidade)"
 
 #: common/widgets/gal_options_panel.cpp:89
 msgid "Supersampling (2x)"
@@ -3272,12 +3272,12 @@ msgstr "Cursor de tela inteira"
 
 #: common/widgets/gal_options_panel.cpp:200
 msgid "Cursor shape:"
-msgstr "Formato do cursor:"
+msgstr "Forma do cursor:"
 
 #: common/widgets/gal_options_panel.cpp:208
 msgid "Cursor shape for drawing, placement and movement tools"
 msgstr ""
-"Formato do cursor para desenho, posicionamento e ferramentas de movimentação"
+"Forma do cursor para desenho, posicionamento e ferramentas de movimentação"
 
 #: common/widgets/gal_options_panel.cpp:214
 msgid "Always display crosshairs"
@@ -4208,19 +4208,19 @@ msgstr "Carregar Arquivo de Associação entre Símbolo Esquemático e Footprint
 
 #: eeschema/backanno.cpp:232
 msgid "Keep existing footprint field visibility"
-msgstr "Manter a visibilidade do campo de footprint existente"
+msgstr "Manter a visibilidade atual dos campos de footprint"
 
 #: eeschema/backanno.cpp:233
 msgid "Show all footprint fields"
-msgstr "Exibir todos os campos do footprint"
+msgstr "Exibir todos os campos de footprint"
 
 #: eeschema/backanno.cpp:234
 msgid "Hide all footprint fields"
-msgstr "Ocultar todos os campos do footprint"
+msgstr "Ocultar todos os campos de footprint"
 
 #: eeschema/backanno.cpp:236
 msgid "Select the footprint field visibility setting."
-msgstr "Selecionar a configuração de visibilidade do campo de footprint."
+msgstr "Selecionar a visibilidade dos campos de footprint."
 
 #: eeschema/backanno.cpp:237
 msgid "Change Visibility"
@@ -4634,12 +4634,12 @@ msgstr "Propriedades Biblioteca de Componentes"
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:83
 #, c-format
 msgid "Properties for %s (alias of %s)"
-msgstr "Propriedades para %s (apelido de %s)"
+msgstr "Propriedades para %s (alias de %s)"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:87
 #, c-format
 msgid "Alias List of %s"
-msgstr "Lista de Apelidos de %s"
+msgstr "Lista de Alias de %s"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:91
 #, c-format
@@ -4687,7 +4687,7 @@ msgstr "O nome do símbolo \"%s\" já existe na biblioteca \"%s\"."
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:397
 #, c-format
 msgid "Current alias \"%s\" cannot be removed."
-msgstr "O apelido atual \"%s\" não pode ser removido."
+msgstr "O alias atual \"%s\" não pode ser removido."
 
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:417
 msgid "Delete extra parts from component?"
@@ -4838,7 +4838,7 @@ msgstr ""
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:126
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor_base.cpp:70
 msgid "Keywords:"
-msgstr "Palavras-Chaves:"
+msgstr "Palavras-Chave:"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:128
 msgid ""
@@ -4869,7 +4869,7 @@ msgstr "Procurar Arquivo"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:168
 msgid "Alias List:"
-msgstr "Alias:"
+msgstr "Lista de Alias:"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:170
 msgid ""
@@ -4877,7 +4877,7 @@ msgid ""
 "It has its own documentation and keywords.\n"
 "A fast way to extend a library with similar symbols."
 msgstr ""
-"Um apelido é um símbolo que utiliza o mesmo corpo de seu símbolo raiz.\n"
+"Um alias é um símbolo que utiliza o mesmo corpo de seu símbolo raiz.\n"
 "Ele possui sua própria documentação e palavras chave.\n"
 "Um método rápido de estender uma biblioteca com símbolos similares."
 
@@ -5818,7 +5818,7 @@ msgid ""
 msgstr ""
 "Intervalo após a primeira alteração para a criação do arquivo de backup da "
 "placa de circuito em disco.\n"
-"Se definido como 0, o backup automático será desabilitado"
+"Se definido em 0, o backup automático será desabilitado"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:221
 msgid "minutes"
@@ -6314,7 +6314,7 @@ msgstr "Texto:"
 #: eeschema/dialogs/dialog_lib_edit_text_base.cpp:40
 #: pcbnew/tools/selection_tool.cpp:141
 msgid "Select"
-msgstr "Selecionar"
+msgstr "Seleção"
 
 #: eeschema/dialogs/dialog_lib_edit_text_base.cpp:65
 msgid "Power symbol value text cannot be modified!"
@@ -6543,7 +6543,7 @@ msgid ""
 "Do you want to use a path relative to\n"
 "\"%s\""
 msgstr ""
-"Deseja usar um caminho relativo a\n"
+"Deseja utilizar um caminho relativo a\n"
 "\"%s\""
 
 #: eeschema/dialogs/dialog_plot_schematic.cpp:185
@@ -8511,8 +8511,8 @@ msgid ""
 "Back-import symbol footprint association fields from the .cmp back import "
 "file created by Pcbnew"
 msgstr ""
-"Reimportar campos de associação entre símbolos e footprints de um arquivo "
-"para reimportação .cmp criado pelo Pcbnew"
+"Importar campos de associação entre símbolos e footprints de um arquivo de "
+"importação reversa .cmp criado pelo Pcbnew"
 
 #: eeschema/help_common_strings.h:84
 msgid "Add pins to symbol"
@@ -10473,11 +10473,11 @@ msgstr "Mover entrada de barramento"
 
 #: eeschema/onrightclick.cpp:958
 msgid "Set Bus Entry Shape /"
-msgstr "Definir entrada de barramento /"
+msgstr "Definir Forma da Entrada em Barramento /"
 
 #: eeschema/onrightclick.cpp:961
 msgid "Set Bus Entry Shape \\"
-msgstr "Definir entrada de barramento \\"
+msgstr "Definir Forma da Entrada em Barramento \\"
 
 #: eeschema/onrightclick.cpp:963
 msgid "Delete Bus Entry"
@@ -12374,7 +12374,7 @@ msgstr "Comando ICI com parâmetro incorreto"
 
 #: gerbview/excellon_read_drill_file.cpp:498
 msgid "Tool definition shape not found"
-msgstr "Definição de ferramenta de forma não encontrada"
+msgstr "Forma da definição de ferramenta não encontrada"
 
 #: gerbview/excellon_read_drill_file.cpp:501
 #, c-format
@@ -14161,7 +14161,7 @@ msgstr "Espessura:"
 
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:352
 msgid "Set to 0 to use default"
-msgstr "Definir como 0 para usar o padrão"
+msgstr "Definir em 0 para usar o padrão"
 
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:369
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:71
@@ -16171,11 +16171,11 @@ msgstr "Atributos"
 
 #: pcbnew/class_module.cpp:623
 msgid "No 3D shape"
-msgstr "Sem Modelo 3D"
+msgstr "Sem forma 3D"
 
 #: pcbnew/class_module.cpp:629
 msgid "3D-Shape"
-msgstr "Modelo 3D"
+msgstr "Forma-3D"
 
 #: pcbnew/class_module.cpp:632
 #, c-format
@@ -16788,7 +16788,7 @@ msgstr "Filtragem de Rede:"
 #: pcbnew/dialogs/dialog_edit_footprint_text_base.cpp:106
 #: pcbnew/dialogs/dialog_pcb_text_properties_base.cpp:59
 msgid "Display:"
-msgstr "Exibir:"
+msgstr "Exibição:"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:70
 msgid "Show all (alphabetical)"
@@ -17406,7 +17406,7 @@ msgstr "Largura do Par Diferencial"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:55
 msgid "Diff Pair Gap"
-msgstr "Lacuna do Par Diferencial"
+msgstr "Espaçamento do Par Diferencial"
 
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:68
 msgid "Net Class parameters"
@@ -18032,7 +18032,7 @@ msgstr "Montagem em superfície"
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:162
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor_base.cpp:107
 msgid "Placement Type:"
-msgstr "Tipo de Encaixe:"
+msgstr "Tipo de Montagem:"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:166
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor_base.cpp:111
@@ -18204,7 +18204,7 @@ msgstr "Nome da Forma 3D:"
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:353
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor_base.cpp:298
 msgid "Add 3D Shape"
-msgstr "Adicionar modelo 3D"
+msgstr "Adicionar Forma 3D"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:356
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor_base.cpp:301
@@ -18823,7 +18823,7 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_freeroute_exchange_base.cpp:50
 msgid "Back Import the Specctra Session (*.ses) File"
-msgstr "Importar de volta um arquivo Session Specctra (*.ses)"
+msgstr "Realizar importação reversa um arquivo Session Specctra (*.ses)"
 
 #: pcbnew/dialogs/dialog_freeroute_exchange_base.cpp:51
 msgid "Merge a session file created by FreeRouter with the current board."
@@ -18911,7 +18911,7 @@ msgstr "O arquivo %s já existe. Substituir?"
 
 #: pcbnew/dialogs/dialog_gencad_export_options.cpp:134
 msgid "Flip bottom footprint padstacks"
-msgstr "Inverter pilhas de ilha dos footprints de baixo"
+msgstr "Comutar pilhas de ilha dos footprints de baixo"
 
 #: pcbnew/dialogs/dialog_gencad_export_options.cpp:135
 msgid "Generate unique pin names"
@@ -19153,7 +19153,7 @@ msgid ""
 msgstr ""
 "Intervalo após a primeira alteração para a criação do arquivo de backup da "
 "placa de circuito em disco.\n"
-"Se definido como 0, o backup automático será desabilitado."
+"Se definido em 0, o backup automático será desabilitado."
 
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:75
 msgid "Show icons in menus"
@@ -19611,14 +19611,14 @@ msgstr "Propriedades do Círculo"
 #: pcbnew/dialogs/dialog_graphic_item_properties_for_fp_editor.cpp:169
 #: pcbnew/dialogs/dialog_graphic_item_properties_for_fp_editor.cpp:179
 msgid "Center X:"
-msgstr "Centralizar X:"
+msgstr "Centro X:"
 
 #: pcbnew/dialogs/dialog_graphic_item_properties.cpp:158
 #: pcbnew/dialogs/dialog_graphic_item_properties.cpp:168
 #: pcbnew/dialogs/dialog_graphic_item_properties_for_fp_editor.cpp:170
 #: pcbnew/dialogs/dialog_graphic_item_properties_for_fp_editor.cpp:180
 msgid "Center Y:"
-msgstr "Centralizar Y:"
+msgstr "Centro Y:"
 
 #: pcbnew/dialogs/dialog_graphic_item_properties.cpp:166
 #: pcbnew/dialogs/dialog_graphic_item_properties_for_fp_editor.cpp:178
@@ -21122,7 +21122,7 @@ msgstr "Valor to tamanho do canto deve ser menor do que 50%"
 #: pcbnew/dialogs/dialog_pad_properties.cpp:1241
 msgid "Incorrect pad shape: the shape must be equivalent to only one polygon"
 msgstr ""
-"Formato de ilha incorreto: a forma deve ser equivalente a apenas um polígono"
+"Forma de ilha incorreta: a forma deve ser equivalente a apenas um polígono"
 
 #: pcbnew/dialogs/dialog_pad_properties.cpp:1247
 msgid "Pad setup errors list"
@@ -21165,7 +21165,7 @@ msgstr "Nome da rede:"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:60
 msgid "Pad type:"
-msgstr "Tipo da ilha:"
+msgstr "Tipo de ilha:"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:64
 msgid "Through-hole"
@@ -21298,7 +21298,7 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:275
 msgid "Hole shape:"
-msgstr "Forma completa:"
+msgstr "Forma do furo:"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:289
 msgid "Hole size X:"
@@ -21371,7 +21371,7 @@ msgstr "E.C.O.2"
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:404
 msgid "Set values to 0 to use parent footprint or netclass values."
 msgstr ""
-"Defina os valores como 0 para utilizar os valores da classe de rede ou "
+"Defina os valores em 0 para utilizar os valores da classe de rede ou "
 "footprint pai."
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:410
@@ -21456,7 +21456,7 @@ msgstr "Conexão da ilha:"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:543
 msgid "From parent footprint"
-msgstr "Do footprint pai"
+msgstr "Mesmo do footprint pai"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:552
 msgid "Thermal relief width:"
@@ -21464,7 +21464,7 @@ msgstr "Largura do alívio térmico:"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:563
 msgid "Thermal relief gap:"
-msgstr "Lacuna do alívio térmico:"
+msgstr "Espaçamento do alívio térmico:"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:598
 msgid "Custom pad shape in zone:"
@@ -21472,7 +21472,7 @@ msgstr "Forma personalizada da ilha na zona:"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:602
 msgid "Use pad shape"
-msgstr "Utilize a forma da ilha"
+msgstr "Utilizar forma da ilha"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:602
 msgid "Use pad convex hull"
@@ -21571,7 +21571,7 @@ msgstr "Espessura do contorno:"
 # Revisar
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:1208
 msgid "(Thickness outline is usually set to 0)"
-msgstr "(O contorno de espessura é geralmente definido como 0)"
+msgstr "(O contorno de espessura é geralmente definido em 0)"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.h:220
 msgid "Pad Properties"
@@ -21583,7 +21583,7 @@ msgstr "Transformação Geométrica de Forma Customizada de Ilha"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.h:331
 msgid "Basic Shape Polygon"
-msgstr "Polígono de Forma Básico"
+msgstr "Polígono de Forma Básica"
 
 #: pcbnew/dialogs/dialog_pcb_text_properties.cpp:242
 msgid "No layer selected, Please select the text layer"
@@ -23363,7 +23363,7 @@ msgstr "Move Bloco com Precisão…"
 #: pcbnew/onrightclick.cpp:496 pcbnew/onrightclick.cpp:784
 #: pcbnew/onrightclick.cpp:845 pcbnew/tools/edit_tool.cpp:120
 msgid "Move Exactly..."
-msgstr "Mover Exatamente..."
+msgstr "Mover Com Exatidão..."
 
 #: pcbnew/footprint_editor_onclick.cpp:302
 msgid "Edit Footprint"
@@ -24026,7 +24026,7 @@ msgstr "Abrir no Editor de Footprints"
 
 #: pcbnew/hotkeys.cpp:132
 msgid "Flip Item"
-msgstr "Virar Item"
+msgstr "Comutar Item"
 
 #: pcbnew/hotkeys.cpp:134
 msgid "Rotate Item Clockwise (Modern Toolset only)"
@@ -24513,7 +24513,7 @@ msgstr "Faltando '$EndMODULE' para o MÓDULO \"%s\""
 #, c-format
 msgid "Unknown padshape '%c=0x%02x' on line: %d of footprint: \"%s\""
 msgstr ""
-"Formato de ilha desconhecido '%c=0x%02x' na linha: %d do footprint: \"%s\""
+"Forma de ilha desconhecida '%c=0x%02x' na linha: %d do footprint: \"%s\""
 
 #: pcbnew/legacy_plugin.cpp:1632
 #, c-format
@@ -24685,7 +24685,7 @@ msgstr "&Footprint…"
 
 #: pcbnew/menubar_footprint_editor.cpp:119
 msgid "Export current footprint to a file"
-msgstr "Exportar a placa atual para um arquivo"
+msgstr "Exportar o footprint atual para um arquivo"
 
 #: pcbnew/menubar_footprint_editor.cpp:134
 msgid "Print current footprint"
@@ -25204,7 +25204,7 @@ msgstr "Atribuir footprints alternativos da biblioteca"
 
 #: pcbnew/menubar_pcb_editor.cpp:558
 msgid "&Move and Swap Layers..."
-msgstr "&Mover e Trocar Camadas…"
+msgstr "&Mover e Trocar Camada…"
 
 #: pcbnew/menubar_pcb_editor.cpp:559
 msgid "Move tracks or drawings from a layer to another layer"
@@ -25535,12 +25535,11 @@ msgstr "Exportar placa no formato de Gráficos Vetoriais Escaláveis (SVG)"
 msgid "&Footprint Association (.cmp) File..."
 msgstr "Arquivo de Associação (.cmp) de &Footprint…"
 
-# Revisar
 #: pcbnew/menubar_pcb_editor.cpp:1005
 msgid "Export footprint association file (*.cmp) for schematic back annotation"
 msgstr ""
-"Exportar arquivo de associação de footprint (*.cmp) para a anotação de "
-"retorno do esquema"
+"Exportar arquivo de associação de footprint (*.cmp) para a anotação reversa "
+"do esquema"
 
 #: pcbnew/microwave.cpp:246
 msgid "Gap Size:"
@@ -25568,11 +25567,11 @@ msgstr "Número incorreto, abortar"
 
 #: pcbnew/microwave.cpp:440
 msgid "Complex shape"
-msgstr "Modelo complexo"
+msgstr "Forma complexa"
 
 #: pcbnew/microwave.cpp:461
 msgid "Read Shape Description File..."
-msgstr "Ler arquivo de descrição do formato..."
+msgstr "Ler Arquivo de Descrição de Forma..."
 
 #: pcbnew/microwave.cpp:466
 msgid "Symmetrical"
@@ -25580,11 +25579,11 @@ msgstr "Simétrico"
 
 #: pcbnew/microwave.cpp:469
 msgid "Shape Option"
-msgstr "Modelo 3D"
+msgstr "Opção de Forma"
 
 #: pcbnew/microwave.cpp:501
 msgid "Read descr shape file"
-msgstr "Ler arquivo de descrição do formato"
+msgstr "Ler arquivo de descrição de forma"
 
 #: pcbnew/microwave.cpp:516
 msgid "File not found"
@@ -25592,11 +25591,11 @@ msgstr "Arquivo não encontrado"
 
 #: pcbnew/microwave.cpp:604
 msgid "Shape has a null size!"
-msgstr "Formato tem tamanho nulo!"
+msgstr "A forma tem tamanho nulo!"
 
 #: pcbnew/microwave.cpp:610
 msgid "Shape has no points!"
-msgstr "Formato não tem pontos!"
+msgstr "A forma não tem pontos!"
 
 #: pcbnew/microwave.cpp:706
 msgid "No pad for this footprint"
@@ -25606,7 +25605,6 @@ msgstr "Nenhuma ilha para este footprint"
 msgid "Only one pad for this footprint"
 msgstr "Apenas uma ilha para este footprint"
 
-# Verificar
 #: pcbnew/microwave.cpp:725
 msgid "Gap:"
 msgstr "Espaçamento:"
@@ -25660,7 +25658,7 @@ msgstr "Adicionar Segmento de Arco"
 #: pcbnew/muwave_command.cpp:76 pcbnew/tools/microwave_tool.cpp:83
 #: pcbnew/tools/microwave_tool.cpp:168
 msgid "Add Polynomial Shape"
-msgstr "Adicionar Formato polinômico"
+msgstr "Adicionar Forma Polinômica"
 
 #: pcbnew/netinfo_item.cpp:94
 msgid "Net Name"
@@ -25830,7 +25828,7 @@ msgstr "Bloquear todos os Footprints"
 #: pcbnew/onrightclick.cpp:961 pcbnew/tools/edit_tool.cpp:139
 #: pcbnew/tools/edit_tool.cpp:862
 msgid "Flip"
-msgstr "Inverter"
+msgstr "Alternar"
 
 #: pcbnew/onrightclick.cpp:466
 msgid "Drag Via"
@@ -27004,7 +27002,7 @@ msgstr "Pilha de ilhas da via da seção não tem formas"
 #: pcbnew/specctra_import_export/specctra_import.cpp:314
 #, c-format
 msgid "Unsupported via shape: %s"
-msgstr "Formato de via não suportado: %s"
+msgstr "Forma de via não suportada: %s"
 
 #: pcbnew/specctra_import_export/specctra_import.cpp:370
 msgid "Session file is missing the \"session\" section"
