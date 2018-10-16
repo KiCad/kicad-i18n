@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-18 21:11+0200\n"
-"PO-Revision-Date: 2018-10-15 16:53-0300\n"
+"PO-Revision-Date: 2018-10-15 20:43-0300\n"
 "Last-Translator: Francisco R. Pereira <frosch_bin@yahoo.com.br>\n"
 "Language-Team: kicad team\n"
 "Language: pt_BR\n"
@@ -1046,11 +1046,11 @@ msgstr "Opções de exibição 3D"
 
 #: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:345
 msgid "Background Color, Bottom"
-msgstr "Cor de Fundo, Abaixo"
+msgstr "Cor de Fundo, Base"
 
 #: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:355
 msgid "Background Color, Top"
-msgstr "Cor de fundo, Top"
+msgstr "Cor de fundo, Topo"
 
 #: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:941
 msgid "3D Image File Name:"
@@ -1144,7 +1144,7 @@ msgstr "Vista por Baixo"
 
 #: 3d-viewer/3d_viewer/hotkeys.cpp:50
 msgid "Rotate 45 degrees over Z axis"
-msgstr "Girar 45º no eixo Z"
+msgstr "Girar 45° no eixo Z"
 
 #: 3d-viewer/3d_viewer/hotkeys.cpp:51
 msgid "Zoom in "
@@ -3134,7 +3134,7 @@ msgstr "Reduzir"
 #: pcbnew/dialogs/dialog_pad_basicshapes_properties.cpp:119
 #: pcbnew/dialogs/dialog_pcb_text_properties_base.cpp:106
 msgid "Center"
-msgstr "Centralizar"
+msgstr "Centro"
 
 #: common/tool/actions.cpp:36 eeschema/hotkeys.cpp:89 gerbview/hotkeys.cpp:61
 #: pagelayout_editor/hotkeys.cpp:75 pcbnew/hotkeys.cpp:197
@@ -3826,15 +3826,15 @@ msgstr "Opções de Desenho:"
 
 #: cvpcb/dialogs/dialog_display_options_base.cpp:25
 msgid "Graphic items sketch mode"
-msgstr "Itens gráficos em modo esboço"
+msgstr "Itens gráficos em modo delineado"
 
 #: cvpcb/dialogs/dialog_display_options_base.cpp:28
 msgid "Texts sketch mode"
-msgstr "Textos em modo esboço"
+msgstr "Textos em modo delineado"
 
 #: cvpcb/dialogs/dialog_display_options_base.cpp:31
 msgid "Pad sketch mode"
-msgstr "Ilhas em modo esboço"
+msgstr "Ilhas em modo delineado"
 
 #: cvpcb/dialogs/dialog_display_options_base.cpp:34
 msgid "Show pad &number"
@@ -3992,7 +3992,7 @@ msgstr "Exibir textos em modo preenchido"
 
 #: cvpcb/display_footprints_frame.cpp:256
 msgid "Show texts in sketch mode"
-msgstr "Exibir textos em modo esboço"
+msgstr "Exibir textos em modo delineado"
 
 #: cvpcb/display_footprints_frame.cpp:270
 msgid "Show outlines in filled mode"
@@ -4000,7 +4000,7 @@ msgstr "Exibir contornos em modo preenchido"
 
 #: cvpcb/display_footprints_frame.cpp:271
 msgid "Show outlines in sketch mode"
-msgstr "Exibir contornos em modo esboço"
+msgstr "Exibir contornos em modo delineado"
 
 #: cvpcb/display_footprints_frame.cpp:435
 #, c-format
@@ -5223,7 +5223,7 @@ msgstr "Alinhar pelo topo"
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:175
 #: eeschema/dialogs/dialog_lib_edit_text_base.cpp:107
 msgid "Align bottom"
-msgstr "Alinhar por baixo"
+msgstr "Alinhar pela base"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:177
 msgid "Vertical Position:"
@@ -5581,12 +5581,12 @@ msgstr "Alinhamento Horizontal:"
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:77
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:99
 msgid "Bottom"
-msgstr "Inferior"
+msgstr "Abaixo"
 
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:77
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:99
 msgid "Top"
-msgstr "Topo"
+msgstr "Acima"
 
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:79
 #: eeschema/dialogs/dialog_lib_edit_text_base.cpp:109
@@ -6840,8 +6840,8 @@ msgid ""
 "The following changes are recommended to update the project."
 msgstr ""
 "Este esquema foi feito utilizando bibliotecas de símbolos antigas que podem "
-"quebrar o esquema.  Alguns símbolos podem precisar estar vinculados a um nome "
-"de símbolo diferente.  Alguns símbolos podem precisar ser \"recuperados"
+"quebrar o esquema.  Alguns símbolos podem precisar de vinculo com um nome de "
+"símbolo diferente.  Alguns símbolos podem precisar serem \"recuperados"
 "\" (copiados e renomeados) em uma nova biblioteca.\n"
 "\n"
 "As seguintes alterações são recomendadas para atualizar o projeto."
@@ -12281,7 +12281,7 @@ msgstr "Unidades:"
 #: gerbview/dialogs/gerbview_dialog_display_options_frame_base.cpp:48
 #: pcbnew/dialogs/dialog_plot_base.cpp:166
 msgid "Sketch"
-msgstr "Contorno"
+msgstr "Delineado"
 
 #: gerbview/dialogs/gerbview_dialog_display_options_frame_base.cpp:36
 #: gerbview/dialogs/gerbview_dialog_display_options_frame_base.cpp:42
@@ -12908,7 +12908,7 @@ msgstr "Utilizar Coordenadas &Polares"
 
 #: gerbview/menubar.cpp:242
 msgid "Sketch F&lashed Items"
-msgstr "Itens Lançados no Esboço"
+msgstr "De&linear Itens Marcados"
 
 #: gerbview/menubar.cpp:242 gerbview/toolbars_gerber.cpp:257
 #: gerbview/toolbars_gerber.cpp:538
@@ -12917,7 +12917,7 @@ msgstr "Exibir itens lançados em modo contorno"
 
 #: gerbview/menubar.cpp:246
 msgid "Sketch &Lines"
-msgstr "Esboçar &Linhas"
+msgstr "Delinear &Linhas"
 
 #: gerbview/menubar.cpp:246 gerbview/toolbars_gerber.cpp:261
 #: gerbview/toolbars_gerber.cpp:550
@@ -12926,7 +12926,7 @@ msgstr "Exibir linhas em modo contorno"
 
 #: gerbview/menubar.cpp:250
 msgid "Sketch Pol&ygons"
-msgstr "Esboçar Po&lígonos"
+msgstr "Delinear Po&lígonos"
 
 #: gerbview/menubar.cpp:250 gerbview/toolbars_gerber.cpp:265
 #: gerbview/toolbars_gerber.cpp:562
@@ -14071,7 +14071,7 @@ msgstr "Inferior Direito"
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:323
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:327
 msgid "Lower Left"
-msgstr "Canto Inferior Esquerdo"
+msgstr "Inferior Esquerdo"
 
 #: pagelayout_editor/dialogs/dialog_new_dataitem_base.cpp:90
 msgid "X end:"
@@ -14230,11 +14230,11 @@ msgstr "Direita:"
 
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:604
 msgid "Top:"
-msgstr "Topo:"
+msgstr "Em cima:"
 
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:611
 msgid "Bottom:"
-msgstr "Inferior:"
+msgstr "Em baixo:"
 
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:646
 msgid "General Options"
@@ -14480,7 +14480,7 @@ msgstr "Imprimir layout de página"
 
 #: pagelayout_editor/toolbars_pl_editor.cpp:70
 msgid "Delete selected item"
-msgstr "Apagar item delecionado"
+msgstr "Apagar item selecionado"
 
 #: pagelayout_editor/toolbars_pl_editor.cpp:92
 msgid "Zoom to fit page"
@@ -14642,7 +14642,7 @@ msgstr "Parâmetros do Regulador"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:62
 msgid "Formula:"
-msgstr "Formula:"
+msgstr "Fórmula:"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:64
 msgid "Vout = Vref * (R1 + R2) / R2"
@@ -14759,7 +14759,7 @@ msgstr "Aumento de temperatura:"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:282
 msgid "deg C"
-msgstr "graus C"
+msgstr "°C"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:286
 msgid "Conductor length:"
@@ -14771,7 +14771,7 @@ msgstr "Resistividade:"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:305
 msgid "Ohm-meter"
-msgstr "Ohmímetro"
+msgstr "Ωm"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:328
 msgid "External layer traces:"
@@ -14851,7 +14851,7 @@ msgstr "Trilhas da camada interna:"
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:521
 #: pcbnew/dialogs/dialog_design_rules_base.cpp:49
 msgid "Track Width"
-msgstr "Largura da Trilha"
+msgstr "Largura de Trilha"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:537
 msgid "Voltage > 500V:"
@@ -15121,7 +15121,7 @@ msgstr "Resultados:"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:1041
 msgid "TransLine"
-msgstr "TransLine"
+msgstr "Linha de Transmissão"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:1049
 msgid "PI"
@@ -15227,7 +15227,7 @@ msgstr "Multiplicador"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:1260
 msgid "Color Code"
-msgstr "Código de Cor"
+msgstr "Código de Cores"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:1273
 msgid "Note: Values are minimal values"
@@ -15379,7 +15379,7 @@ msgid ""
 "(10mm)."
 msgstr ""
 "Os cálculos são válidos para correntes de até 35A (externo) ou 17,5A "
-"(interno), temperaturas até 100ºC e larguras de até 400mil (10mm)."
+"(interno), temperaturas até 100°C e larguras de até 400mil (10mm)."
 
 #: pcb_calculator/tracks_width_versus_current.cpp:459
 msgid "The formula, from IPC 2221, is"
@@ -15395,7 +15395,7 @@ msgstr "corrente máxima em amperes"
 
 #: pcb_calculator/tracks_width_versus_current.cpp:464
 msgid "temperature rise above ambient in deg C"
-msgstr "aumento de temperatura acima da temperatura ambiente em ºC"
+msgstr "aumento de temperatura acima da temperatura ambiente em °C"
 
 #: pcb_calculator/tracks_width_versus_current.cpp:466
 msgid "width and thickness in mils"
@@ -16496,7 +16496,7 @@ msgid ""
 "graphic outline must form a contiguous, closed polygon."
 msgstr ""
 "Não foi possível localizar o próximo segmento limite com um ponto final de "
-"(%s mm, %s mm). o esboço gráfico deve formar um polígono contíguo e fechado."
+"(%s mm, %s mm). o contorno gráfico deve formar um polígono contíguo e fechado."
 
 #: pcbnew/convert_drawsegment_list_to_polygon.cpp:535
 #, c-format
@@ -19571,19 +19571,19 @@ msgstr "Definir o Tamanho do Texto"
 
 #: pcbnew/dialogs/dialog_global_pads_edition_base.cpp:23
 msgid "Pad Filter :"
-msgstr "Filtrar Ilha:"
+msgstr "Filtro de Ilhas:"
 
 #: pcbnew/dialogs/dialog_global_pads_edition_base.cpp:25
 msgid "Do not modify pads having a different shape"
-msgstr "Não modificar ilhas com formas diferentes"
+msgstr "Não modificar ilhas com forma diferente"
 
 #: pcbnew/dialogs/dialog_global_pads_edition_base.cpp:28
 msgid "Do not modify pads having different layers"
-msgstr "Não modificar ilhas com diferentes camadas"
+msgstr "Não modificar ilhas com camadas diferentes"
 
 #: pcbnew/dialogs/dialog_global_pads_edition_base.cpp:31
 msgid "Do not modify pads having a different orientation"
-msgstr "Não modificar ilhas que tem orientação diferente"
+msgstr "Não modificar ilhas com orientação diferente"
 
 #: pcbnew/dialogs/dialog_global_pads_edition_base.cpp:43
 msgid "Pad Properties..."
@@ -19599,7 +19599,7 @@ msgstr "Alterar Ilhas em Footprints Idênticos"
 
 #: pcbnew/dialogs/dialog_global_pads_edition_base.h:56
 msgid "Push Pad Properties"
-msgstr "Aplicar Propriedades da Ilha"
+msgstr "Aplicar Propriedades"
 
 #: pcbnew/dialogs/dialog_graphic_item_properties.cpp:156
 #: pcbnew/dialogs/dialog_graphic_item_properties_for_fp_editor.cpp:168
@@ -19779,7 +19779,7 @@ msgid ""
 msgstr ""
 "Tamanho da caneta para desenhar itens que não tem tamanho de caneta "
 "especificado.\n"
-"Usado principalmente para desenhar itens em modo esboço."
+"Usado principalmente para desenhar itens em modo delineado."
 
 #: pcbnew/dialogs/dialog_graphic_items_options_base.h:73
 msgid "Text and Drawings"
@@ -21929,7 +21929,7 @@ msgid ""
 msgstr ""
 "Somente DXF:\n"
 "Marque, para plotar todas as camadas em modo polígono.\n"
-"Desmarque, para plotar em modo rasculho, camadas que não suportam polígonos "
+"Desmarque, para plotar em modo delineado, camadas que não suportam polígonos "
 "(*.SilkS, *_User, Edge.Cuts, Margin, *.CrtYd, *.Fab)\n"
 "e plotar em modo polígono outras camadas (*.Cu, *.Adhes, *.Paste, *.Mask)"
 
@@ -23384,13 +23384,13 @@ msgstr "Editar Ilha…"
 #: pcbnew/footprint_editor_onclick.cpp:320 pcbnew/onrightclick.cpp:912
 #: pcbnew/tools/pad_tool.cpp:51
 msgid "Copy Pad Properties"
-msgstr "Copiar Propriedades da Ilha"
+msgstr "Copiar Propriedades"
 
 #: pcbnew/footprint_editor_onclick.cpp:322 pcbnew/onrightclick.cpp:916
 #: pcbnew/tools/pad_tool.cpp:57 pcbnew/tools/pad_tool.cpp:234
 #: pcbnew/tools/pad_tool.cpp:387
 msgid "Apply Pad Properties"
-msgstr "Aplicar Propriedades da Ilha"
+msgstr "Colar Propriedades"
 
 #: pcbnew/footprint_editor_onclick.cpp:323
 msgid "Delete Pad"
@@ -23413,7 +23413,7 @@ msgstr "Criar Cadeia de Ilhas..."
 #: pcbnew/footprint_editor_onclick.cpp:340 pcbnew/onrightclick.cpp:920
 #: pcbnew/tools/pad_tool.cpp:63
 msgid "Push Pad Properties..."
-msgstr "Aplicar Propriedades da Ilha..."
+msgstr "Aplicar Propriedades..."
 
 # Revisar
 #: pcbnew/footprint_editor_onclick.cpp:372
@@ -24753,11 +24753,11 @@ msgstr "Cursor de Tela Inteira"
 
 #: pcbnew/menubar_footprint_editor.cpp:286 pcbnew/menubar_pcb_editor.cpp:703
 msgid "Sketch &Pads"
-msgstr "Esboçar &Ilhas"
+msgstr "Delinear &Ilhas"
 
 #: pcbnew/menubar_footprint_editor.cpp:290 pcbnew/menubar_pcb_editor.cpp:721
 msgid "Sketch Footprint &Edges"
-msgstr "Esboçar &Bordas do Footprint"
+msgstr "Delinear &Bordas do Footprint"
 
 #: pcbnew/menubar_footprint_editor.cpp:290 pcbnew/menubar_pcb_editor.cpp:721
 msgid "Show footprint edges in outline mode"
@@ -24765,7 +24765,7 @@ msgstr "Exibir bordas de footprint em modo contorno"
 
 #: pcbnew/menubar_footprint_editor.cpp:293 pcbnew/menubar_pcb_editor.cpp:725
 msgid "Sketch Footprint Te&xt"
-msgstr "Esboçar Te&xto do Footprint"
+msgstr "Delinear Te&xto do Footprint"
 
 #: pcbnew/menubar_footprint_editor.cpp:293 pcbnew/menubar_pcb_editor.cpp:725
 msgid "Show footprint text in outline mode"
@@ -25263,7 +25263,7 @@ msgstr "Exibir apenas o contorno de áreas preenchidas dentro de zonas"
 
 #: pcbnew/menubar_pcb_editor.cpp:697
 msgid "&Sketch Zones"
-msgstr "&Esboçar Zonas"
+msgstr "&Delinear Zonas"
 
 #: pcbnew/menubar_pcb_editor.cpp:697 pcbnew/tool_pcb_editor.cpp:386
 msgid "Do not show filled areas in zones"
@@ -25271,7 +25271,7 @@ msgstr "Não exibir áreas preenchidas dentro de zonas"
 
 #: pcbnew/menubar_pcb_editor.cpp:707
 msgid "Sketch &Vias"
-msgstr "Esboçar &Vias"
+msgstr "Delinear &Vias"
 
 #: pcbnew/menubar_pcb_editor.cpp:707 pcbnew/tool_pcb_editor.cpp:398
 #: pcbnew/toolbars_update_user_interface.cpp:152
@@ -25280,7 +25280,7 @@ msgstr "Exibir vias em modo contorno"
 
 #: pcbnew/menubar_pcb_editor.cpp:710
 msgid "Sketch &Tracks"
-msgstr "Esboçar &Trilhas"
+msgstr "Delinear &Trilhas"
 
 #: pcbnew/menubar_pcb_editor.cpp:713 pcbnew/tool_pcb_editor.cpp:402
 #: pcbnew/toolbars_update_user_interface.cpp:163
@@ -25289,7 +25289,7 @@ msgstr "Exibir trilhas em modo contorno"
 
 #: pcbnew/menubar_pcb_editor.cpp:717
 msgid "Sketch &Graphic Items"
-msgstr "Esboçar Itens &Gráficos"
+msgstr "Delinear Itens &Gráficos"
 
 #: pcbnew/menubar_pcb_editor.cpp:717
 msgid "Show graphic items in outline mode"
@@ -27146,15 +27146,15 @@ msgstr "LIGAR Exibição de Coordenadas Polares"
 
 #: pcbnew/tool_footprint_editor.cpp:243
 msgid "Show Pads Sketch"
-msgstr "Exibir Esboço das Ilhas"
+msgstr "Exibir Delineado das Ilhas"
 
 #: pcbnew/tool_footprint_editor.cpp:247
 msgid "Show Texts Sketch"
-msgstr "Exibir Esboço de Textos"
+msgstr "Exibir Delineado de Textos"
 
 #: pcbnew/tool_footprint_editor.cpp:251
 msgid "Show Edges Sketch"
-msgstr "Exibir Esboço de Bordas"
+msgstr "Exibir Delineado de Bordas"
 
 #: pcbnew/tool_footprint_viewer.cpp:54
 msgid "Select library to browse"
@@ -27860,7 +27860,7 @@ msgstr "Alinha itens selecionados à borda superior"
 
 #: pcbnew/tools/placement_tool.cpp:47
 msgid "Align to Bottom"
-msgstr "Alinhar ao Fundo"
+msgstr "Alinhar à Base"
 
 #: pcbnew/tools/placement_tool.cpp:48
 msgid "Aligns selected items to the bottom edge"
@@ -27928,7 +27928,7 @@ msgstr "Alinhar ao topo"
 
 #: pcbnew/tools/placement_tool.cpp:326
 msgid "Align to bottom"
-msgstr "Alinhar ao fundo"
+msgstr "Alinhar à base"
 
 #: pcbnew/tools/placement_tool.cpp:381
 msgid "Align to left"
