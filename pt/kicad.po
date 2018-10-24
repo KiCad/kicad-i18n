@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-18 21:11+0200\n"
-"PO-Revision-Date: 2018-10-16 11:05-0300\n"
+"PO-Revision-Date: 2018-10-24 18:17-0300\n"
 "Last-Translator: Francisco R. Pereira <frosch_bin@yahoo.com.br>\n"
 "Language-Team: kicad team\n"
 "Language: pt_BR\n"
@@ -1733,19 +1733,19 @@ msgstr "Outros"
 
 #: common/dialog_about/AboutDialog_main.cpp:393
 msgid "Icons by"
-msgstr "Ícones por"
+msgstr "Ícones"
 
 #: common/dialog_about/AboutDialog_main.cpp:411
 msgid "3D models by"
-msgstr "Modelos 3D por"
+msgstr "Modelos 3D"
 
 #: common/dialog_about/AboutDialog_main.cpp:428
 msgid "Symbols by"
-msgstr "Símbolos por"
+msgstr "Símbolos"
 
 #: common/dialog_about/AboutDialog_main.cpp:435
 msgid "Footprints by"
-msgstr "Footprints por"
+msgstr "Footprints"
 
 #: common/dialog_about/dialog_about.cpp:124
 msgid "Information"
@@ -2369,7 +2369,7 @@ msgstr "Título"
 
 #: common/dialogs/dialog_page_settings_base.cpp:232
 msgid "Company"
-msgstr "Firma"
+msgstr "Empresa"
 
 #: common/dialogs/dialog_page_settings_base.cpp:256
 msgid "Comment1"
@@ -8398,7 +8398,7 @@ msgstr "Ajustar esquema à página"
 
 #: eeschema/help_common_strings.h:46
 msgid "Redraw schematic view"
-msgstr "Redesenhar a vista do esquema"
+msgstr "Redesenhar"
 
 #: eeschema/help_common_strings.h:48 eeschema/lib_edit_frame.cpp:1265
 #: eeschema/schedit.cpp:609 pcbnew/edit.cpp:1576
@@ -8497,7 +8497,7 @@ msgstr "Anotar símbolos do esquema"
 
 #: eeschema/help_common_strings.h:77
 msgid "Create, delete, and edit symbols"
-msgstr "Criar, apagar, e editar símbolos"
+msgstr "Criar, apagar e editar símbolos"
 
 #: eeschema/help_common_strings.h:78
 msgid "Browse symbol libraries"
@@ -9916,7 +9916,7 @@ msgstr "&Atribuir Footprints…"
 
 #: eeschema/menubar.cpp:616 eeschema/tool_sch.cpp:162
 msgid "Assign PCB footprints to schematic symbols"
-msgstr "Atribuir footprints à símbolos esquemáticos"
+msgstr "Atribuir footprints aos símbolos esquemáticos"
 
 #: eeschema/menubar.cpp:625
 msgid "Simula&tor"
@@ -14238,7 +14238,7 @@ msgstr "Em baixo:"
 
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:646
 msgid "General Options"
-msgstr "Opções gerais"
+msgstr "Preferências"
 
 #: pagelayout_editor/files.cpp:48
 msgid "Page Layout Description File"
@@ -15133,7 +15133,7 @@ msgstr "T"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:1049
 msgid "Bridged Tee"
-msgstr "T Ponte"
+msgstr "Ponte T"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:1049
 msgid "Resistive Splitter"
@@ -19506,7 +19506,8 @@ msgstr ""
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:145
 msgid "Set tracks and vias of the current Net to the Netclass value"
 msgstr ""
-"Definir os valores das trilhas e vias da Rede atual para os da Classe de Rede"
+"Definir os valores das trilhas e vias da Rede atual para os valores da Classe "
+"de Rede"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:148
 msgid "Set all tracks and vias to their Netclass value"
@@ -21209,11 +21210,11 @@ msgstr "Rot 180"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:154
 msgid "Shape offset X:"
-msgstr "Deslocamento da forma X:"
+msgstr "Deslocamento da forma em X:"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:165
 msgid "Shape offset Y:"
-msgstr "Deslocamento da forma Y:"
+msgstr "Deslocamento da forma em Y:"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:176
 msgid "Pad to die length:"
@@ -21956,7 +21957,7 @@ msgstr "Espaçamento de Via:"
 
 #: pcbnew/dialogs/dialog_pns_diff_pair_dimensions_base.cpp:69
 msgid "Via gap same as trace gap"
-msgstr "Espaçamento da via mesmo que espaçamento do traço"
+msgstr "Espaçamento da via igual ao espaçamento do traço"
 
 #: pcbnew/dialogs/dialog_pns_diff_pair_dimensions_base.h:63
 #: pcbnew/hotkeys.cpp:278
@@ -22379,7 +22380,7 @@ msgstr "Grade Definida pelo Usuário:"
 
 #: pcbnew/dialogs/dialog_set_grid_base.cpp:103
 msgid "Fast Switching:"
-msgstr "Comutação Rápida:"
+msgstr "Troca Rápida:"
 
 #: pcbnew/dialogs/dialog_set_grid_base.cpp:111
 msgid "Grid 1:"
