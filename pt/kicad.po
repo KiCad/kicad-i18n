@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-18 21:11+0200\n"
-"PO-Revision-Date: 2018-10-24 18:17-0300\n"
+"PO-Revision-Date: 2018-10-25 16:14-0300\n"
 "Last-Translator: Francisco R. Pereira <frosch_bin@yahoo.com.br>\n"
 "Language-Team: kicad team\n"
 "Language: pt_BR\n"
@@ -575,7 +575,7 @@ msgstr "Copiar imagem 3D"
 #: pagelayout_editor/menubar.cpp:235 pcbnew/menubar_footprint_editor.cpp:523
 #: pcbnew/menubar_pcb_editor.cpp:140 pcbnew/tool_footprint_viewer.cpp:194
 msgid "&View"
-msgstr "&Exibir"
+msgstr "&Visualizar"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:76 eeschema/menubar.cpp:166
 #: eeschema/menubar_libedit.cpp:154 eeschema/tool_viewlib.cpp:180
@@ -2630,7 +2630,7 @@ msgstr "Tamanho%s"
 
 #: common/eda_graphic_text_ctrl.cpp:166 common/eda_graphic_text_ctrl.cpp:180
 msgid "Pos "
-msgstr "Pos "
+msgstr "Posição "
 
 #: common/eda_graphic_text_ctrl.cpp:170
 #: pcbnew/dialogs/dialog_target_properties_base.cpp:54
@@ -3202,7 +3202,7 @@ msgstr "Outro…"
 
 #: common/widgets/gal_options_panel.cpp:75
 msgid " (not supported in Legacy Toolset)"
-msgstr " (não suportado em Toolset Legado)"
+msgstr " (não suportado no Conjunto de Ferramentas Legado)"
 
 #: common/widgets/gal_options_panel.cpp:83
 msgid "Accelerated Graphics:"
@@ -5901,7 +5901,7 @@ msgstr "Modelos de Nome de Campo"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.h:138
 msgid "Schematic Editor Options"
-msgstr "Opções do Editor Esquemático"
+msgstr "Configurações do Editor Esquemático"
 
 #: eeschema/dialogs/dialog_erc.cpp:232
 msgid "Marker not found"
@@ -6274,11 +6274,11 @@ msgstr "&Comprimento:"
 
 #: eeschema/dialogs/dialog_lib_edit_pin_base.cpp:150
 msgid "Pin Pos X:"
-msgstr "Pos Pino X:"
+msgstr "Posição do Pino em X:"
 
 #: eeschema/dialogs/dialog_lib_edit_pin_base.cpp:161
 msgid "Pin Pos Y:"
-msgstr "Pos Pino Y:"
+msgstr "Posição do Pino em Y:"
 
 #: eeschema/dialogs/dialog_lib_edit_pin_base.h:106
 msgid "Pin Properties"
@@ -6442,7 +6442,7 @@ msgstr "Exibir tipo &elétrico de pino"
 
 #: eeschema/dialogs/dialog_libedit_options_base.h:93
 msgid "Library Editor Options"
-msgstr "Opções do Editor de Bibliotecas"
+msgstr "Configurações do Editor de Bibliotecas"
 
 #: eeschema/dialogs/dialog_netlist.cpp:300
 msgid "Default format"
@@ -6701,7 +6701,7 @@ msgstr "Espessura da caneta:"
 #: eeschema/dialogs/dialog_plot_schematic_base.cpp:87
 #: pcbnew/dialogs/dialog_plot_base.cpp:83
 msgid "General Options:"
-msgstr "Opções Gerais:"
+msgstr "Configurações:"
 
 #: eeschema/dialogs/dialog_plot_schematic_base.cpp:89
 msgid "Default line thickness:"
@@ -8910,7 +8910,7 @@ msgstr "Adicionar Pino"
 
 #: eeschema/lib_edit_frame.cpp:1212
 msgid "Set pin options"
-msgstr "Definir opções do pino"
+msgstr "Definir configurações do pino"
 
 #: eeschema/lib_edit_frame.cpp:1223 eeschema/schedit.cpp:564
 #: pcbnew/edit.cpp:1564 pcbnew/footprint_editor_utils.cpp:959
@@ -9955,7 +9955,7 @@ msgstr "Editar as listas de bibliotecas de símbolos globais e do projeto"
 
 #: eeschema/menubar.cpp:690
 msgid "General &Options"
-msgstr "Opções &Gerais"
+msgstr "&Configurações"
 
 #: eeschema/menubar.cpp:691
 msgid "Edit Eeschema preferences"
@@ -10144,7 +10144,7 @@ msgstr "Editar as tabelas de bibliotecas de símbolo globais e de projeto."
 
 #: eeschema/menubar_libedit.cpp:307
 msgid "General &Options..."
-msgstr "&Opções Gerais…"
+msgstr "&Configurações…"
 
 #: eeschema/menubar_libedit.cpp:308
 msgid "Set Symbol Editor default values and options"
@@ -12326,7 +12326,7 @@ msgstr "Interface do Usuário:"
 
 #: gerbview/dialogs/gerbview_dialog_display_options_frame_base.h:70
 msgid "Gerbview Options"
-msgstr "Opções do Gerbview"
+msgstr "Configurações do Gerbview"
 
 #: gerbview/events_called_functions.cpp:246
 #: gerbview/events_called_functions.cpp:493 pcbnew/edit.cpp:1593
@@ -14238,7 +14238,7 @@ msgstr "Em baixo:"
 
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:646
 msgid "General Options"
-msgstr "Preferências"
+msgstr "Configurações"
 
 #: pagelayout_editor/files.cpp:48
 msgid "Page Layout Description File"
@@ -14832,7 +14832,7 @@ msgstr "Resistência:"
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:395
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:484
 msgid "Voltage drop:"
-msgstr "Queda de voltagem:"
+msgstr "Queda de tensão:"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:407
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:496
@@ -15207,19 +15207,19 @@ msgstr "Tolerância"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:1211
 msgid "1st Band"
-msgstr "1ª Banda"
+msgstr "1ª Faixa"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:1215
 msgid "2nd Band"
-msgstr "2ª Banda"
+msgstr "2ª Faixa"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:1219
 msgid "3rd Band"
-msgstr "3ª Banda"
+msgstr "3ª Faixa"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:1223
 msgid "4th Band"
-msgstr "4ª Banda"
+msgstr "4ª Faixa"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:1227
 msgid "Multiplier"
@@ -20604,7 +20604,7 @@ msgstr "Ilhas Magnéticas"
 
 #: pcbnew/dialogs/dialog_modedit_options_base.h:83
 msgid "Footprint Editor Options"
-msgstr "Opções do Editor de Footprints"
+msgstr "Configurações do Editor de Footprints"
 
 #: pcbnew/dialogs/dialog_move_exact.cpp:235
 msgid "Distance:"
@@ -24840,7 +24840,7 @@ msgstr "Configurar tabela de bibliotecas de footprint"
 
 #: pcbnew/menubar_footprint_editor.cpp:450
 msgid "General &Settings..."
-msgstr "&Configurações Gerais…"
+msgstr "&Configurações…"
 
 #: pcbnew/menubar_footprint_editor.cpp:450
 msgid "Change footprint editor settings."
@@ -24912,7 +24912,7 @@ msgstr "Configurações &Gerais"
 
 #: pcbnew/menubar_pcb_editor.cpp:206
 msgid "Select general options for Pcbnew"
-msgstr "Selecionar opções gerais para o Pcbnew"
+msgstr "Selecionar configurações gerais para o Pcbnew"
 
 #: pcbnew/menubar_pcb_editor.cpp:213
 msgid ""
