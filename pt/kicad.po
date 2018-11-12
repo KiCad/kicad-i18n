@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-12 08:21-0200\n"
-"PO-Revision-Date: 2018-10-30 13:43-0300\n"
+"POT-Creation-Date: 2018-11-12 08:27-0200\n"
+"PO-Revision-Date: 2018-11-12 08:25-0200\n"
 "Last-Translator: Francisco R. Pereira <frosch_bin@yahoo.com.br>\n"
 "Language-Team: kicad team\n"
 "Language: pt_BR\n"
@@ -1719,9 +1719,10 @@ msgid "The complete KiCad EDA Suite is released under the"
 msgstr "O pacote KiCad EDA completo é lançado sob a licença"
 
 #: common/dialog_about/AboutDialog_main.cpp:187
-#, fuzzy
 msgid "GNU Affero General Public License (AGPL) version 3 or any later version"
-msgstr "GNU General Public License (GPL) versão 3 ou qualquer versão posterior"
+msgstr ""
+"GNU Affero General Public License (AGPL) versão 3 ou qualquer versão "
+"posterior"
 
 #: common/dialog_about/AboutDialog_main.cpp:379
 msgid "Others"
