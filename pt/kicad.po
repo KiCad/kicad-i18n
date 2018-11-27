@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 16:19-0200\n"
-"PO-Revision-Date: 2018-11-12 08:25-0200\n"
+"PO-Revision-Date: 2018-11-27 16:24-0200\n"
 "Last-Translator: Francisco R. Pereira <frosch_bin@yahoo.com.br>\n"
 "Language-Team: kicad team\n"
 "Language: pt_BR\n"
@@ -9099,14 +9099,13 @@ msgid "Cannot load aliases from library \"%s\""
 msgstr "Não foi possível carregar os aliases da biblioteca \"%s\""
 
 #: eeschema/lib_manager.cpp:364
-#, fuzzy
 msgid "Symbol not found."
-msgstr "Símbolo não encontrado em %s!!!"
+msgstr "Símbolo não encontrado."
 
 #: eeschema/lib_manager.cpp:371
-#, fuzzy, c-format
+#, c-format
 msgid "Error loading symbol \"%s\" from library \"%s\"."
-msgstr "Ocorreu um erro carregando o símbolo \"%s\" da biblioteca \"%s\"."
+msgstr "Erro ao carregar o símbolo \"%s\" da biblioteca \"%s\"."
 
 #: eeschema/lib_manager.cpp:542
 #, c-format
