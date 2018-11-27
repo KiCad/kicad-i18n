@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-12 08:27-0200\n"
+"POT-Creation-Date: 2018-11-27 16:19-0200\n"
 "PO-Revision-Date: 2018-11-12 08:25-0200\n"
 "Last-Translator: Francisco R. Pereira <frosch_bin@yahoo.com.br>\n"
 "Language-Team: kicad team\n"
@@ -487,17 +487,17 @@ msgstr "Carregar OpenGL: furos e vias"
 msgid "Load OpenGL: layers"
 msgstr "Carregar OpenGL: camadas"
 
-#: 3d-viewer/3d_rendering/3d_render_ogl_legacy/c3d_render_createscene_ogl_legacy.cpp:644
+#: 3d-viewer/3d_rendering/3d_render_ogl_legacy/c3d_render_createscene_ogl_legacy.cpp:642
 msgid "Loading 3D models"
 msgstr "Carregando modelos 3D"
 
-#: 3d-viewer/3d_rendering/3d_render_ogl_legacy/c3d_render_createscene_ogl_legacy.cpp:668
-#: 3d-viewer/3d_rendering/3d_render_raytracing/c3d_render_createscene.cpp:963
+#: 3d-viewer/3d_rendering/3d_render_ogl_legacy/c3d_render_createscene_ogl_legacy.cpp:666
+#: 3d-viewer/3d_rendering/3d_render_raytracing/c3d_render_createscene.cpp:962
 #, c-format
 msgid "Reload time %.3f s"
 msgstr "Tempo de carregamento %.3f s"
 
-#: 3d-viewer/3d_rendering/3d_render_ogl_legacy/c3d_render_createscene_ogl_legacy.cpp:955
+#: 3d-viewer/3d_rendering/3d_render_ogl_legacy/c3d_render_createscene_ogl_legacy.cpp:953
 #, c-format
 msgid "Loading %s"
 msgstr "Carregando %s"
@@ -1038,7 +1038,7 @@ msgstr "Exibir camadas de comentários e desenhos"
 msgid "Show ECO layers"
 msgstr "Exibir camadas ECO"
 
-#: 3d-viewer/3d_viewer/dialogs/dialog_3D_view_option_base.h:88
+#: 3d-viewer/3d_viewer/dialogs/dialog_3D_view_option_base.h:86
 msgid "3D Display Options"
 msgstr "Opções de exibição 3D"
 
@@ -9088,7 +9088,7 @@ msgstr ""
 msgid "Cannot flush library changes (\"%s\")"
 msgstr "Não é possível limpar as alterações na biblioteca (\"%s\")"
 
-#: eeschema/lib_manager.cpp:299 eeschema/lib_manager.cpp:670
+#: eeschema/lib_manager.cpp:299 eeschema/lib_manager.cpp:679
 #, c-format
 msgid "Cannot enumerate library \"%s\""
 msgstr "Não é possível enumerar a biblioteca \"%s\""
@@ -9098,7 +9098,17 @@ msgstr "Não é possível enumerar a biblioteca \"%s\""
 msgid "Cannot load aliases from library \"%s\""
 msgstr "Não foi possível carregar os aliases da biblioteca \"%s\""
 
-#: eeschema/lib_manager.cpp:368 eeschema/lib_manager.cpp:533
+#: eeschema/lib_manager.cpp:364
+#, fuzzy
+msgid "Symbol not found."
+msgstr "Símbolo não encontrado em %s!!!"
+
+#: eeschema/lib_manager.cpp:371
+#, fuzzy, c-format
+msgid "Error loading symbol \"%s\" from library \"%s\"."
+msgstr "Ocorreu um erro carregando o símbolo \"%s\" da biblioteca \"%s\"."
+
+#: eeschema/lib_manager.cpp:542
 #, c-format
 msgid "Cannot load symbol \"%s\" from library \"%s\""
 msgstr "Não foi possível carregar o símbolo \"%s\" da biblioteca \"%s\""
@@ -16075,32 +16085,32 @@ msgid "This is the default net class."
 msgstr "Esta é a classe de rede padrão."
 
 #: pcbnew/class_board.cpp:1133 pcbnew/class_module.cpp:584
-#: pcbnew/netinfo_item.cpp:120 pcbnew/pcb_draw_panel_gal.cpp:356
+#: pcbnew/netinfo_item.cpp:120 pcbnew/pcb_draw_panel_gal.cpp:357
 #: pcbnew/tools/pad_tool.cpp:79
 msgid "Pads"
 msgstr "Ilhas"
 
 #: pcbnew/class_board.cpp:1136
 #: pcbnew/dialogs/dialog_global_deletion_base.cpp:68
-#: pcbnew/netinfo_item.cpp:140 pcbnew/pcb_draw_panel_gal.cpp:359
+#: pcbnew/netinfo_item.cpp:140 pcbnew/pcb_draw_panel_gal.cpp:360
 msgid "Vias"
 msgstr "Vias"
 
-#: pcbnew/class_board.cpp:1139 pcbnew/pcb_draw_panel_gal.cpp:362
+#: pcbnew/class_board.cpp:1139 pcbnew/pcb_draw_panel_gal.cpp:363
 msgid "Track Segments"
 msgstr "Segmentos de Trilha"
 
-#: pcbnew/class_board.cpp:1142 pcbnew/pcb_draw_panel_gal.cpp:365
+#: pcbnew/class_board.cpp:1142 pcbnew/pcb_draw_panel_gal.cpp:366
 msgid "Nodes"
 msgstr "Nós"
 
 #: pcbnew/class_board.cpp:1145
 #: pcbnew/dialogs/dialog_select_net_from_list_base.h:59
-#: pcbnew/pcb_draw_panel_gal.cpp:368
+#: pcbnew/pcb_draw_panel_gal.cpp:369
 msgid "Nets"
 msgstr "Redes"
 
-#: pcbnew/class_board.cpp:1148 pcbnew/pcb_draw_panel_gal.cpp:371
+#: pcbnew/class_board.cpp:1148 pcbnew/pcb_draw_panel_gal.cpp:372
 msgid "Unrouted"
 msgstr "Não-roteado"
 
@@ -24379,7 +24389,7 @@ msgstr ""
 msgid "UNKNOWN (%d)"
 msgstr "DESCONHECIDO (%d)"
 
-#: pcbnew/kicad_clipboard.cpp:302
+#: pcbnew/kicad_clipboard.cpp:331
 msgid "Clipboard content is not KiCad compatible"
 msgstr "O conteúdo da área de transferência não é compatível com o KiCad"
 
@@ -27694,7 +27704,7 @@ msgid "Add a pad"
 msgstr "Adicionar uma Ilha"
 
 #: pcbnew/tools/footprint_editor_tools.cpp:67
-#: pcbnew/tools/footprint_editor_tools.cpp:472
+#: pcbnew/tools/footprint_editor_tools.cpp:484
 msgid "Create Pad from Selected Shapes"
 msgstr "Criar Ilha a partir das Formas Selecionadas"
 
@@ -27732,14 +27742,15 @@ msgid "Click on successive pads to renumber them"
 msgstr "Clique em ilhas sucessivas para renumera-las"
 
 #: pcbnew/tools/footprint_editor_tools.cpp:238
+#: pcbnew/tools/footprint_editor_tools.cpp:256
 msgid "Renumber pads"
 msgstr "Renumerar ilhas"
 
-#: pcbnew/tools/footprint_editor_tools.cpp:313
+#: pcbnew/tools/footprint_editor_tools.cpp:325
 msgid "Explode pad to shapes"
 msgstr "Explodir ilha para formas"
 
-#: pcbnew/tools/footprint_editor_tools.cpp:381
+#: pcbnew/tools/footprint_editor_tools.cpp:393
 msgid ""
 "Cannot convert items to a custom-shaped pad:\n"
 "selection contains more than one reference pad."
@@ -27747,7 +27758,7 @@ msgstr ""
 "Não foi possível converter itens para uma ilha personalizada:\n"
 "a seleção contém mais de uma ilha de referência."
 
-#: pcbnew/tools/footprint_editor_tools.cpp:389
+#: pcbnew/tools/footprint_editor_tools.cpp:401
 msgid ""
 "Cannot convert items to a custom-shaped pad:\n"
 "selection contains unsupported items.\n"
@@ -27757,7 +27768,7 @@ msgstr ""
 "a seleção contém itens sem suporte.\n"
 "Somente linhas gráficas, círculos, arcos e polígonos são permitidos."
 
-#: pcbnew/tools/footprint_editor_tools.cpp:435
+#: pcbnew/tools/footprint_editor_tools.cpp:447
 msgid ""
 "Cannot convert items to a custom-shaped pad:\n"
 "unable to determine the anchor point position.\n"
@@ -27768,7 +27779,7 @@ msgstr ""
 "Considere adicionar uma pequena ilha de âncoragem à seleção e tente "
 "novamente."
 
-#: pcbnew/tools/footprint_editor_tools.cpp:458
+#: pcbnew/tools/footprint_editor_tools.cpp:470
 msgid ""
 "Cannot convert items to a custom-shaped pad:\n"
 "selected items do not form a single solid shape."
@@ -27861,7 +27872,7 @@ msgstr "Inserir um alvo de alinhamento de camada"
 msgid "Duplicate zone"
 msgstr "Duplicar zona"
 
-#: pcbnew/tools/pcb_editor_control.cpp:1124
+#: pcbnew/tools/pcb_editor_control.cpp:1122
 msgid "Pick Components for Local Ratsnest"
 msgstr "Escolher Componentes para Emaranhado Local"
 
