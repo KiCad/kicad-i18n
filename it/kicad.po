@@ -76,8 +76,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-02 12:03+0100\n"
-"PO-Revision-Date: 2018-11-02 12:03+0100\n"
+"POT-Creation-Date: 2018-11-28 14:10+0100\n"
+"PO-Revision-Date: 2018-11-28 14:11+0100\n"
 "Last-Translator: Marco Ciampa <ciampix@posteo.net>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
@@ -560,17 +560,17 @@ msgstr "Carica OpenGL: fori e via"
 msgid "Load OpenGL: layers"
 msgstr "Carica OpenGL: strati"
 
-#: 3d-viewer/3d_rendering/3d_render_ogl_legacy/c3d_render_createscene_ogl_legacy.cpp:644
+#: 3d-viewer/3d_rendering/3d_render_ogl_legacy/c3d_render_createscene_ogl_legacy.cpp:642
 msgid "Loading 3D models"
 msgstr "Caricamento modelli 3D"
 
-#: 3d-viewer/3d_rendering/3d_render_ogl_legacy/c3d_render_createscene_ogl_legacy.cpp:668
-#: 3d-viewer/3d_rendering/3d_render_raytracing/c3d_render_createscene.cpp:963
+#: 3d-viewer/3d_rendering/3d_render_ogl_legacy/c3d_render_createscene_ogl_legacy.cpp:666
+#: 3d-viewer/3d_rendering/3d_render_raytracing/c3d_render_createscene.cpp:962
 #, c-format
 msgid "Reload time %.3f s"
 msgstr "Tempo di ricaricamento %.3f s"
 
-#: 3d-viewer/3d_rendering/3d_render_ogl_legacy/c3d_render_createscene_ogl_legacy.cpp:955
+#: 3d-viewer/3d_rendering/3d_render_ogl_legacy/c3d_render_createscene_ogl_legacy.cpp:953
 #, c-format
 msgid "Loading %s"
 msgstr "Caricamento di %s"
@@ -1111,7 +1111,7 @@ msgstr "Mostra strati commenti e grafica"
 msgid "Show ECO layers"
 msgstr "Mostra strati ECO"
 
-#: 3d-viewer/3d_viewer/dialogs/dialog_3D_view_option_base.h:88
+#: 3d-viewer/3d_viewer/dialogs/dialog_3D_view_option_base.h:86
 msgid "3D Display Options"
 msgstr "Opzioni visualizzazione 3D"
 
@@ -1386,7 +1386,7 @@ msgid ""
 msgstr "Regola il livello di conversione da scala di grigi a bianco e nero"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:147
-#: gerbview/gerber_file_image.cpp:353
+#: gerbview/gerber_file_image.cpp:357
 msgid "Negative"
 msgstr "Negativo"
 
@@ -2712,8 +2712,8 @@ msgstr "Y"
 #: eeschema/dialogs/dialog_edit_label_base.cpp:76
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:107
 #: eeschema/dialogs/dialog_lib_edit_text_base.cpp:95 eeschema/libedit.cpp:690
-#: eeschema/sch_text.cpp:664 gerbview/gerber_file_image.cpp:353
-#: gerbview/gerber_file_image.cpp:357 gerbview/gerber_file_image.cpp:360
+#: eeschema/sch_text.cpp:664 gerbview/gerber_file_image.cpp:357
+#: gerbview/gerber_file_image.cpp:361 gerbview/gerber_file_image.cpp:364
 #: pcbnew/class_module.cpp:603
 #: pcbnew/dialogs/dialog_dimension_editor_base.cpp:78
 #: pcbnew/dialogs/dialog_edit_footprint_text_base.cpp:110
@@ -3188,7 +3188,7 @@ msgstr "Rimpicciolisci"
 #: common/zoom.cpp:277
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:69
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:77
-#: gerbview/gerber_file_image.cpp:357 gerbview/gerber_file_image.cpp:360
+#: gerbview/gerber_file_image.cpp:361 gerbview/gerber_file_image.cpp:364
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:86
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:99
 #: pcbnew/dialogs/dialog_pad_basicshapes_properties.cpp:94
@@ -9146,7 +9146,7 @@ msgstr ""
 msgid "Cannot flush library changes (\"%s\")"
 msgstr "Impossibile annullare i cambiamenti alla libreria (\"%s\")"
 
-#: eeschema/lib_manager.cpp:299 eeschema/lib_manager.cpp:670
+#: eeschema/lib_manager.cpp:299 eeschema/lib_manager.cpp:679
 #, c-format
 msgid "Cannot enumerate library \"%s\""
 msgstr "Impossibile enumerare la libreria \"%s\""
@@ -9156,7 +9156,16 @@ msgstr "Impossibile enumerare la libreria \"%s\""
 msgid "Cannot load aliases from library \"%s\""
 msgstr "Impossibile caricare gli alias dalla libreria \"%s\""
 
-#: eeschema/lib_manager.cpp:368 eeschema/lib_manager.cpp:533
+#: eeschema/lib_manager.cpp:364
+msgid "Symbol not found."
+msgstr "Simbolo non trovato."
+
+#: eeschema/lib_manager.cpp:371
+#, c-format
+msgid "Error loading symbol \"%s\" from library \"%s\"."
+msgstr "Errore durante il caricamento del simbolo \"%s\" dalla libreria \"%s\"."
+
+#: eeschema/lib_manager.cpp:542
 #, c-format
 msgid "Cannot load symbol \"%s\" from library \"%s\""
 msgstr "Impossibile caricare il simbolo \"%s\" dalla libreria \"%s\""
@@ -10840,7 +10849,7 @@ msgid "Symbol %s, %s"
 msgstr "Simbolo %s, %s"
 
 #: eeschema/sch_eagle_plugin.cpp:385 pcbnew/eagle_plugin.cpp:236
-#: pcbnew/eagle_plugin.cpp:2325
+#: pcbnew/eagle_plugin.cpp:2326
 #, c-format
 msgid "Unable to read file \"%s\""
 msgstr "Impossibile leggere il file \"%s\""
@@ -12428,42 +12437,42 @@ msgstr "Nessun file caricato sullo strato attivo %d"
 msgid "Visibles"
 msgstr "Visibili"
 
-#: gerbview/excellon_read_drill_file.cpp:183
+#: gerbview/excellon_read_drill_file.cpp:266
 msgid "No room to load file"
 msgstr "Non c'è spazio per caricare il file"
 
-#: gerbview/excellon_read_drill_file.cpp:192 pcbnew/pcbnew_config.cpp:199
+#: gerbview/excellon_read_drill_file.cpp:275 pcbnew/pcbnew_config.cpp:199
 #, c-format
 msgid "File %s not found"
 msgstr "File %s non trovato"
 
-#: gerbview/excellon_read_drill_file.cpp:200
+#: gerbview/excellon_read_drill_file.cpp:283
 msgid "Error reading EXCELLON drill file"
 msgstr "Errore durante la lettura del file forature Excellon"
 
-#: gerbview/excellon_read_drill_file.cpp:434
+#: gerbview/excellon_read_drill_file.cpp:517
 msgid "ICI command has no parameter"
 msgstr "Il comando ICI non ha parametri"
 
-#: gerbview/excellon_read_drill_file.cpp:444
+#: gerbview/excellon_read_drill_file.cpp:527
 msgid "ICI command has incorrect parameter"
 msgstr "Il comando ICI ha parametri errati"
 
-#: gerbview/excellon_read_drill_file.cpp:498
+#: gerbview/excellon_read_drill_file.cpp:630
 msgid "Tool definition shape not found"
 msgstr "Forma di definizione strumento non trovata"
 
-#: gerbview/excellon_read_drill_file.cpp:501
+#: gerbview/excellon_read_drill_file.cpp:633
 #, c-format
 msgid "Tool definition '%c' not supported"
 msgstr "Definizione dello strumento \"%c\" non supportata"
 
-#: gerbview/excellon_read_drill_file.cpp:558
+#: gerbview/excellon_read_drill_file.cpp:714
 #, c-format
 msgid "Tool %d not defined"
 msgstr "Strumento \"%d\" non definito"
 
-#: gerbview/excellon_read_drill_file.cpp:705
+#: gerbview/excellon_read_drill_file.cpp:887
 #, c-format
 msgid "Unknown Excellon G Code: &lt;%s&gt;"
 msgstr "Excellon G Code sconosciuto: &lt;%s&gt;"
@@ -12630,7 +12639,7 @@ msgstr "Chiaro"
 msgid "Dark"
 msgstr "Scuro"
 
-#: gerbview/gerber_draw_item.cpp:718 gerbview/gerber_file_image.cpp:354
+#: gerbview/gerber_draw_item.cpp:718 gerbview/gerber_file_image.cpp:358
 msgid "Polarity"
 msgstr "Polarità"
 
@@ -12658,27 +12667,27 @@ msgstr "Cmp:"
 msgid "%s (D%d) on layer %d: %s"
 msgstr "%s (D%d) su strato %d: %s"
 
-#: gerbview/gerber_file_image.cpp:341
+#: gerbview/gerber_file_image.cpp:345
 msgid "Image name"
 msgstr "Nome immagine "
 
-#: gerbview/gerber_file_image.cpp:346
+#: gerbview/gerber_file_image.cpp:350
 msgid "Graphic layer"
 msgstr "Strato grafico"
 
-#: gerbview/gerber_file_image.cpp:350
+#: gerbview/gerber_file_image.cpp:354
 msgid "Img Rot."
 msgstr "Rotazione immagine"
 
-#: gerbview/gerber_file_image.cpp:358
+#: gerbview/gerber_file_image.cpp:362
 msgid "X Justify"
 msgstr "Allineamento X"
 
-#: gerbview/gerber_file_image.cpp:361
+#: gerbview/gerber_file_image.cpp:365
 msgid "Y Justify"
 msgstr "Allineamento Y"
 
-#: gerbview/gerber_file_image.cpp:370
+#: gerbview/gerber_file_image.cpp:374
 msgid "Image Justify Offset"
 msgstr "Aggiustamento immagine"
 
@@ -13182,22 +13191,22 @@ msgstr ""
 "Forse è un vecchio file RS274D\n"
 "Perciò la dimensione degli elementi non è definita"
 
-#: gerbview/rs274x.cpp:272
+#: gerbview/rs274x.cpp:271
 #, c-format
 msgid "RS274X: Invalid GERBER format command '%c' at line %d: \"%s\""
 msgstr ""
 "RS274X: comando di formato GERBER \"%c\" non valido alla riga %d: \"%s\""
 
-#: gerbview/rs274x.cpp:275
+#: gerbview/rs274x.cpp:274
 #, c-format
 msgid "GERBER file \"%s\" may not display as intended."
 msgstr "Il file GERBER \"%s\" potrebbe non apparire come dovrebbe."
 
-#: gerbview/rs274x.cpp:550
+#: gerbview/rs274x.cpp:549
 msgid "RS274X: Command \"IR\" rotation value not allowed"
 msgstr "RS274X: Comando \"IR\" valore di rotazione non consentito"
 
-#: gerbview/rs274x.cpp:641
+#: gerbview/rs274x.cpp:640
 msgid "RS274X: Command KNOCKOUT ignored by GerbView"
 msgstr "RS274X: Comando KNOCKOUT ignorato da Gerbview "
 
@@ -16127,32 +16136,32 @@ msgid "This is the default net class."
 msgstr "Questo è il gruppo di collegamenti predefinito"
 
 #: pcbnew/class_board.cpp:1133 pcbnew/class_module.cpp:584
-#: pcbnew/netinfo_item.cpp:120 pcbnew/pcb_draw_panel_gal.cpp:356
+#: pcbnew/netinfo_item.cpp:120 pcbnew/pcb_draw_panel_gal.cpp:357
 #: pcbnew/tools/pad_tool.cpp:79
 msgid "Pads"
 msgstr "Piazzole"
 
 #: pcbnew/class_board.cpp:1136
 #: pcbnew/dialogs/dialog_global_deletion_base.cpp:68
-#: pcbnew/netinfo_item.cpp:140 pcbnew/pcb_draw_panel_gal.cpp:359
+#: pcbnew/netinfo_item.cpp:140 pcbnew/pcb_draw_panel_gal.cpp:360
 msgid "Vias"
 msgstr "Via"
 
-#: pcbnew/class_board.cpp:1139 pcbnew/pcb_draw_panel_gal.cpp:362
+#: pcbnew/class_board.cpp:1139 pcbnew/pcb_draw_panel_gal.cpp:363
 msgid "Track Segments"
 msgstr "Segmenti di pista"
 
-#: pcbnew/class_board.cpp:1142 pcbnew/pcb_draw_panel_gal.cpp:365
+#: pcbnew/class_board.cpp:1142 pcbnew/pcb_draw_panel_gal.cpp:366
 msgid "Nodes"
 msgstr "Nodi"
 
 #: pcbnew/class_board.cpp:1145
 #: pcbnew/dialogs/dialog_select_net_from_list_base.h:59
-#: pcbnew/pcb_draw_panel_gal.cpp:368
+#: pcbnew/pcb_draw_panel_gal.cpp:369
 msgid "Nets"
 msgstr "Piste"
 
-#: pcbnew/class_board.cpp:1148 pcbnew/pcb_draw_panel_gal.cpp:371
+#: pcbnew/class_board.cpp:1148 pcbnew/pcb_draw_panel_gal.cpp:372
 msgid "Unrouted"
 msgstr "Non sbrogliato"
 
@@ -23092,7 +23101,7 @@ msgstr "Nome <package>: \"%s\" duplicato nella librereria di Eagle: \"%s\""
 msgid "No \"%s\" package in library \"%s\""
 msgstr "Nessun package \"%s\" presente nella libreria \"%s\""
 
-#: pcbnew/eagle_plugin.cpp:1400
+#: pcbnew/eagle_plugin.cpp:1401
 #, c-format
 msgid ""
 "Line on copper layer in package %s (%f mm, %f mm) (%f mm, %f mm).\n"
@@ -23101,7 +23110,7 @@ msgstr ""
 "Riga sullo strato rame nel contenitore %s (%f mm, %f mm) (%f mm, %f mm).\n"
 "Spostamento sullo strato Dwgs.User"
 
-#: pcbnew/eagle_plugin.cpp:1521
+#: pcbnew/eagle_plugin.cpp:1522
 #, c-format
 msgid ""
 "Unsupported text on copper layer in package %s.\n"
@@ -23110,7 +23119,7 @@ msgstr ""
 "Testo non supportato su strato rame nel contenitore %s.\n"
 "Spostamento sullo strato Dwgs.User."
 
-#: pcbnew/eagle_plugin.cpp:1635
+#: pcbnew/eagle_plugin.cpp:1636
 #, c-format
 msgid ""
 "Unsupported rectangle on copper layer in package %s.\n"
@@ -23119,7 +23128,7 @@ msgstr ""
 "Rettangolo non supportato sullo strato rame nel contenitore %s.\n"
 "Spostamento sullo strato Dwgs.User."
 
-#: pcbnew/eagle_plugin.cpp:1678
+#: pcbnew/eagle_plugin.cpp:1679
 #, c-format
 msgid ""
 "Unsupported polygon on copper layer in package %s.\n"
@@ -23128,7 +23137,7 @@ msgstr ""
 "Poligono non supportato sullo strato rame nel contenitore %s.\n"
 "Spostamento sullo strato Dwgs.User."
 
-#: pcbnew/eagle_plugin.cpp:1763
+#: pcbnew/eagle_plugin.cpp:1764
 #, c-format
 msgid ""
 "Unsupported circle on copper layer in package %s.\n"
@@ -23137,7 +23146,7 @@ msgstr ""
 "Cerchio non supportato sullo strato rame nel contenitore %s.\n"
 "Spostamento sullo strato Dwgs.User."
 
-#: pcbnew/eagle_plugin.cpp:2230
+#: pcbnew/eagle_plugin.cpp:2231
 #, c-format
 msgid "Unsupported Eagle layer '%s' (%d), converted to Dwgs.User layer"
 msgstr "Strato Eagle non supportato \"%s\" (%d), convertito a strato Dwgs.User"
@@ -24425,7 +24434,7 @@ msgstr ""
 msgid "UNKNOWN (%d)"
 msgstr "Sconosciuto (%d)"
 
-#: pcbnew/kicad_clipboard.cpp:302
+#: pcbnew/kicad_clipboard.cpp:331
 msgid "Clipboard content is not KiCad compatible"
 msgstr "I contenuti degli appunti non sono compatibili KiCad"
 
@@ -27739,7 +27748,7 @@ msgid "Add a pad"
 msgstr "Aggiungi una piazzola"
 
 #: pcbnew/tools/footprint_editor_tools.cpp:67
-#: pcbnew/tools/footprint_editor_tools.cpp:472
+#: pcbnew/tools/footprint_editor_tools.cpp:484
 msgid "Create Pad from Selected Shapes"
 msgstr "Crea piazzola dalle forme selezionate"
 
@@ -27779,14 +27788,15 @@ msgid "Click on successive pads to renumber them"
 msgstr "Fare clic sulle piazzole successive per rinumerarle"
 
 #: pcbnew/tools/footprint_editor_tools.cpp:238
+#: pcbnew/tools/footprint_editor_tools.cpp:256
 msgid "Renumber pads"
 msgstr "Rinumera piazzole"
 
-#: pcbnew/tools/footprint_editor_tools.cpp:313
+#: pcbnew/tools/footprint_editor_tools.cpp:325
 msgid "Explode pad to shapes"
 msgstr "Esplodi forme piazzola"
 
-#: pcbnew/tools/footprint_editor_tools.cpp:381
+#: pcbnew/tools/footprint_editor_tools.cpp:393
 msgid ""
 "Cannot convert items to a custom-shaped pad:\n"
 "selection contains more than one reference pad."
@@ -27794,7 +27804,7 @@ msgstr ""
 "Impossibile convertire gli elementi in una piazzola personalizzata:\n"
 "la selezione contiene più di una piazzola di riferimento."
 
-#: pcbnew/tools/footprint_editor_tools.cpp:389
+#: pcbnew/tools/footprint_editor_tools.cpp:401
 msgid ""
 "Cannot convert items to a custom-shaped pad:\n"
 "selection contains unsupported items.\n"
@@ -27804,7 +27814,7 @@ msgstr ""
 "la selezione contiene elementi non supportati.\n"
 "Sono permessi solo linee grafiche, cerchi, archi e poligoni."
 
-#: pcbnew/tools/footprint_editor_tools.cpp:435
+#: pcbnew/tools/footprint_editor_tools.cpp:447
 msgid ""
 "Cannot convert items to a custom-shaped pad:\n"
 "unable to determine the anchor point position.\n"
@@ -27814,7 +27824,7 @@ msgstr ""
 "impossibile determinare la posizione del punto di ancoraggio.\n"
 "Aggiungere una piccola piazzola di ancoraggio alla selezione e riprovare."
 
-#: pcbnew/tools/footprint_editor_tools.cpp:458
+#: pcbnew/tools/footprint_editor_tools.cpp:470
 msgid ""
 "Cannot convert items to a custom-shaped pad:\n"
 "selected items do not form a single solid shape."
@@ -27909,7 +27919,7 @@ msgstr "Piazza un marcatore di allineamento strati"
 msgid "Duplicate zone"
 msgstr "Duplica zona"
 
-#: pcbnew/tools/pcb_editor_control.cpp:1124
+#: pcbnew/tools/pcb_editor_control.cpp:1122
 msgid "Pick Components for Local Ratsnest"
 msgstr "Preleva componenti per le ratsnest locali"
 
@@ -28306,41 +28316,3 @@ msgstr "Ri-riempi %d zone"
 #: pcbnew/zones_by_polygon_fill_functions.cpp:120
 msgid "Checking Zones"
 msgstr "Controllo zone"
-
-#~ msgid "path exists but is not a regular file"
-#~ msgstr "il percorso esiste ma non è un file normale"
-
-#~ msgid "failed to create 3D configuration directory"
-#~ msgstr "fallita la creazione della cartella di configurazione 3D"
-
-#~ msgid "config directory"
-#~ msgstr "cartella di configurazione"
-
-#~ msgid "Create zones of layer %s"
-#~ msgstr "Crea zone dello strato %s"
-
-#~ msgid "Illegal character found in LIB_ID string"
-#~ msgstr "Carattere non consentito trovato nella stringa LIB_ID"
-
-#~ msgid "&Text:"
-#~ msgstr "&Testo:"
-
-#~ msgid "Run CvPcb to associate footprints to symbols"
-#~ msgstr "Avvia CvPcb per associare le impronte ai simboli"
-
-#~ msgid "Figure out what's best"
-#~ msgstr "Trova la soluzione migliore"
-
-#~ msgid "Routing Options..."
-#~ msgstr "Opzioni sbroglio..."
-
-#~ msgid "Shows a dialog containing router options."
-#~ msgstr "Mostra una finestra di dialogo contenente le opzioni di sbroglio."
-
-#~ msgid "Differential Pair Dimensions..."
-#~ msgstr "Dimensioni coppia differenziale..."
-
-#~ msgid "Sets the width and gap of the currently routed differential pair."
-#~ msgstr ""
-#~ "Imposta la larghezza e la spaziatura della coppia differenziale "
-#~ "sbrogliata correntemente."
