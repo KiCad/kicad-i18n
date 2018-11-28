@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-09 07:53+0200\n"
+"POT-Creation-Date: 2018-11-28 23:37+0100\n"
 "PO-Revision-Date: 2018-10-08 10:02+0200\n"
 "Last-Translator: Martin Kratoška <martin@ok1rr.com>\n"
 "Language-Team: Čeština <cs@li.org>\n"
@@ -308,19 +308,19 @@ msgstr "palce"
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:145
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:179
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:186
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:235
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:249
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:295
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:309
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:236
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:250
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:296
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:310
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:450
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:457
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:464
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:505
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:512
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:519
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:540
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:533
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:586
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:593
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:600
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:614
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:621
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:628
 #: pagelayout_editor/pl_editor_frame.cpp:455 pcb_calculator/UnitSelector.cpp:38
 #: pcb_calculator/UnitSelector.cpp:70
 #: pcbnew/dialogs/dialog_create_array_base.cpp:52
@@ -475,17 +475,17 @@ msgstr "Načíst OpenGL: díry a průchodky"
 msgid "Load OpenGL: layers"
 msgstr "Načíst OpenGL: vrstvy"
 
-#: 3d-viewer/3d_rendering/3d_render_ogl_legacy/c3d_render_createscene_ogl_legacy.cpp:644
+#: 3d-viewer/3d_rendering/3d_render_ogl_legacy/c3d_render_createscene_ogl_legacy.cpp:642
 msgid "Loading 3D models"
 msgstr "Načíst 3D modely"
 
-#: 3d-viewer/3d_rendering/3d_render_ogl_legacy/c3d_render_createscene_ogl_legacy.cpp:668
-#: 3d-viewer/3d_rendering/3d_render_raytracing/c3d_render_createscene.cpp:963
+#: 3d-viewer/3d_rendering/3d_render_ogl_legacy/c3d_render_createscene_ogl_legacy.cpp:666
+#: 3d-viewer/3d_rendering/3d_render_raytracing/c3d_render_createscene.cpp:962
 #, c-format
 msgid "Reload time %.3f s"
 msgstr "Čas znovunačtení %.3f s"
 
-#: 3d-viewer/3d_rendering/3d_render_ogl_legacy/c3d_render_createscene_ogl_legacy.cpp:955
+#: 3d-viewer/3d_rendering/3d_render_ogl_legacy/c3d_render_createscene_ogl_legacy.cpp:953
 #, c-format
 msgid "Loading %s"
 msgstr "Načítání %s"
@@ -922,7 +922,7 @@ msgstr "Vykreslit aktuální pohled pomocí Raytracingu"
 #: 3d-viewer/3d_viewer/3d_toolbar.cpp:77 eeschema/help_common_strings.h:43
 #: eeschema/tool_viewlib.cpp:66 gerbview/menubar.cpp:197
 #: gerbview/toolbars_gerber.cpp:78 pagelayout_editor/toolbars_pl_editor.cpp:86
-#: pcbnew/footprint_wizard_frame.cpp:681 pcbnew/help_common_strings.h:19
+#: pcbnew/footprint_wizard_frame.cpp:684 pcbnew/help_common_strings.h:19
 #: pcbnew/tool_footprint_editor.cpp:123 pcbnew/tool_footprint_viewer.cpp:78
 msgid "Zoom in"
 msgstr "Přiblížit"
@@ -931,14 +931,14 @@ msgstr "Přiblížit"
 #: eeschema/help_common_strings.h:44 eeschema/tool_viewlib.cpp:71
 #: gerbview/menubar.cpp:201 gerbview/toolbars_gerber.cpp:81
 #: pagelayout_editor/toolbars_pl_editor.cpp:89
-#: pcbnew/footprint_wizard_frame.cpp:686 pcbnew/help_common_strings.h:20
+#: pcbnew/footprint_wizard_frame.cpp:689 pcbnew/help_common_strings.h:20
 #: pcbnew/tool_footprint_editor.cpp:126 pcbnew/tool_footprint_viewer.cpp:83
 msgid "Zoom out"
 msgstr "Oddálit"
 
 #: 3d-viewer/3d_viewer/3d_toolbar.cpp:84 eeschema/tool_viewlib.cpp:76
 #: gerbview/toolbars_gerber.cpp:75 pagelayout_editor/toolbars_pl_editor.cpp:82
-#: pcbnew/footprint_wizard_frame.cpp:691 pcbnew/tool_footprint_editor.cpp:119
+#: pcbnew/footprint_wizard_frame.cpp:694 pcbnew/tool_footprint_editor.cpp:119
 #: pcbnew/tool_footprint_viewer.cpp:88
 msgid "Redraw view"
 msgstr "Překreslit pohled"
@@ -1024,7 +1024,7 @@ msgstr "Zobrazit komentáře a kreslicí vrstvy"
 msgid "Show ECO layers"
 msgstr "Zobrazit ECO vrstvy"
 
-#: 3d-viewer/3d_viewer/dialogs/dialog_3D_view_option_base.h:88
+#: 3d-viewer/3d_viewer/dialogs/dialog_3D_view_option_base.h:86
 msgid "3D Display Options"
 msgstr "Nastavení 3D zobrazení"
 
@@ -1299,7 +1299,7 @@ msgid ""
 msgstr "Nastavte úroveň pro konverzi šedého obrázku na černobílý obrázek."
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:147
-#: gerbview/gerber_file_image.cpp:353
+#: gerbview/gerber_file_image.cpp:357
 msgid "Negative"
 msgstr "Opačný"
 
@@ -1596,17 +1596,17 @@ msgstr "Purpurová 4"
 msgid "Yellow 4"
 msgstr "Žlutá 4"
 
-#: common/common.cpp:295
+#: common/common.cpp:320
 #, c-format
 msgid "Cannot make path \"%s\" absolute with respect to \"%s\"."
 msgstr "Cestu \"%s\" nelze vytvořit jako absolute s ohledem na \"%s\"."
 
-#: common/common.cpp:313
+#: common/common.cpp:338
 #, c-format
 msgid "Output directory \"%s\" created.\n"
 msgstr "Výstupní adresář \"%s\" vytvořen.\n"
 
-#: common/common.cpp:322
+#: common/common.cpp:347
 #, c-format
 msgid "Cannot create output directory \"%s\".\n"
 msgstr "Nelze vytvořit výstupní adresář %s\n"
@@ -1700,7 +1700,8 @@ msgid "The complete KiCad EDA Suite is released under the"
 msgstr "Kompletní sada KiCad EDA je uvolněna pod"
 
 #: common/dialog_about/AboutDialog_main.cpp:187
-msgid "GNU General Public License (GPL) version 3 or any later version"
+#, fuzzy
+msgid "GNU Affero General Public License (AGPL) version 3 or any later version"
 msgstr "GNU General Public License (GPL) verze 3 nebo pozdější"
 
 #: common/dialog_about/AboutDialog_main.cpp:379
@@ -2453,7 +2454,7 @@ msgid "Show grid"
 msgstr "Zobrazovat mřížku"
 
 #: common/draw_frame.cpp:573 pcbnew/dialogs/dialog_modedit_options_base.cpp:99
-#: pcbnew/footprint_wizard_frame.cpp:309
+#: pcbnew/footprint_wizard_frame.cpp:312
 msgid "Units"
 msgstr "Jednotky"
 
@@ -2613,8 +2614,8 @@ msgstr "Y"
 #: eeschema/dialogs/dialog_edit_label_base.cpp:76
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:107
 #: eeschema/dialogs/dialog_lib_edit_text_base.cpp:95 eeschema/libedit.cpp:690
-#: eeschema/sch_text.cpp:664 gerbview/gerber_file_image.cpp:353
-#: gerbview/gerber_file_image.cpp:357 gerbview/gerber_file_image.cpp:360
+#: eeschema/sch_text.cpp:664 gerbview/gerber_file_image.cpp:357
+#: gerbview/gerber_file_image.cpp:361 gerbview/gerber_file_image.cpp:364
 #: pcbnew/class_module.cpp:603
 #: pcbnew/dialogs/dialog_dimension_editor_base.cpp:78
 #: pcbnew/dialogs/dialog_edit_footprint_text_base.cpp:110
@@ -3081,7 +3082,7 @@ msgstr "Oddálit"
 #: common/zoom.cpp:277
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:69
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:77
-#: gerbview/gerber_file_image.cpp:357 gerbview/gerber_file_image.cpp:360
+#: gerbview/gerber_file_image.cpp:361 gerbview/gerber_file_image.cpp:364
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:86
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:99
 #: pcbnew/dialogs/dialog_pad_basicshapes_properties.cpp:94
@@ -3749,7 +3750,7 @@ msgstr "Dostupné proměnné prostředí pro relativní cesty:"
 #: pcbnew/class_edge_mod.cpp:250 pcbnew/class_text_mod.cpp:374
 #: pcbnew/dialogs/dialog_fp_plugin_options_base.cpp:40
 #: pcbnew/dialogs/dialog_global_footprints_fields_edition_base.cpp:31
-#: pcbnew/footprint_wizard_frame.cpp:308
+#: pcbnew/footprint_wizard_frame.cpp:311
 msgid "Value"
 msgstr "Hodnota"
 
@@ -6777,7 +6778,7 @@ msgstr ""
 
 #: eeschema/dialogs/dialog_rescue_each.cpp:90
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:199
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:638
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:631
 msgid "Accept"
 msgstr "Akceptovat"
 
@@ -6839,7 +6840,7 @@ msgstr "Třístavový"
 
 #: eeschema/dialogs/dialog_sch_edit_sheet_pin_base.cpp:40
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:128
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:502
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:495
 #: pcbnew/dialogs/dialog_dimension_editor_base.cpp:44
 #: pcbnew/dialogs/dialog_graphic_items_options_base.cpp:48
 #: pcbnew/dialogs/dialog_graphic_items_options_base.cpp:82
@@ -6848,7 +6849,7 @@ msgstr "Výška textu:"
 
 #: eeschema/dialogs/dialog_sch_edit_sheet_pin_base.cpp:51
 #: pagelayout_editor/dialogs/properties_frame_base.cpp:121
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:495
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:488
 #: pcbnew/dialogs/dialog_dimension_editor_base.cpp:37
 #: pcbnew/dialogs/dialog_graphic_items_options_base.cpp:55
 #: pcbnew/dialogs/dialog_graphic_items_options_base.cpp:89
@@ -8988,7 +8989,7 @@ msgstr "Nelze najít knihovnu \"%s\" v tabulce knihovny symbolů"
 msgid "Cannot flush library changes (\"%s\")"
 msgstr "Nelze pročistit změny knihoven (\"%s\")"
 
-#: eeschema/lib_manager.cpp:299 eeschema/lib_manager.cpp:670
+#: eeschema/lib_manager.cpp:299 eeschema/lib_manager.cpp:679
 #, c-format
 msgid "Cannot enumerate library \"%s\""
 msgstr "Nelze očíslovat knihovnu \"%s\""
@@ -8998,7 +8999,17 @@ msgstr "Nelze očíslovat knihovnu \"%s\""
 msgid "Cannot load aliases from library \"%s\""
 msgstr "Nelze načíst aliasy z knihovny \"%s\""
 
-#: eeschema/lib_manager.cpp:368 eeschema/lib_manager.cpp:533
+#: eeschema/lib_manager.cpp:364
+#, fuzzy
+msgid "Symbol not found."
+msgstr " nenalezeno."
+
+#: eeschema/lib_manager.cpp:371
+#, fuzzy, c-format
+msgid "Error loading symbol \"%s\" from library \"%s\"."
+msgstr "Chyba nastala při čtení symbolu %s z knihovny \"%s\"."
+
+#: eeschema/lib_manager.cpp:542
 #, c-format
 msgid "Cannot load symbol \"%s\" from library \"%s\""
 msgstr "Nelze načíst symbol \"%s\" z knihovny \"%s\""
@@ -10669,7 +10680,7 @@ msgid "Symbol %s, %s"
 msgstr "Symbol %s, %s"
 
 #: eeschema/sch_eagle_plugin.cpp:385 pcbnew/eagle_plugin.cpp:236
-#: pcbnew/eagle_plugin.cpp:2325
+#: pcbnew/eagle_plugin.cpp:2326
 #, c-format
 msgid "Unable to read file \"%s\""
 msgstr "Nelze číst soubor \"%s\""
@@ -12249,42 +12260,42 @@ msgstr "Na aktivní vrstvě %d není žádný soubor"
 msgid "Visibles"
 msgstr "Viditelné"
 
-#: gerbview/excellon_read_drill_file.cpp:183
+#: gerbview/excellon_read_drill_file.cpp:266
 msgid "No room to load file"
 msgstr "Není místo k načtení souboru"
 
-#: gerbview/excellon_read_drill_file.cpp:192 pcbnew/pcbnew_config.cpp:199
+#: gerbview/excellon_read_drill_file.cpp:275 pcbnew/pcbnew_config.cpp:199
 #, c-format
 msgid "File %s not found"
 msgstr "Soubor %s nenalezen"
 
-#: gerbview/excellon_read_drill_file.cpp:200
+#: gerbview/excellon_read_drill_file.cpp:283
 msgid "Error reading EXCELLON drill file"
 msgstr "Chyba při načítání vrtacího souboru EXCELLON"
 
-#: gerbview/excellon_read_drill_file.cpp:434
+#: gerbview/excellon_read_drill_file.cpp:517
 msgid "ICI command has no parameter"
 msgstr "ICI příkaz nemá parametr"
 
-#: gerbview/excellon_read_drill_file.cpp:444
+#: gerbview/excellon_read_drill_file.cpp:527
 msgid "ICI command has incorrect parameter"
 msgstr "ICI příkaz má nesprávný parametr"
 
-#: gerbview/excellon_read_drill_file.cpp:498
+#: gerbview/excellon_read_drill_file.cpp:630
 msgid "Tool definition shape not found"
 msgstr "Definice nástroje není podporována"
 
-#: gerbview/excellon_read_drill_file.cpp:501
+#: gerbview/excellon_read_drill_file.cpp:633
 #, c-format
 msgid "Tool definition '%c' not supported"
 msgstr "Definice nástroje '%c' není podporována"
 
-#: gerbview/excellon_read_drill_file.cpp:558
+#: gerbview/excellon_read_drill_file.cpp:714
 #, c-format
 msgid "Tool %d not defined"
 msgstr "Nástroj %d není definován"
 
-#: gerbview/excellon_read_drill_file.cpp:705
+#: gerbview/excellon_read_drill_file.cpp:887
 #, c-format
 msgid "Unknown Excellon G Code: &lt;%s&gt;"
 msgstr "Neznámý G kód Excellon: &lt;%s&gt;"
@@ -12449,7 +12460,7 @@ msgstr "Čistý"
 msgid "Dark"
 msgstr "Temný"
 
-#: gerbview/gerber_draw_item.cpp:718 gerbview/gerber_file_image.cpp:354
+#: gerbview/gerber_draw_item.cpp:718 gerbview/gerber_file_image.cpp:358
 msgid "Polarity"
 msgstr "Polarita"
 
@@ -12477,27 +12488,27 @@ msgstr "Cmp:"
 msgid "%s (D%d) on layer %d: %s"
 msgstr "%s (D%d) na vrstvě %d: %s"
 
-#: gerbview/gerber_file_image.cpp:341
+#: gerbview/gerber_file_image.cpp:345
 msgid "Image name"
 msgstr "Jméno obrázku"
 
-#: gerbview/gerber_file_image.cpp:346
+#: gerbview/gerber_file_image.cpp:350
 msgid "Graphic layer"
 msgstr "Grafická vrstva"
 
-#: gerbview/gerber_file_image.cpp:350
+#: gerbview/gerber_file_image.cpp:354
 msgid "Img Rot."
 msgstr "Obr. rot."
 
-#: gerbview/gerber_file_image.cpp:358
+#: gerbview/gerber_file_image.cpp:362
 msgid "X Justify"
 msgstr "Zarovnání X"
 
-#: gerbview/gerber_file_image.cpp:361
+#: gerbview/gerber_file_image.cpp:365
 msgid "Y Justify"
 msgstr "Zarovnání Y"
 
-#: gerbview/gerber_file_image.cpp:370
+#: gerbview/gerber_file_image.cpp:374
 msgid "Image Justify Offset"
 msgstr "Posun zarovnání obrázku"
 
@@ -12998,21 +13009,21 @@ msgstr ""
 "je to možná starý RS274D soubor,\n"
 "proto velikost položek není definována"
 
-#: gerbview/rs274x.cpp:272
+#: gerbview/rs274x.cpp:271
 #, c-format
 msgid "RS274X: Invalid GERBER format command '%c' at line %d: \"%s\""
 msgstr "RS274X: neplatrný příkaz formátu GERBER '%c' at line %d: \"%s\""
 
-#: gerbview/rs274x.cpp:275
+#: gerbview/rs274x.cpp:274
 #, c-format
 msgid "GERBER file \"%s\" may not display as intended."
 msgstr "Soubor Gerber \"%s\" se nemusí zobrazit, jak bylo zamýšleno."
 
-#: gerbview/rs274x.cpp:550
+#: gerbview/rs274x.cpp:549
 msgid "RS274X: Command \"IR\" rotation value not allowed"
 msgstr "RS274X: Nepovolená hodnota příkazu \"IR\" otáčení"
 
-#: gerbview/rs274x.cpp:641
+#: gerbview/rs274x.cpp:640
 msgid "RS274X: Command KNOCKOUT ignored by GerbView"
 msgstr "RS274X: Příkaz KNOCKOUT ignorován zobrazovačem GerbView"
 
@@ -13933,31 +13944,31 @@ msgstr "Počátek"
 
 #: pagelayout_editor/dialogs/dialog_new_dataitem_base.cpp:68
 #: pagelayout_editor/dialogs/dialog_new_dataitem_base.cpp:128
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:264
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:324
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:265
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:325
 msgid "Upper Right"
 msgstr "Vpravo nahoře"
 
 #: pagelayout_editor/dialogs/dialog_new_dataitem_base.cpp:68
 #: pagelayout_editor/dialogs/dialog_new_dataitem_base.cpp:128
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:265
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:325
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:266
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:326
 msgid "Upper Left"
 msgstr "Levý horní"
 
 #: pagelayout_editor/dialogs/dialog_new_dataitem_base.cpp:68
 #: pagelayout_editor/dialogs/dialog_new_dataitem_base.cpp:128
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:263
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:266
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:326
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:264
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:267
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:327
 msgid "Lower Right"
 msgstr "Vpravo dole"
 
 #: pagelayout_editor/dialogs/dialog_new_dataitem_base.cpp:68
 #: pagelayout_editor/dialogs/dialog_new_dataitem_base.cpp:128
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:267
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:323
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:327
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:268
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:324
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:328
 msgid "Lower Left"
 msgstr "Levý dolní"
 
@@ -14013,32 +14024,32 @@ msgstr "Maximální šířka:"
 msgid "Maximum height:"
 msgstr "Maximální výška:"
 
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:206
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:207
 msgid "Comment:"
 msgstr "Komentář:"
 
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:225
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:226
 msgid "Start X:"
 msgstr "Počátek X:"
 
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:239
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:240
 msgid "Start Y:"
 msgstr "Počátek Y:"
 
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:259
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:319
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:260
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:320
 msgid "Origin:"
 msgstr "Počátek:"
 
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:285
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:286
 msgid "End X:"
 msgstr "Konec X:"
 
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:299
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:300
 msgid "End Y:"
 msgstr "Konec Y:"
 
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:342
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:343
 #: pcbnew/dialogs/dialog_edit_footprint_text_base.cpp:67
 #: pcbnew/dialogs/dialog_global_footprints_fields_edition_base.cpp:86
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:939
@@ -14047,84 +14058,84 @@ msgstr "Konec Y:"
 msgid "Thickness:"
 msgstr "Tloušťka:"
 
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:352
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:353
 msgid "Set to 0 to use default"
 msgstr "Nastavit na 0 pro použití výchozí"
 
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:369
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:368
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:71
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:701
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:1022
 msgid "Rotation:"
 msgstr "Natočení:"
 
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:376
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:383
 msgid "Bitmap PPI:"
 msgstr "Bitmapa PPI:"
 
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:403
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:396
 msgid "Repeat parameters:"
 msgstr "Opakovat parametry:"
 
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:414
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:407
 msgid "Repeat count:"
 msgstr "Počet opakovánít:"
 
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:421
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:414
 msgid "Text Increment:"
 msgstr "Text přírůstku:"
 
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:440
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:433
 msgid "Step X:"
 msgstr "Krok X:"
 
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:447
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:440
 msgid "Step Y:"
 msgstr "Krok Y:"
 
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:475
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:468
 msgid "Item Properties"
 msgstr "Vlastnosti položky"
 
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:484
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:477
 msgid "Default Values:"
 msgstr "Výchozí hodnoty:"
 
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:523
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:516
 msgid "Line thickness:"
 msgstr "Tloušťka čáry:"
 
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:530
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:523
 #: pcbnew/dialogs/dialog_dimension_editor_base.cpp:51
 #: pcbnew/dialogs/dialog_graphic_items_options_base.cpp:75
 msgid "Text thickness:"
 msgstr "Tloušťka textu:"
 
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:556
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:549
 msgid "Set to Default"
 msgstr "Nastavit na výchozí"
 
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:565
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:558
 msgid "Page Margins:"
 msgstr "Okraje stránky:"
 
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:576
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:569
 msgid "Left:"
 msgstr "Vlevo:"
 
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:583
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:576
 msgid "Right:"
 msgstr "Vpravo:"
 
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:604
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:597
 msgid "Top:"
 msgstr "Nahoře:"
 
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:611
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:604
 msgid "Bottom:"
 msgstr "Dolní:"
 
-#: pagelayout_editor/dialogs/properties_frame_base.cpp:646
+#: pagelayout_editor/dialogs/properties_frame_base.cpp:640
 msgid "General Options"
 msgstr "Obecná nastavení"
 
@@ -15923,32 +15934,32 @@ msgid "This is the default net class."
 msgstr "Toto je výchozí třída sítě."
 
 #: pcbnew/class_board.cpp:1133 pcbnew/class_module.cpp:584
-#: pcbnew/netinfo_item.cpp:120 pcbnew/pcb_draw_panel_gal.cpp:356
+#: pcbnew/netinfo_item.cpp:120 pcbnew/pcb_draw_panel_gal.cpp:357
 #: pcbnew/tools/pad_tool.cpp:79
 msgid "Pads"
 msgstr "Plošky"
 
 #: pcbnew/class_board.cpp:1136
 #: pcbnew/dialogs/dialog_global_deletion_base.cpp:68
-#: pcbnew/netinfo_item.cpp:140 pcbnew/pcb_draw_panel_gal.cpp:359
+#: pcbnew/netinfo_item.cpp:140 pcbnew/pcb_draw_panel_gal.cpp:360
 msgid "Vias"
 msgstr "Průchodky"
 
-#: pcbnew/class_board.cpp:1139 pcbnew/pcb_draw_panel_gal.cpp:362
+#: pcbnew/class_board.cpp:1139 pcbnew/pcb_draw_panel_gal.cpp:363
 msgid "Track Segments"
 msgstr "Segmenty spoje"
 
-#: pcbnew/class_board.cpp:1142 pcbnew/pcb_draw_panel_gal.cpp:365
+#: pcbnew/class_board.cpp:1142 pcbnew/pcb_draw_panel_gal.cpp:366
 msgid "Nodes"
 msgstr "Uzly"
 
 #: pcbnew/class_board.cpp:1145
 #: pcbnew/dialogs/dialog_select_net_from_list_base.h:59
-#: pcbnew/pcb_draw_panel_gal.cpp:368
+#: pcbnew/pcb_draw_panel_gal.cpp:369
 msgid "Nets"
 msgstr "Sítě"
 
-#: pcbnew/class_board.cpp:1148 pcbnew/pcb_draw_panel_gal.cpp:371
+#: pcbnew/class_board.cpp:1148 pcbnew/pcb_draw_panel_gal.cpp:372
 msgid "Unrouted"
 msgstr "Nepropojené"
 
@@ -16590,7 +16601,7 @@ msgid "File Option:"
 msgstr "Možnosti souboru:"
 
 #: pcbnew/dialogs/dialog_SVG_print_base.cpp:126
-#: pcbnew/dialogs/dialog_plot.cpp:58 pcbnew/dialogs/dialog_plot_base.h:144
+#: pcbnew/dialogs/dialog_plot.cpp:58 pcbnew/dialogs/dialog_plot_base.h:142
 msgid "Plot"
 msgstr "Kreslit"
 
@@ -18296,34 +18307,34 @@ msgstr "Změnit pouzdra"
 msgid "Update"
 msgstr "Aktualizovat"
 
-#: pcbnew/dialogs/dialog_exchange_footprints.cpp:348
+#: pcbnew/dialogs/dialog_exchange_footprints.cpp:350
 #, c-format
 msgid "File \"%s\" created\n"
 msgstr "Soubor \"%s\" vytvořen\n"
 
-#: pcbnew/dialogs/dialog_exchange_footprints.cpp:353
+#: pcbnew/dialogs/dialog_exchange_footprints.cpp:355
 #, c-format
 msgid "** Could not create file \"%s\" ***\n"
 msgstr "** Nelze vytvořit soubor \"%s\" ***\n"
 
-#: pcbnew/dialogs/dialog_exchange_footprints.cpp:444
+#: pcbnew/dialogs/dialog_exchange_footprints.cpp:446
 #, c-format
 msgid "Change footprint \"%s\" (from \"%s\") to \"%s\""
 msgstr "Změnit pouzdro \"%s\" (z \"%s\") na \"%s\""
 
-#: pcbnew/dialogs/dialog_exchange_footprints.cpp:453
+#: pcbnew/dialogs/dialog_exchange_footprints.cpp:455
 msgid "footprint not found"
 msgstr "pouzdro nenalezeno"
 
-#: pcbnew/dialogs/dialog_exchange_footprints.cpp:544
+#: pcbnew/dialogs/dialog_exchange_footprints.cpp:546
 msgid "No footprints!"
 msgstr "Žádná pouzdra!"
 
-#: pcbnew/dialogs/dialog_exchange_footprints.cpp:555
+#: pcbnew/dialogs/dialog_exchange_footprints.cpp:557
 msgid "Save Footprint Association File"
 msgstr "Uložit soubor přiřazení pouzder"
 
-#: pcbnew/dialogs/dialog_exchange_footprints.cpp:566
+#: pcbnew/dialogs/dialog_exchange_footprints.cpp:568
 #, c-format
 msgid "Could not create file \"%s\""
 msgstr "Nelze vytvořit soubor \"%s\""
@@ -22806,7 +22817,7 @@ msgstr "<package> Název: \"%s\" duplikované v Eagle <library>: \"%s\""
 msgid "No \"%s\" package in library \"%s\""
 msgstr "Balík \"%s\" není v knihovně \"%s\""
 
-#: pcbnew/eagle_plugin.cpp:1400
+#: pcbnew/eagle_plugin.cpp:1401
 #, c-format
 msgid ""
 "Line on copper layer in package %s (%f mm, %f mm) (%f mm, %f mm).\n"
@@ -22815,7 +22826,7 @@ msgstr ""
 "Čára na měděné vrstvě v balení %s (% f mm,% f mm) (% f mm,% f mm).\n"
 "Přechod na Dwgs. uživatelská vrstva"
 
-#: pcbnew/eagle_plugin.cpp:1521
+#: pcbnew/eagle_plugin.cpp:1522
 #, c-format
 msgid ""
 "Unsupported text on copper layer in package %s.\n"
@@ -22824,7 +22835,7 @@ msgstr ""
 "Nepodporovaný text na měděné vrstvě v balíčku %s. přechod na Dwgs. User "
 "vrstvy."
 
-#: pcbnew/eagle_plugin.cpp:1635
+#: pcbnew/eagle_plugin.cpp:1636
 #, c-format
 msgid ""
 "Unsupported rectangle on copper layer in package %s.\n"
@@ -22833,7 +22844,7 @@ msgstr ""
 "Nepodporovaný obdélník na měděné vrstvě v balíčku %s. přechod na Dwgs. User "
 "vrstvy."
 
-#: pcbnew/eagle_plugin.cpp:1678
+#: pcbnew/eagle_plugin.cpp:1679
 #, c-format
 msgid ""
 "Unsupported polygon on copper layer in package %s.\n"
@@ -22842,7 +22853,7 @@ msgstr ""
 "Nepodporovaný mnohoúhelník na měděné vrstvě v balíčku %s. přechod na Dwgs. "
 "User vrstvy."
 
-#: pcbnew/eagle_plugin.cpp:1763
+#: pcbnew/eagle_plugin.cpp:1764
 #, c-format
 msgid ""
 "Unsupported circle on copper layer in package %s.\n"
@@ -22851,7 +22862,7 @@ msgstr ""
 "Nepodporovaný kruh na měděné vrstvě v balíčku %s. přechod na Dwgs. User "
 "vrstvy."
 
-#: pcbnew/eagle_plugin.cpp:2230
+#: pcbnew/eagle_plugin.cpp:2231
 #, c-format
 msgid "Unsupported Eagle layer '%s' (%d), converted to Dwgs.User layer"
 msgstr ""
@@ -23531,7 +23542,7 @@ msgstr ""
 "Chyba %s."
 
 #: pcbnew/footprint_viewer_frame.cpp:708 pcbnew/footprint_viewer_frame.cpp:724
-#: pcbnew/footprint_wizard_frame.cpp:607 pcbnew/hotkeys.cpp:228
+#: pcbnew/footprint_wizard_frame.cpp:610 pcbnew/hotkeys.cpp:228
 #: pcbnew/pcb_base_frame.cpp:454
 msgid "3D Viewer"
 msgstr "3D prohlížeč"
@@ -23541,42 +23552,42 @@ msgstr "3D prohlížeč"
 msgid "Footprint Wizard"
 msgstr "Průvodce vytvořením pouzdra"
 
-#: pcbnew/footprint_wizard_frame.cpp:307
+#: pcbnew/footprint_wizard_frame.cpp:310
 msgid "Parameter"
 msgstr "Parametr"
 
-#: pcbnew/footprint_wizard_frame.cpp:634
+#: pcbnew/footprint_wizard_frame.cpp:637
 #, c-format
 msgid "ModView: 3D Viewer [%s]"
 msgstr "ModView: 3D zobrazovač [%s]"
 
-#: pcbnew/footprint_wizard_frame.cpp:657
+#: pcbnew/footprint_wizard_frame.cpp:660
 msgid "Select wizard script to run"
 msgstr "Vyberte skript průvodce, který chcete spustit"
 
-#: pcbnew/footprint_wizard_frame.cpp:663
+#: pcbnew/footprint_wizard_frame.cpp:666
 msgid "Reset wizard parameters to default"
 msgstr "Návrat na výchozí hodnoty"
 
-#: pcbnew/footprint_wizard_frame.cpp:669
+#: pcbnew/footprint_wizard_frame.cpp:672
 msgid "Select previous parameters page"
 msgstr "Zvolit předchozí stránku s parametry"
 
-#: pcbnew/footprint_wizard_frame.cpp:673
+#: pcbnew/footprint_wizard_frame.cpp:676
 msgid "Select next parameters page"
 msgstr "Zvolit další stránku s parametry"
 
-#: pcbnew/footprint_wizard_frame.cpp:678
+#: pcbnew/footprint_wizard_frame.cpp:681
 #: pcbnew/menubar_footprint_editor.cpp:202 pcbnew/tool_footprint_viewer.cpp:74
 #: pcbnew/tool_footprint_viewer.cpp:167
 msgid "Show footprint in 3D viewer"
 msgstr "Zobrazit pouzdro ve 3D prohlížeči"
 
-#: pcbnew/footprint_wizard_frame.cpp:696 pcbnew/tool_footprint_editor.cpp:129
+#: pcbnew/footprint_wizard_frame.cpp:699 pcbnew/tool_footprint_editor.cpp:129
 msgid "Zoom auto"
 msgstr "Auto zvětšení"
 
-#: pcbnew/footprint_wizard_frame.cpp:705
+#: pcbnew/footprint_wizard_frame.cpp:708
 msgid "Export footprint to editor"
 msgstr "Exportovat pouzdro do editoru"
 
@@ -24127,7 +24138,7 @@ msgstr ""
 msgid "UNKNOWN (%d)"
 msgstr "NEZNÁMÝ (%d)"
 
-#: pcbnew/kicad_clipboard.cpp:302
+#: pcbnew/kicad_clipboard.cpp:331
 msgid "Clipboard content is not KiCad compatible"
 msgstr "Obsah schránky není kompatibilní s KiCadem"
 
@@ -27376,7 +27387,7 @@ msgid "Add a pad"
 msgstr "Přidat plošku"
 
 #: pcbnew/tools/footprint_editor_tools.cpp:67
-#: pcbnew/tools/footprint_editor_tools.cpp:472
+#: pcbnew/tools/footprint_editor_tools.cpp:484
 msgid "Create Pad from Selected Shapes"
 msgstr "Vytvořit plošku z vybraných tvarů"
 
@@ -27413,14 +27424,15 @@ msgid "Click on successive pads to renumber them"
 msgstr "Klikněte na po sobě jdoucí podložky přečíslovat je"
 
 #: pcbnew/tools/footprint_editor_tools.cpp:238
+#: pcbnew/tools/footprint_editor_tools.cpp:256
 msgid "Renumber pads"
 msgstr "Přečíslovat plošky"
 
-#: pcbnew/tools/footprint_editor_tools.cpp:313
+#: pcbnew/tools/footprint_editor_tools.cpp:325
 msgid "Explode pad to shapes"
 msgstr "Rozbalit plošku na tvary"
 
-#: pcbnew/tools/footprint_editor_tools.cpp:381
+#: pcbnew/tools/footprint_editor_tools.cpp:393
 msgid ""
 "Cannot convert items to a custom-shaped pad:\n"
 "selection contains more than one reference pad."
@@ -27428,7 +27440,7 @@ msgstr ""
 "Nelze převést položky na vlastní podložku: výběr obsahuje více než jednu "
 "referenční podložku."
 
-#: pcbnew/tools/footprint_editor_tools.cpp:389
+#: pcbnew/tools/footprint_editor_tools.cpp:401
 msgid ""
 "Cannot convert items to a custom-shaped pad:\n"
 "selection contains unsupported items.\n"
@@ -27438,7 +27450,7 @@ msgstr ""
 "položky.\n"
 "Povoleny jsou pouze grafické čáry, kružnice, oblouky a mnohoúhelníky."
 
-#: pcbnew/tools/footprint_editor_tools.cpp:435
+#: pcbnew/tools/footprint_editor_tools.cpp:447
 msgid ""
 "Cannot convert items to a custom-shaped pad:\n"
 "unable to determine the anchor point position.\n"
@@ -27447,7 +27459,7 @@ msgstr ""
 "Položky nelze převést na vlastní panel: nelze určit polohu kotevního bodu.\n"
 "Zvažte přidání malého ukotvení podložky k výběru a akci opakujte."
 
-#: pcbnew/tools/footprint_editor_tools.cpp:458
+#: pcbnew/tools/footprint_editor_tools.cpp:470
 msgid ""
 "Cannot convert items to a custom-shaped pad:\n"
 "selected items do not form a single solid shape."
@@ -27540,7 +27552,7 @@ msgstr "Umístit lícovací značku vrstev"
 msgid "Duplicate zone"
 msgstr "Duplikovat zónu"
 
-#: pcbnew/tools/pcb_editor_control.cpp:1124
+#: pcbnew/tools/pcb_editor_control.cpp:1122
 msgid "Pick Components for Local Ratsnest"
 msgstr "Vybrat součástky pro místní naznačené spoje"
 
@@ -31255,9 +31267,6 @@ msgstr "Kontroluji zóny"
 
 #~ msgid "Recovery file "
 #~ msgstr "Obnovovací soubor"
-
-#~ msgid " not found."
-#~ msgstr " nenalezeno."
 
 #~ msgid ""
 #~ "This file was created by a more recent version of PCBnew and may not load "

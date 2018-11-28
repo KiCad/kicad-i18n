@@ -76,7 +76,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-28 14:10+0100\n"
+"POT-Creation-Date: 2018-11-28 23:37+0100\n"
 "PO-Revision-Date: 2018-11-28 14:11+0100\n"
 "Last-Translator: Marco Ciampa <ciampix@posteo.net>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
@@ -9163,7 +9163,8 @@ msgstr "Simbolo non trovato."
 #: eeschema/lib_manager.cpp:371
 #, c-format
 msgid "Error loading symbol \"%s\" from library \"%s\"."
-msgstr "Errore durante il caricamento del simbolo \"%s\" dalla libreria \"%s\"."
+msgstr ""
+"Errore durante il caricamento del simbolo \"%s\" dalla libreria \"%s\"."
 
 #: eeschema/lib_manager.cpp:542
 #, c-format
