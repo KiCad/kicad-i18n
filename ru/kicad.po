@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-28 23:37+0100\n"
-"PO-Revision-Date: 2018-09-15 12:50+0300\n"
+"PO-Revision-Date: 2018-11-29 10:03+0200\n"
 "Last-Translator: Baranovskiy Konstantin <baranovskiykonstantin@gmail.com>\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Poedit-KeywordsList: _;_HKI\n"
 "X-Poedit-Basepath: ../../kicad\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2\n"
 "X-Poedit-SearchPath-0: kicad\n"
 "X-Poedit-SearchPath-1: pcbnew\n"
 "X-Poedit-SearchPath-2: common\n"
@@ -1717,9 +1717,10 @@ msgid "The complete KiCad EDA Suite is released under the"
 msgstr "Программный комплекс KiCad EDA Suite распространяется под"
 
 #: common/dialog_about/AboutDialog_main.cpp:187
-#, fuzzy
 msgid "GNU Affero General Public License (AGPL) version 3 or any later version"
-msgstr "GNU General Public License (GPL) version 3 или любая поздняя версия"
+msgstr ""
+"GNU Affero General Public License (AGPL) версия 3 или другая более позняя "
+"версия"
 
 #: common/dialog_about/AboutDialog_main.cpp:379
 msgid "Others"
@@ -9048,12 +9049,11 @@ msgid "Cannot load aliases from library \"%s\""
 msgstr "Не удалось загрузить псевдонимы из библиотеки \"%s\""
 
 #: eeschema/lib_manager.cpp:364
-#, fuzzy
 msgid "Symbol not found."
-msgstr "Компонента не найден в %s!!!"
+msgstr "Компонент не найден."
 
 #: eeschema/lib_manager.cpp:371
-#, fuzzy, c-format
+#, c-format
 msgid "Error loading symbol \"%s\" from library \"%s\"."
 msgstr "При загрузке компонента \"%s\" из библиотеки \"%s\" возникла ошибка."
 
