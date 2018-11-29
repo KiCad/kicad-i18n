@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: KICAD\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-28 23:37+0100\n"
-"PO-Revision-Date: 2018-09-30 23:27+0800\n"
+"PO-Revision-Date: 2018-11-29 11:48+0800\n"
 "Last-Translator: Liu Guang <l.g110@163.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -30,11 +30,11 @@ msgstr "别名: "
 
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:505
 msgid "This path: "
-msgstr "该路径："
+msgstr "该路径： "
 
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:508
 msgid "Existing path: "
-msgstr "现有路径："
+msgstr "现有路径： "
 
 #: 3d-viewer/3d_cache/3d_filename_resolver.cpp:510
 msgid "Bad alias (duplicate name)"
@@ -1684,9 +1684,8 @@ msgid "The complete KiCad EDA Suite is released under the"
 msgstr "完整的KiCad EDA套件发布是根据"
 
 #: common/dialog_about/AboutDialog_main.cpp:187
-#, fuzzy
 msgid "GNU Affero General Public License (AGPL) version 3 or any later version"
-msgstr "GNU通用公共许可证（GPL）第3版或更高版本"
+msgstr "GNU Affero 通用公共许可证（AGPL）第3版或更高版本"
 
 #: common/dialog_about/AboutDialog_main.cpp:379
 msgid "Others"
@@ -8892,14 +8891,13 @@ msgid "Cannot load aliases from library \"%s\""
 msgstr "无法从库\"%s\"添加别名"
 
 #: eeschema/lib_manager.cpp:364
-#, fuzzy
 msgid "Symbol not found."
-msgstr "在%s中没有找到封装！！！"
+msgstr "没有找到符号。"
 
 #: eeschema/lib_manager.cpp:371
-#, fuzzy, c-format
+#, c-format
 msgid "Error loading symbol \"%s\" from library \"%s\"."
-msgstr "从库中%s加载符号%s发生错误。"
+msgstr "从库\"%s\"加载符号\"%s\"出错。"
 
 #: eeschema/lib_manager.cpp:542
 #, c-format
