@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-09 07:20-0300\n"
-"PO-Revision-Date: 2019-03-08 09:07-0300\n"
+"POT-Creation-Date: 2019-04-09 07:59-0300\n"
+"PO-Revision-Date: 2019-04-09 07:59-0300\n"
 "Last-Translator: Francisco R. Pereira <frosch_bin@yahoo.com.br>\n"
 "Language-Team: kicad team\n"
 "Language: pt_BR\n"
@@ -2336,6 +2336,15 @@ msgid ""
 "If this does not match the system DPI scaling, the canvas will not match the "
 "window size and cursor position."
 msgstr ""
+"Definir a escala para a tela.\n"
+"\n"
+"Em algumas plataformas com monitores de alto DPI, o KiCad não consegue "
+"determinar o fator de dimensionamento. Neste caso, talvez seja necessário "
+"definir um valor que corresponda à escala DPI do sistema. 2,0 é um valor "
+"comum.\n"
+"\n"
+"Se este valor não corresponder a escala DPI do sistema, a posição do cursor "
+"e tamanho da tela não corresponderão ao monitor."
 
 #: common/dialogs/panel_common_settings.cpp:62
 msgid ""
@@ -2344,6 +2353,10 @@ msgid ""
 "On some platforms, the automatic value is incorrect and should be set "
 "manually."
 msgstr ""
+"Utilizar um valor automático para a escala da tela.\n"
+"\n"
+"Em algumas plataformas, o valor automático estará incorreto e deverá ser "
+"definido manualmente."
 
 #: common/dialogs/panel_common_settings.cpp:236
 msgid "Executable files ("
@@ -2446,9 +2459,8 @@ msgid "Automatic"
 msgstr "Automático"
 
 #: common/dialogs/panel_common_settings_base.cpp:149
-#, fuzzy
 msgid "Canvas scale:"
-msgstr "Escala do ícone:"
+msgstr "Escala da tela:"
 
 #: common/dialogs/panel_common_settings_base.cpp:166
 msgid "Show icons in menus"
@@ -3730,7 +3742,7 @@ msgstr "Arquivos de biblioteca em XML ver. 6.x do Eagle"
 
 #: common/wildcards_and_files_ext.cpp:251
 msgid "Geda PCB footprint library files"
-msgstr "Arquivos de biblioteca de footprint PCB do Geda"
+msgstr "Arquivos de biblioteca de footprint PCI do Geda"
 
 #: common/wildcards_and_files_ext.cpp:257
 msgid "Page layout design files"
@@ -4381,9 +4393,8 @@ msgid "Delete all footprint associations"
 msgstr "Apagar todas as associações de footprint"
 
 #: cvpcb/toolbars_cvpcb.cpp:74
-#, fuzzy
 msgid "Footprint Filters:"
-msgstr "Filtros de Footprint"
+msgstr "Filtros de Footprint:"
 
 #: cvpcb/toolbars_cvpcb.cpp:82
 msgid "Filter footprint list by schematic symbol keywords"
@@ -5017,6 +5028,11 @@ msgid ""
 "from editing in Eeschema.  The symbol will not be included in\n"
 "the BOM and cannot be assigned a footprint."
 msgstr ""
+"Marcar esta opção faz com que o símbolo em questão apareça na\n"
+"caixa de diálogo \"adicionar porta de alimentação\".  Ele bloqueará o\n"
+"texto do valor para protegê-lo contra edição no Eeschema.  O símbolo\n"
+"não será incluído na lista de materiais e não será possível atribuir-lhe um "
+"footprint."
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:178
 msgid "Number of Units:"
@@ -12240,9 +12256,8 @@ msgid "Open Gerber File(s)"
 msgstr "Abrir Arquivo(s) Gerber"
 
 #: gerbview/files.cpp:301
-#, fuzzy
 msgid "File not found:"
-msgstr "Arquivo não encontrado"
+msgstr "Arquivo não encontrado:"
 
 #: gerbview/files.cpp:311 gerbview/files.cpp:313
 msgid "Loading Gerber files..."
@@ -16911,7 +16926,7 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:106
 msgid "Test tracks against filled copper areas (very slow)"
-msgstr ""
+msgstr "Testar trilhas contra áreas preenchidas de cobre (muito lento)"
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:107
 msgid ""
@@ -16920,6 +16935,11 @@ msgid ""
 "\n"
 "This test can be *very slow* for complicated designs."
 msgstr ""
+"Se selecionado, as trilhas serão testadas em relação às zonas cobreadas. \n"
+"Se as zonas de cobre estiverem atualizadas, este teste não deve ser "
+"necessário.\n"
+"\n"
+"Este teste pode ser *muito lento* em projetos mais complexos."
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:138
 msgid "Create report file:"
@@ -18734,9 +18754,8 @@ msgid "Text && Graphics default properties"
 msgstr "Propriedades padrão de Texto && Gráficos"
 
 #: pcbnew/dialogs/dialog_import_settings_base.cpp:60
-#, fuzzy
 msgid "Predefined Track and Via dimensions"
-msgstr "Dimensões de trilha e via pré-definidas:"
+msgstr "Dimensões de Trilha e Via pré-definidas"
 
 #: pcbnew/dialogs/dialog_import_settings_base.cpp:63
 msgid "Solder Mask/Paste defaults"
@@ -23396,38 +23415,32 @@ msgid "Board Editor"
 msgstr "Editor de Placa"
 
 #: pcbnew/import_gfx/dialog_import_gfx.cpp:268
-#, fuzzy
 msgid "All supported formats|"
-msgstr "Todos os formatos de biblioteca suportados|"
+msgstr "Todos os formatos suportados|"
 
 #: pcbnew/import_gfx/dialog_import_gfx.cpp:270
 msgid "Open File"
 msgstr "Abrir Arquivo"
 
 #: pcbnew/import_gfx/dialog_import_gfx.cpp:295
-#, fuzzy
 msgid "No file selected!"
-msgstr "nenhum arquivo selecionado"
+msgstr "Nenhum arquivo selecionado!"
 
 #: pcbnew/import_gfx/dialog_import_gfx.cpp:306
-#, fuzzy
 msgid "Please select a valid layer."
-msgstr "Por favor, selecione uma camada válida"
+msgstr "Por favor, selecione uma camada válida."
 
 #: pcbnew/import_gfx/dialog_import_gfx.cpp:336
-#, fuzzy
 msgid "Items Not Handled"
 msgstr "Itens Não Tratados"
 
 #: pcbnew/import_gfx/dialog_import_gfx.cpp:340
-#, fuzzy
 msgid "There is no plugin to handle this file type."
-msgstr "Não há nenhum plugin para lidar com este tipo de arquivo"
+msgstr "Não há um plugin para tratar este tipo de arquivo."
 
 #: pcbnew/import_gfx/dialog_import_gfx.cpp:389
-#, fuzzy
 msgid "No graphic items found in file to import."
-msgstr "Nenhum item gráfico encontrado no arquivo de importação"
+msgstr "Não há itens gráficos no arquivo para importar."
 
 #: pcbnew/import_gfx/dialog_import_gfx.cpp:466
 #: pcbnew/tools/drawing_tool.cpp:762
@@ -23475,9 +23488,8 @@ msgid "Import scale:"
 msgstr "Escala da importação:"
 
 #: pcbnew/import_gfx/dialog_import_gfx_base.h:84
-#, fuzzy
 msgid "Import Vector Graphics File"
-msgstr "Importar arquivo de gráficos vetoriais"
+msgstr "Importar Arquivo de Gráficos Vetoriais"
 
 #: pcbnew/initpcb.cpp:47
 msgid ""
@@ -24003,9 +24015,8 @@ msgid "Ro&ute"
 msgstr "Ro&tear"
 
 #: pcbnew/menubar_pcb_editor.cpp:176
-#, fuzzy
 msgid "Modern Toolset (Fallbac&k)"
-msgstr "Conjunto de Ferramentas Moderno (contingência)"
+msgstr "Conjunto de Ferramentas Moderno (&Contingência)"
 
 #: pcbnew/menubar_pcb_editor.cpp:194
 msgid "&Single Track"
@@ -24040,7 +24051,6 @@ msgid "Tune length of differential pair"
 msgstr "Ajustar o comprimento do par diferencial"
 
 #: pcbnew/menubar_pcb_editor.cpp:220
-#, fuzzy
 msgid "Tune Differential Pair S&kew/Phase"
 msgstr "Ajustar &Inclinação/Fase do Par Diferencial"
 
@@ -24129,33 +24139,28 @@ msgid "La&yer Alignment Target"
 msgstr "Alvo de Alinhamento de &Camada"
 
 #: pcbnew/menubar_pcb_editor.cpp:335
-#, fuzzy
 msgid "Dr&ill and Place Offset"
-msgstr "Deslocamento do Furo e &Posicionamento"
+msgstr "Deslocamento do Furo e Pos&icionamento"
 
 #: pcbnew/menubar_pcb_editor.cpp:336
 msgid "Place origin point for drill and place files"
 msgstr "Definir ponto de origem para arquivos de furação e posicionamento"
 
 #: pcbnew/menubar_pcb_editor.cpp:348
-#, fuzzy
 msgid "A&utomatically Place Off-Board Footprints"
-msgstr "Dispor a&utomaticamente campos de símbolos"
+msgstr "Dispor A&utomaticamente Footprints de Fora da Placa"
 
 #: pcbnew/menubar_pcb_editor.cpp:353
-#, fuzzy
 msgid "Automatically Place &Selected Components"
-msgstr "Dispor automaticamente os componentes selecionados"
+msgstr "Dispor Automaticamente os Componentes &Selecionados"
 
 #: pcbnew/menubar_pcb_editor.cpp:357
-#, fuzzy
 msgid "Place Footprints Au&tomatically"
-msgstr "Colocar a Âncora do Footprint"
+msgstr "Dispor Footprints Au&tomaticamente"
 
 #: pcbnew/menubar_pcb_editor.cpp:358
-#, fuzzy
 msgid "Automatically place all footprints"
-msgstr "Dispor a&utomaticamente campos de símbolos"
+msgstr "Dispor automaticamente todos os footprints"
 
 #: pcbnew/menubar_pcb_editor.cpp:368
 msgid "Load &Netlist..."
@@ -24166,9 +24171,8 @@ msgid "Read netlist and update board connectivity"
 msgstr "Ler netlist e atualizar a conectividade da placa"
 
 #: pcbnew/menubar_pcb_editor.cpp:374
-#, fuzzy
 msgid "Update &PCB from Schematic..."
-msgstr "Atualizar PCI a partir do Esquema…"
+msgstr "Atualizar &PCI a partir do Esquema…"
 
 #: pcbnew/menubar_pcb_editor.cpp:375
 msgid "Update PCB design with current schematic (forward annotation)"
@@ -24177,9 +24181,8 @@ msgstr ""
 "frente)"
 
 #: pcbnew/menubar_pcb_editor.cpp:381
-#, fuzzy
 msgid "Update &Footprints from Library..."
-msgstr "Atualizar Footprints a partir da Biblioteca.."
+msgstr "Atualizar &Footprints a partir da Biblioteca..."
 
 #: pcbnew/menubar_pcb_editor.cpp:382
 msgid "Update footprints to include any changes from the library"
@@ -24223,7 +24226,7 @@ msgstr "Exibir lista de teclas de atalho atual e comandos correspondentes"
 
 #: pcbnew/menubar_pcb_editor.cpp:471
 msgid "Cop&y"
-msgstr ""
+msgstr "Co&piar"
 
 #: pcbnew/menubar_pcb_editor.cpp:483 pcbnew/tool_pcb_editor.cpp:506
 msgid "Delete items"
@@ -24238,9 +24241,8 @@ msgid "Edit Text && &Graphic Properties..."
 msgstr "Editar Texto && Propriedades &Gráficas..."
 
 #: pcbnew/menubar_pcb_editor.cpp:499
-#, fuzzy
 msgid "C&hange Footprints..."
-msgstr "Trocar &Footprints…"
+msgstr "T&rocar Footprints…"
 
 #: pcbnew/menubar_pcb_editor.cpp:500
 msgid "Assign different footprints from the library"
@@ -24255,34 +24257,30 @@ msgid "Move tracks or drawings from a layer to another layer"
 msgstr "Mover trilhas ou desenhos de uma camada para outra"
 
 #: pcbnew/menubar_pcb_editor.cpp:510
-#, fuzzy
 msgid "Fill All &Zones"
-msgstr "Preencher Todas as Zonas"
+msgstr "Preencher Todas as &Zonas"
 
 #: pcbnew/menubar_pcb_editor.cpp:513
 msgid "Fill all zones on the board"
 msgstr "Preencher todas as zonas da placa"
 
 #: pcbnew/menubar_pcb_editor.cpp:516
-#, fuzzy
 msgid "U&nfill All Zones"
-msgstr "Remover Preenchimento de Todas as Zonas"
+msgstr "Remover Pree&nchimento de Todas as Zonas"
 
 #: pcbnew/menubar_pcb_editor.cpp:519
 msgid "Remove fill from all zones on the board"
 msgstr "Remover preenchimento de todas as zonas da placa"
 
 #: pcbnew/menubar_pcb_editor.cpp:525
-#, fuzzy
 msgid "Glo&bal Deletions..."
-msgstr "Exclusões Globais…"
+msgstr "Exclusões Glo&bais…"
 
 #: pcbnew/menubar_pcb_editor.cpp:526
 msgid "Delete tracks, footprints and graphic items from board"
 msgstr "Apagar trilhas, footprints e itens gráficos da placa"
 
 #: pcbnew/menubar_pcb_editor.cpp:530
-#, fuzzy
 msgid "C&leanup Tracks and Vias..."
 msgstr "&Limpar Trilhas e Vias…"
 
@@ -27014,9 +27012,8 @@ msgid "Drag a corner"
 msgstr "Arrasta um canto"
 
 #: pcbnew/tools/point_editor.cpp:650
-#, fuzzy
 msgid "Refill Zones"
-msgstr "Preencher Zonas %d"
+msgstr "Preencher Zonas"
 
 #: pcbnew/tools/point_editor.cpp:1056
 msgid "Add a zone corner"
