@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-09 07:59-0300\n"
+"POT-Creation-Date: 2019-04-13 09:07-0300\n"
 "PO-Revision-Date: 2019-04-09 07:59-0300\n"
 "Last-Translator: Francisco R. Pereira <frosch_bin@yahoo.com.br>\n"
 "Language-Team: kicad team\n"
@@ -805,40 +805,40 @@ msgstr "Exibir camadas ECO"
 msgid "3D Display Options"
 msgstr "Opções de exibição 3D"
 
-#: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:350
+#: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:380
 msgid "Background Color, Bottom"
 msgstr "Cor de Fundo, Base"
 
-#: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:361
+#: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:391
 msgid "Background Color, Top"
 msgstr "Cor de fundo, Topo"
 
-#: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:941
+#: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:971
 msgid "3D Image File Name"
 msgstr "Nome do Arquivo de Imagem 3D"
 
-#: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:983
+#: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:1013
 msgid "Failed to copy image to clipboard"
 msgstr "Falha ao copiar imagem para a área de transferência"
 
-#: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:994
+#: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:1024
 msgid "Can't save file"
 msgstr "Não foi possível salvar o arquivo"
 
-#: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:1042
-#: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:1074
+#: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:1072
+#: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:1104
 msgid "Solder Mask Color"
 msgstr "Cor da máscara de solda"
 
-#: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:1093
+#: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:1123
 msgid "Copper Color"
 msgstr "Cor do cobre"
 
-#: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:1117
+#: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:1147
 msgid "Board Body Color"
 msgstr "Cor do corpo da placa"
 
-#: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:1135
+#: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:1165
 msgid "Solder Paste Color"
 msgstr "Cor da pasta de solda"
 
@@ -998,8 +998,8 @@ msgid "pixels"
 msgstr "pixels"
 
 #: bitmap2component/bitmap2cmp_gui_base.cpp:78 common/base_units.cpp:443
-#: common/legacy_gal/eda_draw_frame.cpp:637
-#: common/legacy_wx/eda_draw_frame.cpp:645
+#: common/legacy_gal/eda_draw_frame.cpp:624
+#: common/legacy_wx/eda_draw_frame.cpp:632
 #: eeschema/dialogs/dialog_lib_edit_draw_item_base.cpp:32
 #: eeschema/dialogs/dialog_plot_schematic_base.cpp:93
 #: eeschema/dialogs/dialog_plot_schematic_base.cpp:129
@@ -1433,7 +1433,7 @@ msgstr "Informação"
 #: pcbnew/footprint_libraries_utils.cpp:484
 #: pcbnew/footprint_libraries_utils.cpp:972 pcbnew/router/router_tool.cpp:1020
 #: pcbnew/router/router_tool.cpp:1170 pcbnew/router/router_tool.cpp:1248
-#: pcbnew/zone_filler.cpp:227
+#: pcbnew/zone_filler.cpp:238
 msgid "Confirmation"
 msgstr "Confirmação"
 
@@ -2220,8 +2220,8 @@ msgid "Print Preview"
 msgstr "Pré-visualização"
 
 #: common/dialogs/dialog_print_generic.cpp:40
-#: common/legacy_gal/eda_draw_frame.cpp:1638
-#: common/legacy_wx/eda_draw_frame.cpp:1951
+#: common/legacy_gal/eda_draw_frame.cpp:1611
+#: common/legacy_wx/eda_draw_frame.cpp:1924
 #: eeschema/dialogs/dialog_annotate.cpp:116 eeschema/dialogs/dialog_bom.cpp:240
 #: eeschema/dialogs/dialog_erc.cpp:93
 #: eeschema/dialogs/dialog_netlist_base.cpp:49
@@ -2582,8 +2582,8 @@ msgstr "Exibir:"
 msgid "All"
 msgstr "Todas"
 
-#: common/dialogs/wx_html_report_panel_base.cpp:42 gerbview/files.cpp:369
-#: gerbview/files.cpp:486 gerbview/readgerb.cpp:72
+#: common/dialogs/wx_html_report_panel_base.cpp:42 gerbview/files.cpp:359
+#: gerbview/files.cpp:474 gerbview/readgerb.cpp:72
 msgid "Errors"
 msgstr "Erros"
 
@@ -3119,10 +3119,10 @@ msgstr "Enquadrar selecionado"
 msgid "Block Flip"
 msgstr "Inverter Bloco"
 
-#: common/legacy_gal/eda_draw_frame.cpp:197
-#: common/legacy_gal/eda_draw_frame.cpp:636
-#: common/legacy_wx/eda_draw_frame.cpp:200
-#: common/legacy_wx/eda_draw_frame.cpp:641
+#: common/legacy_gal/eda_draw_frame.cpp:196
+#: common/legacy_gal/eda_draw_frame.cpp:623
+#: common/legacy_wx/eda_draw_frame.cpp:199
+#: common/legacy_wx/eda_draw_frame.cpp:628
 #: gerbview/dialogs/panel_gerbview_settings_base.cpp:28
 #: pagelayout_editor/pl_editor_frame.cpp:120
 #: pcbnew/dialogs/dialog_gen_footprint_position_file_base.cpp:58
@@ -3133,20 +3133,20 @@ msgstr "Inverter Bloco"
 msgid "Inches"
 msgstr "Polegadas"
 
-#: common/legacy_gal/eda_draw_frame.cpp:446
-#: common/legacy_wx/eda_draw_frame.cpp:449
+#: common/legacy_gal/eda_draw_frame.cpp:433
+#: common/legacy_wx/eda_draw_frame.cpp:436
 #: cvpcb/display_footprints_frame.cpp:231 pcbnew/tool_footprint_editor.cpp:214
 #: pcbnew/tool_pcb_editor.cpp:365
 msgid "Hide grid"
 msgstr "Ocultar grade"
 
-#: common/legacy_gal/eda_draw_frame.cpp:446
-#: common/legacy_wx/eda_draw_frame.cpp:449
+#: common/legacy_gal/eda_draw_frame.cpp:433
+#: common/legacy_wx/eda_draw_frame.cpp:436
 msgid "Show grid"
 msgstr "Mostrar Grade"
 
-#: common/legacy_gal/eda_draw_frame.cpp:638
-#: common/legacy_wx/eda_draw_frame.cpp:649
+#: common/legacy_gal/eda_draw_frame.cpp:625
+#: common/legacy_wx/eda_draw_frame.cpp:636
 #: gerbview/dialogs/panel_gerbview_settings_base.cpp:30
 #: pcbnew/dialogs/dialog_gen_footprint_position_file_base.cpp:60
 #: pcbnew/dialogs/panel_modedit_settings_base.cpp:33
@@ -3155,8 +3155,8 @@ msgstr "Mostrar Grade"
 msgid "Units"
 msgstr "Unidades"
 
-#: common/legacy_gal/eda_draw_frame.cpp:1584
-#: common/legacy_wx/eda_draw_frame.cpp:1897 common/tool/actions.cpp:32
+#: common/legacy_gal/eda_draw_frame.cpp:1557
+#: common/legacy_wx/eda_draw_frame.cpp:1870 common/tool/actions.cpp:32
 #: common/widgets/mathplot.cpp:1754
 #: eeschema/dialogs/dialog_lib_edit_text_base.cpp:120
 #: eeschema/dialogs/dialog_lib_edit_text_base.cpp:150
@@ -3171,8 +3171,8 @@ msgstr "Unidades"
 msgid "Center"
 msgstr "Centro"
 
-#: common/legacy_gal/eda_draw_frame.cpp:1586
-#: common/legacy_wx/eda_draw_frame.cpp:1899 common/tool/actions.cpp:16
+#: common/legacy_gal/eda_draw_frame.cpp:1559
+#: common/legacy_wx/eda_draw_frame.cpp:1872 common/tool/actions.cpp:16
 #: common/widgets/mathplot.cpp:1756 eeschema/hotkeys.cpp:106
 #: eeschema/hotkeys.cpp:108 eeschema/sim/sim_plot_frame_base.cpp:77
 #: gerbview/hotkeys.cpp:65 pagelayout_editor/hotkeys.cpp:80
@@ -3181,8 +3181,8 @@ msgstr "Centro"
 msgid "Zoom In"
 msgstr "Ampliar"
 
-#: common/legacy_gal/eda_draw_frame.cpp:1588
-#: common/legacy_wx/eda_draw_frame.cpp:1901 common/tool/actions.cpp:20
+#: common/legacy_gal/eda_draw_frame.cpp:1561
+#: common/legacy_wx/eda_draw_frame.cpp:1874 common/tool/actions.cpp:20
 #: common/widgets/mathplot.cpp:1757 eeschema/hotkeys.cpp:113
 #: eeschema/hotkeys.cpp:115 eeschema/sim/sim_plot_frame_base.cpp:81
 #: gerbview/hotkeys.cpp:64 pagelayout_editor/hotkeys.cpp:79
@@ -3191,43 +3191,43 @@ msgstr "Ampliar"
 msgid "Zoom Out"
 msgstr "Reduzir"
 
-#: common/legacy_gal/eda_draw_frame.cpp:1590
-#: common/legacy_wx/eda_draw_frame.cpp:1903 pagelayout_editor/menubar.cpp:146
+#: common/legacy_gal/eda_draw_frame.cpp:1563
+#: common/legacy_wx/eda_draw_frame.cpp:1876 pagelayout_editor/menubar.cpp:146
 msgid "Redraw View"
 msgstr "Redesenhar Tela"
 
-#: common/legacy_gal/eda_draw_frame.cpp:1592
-#: common/legacy_wx/eda_draw_frame.cpp:1905 pagelayout_editor/menubar.cpp:128
+#: common/legacy_gal/eda_draw_frame.cpp:1565
+#: common/legacy_wx/eda_draw_frame.cpp:1878 pagelayout_editor/menubar.cpp:128
 msgid "Zoom to Fit"
 msgstr "Ajustar à Tela"
 
-#: common/legacy_gal/eda_draw_frame.cpp:1598
-#: common/legacy_wx/eda_draw_frame.cpp:1911 common/tool/zoom_menu.cpp:39
+#: common/legacy_gal/eda_draw_frame.cpp:1571
+#: common/legacy_wx/eda_draw_frame.cpp:1884 common/tool/zoom_menu.cpp:39
 msgid "Zoom"
 msgstr "Zoom"
 
-#: common/legacy_gal/eda_draw_frame.cpp:1611
-#: common/legacy_wx/eda_draw_frame.cpp:1924
+#: common/legacy_gal/eda_draw_frame.cpp:1584
+#: common/legacy_wx/eda_draw_frame.cpp:1897
 msgid "Zoom: "
 msgstr "Ampliação: "
 
-#: common/legacy_gal/eda_draw_frame.cpp:1622
-#: common/legacy_wx/eda_draw_frame.cpp:1935 common/tool/grid_menu.cpp:40
+#: common/legacy_gal/eda_draw_frame.cpp:1595
+#: common/legacy_wx/eda_draw_frame.cpp:1908 common/tool/grid_menu.cpp:40
 #: eeschema/widgets/widget_eeschema_color_config.cpp:97
-#: gerbview/gerbview_layer_widget.cpp:119 pcbnew/pcb_layer_widget.cpp:91
+#: gerbview/gerbview_layer_widget.cpp:114 pcbnew/pcb_layer_widget.cpp:91
 msgid "Grid"
 msgstr "Grade"
 
-#: common/legacy_gal/eda_draw_frame.cpp:1883
-#: common/legacy_wx/eda_draw_frame.cpp:1516
+#: common/legacy_gal/eda_draw_frame.cpp:1856
+#: common/legacy_wx/eda_draw_frame.cpp:1489
 #: eeschema/dialogs/panel_sym_lib_table.cpp:348
 #: pcbnew/dialogs/panel_fp_lib_table.cpp:615
 #: pcbnew/footprint_libraries_utils.cpp:77
 msgid "Select Library"
 msgstr "Selecionar Biblioteca"
 
-#: common/legacy_gal/eda_draw_frame.cpp:1883
-#: common/legacy_wx/eda_draw_frame.cpp:1516
+#: common/legacy_gal/eda_draw_frame.cpp:1856
+#: common/legacy_wx/eda_draw_frame.cpp:1489
 msgid "New Library"
 msgstr "Nova Biblioteca"
 
@@ -3441,7 +3441,7 @@ msgid "Cancel current tool"
 msgstr "Cancelar ferramenta atual"
 
 #: common/tool/actions.cpp:36 eeschema/hotkeys.cpp:89
-#: gerbview/gerbview_frame.cpp:1270 gerbview/hotkeys.cpp:61
+#: gerbview/gerbview_frame.cpp:1250 gerbview/hotkeys.cpp:61
 #: pagelayout_editor/hotkeys.cpp:75 pcbnew/hotkeys.cpp:215
 #: pcbnew/hotkeys.cpp:217 pcbnew/pcb_base_frame.cpp:1054
 msgid "Zoom Auto"
@@ -3588,8 +3588,8 @@ msgid "<no net>"
 msgstr "<nenhuma rede>"
 
 #: common/widgets/net_selector.cpp:72
-#: eeschema/dialogs/dialog_edit_component_in_lib.cpp:773
-#: eeschema/dialogs/dialog_edit_component_in_lib.cpp:812
+#: eeschema/dialogs/dialog_edit_component_in_lib.cpp:781
+#: eeschema/dialogs/dialog_edit_component_in_lib.cpp:820
 msgid "Filter:"
 msgstr "Filtro:"
 
@@ -3707,7 +3707,7 @@ msgstr "Arquivos XML do Eagle"
 msgid "KiCad netlist files"
 msgstr "Arquivos netlist do Kicad"
 
-#: common/wildcards_and_files_ext.cpp:197 gerbview/files.cpp:57
+#: common/wildcards_and_files_ext.cpp:197 gerbview/files.cpp:54
 msgid "Gerber files"
 msgstr "Arquivos Gerber"
 
@@ -3752,7 +3752,7 @@ msgstr "Arquivos de desenho de layout de página"
 msgid "KiCad symbol footprint link files"
 msgstr "Arquivos de ligação entre símbolos e footprints do KiCad"
 
-#: common/wildcards_and_files_ext.cpp:271 gerbview/files.cpp:71
+#: common/wildcards_and_files_ext.cpp:271 gerbview/files.cpp:68
 msgid "Drill files"
 msgstr "Arquivos de furação"
 
@@ -4077,7 +4077,7 @@ msgstr "Variáveis de ambiente disponíveis para caminhos relativos:"
 #: eeschema/lib_field.cpp:629 eeschema/sch_component.cpp:1444
 #: eeschema/sch_component.cpp:1483 eeschema/template_fieldnames.cpp:48
 #: eeschema/widgets/widget_eeschema_color_config.cpp:76
-#: pcbnew/class_text_mod.cpp:374
+#: pcbnew/class_text_mod.cpp:412
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:70
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor_base.cpp:70
 #: pcbnew/dialogs/dialog_fp_plugin_options_base.cpp:44
@@ -4845,12 +4845,12 @@ msgid "No symbol selected"
 msgstr "Nenhum símbolo selecionado"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:251
-#: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:292
+#: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:324
 msgid "References must start with a letter."
 msgstr "Referências devem começar com uma letra."
 
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:271
-#: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:344
+#: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:376
 msgid "Fields must have a name."
 msgstr "Campos devem ter um nome."
 
@@ -4870,35 +4870,39 @@ msgstr ""
 "símbolo?"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:441
-#: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:531
+#: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:563
 #, c-format
 msgid "The first %d fields are mandatory."
 msgstr "Os primeiros %d campos são obrigatórios."
 
-#: eeschema/dialogs/dialog_edit_component_in_lib.cpp:668
+#: eeschema/dialogs/dialog_edit_component_in_lib.cpp:663
+msgid "Alias can not have same name as symbol."
+msgstr ""
+
+#: eeschema/dialogs/dialog_edit_component_in_lib.cpp:676
 #, c-format
 msgid "Alias \"%s\" already exists."
 msgstr "O alias \"%s\" já existe."
 
-#: eeschema/dialogs/dialog_edit_component_in_lib.cpp:683
+#: eeschema/dialogs/dialog_edit_component_in_lib.cpp:691
 #, c-format
 msgid "Symbol name \"%s\" already exists in library \"%s\"."
 msgstr "O nome do símbolo \"%s\" já existe na biblioteca \"%s\"."
 
-#: eeschema/dialogs/dialog_edit_component_in_lib.cpp:700
+#: eeschema/dialogs/dialog_edit_component_in_lib.cpp:708
 msgid "untitled"
 msgstr "sem título"
 
-#: eeschema/dialogs/dialog_edit_component_in_lib.cpp:704
+#: eeschema/dialogs/dialog_edit_component_in_lib.cpp:712
 #, c-format
 msgid "untitled%i"
 msgstr "sem título%i"
 
-#: eeschema/dialogs/dialog_edit_component_in_lib.cpp:773
+#: eeschema/dialogs/dialog_edit_component_in_lib.cpp:781
 msgid "Add Footprint Filter"
 msgstr "Adicionar filtro de Footprint"
 
-#: eeschema/dialogs/dialog_edit_component_in_lib.cpp:812
+#: eeschema/dialogs/dialog_edit_component_in_lib.cpp:820
 msgid "Edit Footprint Filter"
 msgstr "Editar Filtro de Footprint"
 
@@ -5204,11 +5208,11 @@ msgstr "Editar Modelo Spice..."
 msgid "Library Symbol Properties"
 msgstr "Propriedades da Bibliotecas de Símbolos"
 
-#: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:304
+#: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:336
 msgid "Library reference is not valid."
 msgstr "Referência da biblioteca não é válida."
 
-#: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:324
+#: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:356
 #, c-format
 msgid "Symbol \"%s\" not found in library \"%s\"."
 msgstr "Símbolo \"%s\" não encontrado na biblioteca \"%s\"."
@@ -5724,7 +5728,7 @@ msgstr "Referência"
 #: eeschema/lib_field.cpp:470 eeschema/sch_component.cpp:1469
 #: eeschema/template_fieldnames.cpp:49 pcbnew/class_edge_mod.cpp:285
 #: pcbnew/class_module.cpp:616 pcbnew/class_pad.cpp:768
-#: pcbnew/class_text_mod.cpp:378 pcbnew/load_select_footprint.cpp:353
+#: pcbnew/class_text_mod.cpp:416 pcbnew/load_select_footprint.cpp:353
 msgid "Footprint"
 msgstr "Footprint"
 
@@ -8689,7 +8693,7 @@ msgstr "Círculo"
 #: eeschema/lib_draw_item.cpp:62 eeschema/lib_pin.cpp:1715
 #: eeschema/libedit/libedit.cpp:834 eeschema/sch_text.cpp:628
 #: gerbview/gerber_draw_item.cpp:692 pcbnew/class_drawsegment.cpp:442
-#: pcbnew/class_marker_pcb.cpp:96 pcbnew/class_text_mod.cpp:384
+#: pcbnew/class_marker_pcb.cpp:96 pcbnew/class_text_mod.cpp:422
 #: pcbnew/class_track.cpp:1172 pcbnew/class_track.cpp:1199
 #: pcbnew/class_track.cpp:1248 pcbnew/class_zone.cpp:815
 msgid "Type"
@@ -8719,7 +8723,7 @@ msgstr "Campo %s \"%s\""
 
 #: eeschema/lib_field.cpp:620 pcbnew/class_drawsegment.cpp:494
 #: pcbnew/class_pad.cpp:782 pcbnew/class_pcb_text.cpp:142
-#: pcbnew/class_text_mod.cpp:410 pcbnew/class_track.cpp:1187
+#: pcbnew/class_text_mod.cpp:448 pcbnew/class_track.cpp:1187
 #: pcbnew/class_track.cpp:1214
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:55
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor_base.cpp:55
@@ -8730,7 +8734,7 @@ msgid "Width"
 msgstr "Largura"
 
 #: eeschema/lib_field.cpp:623 pcbnew/class_pad.cpp:785
-#: pcbnew/class_pcb_text.cpp:145 pcbnew/class_text_mod.cpp:413
+#: pcbnew/class_pcb_text.cpp:145 pcbnew/class_text_mod.cpp:451
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:56
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor_base.cpp:56
 #: pcbnew/text_mod_grid_table.cpp:88
@@ -8739,14 +8743,14 @@ msgstr "Altura"
 
 #: eeschema/lib_pin.cpp:1722 gerbview/gerber_draw_item.cpp:722
 #: gerbview/gerber_draw_item.cpp:723 pcbnew/class_pcb_text.cpp:133
-#: pcbnew/class_text_mod.cpp:389 pcbnew/class_text_mod.cpp:397
+#: pcbnew/class_text_mod.cpp:427 pcbnew/class_text_mod.cpp:435
 #: pcbnew/dialogs/panel_pcbnew_settings_base.cpp:130
 msgid "Yes"
 msgstr "Sim"
 
 #: eeschema/lib_pin.cpp:1724 gerbview/gerber_draw_item.cpp:722
 #: gerbview/gerber_draw_item.cpp:723 pcbnew/class_pcb_text.cpp:131
-#: pcbnew/class_text_mod.cpp:387 pcbnew/class_text_mod.cpp:399
+#: pcbnew/class_text_mod.cpp:425 pcbnew/class_text_mod.cpp:437
 #: pcbnew/dialogs/panel_pcbnew_settings_base.cpp:130
 msgid "No"
 msgstr "Não"
@@ -8795,7 +8799,7 @@ msgstr "Texto Gráfico \"%s\""
 
 #: eeschema/lib_text.h:70
 #: pagelayout_editor/dialogs/dialog_new_dataitem_base.cpp:145
-#: pcbnew/class_text_mod.cpp:374 pcbnew/class_text_mod.cpp:381
+#: pcbnew/class_text_mod.cpp:412 pcbnew/class_text_mod.cpp:419
 #: pcbnew/dialogs/dialog_global_deletion_base.cpp:28
 msgid "Text"
 msgstr "Texto"
@@ -10721,16 +10725,16 @@ msgstr "Entrada de Barramento para Fio"
 msgid "Bus to Bus Entry"
 msgstr "Entrada de Barramento para Barramento"
 
-#: eeschema/sch_collectors.cpp:360 pcbnew/class_board.cpp:77
+#: eeschema/sch_collectors.cpp:361 pcbnew/class_board.cpp:77
 msgid "(Deleted Item)"
 msgstr "(Item Apagado)"
 
-#: eeschema/sch_collectors.cpp:511
+#: eeschema/sch_collectors.cpp:512
 #, c-format
 msgid "Match %i of %i: %s of %s in sheet %s"
 msgstr "Correspondência %i de %i: %s de %s na folha %s"
 
-#: eeschema/sch_collectors.cpp:520
+#: eeschema/sch_collectors.cpp:521
 #, c-format
 msgid "Match %i of %i: %s in sheet %s"
 msgstr "Correspondência %i de %i: %s na folha %s"
@@ -11871,7 +11875,7 @@ msgid "Hidden items"
 msgstr "Itens ocultos"
 
 #: eeschema/widgets/widget_eeschema_color_config.cpp:95
-#: gerbview/gerbview_layer_widget.cpp:120 pcbnew/pcb_layer_widget.cpp:88
+#: gerbview/gerbview_layer_widget.cpp:115 pcbnew/pcb_layer_widget.cpp:88
 msgid "Worksheet"
 msgstr "Folha de Desenho"
 
@@ -11881,7 +11885,7 @@ msgid "Cursor"
 msgstr "Cursor"
 
 #: eeschema/widgets/widget_eeschema_color_config.cpp:98
-#: gerbview/gerbview_layer_widget.cpp:121 pcbnew/pcb_layer_widget.cpp:92
+#: gerbview/gerbview_layer_widget.cpp:116 pcbnew/pcb_layer_widget.cpp:92
 msgid "Background"
 msgstr "Cor de fundo"
 
@@ -12009,7 +12013,7 @@ msgstr "Não exportar"
 
 #: gerbview/dialogs/dialog_select_one_pcb_layer.cpp:166
 #: pcbnew/class_drawsegment.cpp:491 pcbnew/class_pad.cpp:776
-#: pcbnew/class_pcb_text.cpp:128 pcbnew/class_text_mod.cpp:394
+#: pcbnew/class_pcb_text.cpp:128 pcbnew/class_text_mod.cpp:432
 #: pcbnew/class_track.cpp:1182 pcbnew/class_track.cpp:1209
 #: pcbnew/class_zone.cpp:861 pcbnew/dialogs/dialog_copper_zones_base.cpp:22
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:59
@@ -12176,13 +12180,13 @@ msgstr "Nome do Arquivo de Placa"
 msgid "Cannot create file \"%s\""
 msgstr "Impossível criar o arquivo \"%s\""
 
-#: gerbview/files.cpp:50
+#: gerbview/files.cpp:46
 msgid "<b>No more available free graphic layer</b> in Gerbview to load files"
 msgstr ""
 "<b>Nenhuma camada gráfica livre disponível</b> no Gerbview para carregar "
 "arquivos"
 
-#: gerbview/files.cpp:51
+#: gerbview/files.cpp:47
 #, c-format
 msgid ""
 "\n"
@@ -12191,107 +12195,107 @@ msgstr ""
 "\n"
 "<b>Não carregado:</b> <i>%s</i>"
 
-#: gerbview/files.cpp:84
+#: gerbview/files.cpp:81
 msgid "Zip files"
 msgstr "Arquivos zip"
 
-#: gerbview/files.cpp:97
+#: gerbview/files.cpp:93
 msgid "Job files"
 msgstr "Arquivos de trabalho"
 
-#: gerbview/files.cpp:203
+#: gerbview/files.cpp:196
 msgid "Gerber files (.g* .lgr .pho)"
 msgstr "Arquivos Gerber (.g* .lgr .pho)"
 
-#: gerbview/files.cpp:209
+#: gerbview/files.cpp:202
 msgid "Top layer (*.GTL)|*.GTL;*.gtl|"
 msgstr "Camada Superior (*.GTL)|*.GTL;*.gtl|"
 
-#: gerbview/files.cpp:210
+#: gerbview/files.cpp:203
 msgid "Bottom layer (*.GBL)|*.GBL;*.gbl|"
 msgstr "Camada inferior (*.GBL)|*.GBL;*.gbl|"
 
-#: gerbview/files.cpp:211
+#: gerbview/files.cpp:204
 msgid "Bottom solder resist (*.GBS)|*.GBS;*.gbs|"
 msgstr "Bottom solder resist (*.GBS)|*.GBS;*.gbs|"
 
-#: gerbview/files.cpp:212
+#: gerbview/files.cpp:205
 msgid "Top solder resist (*.GTS)|*.GTS;*.gts|"
 msgstr "Máscara de solda superior (*.GTS)|*.GTS;*.gts|"
 
-#: gerbview/files.cpp:213
+#: gerbview/files.cpp:206
 msgid "Bottom overlay (*.GBO)|*.GBO;*.gbo|"
 msgstr "Sobreposição inferior (*.GBO)|*.GBO;*.gbo|"
 
-#: gerbview/files.cpp:214
+#: gerbview/files.cpp:207
 msgid "Top overlay (*.GTO)|*.GTO;*.gto|"
 msgstr "Top overlay (*.GTO)|*.GTO;*.gto|"
 
-#: gerbview/files.cpp:215
+#: gerbview/files.cpp:208
 msgid "Bottom paste (*.GBP)|*.GBP;*.gbp|"
 msgstr "Pasta de solda inferior (*.GBP)|*.GBP;*.gto|"
 
-#: gerbview/files.cpp:216
+#: gerbview/files.cpp:209
 msgid "Top paste (*.GTP)|*.GTP;*.gtp|"
 msgstr "Pasta superior (*.GTP)|*.GTP;*.gtp|"
 
-#: gerbview/files.cpp:217
+#: gerbview/files.cpp:210
 msgid "Keep-out layer (*.GKO)|*.GKO;*.gko|"
 msgstr "Camada isolamento (*.GTP)|*.GTP;*.gtp|"
 
-#: gerbview/files.cpp:218
+#: gerbview/files.cpp:211
 msgid "Mechanical layers (*.GMx)|*.GM1;*.gm1;*.GM2;*.gm2;*.GM3;*.gm3|"
 msgstr "Camadas mecânicas (*.GMx)|*.GM1;*.gm1;*.GM2;*.gm2;*.GM3;*.gm3|"
 
-#: gerbview/files.cpp:219
+#: gerbview/files.cpp:212
 msgid "Top Pad Master (*.GPT)|*.GPT;*.gpt|"
 msgstr "Top Pad Master (*.GPT)|*.GPT;*.gpt|"
 
-#: gerbview/files.cpp:220
+#: gerbview/files.cpp:213
 msgid "Bottom Pad Master (*.GPB)|*.GPB;*.gpb|"
 msgstr "Bottom Pad Master (*.GPB)|*.GPB;*.gpb|"
 
-#: gerbview/files.cpp:238
+#: gerbview/files.cpp:231
 msgid "Open Gerber File(s)"
 msgstr "Abrir Arquivo(s) Gerber"
 
-#: gerbview/files.cpp:301
+#: gerbview/files.cpp:293
 msgid "File not found:"
 msgstr "Arquivo não encontrado:"
 
-#: gerbview/files.cpp:311 gerbview/files.cpp:313
+#: gerbview/files.cpp:303 gerbview/files.cpp:305
 msgid "Loading Gerber files..."
 msgstr "Carregando Arquivos Gerber…"
 
-#: gerbview/files.cpp:418
+#: gerbview/files.cpp:408
 msgid "Open NC (Excellon) Drill File(s)"
 msgstr "Abrir Arquivo(s) de Perfuração NC (Excellon)"
 
-#: gerbview/files.cpp:517
+#: gerbview/files.cpp:505
 #, c-format
 msgid "Zip file \"%s\" cannot be opened"
 msgstr "O arquivo zip \"%s\" não pode ser aberto"
 
-#: gerbview/files.cpp:559
+#: gerbview/files.cpp:547
 #, c-format
 msgid "Info: skip file <i>\"%s\"</i> (unknown type)\n"
 msgstr "Info: arquivo ignorado <i>\"%s\"</i> (tipo desconhecido)\n"
 
-#: gerbview/files.cpp:601
+#: gerbview/files.cpp:589
 #, c-format
 msgid "<b>Unable to create temporary file \"%s\"</b>\n"
 msgstr "<b>Não foi possível criar o arquivo temporário \"%s\"</b>\n"
 
-#: gerbview/files.cpp:631
+#: gerbview/files.cpp:619
 #, c-format
 msgid "<b>unzipped file %s read error</b>\n"
 msgstr "<b>erro de leitura no arquivo descompactado %s</b>\n"
 
-#: gerbview/files.cpp:668
+#: gerbview/files.cpp:656
 msgid "Open Zip File"
 msgstr "Abrir Arquivo Zip"
 
-#: gerbview/files.cpp:705 gerbview/job_file_reader.cpp:220
+#: gerbview/files.cpp:693 gerbview/job_file_reader.cpp:220
 #: pcbnew/dialogs/dialog_drc_base.cpp:120
 #: pcbnew/dialogs/dialog_footprint_wizard_list_base.cpp:91
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:206
@@ -12324,7 +12328,7 @@ msgid "Polarity"
 msgstr "Polaridade"
 
 #: gerbview/gerber_draw_item.cpp:724 pcbnew/class_pcb_text.cpp:131
-#: pcbnew/class_pcb_text.cpp:133 pcbnew/class_text_mod.cpp:401
+#: pcbnew/class_pcb_text.cpp:133 pcbnew/class_text_mod.cpp:439
 #: pcbnew/footprint_editor_onclick.cpp:290 pcbnew/tools/edit_tool.cpp:123
 #: pcbnew/tools/edit_tool.cpp:826
 msgid "Mirror"
@@ -12386,12 +12390,12 @@ msgstr "Camada gráfica %d"
 msgid "Gerbview"
 msgstr "Gerbview"
 
-#: gerbview/gerbview_frame.cpp:158 pcbnew/footprint_edit_frame.cpp:319
+#: gerbview/gerbview_frame.cpp:154 pcbnew/footprint_edit_frame.cpp:319
 #: pcbnew/footprint_edit_frame.cpp:725 pcbnew/pcb_edit_frame.cpp:374
 msgid "Layers Manager"
 msgstr "Gerenciador de Camadas"
 
-#: gerbview/gerbview_frame.cpp:179 pcbnew/pcb_edit_frame.cpp:400
+#: gerbview/gerbview_frame.cpp:175 pcbnew/pcb_edit_frame.cpp:400
 msgid ""
 "KiCad can use your graphics card to give you a smoother and faster "
 "experience. This option is turned off by default since it is not compatible "
@@ -12411,105 +12415,105 @@ msgstr ""
 "Se você quiser escolher mais tarde, selecione o Conjunto de Ferramentas "
 "Moderno (acelerado) no menu Preferências."
 
-#: gerbview/gerbview_frame.cpp:186 pcbnew/pcb_edit_frame.cpp:407
+#: gerbview/gerbview_frame.cpp:182 pcbnew/pcb_edit_frame.cpp:407
 msgid "Enable Graphics Acceleration"
 msgstr "Ativar Aceleração Gráfica"
 
-#: gerbview/gerbview_frame.cpp:188 pcbnew/pcb_edit_frame.cpp:410
+#: gerbview/gerbview_frame.cpp:184 pcbnew/pcb_edit_frame.cpp:410
 msgid "&Enable Acceleration"
 msgstr "&Ativar Aceleração"
 
-#: gerbview/gerbview_frame.cpp:188 pcbnew/pcb_edit_frame.cpp:410
+#: gerbview/gerbview_frame.cpp:184 pcbnew/pcb_edit_frame.cpp:410
 msgid "&No Thanks"
 msgstr "&Não Obrigado"
 
-#: gerbview/gerbview_frame.cpp:619
+#: gerbview/gerbview_frame.cpp:615
 msgid "D Codes"
 msgstr "Códigos D"
 
-#: gerbview/gerbview_frame.cpp:728
+#: gerbview/gerbview_frame.cpp:724
 #, c-format
 msgid "Drawing layer %d not in use"
 msgstr "A camada de desenho %d não está em uso"
 
-#: gerbview/gerbview_frame.cpp:740
+#: gerbview/gerbview_frame.cpp:736
 msgid "GerbView"
 msgstr "GerbView"
 
-#: gerbview/gerbview_frame.cpp:742
+#: gerbview/gerbview_frame.cpp:738
 msgid " (with X2 attributes)"
 msgstr " (com atributos X2)"
 
-#: gerbview/gerbview_frame.cpp:750
+#: gerbview/gerbview_frame.cpp:746
 #, c-format
 msgid "Image name: \"%s\"  Layer name: \"%s\""
 msgstr "Nome da imagem: \"%s\"  Nome da camada: \"%s\""
 
-#: gerbview/gerbview_frame.cpp:766
+#: gerbview/gerbview_frame.cpp:762
 msgid "X2 attr"
 msgstr "X2 attr"
 
-#: gerbview/gerbview_frame.cpp:1275 pcbnew/pcb_base_frame.cpp:1059
+#: gerbview/gerbview_frame.cpp:1255 pcbnew/pcb_base_frame.cpp:1059
 msgid "Zoom "
 msgstr "Zoom "
 
-#: gerbview/gerbview_layer_widget.cpp:95 pcbnew/class_track.cpp:1264
+#: gerbview/gerbview_layer_widget.cpp:90 pcbnew/class_track.cpp:1264
 #: pcbnew/dialogs/dialog_board_setup.cpp:47
 #: pcbnew/dialogs/dialog_export_svg_base.cpp:46 pcbnew/layer_widget.cpp:497
 #: pcbnew/pcb_layer_widget.cpp:381
 msgid "Layers"
 msgstr "Camadas"
 
-#: gerbview/gerbview_layer_widget.cpp:96 pcbnew/layer_widget.cpp:517
+#: gerbview/gerbview_layer_widget.cpp:91 pcbnew/layer_widget.cpp:517
 #: pcbnew/pcb_layer_widget.cpp:382
 msgid "Items"
 msgstr "Itens"
 
-#: gerbview/gerbview_layer_widget.cpp:116
+#: gerbview/gerbview_layer_widget.cpp:111
 msgid "DCodes"
 msgstr "DCodes"
 
-#: gerbview/gerbview_layer_widget.cpp:116
+#: gerbview/gerbview_layer_widget.cpp:111
 msgid "Show DCodes identification"
 msgstr "Mostrar identificação DCodes"
 
-#: gerbview/gerbview_layer_widget.cpp:117
+#: gerbview/gerbview_layer_widget.cpp:112
 msgid "Negative Objects"
 msgstr "Objetos Negativos"
 
-#: gerbview/gerbview_layer_widget.cpp:117
+#: gerbview/gerbview_layer_widget.cpp:112
 msgid "Show negative objects in this color"
 msgstr "Exibir objetos negativos nesta cor"
 
-#: gerbview/gerbview_layer_widget.cpp:119 pcbnew/pcb_layer_widget.cpp:91
+#: gerbview/gerbview_layer_widget.cpp:114 pcbnew/pcb_layer_widget.cpp:91
 msgid "Show the (x,y) grid dots"
 msgstr "Mostrar os pontos da grade (x,y)"
 
-#: gerbview/gerbview_layer_widget.cpp:120 pcbnew/pcb_layer_widget.cpp:88
+#: gerbview/gerbview_layer_widget.cpp:115 pcbnew/pcb_layer_widget.cpp:88
 msgid "Show worksheet"
 msgstr "Exibir folha de desenho"
 
-#: gerbview/gerbview_layer_widget.cpp:121 pcbnew/pcb_layer_widget.cpp:92
+#: gerbview/gerbview_layer_widget.cpp:116 pcbnew/pcb_layer_widget.cpp:92
 msgid "PCB Background"
 msgstr "Fundo da PCI"
 
-#: gerbview/gerbview_layer_widget.cpp:140 pcbnew/pcb_layer_widget.cpp:194
+#: gerbview/gerbview_layer_widget.cpp:135 pcbnew/pcb_layer_widget.cpp:194
 msgid "Show All Layers"
 msgstr "Exibir Todas as Camadas"
 
-#: gerbview/gerbview_layer_widget.cpp:144
+#: gerbview/gerbview_layer_widget.cpp:139
 msgid "Hide All Layers But Active"
 msgstr "Ocultar Todas as Camadas Menos a Ativa"
 
-#: gerbview/gerbview_layer_widget.cpp:148
+#: gerbview/gerbview_layer_widget.cpp:143
 msgid "Always Hide All Layers But Active"
 msgstr "Sempre Ocultar Todas as Camadas Menos a Ativa"
 
-#: gerbview/gerbview_layer_widget.cpp:151 pcbnew/pcb_layer_widget.cpp:192
+#: gerbview/gerbview_layer_widget.cpp:146 pcbnew/pcb_layer_widget.cpp:192
 msgid "Hide All Layers"
 msgstr "Ocultar Todas as Camadas"
 
-#: gerbview/gerbview_layer_widget.cpp:155
+#: gerbview/gerbview_layer_widget.cpp:150
 msgid "Sort Layers if X2 Mode"
 msgstr "Classificar Camadas se em Modo X2"
 
@@ -14817,7 +14821,7 @@ msgstr "Z"
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:949
 #: pcbnew/class_drawsegment.cpp:458 pcbnew/class_drawsegment.cpp:479
 #: pcbnew/class_pad.cpp:810 pcbnew/class_pcb_text.cpp:136
-#: pcbnew/class_text_mod.cpp:404
+#: pcbnew/class_text_mod.cpp:442
 msgid "Angle"
 msgstr "Ângulo"
 
@@ -15936,7 +15940,7 @@ msgstr "<nenhuma referência>"
 msgid "Footprint %s on %s"
 msgstr "Footprint %s em %s"
 
-#: pcbnew/class_module.cpp:1446
+#: pcbnew/class_module.cpp:1457
 #, c-format
 msgid "Processing courtyard of \"%s\": %s"
 msgstr "Processando o pátio de \"%s\": %s"
@@ -16036,37 +16040,37 @@ msgstr "Dimensão"
 msgid "PCB Text"
 msgstr "Texto da PCI"
 
-#: pcbnew/class_pcb_text.cpp:139 pcbnew/class_text_mod.cpp:407
+#: pcbnew/class_pcb_text.cpp:139 pcbnew/class_text_mod.cpp:445
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:57
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor_base.cpp:57
 #: pcbnew/text_mod_grid_table.cpp:89
 msgid "Thickness"
 msgstr "Espessura"
 
-#: pcbnew/class_pcb_text.cpp:183
+#: pcbnew/class_pcb_text.cpp:192
 #, c-format
 msgid "Pcb Text \"%s\" on %s"
 msgstr "Texto da PCI \"%s\" em %s"
 
-#: pcbnew/class_text_mod.cpp:374
+#: pcbnew/class_text_mod.cpp:412
 msgid "Ref."
 msgstr "Ref."
 
-#: pcbnew/class_text_mod.cpp:391
+#: pcbnew/class_text_mod.cpp:429
 msgid "Display"
 msgstr "Visualização"
 
-#: pcbnew/class_text_mod.cpp:422
+#: pcbnew/class_text_mod.cpp:460
 #, c-format
 msgid "Reference %s"
 msgstr "Referência %s"
 
-#: pcbnew/class_text_mod.cpp:426
+#: pcbnew/class_text_mod.cpp:464
 #, c-format
 msgid "Value %s of %s"
 msgstr "Valor %s de %s"
 
-#: pcbnew/class_text_mod.cpp:431
+#: pcbnew/class_text_mod.cpp:469
 #, c-format
 msgid "Text \"%s\" of %s on %s"
 msgstr "Texto \"%s\" de %s em %s"
@@ -16982,7 +16986,7 @@ msgstr "Itens Desconectados (%d)"
 msgid "Delete All Markers"
 msgstr "Apagar Todos os Marcadores"
 
-#: pcbnew/dialogs/dialog_drc_base.h:105
+#: pcbnew/dialogs/dialog_drc_base.h:107
 msgid "DRC Control"
 msgstr "Controle de Verificação de Regras de Desenho"
 
@@ -17911,7 +17915,7 @@ msgstr "Não mover ponteiro do mouse"
 msgid "Find Marker"
 msgstr "Localizar Marcador"
 
-#: pcbnew/dialogs/dialog_footprint_wizard_list.cpp:146
+#: pcbnew/dialogs/dialog_footprint_wizard_list.cpp:148
 msgid "All footprint generator scripts were loaded"
 msgstr "Todos os scripts de geradores de footprint foram carregados"
 
@@ -27111,11 +27115,11 @@ msgstr "Filtrar Seleção…"
 msgid "Filter the types of items in the selection"
 msgstr "Filtra os tipos de itens na seleção"
 
-#: pcbnew/tools/selection_tool.cpp:786
+#: pcbnew/tools/selection_tool.cpp:785
 msgid "Selection contains locked items. Do you want to continue?"
 msgstr "A seleção contém itens bloqueados. Deseja continuar?"
 
-#: pcbnew/tools/selection_tool.cpp:1389
+#: pcbnew/tools/selection_tool.cpp:1388
 msgid "Filter selection"
 msgstr "Seleção de filtro"
 
@@ -27188,31 +27192,31 @@ msgstr ""
 msgid "Checking zone fills..."
 msgstr "Verificando preenchimentos da zona..."
 
-#: pcbnew/zone_filler.cpp:186
+#: pcbnew/zone_filler.cpp:183
 msgid "Removing insulated copper islands..."
 msgstr "Removendo ilhas de cobre isoladas..."
 
-#: pcbnew/zone_filler.cpp:226
+#: pcbnew/zone_filler.cpp:237
 msgid "Zone fills are out-of-date. Refill?"
 msgstr "Os preenchimentos da zona estão desatualizados. Recarregar?"
 
-#: pcbnew/zone_filler.cpp:228
+#: pcbnew/zone_filler.cpp:239
 msgid "Refill"
 msgstr "Recarregar"
 
-#: pcbnew/zone_filler.cpp:228
+#: pcbnew/zone_filler.cpp:239
 msgid "Continue without Refill"
 msgstr "Continuar sem Recarregar"
 
-#: pcbnew/zone_filler.cpp:249
+#: pcbnew/zone_filler.cpp:260
 msgid "Performing polygon fills..."
 msgstr "Realizando preenchimentos de polígono..."
 
-#: pcbnew/zone_filler.cpp:296
+#: pcbnew/zone_filler.cpp:307
 msgid "Committing changes..."
 msgstr "Submetendo alterações…"
 
-#: pcbnew/zone_filler.cpp:304
+#: pcbnew/zone_filler.cpp:315
 msgid "Fill Zone(s)"
 msgstr "Preencher Zona(s)"
 
