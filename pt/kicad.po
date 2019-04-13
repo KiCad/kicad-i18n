@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-13 09:07-0300\n"
-"PO-Revision-Date: 2019-04-09 07:59-0300\n"
+"POT-Creation-Date: 2019-04-13 09:33-0300\n"
+"PO-Revision-Date: 2019-04-13 09:32-0300\n"
 "Last-Translator: Francisco R. Pereira <frosch_bin@yahoo.com.br>\n"
 "Language-Team: kicad team\n"
 "Language: pt_BR\n"
@@ -4877,7 +4877,7 @@ msgstr "Os primeiros %d campos são obrigatórios."
 
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:663
 msgid "Alias can not have same name as symbol."
-msgstr ""
+msgstr "Alias não pode ter o mesmo nome do símbolo."
 
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:676
 #, c-format
