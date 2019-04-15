@@ -2331,6 +2331,16 @@ msgid ""
 "If this does not match the system DPI scaling, the canvas will not match the "
 "window size and cursor position."
 msgstr ""
+"Skalierung für die Arbeitsfläche setzen.\n"
+"\n"
+"Die Erkennung von Anzeigen mit hoher Auflösung funktioniert auf manchen "
+"Plattformen nicht zuverlässig. Dadurch kann es nötig sein, diesen Wert auf "
+"den systemweiten Faktor für die Anzeigeskalierung zu setzen, typischerweise "
+"2.0.\n"
+"\n"
+"Wenn dieser Wert nicht mit der Systemeinstellung übereinstimmt, wird die "
+"Arbeitsfläche die falsche Größe haben und die Mauszeigerposition an der "
+"falschen Stelle gezeigt."
 
 #: common/dialogs/panel_common_settings.cpp:62
 msgid ""
@@ -2339,6 +2349,10 @@ msgid ""
 "On some platforms, the automatic value is incorrect and should be set "
 "manually."
 msgstr ""
+"Arbeitsfläche automatisch skalieren.\n"
+"\n"
+"Die Erkennung von Anzeigen mit hoher Auflösung funktioniert auf manchen "
+"Plattformen nicht zuverlässig, dann sollte der Wert manuell gesetzt werden."
 
 #: common/dialogs/panel_common_settings.cpp:236
 msgid "Executable files ("
@@ -2442,7 +2456,7 @@ msgstr "Automatisch"
 
 #: common/dialogs/panel_common_settings_base.cpp:149
 msgid "Canvas scale:"
-msgstr ""
+msgstr "Arbeitsflächenskalierung:"
 
 #: common/dialogs/panel_common_settings_base.cpp:166
 msgid "Show icons in menus"
@@ -4380,7 +4394,7 @@ msgstr "Alle Footprint-Zuordnungen (Verknüpfungen) entfernen"
 
 #: cvpcb/toolbars_cvpcb.cpp:74
 msgid "Footprint Filters:"
-msgstr ""
+msgstr "Footprint-Filter:"
 
 #: cvpcb/toolbars_cvpcb.cpp:82
 msgid "Filter footprint list by schematic symbol keywords"
@@ -4875,7 +4889,7 @@ msgstr "Das erste Feld %d ist notwendig."
 
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:663
 msgid "Alias can not have same name as symbol."
-msgstr ""
+msgstr "Ein Alias kann nicht den gleichen Namen wie ein Symbol haben."
 
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:676
 #, c-format
@@ -5030,6 +5044,10 @@ msgid ""
 "from editing in Eeschema.  The symbol will not be included in\n"
 "the BOM and cannot be assigned a footprint."
 msgstr ""
+"Falls diese Option gesetzt ist, erscheint das Symbol im \n"
+"\"Spannungquelle hinzufügen\"-Dialog. Das \"Wert\"-Feld wird gesperrt,\n"
+"das Symbol erscheint nicht in der Stückliste, und es kann kein Footprint\n"
+"zugewiesen werden."
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:178
 msgid "Number of Units:"
@@ -12305,7 +12323,7 @@ msgstr "Öffnen Gerberdatei(en)"
 
 #: gerbview/files.cpp:293
 msgid "File not found:"
-msgstr ""
+msgstr "Datei nicht gefunden:"
 
 #: gerbview/files.cpp:303 gerbview/files.cpp:305
 msgid "Loading Gerber files..."
@@ -16990,6 +17008,7 @@ msgstr ""
 #: pcbnew/dialogs/dialog_drc_base.cpp:106
 msgid "Test tracks against filled copper areas (very slow)"
 msgstr ""
+"Leiterbahnen gegen Flächen testen (sehr langsam)"
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:107
 msgid ""
@@ -16998,6 +17017,10 @@ msgid ""
 "\n"
 "This test can be *very slow* for complicated designs."
 msgstr ""
+"Falls dies ausgewählt ist, werden Leiterbahnen gegen Kupferflächen getestet.\n"
+"Wenn die Kupferflächen aktuell sind, sollte dieser Test nicht benötigt werden.\n"
+"\n"
+"Dieser Test kann in komplexen Entwürfen eine lange Zeit in Anspruch nehmen."
 
 #: pcbnew/dialogs/dialog_drc_base.cpp:138
 msgid "Create report file:"
@@ -18830,7 +18853,7 @@ msgstr "Standardeigenschaften Text und Grafik"
 
 #: pcbnew/dialogs/dialog_import_settings_base.cpp:60
 msgid "Predefined Track and Via dimensions"
-msgstr ""
+msgstr "Vordefinierte Leiterbahn- und Durchkontaktierungsgrößen"
 
 #: pcbnew/dialogs/dialog_import_settings_base.cpp:63
 msgid "Solder Mask/Paste defaults"
@@ -23543,7 +23566,7 @@ msgstr "Board Editor"
 
 #: pcbnew/import_gfx/dialog_import_gfx.cpp:268
 msgid "All supported formats|"
-msgstr ""
+msgstr "Alle unterstützten Formate|"
 
 #: pcbnew/import_gfx/dialog_import_gfx.cpp:270
 msgid "Open File"
@@ -23551,23 +23574,23 @@ msgstr "Datei öffnen"
 
 #: pcbnew/import_gfx/dialog_import_gfx.cpp:295
 msgid "No file selected!"
-msgstr ""
+msgstr "Keine Datei gewählt!"
 
 #: pcbnew/import_gfx/dialog_import_gfx.cpp:306
 msgid "Please select a valid layer."
-msgstr ""
+msgstr "Bitte wählen Sie eine gültige Lage"
 
 #: pcbnew/import_gfx/dialog_import_gfx.cpp:336
 msgid "Items Not Handled"
-msgstr ""
+msgstr "Nicht bearbeitete Elemente"
 
 #: pcbnew/import_gfx/dialog_import_gfx.cpp:340
 msgid "There is no plugin to handle this file type."
-msgstr ""
+msgstr "Es gibt kein Plugin, um diesen Dateityp zu verarbeiten."
 
 #: pcbnew/import_gfx/dialog_import_gfx.cpp:389
 msgid "No graphic items found in file to import."
-msgstr ""
+msgstr "Keine grafischen Elemente in der zu importierenden Datei gefunden."
 
 #: pcbnew/import_gfx/dialog_import_gfx.cpp:466
 #: pcbnew/tools/drawing_tool.cpp:762
@@ -23616,7 +23639,7 @@ msgstr "Import Skalierung:"
 
 #: pcbnew/import_gfx/dialog_import_gfx_base.h:84
 msgid "Import Vector Graphics File"
-msgstr ""
+msgstr "Importiere Vektorgrafikdatei"
 
 #: pcbnew/initpcb.cpp:47
 msgid ""
@@ -24137,11 +24160,11 @@ msgstr "Ro&ute"
 
 #: pcbnew/menubar_pcb_editor.cpp:176
 msgid "Modern Toolset (Fallbac&k)"
-msgstr ""
+msgstr "Moderner Grafikmodus (Fallbac&k)"
 
 #: pcbnew/menubar_pcb_editor.cpp:194
 msgid "&Single Track"
-msgstr "Ein&zelne Leiterbahn"
+msgstr "Einelne Leiterbahn (&S)"
 
 #: pcbnew/menubar_pcb_editor.cpp:197
 msgid "Interactively route single track"
@@ -24173,7 +24196,7 @@ msgstr "Leiterbahnlänge eines differenziellen Signalpaares anpassen"
 
 #: pcbnew/menubar_pcb_editor.cpp:220
 msgid "Tune Differential Pair S&kew/Phase"
-msgstr ""
+msgstr "S&kew/Phase von differenziellem Signalpaar anpassen"
 
 #: pcbnew/menubar_pcb_editor.cpp:223
 msgid "Tune skew/phase of a differential pair"
@@ -24262,7 +24285,7 @@ msgstr "Ausrichtungshilfe für &Lagen"
 
 #: pcbnew/menubar_pcb_editor.cpp:335
 msgid "Dr&ill and Place Offset"
-msgstr ""
+msgstr "Offset für Bohrungen und Platzierungen (&i)"
 
 #: pcbnew/menubar_pcb_editor.cpp:336
 msgid "Place origin point for drill and place files"
@@ -24270,19 +24293,19 @@ msgstr "Ursprungspunkt für Bohr- und Platzierungsdateien setzen"
 
 #: pcbnew/menubar_pcb_editor.cpp:348
 msgid "A&utomatically Place Off-Board Footprints"
-msgstr ""
+msgstr "Footprints außerhalb des Boards a&utomatisch platzieren"
 
 #: pcbnew/menubar_pcb_editor.cpp:353
 msgid "Automatically Place &Selected Components"
-msgstr ""
+msgstr "Au&sgewählte Bauteile automatisch platzieren"
 
 #: pcbnew/menubar_pcb_editor.cpp:357
 msgid "Place Footprints Au&tomatically"
-msgstr ""
+msgstr "Footprints au&tomatisch platzieren"
 
 #: pcbnew/menubar_pcb_editor.cpp:358
 msgid "Automatically place all footprints"
-msgstr ""
+msgstr "Alle Footprints automatisch platzieren"
 
 #: pcbnew/menubar_pcb_editor.cpp:368
 msgid "Load &Netlist..."
@@ -24294,7 +24317,7 @@ msgstr "Die Netzliste einlesen und alle Verbindungen aktualisieren"
 
 #: pcbnew/menubar_pcb_editor.cpp:374
 msgid "Update &PCB from Schematic..."
-msgstr ""
+msgstr "Aktualisiere &PCB aus dem Schaltplan..."
 
 #: pcbnew/menubar_pcb_editor.cpp:375
 msgid "Update PCB design with current schematic (forward annotation)"
@@ -24304,7 +24327,7 @@ msgstr ""
 
 #: pcbnew/menubar_pcb_editor.cpp:381
 msgid "Update &Footprints from Library..."
-msgstr ""
+msgstr "Aktualisiere &Footprints aus der Bibliothek..."
 
 #: pcbnew/menubar_pcb_editor.cpp:382
 msgid "Update footprints to include any changes from the library"
@@ -24349,7 +24372,7 @@ msgstr "Zeige aktuelle Tastaturbelegung und zugeordnete Befehle"
 
 #: pcbnew/menubar_pcb_editor.cpp:471
 msgid "Cop&y"
-msgstr ""
+msgstr "Kopieren (&y)"
 
 #: pcbnew/menubar_pcb_editor.cpp:483 pcbnew/tool_pcb_editor.cpp:506
 msgid "Delete items"
@@ -24365,7 +24388,7 @@ msgstr "Bearbeiten Text- und Grafikeigenschaften..."
 
 #: pcbnew/menubar_pcb_editor.cpp:499
 msgid "C&hange Footprints..."
-msgstr ""
+msgstr "Ändere Footprints... (&H)"
 
 #: pcbnew/menubar_pcb_editor.cpp:500
 msgid "Assign different footprints from the library"
@@ -24382,7 +24405,7 @@ msgstr ""
 
 #: pcbnew/menubar_pcb_editor.cpp:510
 msgid "Fill All &Zones"
-msgstr ""
+msgstr "Fülle alle Flächen (&Z)"
 
 #: pcbnew/menubar_pcb_editor.cpp:513
 msgid "Fill all zones on the board"
@@ -24390,7 +24413,7 @@ msgstr "Füllt alle Flächen auf dem Board/Platine"
 
 #: pcbnew/menubar_pcb_editor.cpp:516
 msgid "U&nfill All Zones"
-msgstr ""
+msgstr "Alle Flächenfüllungen e&ntfernen"
 
 #: pcbnew/menubar_pcb_editor.cpp:519
 msgid "Remove fill from all zones on the board"
@@ -24398,7 +24421,7 @@ msgstr "Entfernen der Füllung in allen Bereichen der Platine"
 
 #: pcbnew/menubar_pcb_editor.cpp:525
 msgid "Glo&bal Deletions..."
-msgstr ""
+msgstr "Glo&bales Entfernen..."
 
 #: pcbnew/menubar_pcb_editor.cpp:526
 msgid "Delete tracks, footprints and graphic items from board"
@@ -24406,7 +24429,7 @@ msgstr "Leiterbahnen, Footprints, und grafische Elemente von Platine entfernen"
 
 #: pcbnew/menubar_pcb_editor.cpp:530
 msgid "C&leanup Tracks and Vias..."
-msgstr ""
+msgstr "&Leiterbahnen und Durchkontaktierungen aufräumen..."
 
 #: pcbnew/menubar_pcb_editor.cpp:531
 msgid "Clean stubs, vias, delete break points or unconnected tracks"
@@ -27159,7 +27182,7 @@ msgstr "Rundung ziehen"
 
 #: pcbnew/tools/point_editor.cpp:650
 msgid "Refill Zones"
-msgstr ""
+msgstr "Zonen neu ausfüllen"
 
 #: pcbnew/tools/point_editor.cpp:1056
 msgid "Add a zone corner"
@@ -27421,61 +27444,3 @@ msgstr "Neu ausfüllen %d Zonen"
 #: pcbnew/zones_by_polygon_fill_functions.cpp:119
 msgid "Checking Zones"
 msgstr "Flächen prüfen"
-
-#~ msgid "Check this option when the symbol is a power symbol"
-#~ msgstr ""
-#~ "Wähle diese Option, wenn das Bauteil einer Spannungsquelle entspricht"
-
-#~ msgid "Preferences..."
-#~ msgstr "Einstellungen..."
-
-#~ msgid "Error: No DXF filename!"
-#~ msgstr "Fehler: Kein DXF Dateiname!"
-
-#~ msgid "Please, select a valid layer"
-#~ msgstr "Bitte wählen Sie ein gültige Lage"
-
-#~ msgid "Not Handled Items"
-#~ msgstr "Nicht bearbeitete Elemente"
-
-#~ msgid "There is no plugin to handle this file type"
-#~ msgstr "Es gibt kein Plugin um diesen Dateityp zu verarbeiten"
-
-#~ msgid "Import vector graphics file"
-#~ msgstr "Importiere Vektorgrafikdatei"
-
-#~ msgid "Tune Differential Pair &Skew/Phase"
-#~ msgstr "&Skew/Phase von  differenziellem Signalpaar anpassen"
-
-#~ msgid "Drill and &Place Offset"
-#~ msgstr "&Offset für Bohrungen und Platzierungen"
-
-#~ msgid "&Autoplace off-board components"
-#~ msgstr "&Autoplatzieren Off-Board-Bauteilen"
-
-#~ msgid "&Autoplace selected components"
-#~ msgstr "&Autoplatzieren von gewählten Bauteilen"
-
-#~ msgid "&Auto-place"
-#~ msgstr "&Auto Platzierung"
-
-#~ msgid "Automatic component placement"
-#~ msgstr "Automatsches Bauteilplatzieren"
-
-#~ msgid "Update Footprints from Library..."
-#~ msgstr "Aktualisiere Footprints der Bibliothek..."
-
-#~ msgid "Change &Footprints..."
-#~ msgstr "Ändere &Footprints..."
-
-#~ msgid "Fill &All Zones"
-#~ msgstr "Fülle &alle Flächen"
-
-#~ msgid "&Unfill All Zones"
-#~ msgstr "Alle Flächenfüllungen &entfernen"
-
-#~ msgid "&Global Deletions..."
-#~ msgstr "&Globales Entfernen..."
-
-#~ msgid "&Cleanup Tracks and Vias..."
-#~ msgstr "Leiterbahnen und Durchkontaktierungen &aufräumen..."
