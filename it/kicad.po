@@ -80,8 +80,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-15 12:50+0200\n"
-"PO-Revision-Date: 2019-04-15 15:45+0200\n"
+"POT-Creation-Date: 2019-04-17 16:49+0200\n"
+"PO-Revision-Date: 2019-04-17 16:49+0200\n"
 "Last-Translator: Marco Ciampa <ciampix@posteo.net>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
@@ -1764,16 +1764,21 @@ msgstr ""
 "comportamento, rinominare ogni voce in conflitto o rimuovere\n"
 "dal sistema le definizioni delle variabili ambiente esterne."
 
-#: common/dialogs/dialog_configure_paths.cpp:470
+#: common/dialogs/dialog_configure_paths.cpp:345
+#, c-format
+msgid "The name %s is reserved, and cannot be used here"
+msgstr "Il nome %s è riservato e non può essere usato qui"
+
+#: common/dialogs/dialog_configure_paths.cpp:477
 msgid "File Browser..."
 msgstr "Esplora file..."
 
-#: common/dialogs/dialog_configure_paths.cpp:473
+#: common/dialogs/dialog_configure_paths.cpp:480
 #: common/widgets/grid_text_button_helpers.cpp:343
 msgid "Select Path"
 msgstr "Seleziona percorso"
 
-#: common/dialogs/dialog_configure_paths.cpp:553
+#: common/dialogs/dialog_configure_paths.cpp:560
 msgid ""
 "Enter the name and value for each environment variable.  Grey entries are "
 "names that have been defined externally at the system or user level.  "
@@ -1787,7 +1792,7 @@ msgstr ""
 "hanno la precedenza su quelle definite in questa tabella.  Perciò (N.d.T. in "
 "caso di corrispondenza) i valori in questa tabella vengono ignorati."
 
-#: common/dialogs/dialog_configure_paths.cpp:559
+#: common/dialogs/dialog_configure_paths.cpp:566
 msgid ""
 "To ensure environment variable names are valid on all platforms, the name "
 "field will only accept upper case letters, digits, and the underscore "
@@ -1797,7 +1802,7 @@ msgstr ""
 "piattaforme, il campo nome accetterà solo lettere maiuscole, numeri, e "
 "caratteri di sottolineatura."
 
-#: common/dialogs/dialog_configure_paths.cpp:574
+#: common/dialogs/dialog_configure_paths.cpp:581
 msgid "Environment Variable Help"
 msgstr "Aiuto variabile ambiente"
 
@@ -2650,7 +2655,7 @@ msgid "Show:"
 msgstr "Mostra:"
 
 #: common/dialogs/wx_html_report_panel_base.cpp:35
-#: eeschema/lib_draw_item.cpp:65 eeschema/lib_draw_item.cpp:72
+#: eeschema/lib_draw_item.cpp:65
 msgid "All"
 msgstr "Tutti"
 
@@ -3455,11 +3460,11 @@ msgstr "Scegli editor preferito"
 msgid "%s is already running. Continue?"
 msgstr "%s è già in esecuzione. Continuare?"
 
-#: common/pgm_base.cpp:833
+#: common/pgm_base.cpp:841
 msgid "Set Language"
 msgstr "Imposta lingua"
 
-#: common/pgm_base.cpp:834
+#: common/pgm_base.cpp:842
 msgid "Select application language (only for testing)"
 msgstr "Seleziona la lingua (solo per prova!)"
 
@@ -6741,15 +6746,15 @@ msgstr "&Dimensione griglia:"
 msgid "Grid Settings"
 msgstr "Impostazioni griglia"
 
-#: eeschema/dialogs/dialog_sim_settings.cpp:99
+#: eeschema/dialogs/dialog_sim_settings.cpp:108
 msgid "You need to enable at least one source"
 msgstr "È necessario abilitare almeno una sorgente"
 
-#: eeschema/dialogs/dialog_sim_settings.cpp:109
+#: eeschema/dialogs/dialog_sim_settings.cpp:118
 msgid "You need to select DC source (sweep 1)"
 msgstr "È necessario selezionare la sorgente DC (sweep 1)"
 
-#: eeschema/dialogs/dialog_sim_settings.cpp:148
+#: eeschema/dialogs/dialog_sim_settings.cpp:157
 msgid "You need to select DC source (sweep 2)"
 msgstr "È necessario selezionare la sorgente DC (sweep 2)"
 
@@ -8758,15 +8763,15 @@ msgstr "Cerchio"
 msgid "Type"
 msgstr "Tipo"
 
-#: eeschema/lib_draw_item.cpp:74
+#: eeschema/lib_draw_item.cpp:72
 msgid "no"
 msgstr "No"
 
-#: eeschema/lib_draw_item.cpp:76
+#: eeschema/lib_draw_item.cpp:74
 msgid "yes"
 msgstr "Sì"
 
-#: eeschema/lib_draw_item.cpp:80
+#: eeschema/lib_draw_item.cpp:78
 msgid "Converted"
 msgstr "Convertito"
 
@@ -10171,7 +10176,8 @@ msgstr "Aggiorna il C.S. dallo schema..."
 
 #: eeschema/menubar.cpp:528
 msgid "Updates PCB design with current schematic (forward annotation)."
-msgstr "Aggiorna il progetto del C.S. dallo schema corrente (forward annotation)."
+msgstr ""
+"Aggiorna il progetto del C.S. dallo schema corrente (forward annotation)."
 
 #: eeschema/menubar.cpp:532
 msgid "&Open PCB Editor"
@@ -10879,7 +10885,11 @@ msgid ""
 "Cannot update the PCB, because the Schematic Editor is opened in stand-alone "
 "mode. In order to create/update PCBs from schematics, you need to launch "
 "Kicad shell and create a PCB project."
-msgstr "Impossibile aggiornare il C.S., perché l'editor degli schemi elettrici è aperto in modalità autonoma. Per creare/aggiornare un C.S. da uno schema elettrico, è necessario eseguire il gestore di progetti KiCad e creare un progetto di C.S. ."
+msgstr ""
+"Impossibile aggiornare il C.S., perché l'editor degli schemi elettrici è "
+"aperto in modalità autonoma. Per creare/aggiornare un C.S. da uno schema "
+"elettrico, è necessario eseguire il gestore di progetti KiCad e creare un "
+"progetto di C.S. ."
 
 #: eeschema/sch_edit_frame.cpp:997
 msgid "Schematic"
@@ -15589,121 +15599,121 @@ msgstr ""
 msgid "Block Operation"
 msgstr "Operazione blocco"
 
-#: pcbnew/board_netlist_updater.cpp:126
+#: pcbnew/board_netlist_updater.cpp:127
 #, c-format
 msgid "Cannot add %s (no footprint assigned)."
 msgstr "Impossibile aggiungere %s (nessuna impronta assegnata)."
 
-#: pcbnew/board_netlist_updater.cpp:138
+#: pcbnew/board_netlist_updater.cpp:139
 #, c-format
 msgid "Cannot add %s (footprint \"%s\" not found)."
 msgstr "Impossibile aggiungere %s (impronta \"%s\" non trovata)."
 
-#: pcbnew/board_netlist_updater.cpp:146
+#: pcbnew/board_netlist_updater.cpp:147
 #, c-format
 msgid "Add %s (footprint \"%s\")."
 msgstr "Aggiungi %s (impronta \"%s\")."
 
-#: pcbnew/board_netlist_updater.cpp:174
+#: pcbnew/board_netlist_updater.cpp:179
 #, c-format
 msgid "Cannot update %s (no footprint assigned)."
 msgstr "Impossibile aggiornare %s (nessuna impronta assegnata)."
 
-#: pcbnew/board_netlist_updater.cpp:186
+#: pcbnew/board_netlist_updater.cpp:191
 #, c-format
 msgid "Cannot update %s (footprint \"%s\" not found)."
 msgstr "Impossibile aggiornare %s (impronta \"%s\" non trovata)."
 
-#: pcbnew/board_netlist_updater.cpp:194
+#: pcbnew/board_netlist_updater.cpp:199
 #, c-format
 msgid "Change %s footprint from \"%s\" to \"%s\"."
 msgstr "Cambia impronta %s da \"%s\" a \"%s\"."
 
-#: pcbnew/board_netlist_updater.cpp:222
+#: pcbnew/board_netlist_updater.cpp:231
 #, c-format
 msgid "Change %s reference to %s."
 msgstr "Cambia riferimento %s a %s."
 
-#: pcbnew/board_netlist_updater.cpp:237
+#: pcbnew/board_netlist_updater.cpp:246
 #, c-format
 msgid "Change %s value from %s to %s."
 msgstr "Cambia valore %s da %s a %s."
 
-#: pcbnew/board_netlist_updater.cpp:253
+#: pcbnew/board_netlist_updater.cpp:262
 #, c-format
 msgid "Change symbol path \"%s:%s\" to \"%s\"."
 msgstr "Cambio percorso simbolo \"%s:%s\" a \"%s\"."
 
-#: pcbnew/board_netlist_updater.cpp:293
+#: pcbnew/board_netlist_updater.cpp:302
 #, c-format
 msgid "Disconnect %s pin %s."
 msgstr "Disconnetti %s pin %s."
 
-#: pcbnew/board_netlist_updater.cpp:336
+#: pcbnew/board_netlist_updater.cpp:345
 #, c-format
 msgid "Add net %s."
 msgstr "Aggiungi collegamento %s."
 
-#: pcbnew/board_netlist_updater.cpp:342
+#: pcbnew/board_netlist_updater.cpp:351
 #, c-format
 msgid "Reconnect %s pin %s from %s to %s."
 msgstr "Riconnetti %s pin %s da %s a %s."
 
-#: pcbnew/board_netlist_updater.cpp:350
+#: pcbnew/board_netlist_updater.cpp:359
 #, c-format
 msgid "Connect %s pin %s to %s."
 msgstr "Connetti %s pin %s a %s."
 
-#: pcbnew/board_netlist_updater.cpp:432
+#: pcbnew/board_netlist_updater.cpp:441
 #, c-format
 msgid "Reconnect copper zone from %s to %s."
 msgstr "Riconnetti zona rame da %s a %s."
 
-#: pcbnew/board_netlist_updater.cpp:453
+#: pcbnew/board_netlist_updater.cpp:462
 #, c-format
 msgid "Copper zone (%s) has no pads connected."
 msgstr "La zona rame (%s) non ha piazzole connesse."
 
-#: pcbnew/board_netlist_updater.cpp:483
+#: pcbnew/board_netlist_updater.cpp:492
 #, c-format
 msgid "Cannot remove unused footprint %s (locked)."
 msgstr "Impossibile rimuovere l'impronta non usata %s (bloccata)."
 
-#: pcbnew/board_netlist_updater.cpp:488
+#: pcbnew/board_netlist_updater.cpp:497
 #, c-format
 msgid "Remove unused footprint %s."
 msgstr "Rimuovi impronta non usata %s."
 
-#: pcbnew/board_netlist_updater.cpp:546 pcbnew/class_board.cpp:2824
+#: pcbnew/board_netlist_updater.cpp:555 pcbnew/class_board.cpp:2824
 #, c-format
 msgid "Remove single pad net %s."
 msgstr "Rimozione collegamento piazzola singola %s."
 
-#: pcbnew/board_netlist_updater.cpp:608
+#: pcbnew/board_netlist_updater.cpp:617
 #, c-format
 msgid "%s pad %s not found in %s."
 msgstr "%s piazzola %s non trovata in %s."
 
-#: pcbnew/board_netlist_updater.cpp:646
+#: pcbnew/board_netlist_updater.cpp:656
 #, c-format
 msgid "Processing component \"%s:%s:%s\"."
 msgstr "Elaborazione componente \"%s:%s:%s\"."
 
-#: pcbnew/board_netlist_updater.cpp:699 pcbnew/class_board.cpp:2738
+#: pcbnew/board_netlist_updater.cpp:709 pcbnew/class_board.cpp:2738
 #, c-format
 msgid "Multiple footprints found for \"%s\"."
 msgstr "Più impronte trovate per \"%s\"."
 
-#: pcbnew/board_netlist_updater.cpp:715
+#: pcbnew/board_netlist_updater.cpp:722
 msgid "Update netlist"
 msgstr "Aggiorna netlist"
 
-#: pcbnew/board_netlist_updater.cpp:724
+#: pcbnew/board_netlist_updater.cpp:741
 #, c-format
 msgid "Total warnings: %d, errors: %d."
 msgstr "Totale avvertimenti: %d, errori: %d."
 
-#: pcbnew/board_netlist_updater.cpp:729
+#: pcbnew/board_netlist_updater.cpp:746
 msgid ""
 "Errors occurred during the netlist update. Unless you fix them your board "
 "will not be consistent with the schematics."
@@ -15711,7 +15721,7 @@ msgstr ""
 "Errori durante l'aggiornamento della netlist. Finché non verranno corretti, "
 "il circuito stampato non sarà consistente con lo schema elettrico."
 
-#: pcbnew/board_netlist_updater.cpp:735
+#: pcbnew/board_netlist_updater.cpp:752
 msgid "Netlist update successful!"
 msgstr "Aggiornamento netlist effettuato con successo!"
 
@@ -16460,7 +16470,9 @@ msgstr "Raggio filetto:"
 msgid ""
 "The legacy segment fill mode is not recommended.Convert zone to polygon "
 "fill? "
-msgstr "La modalità di riempimento segmenti tradizionale non è raccomandata. Convertire la zona in un riempimento poligonale? "
+msgstr ""
+"La modalità di riempimento segmenti tradizionale non è raccomandata. "
+"Convertire la zona in un riempimento poligonale? "
 
 #: pcbnew/dialogs/dialog_copper_zones.cpp:243
 msgid "Legacy Warning"
