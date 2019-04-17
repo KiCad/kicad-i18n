@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: KiCad_zh_CN_v5.1.1.004\n"
+"Project-Id-Version: KiCad_zh_CN_v5.1.1.005\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-28 23:37+0800\n"
-"PO-Revision-Date: 2019-04-16 23:26+0800\n"
+"PO-Revision-Date: 2019-04-17 09:55+0800\n"
 "Last-Translator: taotieren <admin@taotieren.com>\n"
 "Language-Team: <Liu Guang>l.g110@163.com\n"
 "Language: zh_CN\n"
@@ -78,7 +78,7 @@ msgstr "比例"
 #: pcbnew/dialogs/dialog_set_grid_base.cpp:31
 #: pcbnew/import_gfx/dialog_import_gfx_base.cpp:67
 msgid "X:"
-msgstr "X:"
+msgstr "X："
 
 #: 3d-viewer/3d_cache/dialogs/panel_prev_3d_base.cpp:38
 #: 3d-viewer/3d_cache/dialogs/panel_prev_3d_base.cpp:82
@@ -90,7 +90,7 @@ msgstr "X:"
 #: pcbnew/dialogs/dialog_set_grid_base.cpp:42
 #: pcbnew/import_gfx/dialog_import_gfx_base.cpp:84
 msgid "Y:"
-msgstr "Y:"
+msgstr "Y："
 
 #: 3d-viewer/3d_cache/dialogs/panel_prev_3d_base.cpp:48
 #: 3d-viewer/3d_cache/dialogs/panel_prev_3d_base.cpp:92
@@ -176,7 +176,7 @@ msgstr "渲染时间 %.0f ms ( %.1f fps)"
 
 #: 3d-viewer/3d_canvas/eda_3d_canvas.cpp:661
 msgid "Zoom +"
-msgstr "放大"
+msgstr "放大 +"
 
 #: 3d-viewer/3d_canvas/eda_3d_canvas.cpp:667
 msgid "Zoom -"
@@ -254,7 +254,7 @@ msgstr "加载 %s"
 #: 3d-viewer/3d_rendering/3d_render_raytracing/c3d_render_raytracing.cpp:176
 #: common/widgets/footprint_preview_widget.cpp:100
 msgid "Loading..."
-msgstr "载入中......"
+msgstr "载入中..."
 
 #: 3d-viewer/3d_rendering/3d_render_raytracing/c3d_render_raytracing.cpp:356
 #, c-format
@@ -276,7 +276,7 @@ msgstr "渲染：后处理着色器"
 #: pagelayout_editor/menubar.cpp:212 pcbnew/menubar_footprint_editor.cpp:491
 #: pcbnew/menubar_pcb_editor.cpp:130 pcbnew/tool_footprint_viewer.cpp:209
 msgid "&File"
-msgstr "文件(&F)"
+msgstr "文件 (&F)"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:53
 msgid "Export Current View as PNG..."
@@ -290,14 +290,14 @@ msgstr "导出当前视图为 JPEG..."
 #: kicad/menubar.cpp:291 pcbnew/menubar_footprint_editor.cpp:135
 #: pcbnew/menubar_pcb_editor.cpp:950
 msgid "&Exit"
-msgstr "退出(&E)"
+msgstr "退出 (&E)"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:65
 #: eeschema/libedit/menubar_libedit.cpp:392 eeschema/menubar.cpp:115
 #: pagelayout_editor/menubar.cpp:213 pcbnew/menubar_footprint_editor.cpp:492
 #: pcbnew/menubar_pcb_editor.cpp:131
 msgid "&Edit"
-msgstr "编辑(&E)"
+msgstr "编辑 (&E)"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:68
 msgid "Copy 3D Image"
@@ -309,7 +309,7 @@ msgstr "复制 3D 图像"
 #: pagelayout_editor/menubar.cpp:214 pcbnew/menubar_footprint_editor.cpp:493
 #: pcbnew/menubar_pcb_editor.cpp:132 pcbnew/tool_footprint_viewer.cpp:211
 msgid "&View"
-msgstr "视图(&V)"
+msgstr "视图 (&V)"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:74
 #: eeschema/libedit/menubar_libedit.cpp:191 eeschema/menubar.cpp:166
@@ -317,7 +317,7 @@ msgstr "视图(&V)"
 #: pcbnew/menubar_footprint_editor.cpp:216 pcbnew/menubar_pcb_editor.cpp:579
 #: pcbnew/tool_footprint_viewer.cpp:164
 msgid "Zoom &In"
-msgstr "放大(&I)"
+msgstr "放大 (&I)"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:78
 #: eeschema/libedit/menubar_libedit.cpp:195 eeschema/menubar.cpp:170
@@ -325,12 +325,12 @@ msgstr "放大(&I)"
 #: pcbnew/menubar_footprint_editor.cpp:220 pcbnew/menubar_pcb_editor.cpp:583
 #: pcbnew/tool_footprint_viewer.cpp:168
 msgid "Zoom &Out"
-msgstr "缩小(&O)"
+msgstr "缩小 (&O)"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:82 gerbview/menubar.cpp:211
 #: pcbnew/menubar_pcb_editor.cpp:587
 msgid "Zoom to &Fit"
-msgstr "缩放至适合大小(&F)"
+msgstr "缩放至适合大小 (&F)"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:86
 #: eeschema/libedit/menubar_libedit.cpp:208 eeschema/menubar.cpp:183
@@ -338,7 +338,7 @@ msgstr "缩放至适合大小(&F)"
 #: pcbnew/menubar_footprint_editor.cpp:233 pcbnew/menubar_pcb_editor.cpp:596
 #: pcbnew/tool_footprint_viewer.cpp:176
 msgid "&Redraw"
-msgstr "刷新显示(&R)"
+msgstr "刷新显示 (&R)"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:92 3d-viewer/3d_viewer/3d_toolbar.cpp:98
 msgid "Rotate X Clockwise"
@@ -558,7 +558,7 @@ msgstr "电路板颜色..."
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:261
 msgid "Show 3D &Axis"
-msgstr "显示 3D 轴线(&A)"
+msgstr "显示 3D 轴线 (&A)"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:269
 msgid "3D Grid"
@@ -594,13 +594,13 @@ msgstr "重置为默认值"
 #: pagelayout_editor/menubar.cpp:217 pcbnew/menubar_footprint_editor.cpp:498
 #: pcbnew/menubar_pcb_editor.cpp:138 pcbnew/tool_footprint_viewer.cpp:212
 msgid "&Help"
-msgstr "帮助(&H)"
+msgstr "帮助 (&H)"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:300
 #: pcbnew/menubar_footprint_editor.cpp:464 pcbnew/menubar_pcb_editor.cpp:428
 #: pcbnew/tool_footprint_viewer.cpp:192
 msgid "Pcbnew &Manual"
-msgstr "Pcbnew 手册(&M)"
+msgstr "Pcbnew 手册 (&M)"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:301 pcbnew/menubar_pcb_editor.cpp:429
 msgid "Open Pcbnew Manual"
@@ -612,7 +612,7 @@ msgstr "打开 Pcbnew 手册"
 #: pagelayout_editor/menubar.cpp:191 pcbnew/menubar_footprint_editor.cpp:469
 #: pcbnew/menubar_pcb_editor.cpp:433 pcbnew/tool_footprint_viewer.cpp:197
 msgid "&Getting Started in KiCad"
-msgstr "KiCad 入门指南(&G)"
+msgstr "KiCad 入门指南 (&G)"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:306 cvpcb/menubar.cpp:98
 #: eeschema/menubar.cpp:604 kicad/menubar.cpp:414
@@ -12676,7 +12676,7 @@ msgstr "显示极坐标 (&P)"
 
 #: gerbview/menubar.cpp:249
 msgid "Sketch F&lashed Items"
-msgstr "项目快速草图"
+msgstr "项目快速草图 (&L)"
 
 #: gerbview/menubar.cpp:251 gerbview/toolbars_gerber.cpp:281
 #: gerbview/toolbars_gerber.cpp:562
@@ -12694,7 +12694,7 @@ msgstr "在轮廓模式下显示线"
 
 #: gerbview/menubar.cpp:259
 msgid "Sketch Pol&ygons"
-msgstr "多边形草图(&Y)"
+msgstr "多边形草图 (&Y)"
 
 #: gerbview/menubar.cpp:261 gerbview/toolbars_gerber.cpp:289
 #: gerbview/toolbars_gerber.cpp:586
@@ -12703,7 +12703,7 @@ msgstr "在轮廓模式下显示多边形"
 
 #: gerbview/menubar.cpp:264
 msgid "Show &DCodes"
-msgstr "显示 D 码(&D)"
+msgstr "显示 D 码 (&D)"
 
 #: gerbview/menubar.cpp:266
 msgid "Show or hide DCodes"
@@ -12711,7 +12711,7 @@ msgstr "显示或隐藏 D 码"
 
 #: gerbview/menubar.cpp:269
 msgid "Show &Negative Objects"
-msgstr "显示负片对象(&N)"
+msgstr "显示负片对象 (&N)"
 
 #: gerbview/menubar.cpp:271 gerbview/toolbars_gerber.cpp:610
 msgid "Show negative objects in ghost color"
@@ -13146,7 +13146,7 @@ msgstr " *错误*\n"
 
 #: kicad/files-io.cpp:166
 msgid "Archive Project Files"
-msgstr "归档工程文件"
+msgstr "压缩工程文件"
 
 #: kicad/files-io.cpp:190
 #, c-format
@@ -13156,7 +13156,7 @@ msgstr "无法创建 zip 压缩文件'%s'"
 #: kicad/files-io.cpp:217
 #, c-format
 msgid "Archive file \"%s\""
-msgstr "归档文件 \"%s\""
+msgstr "压缩文件 \"%s\""
 
 #: kicad/files-io.cpp:231
 #, c-format
@@ -13477,7 +13477,7 @@ msgstr "打开工程"
 
 #: kicad/menubar.cpp:498
 msgid "Archive all project files"
-msgstr "归档全部工程文件"
+msgstr "压缩全部工程文件"
 
 #: kicad/prjconfig.cpp:168
 msgid "Open Existing Project"
@@ -24119,7 +24119,7 @@ msgstr "自动放置全部封装"
 
 #: pcbnew/menubar_pcb_editor.cpp:375
 msgid "Update &PCB from Schematic..."
-msgstr "从原理图更新PCB... (&P)"
+msgstr "从原理图更新 PCB... (&P)"
 
 #: pcbnew/menubar_pcb_editor.cpp:376
 msgid "Update PCB design with current schematic (forward annotation)"
@@ -24466,7 +24466,7 @@ msgstr "PLOT 绘图输出(HPGL, PostScript, 或 GERBER RS-274X 格式)"
 
 #: pcbnew/menubar_pcb_editor.cpp:932
 msgid "&Archive Footprints in Existing Library..."
-msgstr "归档封装到现有库中... (&A)"
+msgstr "压缩封装到现有库中... (&A)"
 
 #: pcbnew/menubar_pcb_editor.cpp:933
 msgid ""
