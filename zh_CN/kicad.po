@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: KiCad_zh_CN_v5.1.1.005\n"
+"Project-Id-Version: KiCad_zh_CN_v5.1.1.006\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-28 23:37+0800\n"
-"PO-Revision-Date: 2019-04-17 09:55+0800\n"
+"PO-Revision-Date: 2019-04-17 14:56+0800\n"
 "Last-Translator: taotieren <admin@taotieren.com>\n"
 "Language-Team: <Liu Guang>l.g110@163.com\n"
 "Language: zh_CN\n"
@@ -399,7 +399,7 @@ msgstr "下移"
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:137 cvpcb/menubar.cpp:106
 #: gerbview/menubar.cpp:382 kicad/menubar.cpp:442
 msgid "&Preferences"
-msgstr "首选项(&P)"
+msgstr "首选项 (&P)"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:140
 #: cvpcb/dialogs/dialog_display_options_base.h:56
@@ -18395,7 +18395,7 @@ msgstr "按父系封装参考过滤项目："
 
 #: pcbnew/dialogs/dialog_global_edit_text_and_graphics_base.cpp:78
 msgid "Filter items by parent footprint library id:"
-msgstr "按父封装库 id 筛选项目："
+msgstr "按父封装库 ID 筛选项目："
 
 #: pcbnew/dialogs/dialog_global_edit_text_and_graphics_base.cpp:100
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias_base.cpp:87
