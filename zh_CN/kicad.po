@@ -5,12 +5,12 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: KiCad_zh_CN_v5.1.1.008\n"
+"Project-Id-Version: KiCad_zh_CN_v5.1.1.009\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-28 23:37+0800\n"
-"PO-Revision-Date: 2019-04-20 09:33+0800\n"
+"PO-Revision-Date: 2019-04-23 11:31+0800\n"
 "Last-Translator: taotieren <admin@taotieren.com>\n"
-"Language-Team: <Liu Guang>l.g110@163.com\n"
+"Language-Team: kicad-cn\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -6900,7 +6900,7 @@ msgstr "g"
 
 #: eeschema/dialogs/dialog_spice_model_base.cpp:169
 msgid "giga"
-msgstr "吉"
+msgstr "G"
 
 #: eeschema/dialogs/dialog_spice_model_base.cpp:173
 msgid "1e9"
@@ -7699,11 +7699,11 @@ msgstr "电源输出引脚"
 
 #: eeschema/erc.cpp:97 eeschema/erc.cpp:113
 msgid "Open Collector"
-msgstr "Open Collector"
+msgstr "集电极开路"
 
 #: eeschema/erc.cpp:98 eeschema/erc.cpp:114
 msgid "Open Emitter"
-msgstr "Open Emitter"
+msgstr "发射极开路"
 
 #: eeschema/erc.cpp:99 eeschema/erc.cpp:115
 msgid "No Connection"
@@ -10388,11 +10388,11 @@ msgstr "电源输出"
 
 #: eeschema/pin_type.cpp:62
 msgid "Open collector"
-msgstr "Open collector"
+msgstr "集电极开路"
 
 #: eeschema/pin_type.cpp:65
 msgid "Open emitter"
-msgstr "Open emitter"
+msgstr "发射极开路"
 
 #: eeschema/pin_type.cpp:68
 msgid "Not connected"
@@ -13255,7 +13255,7 @@ msgstr "查看 (&B)"
 
 #: kicad/menubar.cpp:482
 msgid "Open existing project"
-msgstr "打開已有工程"
+msgstr "打开已有工程"
 
 #: kicad/menubar.cpp:498
 msgid "Archive all project files"
@@ -20683,7 +20683,7 @@ msgstr "开启/关闭 顶层封装丝印外框层"
 
 #: pcbnew/dialogs/panel_setup_layers_base.cpp:83
 msgid "CrtYd_Front_layer"
-msgstr "CrtYd_Front_layer"
+msgstr "顶层封装外框"
 
 #: pcbnew/dialogs/panel_setup_layers_base.cpp:89
 #: pcbnew/dialogs/panel_setup_layers_base.cpp:690
@@ -25312,7 +25312,7 @@ msgstr "调整差分对布线歪斜"
 
 #: pcbnew/router/router_tool.cpp:117
 msgid "Drag Track/Via"
-msgstr "拖拉 布线/过孔"
+msgstr "拖拉布线/过孔"
 
 #: pcbnew/router/router_tool.cpp:117
 msgid "Drags tracks and vias without breaking connections"
