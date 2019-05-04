@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: KiCad_zh_CN_v5.1.2.001\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-25 11:27+0800\n"
-"PO-Revision-Date: 2019-04-25 11:27+0800\n"
-"Last-Translator: taotieren <admin@taotieren.com>\n"
+"PO-Revision-Date: 2019-05-04 20:42+0800\n"
+"Last-Translator: Liu Guang <l.g110@163.com>\n"
 "Language-Team: kicad-cn\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -5352,31 +5352,31 @@ msgstr "样式"
 #: eeschema/dialogs/dialog_sch_edit_sheet_pin.cpp:31 eeschema/pin_type.cpp:38
 #: eeschema/sch_text.cpp:627
 msgid "Input"
-msgstr "输入"
+msgstr "Input"
 
 #: eeschema/dialogs/dialog_edit_label_base.cpp:93
 #: eeschema/dialogs/dialog_sch_edit_sheet_pin.cpp:32 eeschema/pin_type.cpp:41
 #: eeschema/sch_text.cpp:628
 msgid "Output"
-msgstr "输出"
+msgstr "Output"
 
 #: eeschema/dialogs/dialog_edit_label_base.cpp:93
 #: eeschema/dialogs/dialog_sch_edit_sheet_pin.cpp:33 eeschema/pin_type.cpp:44
 #: eeschema/sch_text.cpp:629
 msgid "Bidirectional"
-msgstr "双向"
+msgstr "Bidirectional"
 
 #: eeschema/dialogs/dialog_edit_label_base.cpp:93
 #: eeschema/dialogs/dialog_sch_edit_sheet_pin.cpp:34 eeschema/pin_type.cpp:47
 msgid "Tri-state"
-msgstr "三态"
+msgstr "Tri-state"
 
 #: eeschema/dialogs/dialog_edit_label_base.cpp:93
 #: eeschema/dialogs/dialog_sch_edit_sheet_pin.cpp:35
 #: eeschema/dialogs/dialog_spice_model_base.cpp:199 eeschema/pin_type.cpp:50
 #: eeschema/sch_text.cpp:631
 msgid "Passive"
-msgstr "无源"
+msgstr "Passive"
 
 #: eeschema/dialogs/dialog_edit_label_base.cpp:95
 #: pcbnew/class_drawsegment.cpp:444
@@ -10389,27 +10389,27 @@ msgstr "非逻辑的"
 
 #: eeschema/pin_type.cpp:53
 msgid "Unspecified"
-msgstr "未指定"
+msgstr "Unspecified"
 
 #: eeschema/pin_type.cpp:56
 msgid "Power input"
-msgstr "电源输入"
+msgstr "Power input"
 
 #: eeschema/pin_type.cpp:59
 msgid "Power output"
-msgstr "电源输出"
+msgstr "Power output"
 
 #: eeschema/pin_type.cpp:62
 msgid "Open collector"
-msgstr "集电极开路"
+msgstr "Open collector"
 
 #: eeschema/pin_type.cpp:65
 msgid "Open emitter"
-msgstr "发射极开路"
+msgstr "Open emitter"
 
 #: eeschema/pin_type.cpp:68
 msgid "Not connected"
-msgstr "未连接"
+msgstr "Not connected"
 
 #: eeschema/plot_schematic_DXF.cpp:79 eeschema/plot_schematic_HPGL.cpp:151
 #: eeschema/plot_schematic_PDF.cpp:125 eeschema/plot_schematic_PS.cpp:106
@@ -14805,15 +14805,15 @@ msgstr "最小间距"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:1312
 msgid "Via: (diam - drill)"
-msgstr "过孔：（外径 - 内径）"
+msgstr "过孔：(直径 - 钻孔)"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:1313
 msgid "Plated Pad: (diam - drill)"
-msgstr "金属化焊盘：（外径 - 内径）"
+msgstr "金属化焊盘：(直径 - 钻孔)"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:1314
 msgid "NP Pad: (diam - drill)"
-msgstr "非金属化焊盘：（外径 - 内径）"
+msgstr "非金属化焊盘：(直径 - 钻孔)"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:1333
 msgid "Board Classes"
@@ -23627,7 +23627,7 @@ msgstr "将封装插入到当前电路板"
 
 #: pcbnew/menubar_footprint_editor.cpp:449
 msgid "Modern Toolset (&Fallback)"
-msgstr "现代工具箱 (回退 &F)"
+msgstr "现代工具箱 (回退&F)"
 
 #: pcbnew/menubar_footprint_editor.cpp:465
 msgid "Open the Pcbnew Manual"
@@ -23639,7 +23639,7 @@ msgstr "布线 (&U)"
 
 #: pcbnew/menubar_pcb_editor.cpp:176
 msgid "Modern Toolset (Fallbac&k)"
-msgstr "现代工具箱 (回退 &K)"
+msgstr "现代工具箱 (回退&K)"
 
 #: pcbnew/menubar_pcb_editor.cpp:194
 msgid "&Single Track"
