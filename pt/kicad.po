@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-08 17:20-0300\n"
-"PO-Revision-Date: 2019-04-22 10:43-0300\n"
+"POT-Creation-Date: 2019-05-08 17:25-0300\n"
+"PO-Revision-Date: 2019-05-08 17:24-0300\n"
 "Last-Translator: Francisco R. Pereira <frosch_bin@yahoo.com.br>\n"
 "Language-Team: kicad team\n"
 "Language: pt_BR\n"
@@ -1585,23 +1585,20 @@ msgid "Lib Version Info"
 msgstr "Informações de Versão da Biblioteca"
 
 #: common/dialog_about/dialog_about_base.cpp:67
-#, fuzzy
 msgid "&Show Version Info"
-msgstr "Exibir Informações da Versão"
+msgstr "&Exibir Informações de Versão"
 
 #: common/dialog_about/dialog_about_base.cpp:70
-#, fuzzy
 msgid "&Copy Version Info"
-msgstr "Copiar Informações da Versão"
+msgstr "&Copiar Informações de Versão"
 
 #: common/dialog_about/dialog_about_base.cpp:71
 msgid "Copy KiCad version info to the clipboard"
 msgstr "Copiar informações da versão do KiCad para a área de transferência"
 
 #: common/dialog_about/dialog_about_base.cpp:75
-#, fuzzy
 msgid "&OK"
-msgstr "OK"
+msgstr "&OK"
 
 #: common/dialog_about/dialog_about_base.h:55
 msgid "About"
