@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-07 11:29+0200\n"
+"POT-Creation-Date: 2019-05-09 10:49+0200\n"
 "PO-Revision-Date: 2019-05-07 11:29+0200\n"
 "Last-Translator: \n"
 "Language-Team: jp-charras\n"
@@ -45,7 +45,6 @@ msgid "Configure Paths"
 msgstr "Configurer les Chemins"
 
 #: 3d-viewer/3d_cache/dialogs/dlg_select_3dmodel.cpp:142
-#: common/dialog_about/dialog_about_base.cpp:75
 #: common/dialogs/dialog_display_info_HTML_base.cpp:24
 #: eeschema/dialogs/dialog_netlist_base.cpp:117
 #: gerbview/dialogs/dialog_select_one_pcb_layer.cpp:181
@@ -1584,18 +1583,25 @@ msgid "Lib Version Info"
 msgstr "Infos de version de librairie"
 
 #: common/dialog_about/dialog_about_base.cpp:67
-msgid "Show Version Info"
+#, fuzzy
+msgid "&Show Version Info"
 msgstr "Afficher Infos de Version"
 
 #: common/dialog_about/dialog_about_base.cpp:70
-msgid "Copy Version Info"
+#, fuzzy
+msgid "&Copy Version Info"
 msgstr "Copier Infos de Version"
 
 #: common/dialog_about/dialog_about_base.cpp:71
 msgid "Copy KiCad version info to the clipboard"
 msgstr "Copier les infos de version de KiCad dans le presse-papier"
 
-#: common/dialog_about/dialog_about_base.h:56
+#: common/dialog_about/dialog_about_base.cpp:75
+#, fuzzy
+msgid "&OK"
+msgstr "OK"
+
+#: common/dialog_about/dialog_about_base.h:55
 msgid "About"
 msgstr "Au Sujet de"
 
