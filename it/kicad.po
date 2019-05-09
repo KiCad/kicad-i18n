@@ -80,8 +80,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-17 16:49+0200\n"
-"PO-Revision-Date: 2019-04-17 16:49+0200\n"
+"POT-Creation-Date: 2019-05-09 10:51+0200\n"
+"PO-Revision-Date: 2019-05-09 10:51+0200\n"
 "Last-Translator: Marco Ciampa <ciampix@posteo.net>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
@@ -128,7 +128,6 @@ msgid "Configure Paths"
 msgstr "Configura percorsi"
 
 #: 3d-viewer/3d_cache/dialogs/dlg_select_3dmodel.cpp:142
-#: common/dialog_about/dialog_about_base.cpp:75
 #: common/dialogs/dialog_display_info_HTML_base.cpp:24
 #: eeschema/dialogs/dialog_netlist_base.cpp:117
 #: gerbview/dialogs/dialog_select_one_pcb_layer.cpp:181
@@ -361,7 +360,7 @@ msgstr "Rendering: ombreggiatura in post elaborazione"
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:50 cvpcb/menubar.cpp:105
 #: eeschema/libedit/menubar_libedit.cpp:391 eeschema/menubar.cpp:114
 #: eeschema/tool_viewlib.cpp:197 gerbview/menubar.cpp:379 kicad/menubar.cpp:438
-#: pagelayout_editor/menubar.cpp:212 pcbnew/menubar_footprint_editor.cpp:491
+#: pagelayout_editor/menubar.cpp:213 pcbnew/menubar_footprint_editor.cpp:491
 #: pcbnew/menubar_pcb_editor.cpp:130 pcbnew/tool_footprint_viewer.cpp:209
 msgid "&File"
 msgstr "&File"
@@ -382,7 +381,7 @@ msgstr "&Esci"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:65
 #: eeschema/libedit/menubar_libedit.cpp:392 eeschema/menubar.cpp:115
-#: pagelayout_editor/menubar.cpp:213 pcbnew/menubar_footprint_editor.cpp:492
+#: pagelayout_editor/menubar.cpp:214 pcbnew/menubar_footprint_editor.cpp:492
 #: pcbnew/menubar_pcb_editor.cpp:131
 msgid "&Edit"
 msgstr "&Modifica"
@@ -394,7 +393,7 @@ msgstr "Copia immagine 3D"
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:71
 #: eeschema/libedit/menubar_libedit.cpp:393 eeschema/menubar.cpp:116
 #: eeschema/tool_viewlib.cpp:199 gerbview/menubar.cpp:380 kicad/menubar.cpp:439
-#: pagelayout_editor/menubar.cpp:214 pcbnew/menubar_footprint_editor.cpp:493
+#: pagelayout_editor/menubar.cpp:215 pcbnew/menubar_footprint_editor.cpp:493
 #: pcbnew/menubar_pcb_editor.cpp:132 pcbnew/tool_footprint_viewer.cpp:211
 msgid "&View"
 msgstr "&Visualizza"
@@ -684,7 +683,7 @@ msgstr "Reimposta alle impostazione predefinite"
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:297 cvpcb/menubar.cpp:107
 #: eeschema/libedit/menubar_libedit.cpp:397 eeschema/menubar.cpp:121
 #: eeschema/tool_viewlib.cpp:200 gerbview/menubar.cpp:383 kicad/menubar.cpp:443
-#: pagelayout_editor/menubar.cpp:217 pcbnew/menubar_footprint_editor.cpp:498
+#: pagelayout_editor/menubar.cpp:218 pcbnew/menubar_footprint_editor.cpp:498
 #: pcbnew/menubar_pcb_editor.cpp:138 pcbnew/tool_footprint_viewer.cpp:212
 msgid "&Help"
 msgstr "&Aiuto"
@@ -702,14 +701,14 @@ msgstr "Apri il manuale di Pcbnew"
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:305 cvpcb/menubar.cpp:97
 #: eeschema/libedit/menubar_libedit.cpp:368 eeschema/menubar.cpp:599
 #: eeschema/tool_viewlib.cpp:180 kicad/menubar.cpp:413
-#: pagelayout_editor/menubar.cpp:191 pcbnew/menubar_footprint_editor.cpp:469
+#: pagelayout_editor/menubar.cpp:192 pcbnew/menubar_footprint_editor.cpp:469
 #: pcbnew/menubar_pcb_editor.cpp:428 pcbnew/tool_footprint_viewer.cpp:197
 msgid "&Getting Started in KiCad"
 msgstr "Introdu&zione a KiCad"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:306 cvpcb/menubar.cpp:98
 #: eeschema/menubar.cpp:600 kicad/menubar.cpp:414
-#: pagelayout_editor/menubar.cpp:192 pcbnew/menubar_pcb_editor.cpp:429
+#: pagelayout_editor/menubar.cpp:193 pcbnew/menubar_pcb_editor.cpp:429
 msgid "Open \"Getting Started in KiCad\" guide for beginners"
 msgstr "Apri  \"Iniziare con KiCad\", guida introduttiva"
 
@@ -722,14 +721,14 @@ msgstr "E&lenco tasti..."
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:312
 #: eeschema/libedit/menubar_libedit.cpp:376 gerbview/menubar.cpp:362
-#: kicad/menubar.cpp:420 pagelayout_editor/menubar.cpp:197
+#: kicad/menubar.cpp:420 pagelayout_editor/menubar.cpp:198
 msgid "Displays the current hotkeys list and corresponding commands"
 msgstr "Mostra l'elenco dei tasti correnti e dei comandi corrispondenti"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:318
 #: eeschema/libedit/menubar_libedit.cpp:381 eeschema/menubar.cpp:609
 #: eeschema/tool_viewlib.cpp:186 gerbview/menubar.cpp:369 kicad/menubar.cpp:428
-#: pagelayout_editor/menubar.cpp:201 pcbnew/menubar_footprint_editor.cpp:482
+#: pagelayout_editor/menubar.cpp:202 pcbnew/menubar_footprint_editor.cpp:482
 #: pcbnew/menubar_pcb_editor.cpp:441
 msgid "Get &Involved"
 msgstr "Collabora con no&i"
@@ -737,7 +736,7 @@ msgstr "Collabora con no&i"
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:319
 #: eeschema/libedit/menubar_libedit.cpp:382 eeschema/menubar.cpp:610
 #: eeschema/tool_viewlib.cpp:187 gerbview/menubar.cpp:370 kicad/menubar.cpp:429
-#: pagelayout_editor/menubar.cpp:202 pcbnew/menubar_footprint_editor.cpp:483
+#: pagelayout_editor/menubar.cpp:203 pcbnew/menubar_footprint_editor.cpp:483
 #: pcbnew/menubar_pcb_editor.cpp:442
 msgid "Contribute to KiCad (opens a web browser)"
 msgstr "Contribuisci a KiCad (apre il browser web)"
@@ -745,7 +744,7 @@ msgstr "Contribuisci a KiCad (apre il browser web)"
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:325 cvpcb/menubar.cpp:102
 #: eeschema/libedit/menubar_libedit.cpp:388 eeschema/menubar.cpp:614
 #: gerbview/menubar.cpp:376 kicad/menubar.cpp:435
-#: pagelayout_editor/menubar.cpp:209 pcbnew/menubar_footprint_editor.cpp:488
+#: pagelayout_editor/menubar.cpp:210 pcbnew/menubar_footprint_editor.cpp:488
 #: pcbnew/menubar_pcb_editor.cpp:447
 msgid "&About KiCad"
 msgstr "Inform&azioni su KiCad"
@@ -1478,7 +1477,7 @@ msgstr "Non salvando, tutte le modifiche andranno perse!"
 
 #: common/confirm.cpp:184 eeschema/hotkeys.cpp:227
 #: eeschema/libedit/libedit.cpp:430 eeschema/widgets/tuner_slider_base.cpp:66
-#: pagelayout_editor/hotkeys.cpp:98 pcbnew/footprint_libraries_utils.cpp:900
+#: pagelayout_editor/hotkeys.cpp:97 pcbnew/footprint_libraries_utils.cpp:900
 #: pcbnew/hotkeys.cpp:312
 msgid "Save"
 msgstr "Salva"
@@ -1511,8 +1510,8 @@ msgstr "Conferma"
 
 #: common/dialog_about/AboutDialog_main.cpp:114
 #: common/dialogs/dialog_configure_paths_base.cpp:98
-#: common/lib_tree_model_adapter.cpp:200 eeschema/libedit/libedit.cpp:417
-#: eeschema/libedit/libedit.cpp:835 eeschema/sch_component.cpp:1472
+#: common/lib_tree_model_adapter.cpp:216 eeschema/libedit/libedit.cpp:417
+#: eeschema/libedit/libedit.cpp:835 eeschema/sch_component.cpp:1492
 #: eeschema/viewlib_frame.cpp:289 include/lib_table_grid.h:196
 #: pcbnew/dialogs/dialog_footprint_wizard_list_base.cpp:44
 #: pcbnew/dialogs/panel_pcbnew_action_plugins_base.cpp:40
@@ -1655,18 +1654,22 @@ msgid "Lib Version Info"
 msgstr "Info di versione librerie"
 
 #: common/dialog_about/dialog_about_base.cpp:67
-msgid "Show Version Info"
-msgstr "Mostra info di versione"
+msgid "&Show Version Info"
+msgstr "Mostra info di ver&sione"
 
 #: common/dialog_about/dialog_about_base.cpp:70
-msgid "Copy Version Info"
-msgstr "Copia info di versione"
+msgid "&Copy Version Info"
+msgstr "&Copia info di versione"
 
 #: common/dialog_about/dialog_about_base.cpp:71
 msgid "Copy KiCad version info to the clipboard"
 msgstr "Copia le info di versione di KiCad negli appunti"
 
-#: common/dialog_about/dialog_about_base.h:56
+#: common/dialog_about/dialog_about_base.cpp:75
+msgid "&OK"
+msgstr "&OK"
+
+#: common/dialog_about/dialog_about_base.h:55
 msgid "About"
 msgstr "Informazioni su KiCad"
 
@@ -1819,8 +1822,8 @@ msgstr "Variabili ambiente"
 #: eeschema/dialogs/dialog_lib_edit_pin_table_base.cpp:45
 #: eeschema/dialogs/panel_eeschema_template_fieldnames_base.cpp:38
 #: eeschema/fields_grid_table.cpp:134 eeschema/lib_pin.cpp:1711
-#: eeschema/libedit/libedit.cpp:815 eeschema/sch_component.cpp:1449
-#: eeschema/sch_component.cpp:1485 eeschema/viewlib_frame.cpp:288
+#: eeschema/libedit/libedit.cpp:815 eeschema/sch_component.cpp:1468
+#: eeschema/sch_component.cpp:1505 eeschema/viewlib_frame.cpp:288
 #: eeschema/widgets/tuner_slider_base.cpp:20
 #: pcbnew/dialogs/dialog_footprint_wizard_list_base.cpp:43
 #: pcbnew/dialogs/dialog_select_net_from_list.cpp:69
@@ -2281,7 +2284,7 @@ msgstr "Impostazioni pagina"
 #: common/dialogs/dialog_print_generic_base.h:78
 #: eeschema/dialogs/dialog_print_using_printer.cpp:154
 #: eeschema/dialogs/dialog_print_using_printer_base.h:53
-#: eeschema/hotkeys.cpp:230 pagelayout_editor/hotkeys.cpp:101
+#: eeschema/hotkeys.cpp:230 pagelayout_editor/hotkeys.cpp:100
 #: pcbnew/hotkeys.cpp:315
 msgid "Print"
 msgstr "Stampante"
@@ -2758,12 +2761,12 @@ msgstr "Collabora a KiCad"
 
 #: common/eda_base_frame.cpp:516 eeschema/hotkeys.cpp:119
 #: gerbview/hotkeys.cpp:68 kicad/menubar.cpp:154
-#: pagelayout_editor/hotkeys.cpp:102 pcbnew/hotkeys.cpp:330
+#: pagelayout_editor/hotkeys.cpp:101 pcbnew/hotkeys.cpp:330
 msgid "Preferences"
 msgstr "Preferenze"
 
 #: common/eda_base_frame.cpp:519 eeschema/hotkeys.cpp:366
-#: pagelayout_editor/hotkeys.cpp:127
+#: pagelayout_editor/hotkeys.cpp:126
 #: pcbnew/dialogs/dialog_track_via_properties_base.cpp:20
 #: pcbnew/hotkeys.cpp:535
 msgid "Common"
@@ -3247,7 +3250,7 @@ msgstr "Centra"
 #: common/widgets/mathplot.cpp:1756 eeschema/hotkeys.cpp:106
 #: eeschema/hotkeys.cpp:108 eeschema/sim/sim_plot_frame_base.cpp:77
 #: gerbview/hotkeys.cpp:65 pagelayout_editor/hotkeys.cpp:80
-#: pagelayout_editor/menubar.cpp:122 pcbnew/hotkeys.cpp:231
+#: pagelayout_editor/menubar.cpp:123 pcbnew/hotkeys.cpp:231
 #: pcbnew/hotkeys.cpp:233
 msgid "Zoom In"
 msgstr "Ingrandisci"
@@ -3257,18 +3260,18 @@ msgstr "Ingrandisci"
 #: common/widgets/mathplot.cpp:1757 eeschema/hotkeys.cpp:113
 #: eeschema/hotkeys.cpp:115 eeschema/sim/sim_plot_frame_base.cpp:81
 #: gerbview/hotkeys.cpp:64 pagelayout_editor/hotkeys.cpp:79
-#: pagelayout_editor/menubar.cpp:125 pcbnew/hotkeys.cpp:238
+#: pagelayout_editor/menubar.cpp:126 pcbnew/hotkeys.cpp:238
 #: pcbnew/hotkeys.cpp:240
 msgid "Zoom Out"
 msgstr "Rimpicciolisci"
 
 #: common/legacy_gal/eda_draw_frame.cpp:1563
-#: common/legacy_wx/eda_draw_frame.cpp:1876 pagelayout_editor/menubar.cpp:146
+#: common/legacy_wx/eda_draw_frame.cpp:1876 pagelayout_editor/menubar.cpp:147
 msgid "Redraw View"
 msgstr "Aggiorna vista"
 
 #: common/legacy_gal/eda_draw_frame.cpp:1565
-#: common/legacy_wx/eda_draw_frame.cpp:1878 pagelayout_editor/menubar.cpp:128
+#: common/legacy_wx/eda_draw_frame.cpp:1878 pagelayout_editor/menubar.cpp:129
 msgid "Zoom to Fit"
 msgstr "Adatta zoom"
 
@@ -3291,7 +3294,7 @@ msgstr "Griglia"
 
 #: common/legacy_gal/eda_draw_frame.cpp:1856
 #: common/legacy_wx/eda_draw_frame.cpp:1489
-#: eeschema/dialogs/panel_sym_lib_table.cpp:348
+#: eeschema/dialogs/panel_sym_lib_table.cpp:351
 #: pcbnew/dialogs/panel_fp_lib_table.cpp:615
 #: pcbnew/footprint_libraries_utils.cpp:77
 msgid "Select Library"
@@ -3335,7 +3338,7 @@ msgstr "Carattere non consentito trovato nella revisione"
 msgid "Unit"
 msgstr "Unità"
 
-#: common/lib_tree_model_adapter.cpp:199
+#: common/lib_tree_model_adapter.cpp:215
 msgid "Item"
 msgstr "Elemento"
 
@@ -3521,7 +3524,7 @@ msgstr "Inquadra tutto"
 #: common/tool/actions.cpp:40 eeschema/hotkeys.cpp:203
 #: eeschema/libedit/menubar_libedit.cpp:203 eeschema/menubar.cpp:179
 #: gerbview/hotkeys.cpp:66 gerbview/menubar.cpp:215
-#: pagelayout_editor/hotkeys.cpp:81 pagelayout_editor/menubar.cpp:131
+#: pagelayout_editor/hotkeys.cpp:81 pagelayout_editor/menubar.cpp:132
 #: pcbnew/hotkeys.cpp:243 pcbnew/menubar_footprint_editor.cpp:229
 #: pcbnew/menubar_pcb_editor.cpp:587
 msgid "Zoom to Selection"
@@ -4140,8 +4143,8 @@ msgstr "Variabili ambiente disponibili per percorsi relativi:"
 #: eeschema/dialogs/dialog_fields_editor_global.cpp:856
 #: eeschema/dialogs/dialog_rescue_each.cpp:136
 #: eeschema/fields_grid_table.cpp:135 eeschema/lib_field.cpp:463
-#: eeschema/lib_field.cpp:629 eeschema/sch_component.cpp:1444
-#: eeschema/sch_component.cpp:1483 eeschema/template_fieldnames.cpp:48
+#: eeschema/lib_field.cpp:629 eeschema/sch_component.cpp:1463
+#: eeschema/sch_component.cpp:1503 eeschema/template_fieldnames.cpp:48
 #: eeschema/widgets/widget_eeschema_color_config.cpp:76
 #: pcbnew/class_text_mod.cpp:412
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:70
@@ -4873,7 +4876,7 @@ msgid "Select with Browser"
 msgstr "Seleziona tramite browser"
 
 #: eeschema/dialogs/dialog_choose_component.cpp:308
-#: eeschema/widgets/symbol_preview_widget.cpp:153
+#: eeschema/widgets/symbol_preview_widget.cpp:156
 #, c-format
 msgid ""
 "Error loading symbol %s from library %s.\n"
@@ -5777,7 +5780,7 @@ msgstr "Raggruppati per"
 
 #: eeschema/dialogs/dialog_fields_editor_global.cpp:855
 #: eeschema/dialogs/dialog_rescue_each.cpp:132 eeschema/lib_field.cpp:456
-#: eeschema/sch_component.cpp:1440 eeschema/sch_component.cpp:1480
+#: eeschema/sch_component.cpp:1459 eeschema/sch_component.cpp:1500
 #: eeschema/template_fieldnames.cpp:47
 #: eeschema/widgets/widget_eeschema_color_config.cpp:75
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:69
@@ -5787,10 +5790,10 @@ msgid "Reference"
 msgstr "Riferimento"
 
 #: eeschema/dialogs/dialog_fields_editor_global.cpp:857
-#: eeschema/lib_field.cpp:470 eeschema/sch_component.cpp:1469
+#: eeschema/lib_field.cpp:470 eeschema/sch_component.cpp:1489
 #: eeschema/template_fieldnames.cpp:49 pcbnew/class_edge_mod.cpp:285
 #: pcbnew/class_module.cpp:616 pcbnew/class_pad.cpp:768
-#: pcbnew/class_text_mod.cpp:416 pcbnew/load_select_footprint.cpp:353
+#: pcbnew/class_text_mod.cpp:416 pcbnew/load_select_footprint.cpp:359
 msgid "Footprint"
 msgstr "Impronta"
 
@@ -7666,54 +7669,54 @@ msgstr "&Passi dei pin ripetuti:"
 msgid "50"
 msgstr "50"
 
-#: eeschema/dialogs/panel_sym_lib_table.cpp:278
+#: eeschema/dialogs/panel_sym_lib_table.cpp:281
 #: pcbnew/dialogs/panel_fp_lib_table.cpp:402
 #, c-format
 msgid "Illegal character '%c' in Nickname: \"%s\""
 msgstr "Carattere illegale \"%c\" in denominazione: \"%s\""
 
-#: eeschema/dialogs/panel_sym_lib_table.cpp:289
+#: eeschema/dialogs/panel_sym_lib_table.cpp:292
 #: pcbnew/dialogs/panel_fp_lib_table.cpp:413
 msgid "No Colon in Nicknames"
 msgstr "No duepunti nella denominazione"
 
-#: eeschema/dialogs/panel_sym_lib_table.cpp:316
+#: eeschema/dialogs/panel_sym_lib_table.cpp:319
 #, c-format
 msgid "Duplicate Nickname: \"%s\"."
 msgstr "Denominazione duplicata: \"%s\"."
 
-#: eeschema/dialogs/panel_sym_lib_table.cpp:326
+#: eeschema/dialogs/panel_sym_lib_table.cpp:329
 #: pcbnew/dialogs/panel_fp_lib_table.cpp:450
 msgid "Please Delete or Modify One"
 msgstr "Cancellare o modificare un elemento"
 
-#: eeschema/dialogs/panel_sym_lib_table.cpp:362
+#: eeschema/dialogs/panel_sym_lib_table.cpp:365
 #: pcbnew/dialogs/panel_fp_lib_table.cpp:632
 msgid "Warning: Duplicate Nickname"
 msgstr "Attenzione: denominatore duplicato"
 
-#: eeschema/dialogs/panel_sym_lib_table.cpp:363
+#: eeschema/dialogs/panel_sym_lib_table.cpp:366
 #: pcbnew/dialogs/panel_fp_lib_table.cpp:633
 #, c-format
 msgid "A library nicknamed \"%s\" already exists."
 msgstr "La libreria con denominazione \"%s\" esiste già."
 
-#: eeschema/dialogs/panel_sym_lib_table.cpp:379
+#: eeschema/dialogs/panel_sym_lib_table.cpp:382
 #: eeschema/libedit/lib_edit_frame.cpp:1669
 #: pcbnew/dialogs/panel_fp_lib_table.cpp:648
 msgid "Skip"
 msgstr "Salta"
 
-#: eeschema/dialogs/panel_sym_lib_table.cpp:379
+#: eeschema/dialogs/panel_sym_lib_table.cpp:382
 #: pcbnew/dialogs/panel_fp_lib_table.cpp:648
 msgid "Add Anyway"
 msgstr "Aggiungi comunque"
 
-#: eeschema/dialogs/panel_sym_lib_table.cpp:707
+#: eeschema/dialogs/panel_sym_lib_table.cpp:710
 msgid "Symbol Libraries"
 msgstr "Librerie di simboli"
 
-#: eeschema/dialogs/panel_sym_lib_table.cpp:724
+#: eeschema/dialogs/panel_sym_lib_table.cpp:727
 #: pcbnew/dialogs/panel_fp_lib_table.cpp:833
 #, c-format
 msgid ""
@@ -7725,14 +7728,14 @@ msgstr ""
 "\n"
 "%s"
 
-#: eeschema/dialogs/panel_sym_lib_table.cpp:725
-#: eeschema/dialogs/panel_sym_lib_table.cpp:739 eeschema/sch_base_frame.cpp:336
+#: eeschema/dialogs/panel_sym_lib_table.cpp:728
+#: eeschema/dialogs/panel_sym_lib_table.cpp:742 eeschema/sch_base_frame.cpp:336
 #: eeschema/sch_base_frame.cpp:352 pcbnew/dialogs/panel_fp_lib_table.cpp:834
 #: pcbnew/dialogs/panel_fp_lib_table.cpp:847 pcbnew/files.cpp:889
 msgid "File Save Error"
 msgstr "Errore salvataggio file"
 
-#: eeschema/dialogs/panel_sym_lib_table.cpp:738
+#: eeschema/dialogs/panel_sym_lib_table.cpp:741
 #: pcbnew/dialogs/panel_fp_lib_table.cpp:846
 #, c-format
 msgid ""
@@ -8231,7 +8234,7 @@ msgstr "Componente %s non trovato"
 msgid "No item found matching %s."
 msgstr "Nessun componente corrisponde a %s."
 
-#: eeschema/generate_alias_info.cpp:37 eeschema/sch_component.cpp:1453
+#: eeschema/generate_alias_info.cpp:37 eeschema/sch_component.cpp:1472
 msgid "Alias of"
 msgstr "Alias di"
 
@@ -8243,21 +8246,21 @@ msgstr "Parole chiave:"
 msgid "Unknown"
 msgstr "Sconosciuto"
 
-#: eeschema/getpart.cpp:152 pcbnew/load_select_footprint.cpp:232
+#: eeschema/getpart.cpp:153 pcbnew/load_select_footprint.cpp:238
 msgid "Recently Used"
 msgstr "Usati recentemente"
 
-#: eeschema/getpart.cpp:166
+#: eeschema/getpart.cpp:167
 #, c-format
 msgid "Choose Power Symbol (%d items loaded)"
 msgstr "Scegli simbolo di alimentazione (%d elementi caricati)"
 
-#: eeschema/getpart.cpp:168 eeschema/viewlibs.cpp:72
+#: eeschema/getpart.cpp:169 eeschema/viewlibs.cpp:72
 #, c-format
 msgid "Choose Symbol (%d items loaded)"
 msgstr "Scegli simbolo (%d elementi caricati)"
 
-#: eeschema/getpart.cpp:365
+#: eeschema/getpart.cpp:366
 #, c-format
 msgid "No alternate body style found for symbol \"%s\" in library \"%s\"."
 msgstr ""
@@ -8635,29 +8638,29 @@ msgstr "Aggiorna C.S. dallo schema"
 msgid "Highlight Connection"
 msgstr "Evidenzia collegamento"
 
-#: eeschema/hotkeys.cpp:225 pagelayout_editor/hotkeys.cpp:96
+#: eeschema/hotkeys.cpp:225 pagelayout_editor/hotkeys.cpp:95
 #: pcbnew/dialogs/wizard_3DShape_Libs_downloader.cpp:212 pcbnew/hotkeys.cpp:310
 msgid "New"
 msgstr "Nuovo"
 
 #: eeschema/hotkeys.cpp:226 pagelayout_editor/files.cpp:146
-#: pagelayout_editor/hotkeys.cpp:97 pcbnew/hotkeys.cpp:311
+#: pagelayout_editor/hotkeys.cpp:96 pcbnew/hotkeys.cpp:311
 msgid "Open"
 msgstr "Apri"
 
 #: eeschema/hotkeys.cpp:228 pagelayout_editor/files.cpp:183
-#: pagelayout_editor/hotkeys.cpp:99 pcbnew/hotkeys.cpp:313
+#: pagelayout_editor/hotkeys.cpp:98 pcbnew/hotkeys.cpp:313
 msgid "Save As"
 msgstr "Salva con nome"
 
-#: eeschema/hotkeys.cpp:232 pagelayout_editor/hotkeys.cpp:94
+#: eeschema/hotkeys.cpp:232 pagelayout_editor/hotkeys.cpp:93
 #: pagelayout_editor/menubar.cpp:108
 #: pagelayout_editor/toolbars_pl_editor.cpp:75 pcbnew/hotkeys.cpp:317
 msgid "Undo"
 msgstr "Annulla"
 
 #: eeschema/hotkeys.cpp:235 eeschema/hotkeys.cpp:237
-#: pagelayout_editor/hotkeys.cpp:95 pagelayout_editor/menubar.cpp:111
+#: pagelayout_editor/hotkeys.cpp:94 pagelayout_editor/menubar.cpp:111
 #: pagelayout_editor/toolbars_pl_editor.cpp:78 pcbnew/hotkeys.cpp:320
 #: pcbnew/hotkeys.cpp:322
 msgid "Redo"
@@ -9095,7 +9098,7 @@ msgstr ""
 msgid "Cannot flush library changes (\"%s\")"
 msgstr "Impossibile annullare i cambiamenti alla libreria (\"%s\")"
 
-#: eeschema/libedit/lib_manager.cpp:300 eeschema/libedit/lib_manager.cpp:687
+#: eeschema/libedit/lib_manager.cpp:300 eeschema/libedit/lib_manager.cpp:689
 #, c-format
 msgid "Cannot enumerate library \"%s\""
 msgstr "Impossibile enumerare la libreria \"%s\""
@@ -9218,7 +9221,7 @@ msgstr "Corpo"
 msgid "Power Symbol"
 msgstr "Simbolo di alimentazione"
 
-#: eeschema/libedit/libedit.cpp:836 eeschema/sch_component.cpp:1474
+#: eeschema/libedit/libedit.cpp:836 eeschema/sch_component.cpp:1494
 #: eeschema/viewlib_frame.cpp:290
 msgid "Key words"
 msgstr "Parole chiave"
@@ -9604,7 +9607,7 @@ msgid "Zoom to fit symbol"
 msgstr "Adatta zoom al simbolo"
 
 #: eeschema/libedit/menubar_libedit.cpp:214 eeschema/menubar.cpp:191
-#: gerbview/menubar.cpp:225 pagelayout_editor/menubar.cpp:141
+#: gerbview/menubar.cpp:225 pagelayout_editor/menubar.cpp:142
 #: pagelayout_editor/pl_editor_config.cpp:64
 #: pcbnew/menubar_footprint_editor.cpp:240 pcbnew/menubar_pcb_editor.cpp:598
 msgid "Show &Grid"
@@ -9712,14 +9715,14 @@ msgstr "Modifica le tabelle librerie di simboli globale e del progetto."
 
 #: eeschema/libedit/menubar_libedit.cpp:332 eeschema/menubar.cpp:631
 #: gerbview/menubar.cpp:302 kicad/menubar.cpp:355
-#: pagelayout_editor/menubar.cpp:175 pcbnew/menubar_footprint_editor.cpp:429
+#: pagelayout_editor/menubar.cpp:176 pcbnew/menubar_footprint_editor.cpp:429
 #: pcbnew/menubar_pcb_editor.cpp:156
 msgid "&Preferences..."
 msgstr "&Preferenze..."
 
 #: eeschema/libedit/menubar_libedit.cpp:334 eeschema/menubar.cpp:633
 #: gerbview/menubar.cpp:304 kicad/menubar.cpp:357
-#: pagelayout_editor/menubar.cpp:177 pcbnew/menubar_footprint_editor.cpp:431
+#: pagelayout_editor/menubar.cpp:178 pcbnew/menubar_footprint_editor.cpp:431
 #: pcbnew/menubar_pcb_editor.cpp:158
 msgid "Show preferences for all open tools"
 msgstr "Mostra le preferenze per tutti gli strumenti aperti"
@@ -9763,7 +9766,7 @@ msgid "Open the \"Getting Started in KiCad\" guide for beginners"
 msgstr "Avvia la guida per principianti \"Avviamento a Kicad\""
 
 #: eeschema/libedit/menubar_libedit.cpp:394 eeschema/menubar.cpp:117
-#: pagelayout_editor/menubar.cpp:215 pcbnew/menubar_footprint_editor.cpp:494
+#: pagelayout_editor/menubar.cpp:216 pcbnew/menubar_footprint_editor.cpp:494
 #: pcbnew/menubar_pcb_editor.cpp:133
 msgid "&Place"
 msgstr "&Inserisci"
@@ -9774,7 +9777,7 @@ msgid "&Inspect"
 msgstr "&Ispeziona"
 
 #: eeschema/libedit/menubar_libedit.cpp:396 eeschema/menubar.cpp:120
-#: pagelayout_editor/menubar.cpp:216 pcbnew/menubar_footprint_editor.cpp:497
+#: pagelayout_editor/menubar.cpp:217 pcbnew/menubar_footprint_editor.cpp:497
 #: pcbnew/menubar_pcb_editor.cpp:137
 msgid "P&references"
 msgstr "P&referenze"
@@ -10802,34 +10805,34 @@ msgstr "Corrispondenza %i di %i: %s di %s in foglio %s"
 msgid "Match %i of %i: %s in sheet %s"
 msgstr "Riscontro %i di %i: %s nel foglio %s"
 
-#: eeschema/sch_component.cpp:1444
+#: eeschema/sch_component.cpp:1463
 msgid "Power symbol"
 msgstr "Simbolo di alimentazione"
 
-#: eeschema/sch_component.cpp:1456 eeschema/sch_component.cpp:1458
-#: eeschema/sch_component.cpp:1461 eeschema/sch_component.cpp:1491
-#: eeschema/sch_component.cpp:1497 eeschema/selpart.cpp:88
+#: eeschema/sch_component.cpp:1475 eeschema/sch_component.cpp:1478
+#: eeschema/sch_component.cpp:1481 eeschema/sch_component.cpp:1511
+#: eeschema/sch_component.cpp:1517 eeschema/selpart.cpp:88
 msgid "Library"
 msgstr "Libreria"
 
-#: eeschema/sch_component.cpp:1461
+#: eeschema/sch_component.cpp:1481
 msgid "Undefined!!!"
 msgstr "Indefinito!!!"
 
-#: eeschema/sch_component.cpp:1467
+#: eeschema/sch_component.cpp:1487
 msgid "<Unknown>"
 msgstr "<Sconosciuto>"
 
-#: eeschema/sch_component.cpp:1492
+#: eeschema/sch_component.cpp:1512
 msgid "No library defined!!!"
 msgstr "Nessuna libreria definita!!"
 
-#: eeschema/sch_component.cpp:1496
+#: eeschema/sch_component.cpp:1516
 #, c-format
 msgid "Symbol not found in %s!!!"
 msgstr "Simbolo non trovato in %s!!!"
 
-#: eeschema/sch_component.cpp:1720
+#: eeschema/sch_component.cpp:1740
 #, c-format
 msgid "Symbol %s, %s"
 msgstr "Simbolo %s, %s"
@@ -13565,7 +13568,7 @@ msgstr "&Manuale di KiCad"
 msgid "Open KiCad user manual"
 msgstr "Apri il manuale utente di KiCad"
 
-#: kicad/menubar.cpp:419 pagelayout_editor/menubar.cpp:195
+#: kicad/menubar.cpp:419 pagelayout_editor/menubar.cpp:196
 msgid "&List Hotkeys"
 msgstr "E&lenco tasti"
 
@@ -14076,7 +14079,7 @@ msgstr "Sposta punto iniziale "
 msgid "Move End Point"
 msgstr "Sposta punto finale "
 
-#: pagelayout_editor/hotkeys.cpp:132 pagelayout_editor/pl_editor_frame.cpp:264
+#: pagelayout_editor/hotkeys.cpp:131 pagelayout_editor/pl_editor_frame.cpp:264
 msgid "Page Layout Editor"
 msgstr "Editor disposizione pagina"
 
@@ -14108,47 +14111,47 @@ msgstr "&Visualizza anteprima di stampa..."
 msgid "Close Page Layout Editor"
 msgstr "Chiudi editor disposizione pagina"
 
-#: pagelayout_editor/menubar.cpp:137 pagelayout_editor/pl_editor_config.cpp:57
+#: pagelayout_editor/menubar.cpp:138 pagelayout_editor/pl_editor_config.cpp:57
 msgid "&Background Black"
 msgstr "&Sfondo nero "
 
-#: pagelayout_editor/menubar.cpp:137 pagelayout_editor/pl_editor_config.cpp:57
+#: pagelayout_editor/menubar.cpp:138 pagelayout_editor/pl_editor_config.cpp:57
 msgid "&Background White"
 msgstr "&Sfondo bianco"
 
-#: pagelayout_editor/menubar.cpp:141 pagelayout_editor/pl_editor_config.cpp:64
+#: pagelayout_editor/menubar.cpp:142 pagelayout_editor/pl_editor_config.cpp:64
 msgid "Hide &Grid"
 msgstr "Nascondi &griglia"
 
-#: pagelayout_editor/menubar.cpp:153
+#: pagelayout_editor/menubar.cpp:154
 msgid "&Line..."
 msgstr "&Linea..."
 
-#: pagelayout_editor/menubar.cpp:156
+#: pagelayout_editor/menubar.cpp:157
 msgid "&Rectangle..."
 msgstr "&Rettangolo..."
 
-#: pagelayout_editor/menubar.cpp:159
+#: pagelayout_editor/menubar.cpp:160
 msgid "&Text..."
 msgstr "&Testo..."
 
-#: pagelayout_editor/menubar.cpp:162
+#: pagelayout_editor/menubar.cpp:163
 msgid "&Bitmap..."
 msgstr "&Bitmap..."
 
-#: pagelayout_editor/menubar.cpp:167
+#: pagelayout_editor/menubar.cpp:168
 msgid "&Append Existing Page Layout Design File..."
 msgstr "&Accoda file di disposizione pagina esistente..."
 
-#: pagelayout_editor/menubar.cpp:168
+#: pagelayout_editor/menubar.cpp:169
 msgid "Append an existing page layout design file to current file"
 msgstr "Accoda un file di disposizione pagina esistente al file corrente"
 
-#: pagelayout_editor/menubar.cpp:187
+#: pagelayout_editor/menubar.cpp:188
 msgid "Page Layout Editor &Manual"
 msgstr "&Manuale editor disposizione pagina"
 
-#: pagelayout_editor/menubar.cpp:188
+#: pagelayout_editor/menubar.cpp:189
 msgid "Open the Page Layout Editor Manual"
 msgstr "Apri il manuale dell'editor disposizione pagina"
 
@@ -23812,22 +23815,22 @@ msgstr ""
 msgid "File \"%s\" is empty or is not a legacy library"
 msgstr "Il file \"%s\" è vuoto o non è una vecchia libreria"
 
-#: pcbnew/load_select_footprint.cpp:242
+#: pcbnew/load_select_footprint.cpp:248
 #, c-format
 msgid "Choose Footprint (%d items loaded)"
 msgstr "Scegli l'impronta (%d elementi caricati)"
 
-#: pcbnew/load_select_footprint.cpp:349
+#: pcbnew/load_select_footprint.cpp:355
 #, c-format
 msgid "Footprints [%u items]"
 msgstr "Impronte [%u elementi]"
 
-#: pcbnew/load_select_footprint.cpp:415
+#: pcbnew/load_select_footprint.cpp:421
 #, c-format
 msgid "Footprint \"%s\" saved"
 msgstr "Impronta \"%s\" salvata"
 
-#: pcbnew/load_select_footprint.cpp:426
+#: pcbnew/load_select_footprint.cpp:432
 #, c-format
 msgid "Footprint library \"%s\" saved as \"%s\"."
 msgstr "Libreria impronte \"%s\" salvata come \"%s\"."
