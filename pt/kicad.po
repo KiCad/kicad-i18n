@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-21 09:21-0300\n"
-"PO-Revision-Date: 2019-05-08 17:24-0300\n"
+"POT-Creation-Date: 2019-05-21 09:33-0300\n"
+"PO-Revision-Date: 2019-05-21 09:32-0300\n"
 "Last-Translator: Francisco R. Pereira <frosch_bin@yahoo.com.br>\n"
 "Language-Team: kicad team\n"
 "Language: pt_BR\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Basepath: ../../kicad-source-mirror\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.2.3\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Poedit-KeywordsList: _;_HKI\n"
 "X-Poedit-SearchPath-0: 3d-viewer\n"
@@ -1523,9 +1523,9 @@ msgid "Footprints by"
 msgstr "Footprints"
 
 #: common/dialog_about/dialog_about.cpp:100
-#, fuzzy, c-format
+#, c-format
 msgid "About %s"
-msgstr "Sobre"
+msgstr "Sobre %s"
 
 #: common/dialog_about/dialog_about.cpp:128
 msgid "Information"
@@ -3486,27 +3486,26 @@ msgid "Zoom: %.2f"
 msgstr "Zoom: %.2f"
 
 #: common/validators.cpp:256
-#, fuzzy, c-format
+#, c-format
 msgid "Incorrect value: %s"
-msgstr "Valor incorreto para R1 R2"
+msgstr "Valor incorreto: %s"
 
 #: common/validators.cpp:296
 msgid "Entry contains trailing white space."
-msgstr ""
+msgstr "Entrada contém espaço em branco à direita."
 
 #: common/validators.cpp:300
 msgid "Entry contains leading white space."
-msgstr ""
+msgstr "Entrada contém espaço em branco à esquerda."
 
 #: common/validators.cpp:304
-#, fuzzy, c-format
+#, c-format
 msgid "\"%s\" is not a valid library identifier format."
-msgstr "%d não é uma contagem de camada válida"
+msgstr "\"%s\" não é um formato de identificador de biblioteca válido."
 
 #: common/validators.cpp:311
-#, fuzzy
 msgid "Library Identifier Validation Error"
-msgstr "Erro na Validação do Campo"
+msgstr "Erro na Validação do Identificador de Biblioteca"
 
 #: common/view/view.cpp:567
 msgid "Mirroring for Y axis is not supported yet"
@@ -3580,9 +3579,8 @@ msgid "Full window crosshair"
 msgstr "Cursor de tela inteira"
 
 #: common/widgets/gal_options_panel.cpp:159
-#, fuzzy
 msgid "Cursor Shape:"
-msgstr "Forma do cursor:"
+msgstr "Forma do Cursor:"
 
 #: common/widgets/gal_options_panel.cpp:164
 msgid "Cursor shape for drawing, placement and movement tools"
@@ -23832,16 +23830,12 @@ msgid "Import a footprint from an existing footprint file"
 msgstr "Importar um footprint de um arquivo de footprint existente"
 
 #: pcbnew/menubar_footprint_editor.cpp:106
-#, fuzzy
 msgid "Import Outlines from &DXF File..."
-msgstr "Importar Contornos de um arquivo &DXF ou SVG..."
+msgstr "Importar Contornos de um arquivo &DXF..."
 
 #: pcbnew/menubar_footprint_editor.cpp:107
-#, fuzzy
 msgid "Import 2D Drawing to Footprint Editor on Drawings layer"
-msgstr ""
-"Importar arquivo DXF ou SVG de desenho 2D para o Editor de Footprints na "
-"camada Desenhos"
+msgstr "Importar Desenho 2D para o Editor de Footprint na Camada Desenhos"
 
 #: pcbnew/menubar_footprint_editor.cpp:111
 msgid "&Export Footprint..."
