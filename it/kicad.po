@@ -76,12 +76,14 @@
 # mc: - snap = magnetismo
 # mc: - overridden = sostituito (non è un termine tecnico ma per uniformità della traduzione)
 # mc: - canvas = area di lavoro
+# mc: - flip = capovolgi
+# mc: - mirror-ed = (rende) speculare
 msgid ""
 msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-28 13:10+0200\n"
-"PO-Revision-Date: 2019-05-28 13:12+0200\n"
+"PO-Revision-Date: 2019-05-28 13:58+0200\n"
 "Last-Translator: Marco Ciampa <ciampix@posteo.net>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
@@ -1985,11 +1987,11 @@ msgstr ""
 
 #: common/dialogs/dialog_image_editor_base.cpp:33 eeschema/hotkeys.cpp:158
 msgid "Mirror X"
-msgstr "Ribalta in X"
+msgstr "Speculare in X"
 
 #: common/dialogs/dialog_image_editor_base.cpp:36 eeschema/hotkeys.cpp:156
 msgid "Mirror Y"
-msgstr "Ribalta in Y"
+msgstr "Speculare in Y"
 
 #: common/dialogs/dialog_image_editor_base.cpp:39 pcbnew/onrightclick.cpp:940
 #: pcbnew/tools/edit_tool.cpp:703
@@ -3208,7 +3210,7 @@ msgstr "Zoom alla selezione"
 
 #: common/legacy_gal/block.cpp:103 common/legacy_wx/block.cpp:102
 msgid "Block Flip"
-msgstr "Inverti blocco"
+msgstr "Capovolgi blocco"
 
 #: common/legacy_gal/eda_draw_frame.cpp:196
 #: common/legacy_gal/eda_draw_frame.cpp:623
@@ -3586,7 +3588,7 @@ msgstr "Errore di validazione identificatore di libreria"
 
 #: common/view/view.cpp:567
 msgid "Mirroring for Y axis is not supported yet"
-msgstr "Il ribaltamento lungo l'asse Y non è ancora supportato"
+msgstr "La resa speculare lungo l'asse Y non è ancora supportata"
 
 #: common/widgets/footprint_preview_widget.cpp:96
 msgid "Footprint not found"
@@ -5407,11 +5409,11 @@ msgstr "Seleziona se il simbolo disegnato verrà ruotato"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:184
 msgid "Mirror around X axis"
-msgstr "Ribalta attorno all'asse X"
+msgstr "Speculare attorno all'asse X"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:184
 msgid "Mirror around Y axis"
-msgstr "Ribalta attorno all'asse Y"
+msgstr "Speculare attorno all'asse Y"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:186
 msgid "Aspect"
@@ -12104,7 +12106,7 @@ msgstr "Selezione strati"
 #: pcbnew/dialogs/dialog_export_svg_base.cpp:121
 #: pcbnew/dialogs/dialog_print_pcbnew.cpp:174
 msgid "Print mirrored"
-msgstr "Stampa riflesso"
+msgstr "Stampa speculare"
 
 #: gerbview/dialogs/dialog_print_gerbview.cpp:192
 #: pcbnew/dialogs/dialog_plot_base.cpp:56
@@ -12454,7 +12456,7 @@ msgstr "Polarità"
 #: pcbnew/footprint_editor_onclick.cpp:290 pcbnew/tools/edit_tool.cpp:123
 #: pcbnew/tools/edit_tool.cpp:826
 msgid "Mirror"
-msgstr "Capovolgi"
+msgstr "Speculare"
 
 #: gerbview/gerber_draw_item.cpp:728
 msgid "AB axis"
@@ -16004,7 +16006,7 @@ msgstr "Lato scheda"
 
 #: pcbnew/class_module.cpp:568
 msgid "Back (Flipped)"
-msgstr "Sotto (ribaltato)"
+msgstr "Sotto (capovolto)"
 
 #: pcbnew/class_module.cpp:568
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:189
@@ -17928,7 +17930,7 @@ msgstr "Stampa (o no) lo strato di taglio sugli altri strati"
 
 #: pcbnew/dialogs/dialog_export_svg_base.cpp:122
 msgid "Print the layer(s) horizontally mirrored"
-msgstr "Stampa gli strati riflessi orizzontalmente"
+msgstr "Stampa gli strati speculari orizzontalmente"
 
 #: pcbnew/dialogs/dialog_export_svg_base.cpp:126
 msgid "One file per layer"
@@ -18161,7 +18163,7 @@ msgstr "Esporta sulle impostazioni GenCAD"
 
 #: pcbnew/dialogs/dialog_gencad_export_options.cpp:141
 msgid "Flip bottom footprint padstacks"
-msgstr "Ribalta lo stack piazzole dei componenti posteriori"
+msgstr "Capovolgi lo stack piazzole dei componenti posteriori"
 
 #: pcbnew/dialogs/dialog_gencad_export_options.cpp:142
 msgid "Generate unique pin names"
@@ -18230,7 +18232,7 @@ msgstr "Excellon"
 
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:54
 msgid "Mirror Y axis"
-msgstr "Ribalta sull'asse Y"
+msgstr "Speculare sull'asse Y"
 
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:55
 msgid ""
@@ -19516,7 +19518,7 @@ msgid ""
 "Parent footprint on board is flipped.\n"
 "Layers will be reversed."
 msgstr ""
-"L'impronta genitore sulla scheda è speculare.\n"
+"L'impronta genitore sulla scheda è capovolta.\n"
 "Gli strati verranno invertiti."
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:307
@@ -20571,7 +20573,7 @@ msgstr "Giustificato:"
 
 #: pcbnew/dialogs/dialog_text_properties_base.cpp:168 pcbnew/microwave.cpp:466
 msgid "Mirrored"
-msgstr "Specchiato"
+msgstr "Speculare"
 
 #: pcbnew/dialogs/dialog_text_properties_base.cpp:197
 msgid "Parent footprint description"
@@ -22623,7 +22625,7 @@ msgstr "Duplica blocco (maiusc + trascina il mouse)"
 
 #: pcbnew/footprint_editor_onclick.cpp:253
 msgid "Mirror Block (alt + drag mouse)"
-msgstr "Ribalta blocco (alt + trascina il mouse)"
+msgstr "Rendi speculare blocco (alt + trascina il mouse)"
 
 #: pcbnew/footprint_editor_onclick.cpp:256
 msgid "Rotate Block (ctrl + drag mouse)"
@@ -23335,7 +23337,7 @@ msgstr "Modifica con l'editor delle impronte"
 
 #: pcbnew/hotkeys.cpp:138
 msgid "Flip Item"
-msgstr "Ribalta elemento"
+msgstr "Capovolgi elemento"
 
 #: pcbnew/hotkeys.cpp:140
 msgid "Rotate Item Clockwise (Modern Toolset only)"
@@ -24480,11 +24482,11 @@ msgstr "Mostra gli elementi grafici in modalità contorno"
 
 #: pcbnew/menubar_pcb_editor.cpp:721
 msgid "Flip &Board View"
-msgstr "Ri&balta vista scheda"
+msgstr "&Capovolgi vista scheda"
 
 #: pcbnew/menubar_pcb_editor.cpp:722
 msgid "Flip (mirror) the board view"
-msgstr "Riflette (ribalta) la vista della scheda"
+msgstr "Capovolgi (speculare) la vista della scheda"
 
 #: pcbnew/menubar_pcb_editor.cpp:758
 msgid "Create new board"
@@ -25000,7 +25002,7 @@ msgstr "Documentazione impronta"
 #: pcbnew/onrightclick.cpp:942 pcbnew/tools/edit_tool.cpp:119
 #: pcbnew/tools/edit_tool.cpp:867
 msgid "Flip"
-msgstr "Ribalta"
+msgstr "Capovolgi"
 
 #: pcbnew/onrightclick.cpp:452
 msgid "Drag Via"
@@ -26724,11 +26726,11 @@ msgstr "Ruota gli elementi selezionati in senso antiorario"
 
 #: pcbnew/tools/edit_tool.cpp:119
 msgid "Flips selected item(s)"
-msgstr "Ribalta gli elementi selezionati"
+msgstr "Capovolgi gli elementi selezionati"
 
 #: pcbnew/tools/edit_tool.cpp:123
 msgid "Mirrors selected item"
-msgstr "Rispecchia elemento selezionato"
+msgstr "Rendi speculare l'elemento selezionato"
 
 #: pcbnew/tools/edit_tool.cpp:127
 msgid "Deletes selected item(s)"
