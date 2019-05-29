@@ -83,7 +83,7 @@ msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-28 13:10+0200\n"
-"PO-Revision-Date: 2019-05-28 13:58+0200\n"
+"PO-Revision-Date: 2019-05-29 08:59+0200\n"
 "Last-Translator: Marco Ciampa <ciampix@posteo.net>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
@@ -24207,7 +24207,7 @@ msgstr "Esegui controllo regole di progettazione"
 
 #: pcbnew/menubar_pcb_editor.cpp:270
 msgid "Edit the global and project footprint library lists"
-msgstr "Modifica gli elencho librerie di simboli globale e del progetto"
+msgstr "Modifica gli elenchi librerie di impronte globale e del progetto"
 
 #: pcbnew/menubar_pcb_editor.cpp:275
 msgid "Add &3D Shapes Libraries Wizard..."
