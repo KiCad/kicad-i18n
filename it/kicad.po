@@ -82,8 +82,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-28 13:10+0200\n"
-"PO-Revision-Date: 2019-05-29 08:59+0200\n"
+"POT-Creation-Date: 2019-06-04 11:20+0200\n"
+"PO-Revision-Date: 2019-06-04 11:58+0200\n"
 "Last-Translator: Marco Ciampa <ciampix@posteo.net>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
@@ -1994,7 +1994,7 @@ msgid "Mirror Y"
 msgstr "Speculare in Y"
 
 #: common/dialogs/dialog_image_editor_base.cpp:39 pcbnew/onrightclick.cpp:940
-#: pcbnew/tools/edit_tool.cpp:703
+#: pcbnew/tools/edit_tool.cpp:718
 msgid "Rotate"
 msgstr "Ruota"
 
@@ -4533,7 +4533,7 @@ msgstr "Misura interattivamente distanze tra punti"
 #: gerbview/tools/selection_tool.cpp:807
 #: pcbnew/menubar_footprint_editor.cpp:397 pcbnew/menubar_pcb_editor.cpp:247
 #: pcbnew/tool_footprint_editor.cpp:197 pcbnew/tool_pcb_editor.cpp:522
-#: pcbnew/tools/edit_tool.cpp:1297
+#: pcbnew/tools/edit_tool.cpp:1312
 msgid "Measure distance"
 msgstr "Misura la distanza"
 
@@ -4599,7 +4599,7 @@ msgstr "Fallita l'apertura del file di associazione componenti-impronte \"%s\""
 msgid "No item to paste."
 msgstr "Nessun elemento da incollare."
 
-#: eeschema/block.cpp:489 eeschema/files-io.cpp:478 eeschema/sheet.cpp:276
+#: eeschema/block.cpp:489 eeschema/files-io.cpp:478 eeschema/sheet.cpp:281
 #, c-format
 msgid ""
 "The sheet changes cannot be made because the destination sheet already has "
@@ -7778,7 +7778,7 @@ msgstr ""
 #: eeschema/dialogs/panel_sym_lib_table.cpp:731
 #: eeschema/dialogs/panel_sym_lib_table.cpp:745 eeschema/sch_base_frame.cpp:336
 #: eeschema/sch_base_frame.cpp:352 pcbnew/dialogs/panel_fp_lib_table.cpp:837
-#: pcbnew/dialogs/panel_fp_lib_table.cpp:850 pcbnew/files.cpp:894
+#: pcbnew/dialogs/panel_fp_lib_table.cpp:850 pcbnew/files.cpp:891
 msgid "File Save Error"
 msgstr "Errore salvataggio file"
 
@@ -8715,7 +8715,7 @@ msgstr "Rifà"
 
 #: eeschema/hotkeys.cpp:242 eeschema/widgets/symbol_tree_pane.cpp:88
 #: pcbnew/footprint_tree_pane.cpp:89 pcbnew/hotkeys.cpp:327
-#: pcbnew/tools/edit_tool.cpp:165 pcbnew/tools/edit_tool.cpp:964
+#: pcbnew/tools/edit_tool.cpp:165 pcbnew/tools/edit_tool.cpp:979
 msgid "Cut"
 msgstr "Taglia"
 
@@ -9335,7 +9335,7 @@ msgstr "Modifica opzioni arco"
 #: pcbnew/onrightclick.cpp:766 pcbnew/onrightclick.cpp:849
 #: pcbnew/onrightclick.cpp:906 pcbnew/onrightclick.cpp:952
 #: pcbnew/pcb_parser.cpp:597 pcbnew/tools/edit_tool.cpp:127
-#: pcbnew/tools/edit_tool.cpp:966
+#: pcbnew/tools/edit_tool.cpp:981
 msgid "Delete"
 msgstr "Cancella"
 
@@ -10476,7 +10476,7 @@ msgstr "Sposta %s"
 #: eeschema/onrightclick.cpp:390 eeschema/onrightclick.cpp:533
 #: eeschema/onrightclick.cpp:570 eeschema/onrightclick.cpp:605
 #: eeschema/onrightclick.cpp:795 pcbnew/onrightclick.cpp:738
-#: pcbnew/tools/edit_tool.cpp:585
+#: pcbnew/tools/edit_tool.cpp:600
 msgid "Drag"
 msgstr "Trascina"
 
@@ -11091,22 +11091,22 @@ msgstr "La libreria \"%s\" non può essere cancellata"
 #: eeschema/sch_line.cpp:625
 #, c-format
 msgid "%s Graphic Line from (%s, %s) to (%s, %s)"
-msgstr "%s Linea grafica da (%s, %s) a (%s, %s)"
+msgstr "Linea grafica %s da (%s, %s) a (%s, %s)"
 
 #: eeschema/sch_line.cpp:629
 #, c-format
 msgid "%s Wire from (%s, %s) to (%s, %s)"
-msgstr "%s Filo da (%s, %s) a (%s, %s)"
+msgstr "Filo %s da (%s, %s) a (%s, %s)"
 
 #: eeschema/sch_line.cpp:633
 #, c-format
 msgid "%s Bus from (%s, %s) to (%s, %s)"
-msgstr "%s Bus da (%s, %s) a (%s, %s)"
+msgstr "Bus %s da (%s, %s) a (%s, %s)"
 
 #: eeschema/sch_line.cpp:637
 #, c-format
 msgid "%s Line on Unknown Layer from (%s, %s) to (%s, %s)"
-msgstr "%s Linea su strato sconosciuto da (%s, %s) a (%s, %s)"
+msgstr "Linea %s su strato sconosciuto da (%s, %s) a (%s, %s)"
 
 #: eeschema/sch_marker.cpp:128
 msgid "Electronics Rule Check Error"
@@ -11461,7 +11461,7 @@ msgstr ""
 "Impossibile caricare lo schema elettrico completo. Si sono verificati degli\n"
 "errori nel tentativo di caricare la gerarchia degli schemi elettrici."
 
-#: eeschema/sheet.cpp:289
+#: eeschema/sheet.cpp:294
 #, c-format
 msgid ""
 "The schematic \"%s\" has not been remapped to the symbol\n"
@@ -12454,7 +12454,7 @@ msgstr "Polarità"
 #: gerbview/gerber_draw_item.cpp:724 pcbnew/class_pcb_text.cpp:131
 #: pcbnew/class_pcb_text.cpp:133 pcbnew/class_text_mod.cpp:439
 #: pcbnew/footprint_editor_onclick.cpp:290 pcbnew/tools/edit_tool.cpp:123
-#: pcbnew/tools/edit_tool.cpp:826
+#: pcbnew/tools/edit_tool.cpp:841
 msgid "Mirror"
 msgstr "Speculare"
 
@@ -15968,7 +15968,7 @@ msgstr "Curva"
 msgid "Segment"
 msgstr "Segmento"
 
-#: pcbnew/class_drawsegment.cpp:802
+#: pcbnew/class_drawsegment.cpp:803
 #, c-format
 msgid "Pcb Graphic %s, length %s on %s"
 msgstr "Grafica C.S. %s, lunghezza %s su %s"
@@ -22524,7 +22524,7 @@ msgstr ""
 "Errore durante il caricamento file scheda:\n"
 "%s"
 
-#: pcbnew/files.cpp:539
+#: pcbnew/files.cpp:536
 msgid ""
 "This file was created by an older version of Pcbnew.\n"
 "It will be stored in the new file format when you save this file again."
@@ -22532,17 +22532,17 @@ msgstr ""
 "Questo file è stato creato con una precedente versione di PcbNew.\n"
 "Al prossimo salvataggio verrà memorizzato nel nuovo formato."
 
-#: pcbnew/files.cpp:629
+#: pcbnew/files.cpp:626
 #, c-format
 msgid "Warning: unable to create backup file \"%s\""
 msgstr "Attenzione: impossibile creare il file di salvataggio \"%s\""
 
-#: pcbnew/files.cpp:656 pcbnew/files.cpp:747
+#: pcbnew/files.cpp:653 pcbnew/files.cpp:744
 #, c-format
 msgid "No access rights to write to file \"%s\""
 msgstr "Nessun diritto di accesso durante la scrittura del file \"%s\""
 
-#: pcbnew/files.cpp:693 pcbnew/files.cpp:772
+#: pcbnew/files.cpp:690 pcbnew/files.cpp:769
 #, c-format
 msgid ""
 "Error saving board file \"%s\".\n"
@@ -22551,22 +22551,22 @@ msgstr ""
 "Errore durante il salvataggio del file scheda \"%s\".\n"
 "%s"
 
-#: pcbnew/files.cpp:699
+#: pcbnew/files.cpp:696
 #, c-format
 msgid "Failed to create \"%s\""
 msgstr "Impossibile creare \"%s\""
 
-#: pcbnew/files.cpp:725
+#: pcbnew/files.cpp:722
 #, c-format
 msgid "Backup file: \"%s\""
 msgstr "File di salvataggio: \"%s\""
 
-#: pcbnew/files.cpp:727
+#: pcbnew/files.cpp:724
 #, c-format
 msgid "Wrote board file: \"%s\""
 msgstr "File scheda scritto: \"%s\""
 
-#: pcbnew/files.cpp:781
+#: pcbnew/files.cpp:778
 #, c-format
 msgid ""
 "Board copied to:\n"
@@ -22575,7 +22575,7 @@ msgstr ""
 "Scheda copiata su:\n"
 "\"%s\""
 
-#: pcbnew/files.cpp:891
+#: pcbnew/files.cpp:888
 #, c-format
 msgid ""
 "Error occurred saving project specific footprint library table:\n"
@@ -25000,7 +25000,7 @@ msgstr "Documentazione impronta"
 
 #: pcbnew/onrightclick.cpp:425 pcbnew/onrightclick.cpp:748
 #: pcbnew/onrightclick.cpp:942 pcbnew/tools/edit_tool.cpp:119
-#: pcbnew/tools/edit_tool.cpp:867
+#: pcbnew/tools/edit_tool.cpp:882
 msgid "Flip"
 msgstr "Capovolgi"
 
@@ -26773,32 +26773,32 @@ msgstr "Taglia in contenuto selezionato sugli appunti"
 msgid "pcbnew.InteractiveSelection tool is not available"
 msgstr "strumento pcbnew.InteractiveSelection non disponibile"
 
-#: pcbnew/tools/edit_tool.cpp:624
+#: pcbnew/tools/edit_tool.cpp:639
 msgid "Edit track width/via size"
 msgstr "Larghezza piste/dimensioni via"
 
-#: pcbnew/tools/edit_tool.cpp:975
+#: pcbnew/tools/edit_tool.cpp:990
 msgid "Delete again to remove locked items"
 msgstr "Cancella nuovamente per eliminare gli elementi bloccati"
 
-#: pcbnew/tools/edit_tool.cpp:1056
+#: pcbnew/tools/edit_tool.cpp:1071
 msgid "Move exact"
 msgstr "Sposta esattamente"
 
-#: pcbnew/tools/edit_tool.cpp:1136
+#: pcbnew/tools/edit_tool.cpp:1151
 #, c-format
 msgid "Duplicated %d item(s)"
 msgstr "%d elementi duplicati"
 
-#: pcbnew/tools/edit_tool.cpp:1478
+#: pcbnew/tools/edit_tool.cpp:1493
 msgid "Select reference point for the copy..."
 msgstr "Selezionare il punto di riferimento per la copia..."
 
-#: pcbnew/tools/edit_tool.cpp:1483
+#: pcbnew/tools/edit_tool.cpp:1498
 msgid "Selection copied."
 msgstr "Selezione copiata."
 
-#: pcbnew/tools/edit_tool.cpp:1490
+#: pcbnew/tools/edit_tool.cpp:1505
 msgid "Copy cancelled."
 msgstr "Copia annullata."
 
