@@ -83,7 +83,7 @@ msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-04 11:20+0200\n"
-"PO-Revision-Date: 2019-06-04 11:58+0200\n"
+"PO-Revision-Date: 2019-06-06 10:01+0200\n"
 "Last-Translator: Marco Ciampa <ciampix@posteo.net>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
@@ -12517,7 +12517,7 @@ msgstr "Gerbview"
 #: gerbview/gerbview_frame.cpp:156 pcbnew/footprint_edit_frame.cpp:320
 #: pcbnew/footprint_edit_frame.cpp:726 pcbnew/pcb_edit_frame.cpp:375
 msgid "Layers Manager"
-msgstr "Gestione livelli"
+msgstr "Gestione strati"
 
 #: gerbview/gerbview_frame.cpp:177 pcbnew/pcb_edit_frame.cpp:401
 msgid ""
@@ -12808,11 +12808,11 @@ msgstr "&Chiudi GerbView"
 
 #: gerbview/menubar.cpp:187
 msgid "Show &Layers Manager"
-msgstr "Mostra &Gestione livelli"
+msgstr "Mostra &Gestione strati"
 
 #: gerbview/menubar.cpp:187
 msgid "Show or hide the layer manager"
-msgstr "Mostra o nascondi gestione livelli"
+msgstr "Mostra o nascondi gestione strati"
 
 #: gerbview/menubar.cpp:212 gerbview/toolbars_gerber.cpp:84
 #: pcbnew/tool_footprint_viewer.cpp:92
@@ -13102,7 +13102,7 @@ msgstr "Visualizza con contrasto aumentato "
 
 #: gerbview/toolbars_gerber.cpp:340 pcbnew/help_common_strings.h:24
 msgid "Show/hide the layers manager toolbar"
-msgstr "Mostra/nascondi gestione livelli"
+msgstr "Mostra/nascondi gestione strati"
 
 #: gerbview/toolbars_gerber.cpp:348
 msgid "<No selection>"
@@ -13150,7 +13150,7 @@ msgstr "Abilita la modalità alto contrasto"
 
 #: gerbview/toolbars_gerber.cpp:645
 msgid "Hide layers manager"
-msgstr "Nascondi gestione livelli"
+msgstr "Nascondi gestione strati"
 
 #: gerbview/toolbars_gerber.cpp:647
 msgid "Show layers manager"
