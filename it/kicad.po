@@ -82,8 +82,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-21 12:54+0200\n"
-"PO-Revision-Date: 2019-06-21 12:56+0200\n"
+"POT-Creation-Date: 2019-06-21 20:05+0200\n"
+"PO-Revision-Date: 2019-06-21 20:10+0200\n"
 "Last-Translator: Marco Ciampa <ciampix@posteo.net>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
@@ -3049,7 +3049,7 @@ msgstr "Impossibile aprire il file di configurazione"
 msgid "Problems writing configuration file"
 msgstr "Problemi durante la scrittura del file di configurazione"
 
-#: common/footprint_info.cpp:91 cvpcb/cvpcb_mainframe.cpp:814
+#: common/footprint_info.cpp:91 cvpcb/cvpcb_mainframe.cpp:915
 msgid "Load Error"
 msgstr "Errore di caricamento"
 
@@ -3625,7 +3625,7 @@ msgstr "La resa speculare lungo l'asse Y non è ancora supportata"
 msgid "Footprint not found"
 msgstr "Impronta non trovata"
 
-#: common/widgets/footprint_select_widget.cpp:78 cvpcb/cvpcb_mainframe.cpp:749
+#: common/widgets/footprint_select_widget.cpp:78 cvpcb/cvpcb_mainframe.cpp:850
 #: pcbnew/footprint_edit_frame.cpp:863 pcbnew/load_select_footprint.cpp:214
 msgid "Loading Footprint Libraries"
 msgstr "Caricamento librerie di impronte"
@@ -4069,95 +4069,127 @@ msgstr ""
 msgid "An error occurred attempting to load the global footprint library table"
 msgstr "Errore durante il caricamento della tabella librerie impronte globale"
 
-#: cvpcb/cvpcb_mainframe.cpp:113
+#: cvpcb/cvpcb_mainframe.cpp:120
 msgid "Assign Footprints"
 msgstr "Assegna impronte"
 
-#: cvpcb/cvpcb_mainframe.cpp:156 pcbnew/dialogs/panel_fp_lib_table.cpp:818
+#: cvpcb/cvpcb_mainframe.cpp:163 pcbnew/dialogs/panel_fp_lib_table.cpp:818
 msgid "Footprint Libraries"
 msgstr "Librerie di impronte"
 
-#: cvpcb/cvpcb_mainframe.cpp:160
+#: cvpcb/cvpcb_mainframe.cpp:167
 msgid "Symbol : Footprint Assignments"
 msgstr "Simbolo: assegnamenti impronte"
 
-#: cvpcb/cvpcb_mainframe.cpp:163
+#: cvpcb/cvpcb_mainframe.cpp:170
 msgid "Filtered Footprints"
 msgstr "Impronte filtrate"
 
-#: cvpcb/cvpcb_mainframe.cpp:199
+#: cvpcb/cvpcb_mainframe.cpp:206
 #: eeschema/dialogs/dialog_fields_editor_global_base.cpp:105
 msgid "Apply, Save Schematic && Continue"
 msgstr "Applica, salva lo schema e continua"
 
-#: cvpcb/cvpcb_mainframe.cpp:279
+#: cvpcb/cvpcb_mainframe.cpp:292
 msgid "Symbol to Footprint links have been modified. Save before exit?"
 msgstr ""
 "Le associazioni simbolo a impronta sono state modificate. Salvare prima di "
 "uscire?"
 
-#: cvpcb/cvpcb_mainframe.cpp:422
-msgid "Delete selections"
-msgstr "Cancella selezione"
+#: cvpcb/cvpcb_mainframe.cpp:513
+msgid "Delete all footprint assocations?"
+msgstr "Cancellare tutte le associazioni impronte?"
 
-#: cvpcb/cvpcb_mainframe.cpp:476 cvpcb/cvpcb_mainframe.cpp:487
+#: cvpcb/cvpcb_mainframe.cpp:567 cvpcb/cvpcb_mainframe.cpp:588
 msgid "View Footprint"
 msgstr "Visualizza impronta"
 
-#: cvpcb/cvpcb_mainframe.cpp:477
+#: cvpcb/cvpcb_mainframe.cpp:568
 msgid "Show the assigned footprint in the footprint viewer"
 msgstr "Mostra l'impronta selezionata nel visualizzatore delle impronte"
 
-#: cvpcb/cvpcb_mainframe.cpp:488
+#: cvpcb/cvpcb_mainframe.cpp:570
+msgid "Cut Footprint Association"
+msgstr "Taglia associazione impronta"
+
+#: cvpcb/cvpcb_mainframe.cpp:571
+msgid "Cut the assigned footprint"
+msgstr "Taglia l'impronta assegnata"
+
+#: cvpcb/cvpcb_mainframe.cpp:572
+msgid "Copy Footprint Association"
+msgstr "Copia associazione impronta"
+
+#: cvpcb/cvpcb_mainframe.cpp:573
+msgid "Copy the assigned footprint"
+msgstr "Copia l'impronta assegnata"
+
+#: cvpcb/cvpcb_mainframe.cpp:574
+msgid "Paste Footprint Association"
+msgstr "Incolla associazione impronta"
+
+#: cvpcb/cvpcb_mainframe.cpp:575
+msgid "Paste a footprint assignment"
+msgstr "Incolla un'assegnazione impronta"
+
+#: cvpcb/cvpcb_mainframe.cpp:577
+msgid "Delete Footprint Association"
+msgstr "Cancella associazione impronta"
+
+#: cvpcb/cvpcb_mainframe.cpp:578
+msgid "Delete the assigned footprint"
+msgstr "Cancella l'impronta assegnata"
+
+#: cvpcb/cvpcb_mainframe.cpp:589
 msgid "Show the current footprint in the footprint viewer"
 msgstr "Mostra l'impronta selezionata nel visualizzatorec delle impronte"
 
-#: cvpcb/cvpcb_mainframe.cpp:659
+#: cvpcb/cvpcb_mainframe.cpp:760
 msgid "key words"
 msgstr "parole chiave"
 
-#: cvpcb/cvpcb_mainframe.cpp:672
+#: cvpcb/cvpcb_mainframe.cpp:773
 msgid "pin count"
 msgstr "numero piedini"
 
-#: cvpcb/cvpcb_mainframe.cpp:682
+#: cvpcb/cvpcb_mainframe.cpp:783
 msgid "library"
 msgstr "libreria "
 
-#: cvpcb/cvpcb_mainframe.cpp:690
+#: cvpcb/cvpcb_mainframe.cpp:791
 msgid "search text"
 msgstr "Cerca testo"
 
-#: cvpcb/cvpcb_mainframe.cpp:694
+#: cvpcb/cvpcb_mainframe.cpp:795
 msgid "No filtering"
 msgstr "nessun filtro"
 
-#: cvpcb/cvpcb_mainframe.cpp:696
+#: cvpcb/cvpcb_mainframe.cpp:797
 #, c-format
 msgid "Filtered by %s"
 msgstr "Filtrato per %s"
 
-#: cvpcb/cvpcb_mainframe.cpp:710
+#: cvpcb/cvpcb_mainframe.cpp:811
 #, c-format
 msgid "Description: %s;  Key words: %s"
 msgstr "Descrizione: %s;  Parole chiave: %s"
 
-#: cvpcb/cvpcb_mainframe.cpp:728
+#: cvpcb/cvpcb_mainframe.cpp:829
 #, c-format
 msgid "Library location: %s"
 msgstr "Posizione libreria: %s"
 
-#: cvpcb/cvpcb_mainframe.cpp:744
+#: cvpcb/cvpcb_mainframe.cpp:845
 msgid ""
 "No PCB footprint libraries are listed in the current footprint library table."
 msgstr ""
 "Nessuna libreria impronte elencata nella tabella librerie impronte corrente."
 
-#: cvpcb/cvpcb_mainframe.cpp:745
+#: cvpcb/cvpcb_mainframe.cpp:846
 msgid "Configuration Error"
 msgstr "Errore di configurazione"
 
-#: cvpcb/cvpcb_mainframe.cpp:812
+#: cvpcb/cvpcb_mainframe.cpp:913
 #, c-format
 msgid ""
 "Error loading schematic.\n"
@@ -19026,7 +19058,9 @@ msgstr "Y spostamento:"
 msgid ""
 "Invalid movement values.  Movement would place selection outside of the "
 "maximum board area."
-msgstr "Valori di spostamento non validi.  Lo spostamento avrebbe piazzato la selezione fuori dall'area scheda consentita."
+msgstr ""
+"Valori di spostamento non validi.  Lo spostamento avrebbe piazzato la "
+"selezione fuori dall'area scheda consentita."
 
 #: pcbnew/dialogs/dialog_move_exact_base.cpp:69
 msgid "Rotate around center of selection"
