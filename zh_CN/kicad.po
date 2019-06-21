@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: KiCad_zh_CN_v5.1.2.003\n"
+"Project-Id-Version: KiCad_zh_CN_v5.1.2.004\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-18 21:00+0800\n"
-"PO-Revision-Date: 2019-06-18 21:05+0800\n"
+"POT-Creation-Date: 2019-06-21 10:44+0800\n"
+"PO-Revision-Date: 2019-06-21 11:09+0800\n"
 "Last-Translator: taotieren <admin@taotieren.com>\n"
 "Language-Team: kicad-cn\n"
 "Language: zh_CN\n"
@@ -715,7 +715,7 @@ msgstr "渲染选项："
 
 #: 3d-viewer/3d_viewer/dialogs/dialog_3D_view_option_base.cpp:42
 msgid "Realistic mode"
-msgstr "逼真模式"
+msgstr "真实渲染模式"
 
 #: 3d-viewer/3d_viewer/dialogs/dialog_3D_view_option_base.cpp:51
 msgid "Show board body"
@@ -772,7 +772,7 @@ msgstr "显示胶粘层"
 
 #: 3d-viewer/3d_viewer/dialogs/dialog_3D_view_option_base.cpp:201
 msgid "User layers (not shown in realistic mode):"
-msgstr "用户层（在逼真模式中不显示）"
+msgstr "用户层（在真实渲染模式中不显示）"
 
 #: 3d-viewer/3d_viewer/dialogs/dialog_3D_view_option_base.cpp:218
 msgid "Show comments and drawings layers"
@@ -786,40 +786,40 @@ msgstr "显示 ECO 层"
 msgid "3D Display Options"
 msgstr "3D 显示选项"
 
-#: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:380
+#: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:382
 msgid "Background Color, Bottom"
 msgstr "背景下部颜色"
 
-#: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:391
+#: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:393
 msgid "Background Color, Top"
 msgstr "背景上部颜色"
 
-#: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:971
+#: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:973
 msgid "3D Image File Name"
 msgstr "3D 图像文件名称"
 
-#: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:1013
+#: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:1015
 msgid "Failed to copy image to clipboard"
 msgstr "复制图像到剪贴板失败"
 
-#: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:1024
+#: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:1026
 msgid "Can't save file"
 msgstr "无法保存文件"
 
-#: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:1072
-#: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:1104
+#: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:1074
+#: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:1106
 msgid "Solder Mask Color"
 msgstr "阻焊颜色"
 
-#: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:1123
+#: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:1125
 msgid "Copper Color"
 msgstr "铜箔颜色"
 
-#: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:1147
+#: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:1149
 msgid "Board Body Color"
 msgstr "电路板颜色"
 
-#: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:1165
+#: 3d-viewer/3d_viewer/eda_3d_viewer.cpp:1167
 msgid "Solder Paste Color"
 msgstr "锡膏颜色"
 
@@ -1431,7 +1431,7 @@ msgstr "确认"
 #: pcbnew/dialogs/dialog_footprint_wizard_list_base.cpp:44
 #: pcbnew/dialogs/panel_pcbnew_action_plugins_base.cpp:40
 #: pcbnew/footprint_libraries_utils.cpp:887
-#: pcbnew/footprint_libraries_utils.cpp:1110
+#: pcbnew/footprint_libraries_utils.cpp:1111
 msgid "Description"
 msgstr "描述"
 
@@ -2901,7 +2901,7 @@ msgstr "无法打开配置文件"
 msgid "Problems writing configuration file"
 msgstr "编写配置文件时出错"
 
-#: common/footprint_info.cpp:91 cvpcb/cvpcb_mainframe.cpp:792
+#: common/footprint_info.cpp:91 cvpcb/cvpcb_mainframe.cpp:814
 msgid "Load Error"
 msgstr "载入错误"
 
@@ -3078,7 +3078,7 @@ msgstr "块粘贴"
 #: gerbview/events_called_functions.cpp:230 gerbview/toolbars_gerber.cpp:89
 #: pagelayout_editor/events_functions.cpp:138
 #: pagelayout_editor/toolbars_pl_editor.cpp:98 pcbnew/edit.cpp:1426
-#: pcbnew/footprint_editor_utils.cpp:948 pcbnew/tool_footprint_editor.cpp:97
+#: pcbnew/footprint_editor_utils.cpp:952 pcbnew/tool_footprint_editor.cpp:97
 #: pcbnew/tool_pcb_editor.cpp:293
 msgid "Zoom to selection"
 msgstr "缩放到选区"
@@ -3443,20 +3443,20 @@ msgstr "倍数：%.2f"
 msgid "Incorrect value: %s"
 msgstr "不正确的值：%s"
 
-#: common/validators.cpp:296
+#: common/validators.cpp:300
 msgid "Entry contains trailing white space."
 msgstr "条目包含尾随空格。"
 
-#: common/validators.cpp:300
+#: common/validators.cpp:304
 msgid "Entry contains leading white space."
 msgstr "条目包含前导空格。"
 
-#: common/validators.cpp:304
+#: common/validators.cpp:308
 #, c-format
 msgid "\"%s\" is not a valid library identifier format."
 msgstr "符号库标识符 \"%s\" 无效。"
 
-#: common/validators.cpp:311
+#: common/validators.cpp:315
 msgid "Library Identifier Validation Error"
 msgstr "库标识符验证错误"
 
@@ -3468,7 +3468,7 @@ msgstr "Y 轴的镜像尚不支持"
 msgid "Footprint not found"
 msgstr "封装没有找到"
 
-#: common/widgets/footprint_select_widget.cpp:78 cvpcb/cvpcb_mainframe.cpp:727
+#: common/widgets/footprint_select_widget.cpp:78 cvpcb/cvpcb_mainframe.cpp:749
 #: pcbnew/footprint_edit_frame.cpp:863 pcbnew/load_select_footprint.cpp:214
 msgid "Loading Footprint Libraries"
 msgstr "载入封装库"
@@ -3918,71 +3918,76 @@ msgstr "符号：封装分配"
 msgid "Filtered Footprints"
 msgstr "过滤的封装"
 
-#: cvpcb/cvpcb_mainframe.cpp:195
+#: cvpcb/cvpcb_mainframe.cpp:199
 #: eeschema/dialogs/dialog_fields_editor_global_base.cpp:105
 msgid "Apply, Save Schematic && Continue"
 msgstr "应用，保存原理图并继续"
 
-#: cvpcb/cvpcb_mainframe.cpp:275
+#: cvpcb/cvpcb_mainframe.cpp:279
 msgid "Symbol to Footprint links have been modified. Save before exit?"
 msgstr "符号和封装关联已经更改。退出之前保存吗?"
 
-#: cvpcb/cvpcb_mainframe.cpp:418
+#: cvpcb/cvpcb_mainframe.cpp:422
 msgid "Delete selections"
 msgstr "删除选择"
 
-#: cvpcb/cvpcb_mainframe.cpp:472 cvpcb/cvpcb_mainframe.cpp:483
+#: cvpcb/cvpcb_mainframe.cpp:476 cvpcb/cvpcb_mainframe.cpp:487
 msgid "View Footprint"
 msgstr "浏览封装"
 
-#: cvpcb/cvpcb_mainframe.cpp:473
+#: cvpcb/cvpcb_mainframe.cpp:477
 msgid "Show the assigned footprint in the footprint viewer"
 msgstr "在封装浏览器中显示分配的封装"
 
-#: cvpcb/cvpcb_mainframe.cpp:484
+#: cvpcb/cvpcb_mainframe.cpp:488
 msgid "Show the current footprint in the footprint viewer"
 msgstr "在封装浏览器中显示当前封装"
 
-#: cvpcb/cvpcb_mainframe.cpp:655
+#: cvpcb/cvpcb_mainframe.cpp:659
 msgid "key words"
 msgstr "关键词"
 
-#: cvpcb/cvpcb_mainframe.cpp:668
+#: cvpcb/cvpcb_mainframe.cpp:672
 msgid "pin count"
 msgstr "引脚数"
 
-#: cvpcb/cvpcb_mainframe.cpp:678
+#: cvpcb/cvpcb_mainframe.cpp:682
 msgid "library"
 msgstr "库"
 
-#: cvpcb/cvpcb_mainframe.cpp:686
+#: cvpcb/cvpcb_mainframe.cpp:690
 msgid "search text"
 msgstr "搜索文本"
 
-#: cvpcb/cvpcb_mainframe.cpp:690
+#: cvpcb/cvpcb_mainframe.cpp:694
 msgid "No filtering"
 msgstr "不过滤"
 
-#: cvpcb/cvpcb_mainframe.cpp:692
+#: cvpcb/cvpcb_mainframe.cpp:696
 #, c-format
 msgid "Filtered by %s"
 msgstr "过滤 %s"
 
-#: cvpcb/cvpcb_mainframe.cpp:706
+#: cvpcb/cvpcb_mainframe.cpp:710
 #, c-format
 msgid "Description: %s;  Key words: %s"
 msgstr "描述：%s ；关键字： %s"
 
-#: cvpcb/cvpcb_mainframe.cpp:722
+#: cvpcb/cvpcb_mainframe.cpp:728
+#, c-format
+msgid "Library location: %s"
+msgstr "库位置：%s"
+
+#: cvpcb/cvpcb_mainframe.cpp:744
 msgid ""
 "No PCB footprint libraries are listed in the current footprint library table."
 msgstr "在当前封装库表中没有列出 PCB 封装库。"
 
-#: cvpcb/cvpcb_mainframe.cpp:723
+#: cvpcb/cvpcb_mainframe.cpp:745
 msgid "Configuration Error"
 msgstr "配置错误"
 
-#: cvpcb/cvpcb_mainframe.cpp:790
+#: cvpcb/cvpcb_mainframe.cpp:812
 #, c-format
 msgid ""
 "Error loading schematic.\n"
@@ -4383,7 +4388,7 @@ msgstr "交互测量点之间的距离"
 #: gerbview/tools/selection_tool.cpp:807
 #: pcbnew/menubar_footprint_editor.cpp:397 pcbnew/menubar_pcb_editor.cpp:247
 #: pcbnew/tool_footprint_editor.cpp:197 pcbnew/tool_pcb_editor.cpp:522
-#: pcbnew/tools/edit_tool.cpp:1312
+#: pcbnew/tools/edit_tool.cpp:1315
 msgid "Measure distance"
 msgstr "测量距离"
 
@@ -6039,7 +6044,7 @@ msgstr "每封装单元数："
 
 #: eeschema/dialogs/dialog_lib_new_component_base.cpp:63
 msgid "Create symbol with alternate body style (DeMorgan)"
-msgstr "创建有备用主体样式的符号 (DeMorgan)"
+msgstr "创建有备用主体样式的符号 (德摩根)"
 
 #: eeschema/dialogs/dialog_lib_new_component_base.cpp:66
 msgid "Create symbol as power symbol"
@@ -8125,7 +8130,7 @@ msgstr "刷新显示"
 
 #: eeschema/help_common_strings.h:48 eeschema/libedit/lib_edit_frame.cpp:1188
 #: eeschema/schedit.cpp:587 pcbnew/edit.cpp:1496
-#: pcbnew/footprint_editor_utils.cpp:991 pcbnew/tool_footprint_editor.cpp:188
+#: pcbnew/footprint_editor_utils.cpp:995 pcbnew/tool_footprint_editor.cpp:188
 #: pcbnew/tools/pcbnew_control.cpp:692
 msgid "Delete item"
 msgstr "删除项目"
@@ -8197,7 +8202,7 @@ msgstr "放置一个层次标签。此标签将被看作图页符号的层次引
 
 #: eeschema/help_common_strings.h:70
 msgid "Place junction"
-msgstr "放置 连接点"
+msgstr "放置连接点"
 
 #: eeschema/help_common_strings.h:71
 msgid "Create hierarchical sheet"
@@ -8214,7 +8219,7 @@ msgstr "添加图页层次引脚"
 
 #: eeschema/help_common_strings.h:75
 msgid "Place graphic lines or polygons"
-msgstr "放置 图形线条或多边形"
+msgstr "放置图形线条或多边形"
 
 #: eeschema/help_common_strings.h:76
 msgid "Place text"
@@ -8746,7 +8751,7 @@ msgid "Set pin options"
 msgstr "设置引脚选项"
 
 #: eeschema/libedit/lib_edit_frame.cpp:1146 eeschema/schedit.cpp:542
-#: pcbnew/edit.cpp:1484 pcbnew/footprint_editor_utils.cpp:966
+#: pcbnew/edit.cpp:1484 pcbnew/footprint_editor_utils.cpp:970
 #: pcbnew/tools/drawing_tool.cpp:356
 msgid "Add text"
 msgstr "文本"
@@ -8756,17 +8761,17 @@ msgid "Add rectangle"
 msgstr "添加矩形"
 
 #: eeschema/libedit/lib_edit_frame.cpp:1154
-#: pcbnew/footprint_editor_utils.cpp:962
+#: pcbnew/footprint_editor_utils.cpp:966
 msgid "Add circle"
 msgstr "添加圆"
 
 #: eeschema/libedit/lib_edit_frame.cpp:1158
-#: pcbnew/footprint_editor_utils.cpp:958
+#: pcbnew/footprint_editor_utils.cpp:962
 msgid "Add arc"
 msgstr "添加圆弧"
 
 #: eeschema/libedit/lib_edit_frame.cpp:1162
-#: pcbnew/footprint_editor_utils.cpp:954
+#: pcbnew/footprint_editor_utils.cpp:958
 msgid "Add line"
 msgstr "添加行"
 
@@ -8970,7 +8975,7 @@ msgstr "符号 \"%s\" 已经在库 \"%s\" 中存在"
 
 #: eeschema/libedit/libedit.cpp:416 include/lib_table_grid.h:190
 #: pcbnew/footprint_libraries_utils.cpp:886
-#: pcbnew/footprint_libraries_utils.cpp:1109
+#: pcbnew/footprint_libraries_utils.cpp:1110
 msgid "Nickname"
 msgstr "昵称"
 
@@ -8990,7 +8995,7 @@ msgstr "没有指定库，符号无法保存。"
 msgid "No symbol name specified.  Symbol could not be saved."
 msgstr "没有指定符号名称, 符号无法保存。"
 
-#: eeschema/libedit/libedit.cpp:598 pcbnew/footprint_libraries_utils.cpp:1000
+#: eeschema/libedit/libedit.cpp:598 pcbnew/footprint_libraries_utils.cpp:1001
 #, c-format
 msgid "Revert \"%s\" to last version saved?"
 msgstr "是否将\"%s\"还原为上次保存的版本？"
@@ -13923,7 +13928,7 @@ msgid "Unable to create \"%s\""
 msgstr "\"%s\" 无法建立"
 
 #: pagelayout_editor/hotkeys.cpp:84 pagelayout_editor/onrightclick.cpp:116
-#: pcbnew/dialogs/dialog_move_exact_base.h:70 pcbnew/hotkeys.cpp:142
+#: pcbnew/dialogs/dialog_move_exact_base.h:71 pcbnew/hotkeys.cpp:142
 msgid "Move Item"
 msgstr "移动项目"
 
@@ -16686,7 +16691,7 @@ msgid "Radius:"
 msgstr "半径："
 
 #: pcbnew/dialogs/dialog_create_array_base.cpp:224
-#: pcbnew/dialogs/dialog_move_exact.cpp:174
+#: pcbnew/dialogs/dialog_move_exact.cpp:176
 #: pcbnew/dialogs/dialog_pad_basicshapes_properties.cpp:95
 #: pcbnew/dialogs/dialog_position_relative.cpp:134
 msgid "Angle:"
@@ -18646,38 +18651,44 @@ msgstr "选择层"
 msgid "Select Copper Layer Pair"
 msgstr "选择铜层对"
 
-#: pcbnew/dialogs/dialog_move_exact.cpp:87
+#: pcbnew/dialogs/dialog_move_exact.cpp:89
 msgid "Rotate around item anchor"
 msgstr "围绕锚点选择"
 
-#: pcbnew/dialogs/dialog_move_exact.cpp:90
+#: pcbnew/dialogs/dialog_move_exact.cpp:92
 msgid "Rotate around selection center"
 msgstr "围绕选择中心旋转"
 
-#: pcbnew/dialogs/dialog_move_exact.cpp:93
+#: pcbnew/dialogs/dialog_move_exact.cpp:95
 #: pcbnew/dialogs/dialog_move_exact_base.cpp:69
 msgid "Rotate around local coordinates origin"
 msgstr "围绕本地坐标原点旋转"
 
-#: pcbnew/dialogs/dialog_move_exact.cpp:96
+#: pcbnew/dialogs/dialog_move_exact.cpp:98
 #: pcbnew/dialogs/dialog_move_exact_base.cpp:69
 msgid "Rotate around drill/place origin"
 msgstr "围绕钻孔/原点选择"
 
-#: pcbnew/dialogs/dialog_move_exact.cpp:173
+#: pcbnew/dialogs/dialog_move_exact.cpp:175
 #: pcbnew/dialogs/dialog_position_relative.cpp:133
 msgid "Distance:"
 msgstr "距离："
 
-#: pcbnew/dialogs/dialog_move_exact.cpp:179
+#: pcbnew/dialogs/dialog_move_exact.cpp:181
 #: pcbnew/dialogs/dialog_move_exact_base.cpp:24
 msgid "Move X:"
 msgstr "移动 X："
 
-#: pcbnew/dialogs/dialog_move_exact.cpp:180
+#: pcbnew/dialogs/dialog_move_exact.cpp:182
 #: pcbnew/dialogs/dialog_move_exact_base.cpp:38
 msgid "Move Y:"
 msgstr "移动 Y："
+
+#: pcbnew/dialogs/dialog_move_exact.cpp:257
+msgid ""
+"Invalid movement values.  Movement would place selection outside of the "
+"maximum board area."
+msgstr "无效移动值。 移动会将所选内容置于最大板区域之外。"
 
 #: pcbnew/dialogs/dialog_move_exact_base.cpp:69
 msgid "Rotate around center of selection"
@@ -21918,7 +21929,7 @@ msgstr "父级焊盘 (%s) 被锁定"
 
 #: pcbnew/edit.cpp:1433 pcbnew/edit.cpp:1435
 msgid "Add tracks"
-msgstr "添加 布线"
+msgstr "添加布线"
 
 #: pcbnew/edit.cpp:1441 pcbnew/edit.cpp:1488 pcbnew/menubar_pcb_editor.cpp:288
 #: pcbnew/tools/pcb_editor_control.cpp:440
@@ -21940,7 +21951,7 @@ msgstr "添加禁布区"
 #: pcbnew/edit.cpp:1460 pcbnew/menubar_pcb_editor.cpp:330
 #: pcbnew/tool_pcb_editor.cpp:502 pcbnew/tools/pcb_editor_control.cpp:629
 msgid "Add layer alignment target"
-msgstr "添加 层对齐标记"
+msgstr "添加层对齐标记"
 
 #: pcbnew/edit.cpp:1464 pcbnew/tools/pcb_editor_control.cpp:920
 msgid "Adjust zero"
@@ -22351,32 +22362,32 @@ msgstr "当前封装已被修改。是否保存更改？"
 msgid "_copy"
 msgstr "_copy"
 
-#: pcbnew/footprint_editor_utils.cpp:970
+#: pcbnew/footprint_editor_utils.cpp:974
 msgid "Place anchor"
 msgstr "放置锚点"
 
-#: pcbnew/footprint_editor_utils.cpp:974 pcbnew/tool_footprint_editor.cpp:192
+#: pcbnew/footprint_editor_utils.cpp:978 pcbnew/tool_footprint_editor.cpp:192
 msgid "Set grid origin"
 msgstr "设置网格原点"
 
-#: pcbnew/footprint_editor_utils.cpp:980
+#: pcbnew/footprint_editor_utils.cpp:984
 #: pcbnew/menubar_footprint_editor.cpp:342 pcbnew/tool_footprint_editor.cpp:163
 msgid "Add pad"
 msgstr "添加焊盘"
 
-#: pcbnew/footprint_editor_utils.cpp:984
+#: pcbnew/footprint_editor_utils.cpp:988
 msgid "Pad properties"
 msgstr "焊盘属性"
 
-#: pcbnew/footprint_editor_utils.cpp:1024
+#: pcbnew/footprint_editor_utils.cpp:1028
 msgid "Cannot delete REFERENCE!"
 msgstr "不能删除参考编号！"
 
-#: pcbnew/footprint_editor_utils.cpp:1028
+#: pcbnew/footprint_editor_utils.cpp:1032
 msgid "Cannot delete VALUE!"
 msgstr "不能删除值！"
 
-#: pcbnew/footprint_editor_utils.cpp:1112
+#: pcbnew/footprint_editor_utils.cpp:1116
 #, c-format
 msgid ""
 "The current configuration does not include the footprint library\n"
@@ -22388,11 +22399,11 @@ msgstr ""
 "使用管理封装库来编辑配置。\n"
 "来编辑配置。"
 
-#: pcbnew/footprint_editor_utils.cpp:1115
+#: pcbnew/footprint_editor_utils.cpp:1119
 msgid "Library not found in footprint library table."
 msgstr "在封装库表中未找到库。"
 
-#: pcbnew/footprint_editor_utils.cpp:1123 pcbnew/footprint_viewer_frame.cpp:611
+#: pcbnew/footprint_editor_utils.cpp:1127 pcbnew/footprint_viewer_frame.cpp:611
 #, c-format
 msgid ""
 "The library with the nickname \"%s\" is not enabled\n"
@@ -22403,7 +22414,7 @@ msgstr ""
 "在当前配置中，使用封装库管理\n"
 "来编辑封装。"
 
-#: pcbnew/footprint_editor_utils.cpp:1126 pcbnew/footprint_viewer_frame.cpp:614
+#: pcbnew/footprint_editor_utils.cpp:1130 pcbnew/footprint_viewer_frame.cpp:614
 msgid "Footprint library not enabled."
 msgstr "封装库未启用。"
 
@@ -23008,7 +23019,7 @@ msgstr "绘制圆弧"
 #: pcbnew/hotkeys.cpp:168 pcbnew/tool_footprint_editor.cpp:179
 #: pcbnew/tools/drawing_tool.cpp:86
 msgid "Add Text"
-msgstr "添加 文本"
+msgstr "添加文本"
 
 #: pcbnew/hotkeys.cpp:169 pcbnew/tools/drawing_tool.cpp:90
 msgid "Add Dimension"
@@ -23096,7 +23107,7 @@ msgstr "布线显示模式"
 
 #: pcbnew/hotkeys.cpp:274 pcbnew/tools/pcb_editor_control.cpp:105
 msgid "Add Footprint"
-msgstr "添加 封装"
+msgstr "添加封装"
 
 #: pcbnew/hotkeys.cpp:278
 msgid "Increment Layer Transparency (Modern Toolset only)"
@@ -23666,7 +23677,7 @@ msgstr "文本 (&T)"
 
 #: pcbnew/menubar_footprint_editor.cpp:350
 msgid "Add graphic text"
-msgstr "添加 图形文本"
+msgstr "添加图形文本"
 
 #: pcbnew/menubar_footprint_editor.cpp:366 pcbnew/menubar_pcb_editor.cpp:315
 msgid "&Line"
@@ -26303,24 +26314,24 @@ msgstr "编辑布线宽度/过孔尺寸"
 msgid "Delete again to remove locked items"
 msgstr "再次删除锁定的项目"
 
-#: pcbnew/tools/edit_tool.cpp:1071
+#: pcbnew/tools/edit_tool.cpp:1074
 msgid "Move exact"
 msgstr "精确移动"
 
-#: pcbnew/tools/edit_tool.cpp:1151
+#: pcbnew/tools/edit_tool.cpp:1154
 #, c-format
 msgid "Duplicated %d item(s)"
 msgstr "复制 %d 项"
 
-#: pcbnew/tools/edit_tool.cpp:1495
+#: pcbnew/tools/edit_tool.cpp:1498
 msgid "Select reference point for the copy..."
 msgstr "为副本选择参考点..."
 
-#: pcbnew/tools/edit_tool.cpp:1500
+#: pcbnew/tools/edit_tool.cpp:1503
 msgid "Selection copied."
 msgstr "选择复制。"
 
-#: pcbnew/tools/edit_tool.cpp:1507
+#: pcbnew/tools/edit_tool.cpp:1510
 msgid "Copy cancelled."
 msgstr "复制取消。"
 
