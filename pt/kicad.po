@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-24 08:20-0300\n"
-"PO-Revision-Date: 2019-05-21 09:32-0300\n"
+"POT-Creation-Date: 2019-06-24 08:21-0300\n"
+"PO-Revision-Date: 2019-06-24 08:16-0300\n"
 "Last-Translator: Francisco R. Pereira <frosch_bin@yahoo.com.br>\n"
 "Language-Team: kicad team\n"
 "Language: pt_BR\n"
@@ -2518,7 +2518,7 @@ msgstr ""
 
 #: common/dialogs/panel_hotkeys_editor.cpp:85
 msgid "Hotkey errors detected"
-msgstr ""
+msgstr "Erros de teclas de atalho detectados"
 
 #: common/dialogs/panel_hotkeys_editor.cpp:110
 msgid "Type filter text"
@@ -2564,6 +2564,8 @@ msgid ""
 "The imported file contains invalid hotkeys. Please correct the errors before "
 "continuing."
 msgstr ""
+"O arquivo importado contém teclas de atalho inválidas. Por favor, corrija os "
+"erros antes de continuar."
 
 #: common/dialogs/wx_html_report_panel.cpp:244
 #: common/dialogs/wx_html_report_panel.cpp:271
@@ -2672,12 +2674,12 @@ msgstr ""
 #: common/eagle_parser.cpp:113
 #, c-format
 msgid "Invalid size %lld: too large"
-msgstr ""
+msgstr "Tamanho inválido %lld: muito grande"
 
 #: common/eagle_parser.cpp:292
 #, c-format
 msgid "Invalid Arc with radius %f and angle %f"
-msgstr ""
+msgstr "Arco Inválido, com raio %f e ângulo %f"
 
 #: common/eda_base_frame.cpp:421
 #, c-format
@@ -3060,21 +3062,20 @@ msgstr "Selecionar todas as células"
 
 #: common/hotkey_store.cpp:29
 msgid "Hotkeys not checked"
-msgstr ""
+msgstr "Teclas de atalho não verificadas"
 
 #: common/hotkey_store.cpp:175
 msgid "A hotkey cannot contain the shift key and a symbol key."
-msgstr ""
+msgstr "Um atalho não pode conter a tecla shift e uma tecla de símbolo."
 
 #: common/hotkey_store.cpp:235
-#, fuzzy, c-format
+#, c-format
 msgid "Duplicate of hotkey for \"%s\""
-msgstr "Apelido Duplicado: \"%s\"."
+msgstr "Tecla de atalho duplicada para \"%s\""
 
 #: common/hotkey_store.cpp:246
-#, fuzzy
 msgid "Hotkey is valid"
-msgstr "Lista de Atalhos"
+msgstr "Tecla de atalho é válida"
 
 #: common/hotkeys_basic.cpp:720
 msgid "Read Hotkey Configuration File:"
@@ -4024,16 +4025,13 @@ msgid "Apply, Save Schematic && Continue"
 msgstr "Aplicar, Salvar Esquema && Continuar"
 
 #: cvpcb/cvpcb_mainframe.cpp:292
-#, fuzzy
 msgid "Symbol to Footprint links have been modified. Save before exit?"
 msgstr ""
-"Ligações entre Símbolo e Footprint foram alteradas.\n"
-"Salvar antes de sair?"
+"Ligações entre Símbolo e Footprint foram alteradas. Salvar antes de sair?"
 
 #: cvpcb/cvpcb_mainframe.cpp:513
-#, fuzzy
 msgid "Delete all footprint assocations?"
-msgstr "Apagar todas as associações de footprint"
+msgstr "Apagar todas as associações de footprint?"
 
 #: cvpcb/cvpcb_mainframe.cpp:567 cvpcb/cvpcb_mainframe.cpp:588
 msgid "View Footprint"
@@ -4044,44 +4042,36 @@ msgid "Show the assigned footprint in the footprint viewer"
 msgstr "Exibir o footprint atribuído no visualizador de footprint"
 
 #: cvpcb/cvpcb_mainframe.cpp:570
-#, fuzzy
 msgid "Cut Footprint Association"
-msgstr "Arquivo de Associação de Footprint"
+msgstr "Cortar Associação de Footprint"
 
 #: cvpcb/cvpcb_mainframe.cpp:571
-#, fuzzy
 msgid "Cut the assigned footprint"
-msgstr "Criar um novo footprint"
+msgstr "Recortar atribuição de footprint"
 
 #: cvpcb/cvpcb_mainframe.cpp:572
-#, fuzzy
 msgid "Copy Footprint Association"
-msgstr "Arquivo de Associação de Footprint"
+msgstr "Copiar Associação de Footprint"
 
 #: cvpcb/cvpcb_mainframe.cpp:573
-#, fuzzy
 msgid "Copy the assigned footprint"
-msgstr "Criar um novo footprint"
+msgstr "Copiar atribuição de footprint"
 
 #: cvpcb/cvpcb_mainframe.cpp:574
-#, fuzzy
 msgid "Paste Footprint Association"
-msgstr "Salvar Arquivo de Associação de Footprint"
+msgstr "Colar Associação de Footprint"
 
 #: cvpcb/cvpcb_mainframe.cpp:575
-#, fuzzy
 msgid "Paste a footprint assignment"
-msgstr "Símbolo: Atribuições de Footprint"
+msgstr "Colar atribuição de footprint"
 
 #: cvpcb/cvpcb_mainframe.cpp:577
-#, fuzzy
 msgid "Delete Footprint Association"
-msgstr "Apagar todas as associações de footprint"
+msgstr "Apagar Associação de Footprint"
 
 #: cvpcb/cvpcb_mainframe.cpp:578
-#, fuzzy
 msgid "Delete the assigned footprint"
-msgstr "Excluir o footprint atual"
+msgstr "Excluir atribuição de footprint"
 
 #: cvpcb/cvpcb_mainframe.cpp:589
 msgid "Show the current footprint in the footprint viewer"
@@ -4118,9 +4108,9 @@ msgid "Description: %s;  Key words: %s"
 msgstr "Descrição: %s; Palavras chave: %s"
 
 #: cvpcb/cvpcb_mainframe.cpp:829
-#, fuzzy, c-format
+#, c-format
 msgid "Library location: %s"
-msgstr "Biblioteca Não Encontrada"
+msgstr "Localização da biblioteca: %s"
 
 #: cvpcb/cvpcb_mainframe.cpp:845
 msgid ""
@@ -6819,7 +6809,7 @@ msgstr "Você precisa selecionar uma fonte DC (varredura 2)"
 
 #: eeschema/dialogs/dialog_sim_settings.cpp:163
 msgid "Source 1 and Source 2 must be different"
-msgstr ""
+msgstr "A fonte 1 e a fonte 2 devem ser diferentes"
 
 #: eeschema/dialogs/dialog_sim_settings_base.cpp:29
 #: eeschema/dialogs/dialog_sim_settings_base.cpp:273
@@ -7776,11 +7766,13 @@ msgid ""
 "Modifications have been made to one or more symbol libraries.  Changes must "
 "be saved or discarded before the symbol library table can be modified."
 msgstr ""
+"Foram feitas modificações em uma ou mais bibliotecas de símbolos.  As "
+"alterações devem ser salvas ou descartadas antes que a tabela de biblioteca "
+"de símbolos possa ser modificada."
 
 #: eeschema/dialogs/panel_sym_lib_table.cpp:735
-#, fuzzy
 msgid "Save Changes"
-msgstr "Salvar alterações"
+msgstr "Salvar Alterações"
 
 #: eeschema/dialogs/panel_sym_lib_table.cpp:759
 msgid "Symbol Libraries"
@@ -10920,6 +10912,8 @@ msgid ""
 "Error parsing Eagle file.  Could not find \"%s\" instance but it is "
 "referenced in the schematic."
 msgstr ""
+"Erro ao analisar o arquivo Eagle.  Não foi possível encontrar a instância de "
+"\"%s\", que é referenciada no esquema."
 
 #: eeschema/sch_eagle_plugin.cpp:1103
 #, c-format
@@ -11707,7 +11701,6 @@ msgid "Phase"
 msgstr "Fase"
 
 #: eeschema/sim/sim_plot_panel.cpp:387
-#, fuzzy
 msgid "Voltage (swept)"
 msgstr "Voltagem (varredura)"
 
@@ -13201,7 +13194,7 @@ msgstr "Esclarecer a seleção"
 
 #: include/hotkey_store.h:48
 msgid "Hotkey never verified"
-msgstr ""
+msgstr "Tecla de atalho nunca verificada"
 
 #: include/kiway_player.h:283
 msgid "This file is already open."
@@ -19001,6 +18994,8 @@ msgid ""
 "Invalid movement values.  Movement would place selection outside of the "
 "maximum board area."
 msgstr ""
+"Valores de movimento inválidos.  O movimento colocará a seleção fora da área "
+"máxima da placa."
 
 #: pcbnew/dialogs/dialog_move_exact_base.cpp:69
 msgid "Rotate around center of selection"
@@ -20064,13 +20059,12 @@ msgid "DXF Options"
 msgstr "Opções DXF"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:307
-#, fuzzy
 msgid "Plot graphic items using their contours"
-msgstr "Nenhum item gráfico encontrado no arquivo de importação"
+msgstr "Plotar itens gráficos utilizando seus contornos"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:309
 msgid "Uncheck to plot graphic items using their center lines"
-msgstr ""
+msgstr "Desmarque para plotar itens gráficos utilizando suas linhas de centro"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:313
 msgid "Use Pcbnew font to plot texts"
@@ -20086,13 +20080,12 @@ msgstr ""
 "DXF)"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:321
-#, fuzzy
 msgid "Export units:"
-msgstr "Exportar arquivos"
+msgstr "Unidades para exportação:"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:329
 msgid "The units to use for the exported DXF file"
-msgstr ""
+msgstr "As unidades a utilizar para o arquivo DXF exportado"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:358
 msgid "Run DRC..."
