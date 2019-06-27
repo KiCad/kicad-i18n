@@ -82,8 +82,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-21 20:05+0200\n"
-"PO-Revision-Date: 2019-06-21 20:10+0200\n"
+"POT-Creation-Date: 2019-06-27 17:04+0200\n"
+"PO-Revision-Date: 2019-06-27 17:06+0200\n"
 "Last-Translator: Marco Ciampa <ciampix@posteo.net>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
@@ -140,7 +140,7 @@ msgstr "OK"
 #: 3d-viewer/3d_cache/dialogs/dlg_select_3dmodel.cpp:143 common/confirm.cpp:195
 #: common/selcolor.cpp:181 common/tool/actions.cpp:10
 #: eeschema/dialogs/dialog_netlist_base.cpp:122
-#: eeschema/dialogs/panel_sym_lib_table.cpp:737
+#: eeschema/dialogs/panel_sym_lib_table.cpp:739
 #: eeschema/libedit/libedit_onrightclick.cpp:71 eeschema/onrightclick.cpp:161
 #: eeschema/onrightclick.cpp:194
 #: gerbview/dialogs/dialog_select_one_pcb_layer.cpp:185
@@ -1463,7 +1463,7 @@ msgid "Question"
 msgstr "Domanda"
 
 #: common/confirm.cpp:130 common/confirm.cpp:243
-#: eeschema/dialogs/panel_sym_lib_table.cpp:733
+#: eeschema/dialogs/panel_sym_lib_table.cpp:735
 #: eeschema/libedit/symbedit.cpp:106
 #: eeschema/widgets/widget_eeschema_color_config.cpp:255
 #: pcbnew/dialogs/dialog_export_vrml.cpp:178 pcbnew/pcb_parser.cpp:594
@@ -1487,7 +1487,7 @@ msgid "Save"
 msgstr "Salva"
 
 #: common/confirm.cpp:161 common/confirm.cpp:182
-#: eeschema/dialogs/panel_sym_lib_table.cpp:736
+#: eeschema/dialogs/panel_sym_lib_table.cpp:738
 msgid "Discard Changes"
 msgstr "Abbandona i cambiamenti"
 
@@ -4073,7 +4073,7 @@ msgstr "Errore durante il caricamento della tabella librerie impronte globale"
 msgid "Assign Footprints"
 msgstr "Assegna impronte"
 
-#: cvpcb/cvpcb_mainframe.cpp:163 pcbnew/dialogs/panel_fp_lib_table.cpp:818
+#: cvpcb/cvpcb_mainframe.cpp:163 pcbnew/dialogs/panel_fp_lib_table.cpp:820
 msgid "Footprint Libraries"
 msgstr "Librerie di impronte"
 
@@ -4596,7 +4596,7 @@ msgid "Interactively measure distance between points"
 msgstr "Misura interattivamente distanze tra punti"
 
 #: cvpcb/tools/cvpcb_selection_tool.cpp:171
-#: gerbview/tools/selection_tool.cpp:807
+#: gerbview/tools/selection_tool.cpp:813
 #: pcbnew/menubar_footprint_editor.cpp:397 pcbnew/menubar_pcb_editor.cpp:247
 #: pcbnew/tool_footprint_editor.cpp:197 pcbnew/tool_pcb_editor.cpp:522
 #: pcbnew/tools/edit_tool.cpp:1315
@@ -7825,7 +7825,7 @@ msgstr "Salta"
 msgid "Add Anyway"
 msgstr "Aggiungi comunque"
 
-#: eeschema/dialogs/panel_sym_lib_table.cpp:730
+#: eeschema/dialogs/panel_sym_lib_table.cpp:732
 msgid ""
 "Modifications have been made to one or more symbol libraries.  Changes must "
 "be saved or discarded before the symbol library table can be modified."
@@ -7834,16 +7834,16 @@ msgstr ""
 "Bisogna salvare o annullare i cambiamenti prima che la tabella librerie di "
 "simboli possa venire modificata."
 
-#: eeschema/dialogs/panel_sym_lib_table.cpp:735
+#: eeschema/dialogs/panel_sym_lib_table.cpp:737
 msgid "Save Changes"
 msgstr "Salva i cambiamenti"
 
-#: eeschema/dialogs/panel_sym_lib_table.cpp:759
+#: eeschema/dialogs/panel_sym_lib_table.cpp:761
 msgid "Symbol Libraries"
 msgstr "Librerie di simboli"
 
-#: eeschema/dialogs/panel_sym_lib_table.cpp:781
-#: pcbnew/dialogs/panel_fp_lib_table.cpp:836
+#: eeschema/dialogs/panel_sym_lib_table.cpp:783
+#: pcbnew/dialogs/panel_fp_lib_table.cpp:838
 #, c-format
 msgid ""
 "Error saving global library table:\n"
@@ -7854,15 +7854,15 @@ msgstr ""
 "\n"
 "%s"
 
-#: eeschema/dialogs/panel_sym_lib_table.cpp:782
-#: eeschema/dialogs/panel_sym_lib_table.cpp:796 eeschema/sch_base_frame.cpp:339
-#: eeschema/sch_base_frame.cpp:355 pcbnew/dialogs/panel_fp_lib_table.cpp:837
-#: pcbnew/dialogs/panel_fp_lib_table.cpp:850 pcbnew/files.cpp:891
+#: eeschema/dialogs/panel_sym_lib_table.cpp:784
+#: eeschema/dialogs/panel_sym_lib_table.cpp:798 eeschema/sch_base_frame.cpp:339
+#: eeschema/sch_base_frame.cpp:355 pcbnew/dialogs/panel_fp_lib_table.cpp:839
+#: pcbnew/dialogs/panel_fp_lib_table.cpp:852 pcbnew/files.cpp:891
 msgid "File Save Error"
 msgstr "Errore salvataggio file"
 
-#: eeschema/dialogs/panel_sym_lib_table.cpp:795
-#: pcbnew/dialogs/panel_fp_lib_table.cpp:849
+#: eeschema/dialogs/panel_sym_lib_table.cpp:797
+#: pcbnew/dialogs/panel_fp_lib_table.cpp:851
 #, c-format
 msgid ""
 "Error saving project-specific library table:\n"
@@ -11955,7 +11955,7 @@ msgstr "Unità %c"
 msgid "Symbol Library Browser -- %s"
 msgstr "Esploratore librerie di simboli -- %s"
 
-#: eeschema/viewlibs.cpp:190 pcbnew/footprint_viewer_frame.cpp:739
+#: eeschema/viewlibs.cpp:190 pcbnew/footprint_viewer_frame.cpp:740
 msgid "no library selected"
 msgstr "nessuna libreria selezionata"
 
@@ -16626,7 +16626,7 @@ msgid "Thermal relief spoke must be greater than the minimum width."
 msgstr "I raggi dei supporti termici devono superare la larghezza minima."
 
 #: pcbnew/dialogs/dialog_copper_zones.cpp:327
-#: pcbnew/dialogs/dialog_non_copper_zones_properties.cpp:157
+#: pcbnew/dialogs/dialog_non_copper_zones_properties.cpp:160
 msgid "No layer selected."
 msgstr "Nessuno strato selezionato."
 
@@ -20690,10 +20690,10 @@ msgstr ""
 #: pcbnew/dialogs/dialog_track_via_properties.cpp:321
 #, c-format
 msgid ""
-"This will change the net assigned to %d connected pads to %s.\n"
+"This will change the net assigned to %lu connected pads to %s.\n"
 "Do you wish to continue?"
 msgstr ""
-"Questo cambierà il collegamento assegnato a %d piazzole connesse a %s.\n"
+"Questo cambierà il collegamento assegnato a %lu piazzole connesse a %s.\n"
 "Continuare?"
 
 #: pcbnew/dialogs/dialog_track_via_properties.cpp:328
@@ -22858,7 +22858,7 @@ msgstr ""
 msgid "Library not found in footprint library table."
 msgstr "Libreria non trovata nella tabella librerie impronte."
 
-#: pcbnew/footprint_editor_utils.cpp:1127 pcbnew/footprint_viewer_frame.cpp:611
+#: pcbnew/footprint_editor_utils.cpp:1127 pcbnew/footprint_viewer_frame.cpp:612
 #, c-format
 msgid ""
 "The library with the nickname \"%s\" is not enabled\n"
@@ -22869,7 +22869,7 @@ msgstr ""
 "nell'attuale configurazione. Usare la gestione librerie\n"
 "di impronte per modificare la configurazione."
 
-#: pcbnew/footprint_editor_utils.cpp:1130 pcbnew/footprint_viewer_frame.cpp:614
+#: pcbnew/footprint_editor_utils.cpp:1130 pcbnew/footprint_viewer_frame.cpp:615
 msgid "Footprint library not enabled."
 msgstr "Libreria impronte non abilitata."
 
@@ -23051,7 +23051,7 @@ msgstr "&Modifica impronta"
 msgid "E&xport Footprint..."
 msgstr "E&sporta impronta..."
 
-#: pcbnew/footprint_viewer_frame.cpp:130 pcbnew/footprint_viewer_frame.cpp:736
+#: pcbnew/footprint_viewer_frame.cpp:130 pcbnew/footprint_viewer_frame.cpp:737
 msgid "Footprint Library Browser"
 msgstr "Esploratore librerie di impronte"
 
@@ -23066,7 +23066,7 @@ msgstr ""
 "\n"
 "Errore %s."
 
-#: pcbnew/footprint_viewer_frame.cpp:604
+#: pcbnew/footprint_viewer_frame.cpp:605
 #, c-format
 msgid ""
 "The current configuration does not include a library with the\n"
@@ -23077,11 +23077,11 @@ msgstr ""
 "denominatore \"%s\".  Usare il gestore delle librerie di\n"
 "impronte per modificare la configurazione."
 
-#: pcbnew/footprint_viewer_frame.cpp:607
+#: pcbnew/footprint_viewer_frame.cpp:608
 msgid "Footprint library not found."
 msgstr "Libreria impronte non trovata."
 
-#: pcbnew/footprint_viewer_frame.cpp:672 pcbnew/footprint_viewer_frame.cpp:688
+#: pcbnew/footprint_viewer_frame.cpp:673 pcbnew/footprint_viewer_frame.cpp:689
 #: pcbnew/footprint_wizard_frame.cpp:696 pcbnew/hotkeys.cpp:246
 #: pcbnew/pcb_base_frame.cpp:464
 msgid "3D Viewer"
