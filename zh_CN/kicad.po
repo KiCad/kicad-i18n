@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: KiCad_zh_CN_v5.1.3.001\n"
+"Project-Id-Version: KiCad_zh_CN_v5.1.3.002\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-10 11:32+0800\n"
-"PO-Revision-Date: 2019-07-10 16:45+0800\n"
+"PO-Revision-Date: 2019-07-10 19:12+0800\n"
 "Last-Translator: taotieren <admin@taotieren.com>\n"
 "Language-Team: kicad-cn\n"
 "Language: zh_CN\n"
@@ -2093,7 +2093,7 @@ msgstr "自定义图框高度。"
 #: pcbnew/dialogs/dialog_track_via_size_base.cpp:43
 #: pcbnew/dialogs/dialog_track_via_size_base.cpp:54
 msgid "unit"
-msgstr "单元"
+msgstr "单位"
 
 #: common/dialogs/dialog_page_settings_base.cpp:82
 #: eeschema/dialogs/dialog_edit_line_style_base.cpp:36
@@ -2126,7 +2126,7 @@ msgstr "第 %d 页"
 
 #: common/dialogs/dialog_page_settings_base.cpp:149
 msgid "Issue Date"
-msgstr "签发日期"
+msgstr "发行日期"
 
 #: common/dialogs/dialog_page_settings_base.cpp:161
 msgid "<<<"
@@ -3136,7 +3136,7 @@ msgstr "显示网格"
 #: pcbnew/dialogs/panel_pcbnew_settings_base.cpp:33
 #: pcbnew/footprint_wizard_frame.cpp:393
 msgid "Units"
-msgstr "单元"
+msgstr "单位"
 
 #: common/legacy_gal/eda_draw_frame.cpp:1591
 #: common/legacy_wx/eda_draw_frame.cpp:1914 common/tool/actions.cpp:32
@@ -5408,7 +5408,7 @@ msgstr "文本属性"
 
 #: eeschema/dialogs/dialog_edit_label.cpp:313
 msgid "Empty Text!"
-msgstr "文字为空!"
+msgstr "文字为空！"
 
 #: eeschema/dialogs/dialog_edit_label_base.cpp:25
 #: eeschema/dialogs/dialog_edit_label_base.cpp:47
@@ -6730,7 +6730,7 @@ msgstr "直流源："
 #: eeschema/dialogs/dialog_sim_settings_base.cpp:114
 #: eeschema/dialogs/dialog_sim_settings_base.cpp:174
 msgid "Starting voltage:"
-msgstr "开始电压:"
+msgstr "开始电压："
 
 #: eeschema/dialogs/dialog_sim_settings_base.cpp:121
 #: eeschema/dialogs/dialog_sim_settings_base.cpp:132
@@ -6753,7 +6753,7 @@ msgstr "步长增量："
 
 #: eeschema/dialogs/dialog_sim_settings_base.cpp:154
 msgid "DC sweep source 2:"
-msgstr "直流扫描源2："
+msgstr "直流扫描源 2："
 
 #: eeschema/dialogs/dialog_sim_settings_base.cpp:217
 msgid "DC Transfer"
@@ -7641,7 +7641,7 @@ msgstr ""
 #: eeschema/sch_base_frame.cpp:355 pcbnew/dialogs/panel_fp_lib_table.cpp:839
 #: pcbnew/dialogs/panel_fp_lib_table.cpp:852 pcbnew/files.cpp:891
 msgid "File Save Error"
-msgstr "文件存储错误"
+msgstr "文件保存错误"
 
 #: eeschema/dialogs/panel_sym_lib_table.cpp:797
 #: pcbnew/dialogs/panel_fp_lib_table.cpp:851
@@ -8085,7 +8085,7 @@ msgstr "没有找到更多标记。"
 
 #: eeschema/find.cpp:219
 msgid "component"
-msgstr "部件"
+msgstr "元件"
 
 #: eeschema/find.cpp:220
 #, c-format
@@ -8984,7 +8984,7 @@ msgstr "无法枚举库%s"
 #: eeschema/libedit/lib_manager.cpp:353
 #, c-format
 msgid "Cannot load aliases from library \"%s\""
-msgstr "无法从库\"%s\"添加别名"
+msgstr "无法从库\"%s\"加载别名"
 
 #: eeschema/libedit/lib_manager.cpp:380
 msgid "Symbol not found."
@@ -9764,7 +9764,7 @@ msgid ""
 msgstr ""
 "同步引脚编辑模式\n"
 "同步引脚编辑模式传播到其他单元的所有引脚变化，除了引脚编号修改。\n"
-"默认情况下为可更换单元的多单元部件启用。"
+"默认情况下为可更换单元的多单元元件启用。"
 
 #: eeschema/libedit/tool_lib.cpp:211 eeschema/tool_sch.cpp:289
 #: gerbview/toolbars_gerber.cpp:253
@@ -9896,7 +9896,7 @@ msgstr "打开当前原理图"
 #: eeschema/menubar.cpp:371 kicad/menubar.cpp:240
 #: pagelayout_editor/menubar.cpp:75 pcbnew/menubar_pcb_editor.cpp:767
 msgid "Open &Recent"
-msgstr "最近打开 (&R)"
+msgstr "打开最近使用 (&R)"
 
 #: eeschema/menubar.cpp:372
 msgid "Open recently opened schematic"
@@ -10687,7 +10687,7 @@ msgstr "未定义库!"
 #: eeschema/sch_component.cpp:1531
 #, c-format
 msgid "Symbol not found in %s!!!"
-msgstr "在 %s 中没有找到封装!!!"
+msgstr "在 %s 中没有找到符号!!!"
 
 #: eeschema/sch_component.cpp:1755
 #, c-format
@@ -11396,7 +11396,7 @@ msgstr "另存为图片"
 
 #: eeschema/sim/sim_plot_frame_base.cpp:39
 msgid "Save as .csv file"
-msgstr "另保存为 .csv 文件"
+msgstr "另存为 .csv 文件"
 
 #: eeschema/sim/sim_plot_frame_base.cpp:45
 msgid "Exit Simulation"
@@ -11807,7 +11807,7 @@ msgstr "背景"
 
 #: eeschema/widgets/widget_eeschema_color_config.cpp:105
 msgid "Component"
-msgstr "部件"
+msgstr "元件"
 
 #: eeschema/widgets/widget_eeschema_color_config.cpp:107
 msgid "Miscellaneous"
@@ -11825,12 +11825,12 @@ msgstr ""
 
 #: gerbview/clear_gbr_drawlayers.cpp:48
 msgid "Current data will be lost?"
-msgstr "丢弃当前的数据?"
+msgstr "丢弃当前的数据？"
 
 #: gerbview/clear_gbr_drawlayers.cpp:79
 #, c-format
 msgid "Clear layer %d?"
-msgstr "清除层 %d?"
+msgstr "清除层 %d？"
 
 #: gerbview/dialogs/dialog_layers_select_to_pcb_base.cpp:33
 msgid "Layer selection:"
@@ -12324,13 +12324,13 @@ msgstr ""
 "KiCad 可以使用你的显卡给你一个更流畅和更快的体验。此选项在默认情况下是关闭"
 "的，因为它与部分计算机不兼容。\n"
 "\n"
-"你愿意尝试启用图形加速吗？\n"
+"是否要尝试启用显卡加速？\n"
 "\n"
-"如果你希望稍后选择，请在首选项菜单中选择现代工具箱。"
+"如果以后要选择, 请在 \"首选项\" 菜单中选择 \"显卡加速\"。"
 
 #: gerbview/gerbview_frame.cpp:184 pcbnew/pcb_edit_frame.cpp:407
 msgid "Enable Graphics Acceleration"
-msgstr "启用图形加速"
+msgstr "启用显卡加速"
 
 #: gerbview/gerbview_frame.cpp:186 pcbnew/pcb_edit_frame.cpp:410
 msgid "&Enable Acceleration"
@@ -12511,7 +12511,7 @@ msgstr "打开 Gerber 工作文件... (&J)"
 #: gerbview/menubar.cpp:70
 msgid ""
 "Open a Gerber job file, and it's associated gerber files depending on the job"
-msgstr "打开 Gerber 作业文件，并根据作业将其与 Gerber 文件关联"
+msgstr "打开 Gerber 作业文件及其关联的 Gerber 文件"
 
 #: gerbview/menubar.cpp:75
 msgid "Open &Zip Archive File..."
@@ -12706,7 +12706,7 @@ msgstr "使用传统工具箱(并不是所有工具都可用)"
 
 #: gerbview/menubar.cpp:337
 msgid "&List DCodes..."
-msgstr "D 码列表... (&L)"
+msgstr "D 码表... (&L)"
 
 #: gerbview/menubar.cpp:338
 msgid "List D-codes defined in Gerber files"
@@ -12766,7 +12766,7 @@ msgid ""
 "It is perhaps an old RS274D file\n"
 "Therefore the size of items is undefined"
 msgstr ""
-"警告: 这个文件没有 D-Code 定义\n"
+"警告: 这个文件没有 D 码定义\n"
 "这可能是旧版的 RS274D 文件\n"
 "所以大小项未定义"
 
@@ -13620,7 +13620,7 @@ msgstr "删除文件"
 #: new/sch_lib.cpp:237
 #, c-format
 msgid "part \"%s\" not found in lib %s"
-msgstr "部件 \"%s\" 没有在库 %s 中找到"
+msgstr "元件 \"%s\" 没有在库 %s 中找到"
 
 #: new/sch_lpid.cpp:208
 msgid "Illegal character found in LPID string"
@@ -13644,11 +13644,11 @@ msgstr "无效扩展 LPID"
 
 #: new/sch_sweet_parser.cpp:354
 msgid "'extends' may not have self as any ancestor"
-msgstr "\"延伸\" 可能没有自我作为任何原形"
+msgstr "“延伸” 不能将自身作为任何原形"
 
 #: new/sch_sweet_parser.cpp:364
 msgid "max allowed extends depth exceeded"
-msgstr "超过允许扩展深度的最大值"
+msgstr "超出最大允许延伸深度"
 
 #: new/sch_sweet_parser.cpp:392
 msgid "invalid alternates LPID"
@@ -13678,13 +13678,14 @@ msgstr "没有信号 %s 的引脚"
 #: new/sch_sweet_parser.cpp:915
 #, c-format
 msgid "signal pin %s already in pin_merge group %s"
-msgstr "信号引脚 %s 已在 引脚_合并 组 %s 中"
+msgstr "信号引脚 %s 已在引脚合并组 %s 中"
 
 #: new/sch_sweet_parser.cpp:998
 #, c-format
 msgid "Unable to find property: %s"
 msgstr "找不到属性: %s"
 
+# 待定
 #: new/sweet_editor_panel.cpp:31
 msgid "Sweet"
 msgstr "甜"
@@ -18181,7 +18182,7 @@ msgstr "删除项："
 #: pcbnew/dialogs/dialog_global_deletion_base.cpp:25
 #: pcbnew/onrightclick.cpp:651 pcbnew/tools/pcb_editor_control.cpp:165
 msgid "Zones"
-msgstr "覆铜"
+msgstr "敷铜"
 
 #: pcbnew/dialogs/dialog_global_deletion_base.cpp:31
 msgid "Board outlines"
@@ -19242,7 +19243,7 @@ msgstr ""
 "圆角半径。\n"
 "不能超过焊盘宽度的一半。\n"
 "宽度为 X 和 Y 的较小值\n"
-"注：IPC 规范给出了 最大值 = 0.25mm"
+"注释：IPC 规范给出了 最大值 = 0.25mm"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:248
 msgid "Hole shape:"
@@ -19783,11 +19784,11 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:321
 msgid "Export units:"
-msgstr "导出单元："
+msgstr "导出单位："
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:329
 msgid "The units to use for the exported DXF file"
-msgstr "用于导出的 DXF 文件的单元"
+msgstr "用于导出的 DXF 文件的单位"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:358
 msgid "Run DRC..."
@@ -21387,7 +21388,7 @@ msgstr "Eco2_层"
 
 #: pcbnew/dialogs/panel_setup_layers_base.cpp:741
 msgid "If you want a separate layer for comments or notes"
-msgstr "如果您想要一个单独的图层用于描述或注释"
+msgstr "开启/关闭 描述性注释层"
 
 #: pcbnew/dialogs/panel_setup_layers_base.cpp:745
 msgid "Comments_layer"
@@ -21395,7 +21396,7 @@ msgstr "注释层"
 
 #: pcbnew/dialogs/panel_setup_layers_base.cpp:754
 msgid "If you want a layer for documentation drawings"
-msgstr "如果您想要一个用于文档绘图的图层"
+msgstr "开启/关闭 文档图形层"
 
 #: pcbnew/dialogs/panel_setup_layers_base.cpp:758
 msgid "Drawings_layer"
@@ -21936,7 +21937,7 @@ msgstr "未知的 DRC 错误码 %d"
 #: pcbnew/eagle_plugin.cpp:822
 #, c-format
 msgid "<package> name: \"%s\" duplicated in eagle <library>: \"%s\""
-msgstr "<包> 名称: \"%s\" 在eagle <库>: \"%s\" 有重复"
+msgstr "<包> 名称: \"%s\" 在 eagle <库>: \"%s\" 有重复"
 
 #: pcbnew/eagle_plugin.cpp:900
 #, c-format
@@ -22037,7 +22038,7 @@ msgstr "删除 %s 层上的所有物件吗?"
 
 #: pcbnew/editrack.cpp:789
 msgid "Segs Count"
-msgstr "Segs 计数"
+msgstr "减少计数"
 
 #: pcbnew/exporters/export_d356.cpp:367
 msgid "Export D-356 Test File"
@@ -23488,7 +23489,7 @@ msgstr "CZONE_CONTAINER \"%s\"是坏的 ZSmoothing"
 #: pcbnew/legacy_plugin.cpp:2655
 #, c-format
 msgid "Bad ZClearance padoption for CZONE_CONTAINER \"%s\""
-msgstr "Bad ZClearance padoption for CZONE_CONTAINER \"%s\""
+msgstr "CZONE_CONTAINER \"%s\" 的 ZClearance 选项不正确"
 
 #: pcbnew/legacy_plugin.cpp:3003 pcbnew/legacy_plugin.cpp:3040
 #, c-format
@@ -25763,7 +25764,7 @@ msgid ""
 "Board may be corrupted, do not save it.\n"
 "Fix problem and try again"
 msgstr ""
-"板可能损坏，不要保存。\n"
+"电路板可能损坏，不要保存。\n"
 "解决问题并重试"
 
 #: pcbnew/specctra_import_export/specctra_import.cpp:140
@@ -26521,7 +26522,7 @@ msgstr "合并区域"
 #: pcbnew/tools/pcb_editor_control.cpp:92
 #: pcbnew/tools/pcb_editor_control.cpp:782
 msgid "Merge zones"
-msgstr "合并覆铜"
+msgstr "合并敷铜"
 
 #: pcbnew/tools/pcb_editor_control.cpp:96
 msgid "Duplicate zone outline onto a different layer"
@@ -26824,7 +26825,7 @@ msgstr "填充"
 
 #: pcbnew/tools/zone_filler_tool.cpp:47
 msgid "Fill zone(s)"
-msgstr "填充覆铜"
+msgstr "填充敷铜"
 
 #: pcbnew/tools/zone_filler_tool.cpp:51
 msgid "Fill All"
@@ -26938,7 +26939,7 @@ msgstr "修改区域属性"
 #: pcbnew/zones_by_polygon.cpp:969
 #, c-format
 msgid "Refill %d Zones"
-msgstr "重新填充 %d 覆铜区域"
+msgstr "重新填充 %d 敷铜区域"
 
 #: pcbnew/zones_by_polygon_fill_functions.cpp:119
 msgid "Checking Zones"
@@ -27085,7 +27086,7 @@ msgid ""
 "given filenames. This can be used either for standalone testing of the "
 "parser or for fuzz testing."
 msgstr ""
-"该程序从标注输入流或给定的文件名解析 PCB 文件。 这可以用于解析器的独立测试或"
+"该程序从标准输入流或给定的文件名解析 PCB 文件。 这可以用于解析器的独立测试或"
 "模糊测试。"
 
 #: utils/kicad2step/kicad2step.cpp:65
@@ -27115,7 +27116,7 @@ msgstr "使用网格原点作为输出原点"
 #: utils/kicad2step/kicad2step.cpp:80
 msgid ""
 "User-specified output origin ex. 1x1in, 1x1inch, 25.4x25.4mm (default mm)"
-msgstr "用户指定的输出原点 ex.1x1in，1x1inch，25.4x25.4mm（默认mm）"
+msgstr "用户指定的输出原点 列如：1x1in，1x1inch，25.4x25.4mm（默认mm）"
 
 #: utils/kicad2step/kicad2step.cpp:83
 msgid "exclude 3D models for components with 'virtual' attribute"
@@ -27125,7 +27126,7 @@ msgstr "排除具有“虚拟”属性元件的 3D 模型"
 msgid ""
 "Minimum distance between points to treat them as separate ones (default 0.01 "
 "mm)"
-msgstr "将点作为单独点处理的点之间的最小距离（默认为 0.01 mm）"
+msgstr "将它们作为单独的点之间的最小距离（默认为 0.01 mm）"
 
 #: utils/kicad2step/kicad2step.cpp:88
 msgid "display this message"
