@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: KiCad_zh_CN_v5.1.3.002\n"
+"Project-Id-Version: KiCad_zh_CN_v5.1.3.003\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-10 11:32+0800\n"
-"PO-Revision-Date: 2019-07-10 19:12+0800\n"
+"POT-Creation-Date: 2019-07-16 19:57+0800\n"
+"PO-Revision-Date: 2019-07-16 19:57+0800\n"
 "Last-Translator: taotieren <admin@taotieren.com>\n"
 "Language-Team: kicad-cn\n"
 "Language: zh_CN\n"
@@ -1756,7 +1756,7 @@ msgstr "环境变量"
 #: pcbnew/dialogs/dialog_select_net_from_list.cpp:69
 #: pcbnew/dialogs/panel_fp_lib_table.cpp:343
 #: pcbnew/dialogs/panel_pcbnew_action_plugins_base.cpp:38
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:48
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:49
 msgid "Name"
 msgstr "名称"
 
@@ -2935,7 +2935,7 @@ msgstr "找到重复的库别名 \"%s\" ，在封装库表文件第 %d 行"
 msgid "fp-lib-table files contain no library with nickname \"%s\""
 msgstr "fp-lib-table 文件不包含昵称为 \"%s\" 的库"
 
-#: common/fp_lib_table.cpp:475
+#: common/fp_lib_table.cpp:478
 #: eeschema/dialogs/dialog_global_sym_lib_table_config.cpp:110
 #: eeschema/symbol_lib_table.cpp:488
 #: pcbnew/dialogs/dialog_global_fp_lib_table_config.cpp:110
@@ -3263,7 +3263,7 @@ msgstr "文件 \"%s\" 没有被完全读取"
 #: common/pgm_base.cpp:125 common/widgets/footprint_select_widget.cpp:231
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:184
 #: eeschema/dialogs/dialog_edit_line_style.cpp:40
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:62
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:63
 msgid "Default"
 msgstr "默认"
 
@@ -3676,184 +3676,184 @@ msgstr "(双击编辑)"
 msgid "Hotkey"
 msgstr "快捷键"
 
-#: common/wildcards_and_files_ext.cpp:149
+#: common/wildcards_and_files_ext.cpp:133
 msgid "All files"
 msgstr "所有文件"
 
-#: common/wildcards_and_files_ext.cpp:155
+#: common/wildcards_and_files_ext.cpp:139
 msgid "KiCad drawing symbol files"
 msgstr "KiCad 图形符号文件"
 
-#: common/wildcards_and_files_ext.cpp:161
+#: common/wildcards_and_files_ext.cpp:145
 msgid "KiCad symbol library files"
 msgstr "KiCad 符号库文件"
 
-#: common/wildcards_and_files_ext.cpp:167
+#: common/wildcards_and_files_ext.cpp:151
 msgid "KiCad project files"
 msgstr "KiCad 工程文件"
 
-#: common/wildcards_and_files_ext.cpp:173
+#: common/wildcards_and_files_ext.cpp:157
 msgid "KiCad schematic files"
 msgstr "KiCad 原理图文件"
 
-#: common/wildcards_and_files_ext.cpp:179
+#: common/wildcards_and_files_ext.cpp:163
 msgid "Eagle XML schematic files"
 msgstr "Eagle XML 原理图文件"
 
-#: common/wildcards_and_files_ext.cpp:185
+#: common/wildcards_and_files_ext.cpp:169
 msgid "Eagle XML files"
 msgstr "Eagle XML 文件"
 
-#: common/wildcards_and_files_ext.cpp:191
+#: common/wildcards_and_files_ext.cpp:175
 msgid "KiCad netlist files"
 msgstr "KiCad 网表文件"
 
-#: common/wildcards_and_files_ext.cpp:197 gerbview/files.cpp:54
+#: common/wildcards_and_files_ext.cpp:181 gerbview/files.cpp:54
 msgid "Gerber files"
 msgstr "Gerber 文件"
 
-#: common/wildcards_and_files_ext.cpp:203
-#: common/wildcards_and_files_ext.cpp:221
+#: common/wildcards_and_files_ext.cpp:187
+#: common/wildcards_and_files_ext.cpp:205
 msgid "KiCad printed circuit board files"
 msgstr "KiCad PCB 文件"
 
-#: common/wildcards_and_files_ext.cpp:209
+#: common/wildcards_and_files_ext.cpp:193
 msgid "Eagle ver. 6.x XML PCB files"
 msgstr "Eagle ver. 6.x XML PCB 文件"
 
-#: common/wildcards_and_files_ext.cpp:215
+#: common/wildcards_and_files_ext.cpp:199
 msgid "P-Cad 200x ASCII PCB files"
 msgstr "P-Cad 200x ASCII PCB 文件"
 
-#: common/wildcards_and_files_ext.cpp:227
+#: common/wildcards_and_files_ext.cpp:211
 msgid "KiCad footprint files"
 msgstr "KiCad 封装文件"
 
-#: common/wildcards_and_files_ext.cpp:233
+#: common/wildcards_and_files_ext.cpp:217
 msgid "KiCad footprint library paths"
 msgstr "KiCad 封装库路径"
 
-#: common/wildcards_and_files_ext.cpp:239
+#: common/wildcards_and_files_ext.cpp:223
 msgid "Legacy footprint library files"
 msgstr "旧的封装库文件"
 
-#: common/wildcards_and_files_ext.cpp:245
+#: common/wildcards_and_files_ext.cpp:229
 msgid "Eagle ver. 6.x XML library files"
 msgstr "Eagle ver. 6.x XML 库文件"
 
-#: common/wildcards_and_files_ext.cpp:251
+#: common/wildcards_and_files_ext.cpp:235
 msgid "Geda PCB footprint library files"
 msgstr "Geda PCB 封装库文件"
 
-#: common/wildcards_and_files_ext.cpp:257
+#: common/wildcards_and_files_ext.cpp:241
 msgid "Page layout design files"
 msgstr "图框布局设计文件"
 
-#: common/wildcards_and_files_ext.cpp:264
+#: common/wildcards_and_files_ext.cpp:248
 msgid "KiCad symbol footprint link files"
 msgstr "KiCad 符号封装链接文件"
 
-#: common/wildcards_and_files_ext.cpp:271 gerbview/files.cpp:68
+#: common/wildcards_and_files_ext.cpp:255 gerbview/files.cpp:68
 msgid "Drill files"
 msgstr "钻孔文件"
 
-#: common/wildcards_and_files_ext.cpp:277
+#: common/wildcards_and_files_ext.cpp:261
 msgid "SVG files"
 msgstr "SVG 文件"
 
-#: common/wildcards_and_files_ext.cpp:283
+#: common/wildcards_and_files_ext.cpp:267
 msgid "HTML files"
 msgstr "HTML 文件"
 
-#: common/wildcards_and_files_ext.cpp:289
+#: common/wildcards_and_files_ext.cpp:273
 msgid "CSV Files"
 msgstr "CSV 文件"
 
-#: common/wildcards_and_files_ext.cpp:295
+#: common/wildcards_and_files_ext.cpp:279
 msgid "Portable document format files"
 msgstr "便携式文档格式文件 (*.PDF)"
 
-#: common/wildcards_and_files_ext.cpp:301
+#: common/wildcards_and_files_ext.cpp:285
 msgid "PostScript files"
 msgstr "PostScript 文件"
 
-#: common/wildcards_and_files_ext.cpp:307
+#: common/wildcards_and_files_ext.cpp:291
 msgid "Report files"
 msgstr "报告文件"
 
-#: common/wildcards_and_files_ext.cpp:313
+#: common/wildcards_and_files_ext.cpp:297
 msgid "Footprint place files"
 msgstr "封装位置文件"
 
-#: common/wildcards_and_files_ext.cpp:319
+#: common/wildcards_and_files_ext.cpp:303
 msgid "VRML and X3D files"
 msgstr "VRML 和 X3D 文件"
 
-#: common/wildcards_and_files_ext.cpp:325
+#: common/wildcards_and_files_ext.cpp:309
 msgid "IDFv3 footprint files"
 msgstr "IDFv3 封装文件"
 
-#: common/wildcards_and_files_ext.cpp:331
+#: common/wildcards_and_files_ext.cpp:315
 msgid "Text files"
 msgstr "文本文件"
 
-#: common/wildcards_and_files_ext.cpp:337
+#: common/wildcards_and_files_ext.cpp:321
 msgid "Legacy footprint export files"
 msgstr "旧的封装导出文件"
 
-#: common/wildcards_and_files_ext.cpp:343
+#: common/wildcards_and_files_ext.cpp:327
 msgid "Electronic rule check file"
 msgstr "电气规则检查文件"
 
-#: common/wildcards_and_files_ext.cpp:349
+#: common/wildcards_and_files_ext.cpp:333
 msgid "Spice library file"
 msgstr "Spice 库文件"
 
-#: common/wildcards_and_files_ext.cpp:355
+#: common/wildcards_and_files_ext.cpp:339
 msgid "SPICE netlist file"
 msgstr "SPICE 网表文件"
 
-#: common/wildcards_and_files_ext.cpp:361
+#: common/wildcards_and_files_ext.cpp:345
 msgid "CadStar netlist file"
 msgstr "CadStar 网表文件"
 
-#: common/wildcards_and_files_ext.cpp:367
+#: common/wildcards_and_files_ext.cpp:351
 msgid "Symbol footprint association files"
 msgstr "符号封装关联文件"
 
-#: common/wildcards_and_files_ext.cpp:373
+#: common/wildcards_and_files_ext.cpp:357
 msgid "Zip file"
 msgstr "Zip 文件"
 
-#: common/wildcards_and_files_ext.cpp:379
+#: common/wildcards_and_files_ext.cpp:363
 msgid "GenCAD 1.4 board files"
 msgstr "GenCAD 1.4 线路板文件"
 
-#: common/wildcards_and_files_ext.cpp:385
+#: common/wildcards_and_files_ext.cpp:369
 msgid "DXF Files"
 msgstr "DXF 文件"
 
-#: common/wildcards_and_files_ext.cpp:391
+#: common/wildcards_and_files_ext.cpp:375
 msgid "Gerber job file"
 msgstr "Gerber 工作文件"
 
-#: common/wildcards_and_files_ext.cpp:397
+#: common/wildcards_and_files_ext.cpp:381
 msgid "Specctra DSN file"
 msgstr "Specctra DSN 文件"
 
-#: common/wildcards_and_files_ext.cpp:403
+#: common/wildcards_and_files_ext.cpp:387
 msgid "IPC-D-356 Test Files"
 msgstr "IPC-D-356 测试文件"
 
-#: common/wildcards_and_files_ext.cpp:409
+#: common/wildcards_and_files_ext.cpp:393
 msgid "Workbook file"
 msgstr "工作簿文件"
 
-#: common/wildcards_and_files_ext.cpp:415
+#: common/wildcards_and_files_ext.cpp:399
 msgid "PNG file"
 msgstr "PNG 文件"
 
-#: common/wildcards_and_files_ext.cpp:421
+#: common/wildcards_and_files_ext.cpp:405
 msgid "Jpeg file"
 msgstr "JPEG 文件"
 
@@ -10932,17 +10932,17 @@ msgstr "为 SCH_PLUGIN 中的 Symbol*() 函数使能<b>调试</b>日志功能。
 msgid "Regular expression <b>symbol name</b> filter."
 msgstr "正则表达式 <b>封装名称</b> 筛选器。"
 
-#: eeschema/sch_plugin.cpp:162 pcbnew/plugin.cpp:145
+#: eeschema/sch_plugin.cpp:162 pcbnew/plugin.cpp:153
 msgid ""
 "Enable transaction logging. The mere presence of this option turns on the "
 "logging, no need to set a Value."
 msgstr "启用事务日志记录。这个选项只是为了打开记录，不需要设置。"
 
-#: eeschema/sch_plugin.cpp:167 pcbnew/plugin.cpp:150
+#: eeschema/sch_plugin.cpp:167 pcbnew/plugin.cpp:158
 msgid "User name for <b>login</b> to some special library server."
 msgstr "用户名以 <b>登录</b> 到专业的库服务器。"
 
-#: eeschema/sch_plugin.cpp:171 pcbnew/plugin.cpp:154
+#: eeschema/sch_plugin.cpp:171 pcbnew/plugin.cpp:162
 msgid "Password for <b>login</b> to some special library server."
 msgstr "密码以 <b>登录</b> 到专业的库服务器。"
 
@@ -12210,7 +12210,7 @@ msgstr "<b>解压缩文件 %s 读取错误</b>\n"
 msgid "Open Zip File"
 msgstr "打开 Zip 文件"
 
-#: gerbview/files.cpp:693 gerbview/job_file_reader.cpp:220
+#: gerbview/files.cpp:693 gerbview/job_file_reader.cpp:234
 #: pcbnew/dialogs/dialog_drc_base.cpp:120
 #: pcbnew/dialogs/dialog_footprint_wizard_list_base.cpp:91
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:206
@@ -12478,11 +12478,11 @@ msgstr "测量距离(仅适用于现代工具箱)"
 msgid "Gerbview Hotkeys"
 msgstr "Gerbview 快捷键"
 
-#: gerbview/job_file_reader.cpp:148
+#: gerbview/job_file_reader.cpp:151
 msgid "This job file uses an outdated format. Please, recreate it."
 msgstr "此作业文件使用过时的格式， 请重新创建它。"
 
-#: gerbview/job_file_reader.cpp:172
+#: gerbview/job_file_reader.cpp:186
 msgid "Open Gerber Job File"
 msgstr "打开 Gerber 工作文件"
 
@@ -14528,7 +14528,7 @@ msgstr "内层布线："
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:521
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias.cpp:188
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:50
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:51
 msgid "Track Width"
 msgstr "布线宽度"
 
@@ -15908,7 +15908,7 @@ msgstr "焊盘"
 
 #: pcbnew/class_pad.cpp:772 pcbnew/dialogs/dialog_copper_zones_base.cpp:33
 #: pcbnew/dialogs/dialog_select_net_from_list.cpp:68
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:212
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:217
 msgid "Net"
 msgstr "网络"
 
@@ -16296,7 +16296,7 @@ msgstr "设计规则"
 
 #: pcbnew/dialogs/dialog_board_setup.cpp:51
 #: pcbnew/dialogs/dialog_import_settings_base.cpp:57
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:23
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:24
 msgid "Net Classes"
 msgstr "网络类表"
 
@@ -16409,7 +16409,7 @@ msgstr ""
 "仅显示与此模式匹配的网络名称。"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:60
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:146
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:151
 msgid "Apply Filters"
 msgstr "应用筛选"
 
@@ -18389,25 +18389,25 @@ msgstr "设置为图层默认值："
 
 #: pcbnew/dialogs/dialog_global_edit_text_and_graphics_base.h:93
 msgid "Edit Text and Graphic Properties"
-msgstr "编辑文本和图形属性属性"
+msgstr "编辑文本和图形属性"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias.cpp:189
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:51
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:52
 msgid "Via Size"
 msgstr "过孔外径"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias.cpp:190
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:52
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:53
 msgid "Via Drill"
 msgstr "过孔内径"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias.cpp:191
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:53
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:54
 msgid "uVia Size"
 msgstr "微孔外径"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias.cpp:192
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:54
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:55
 msgid "uVia Drill"
 msgstr "微孔内径"
 
@@ -20171,7 +20171,7 @@ msgid "Pad Count"
 msgstr "焊盘计数"
 
 #: pcbnew/dialogs/dialog_select_net_from_list_base.cpp:22
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:125
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:130
 msgid "Net name filter:"
 msgstr "网络名称筛选："
 
@@ -20488,7 +20488,7 @@ msgid "Default properties for new graphic items:"
 msgstr "新建图形项目的默认属性："
 
 #: pcbnew/dialogs/panel_modedit_defaults_base.cpp:136
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:70
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:71
 #: pcbnew/dialogs/panel_setup_text_and_graphics_base.cpp:66
 msgid "Net Class parameters"
 msgstr "网络类参数"
@@ -21448,105 +21448,105 @@ msgstr ""
 "此值可以通过封装或焊盘局部值所取代。\n"
 "最终的间隙值是该值与间隙值的总和"
 
-#: pcbnew/dialogs/panel_setup_netclasses.cpp:285
+#: pcbnew/dialogs/panel_setup_netclasses.cpp:293
 msgid "Netclass must have a name."
 msgstr "网络类必须要有一个名称。"
 
-#: pcbnew/dialogs/panel_setup_netclasses.cpp:294
+#: pcbnew/dialogs/panel_setup_netclasses.cpp:302
 msgid "Netclass name already in use."
 msgstr "网络类名称已经在使用。"
 
-#: pcbnew/dialogs/panel_setup_netclasses.cpp:349
+#: pcbnew/dialogs/panel_setup_netclasses.cpp:357
 msgid "The default net class is required."
 msgstr "默认的网络类是必需的。"
 
-#: pcbnew/dialogs/panel_setup_netclasses.cpp:508
+#: pcbnew/dialogs/panel_setup_netclasses.cpp:527
 #: pcbnew/dialogs/panel_setup_tracks_and_vias.cpp:239
 #, c-format
 msgid "Track width less than minimum track width (%s)."
 msgstr "布线宽度小于最小线宽 (%s)。"
 
-#: pcbnew/dialogs/panel_setup_netclasses.cpp:516
+#: pcbnew/dialogs/panel_setup_netclasses.cpp:535
 #, c-format
 msgid "Differential pair width less than minimum track width (%s)."
 msgstr "差分对宽度小于最小布线宽度 (%s)。"
 
-#: pcbnew/dialogs/panel_setup_netclasses.cpp:525
+#: pcbnew/dialogs/panel_setup_netclasses.cpp:544
 #: pcbnew/dialogs/panel_setup_tracks_and_vias.cpp:256
 #, c-format
 msgid "Via diameter less than minimum via diameter (%s)."
 msgstr "过孔外径小于最小过孔外径 (%s)。"
 
-#: pcbnew/dialogs/panel_setup_netclasses.cpp:533
+#: pcbnew/dialogs/panel_setup_netclasses.cpp:552
 #: pcbnew/dialogs/panel_setup_tracks_and_vias.cpp:282
 msgid "Via drill larger than via diameter."
 msgstr "过孔内径大于过孔外径。"
 
-#: pcbnew/dialogs/panel_setup_netclasses.cpp:540
+#: pcbnew/dialogs/panel_setup_netclasses.cpp:559
 #: pcbnew/dialogs/panel_setup_tracks_and_vias.cpp:273
 #, c-format
 msgid "Via drill less than minimum via drill (%s)."
 msgstr "过孔内径小于最小孔内径 (%s)。"
 
-#: pcbnew/dialogs/panel_setup_netclasses.cpp:549
+#: pcbnew/dialogs/panel_setup_netclasses.cpp:568
 #, c-format
 msgid "Microvia diameter less than minimum microvia diameter (%s)."
 msgstr "微孔外径小于最小微孔外径 (%s)。"
 
-#: pcbnew/dialogs/panel_setup_netclasses.cpp:557
+#: pcbnew/dialogs/panel_setup_netclasses.cpp:576
 msgid "Microvia drill larger than microvia diameter."
 msgstr "微孔内径大于微孔外径。"
 
-#: pcbnew/dialogs/panel_setup_netclasses.cpp:564
+#: pcbnew/dialogs/panel_setup_netclasses.cpp:583
 #, c-format
 msgid "Microvia drill less than minimum microvia drill (%s)."
 msgstr "微孔内径小于最小内径 (%s)。"
 
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:49
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:50
 msgid "Clearance"
 msgstr "间隙"
 
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:55
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:56
 msgid "dPair Width"
 msgstr "差分线宽度"
 
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:56
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:57
 msgid "dPair Gap"
 msgstr "差分线间距"
 
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:97
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:102
 msgid "Net Class Memberships"
 msgstr "网络类成员资格"
 
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:103
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:108
 msgid "Filter Nets"
 msgstr "筛选网络"
 
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:108
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:113
 msgid "Net class filter:"
 msgstr "网络类筛选："
 
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:140
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:145
 msgid "Show All Nets"
 msgstr "显示所有网络"
 
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:156
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:161
 msgid "Assign Net Class"
 msgstr "分配网络类"
 
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:161
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:166
 msgid "New net class:"
 msgstr "新网络类："
 
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:178
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:183
 msgid "Assign To Listed Nets"
 msgstr "分配到列表中的网络"
 
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:184
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:189
 msgid "Assign To Selected Nets"
 msgstr "分配给选择的网络"
 
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:213
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:218
 msgid "Net Class"
 msgstr "网络类"
 
@@ -22134,12 +22134,12 @@ msgstr "封装报告"
 msgid "Create file %s\n"
 msgstr "创建文件 %s\n"
 
-#: pcbnew/exporters/gerber_jobfile_writer.cpp:128
+#: pcbnew/exporters/gerber_jobfile_writer.cpp:148
 #, c-format
 msgid "Unable to create job file \"%s\""
 msgstr "无法创建工作文件 \"%s\"。"
 
-#: pcbnew/exporters/gerber_jobfile_writer.cpp:134
+#: pcbnew/exporters/gerber_jobfile_writer.cpp:154
 #, c-format
 msgid "Create Gerber job file \"%s\""
 msgstr "创建 Gerber 工作文件 %s"
@@ -22557,7 +22557,7 @@ msgid "Select Library Table"
 msgstr "选择库表"
 
 #: pcbnew/footprint_libraries_utils.cpp:609 pcbnew/gpcb_plugin.cpp:961
-#: pcbnew/kicad_plugin.cpp:2052 pcbnew/kicad_plugin.cpp:2133
+#: pcbnew/kicad_plugin.cpp:2068 pcbnew/kicad_plugin.cpp:2149
 #, c-format
 msgid "Library \"%s\" is read only"
 msgstr "\"%s\" 库为只读"
@@ -22854,22 +22854,22 @@ msgstr "未知标记 \"%s\""
 msgid "Element token contains %d parameters."
 msgstr "元素标记包含 %d 个参数。"
 
-#: pcbnew/gpcb_plugin.cpp:980 pcbnew/kicad_plugin.cpp:2177
+#: pcbnew/gpcb_plugin.cpp:980 pcbnew/kicad_plugin.cpp:2193
 #, c-format
 msgid "user does not have permission to delete directory \"%s\""
 msgstr "用户没有权限删除目录 \"%s\""
 
-#: pcbnew/gpcb_plugin.cpp:988 pcbnew/kicad_plugin.cpp:2185
+#: pcbnew/gpcb_plugin.cpp:988 pcbnew/kicad_plugin.cpp:2201
 #, c-format
 msgid "library directory \"%s\" has unexpected sub-directories"
 msgstr "库目录 \"%s\" 有额外的子目录"
 
-#: pcbnew/gpcb_plugin.cpp:1007 pcbnew/kicad_plugin.cpp:2204
+#: pcbnew/gpcb_plugin.cpp:1007 pcbnew/kicad_plugin.cpp:2220
 #, c-format
 msgid "unexpected file \"%s\" was found in library path \"%s\""
 msgstr "在库路径 \"%s\" 中找到了额外的文件 \"%s\""
 
-#: pcbnew/gpcb_plugin.cpp:1025 pcbnew/kicad_plugin.cpp:2222
+#: pcbnew/gpcb_plugin.cpp:1025 pcbnew/kicad_plugin.cpp:2238
 #, c-format
 msgid "footprint library \"%s\" cannot be deleted"
 msgstr "封装库 \"%s\" 不能被删除"
@@ -23352,7 +23352,7 @@ msgstr "未知区域全角平滑类型  %d"
 msgid "this file does not contain a PCB"
 msgstr "此文件不包含 PCB"
 
-#: pcbnew/kicad_plugin.cpp:2040
+#: pcbnew/kicad_plugin.cpp:2056
 #, c-format
 msgid ""
 "Library \"%s\" does not exist.\n"
@@ -23361,21 +23361,21 @@ msgstr ""
 "库 \"%s\" 不存在。\n"
 "是否要创建它？"
 
-#: pcbnew/kicad_plugin.cpp:2044
+#: pcbnew/kicad_plugin.cpp:2060
 msgid "Library Not Found"
 msgstr "未找到库"
 
-#: pcbnew/kicad_plugin.cpp:2083
+#: pcbnew/kicad_plugin.cpp:2099
 #, c-format
 msgid "Footprint file name \"%s\" is not valid."
 msgstr "无效的封装文件名称 \"%s\"。"
 
-#: pcbnew/kicad_plugin.cpp:2089
+#: pcbnew/kicad_plugin.cpp:2105
 #, c-format
 msgid "No write permissions to delete file \"%s\""
 msgstr "没有写入权限来删除文件 \"%s\""
 
-#: pcbnew/kicad_plugin.cpp:2152
+#: pcbnew/kicad_plugin.cpp:2168
 #, c-format
 msgid "cannot overwrite library path \"%s\""
 msgstr "不能覆盖库路径 \"%s\""
@@ -25325,15 +25325,15 @@ msgstr "多层"
 msgid "Your BOARD has a bad layer number for footprint %s"
 msgstr "电路板元件 %s 有一个不良的层编号"
 
-#: pcbnew/plugin.cpp:137
+#: pcbnew/plugin.cpp:145
 msgid "Enable <b>debug</b> logging for Footprint*() functions in this PLUGIN."
 msgstr "使用这个插件封装*() 功能的 <b>debug</b> 日志."
 
-#: pcbnew/plugin.cpp:141
+#: pcbnew/plugin.cpp:149
 msgid "Regular expression <b>footprint name</b> filter."
 msgstr "正则表达式 <b>封装名称</b> 筛选。"
 
-#: pcbnew/plugin.cpp:162
+#: pcbnew/plugin.cpp:170
 msgid ""
 "Enter the python module which implements the PLUGIN::Footprint*() functions."
 msgstr "PLUGIN::Footprint*() 输入已定义的 Python 函数模块。"
@@ -26713,7 +26713,7 @@ msgstr "添加覆铜区域拐角"
 msgid "Split segment"
 msgstr "分割线段"
 
-#: pcbnew/tools/point_editor.cpp:1147
+#: pcbnew/tools/point_editor.cpp:1145
 msgid "Remove a zone/polygon corner"
 msgstr "删除区域/多边形的拐角"
 
