@@ -82,8 +82,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-02 16:18+0200\n"
-"PO-Revision-Date: 2019-07-02 16:20+0200\n"
+"POT-Creation-Date: 2019-07-20 23:03+0200\n"
+"PO-Revision-Date: 2019-07-20 23:03+0200\n"
 "Last-Translator: Marco Ciampa <ciampix@posteo.net>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
@@ -493,7 +493,7 @@ msgstr "&Preferenze"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:140
 #: cvpcb/dialogs/dialog_display_options_base.h:56
-#: eeschema/eeschema_config.cpp:227 eeschema/eeschema_config.cpp:619
+#: eeschema/eeschema_config.cpp:227 eeschema/eeschema_config.cpp:628
 #: gerbview/gerbview_config.cpp:69
 #: pcbnew/dialogs/dialog_fp_browser_display_options_base.h:56
 #: pcbnew/footprint_edit_frame.cpp:985 pcbnew/pcbnew_config.cpp:100
@@ -1858,7 +1858,7 @@ msgstr "Variabili ambiente"
 #: pcbnew/dialogs/dialog_select_net_from_list.cpp:69
 #: pcbnew/dialogs/panel_fp_lib_table.cpp:343
 #: pcbnew/dialogs/panel_pcbnew_action_plugins_base.cpp:38
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:48
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:49
 msgid "Name"
 msgstr "Nome"
 
@@ -2003,7 +2003,7 @@ msgid "Mirror Y"
 msgstr "Speculare in Y"
 
 #: common/dialogs/dialog_image_editor_base.cpp:39 pcbnew/onrightclick.cpp:940
-#: pcbnew/tools/edit_tool.cpp:718
+#: pcbnew/tools/edit_tool.cpp:724
 msgid "Rotate"
 msgstr "Ruota"
 
@@ -2334,12 +2334,12 @@ msgid "Close"
 msgstr "Chiudi"
 
 #: common/dialogs/dialog_print_generic.cpp:123
-#: pcbnew/dialogs/dialog_plot.cpp:794
+#: pcbnew/dialogs/dialog_plot.cpp:805
 msgid "Warning: Scale option set to a very large value"
 msgstr "Attenzione: scala impostata ad un valore molto alto"
 
 #: common/dialogs/dialog_print_generic.cpp:127
-#: pcbnew/dialogs/dialog_plot.cpp:791
+#: pcbnew/dialogs/dialog_plot.cpp:802
 msgid "Warning: Scale option set to a very small value"
 msgstr "Attenzione: scala impostata ad un valore molto basso"
 
@@ -3081,7 +3081,7 @@ msgstr ""
 msgid "fp-lib-table files contain no library with nickname \"%s\""
 msgstr "I file fp-lib-table non contengono librerie con denominazione \"%s\"."
 
-#: common/fp_lib_table.cpp:475
+#: common/fp_lib_table.cpp:478
 #: eeschema/dialogs/dialog_global_sym_lib_table_config.cpp:110
 #: eeschema/symbol_lib_table.cpp:488
 #: pcbnew/dialogs/dialog_global_fp_lib_table_config.cpp:110
@@ -3414,7 +3414,7 @@ msgstr "Il file \"%s\" non è stato letto completamente"
 #: common/pgm_base.cpp:125 common/widgets/footprint_select_widget.cpp:231
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:184
 #: eeschema/dialogs/dialog_edit_line_style.cpp:40
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:62
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:63
 msgid "Default"
 msgstr "Predefinita"
 
@@ -3832,184 +3832,184 @@ msgstr "(doppio clic per modificare)"
 msgid "Hotkey"
 msgstr "Tasto"
 
-#: common/wildcards_and_files_ext.cpp:149
+#: common/wildcards_and_files_ext.cpp:133
 msgid "All files"
 msgstr "Tutti i file"
 
-#: common/wildcards_and_files_ext.cpp:155
+#: common/wildcards_and_files_ext.cpp:139
 msgid "KiCad drawing symbol files"
 msgstr "File di simboli grafici KiCad"
 
-#: common/wildcards_and_files_ext.cpp:161
+#: common/wildcards_and_files_ext.cpp:145
 msgid "KiCad symbol library files"
 msgstr "File di librerie di simboli KiCad"
 
-#: common/wildcards_and_files_ext.cpp:167
+#: common/wildcards_and_files_ext.cpp:151
 msgid "KiCad project files"
 msgstr "File progetto KiCad"
 
-#: common/wildcards_and_files_ext.cpp:173
+#: common/wildcards_and_files_ext.cpp:157
 msgid "KiCad schematic files"
 msgstr "File di schemi elettrici KiCad"
 
-#: common/wildcards_and_files_ext.cpp:179
+#: common/wildcards_and_files_ext.cpp:163
 msgid "Eagle XML schematic files"
 msgstr "File di schemi elettrici Eagle XML"
 
-#: common/wildcards_and_files_ext.cpp:185
+#: common/wildcards_and_files_ext.cpp:169
 msgid "Eagle XML files"
 msgstr "File Eagle XML"
 
-#: common/wildcards_and_files_ext.cpp:191
+#: common/wildcards_and_files_ext.cpp:175
 msgid "KiCad netlist files"
 msgstr "File di netlist KiCad"
 
-#: common/wildcards_and_files_ext.cpp:197 gerbview/files.cpp:54
+#: common/wildcards_and_files_ext.cpp:181 gerbview/files.cpp:54
 msgid "Gerber files"
 msgstr "File Gerber"
 
-#: common/wildcards_and_files_ext.cpp:203
-#: common/wildcards_and_files_ext.cpp:221
+#: common/wildcards_and_files_ext.cpp:187
+#: common/wildcards_and_files_ext.cpp:205
 msgid "KiCad printed circuit board files"
 msgstr "File di circuiti stampati KiCad"
 
-#: common/wildcards_and_files_ext.cpp:209
+#: common/wildcards_and_files_ext.cpp:193
 msgid "Eagle ver. 6.x XML PCB files"
 msgstr "File di C.S. Eagle ver. 6.x XML"
 
-#: common/wildcards_and_files_ext.cpp:215
+#: common/wildcards_and_files_ext.cpp:199
 msgid "P-Cad 200x ASCII PCB files"
 msgstr "File di C.S. P-Cad 200x ASCII"
 
-#: common/wildcards_and_files_ext.cpp:227
+#: common/wildcards_and_files_ext.cpp:211
 msgid "KiCad footprint files"
 msgstr "File impronte KiCad"
 
-#: common/wildcards_and_files_ext.cpp:233
+#: common/wildcards_and_files_ext.cpp:217
 msgid "KiCad footprint library paths"
 msgstr "Percorsi di file di libreria impronte Kicad"
 
-#: common/wildcards_and_files_ext.cpp:239
+#: common/wildcards_and_files_ext.cpp:223
 msgid "Legacy footprint library files"
 msgstr "File di libreria di impronte obsoleti"
 
-#: common/wildcards_and_files_ext.cpp:245
+#: common/wildcards_and_files_ext.cpp:229
 msgid "Eagle ver. 6.x XML library files"
 msgstr "File di libreria Eagle ver. 6.x XML"
 
-#: common/wildcards_and_files_ext.cpp:251
+#: common/wildcards_and_files_ext.cpp:235
 msgid "Geda PCB footprint library files"
 msgstr "File di libreria di impronte Geda PCB"
 
-#: common/wildcards_and_files_ext.cpp:257
+#: common/wildcards_and_files_ext.cpp:241
 msgid "Page layout design files"
 msgstr "File di disposizione pagina"
 
-#: common/wildcards_and_files_ext.cpp:264
+#: common/wildcards_and_files_ext.cpp:248
 msgid "KiCad symbol footprint link files"
 msgstr "File di collegamento impronte-simboli KiCad"
 
-#: common/wildcards_and_files_ext.cpp:271 gerbview/files.cpp:68
+#: common/wildcards_and_files_ext.cpp:255 gerbview/files.cpp:68
 msgid "Drill files"
 msgstr "File forature"
 
-#: common/wildcards_and_files_ext.cpp:277
+#: common/wildcards_and_files_ext.cpp:261
 msgid "SVG files"
 msgstr "File SVG"
 
-#: common/wildcards_and_files_ext.cpp:283
+#: common/wildcards_and_files_ext.cpp:267
 msgid "HTML files"
 msgstr "File HTML"
 
-#: common/wildcards_and_files_ext.cpp:289
+#: common/wildcards_and_files_ext.cpp:273
 msgid "CSV Files"
 msgstr "File CSV"
 
-#: common/wildcards_and_files_ext.cpp:295
+#: common/wildcards_and_files_ext.cpp:279
 msgid "Portable document format files"
 msgstr "File PDF"
 
-#: common/wildcards_and_files_ext.cpp:301
+#: common/wildcards_and_files_ext.cpp:285
 msgid "PostScript files"
 msgstr "File PostScript"
 
-#: common/wildcards_and_files_ext.cpp:307
+#: common/wildcards_and_files_ext.cpp:291
 msgid "Report files"
 msgstr "File rapporti"
 
-#: common/wildcards_and_files_ext.cpp:313
+#: common/wildcards_and_files_ext.cpp:297
 msgid "Footprint place files"
 msgstr "File di posizionamento impronte"
 
-#: common/wildcards_and_files_ext.cpp:319
+#: common/wildcards_and_files_ext.cpp:303
 msgid "VRML and X3D files"
 msgstr "File VRML e X3D"
 
-#: common/wildcards_and_files_ext.cpp:325
+#: common/wildcards_and_files_ext.cpp:309
 msgid "IDFv3 footprint files"
 msgstr "File impronte IDFv3"
 
-#: common/wildcards_and_files_ext.cpp:331
+#: common/wildcards_and_files_ext.cpp:315
 msgid "Text files"
 msgstr "File di testo"
 
-#: common/wildcards_and_files_ext.cpp:337
+#: common/wildcards_and_files_ext.cpp:321
 msgid "Legacy footprint export files"
 msgstr "File di esportazione impronte obsoleti"
 
-#: common/wildcards_and_files_ext.cpp:343
+#: common/wildcards_and_files_ext.cpp:327
 msgid "Electronic rule check file"
 msgstr "File di controllo regole elettroniche"
 
-#: common/wildcards_and_files_ext.cpp:349
+#: common/wildcards_and_files_ext.cpp:333
 msgid "Spice library file"
 msgstr "File di libreria Spice"
 
-#: common/wildcards_and_files_ext.cpp:355
+#: common/wildcards_and_files_ext.cpp:339
 msgid "SPICE netlist file"
 msgstr "File netlist SPICE"
 
-#: common/wildcards_and_files_ext.cpp:361
+#: common/wildcards_and_files_ext.cpp:345
 msgid "CadStar netlist file"
 msgstr "File netlist CadStar"
 
-#: common/wildcards_and_files_ext.cpp:367
+#: common/wildcards_and_files_ext.cpp:351
 msgid "Symbol footprint association files"
 msgstr "File di associazione simboli-impronte"
 
-#: common/wildcards_and_files_ext.cpp:373
+#: common/wildcards_and_files_ext.cpp:357
 msgid "Zip file"
 msgstr "File zip"
 
-#: common/wildcards_and_files_ext.cpp:379
+#: common/wildcards_and_files_ext.cpp:363
 msgid "GenCAD 1.4 board files"
 msgstr "File di C.S. GenCAD 1.4"
 
-#: common/wildcards_and_files_ext.cpp:385
+#: common/wildcards_and_files_ext.cpp:369
 msgid "DXF Files"
 msgstr "File DXF"
 
-#: common/wildcards_and_files_ext.cpp:391
+#: common/wildcards_and_files_ext.cpp:375
 msgid "Gerber job file"
 msgstr "File di lavoro Gerber"
 
-#: common/wildcards_and_files_ext.cpp:397
+#: common/wildcards_and_files_ext.cpp:381
 msgid "Specctra DSN file"
 msgstr "File Specctra DSN"
 
-#: common/wildcards_and_files_ext.cpp:403
+#: common/wildcards_and_files_ext.cpp:387
 msgid "IPC-D-356 Test Files"
 msgstr "File di test IPC-D-356"
 
-#: common/wildcards_and_files_ext.cpp:409
+#: common/wildcards_and_files_ext.cpp:393
 msgid "Workbook file"
 msgstr "File libretto di lavoro"
 
-#: common/wildcards_and_files_ext.cpp:415
+#: common/wildcards_and_files_ext.cpp:399
 msgid "PNG file"
 msgstr "File PNG"
 
-#: common/wildcards_and_files_ext.cpp:421
+#: common/wildcards_and_files_ext.cpp:405
 msgid "Jpeg file"
 msgstr "File Jpeg"
 
@@ -4609,7 +4609,7 @@ msgstr "Misura interattivamente distanze tra punti"
 #: gerbview/tools/selection_tool.cpp:813
 #: pcbnew/menubar_footprint_editor.cpp:397 pcbnew/menubar_pcb_editor.cpp:247
 #: pcbnew/tool_footprint_editor.cpp:197 pcbnew/tool_pcb_editor.cpp:522
-#: pcbnew/tools/edit_tool.cpp:1315
+#: pcbnew/tools/edit_tool.cpp:1321
 msgid "Measure distance"
 msgstr "Misura la distanza"
 
@@ -5738,11 +5738,11 @@ msgstr "Stile linea:"
 msgid "Line Style"
 msgstr "Stile linea"
 
-#: eeschema/dialogs/dialog_edit_one_field.cpp:190
+#: eeschema/dialogs/dialog_edit_one_field.cpp:195
 msgid "Illegal reference field value!"
 msgstr "Valore campo riferimento errato!"
 
-#: eeschema/dialogs/dialog_edit_one_field.cpp:198
+#: eeschema/dialogs/dialog_edit_one_field.cpp:203
 msgid "Value may not be empty."
 msgstr "Il valore non può essere vuoto."
 
@@ -6419,14 +6419,14 @@ msgstr "Traccia pagina corrente "
 
 #: eeschema/dialogs/dialog_plot_schematic.cpp:155
 #: pcbnew/dialogs/dialog_export_svg.cpp:217
-#: pcbnew/dialogs/dialog_gendrill.cpp:309 pcbnew/dialogs/dialog_plot.cpp:324
+#: pcbnew/dialogs/dialog_gendrill.cpp:309 pcbnew/dialogs/dialog_plot.cpp:331
 #: pcbnew/exporters/gen_footprints_placefile.cpp:193
 #: pcbnew/exporters/gen_footprints_placefile.cpp:628
 msgid "Select Output Directory"
 msgstr "Seleziona percorso di uscita"
 
 #: eeschema/dialogs/dialog_plot_schematic.cpp:165
-#: pcbnew/dialogs/dialog_gendrill.cpp:319 pcbnew/dialogs/dialog_plot.cpp:334
+#: pcbnew/dialogs/dialog_gendrill.cpp:319 pcbnew/dialogs/dialog_plot.cpp:341
 #, c-format
 msgid ""
 "Do you want to use a path relative to\n"
@@ -6440,15 +6440,15 @@ msgstr ""
 #: pcbnew/dialogs/dialog_export_svg.cpp:224
 #: pcbnew/dialogs/dialog_export_svg.cpp:235
 #: pcbnew/dialogs/dialog_gendrill.cpp:321
-#: pcbnew/dialogs/dialog_gendrill.cpp:328 pcbnew/dialogs/dialog_plot.cpp:337
-#: pcbnew/dialogs/dialog_plot.cpp:344
+#: pcbnew/dialogs/dialog_gendrill.cpp:328 pcbnew/dialogs/dialog_plot.cpp:344
+#: pcbnew/dialogs/dialog_plot.cpp:351
 #: pcbnew/exporters/gen_footprints_placefile.cpp:201
 #: pcbnew/exporters/gen_footprints_placefile.cpp:210
 msgid "Plot Output Directory"
 msgstr "Cartella risultati tracciature"
 
 #: eeschema/dialogs/dialog_plot_schematic.cpp:174
-#: pcbnew/dialogs/dialog_gendrill.cpp:327 pcbnew/dialogs/dialog_plot.cpp:343
+#: pcbnew/dialogs/dialog_gendrill.cpp:327 pcbnew/dialogs/dialog_plot.cpp:350
 msgid "Cannot make path relative (target volume different from file volume)!"
 msgstr ""
 "Impossibile rendere il percorso relativo (volume di destinazione diverso da "
@@ -6506,7 +6506,7 @@ msgid "E"
 msgstr "E"
 
 #: eeschema/dialogs/dialog_plot_schematic.cpp:320
-#: pcbnew/dialogs/dialog_export_svg.cpp:256 pcbnew/dialogs/dialog_plot.cpp:735
+#: pcbnew/dialogs/dialog_export_svg.cpp:256 pcbnew/dialogs/dialog_plot.cpp:746
 #: pcbnew/exporters/gen_footprints_placefile.cpp:270
 #, c-format
 msgid "Could not write plot files to folder \"%s\"."
@@ -8038,12 +8038,12 @@ msgstr "Modelli di nome campo"
 msgid "Save Project File"
 msgstr "Salva file progetto"
 
-#: eeschema/eeschema_config.cpp:618 eeschema/libedit/libedit.cpp:61
+#: eeschema/eeschema_config.cpp:627 eeschema/libedit/libedit.cpp:61
 #: kicad/commandframe.cpp:76
 msgid "Symbol Editor"
 msgstr "Editor di simboli"
 
-#: eeschema/eeschema_config.cpp:656 eeschema/files-io.cpp:526
+#: eeschema/eeschema_config.cpp:665 eeschema/files-io.cpp:526
 #, c-format
 msgid "An error occurred loading the symbol library table \"%s\"."
 msgstr ""
@@ -8804,7 +8804,7 @@ msgstr "Rifà"
 
 #: eeschema/hotkeys.cpp:242 eeschema/widgets/symbol_tree_pane.cpp:88
 #: pcbnew/footprint_tree_pane.cpp:89 pcbnew/hotkeys.cpp:327
-#: pcbnew/tools/edit_tool.cpp:165 pcbnew/tools/edit_tool.cpp:979
+#: pcbnew/tools/edit_tool.cpp:165 pcbnew/tools/edit_tool.cpp:985
 msgid "Cut"
 msgstr "Taglia"
 
@@ -9424,7 +9424,7 @@ msgstr "Modifica opzioni arco"
 #: pcbnew/onrightclick.cpp:766 pcbnew/onrightclick.cpp:849
 #: pcbnew/onrightclick.cpp:906 pcbnew/onrightclick.cpp:952
 #: pcbnew/pcb_parser.cpp:597 pcbnew/tools/edit_tool.cpp:127
-#: pcbnew/tools/edit_tool.cpp:981
+#: pcbnew/tools/edit_tool.cpp:987
 msgid "Delete"
 msgstr "Cancella"
 
@@ -10565,7 +10565,7 @@ msgstr "Sposta %s"
 #: eeschema/onrightclick.cpp:390 eeschema/onrightclick.cpp:533
 #: eeschema/onrightclick.cpp:570 eeschema/onrightclick.cpp:605
 #: eeschema/onrightclick.cpp:795 pcbnew/onrightclick.cpp:738
-#: pcbnew/tools/edit_tool.cpp:600
+#: pcbnew/tools/edit_tool.cpp:606
 msgid "Drag"
 msgstr "Trascina"
 
@@ -11219,7 +11219,7 @@ msgstr ""
 msgid "Regular expression <b>symbol name</b> filter."
 msgstr "Filtro <b>nome simbolo</b> espressione regolare."
 
-#: eeschema/sch_plugin.cpp:162 pcbnew/plugin.cpp:145
+#: eeschema/sch_plugin.cpp:162 pcbnew/plugin.cpp:153
 msgid ""
 "Enable transaction logging. The mere presence of this option turns on the "
 "logging, no need to set a Value."
@@ -11227,11 +11227,11 @@ msgstr ""
 "Abilita il log delle transazioni. La mera presenza di quest'opzione abilita "
 "il logging, non è necessario impostare un valore."
 
-#: eeschema/sch_plugin.cpp:167 pcbnew/plugin.cpp:150
+#: eeschema/sch_plugin.cpp:167 pcbnew/plugin.cpp:158
 msgid "User name for <b>login</b> to some special library server."
 msgstr "Nome utente per il <b>login</b> a qualche speciale server di libreria."
 
-#: eeschema/sch_plugin.cpp:171 pcbnew/plugin.cpp:154
+#: eeschema/sch_plugin.cpp:171 pcbnew/plugin.cpp:162
 msgid "Password for <b>login</b> to some special library server."
 msgstr "Password per il <b>login</b> a qualche speciale server di libreria."
 
@@ -12509,7 +12509,7 @@ msgstr "<b>errore lettura file scompattato zip %s</b>\n"
 msgid "Open Zip File"
 msgstr "Apri file zip"
 
-#: gerbview/files.cpp:693 gerbview/job_file_reader.cpp:220
+#: gerbview/files.cpp:693 gerbview/job_file_reader.cpp:234
 #: pcbnew/dialogs/dialog_drc_base.cpp:120
 #: pcbnew/dialogs/dialog_footprint_wizard_list_base.cpp:91
 #: pcbnew/dialogs/dialog_gendrill_base.cpp:206
@@ -12544,7 +12544,7 @@ msgstr "Polarità"
 #: gerbview/gerber_draw_item.cpp:724 pcbnew/class_pcb_text.cpp:131
 #: pcbnew/class_pcb_text.cpp:133 pcbnew/class_text_mod.cpp:439
 #: pcbnew/footprint_editor_onclick.cpp:290 pcbnew/tools/edit_tool.cpp:123
-#: pcbnew/tools/edit_tool.cpp:841
+#: pcbnew/tools/edit_tool.cpp:847
 msgid "Mirror"
 msgstr "Speculare"
 
@@ -12779,11 +12779,11 @@ msgstr "Misura distanza (solo strumenti moderni)"
 msgid "Gerbview Hotkeys"
 msgstr "Tasti di Gerbview"
 
-#: gerbview/job_file_reader.cpp:148
+#: gerbview/job_file_reader.cpp:151
 msgid "This job file uses an outdated format. Please, recreate it."
 msgstr "Questo file di lavoro usa un formato obsoleto. Per favore ricrearlo."
 
-#: gerbview/job_file_reader.cpp:172
+#: gerbview/job_file_reader.cpp:186
 msgid "Open Gerber Job File"
 msgstr "Apri file di lavoro Gerber"
 
@@ -14767,7 +14767,7 @@ msgstr "Tracce strati interni:"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:521
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias.cpp:188
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:50
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:51
 msgid "Track Width"
 msgstr "Larghezza piste"
 
@@ -14908,7 +14908,7 @@ msgstr "Linea inglobata"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:622
 msgid "Twisted Pair"
-msgstr "Doppino intrecciato"
+msgstr "Doppino ritorto"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:624
 msgid "Transmission Line Type:"
@@ -16164,7 +16164,7 @@ msgstr "Piazzola"
 
 #: pcbnew/class_pad.cpp:772 pcbnew/dialogs/dialog_copper_zones_base.cpp:33
 #: pcbnew/dialogs/dialog_select_net_from_list.cpp:68
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:212
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:217
 msgid "Net"
 msgstr "Collegamento"
 
@@ -16552,7 +16552,7 @@ msgstr "Regole di progettazione"
 
 #: pcbnew/dialogs/dialog_board_setup.cpp:51
 #: pcbnew/dialogs/dialog_import_settings_base.cpp:57
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:23
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:24
 msgid "Net Classes"
 msgstr "Netclass"
 
@@ -16671,7 +16671,7 @@ msgstr ""
 "mostrati."
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:60
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:146
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:151
 msgid "Apply Filters"
 msgstr "Applica filtri"
 
@@ -17260,17 +17260,17 @@ msgid "Invalid filename: %s"
 msgstr "Nome file non valido: %s"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor.cpp:596
-#: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor.cpp:548
+#: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor.cpp:549
 msgid "Text items must have some content."
 msgstr "Gli elementi di testo devono avere del contenuto."
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor.cpp:741
-#: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor.cpp:663
+#: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor.cpp:664
 msgid "Modify module properties"
 msgstr "Modifica le proprietà del componente"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor.cpp:800
-#: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor.cpp:773
+#: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor.cpp:755
 msgid "Reference and value are mandatory."
 msgstr "Riferimento e valore sono obbligatori."
 
@@ -17579,11 +17579,11 @@ msgstr "Abilita comandi da tastiera spostamento e autoposizionamento"
 msgid "Disable hotkey move commands and Auto Placement"
 msgstr "Disabilita comandi da tastiera spostamento e autoposizionamento"
 
-#: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor.cpp:504
+#: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor.cpp:503
 msgid "Footprint must have a name."
 msgstr "L'impronta deve avere un nome."
 
-#: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor.cpp:506
+#: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor.cpp:508
 #, c-format
 msgid "Footprint name may not contain \"%s\"."
 msgstr "Il nome impronta non può contenere \"%s\"."
@@ -17937,7 +17937,7 @@ msgstr ""
 msgid "Exported \"%s\"."
 msgstr "Esportato \"%s\"."
 
-#: pcbnew/dialogs/dialog_export_svg.cpp:289 pcbnew/dialogs/dialog_plot.cpp:846
+#: pcbnew/dialogs/dialog_export_svg.cpp:289 pcbnew/dialogs/dialog_plot.cpp:857
 #: pcbnew/exporters/gen_footprints_placefile.cpp:346
 #, c-format
 msgid "Unable to create file \"%s\"."
@@ -18723,22 +18723,22 @@ msgid "Edit Text and Graphic Properties"
 msgstr "Modifica proprietà testo e grafiche"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias.cpp:189
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:51
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:52
 msgid "Via Size"
 msgstr "Dimensioni via"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias.cpp:190
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:52
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:53
 msgid "Via Drill"
 msgstr "Foro via"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias.cpp:191
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:53
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:54
 msgid "uVia Size"
 msgstr "Dimensioni microvia"
 
 #: pcbnew/dialogs/dialog_global_edit_tracks_and_vias.cpp:192
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:54
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:55
 msgid "uVia Drill"
 msgstr "Foro microvia"
 
@@ -19845,23 +19845,23 @@ msgstr "Traccia"
 msgid "Generate Drill Files..."
 msgstr "Genera file forature..."
 
-#: pcbnew/dialogs/dialog_plot.cpp:598
+#: pcbnew/dialogs/dialog_plot.cpp:609
 msgid "HPGL pen size constrained."
 msgstr "Dimensioni penna HPGL limitate."
 
-#: pcbnew/dialogs/dialog_plot.cpp:609
+#: pcbnew/dialogs/dialog_plot.cpp:620
 msgid "Default line width constrained."
 msgstr "Spessore predefinito della linea limitato."
 
-#: pcbnew/dialogs/dialog_plot.cpp:622
+#: pcbnew/dialogs/dialog_plot.cpp:633
 msgid "X scale constrained."
 msgstr "Scala X limitata."
 
-#: pcbnew/dialogs/dialog_plot.cpp:636
+#: pcbnew/dialogs/dialog_plot.cpp:647
 msgid "Y scale constrained."
 msgstr "Scala Y limitata."
 
-#: pcbnew/dialogs/dialog_plot.cpp:649
+#: pcbnew/dialogs/dialog_plot.cpp:660
 #, c-format
 msgid ""
 "Width correction constrained. The reasonable width correction value must be "
@@ -19871,11 +19871,11 @@ msgstr ""
 "larghezza deve essere compresa tra [%s; %s] (%s) per le attuali regole di "
 "progettazione."
 
-#: pcbnew/dialogs/dialog_plot.cpp:722
+#: pcbnew/dialogs/dialog_plot.cpp:733
 msgid "No layer selected, Nothing to plot"
 msgstr "Nessun strato selezionato, niente da tracciare"
 
-#: pcbnew/dialogs/dialog_plot.cpp:841
+#: pcbnew/dialogs/dialog_plot.cpp:852
 #, c-format
 msgid "Plot file \"%s\" created."
 msgstr "File tracciatura \"%s\" creato."
@@ -20555,7 +20555,7 @@ msgid "Pad Count"
 msgstr "Conteggio piazzole"
 
 #: pcbnew/dialogs/dialog_select_net_from_list_base.cpp:22
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:125
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:130
 msgid "Net name filter:"
 msgstr "Filtro nomi collegamenti:"
 
@@ -20874,7 +20874,7 @@ msgid "Default properties for new graphic items:"
 msgstr "Valori predefiniti per i nuovi elementi grafici:"
 
 #: pcbnew/dialogs/panel_modedit_defaults_base.cpp:136
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:70
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:71
 #: pcbnew/dialogs/panel_setup_text_and_graphics_base.cpp:66
 msgid "Net Class parameters"
 msgstr "Parametri del gruppo di collegamenti"
@@ -21859,106 +21859,106 @@ msgstr ""
 "Può essere superato dai valori locali di un'impronta o di una piazzola.\n"
 "La distanza finale è dato dalla somma di questo valore e quello di distanza."
 
-#: pcbnew/dialogs/panel_setup_netclasses.cpp:285
+#: pcbnew/dialogs/panel_setup_netclasses.cpp:293
 msgid "Netclass must have a name."
 msgstr "La netclass deve avere un nome."
 
-#: pcbnew/dialogs/panel_setup_netclasses.cpp:294
+#: pcbnew/dialogs/panel_setup_netclasses.cpp:302
 msgid "Netclass name already in use."
 msgstr "Nome netclass già in uso."
 
-#: pcbnew/dialogs/panel_setup_netclasses.cpp:349
+#: pcbnew/dialogs/panel_setup_netclasses.cpp:357
 msgid "The default net class is required."
 msgstr "Le netclass predefinita è necessaria."
 
-#: pcbnew/dialogs/panel_setup_netclasses.cpp:508
+#: pcbnew/dialogs/panel_setup_netclasses.cpp:527
 #: pcbnew/dialogs/panel_setup_tracks_and_vias.cpp:239
 #, c-format
 msgid "Track width less than minimum track width (%s)."
 msgstr "Larghezza pista minore della larghezza minima piste (%s)."
 
-#: pcbnew/dialogs/panel_setup_netclasses.cpp:516
+#: pcbnew/dialogs/panel_setup_netclasses.cpp:535
 #, c-format
 msgid "Differential pair width less than minimum track width (%s)."
 msgstr ""
 "Larghezza coppia differenziale minore della larghezza minima piste (%s)."
 
-#: pcbnew/dialogs/panel_setup_netclasses.cpp:525
+#: pcbnew/dialogs/panel_setup_netclasses.cpp:544
 #: pcbnew/dialogs/panel_setup_tracks_and_vias.cpp:256
 #, c-format
 msgid "Via diameter less than minimum via diameter (%s)."
 msgstr "Diametro via minore del diametro minimo via (%s)."
 
-#: pcbnew/dialogs/panel_setup_netclasses.cpp:533
+#: pcbnew/dialogs/panel_setup_netclasses.cpp:552
 #: pcbnew/dialogs/panel_setup_tracks_and_vias.cpp:282
 msgid "Via drill larger than via diameter."
 msgstr "Dimensione foro via maggiore del diametro via."
 
-#: pcbnew/dialogs/panel_setup_netclasses.cpp:540
+#: pcbnew/dialogs/panel_setup_netclasses.cpp:559
 #: pcbnew/dialogs/panel_setup_tracks_and_vias.cpp:273
 #, c-format
 msgid "Via drill less than minimum via drill (%s)."
 msgstr "Foro via minore del foro minimo via (%s)."
 
-#: pcbnew/dialogs/panel_setup_netclasses.cpp:549
+#: pcbnew/dialogs/panel_setup_netclasses.cpp:568
 #, c-format
 msgid "Microvia diameter less than minimum microvia diameter (%s)."
 msgstr "Diametro microvia minore del diametro minimo microvia (%s)."
 
-#: pcbnew/dialogs/panel_setup_netclasses.cpp:557
+#: pcbnew/dialogs/panel_setup_netclasses.cpp:576
 msgid "Microvia drill larger than microvia diameter."
 msgstr "Dimensione foro microvia maggiore del diametro microvia."
 
-#: pcbnew/dialogs/panel_setup_netclasses.cpp:564
+#: pcbnew/dialogs/panel_setup_netclasses.cpp:583
 #, c-format
 msgid "Microvia drill less than minimum microvia drill (%s)."
 msgstr "Foro microvia minore del foro minimo microvia (%s)."
 
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:49
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:50
 msgid "Clearance"
 msgstr "Distanza"
 
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:55
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:56
 msgid "dPair Width"
 msgstr "Larghezza cdiff"
 
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:56
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:57
 msgid "dPair Gap"
 msgstr "Spazio cdiff"
 
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:97
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:102
 msgid "Net Class Memberships"
 msgstr "Appartenenza netclass"
 
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:103
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:108
 msgid "Filter Nets"
 msgstr "Filtra collegamenti"
 
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:108
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:113
 msgid "Net class filter:"
 msgstr "Filtro netclass:"
 
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:140
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:145
 msgid "Show All Nets"
 msgstr "Mostra tutti i collegamenti"
 
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:156
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:161
 msgid "Assign Net Class"
 msgstr "Assegna netclass"
 
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:161
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:166
 msgid "New net class:"
 msgstr "Nuova netclass:"
 
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:178
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:183
 msgid "Assign To Listed Nets"
 msgstr "Assegna ai collegamenti elencati"
 
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:184
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:189
 msgid "Assign To Selected Nets"
 msgstr "Assegna ai collegamenti selezionati"
 
-#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:213
+#: pcbnew/dialogs/panel_setup_netclasses_base.cpp:218
 msgid "Net Class"
 msgstr "Netclass"
 
@@ -22550,12 +22550,12 @@ msgstr "Rapporto impronta"
 msgid "Create file %s\n"
 msgstr "Crea file %s\n"
 
-#: pcbnew/exporters/gerber_jobfile_writer.cpp:128
+#: pcbnew/exporters/gerber_jobfile_writer.cpp:148
 #, c-format
 msgid "Unable to create job file \"%s\""
 msgstr "Impossibile creare il file di lavoro \"%s\""
 
-#: pcbnew/exporters/gerber_jobfile_writer.cpp:134
+#: pcbnew/exporters/gerber_jobfile_writer.cpp:154
 #, c-format
 msgid "Create Gerber job file \"%s\""
 msgstr "Crea file di lavoro Gerber \"%s\""
@@ -22976,7 +22976,7 @@ msgid "Select Library Table"
 msgstr "Seleziona la tabella librerie"
 
 #: pcbnew/footprint_libraries_utils.cpp:609 pcbnew/gpcb_plugin.cpp:961
-#: pcbnew/kicad_plugin.cpp:2052 pcbnew/kicad_plugin.cpp:2133
+#: pcbnew/kicad_plugin.cpp:2068 pcbnew/kicad_plugin.cpp:2149
 #, c-format
 msgid "Library \"%s\" is read only"
 msgstr "La libreria \"%s\" è in sola lettura"
@@ -23276,22 +23276,22 @@ msgstr "token sconosciuto \"%s\""
 msgid "Element token contains %d parameters."
 msgstr "L'elemento token contiene i parameteri %d "
 
-#: pcbnew/gpcb_plugin.cpp:980 pcbnew/kicad_plugin.cpp:2177
+#: pcbnew/gpcb_plugin.cpp:980 pcbnew/kicad_plugin.cpp:2193
 #, c-format
 msgid "user does not have permission to delete directory \"%s\""
 msgstr "l'utente non ha i permessi per cancellare la cartella \"%s\""
 
-#: pcbnew/gpcb_plugin.cpp:988 pcbnew/kicad_plugin.cpp:2185
+#: pcbnew/gpcb_plugin.cpp:988 pcbnew/kicad_plugin.cpp:2201
 #, c-format
 msgid "library directory \"%s\" has unexpected sub-directories"
 msgstr "la cartella libreria \"%s\" ha sottocartelle inattese"
 
-#: pcbnew/gpcb_plugin.cpp:1007 pcbnew/kicad_plugin.cpp:2204
+#: pcbnew/gpcb_plugin.cpp:1007 pcbnew/kicad_plugin.cpp:2220
 #, c-format
 msgid "unexpected file \"%s\" was found in library path \"%s\""
 msgstr "file inatteso \"%s\" trovato nel percorso libreria \"%s\""
 
-#: pcbnew/gpcb_plugin.cpp:1025 pcbnew/kicad_plugin.cpp:2222
+#: pcbnew/gpcb_plugin.cpp:1025 pcbnew/kicad_plugin.cpp:2238
 #, c-format
 msgid "footprint library \"%s\" cannot be deleted"
 msgstr "la libreria impronte \"%s\" non può essere cancellata"
@@ -23703,7 +23703,7 @@ msgstr "Strato grafico:"
 msgid "Import scale:"
 msgstr "Scala importazione:"
 
-#: pcbnew/import_gfx/dialog_import_gfx_base.h:79
+#: pcbnew/import_gfx/dialog_import_gfx_base.h:77
 msgid "Import Vector Graphics File"
 msgstr "Importa file grafico vettoriale"
 
@@ -23782,7 +23782,7 @@ msgstr "tipo smusso vertici zona sconosciuto %d"
 msgid "this file does not contain a PCB"
 msgstr "questo file non contiene un circuito stampato"
 
-#: pcbnew/kicad_plugin.cpp:2040
+#: pcbnew/kicad_plugin.cpp:2056
 #, c-format
 msgid ""
 "Library \"%s\" does not exist.\n"
@@ -23791,23 +23791,23 @@ msgstr ""
 "La libreria \"%s\" non esiste.\n"
 "Vuoi crearla?"
 
-#: pcbnew/kicad_plugin.cpp:2044
+#: pcbnew/kicad_plugin.cpp:2060
 msgid "Library Not Found"
 msgstr "Libreria non trovata"
 
-#: pcbnew/kicad_plugin.cpp:2083
+#: pcbnew/kicad_plugin.cpp:2099
 #, c-format
 msgid "Footprint file name \"%s\" is not valid."
 msgstr "Il nome file impronta \"%s\" non è valido."
 
-#: pcbnew/kicad_plugin.cpp:2089
+#: pcbnew/kicad_plugin.cpp:2105
 #, c-format
 msgid "No write permissions to delete file \"%s\""
 msgstr ""
 "Non si dispone dei permessi di scrittura necessari per cancellare il file "
 "\"%s\""
 
-#: pcbnew/kicad_plugin.cpp:2152
+#: pcbnew/kicad_plugin.cpp:2168
 #, c-format
 msgid "cannot overwrite library path \"%s\""
 msgstr "impossibile sovrascrivere il percorso libreria \"%s\""
@@ -25090,7 +25090,7 @@ msgstr "Documentazione impronta"
 
 #: pcbnew/onrightclick.cpp:425 pcbnew/onrightclick.cpp:748
 #: pcbnew/onrightclick.cpp:942 pcbnew/tools/edit_tool.cpp:119
-#: pcbnew/tools/edit_tool.cpp:882
+#: pcbnew/tools/edit_tool.cpp:888
 msgid "Flip"
 msgstr "Capovolgi"
 
@@ -25798,16 +25798,16 @@ msgstr "Strati multipli"
 msgid "Your BOARD has a bad layer number for footprint %s"
 msgstr "La scheda ha un numero di strati errato per l'impronta %s "
 
-#: pcbnew/plugin.cpp:137
+#: pcbnew/plugin.cpp:145
 msgid "Enable <b>debug</b> logging for Footprint*() functions in this PLUGIN."
 msgstr ""
 "Abilita il log di <b>debug</b> per le funzioni Footprint*() in questo PLUGIN."
 
-#: pcbnew/plugin.cpp:141
+#: pcbnew/plugin.cpp:149
 msgid "Regular expression <b>footprint name</b> filter."
 msgstr "Filtro <b>nome impronta</b> espressione regolare."
 
-#: pcbnew/plugin.cpp:162
+#: pcbnew/plugin.cpp:170
 msgid ""
 "Enter the python module which implements the PLUGIN::Footprint*() functions."
 msgstr ""
@@ -26863,32 +26863,32 @@ msgstr "Taglia in contenuto selezionato sugli appunti"
 msgid "pcbnew.InteractiveSelection tool is not available"
 msgstr "strumento pcbnew.InteractiveSelection non disponibile"
 
-#: pcbnew/tools/edit_tool.cpp:639
+#: pcbnew/tools/edit_tool.cpp:645
 msgid "Edit track width/via size"
 msgstr "Larghezza piste/dimensioni via"
 
-#: pcbnew/tools/edit_tool.cpp:990
+#: pcbnew/tools/edit_tool.cpp:996
 msgid "Delete again to remove locked items"
 msgstr "Cancella nuovamente per eliminare gli elementi bloccati"
 
-#: pcbnew/tools/edit_tool.cpp:1074
+#: pcbnew/tools/edit_tool.cpp:1080
 msgid "Move exact"
 msgstr "Sposta esattamente"
 
-#: pcbnew/tools/edit_tool.cpp:1154
+#: pcbnew/tools/edit_tool.cpp:1160
 #, c-format
 msgid "Duplicated %d item(s)"
 msgstr "%d elementi duplicati"
 
-#: pcbnew/tools/edit_tool.cpp:1498
+#: pcbnew/tools/edit_tool.cpp:1504
 msgid "Select reference point for the copy..."
 msgstr "Selezionare il punto di riferimento per la copia..."
 
-#: pcbnew/tools/edit_tool.cpp:1503
+#: pcbnew/tools/edit_tool.cpp:1509
 msgid "Selection copied."
 msgstr "Selezione copiata."
 
-#: pcbnew/tools/edit_tool.cpp:1510
+#: pcbnew/tools/edit_tool.cpp:1516
 msgid "Copy cancelled."
 msgstr "Copia annullata."
 
@@ -27236,7 +27236,7 @@ msgstr "Aggiungi un vertice alla zona"
 msgid "Split segment"
 msgstr "Dividi segmento"
 
-#: pcbnew/tools/point_editor.cpp:1147
+#: pcbnew/tools/point_editor.cpp:1145
 msgid "Remove a zone/polygon corner"
 msgstr "Elimina zona/vertice poligono"
 
