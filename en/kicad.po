@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-08 21:33+0100\n"
+"POT-Creation-Date: 2019-07-23 15:24+0200\n"
 "PO-Revision-Date: 2018-07-15 17:07+0200\n"
 "Last-Translator: Simon Richter <Simon.Richter@hogyros.de>\n"
 "Language-Team: Simon Richter <Simon.Richter@hogyros.de>\n"
@@ -730,6 +730,9 @@ msgstr "mils"
 msgid "in"
 msgstr "in"
 
+msgid "%"
+msgstr "%"
+
 msgid "deg"
 msgstr "deg"
 
@@ -862,6 +865,12 @@ msgstr "If you don't save, all your changes will be permanently lost."
 msgid "Save"
 msgstr "Save"
 
+msgid "Discard Changes"
+msgstr "Discard Changes"
+
+msgid "Apply to all"
+msgstr "Apply to all"
+
 msgid "Your current changes will be permanently lost."
 msgstr "Your current changes will be permanently lost."
 
@@ -933,6 +942,10 @@ msgstr "Symbols by"
 msgid "Footprints by"
 msgstr "Footprints by"
 
+#, c-format
+msgid "About %s"
+msgstr "About %s"
+
 msgid "Information"
 msgstr "Information"
 
@@ -978,14 +991,17 @@ msgstr "Build Version Info"
 msgid "Lib Version Info"
 msgstr "Lib Version Info"
 
-msgid "Show Version Info"
-msgstr "Show Version Info"
+msgid "&Show Version Info"
+msgstr "&Show Version Info"
 
-msgid "Copy Version Info"
-msgstr "Copy Version Info"
+msgid "&Copy Version Info"
+msgstr "&Copy Version Info"
 
 msgid "Copy KiCad version info to the clipboard"
 msgstr "Copy KiCad version info to the clipboard"
+
+msgid "&OK"
+msgstr "&OK"
 
 msgid "About"
 msgstr "About"
@@ -1058,6 +1074,10 @@ msgstr ""
 "this behavior, either rename any conflicting entries or remove\n"
 "the external environment variable(s) from your system."
 
+#, c-format
+msgid "The name %s is reserved, and cannot be used here"
+msgstr "The name %s is reserved, and cannot be used here"
+
 msgid "File Browser..."
 msgstr "File Browser…"
 
@@ -1103,15 +1123,6 @@ msgstr "3D Search Paths"
 
 msgid "Alias"
 msgstr "Alias"
-
-msgid "Save changes?"
-msgstr "Save changes?"
-
-msgid "Apply to all"
-msgstr "Apply to all"
-
-msgid "Discard Changes"
-msgstr "Discard Changes"
 
 #, c-format
 msgid "Configure Global %s Library Table"
@@ -1446,6 +1457,36 @@ msgstr "Page Setup…"
 msgid "MyLabel"
 msgstr "MyLabel"
 
+msgid ""
+"Set the scale for the canvas.\n"
+"\n"
+"On high-DPI displays on some platforms, KiCad cannot determine the scaling "
+"factor. In this case you may need to set this to a value to match your "
+"system's DPI scaling. 2.0 is a common value. \n"
+"\n"
+"If this does not match the system DPI scaling, the canvas will not match the "
+"window size and cursor position."
+msgstr ""
+"Set the scale for the canvas.\n"
+"\n"
+"On high-DPI displays on some platforms, KiCad cannot determine the scaling "
+"factor. In this case you may need to set this to a value to match your "
+"system's DPI scaling. 2.0 is a common value. \n"
+"\n"
+"If this does not match the system DPI scaling, the canvas will not match the "
+"window size and cursor position."
+
+msgid ""
+"Use an automatic value for the canvas scale.\n"
+"\n"
+"On some platforms, the automatic value is incorrect and should be set "
+"manually."
+msgstr ""
+"Use an automatic value for the canvas scale.\n"
+"\n"
+"On some platforms, the automatic value is incorrect and should be set "
+"manually."
+
 msgid "Executable files ("
 msgstr "Executable files ("
 
@@ -1516,11 +1557,11 @@ msgstr "User Interface"
 msgid "Icon scale:"
 msgstr "Icon scale:"
 
-msgid "%"
-msgstr "%"
-
 msgid "Automatic"
 msgstr "Automatic"
+
+msgid "Canvas scale:"
+msgstr "Canvas scale:"
 
 msgid "Show icons in menus"
 msgstr "Show icons in menus"
@@ -1554,6 +1595,9 @@ msgstr ""
 "When drawing a track or moving an item, pan when approaching the edge of the "
 "display."
 
+msgid "Hotkey errors detected"
+msgstr "Hotkey errors detected"
+
 msgid "Type filter text"
 msgstr "Type filter text"
 
@@ -1582,6 +1626,13 @@ msgstr "Export…"
 
 msgid "Export these hotkey definitions to an external file"
 msgstr "Export these hotkey definitions to an external file"
+
+msgid ""
+"The imported file contains invalid hotkeys. Please correct the errors before "
+"continuing."
+msgstr ""
+"The imported file contains invalid hotkeys. Please correct the errors before "
+"continuing."
 
 msgid "Error: "
 msgstr "Error: "
@@ -1656,6 +1707,14 @@ msgstr "Un-terminated delimited string"
 
 msgid "String delimiter must be a single character of ', \", or $"
 msgstr "String delimiter must be a single character of ', \", or $"
+
+#, c-format
+msgid "Invalid size %lld: too large"
+msgstr "Invalid size %lld: too large"
+
+#, c-format
+msgid "Invalid Arc with radius %f and angle %f"
+msgstr "Invalid Arc with radius %f and angle %f"
 
 #, c-format
 msgid "File \"%s\" was not found."
@@ -1930,6 +1989,19 @@ msgstr "Select All\tCTRL+A"
 msgid "Select all cells"
 msgstr "Select all cells"
 
+msgid "Hotkeys not checked"
+msgstr "Hotkeys not checked"
+
+msgid "A hotkey cannot contain the shift key and a symbol key."
+msgstr "A hotkey cannot contain the shift key and a symbol key."
+
+#, c-format
+msgid "Duplicate of hotkey for \"%s\""
+msgstr "Duplicate of hotkey for “%s”"
+
+msgid "Hotkey is valid"
+msgstr "Hotkey is valid"
+
 msgid "Read Hotkey Configuration File:"
 msgstr "Read Hotkey Configuration File:"
 
@@ -2194,6 +2266,23 @@ msgstr "Toggle display of the cursor, even when not in an interactive tool"
 msgid "Zoom: %.2f"
 msgstr "Zoom: %.2f"
 
+#, c-format
+msgid "Incorrect value: %s"
+msgstr "Incorrect value: %s"
+
+msgid "Entry contains trailing white space."
+msgstr "Entry contains trailing white space."
+
+msgid "Entry contains leading white space."
+msgstr "Entry contains leading white space."
+
+#, c-format
+msgid "\"%s\" is not a valid library identifier format."
+msgstr "“%s” is not a valid library identifier format."
+
+msgid "Library Identifier Validation Error"
+msgstr "Library Identifier Validation Error"
+
 msgid "Mirroring for Y axis is not supported yet"
 msgstr "Mirroring for Y axis is not supported yet"
 
@@ -2245,8 +2334,8 @@ msgstr "Small crosshair"
 msgid "Full window crosshair"
 msgstr "Full window crosshair"
 
-msgid "Cursor shape:"
-msgstr "Cursor shape:"
+msgid "Cursor Shape:"
+msgstr "Cursor Shape:"
 
 msgid "Cursor shape for drawing, placement and movement tools"
 msgstr "Cursor shape for drawing, placement and movement tools"
@@ -2542,21 +2631,41 @@ msgstr "Filtered Footprints"
 msgid "Apply, Save Schematic && Continue"
 msgstr "Apply, Save Schematic && Continue"
 
-msgid ""
-"Symbol to Footprint links have been modified.\n"
-"Save before exit?"
-msgstr ""
-"Symbol to Footprint links have been modified.\n"
-"Save before exit?"
+msgid "Symbol to Footprint links have been modified. Save before exit?"
+msgstr "Symbol to Footprint links have been modified. Save before exit?"
 
-msgid "Delete selections"
-msgstr "Delete selections"
+msgid "Delete all footprint assocations?"
+msgstr "Delete all footprint assocations?"
 
 msgid "View Footprint"
 msgstr "View Footprint"
 
 msgid "Show the assigned footprint in the footprint viewer"
 msgstr "Show the assigned footprint in the footprint viewer"
+
+msgid "Cut Footprint Association"
+msgstr "Cut Footprint Association"
+
+msgid "Cut the assigned footprint"
+msgstr "Cut the assigned footprint"
+
+msgid "Copy Footprint Association"
+msgstr "Copy Footprint Association"
+
+msgid "Copy the assigned footprint"
+msgstr "Copy the assigned footprint"
+
+msgid "Paste Footprint Association"
+msgstr "Paste Footprint Association"
+
+msgid "Paste a footprint assignment"
+msgstr "Paste a footprint assignment"
+
+msgid "Delete Footprint Association"
+msgstr "Delete Footprint Association"
+
+msgid "Delete the assigned footprint"
+msgstr "Delete the assigned footprint"
 
 msgid "Show the current footprint in the footprint viewer"
 msgstr "Show the current footprint in the footprint viewer"
@@ -2583,6 +2692,10 @@ msgstr "Filtered by %s"
 #, c-format
 msgid "Description: %s;  Key words: %s"
 msgstr "Description: %s;  Key words: %s"
+
+#, c-format
+msgid "Library location: %s"
+msgstr "Library location: %s"
 
 msgid ""
 "No PCB footprint libraries are listed in the current footprint library table."
@@ -2850,6 +2963,9 @@ msgstr "Perform automatic footprint association"
 
 msgid "Delete all footprint associations"
 msgstr "Delete all footprint associations"
+
+msgid "Footprint Filters:"
+msgstr "Footprint Filters:"
 
 msgid "Filter footprint list by schematic symbol keywords"
 msgstr "Filter footprint list by schematic symbol keywords"
@@ -3212,6 +3328,9 @@ msgstr "Delete alternate body style (DeMorgan) draw items from symbol?"
 msgid "The first %d fields are mandatory."
 msgstr "The first %d fields are mandatory."
 
+msgid "Alias can not have same name as symbol."
+msgstr "Alias can not have same name as symbol."
+
 #, c-format
 msgid "Alias \"%s\" already exists."
 msgstr "Alias “%s” already exists."
@@ -3285,8 +3404,16 @@ msgstr ""
 msgid "Define as power symbol"
 msgstr "Define as power symbol"
 
-msgid "Check this option when the symbol is a power symbol"
-msgstr "Check this option when the symbol is a power symbol"
+msgid ""
+"Setting this option makes the symbol in question appear in the\n"
+"\"add power port\" dialog.  It will lock the value text to protect it\n"
+"from editing in Eeschema.  The symbol will not be included in\n"
+"the BOM and cannot be assigned a footprint."
+msgstr ""
+"Setting this option makes the symbol in question appear in the\n"
+"“add power port” dialog.  It will lock the value text to protect it\n"
+"from editing in Eeschema.  The symbol will not be included in\n"
+"the BOM and cannot be assigned a footprint."
 
 msgid "Number of Units:"
 msgstr "Number of Units:"
@@ -4401,6 +4528,9 @@ msgstr "You need to select DC source (sweep 1)"
 msgid "You need to select DC source (sweep 2)"
 msgstr "You need to select DC source (sweep 2)"
 
+msgid "Source 1 and Source 2 must be different"
+msgstr "Source 1 and Source 2 must be different"
+
 msgid "Decade"
 msgstr "Decade"
 
@@ -4930,8 +5060,8 @@ msgstr "Dimensions"
 msgid "&Bus thickness:"
 msgstr "&Bus thickness:"
 
-msgid "&Line thickness:"
-msgstr "&Line thickness:"
+msgid "&Wire thickness:"
+msgstr "&Wire thickness:"
 
 msgid "Junction size:"
 msgstr "Junction size:"
@@ -5055,6 +5185,16 @@ msgstr "Skip"
 
 msgid "Add Anyway"
 msgstr "Add Anyway"
+
+msgid ""
+"Modifications have been made to one or more symbol libraries.  Changes must "
+"be saved or discarded before the symbol library table can be modified."
+msgstr ""
+"Modifications have been made to one or more symbol libraries.  Changes must "
+"be saved or discarded before the symbol library table can be modified."
+
+msgid "Save Changes"
+msgstr "Save Changes"
 
 msgid "Symbol Libraries"
 msgstr "Symbol Libraries"
@@ -6827,9 +6967,6 @@ msgstr "Manage Symbol Libraries…"
 msgid "Edit the global and project symbol library lists"
 msgstr "Edit the global and project symbol library lists"
 
-msgid "Preferences..."
-msgstr "Preferences…"
-
 msgid "&Save Project File..."
 msgstr "&Save Project File…"
 
@@ -7237,6 +7374,14 @@ msgstr "Symbol %s, %s"
 #, c-format
 msgid "Unable to read file \"%s\""
 msgstr "Unable to read file “%s”"
+
+#, c-format
+msgid ""
+"Error parsing Eagle file.  Could not find \"%s\" instance but it is "
+"referenced in the schematic."
+msgstr ""
+"Error parsing Eagle file.  Could not find “%s” instance but it is "
+"referenced in the schematic."
 
 #, c-format
 msgid "Could not find %s in the imported library"
@@ -7830,8 +7975,8 @@ msgstr "Gain"
 msgid "Phase"
 msgstr "Phase"
 
-msgid "Voltage (sweeped)"
-msgstr "Voltage (sweeped)"
+msgid "Voltage (swept)"
+msgstr "Voltage (swept)"
 
 msgid "Voltage (measured)"
 msgstr "Voltage (measured)"
@@ -8229,12 +8374,12 @@ msgstr "No file loaded on the active layer %d"
 msgid "Visibles"
 msgstr "Visibles"
 
-msgid "No room to load file"
-msgstr "No room to load file"
-
 #, c-format
 msgid "File %s not found"
 msgstr "File %s not found"
+
+msgid "No room to load file"
+msgstr "No room to load file"
 
 msgid "Error reading EXCELLON drill file"
 msgstr "Error reading EXCELLON drill file"
@@ -8326,6 +8471,9 @@ msgstr "Bottom Pad Master (*.GPB)|*.GPB;*.gpb|"
 
 msgid "Open Gerber File(s)"
 msgstr "Open Gerber File(s)"
+
+msgid "File not found:"
+msgstr "File not found:"
 
 msgid "Loading Gerber files..."
 msgstr "Loading Gerber files…"
@@ -8915,6 +9063,9 @@ msgstr "Highlight"
 
 msgid "Clarify selection"
 msgstr "Clarify selection"
+
+msgid "Hotkey never verified"
+msgstr "Hotkey never verified"
 
 msgid "This file is already open."
 msgstr "This file is already open."
@@ -11654,6 +11805,20 @@ msgstr ""
 "If unselected, only the first DRC violation will be reported for each track "
 "connection."
 
+msgid "Test tracks against filled copper areas (very slow)"
+msgstr "Test tracks against filled copper areas (very slow)"
+
+msgid ""
+"If selected, tracks will be tested against copper zones. \n"
+"If copper zones are up to date, this test should be not needed.\n"
+"\n"
+"This test can be *very slow* for complicated designs."
+msgstr ""
+"If selected, tracks will be tested against copper zones. \n"
+"If copper zones are up to date, this test should be not needed.\n"
+"\n"
+"This test can be *very slow* for complicated designs."
+
 msgid "Create report file:"
 msgstr "Create report file:"
 
@@ -12932,6 +13097,9 @@ msgstr "Layers setup"
 msgid "Text && Graphics default properties"
 msgstr "Text && Graphics default properties"
 
+msgid "Predefined Track and Via dimensions"
+msgstr "Predefined Track and Via dimensions"
+
 msgid "Solder Mask/Paste defaults"
 msgstr "Solder Mask/Paste defaults"
 
@@ -12991,6 +13159,13 @@ msgstr "Move X:"
 
 msgid "Move Y:"
 msgstr "Move Y:"
+
+msgid ""
+"Invalid movement values.  Movement would place selection outside of the "
+"maximum board area."
+msgstr ""
+"Invalid movement values.  Movement would place selection outside of the "
+"maximum board area."
 
 msgid "Rotate around center of selection"
 msgstr "Rotate around center of selection"
@@ -13793,21 +13968,11 @@ msgstr "Force A4 output"
 msgid "DXF Options"
 msgstr "DXF Options"
 
-msgid "Plot all layers in outline (polygon) mode"
-msgstr "Plot all layers in outline (polygon) mode"
+msgid "Plot graphic items using their contours"
+msgstr "Plot graphic items using their contours"
 
-msgid ""
-"DXF only:\n"
-"Check to plot all layers in polygon mode.\n"
-"Uncheck to plot in sketch mode layers that don't support polygons (*.SilkS, "
-"*_User, Edge.Cuts, Margin, *.CrtYd, *.Fab)\n"
-"and plot in polygon mode other layers (*.Cu, *.Adhes, *.Paste, *.Mask)"
-msgstr ""
-"DXF only:\n"
-"Check to plot all layers in polygon mode.\n"
-"Uncheck to plot in sketch mode layers that don't support polygons (*.SilkS, "
-"*_User, Edge.Cuts, Margin, *.CrtYd, *.Fab)\n"
-"and plot in polygon mode other layers (*.Cu, *.Adhes, *.Paste, *.Mask)"
+msgid "Uncheck to plot graphic items using their center lines"
+msgstr "Uncheck to plot graphic items using their center lines"
 
 msgid "Use Pcbnew font to plot texts"
 msgstr "Use Pcbnew font to plot texts"
@@ -13818,6 +13983,12 @@ msgid ""
 msgstr ""
 "Check to use Pcbnew stroke font\n"
 "Uncheck to plot oneline ASCII texts as editable text (using DXF font)"
+
+msgid "Export units:"
+msgstr "Export units:"
+
+msgid "The units to use for the exported DXF file"
+msgstr "The units to use for the exported DXF file"
 
 msgid "Run DRC..."
 msgstr "Run DRC…"
@@ -14225,10 +14396,10 @@ msgstr ""
 
 #, c-format
 msgid ""
-"This will change the net assigned to %d connected pads to %s.\n"
+"This will change the net assigned to %lu connected pads to %s.\n"
 "Do you wish to continue?"
 msgstr ""
-"This will change the net assigned to %d connected pads to %s.\n"
+"This will change the net assigned to %lu connected pads to %s.\n"
 "Do you wish to continue?"
 
 msgid "Continue"
@@ -16307,20 +16478,26 @@ msgstr "Insert Corner (Modern Toolset only)"
 msgid "Board Editor"
 msgstr "Board Editor"
 
+msgid "All supported formats|"
+msgstr "All supported formats|"
+
 msgid "Open File"
 msgstr "Open File"
 
-msgid "Error: No DXF filename!"
-msgstr "Error: No DXF filename!"
+msgid "No file selected!"
+msgstr "No file selected!"
 
-msgid "Please, select a valid layer"
-msgstr "Please, select a valid layer"
+msgid "Please select a valid layer."
+msgstr "Please select a valid layer."
 
-msgid "Not Handled Items"
-msgstr "Not Handled Items"
+msgid "Items Not Handled"
+msgstr "Items Not Handled"
 
-msgid "There is no plugin to handle this file type"
-msgstr "There is no plugin to handle this file type"
+msgid "There is no plugin to handle this file type."
+msgstr "There is no plugin to handle this file type."
+
+msgid "No graphic items found in file to import."
+msgstr "No graphic items found in file to import."
 
 msgid "No graphic items found in file to import"
 msgstr "No graphic items found in file to import"
@@ -16355,8 +16532,8 @@ msgstr "Graphic layer:"
 msgid "Import scale:"
 msgstr "Import scale:"
 
-msgid "Import vector graphics file"
-msgstr "Import vector graphics file"
+msgid "Import Vector Graphics File"
+msgstr "Import Vector Graphics File"
 
 msgid ""
 "Current Board will be lost and this operation cannot be undone. Continue ?"
@@ -16580,12 +16757,11 @@ msgstr "Import Footprint from &KiCad File…"
 msgid "Import a footprint from an existing footprint file"
 msgstr "Import a footprint from an existing footprint file"
 
-msgid "Import Outlines from &DXF or SVG File..."
-msgstr "Import Outlines from &DXF or SVG File…"
+msgid "Import Outlines from &DXF File..."
+msgstr "Import Outlines from &DXF File…"
 
-msgid "Import 2D Drawing DXF or SVG file to Footprint Editor on Drawings layer"
-msgstr ""
-"Import 2D Drawing DXF or SVG file to Footprint Editor on Drawings layer"
+msgid "Import 2D Drawing to Footprint Editor on Drawings layer"
+msgstr "Import 2D Drawing to Footprint Editor on Drawings layer"
 
 msgid "&Export Footprint..."
 msgstr "&Export Footprint…"
@@ -16746,6 +16922,9 @@ msgstr "Open the Pcbnew Manual"
 msgid "Ro&ute"
 msgstr "Ro&ute"
 
+msgid "Modern Toolset (Fallbac&k)"
+msgstr "Modern Toolset (Fallbac&k)"
+
 msgid "&Single Track"
 msgstr "&Single Track"
 
@@ -16770,8 +16949,8 @@ msgstr "Tune Differential Pair &Length"
 msgid "Tune length of differential pair"
 msgstr "Tune length of differential pair"
 
-msgid "Tune Differential Pair &Skew/Phase"
-msgstr "Tune Differential Pair &Skew/Phase"
+msgid "Tune Differential Pair S&kew/Phase"
+msgstr "Tune Differential Pair S&kew/Phase"
 
 msgid "Tune skew/phase of a differential pair"
 msgstr "Tune skew/phase of a differential pair"
@@ -16836,23 +17015,23 @@ msgstr "&Dimension"
 msgid "La&yer Alignment Target"
 msgstr "La&yer Alignment Target"
 
-msgid "Drill and &Place Offset"
-msgstr "Drill and &Place Offset"
+msgid "Dr&ill and Place Offset"
+msgstr "Dr&ill and Place Offset"
 
 msgid "Place origin point for drill and place files"
 msgstr "Place origin point for drill and place files"
 
-msgid "&Autoplace off-board components"
-msgstr "&Autoplace off-board components"
+msgid "A&utomatically Place Off-Board Footprints"
+msgstr "A&utomatically Place Off-Board Footprints"
 
-msgid "&Autoplace selected components"
-msgstr "&Autoplace selected components"
+msgid "Automatically Place &Selected Components"
+msgstr "Automatically Place &Selected Components"
 
-msgid "&Auto-place"
-msgstr "&Auto-place"
+msgid "Place Footprints Au&tomatically"
+msgstr "Place Footprints Au&tomatically"
 
-msgid "Automatic component placement"
-msgstr "Automatic component placement"
+msgid "Automatically place all footprints"
+msgstr "Automatically place all footprints"
 
 msgid "Load &Netlist..."
 msgstr "Load &Netlist…"
@@ -16860,11 +17039,14 @@ msgstr "Load &Netlist…"
 msgid "Read netlist and update board connectivity"
 msgstr "Read netlist and update board connectivity"
 
+msgid "Update &PCB from Schematic..."
+msgstr "Update &PCB from Schematic…"
+
 msgid "Update PCB design with current schematic (forward annotation)"
 msgstr "Update PCB design with current schematic (forward annotation)"
 
-msgid "Update Footprints from Library..."
-msgstr "Update Footprints from Library…"
+msgid "Update &Footprints from Library..."
+msgstr "Update &Footprints from Library…"
 
 msgid "Update footprints to include any changes from the library"
 msgstr "Update footprints to include any changes from the library"
@@ -16896,6 +17078,9 @@ msgstr "Reload all python plugins and refresh plugin menus"
 msgid "Display current hotkeys list and corresponding commands"
 msgstr "Display current hotkeys list and corresponding commands"
 
+msgid "Cop&y"
+msgstr "Cop&y"
+
 msgid "Delete items"
 msgstr "Delete items"
 
@@ -16905,8 +17090,8 @@ msgstr "Edit &Track && Via Properties…"
 msgid "Edit Text && &Graphic Properties..."
 msgstr "Edit Text && &Graphic Properties…"
 
-msgid "Change &Footprints..."
-msgstr "Change &Footprints…"
+msgid "C&hange Footprints..."
+msgstr "C&hange Footprints…"
 
 msgid "Assign different footprints from the library"
 msgstr "Assign different footprints from the library"
@@ -16917,26 +17102,26 @@ msgstr "&Swap Layers…"
 msgid "Move tracks or drawings from a layer to another layer"
 msgstr "Move tracks or drawings from a layer to another layer"
 
-msgid "Fill &All Zones"
-msgstr "Fill &All Zones"
+msgid "Fill All &Zones"
+msgstr "Fill All &Zones"
 
 msgid "Fill all zones on the board"
 msgstr "Fill all zones on the board"
 
-msgid "&Unfill All Zones"
-msgstr "&Unfill All Zones"
+msgid "U&nfill All Zones"
+msgstr "U&nfill All Zones"
 
 msgid "Remove fill from all zones on the board"
 msgstr "Remove fill from all zones on the board"
 
-msgid "&Global Deletions..."
-msgstr "&Global Deletions…"
+msgid "Glo&bal Deletions..."
+msgstr "Glo&bal Deletions…"
 
 msgid "Delete tracks, footprints and graphic items from board"
 msgstr "Delete tracks, footprints and graphic items from board"
 
-msgid "&Cleanup Tracks and Vias..."
-msgstr "&Cleanup Tracks and Vias…"
+msgid "C&leanup Tracks and Vias..."
+msgstr "C&leanup Tracks and Vias…"
 
 msgid "Clean stubs, vias, delete break points or unconnected tracks"
 msgstr "Clean stubs, vias, delete break points or unconnected tracks"
@@ -19166,92 +19351,3 @@ msgstr "Refill %d Zones"
 
 msgid "Checking Zones"
 msgstr "Checking Zones"
-
-#~ msgid "\""
-#~ msgstr "″"
-
-#~ msgid ""
-#~ "If  some components are orphan (the linked symbol is found nowhere),\n"
-#~ "try to find a candidate having the same name in one of loaded symbol "
-#~ "libraries"
-#~ msgstr ""
-#~ "If  some components are orphan (the linked symbol is found nowhere),\n"
-#~ "try to find a candidate having the same name in one of loaded symbol "
-#~ "libraries"
-
-#~ msgid "Symbol &name:"
-#~ msgstr "Symbol &name:"
-
-#~ msgid ""
-#~ "Default pad connection type to zone.\n"
-#~ "This setting can be overridden by local  pad settings"
-#~ msgstr ""
-#~ "Default pad connection type to zone.\n"
-#~ "This setting can be overridden by local  pad settings"
-
-#~ msgid "Clearance between pads in the same net and filled areas."
-#~ msgstr "Clearance between pads in the same net and filled areas."
-
-#~ msgid ""
-#~ "This is the local clearance between pads and the solder mask\n"
-#~ "for this footprint\n"
-#~ "This value can be superseded by a pad local value.\n"
-#~ "If 0, the global value is used"
-#~ msgstr ""
-#~ "This is the local clearance between pads and the solder mask\n"
-#~ "for this footprint\n"
-#~ "This value can be superseded by a pad local value.\n"
-#~ "If 0, the global value is used"
-
-#~ msgid ""
-#~ "This is the local clearance between pads and the solder paste\n"
-#~ "for this footprint.\n"
-#~ "This value can be superseded by a pad local values.\n"
-#~ "The final clearance value is the sum of this value and the clearance "
-#~ "value ratio\n"
-#~ "A negative value means a smaller mask size than pad size"
-#~ msgstr ""
-#~ "This is the local clearance between pads and the solder paste\n"
-#~ "for this footprint.\n"
-#~ "This value can be superseded by a pad local values.\n"
-#~ "The final clearance value is the sum of this value and the clearance "
-#~ "value ratio\n"
-#~ "A negative value means a smaller mask size than pad size"
-
-#~ msgid ""
-#~ "This is the local clearance ratio in per cent between pads and the solder "
-#~ "paste\n"
-#~ "for this footprint.\n"
-#~ "A value of 10 means the clearance value is 10 per cent of the pad size\n"
-#~ "This value can be superseded by a pad local value.\n"
-#~ "The final clearance value is the sum of this value and the clearance "
-#~ "value\n"
-#~ "A negative value means a smaller mask size than pad size."
-#~ msgstr ""
-#~ "This is the local clearance ratio in per cent between pads and the solder "
-#~ "paste\n"
-#~ "for this footprint.\n"
-#~ "A value of 10 means the clearance value is 10 per cent of the pad size\n"
-#~ "This value can be superseded by a pad local value.\n"
-#~ "The final clearance value is the sum of this value and the clearance "
-#~ "value\n"
-#~ "A negative value means a smaller mask size than pad size."
-
-#~ msgid ""
-#~ "This is the global clearance ratio in per cent between pads and the "
-#~ "solder paste\n"
-#~ "A value of 10 means the clearance value is 10 per cent of the pad size\n"
-#~ "This value can be superseded by local values for a footprint or a pad.\n"
-#~ "The final clearance value is the sum of this value and the clearance value"
-#~ msgstr ""
-#~ "This is the global clearance ratio in per cent between pads and the "
-#~ "solder paste\n"
-#~ "A value of 10 means the clearance value is 10 per cent of the pad size\n"
-#~ "This value can be superseded by local values for a footprint or a pad.\n"
-#~ "The final clearance value is the sum of this value and the clearance value"
-
-#~ msgid "No pad for this footprint"
-#~ msgstr "No pad for this footprint"
-
-#~ msgid "Only one pad for this footprint"
-#~ msgstr "Only one pad for this footprint"
