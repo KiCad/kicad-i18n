@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: KiCad_zh_CN_v5.1.3.003\n"
+"Project-Id-Version: KiCad_zh_CN_v5.1.3.004\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-16 19:57+0800\n"
-"PO-Revision-Date: 2019-07-16 19:57+0800\n"
+"POT-Creation-Date: 2019-07-25 15:34+0800\n"
+"PO-Revision-Date: 2019-07-25 16:06+0800\n"
 "Last-Translator: taotieren <admin@taotieren.com>\n"
 "Language-Team: kicad-cn\n"
 "Language: zh_CN\n"
@@ -1493,7 +1493,7 @@ msgstr "完整的 KiCad EDA 套件发布于"
 
 #: common/dialog_about/AboutDialog_main.cpp:187
 msgid "GNU Affero General Public License (AGPL) version 3 or any later version"
-msgstr "GNU Affero 通用公共许可证 (AGPL) 第3版或更高版本"
+msgstr "GNU Affero 通用公共许可证 (AGPL) 第 3 版或更高版本"
 
 #: common/dialog_about/AboutDialog_main.cpp:379
 msgid "Others"
@@ -1880,7 +1880,7 @@ msgstr "此比例的图像尺寸太小 (%.2f mm 或 %.1f mil)"
 #, c-format
 msgid ""
 "This scale gives a very large image size (%.1f mm or %.2f in). Are you sure?"
-msgstr "此比例的图像尺寸非常大(%.1f mm 或 %.2f in)。你确定吗？"
+msgstr "此比例的图像尺寸非常大 (%.1f mm 或 %.2f in)。你确定吗？"
 
 #: common/dialogs/dialog_image_editor_base.cpp:33 eeschema/hotkeys.cpp:158
 msgid "Mirror X"
@@ -2141,7 +2141,7 @@ msgstr "<<<"
 #: common/dialogs/dialog_page_settings_base.cpp:311
 #: common/dialogs/dialog_page_settings_base.cpp:335
 msgid "Export to other sheets"
-msgstr "导出到其他图页"
+msgstr "导出到其他图框"
 
 #: common/dialogs/dialog_page_settings_base.cpp:179
 msgid "Revision"
@@ -2220,12 +2220,12 @@ msgid "Close"
 msgstr "关闭"
 
 #: common/dialogs/dialog_print_generic.cpp:123
-#: pcbnew/dialogs/dialog_plot.cpp:794
+#: pcbnew/dialogs/dialog_plot.cpp:805
 msgid "Warning: Scale option set to a very large value"
 msgstr "警告：缩放选项设置为一个非常大的值"
 
 #: common/dialogs/dialog_print_generic.cpp:127
-#: pcbnew/dialogs/dialog_plot.cpp:791
+#: pcbnew/dialogs/dialog_plot.cpp:802
 msgid "Warning: Scale option set to a very small value"
 msgstr "警告：缩放选项设置为一个很小的值"
 
@@ -2274,7 +2274,7 @@ msgstr "打印边框和标题栏"
 
 #: common/dialogs/dialog_print_generic_base.cpp:42
 msgid "Print Frame references."
-msgstr "打印图框图框(标题栏字段等)"
+msgstr "打印图框参考。"
 
 #: common/dialogs/dialog_print_generic_base.cpp:57
 #: pcbnew/dialogs/dialog_plot_base.cpp:129
@@ -3413,7 +3413,7 @@ msgstr "超出了线路长度"
 
 #: common/richio.cpp:557
 msgid "OUTPUTSTREAM_OUTPUTFORMATTER write error"
-msgstr "输出流_输出格式器写入错误"
+msgstr "输出流_输出格式器 写入错误"
 
 #: common/selcolor.cpp:86 eeschema/eeschema_config.cpp:228
 msgid "Colors"
@@ -3827,7 +3827,7 @@ msgstr "Zip 文件"
 
 #: common/wildcards_and_files_ext.cpp:363
 msgid "GenCAD 1.4 board files"
-msgstr "GenCAD 1.4 线路板文件"
+msgstr "GenCAD 1.4 电路板文件"
 
 #: common/wildcards_and_files_ext.cpp:369
 msgid "DXF Files"
@@ -4313,7 +4313,7 @@ msgstr "封装关联文件... (&A)"
 msgid ""
 "Configure footprint association file (.equ) list.These files are used to "
 "automatically assign the footprint name from the symbol value"
-msgstr "配置封装关联文件(.equ)列表。这些文件用于从符号值中自动分配封装名称"
+msgstr "配置封装关联文件 (.equ) 列表。这些文件用于从符号值中自动分配封装名称"
 
 #: cvpcb/menubar.cpp:91
 msgid "CvPcb &Manual"
@@ -4446,7 +4446,7 @@ msgstr "找到并替换 %d 个重复的时间戳。"
 #: eeschema/annotate.cpp:204
 #, c-format
 msgid "Updated %s (unit %s) from %s to %s"
-msgstr "更新 %s， (单元 %s) 从 %s 到 %s"
+msgstr "更新 %s， (单位 %s) 从 %s 到 %s"
 
 #: eeschema/annotate.cpp:210
 #, c-format
@@ -4456,7 +4456,7 @@ msgstr "更新 %s， 从 %s 到 %s"
 #: eeschema/annotate.cpp:218
 #, c-format
 msgid "Annotated %s (unit %s) as %s"
-msgstr "标注 %s (单元 %s)为 %s"
+msgstr "标注 %s (单位 %s)为 %s"
 
 #: eeschema/annotate.cpp:223
 #, c-format
@@ -4507,8 +4507,8 @@ msgid ""
 "the sheet \"%s\" or one of it's subsheets as a parent somewhere in the "
 "schematic hierarchy."
 msgstr ""
-"该图页无法作出更改，因为目标图页已经将图页 \"%s\" 或其中一个子图页作为层次结"
-"构中某处的父图页。"
+"该图框无法作出更改，因为目标图框已经将图框 \"%s\" 或其中一个子图框作为层次结"
+"构中某处的父图框。"
 
 #: eeschema/bom_plugins.cpp:34
 #, c-format
@@ -4572,7 +4572,7 @@ msgstr ""
 #: eeschema/component_references_lister.cpp:555
 #, c-format
 msgid "Item not annotated: %s%s (unit %d)\n"
-msgstr "未标注项目： %s%s(单元 %d)\n"
+msgstr "未标注项目： %s%s(单位 %d)\n"
 
 #: eeschema/component_references_lister.cpp:562
 #, c-format
@@ -4582,13 +4582,13 @@ msgstr "未标注项目： %s%s\n"
 #: eeschema/component_references_lister.cpp:583
 #, c-format
 msgid "Error: symbol %s%s unit %d and symbol has only %d units defined\n"
-msgstr "错误：符号 %s%s 单元 %d 且符号仅定义了 %d 个单元\n"
+msgstr "错误：符号 %s%s 单位 %d 且符号仅定义了 %d 个单位\n"
 
 #: eeschema/component_references_lister.cpp:621
 #: eeschema/component_references_lister.cpp:651
 #, c-format
 msgid "Multiple item %s%s (unit %d)\n"
-msgstr "多重项目 %s%s (单元 %d)\n"
+msgstr "多重项目 %s%s (单位 %d)\n"
 
 #: eeschema/component_references_lister.cpp:628
 #: eeschema/component_references_lister.cpp:658
@@ -4634,7 +4634,7 @@ msgstr "清除并标注整个原理图中的所有符号？"
 
 #: eeschema/dialogs/dialog_annotate.cpp:212
 msgid "Clear and annotate all of the symbols on the current sheet?"
-msgstr "清除并标注当前图页中所有符号?"
+msgstr "清除并标注当前图框中所有符号?"
 
 #: eeschema/dialogs/dialog_annotate.cpp:214
 msgid ""
@@ -4656,7 +4656,7 @@ msgstr "要清除整个原理图的现有的标注吗？"
 
 #: eeschema/dialogs/dialog_annotate.cpp:258
 msgid "Clear the existing annotation for the current sheet?"
-msgstr "要清除当前图页的现有的标注吗？"
+msgstr "要清除当前图框的现有的标注吗？"
 
 #: eeschema/dialogs/dialog_annotate.cpp:260
 msgid ""
@@ -4707,7 +4707,7 @@ msgstr "重置现有的标注"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:80
 msgid "Reset, but keep order of multi-unit parts"
-msgstr "重置，但保持多单元器件的顺序"
+msgstr "重置，但保持多单位器件的顺序"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:82
 #: eeschema/dialogs/dialog_netlist.cpp:291
@@ -4860,7 +4860,7 @@ msgstr "字段必须要有名称。"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:293
 msgid "Delete extra units from symbol?"
-msgstr "是否删除符号多余单元?"
+msgstr "是否删除符号多余单位?"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib.cpp:299
 msgid "Add new pins for alternate body style (DeMorgan) to symbol?"
@@ -5038,21 +5038,21 @@ msgstr ""
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:178
 msgid "Number of Units:"
-msgstr "单元数量："
+msgstr "单位数量："
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:180
 msgid "Enter the number of units for a symbol that contains more than one unit"
-msgstr "为包含多个单元的元件输入单元数量"
+msgstr "为包含多个单位的元件输入单位数量"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:190
 msgid "All units are not interchangeable"
-msgstr "所有单元不能互换"
+msgstr "所有单位不能互换"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:191
 msgid ""
 "Check this option when creating multiple unit symbols and all units are not "
 "interchangeable"
-msgstr "创建多单元符号时，勾选这个选项，所有单元都不能互换"
+msgstr "创建多单位符号时，勾选这个选项，所有单位都不能互换"
 
 #: eeschema/dialogs/dialog_edit_component_in_lib_base.cpp:205
 #: eeschema/dialogs/panel_eeschema_display_options_base.cpp:74
@@ -5232,7 +5232,7 @@ msgstr "浏览库"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:151
 msgid "Unit:"
-msgstr "单元："
+msgstr "单位："
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:165
 msgid "Alternate symbol (DeMorgan)"
@@ -5627,7 +5627,7 @@ msgstr "检测相似标签"
 msgid ""
 "Similar labels are labels (inside a sheet) which differs only by upper/lower "
 "case"
-msgstr "类似标签，该标签（图页内）仅有大小写区别"
+msgstr "类似标签，该标签（图框内）仅有大小写区别"
 
 #: eeschema/dialogs/dialog_erc_base.cpp:114
 msgid "Test single instances of global labels"
@@ -5844,7 +5844,7 @@ msgstr "填充样式"
 
 #: eeschema/dialogs/dialog_lib_edit_draw_item_base.cpp:45
 msgid "Common to all &units in component"
-msgstr "元件中所有单元共用 (&U)"
+msgstr "元件中所有单位共用 (&U)"
 
 #: eeschema/dialogs/dialog_lib_edit_draw_item_base.cpp:48
 #: eeschema/dialogs/dialog_lib_edit_pin_base.cpp:147
@@ -5920,7 +5920,7 @@ msgstr "编号尺寸 (&X)："
 
 #: eeschema/dialogs/dialog_lib_edit_pin_base.cpp:144
 msgid "Common to all &units in symbol"
-msgstr "适用于所有单元 (&U)"
+msgstr "适用于所有单位 (&U)"
 
 #: eeschema/dialogs/dialog_lib_edit_pin_base.cpp:153
 msgid "&Visible"
@@ -6054,7 +6054,7 @@ msgstr "下对齐"
 
 #: eeschema/dialogs/dialog_lib_edit_text_base.cpp:162
 msgid "Common to all units"
-msgstr "适用于所有单元"
+msgstr "适用于所有单位"
 
 #: eeschema/dialogs/dialog_lib_edit_text_base.cpp:165
 msgid "Common to all body styles"
@@ -6086,7 +6086,7 @@ msgstr "U"
 
 #: eeschema/dialogs/dialog_lib_new_component_base.cpp:50
 msgid "Number of units per package:"
-msgstr "每封装单元数："
+msgstr "每封装单位数："
 
 #: eeschema/dialogs/dialog_lib_new_component_base.cpp:63
 msgid "Create symbol with alternate body style (DeMorgan)"
@@ -6098,7 +6098,7 @@ msgstr "创建符号作为电源符号"
 
 #: eeschema/dialogs/dialog_lib_new_component_base.cpp:69
 msgid "Units are not interchangeable"
-msgstr "单元不能互换"
+msgstr "单位不能互换"
 
 #: eeschema/dialogs/dialog_lib_new_component_base.cpp:81
 msgid "Pin Settings:"
@@ -6217,14 +6217,14 @@ msgstr "绘制当前页"
 
 #: eeschema/dialogs/dialog_plot_schematic.cpp:155
 #: pcbnew/dialogs/dialog_export_svg.cpp:217
-#: pcbnew/dialogs/dialog_gendrill.cpp:309 pcbnew/dialogs/dialog_plot.cpp:324
+#: pcbnew/dialogs/dialog_gendrill.cpp:309 pcbnew/dialogs/dialog_plot.cpp:331
 #: pcbnew/exporters/gen_footprints_placefile.cpp:193
 #: pcbnew/exporters/gen_footprints_placefile.cpp:628
 msgid "Select Output Directory"
 msgstr "选择输出目录"
 
 #: eeschema/dialogs/dialog_plot_schematic.cpp:165
-#: pcbnew/dialogs/dialog_gendrill.cpp:319 pcbnew/dialogs/dialog_plot.cpp:334
+#: pcbnew/dialogs/dialog_gendrill.cpp:319 pcbnew/dialogs/dialog_plot.cpp:341
 #, c-format
 msgid ""
 "Do you want to use a path relative to\n"
@@ -6236,15 +6236,15 @@ msgstr "你想使用 \"%s\" 的相对路径吗?"
 #: pcbnew/dialogs/dialog_export_svg.cpp:224
 #: pcbnew/dialogs/dialog_export_svg.cpp:235
 #: pcbnew/dialogs/dialog_gendrill.cpp:321
-#: pcbnew/dialogs/dialog_gendrill.cpp:328 pcbnew/dialogs/dialog_plot.cpp:337
-#: pcbnew/dialogs/dialog_plot.cpp:344
+#: pcbnew/dialogs/dialog_gendrill.cpp:328 pcbnew/dialogs/dialog_plot.cpp:344
+#: pcbnew/dialogs/dialog_plot.cpp:351
 #: pcbnew/exporters/gen_footprints_placefile.cpp:201
 #: pcbnew/exporters/gen_footprints_placefile.cpp:210
 msgid "Plot Output Directory"
 msgstr "绘制输出目录"
 
 #: eeschema/dialogs/dialog_plot_schematic.cpp:174
-#: pcbnew/dialogs/dialog_gendrill.cpp:327 pcbnew/dialogs/dialog_plot.cpp:343
+#: pcbnew/dialogs/dialog_gendrill.cpp:327 pcbnew/dialogs/dialog_plot.cpp:350
 msgid "Cannot make path relative (target volume different from file volume)!"
 msgstr "不能进行相对路径（目标卷从文件卷不同）！"
 
@@ -6302,7 +6302,7 @@ msgid "E"
 msgstr "E"
 
 #: eeschema/dialogs/dialog_plot_schematic.cpp:320
-#: pcbnew/dialogs/dialog_export_svg.cpp:256 pcbnew/dialogs/dialog_plot.cpp:735
+#: pcbnew/dialogs/dialog_export_svg.cpp:256 pcbnew/dialogs/dialog_plot.cpp:746
 #: pcbnew/exporters/gen_footprints_placefile.cpp:270
 #, c-format
 msgid "Could not write plot files to folder \"%s\"."
@@ -6534,7 +6534,7 @@ msgstr "连接类型："
 
 #: eeschema/dialogs/dialog_sch_edit_sheet_pin_base.h:62
 msgid "Sheet Pin Properties"
-msgstr "图页引脚属性"
+msgstr "图框引脚属性"
 
 #: eeschema/dialogs/dialog_sch_sheet_props.cpp:105
 msgid "File name is not valid!"
@@ -6543,7 +6543,7 @@ msgstr "文件名称无效！"
 #: eeschema/dialogs/dialog_sch_sheet_props.cpp:115
 #, c-format
 msgid "A sheet named \"%s\" already exists."
-msgstr "图页名称 \"%s\" 已经存在."
+msgstr "图框名称 \"%s\" 已经存在."
 
 #: eeschema/dialogs/dialog_sch_sheet_props_base.cpp:28
 msgid "&File name:"
@@ -6559,7 +6559,7 @@ msgstr "特定的时间戳记："
 
 #: eeschema/dialogs/dialog_sch_sheet_props_base.h:56
 msgid "Schematic Sheet Properties"
-msgstr "原理图页属性"
+msgstr "原理图框属性"
 
 #: eeschema/dialogs/dialog_schematic_find.cpp:39
 #: eeschema/dialogs/dialog_schematic_find_base.h:79
@@ -6621,7 +6621,7 @@ msgstr "搜索所有引脚名称和编号 (&N)"
 
 #: eeschema/dialogs/dialog_schematic_find_base.cpp:100
 msgid "Search the current &sheet only"
-msgstr "仅搜索当前图页 (&S)"
+msgstr "仅搜索当前图框 (&S)"
 
 #: eeschema/dialogs/dialog_schematic_find_base.cpp:103
 msgid "Replace componen&t reference designators"
@@ -6939,7 +6939,7 @@ msgstr ""
 
 #: eeschema/dialogs/dialog_spice_model_base.cpp:71
 msgid "Spice unit symbols in values (case insensitive):"
-msgstr "Spice 单位符号值(不区分大小写)"
+msgstr "Spice 单位符号值 (不区分大小写)"
 
 #: eeschema/dialogs/dialog_spice_model_base.cpp:81
 msgid "f"
@@ -7438,7 +7438,7 @@ msgstr "连接点尺寸："
 
 #: eeschema/dialogs/panel_eeschema_display_options_base.cpp:79
 msgid "Symbol unit notation:"
-msgstr "符号单元表示法："
+msgstr "符号单位表示法："
 
 #: eeschema/dialogs/panel_eeschema_display_options_base.cpp:83
 msgid ".A"
@@ -7716,7 +7716,7 @@ msgstr "ERC 不明错误"
 
 #: eeschema/drc_erc_item.cpp:42
 msgid "Duplicate sheet names within a given sheet"
-msgstr "给定的图页中重复图页名称"
+msgstr "给定的图框中重复图框名称"
 
 #: eeschema/drc_erc_item.cpp:44
 msgid "Pin not connected (use a \"no connection\" flag to suppress this error)"
@@ -7736,7 +7736,7 @@ msgstr "引脚之间的冲突问题。严重性：错误"
 
 #: eeschema/drc_erc_item.cpp:52
 msgid "Mismatch between hierarchical labels and pins sheets"
-msgstr "层次结构标签和图页引脚不匹配"
+msgstr "层次结构标签和图框引脚不匹配"
 
 #: eeschema/drc_erc_item.cpp:54
 msgid "A pin with a \"no connection\" flag is connected"
@@ -7756,12 +7756,12 @@ msgstr "全局标签相似（只有大小写的区别）"
 
 #: eeschema/drc_erc_item.cpp:62
 msgid "Different footprint assigned in another unit of the same component"
-msgstr "在相同元件的另一个单元中分配不同的封装"
+msgstr "在相同元件的另一个单位中分配不同的封装"
 
 #: eeschema/drc_erc_item.cpp:64
 msgid ""
 "Different net assigned to a shared pin in another unit of the same component"
-msgstr "在同一元件的另一个单元中分配给共用引脚的不同网络"
+msgstr "在同一元件的另一个单位中分配给共用引脚的不同网络"
 
 #: eeschema/edit_bitmap.cpp:52 eeschema/edit_bitmap.cpp:62
 #: pagelayout_editor/pl_editor_frame.cpp:601
@@ -7856,12 +7856,12 @@ msgstr "未连接"
 
 #: eeschema/erc.cpp:211
 msgid "Duplicate sheet name"
-msgstr "图页名称重复"
+msgstr "图框名称重复"
 
 #: eeschema/erc.cpp:278
 #, c-format
 msgid "Unit %s has '%s' assigned, whereas unit %s has '%s' assigned"
-msgstr "单元 %s 已经分配了 %s ，而单元 %s 已经分配了 %s"
+msgstr "单位 %s 已经分配了 %s ，而单位 %s 已经分配了 %s"
 
 #: eeschema/erc.cpp:319
 #, c-format
@@ -7917,7 +7917,7 @@ msgid ""
 "***** Sheet %s\n"
 msgstr ""
 "\n"
-"***** 图页 %s\n"
+"***** 图框 %s\n"
 
 #: eeschema/erc.cpp:628
 #, c-format
@@ -7931,22 +7931,22 @@ msgstr ""
 #: eeschema/erc.cpp:883
 #, c-format
 msgid "Global label \"%s\" (sheet \"%s\") looks like:"
-msgstr "全局标签 \"%s\" (图页 \"%s\") 是这样的："
+msgstr "全局标签 \"%s\" (图框 \"%s\") 是这样的："
 
 #: eeschema/erc.cpp:884
 #, c-format
 msgid "Local label \"%s\" (sheet \"%s\") looks like:"
-msgstr "局部标签 \"%s\" (图页 \"%s\") 是这样的："
+msgstr "局部标签 \"%s\" (图框 \"%s\") 是这样的："
 
 #: eeschema/erc.cpp:892
 #, c-format
 msgid "Global label \"%s\" (sheet \"%s\")"
-msgstr "全局标签 \"%s\" (图页 \"%s\")"
+msgstr "全局标签 \"%s\" (图框 \"%s\")"
 
 #: eeschema/erc.cpp:893
 #, c-format
 msgid "Local label \"%s\" (sheet \"%s\")"
-msgstr "局部标签 \"%s\" (图页 \"%s\")"
+msgstr "局部标签 \"%s\" (图框 \"%s\")"
 
 #: eeschema/files-io.cpp:76
 msgid "Schematic Files"
@@ -8077,7 +8077,7 @@ msgstr "当前原理图已被修改。是否保存更改？"
 #: eeschema/find.cpp:96
 #, c-format
 msgid "Design rule check marker found in sheet %s at %s, %s"
-msgstr "在图页 %s 的 %s，%s 中找到设计规则标记"
+msgstr "在图框 %s 的 %s，%s 中找到设计规则标记"
 
 #: eeschema/find.cpp:104
 msgid "No more markers were found."
@@ -8244,7 +8244,7 @@ msgstr ""
 msgid ""
 "Place a hierarchical label. Label will be seen as a hierarchical pin in the "
 "sheet"
-msgstr "放置一个层次标签。此标签将被看作图页符号的层次引脚"
+msgstr "放置一个层次标签。此标签将被看作图框符号的层次引脚"
 
 #: eeschema/help_common_strings.h:70
 msgid "Place junction"
@@ -8252,7 +8252,7 @@ msgstr "放置连接点"
 
 #: eeschema/help_common_strings.h:71
 msgid "Create hierarchical sheet"
-msgstr "创建分层图页"
+msgstr "创建分层图框"
 
 #: eeschema/help_common_strings.h:73
 msgid ""
@@ -8261,7 +8261,7 @@ msgstr "从相应的层次标签导入放置层次引脚"
 
 #: eeschema/help_common_strings.h:74
 msgid "Place hierarchical pin in sheet"
-msgstr "添加图页层次引脚"
+msgstr "添加图框层次引脚"
 
 #: eeschema/help_common_strings.h:75
 msgid "Place graphic lines or polygons"
@@ -8351,7 +8351,7 @@ msgstr "重置局部坐标"
 
 #: eeschema/hotkeys.cpp:121 eeschema/onrightclick.cpp:213
 msgid "Leave Sheet"
-msgstr "离开图页"
+msgstr "离开图框"
 
 #: eeschema/hotkeys.cpp:125 pagelayout_editor/hotkeys.cpp:69
 #: pcbnew/hotkeys.cpp:68
@@ -8406,7 +8406,7 @@ msgstr "添加不连接标记"
 
 #: eeschema/hotkeys.cpp:146
 msgid "Add Sheet"
-msgstr "添加图页"
+msgstr "添加图框"
 
 #: eeschema/hotkeys.cpp:148
 msgid "Add Bus Entry"
@@ -8786,7 +8786,7 @@ msgstr "库"
 #: eeschema/libedit/lib_edit_frame.cpp:380 eeschema/onrightclick.cpp:493
 #, c-format
 msgid "Unit %s"
-msgstr "单元 %s"
+msgstr "单位 %s"
 
 #: eeschema/libedit/lib_edit_frame.cpp:1131
 msgid "Add pin"
@@ -9525,7 +9525,7 @@ msgstr "单位 (&U)"
 #: gerbview/menubar.cpp:244 pcbnew/menubar_footprint_editor.cpp:263
 #: pcbnew/menubar_pcb_editor.cpp:620
 msgid "Select which units are displayed"
-msgstr "选择要显示的单元"
+msgstr "选择要显示的单位"
 
 #: eeschema/libedit/menubar_libedit.cpp:237 eeschema/menubar.cpp:214
 msgid "Full &Window Crosshair"
@@ -9658,7 +9658,7 @@ msgstr "首选项 (&R)"
 #: eeschema/libedit/pinedit.cpp:215
 #, c-format
 msgid "This position is already occupied by another pin, in unit %d."
-msgstr "这个位置已经被另一个引脚占用, 在单元 %d。"
+msgstr "这个位置已经被另一个引脚占用, 在单位 %d。"
 
 #: eeschema/libedit/pinedit.cpp:219
 msgid "Create Pin Anyway"
@@ -9763,8 +9763,8 @@ msgid ""
 "Enabled by default for multiunit parts with interchangeable units."
 msgstr ""
 "同步引脚编辑模式\n"
-"同步引脚编辑模式传播到其他单元的所有引脚变化，除了引脚编号修改。\n"
-"默认情况下为可更换单元的多单元元件启用。"
+"同步引脚编辑模式传播到其他单位的所有引脚变化，除了引脚编号修改。\n"
+"默认情况下为可更换单位的多单位元件启用。"
 
 #: eeschema/libedit/tool_lib.cpp:211 eeschema/tool_sch.cpp:289
 #: gerbview/toolbars_gerber.cpp:253
@@ -9802,7 +9802,7 @@ msgstr "离开分页 (&L)"
 
 #: eeschema/menubar.cpp:146
 msgid "Return to parent schematic sheet"
-msgstr "回到根原理图页"
+msgstr "回到根原理图框"
 
 #: eeschema/menubar.cpp:221
 msgid "Show Hidden &Pins"
@@ -9854,7 +9854,7 @@ msgstr "层次标签 (&H)"
 
 #: eeschema/menubar.cpp:302
 msgid "Hierar&chical Sheet"
-msgstr "层次图页 (&C)"
+msgstr "层次图框 (&C)"
 
 #: eeschema/menubar.cpp:310
 msgid "I&mport Hierarchical Label"
@@ -9862,7 +9862,7 @@ msgstr "导入层次标签 (&M)"
 
 #: eeschema/menubar.cpp:316
 msgid "Hierarchical Pi&n to Sheet"
-msgstr "原理图页引脚 (&N)"
+msgstr "原理图框引脚 (&N)"
 
 #: eeschema/menubar.cpp:322
 msgid "Graphic Pol&yline"
@@ -9904,19 +9904,19 @@ msgstr "打开最近的原理图"
 
 #: eeschema/menubar.cpp:383
 msgid "Save &Current Sheet"
-msgstr "保存当前图页 (&C)"
+msgstr "保存当前图框 (&C)"
 
 #: eeschema/menubar.cpp:384
 msgid "Save only the current sheet"
-msgstr "仅保存当前图页"
+msgstr "仅保存当前图框"
 
 #: eeschema/menubar.cpp:387
 msgid "Save C&urrent Sheet As..."
-msgstr "另存当前图页 (&U)"
+msgstr "另存当前图框 (&U)"
 
 #: eeschema/menubar.cpp:389
 msgid "Save a copy of the current sheet"
-msgstr "保存当前图页的副本"
+msgstr "保存当前图框的副本"
 
 #: eeschema/menubar.cpp:394
 msgid "App&end Schematic Sheet Content..."
@@ -9925,7 +9925,7 @@ msgstr "添加原理图内容... (&E)"
 #: eeschema/menubar.cpp:395
 msgid ""
 "Append schematic sheet content from another project to the current sheet"
-msgstr "将其它项目中的原理图添加到当前图页中"
+msgstr "将其它项目中的原理图添加到当前图框中"
 
 #: eeschema/menubar.cpp:398
 msgid "&Import Non KiCad Schematic..."
@@ -9934,7 +9934,7 @@ msgstr "导入非 KiCad 原理图... (&I)"
 #: eeschema/menubar.cpp:399
 msgid ""
 "Replace current schematic sheet with one imported from another application"
-msgstr "将当前的原理图页替换为从另一个应用程序导入的原理图页"
+msgstr "将当前的原理图框替换为从另一个应用程序导入的原理图框"
 
 #: eeschema/menubar.cpp:407
 msgid "&Footprint Association File..."
@@ -9970,7 +9970,7 @@ msgstr "图框设置... (&S)"
 
 #: eeschema/menubar.cpp:431 pcbnew/menubar_pcb_editor.cpp:898
 msgid "Settings for sheet size and frame references"
-msgstr "设置图页和图框"
+msgstr "设置图框和图框"
 
 #: eeschema/menubar.cpp:434 gerbview/menubar.cpp:171
 #: pagelayout_editor/menubar.cpp:93 pcbnew/menubar_footprint_editor.cpp:118
@@ -9980,7 +9980,7 @@ msgstr "打印... (&P)"
 
 #: eeschema/menubar.cpp:436
 msgid "Print schematic sheet"
-msgstr "打印原理图页"
+msgstr "打印原理图框"
 
 #: eeschema/menubar.cpp:439 pcbnew/menubar_pcb_editor.cpp:907
 msgid "P&lot..."
@@ -9988,7 +9988,7 @@ msgstr "绘制... (&L)"
 
 #: eeschema/menubar.cpp:440
 msgid "Plot schematic sheet in PostScript, PDF, SVG, DXF or HPGL format"
-msgstr "在 PostScript 中绘制原理图页, PDF, SVG, DXF 或 HPGL 格式"
+msgstr "在 PostScript 中绘制原理图框, PDF, SVG, DXF 或 HPGL 格式"
 
 #: eeschema/menubar.cpp:447
 msgid "Close Eeschema"
@@ -10192,7 +10192,7 @@ msgstr "导出网表需要一个完整批注的原理图。"
 
 #: eeschema/netlist_generator.cpp:184
 msgid "Error: duplicate sheet names. Continue?"
-msgstr "错误：重复的图页名称。要继续吗？"
+msgstr "错误：重复的图框名称。要继续吗？"
 
 #: eeschema/netlist_generator.cpp:250
 msgid "No Objects"
@@ -10433,11 +10433,11 @@ msgstr "调整大小"
 
 #: eeschema/onrightclick.cpp:834
 msgid "Import Sheet Pins"
-msgstr "导入图页连接"
+msgstr "导入图框连接"
 
 #: eeschema/onrightclick.cpp:838
 msgid "Cleanup Sheet Pins"
-msgstr "清除图页连接"
+msgstr "清除图框连接"
 
 #: eeschema/onrightclick.cpp:875
 msgid "Window Zoom"
@@ -10660,7 +10660,7 @@ msgstr "匹配第%i个/共%i个：%s 的 %s 在图框 %s"
 #: eeschema/sch_collectors.cpp:521
 #, c-format
 msgid "Match %i of %i: %s in sheet %s"
-msgstr "匹配第 %i 个/共 %i 个：%s 在图页 %s 中"
+msgstr "匹配第 %i 个/共 %i 个：%s 在图框 %s 中"
 
 #: eeschema/sch_component.cpp:1478
 msgid "Power symbol"
@@ -10976,7 +10976,7 @@ msgstr "%8.8lX/"
 #: eeschema/sch_sheet_pin.cpp:346
 #, c-format
 msgid "Hierarchical Sheet Pin %s"
-msgstr "层次图页引脚 %s"
+msgstr "层次图框引脚 %s"
 
 #: eeschema/sch_text.cpp:587
 msgid "Graphic Text"
@@ -10997,7 +10997,7 @@ msgstr "层次标签"
 
 #: eeschema/sch_text.cpp:591
 msgid "Hierarchical Sheet Pin"
-msgstr "层次图页引脚"
+msgstr "层次图框引脚"
 
 #: eeschema/sch_text.cpp:600
 msgid "Vertical up"
@@ -11111,11 +11111,11 @@ msgstr "字段验证错误"
 
 #: eeschema/schedit.cpp:249
 msgid "There are no undefined labels in this sheet to clean up."
-msgstr "这个图页中没有未定义的标签清理。"
+msgstr "这个图框中没有未定义的标签清理。"
 
 #: eeschema/schedit.cpp:253
 msgid "Do you wish to cleanup this sheet?"
-msgstr "你想清除这个图页吗?"
+msgstr "你想清除这个图框吗?"
 
 #: eeschema/schedit.cpp:488
 msgid "Highlight specific net"
@@ -11258,7 +11258,7 @@ msgid ""
 "Errors occurred loading hierarchical sheets."
 msgstr ""
 "整个原理图不能被加载。\n"
-"加载层次图页时出错。"
+"加载层次图框时出错。"
 
 #: eeschema/sheet.cpp:294
 #, c-format
@@ -11506,7 +11506,7 @@ msgstr "无效的 Spice 值字符串"
 
 #: eeschema/sim/spice_value.cpp:79
 msgid "Invalid unit prefix"
-msgstr "无效的单元前缀"
+msgstr "无效的单位前缀"
 
 #: eeschema/sim/spice_value.cpp:252
 msgid "Please, fill required fields"
@@ -11549,7 +11549,7 @@ msgstr "打开原理图"
 
 #: eeschema/tool_sch.cpp:71
 msgid "Save (all sheets)"
-msgstr "保存 (所有图页)"
+msgstr "保存 (所有图框)"
 
 #: eeschema/tool_sch.cpp:76
 msgid "Edit Page settings"
@@ -11569,7 +11569,7 @@ msgstr "查找和替换文字"
 
 #: eeschema/tool_sch.cpp:138
 msgid "Leave sheet"
-msgstr "离开图页"
+msgstr "离开图框"
 
 #: eeschema/tool_sch.cpp:152
 msgid "Footprint Editor - Create/edit footprints"
@@ -11661,7 +11661,7 @@ msgstr "符号库未找到。"
 #: eeschema/viewlib_frame.cpp:437
 #, c-format
 msgid "Unit %c"
-msgstr "单元 %c"
+msgstr "单位 %c"
 
 #: eeschema/viewlibs.cpp:189
 #, c-format
@@ -11760,7 +11760,7 @@ msgstr "图框"
 
 #: eeschema/widgets/widget_eeschema_color_config.cpp:83
 msgid "Sheet file name"
-msgstr "图页文件名称"
+msgstr "图框文件名称"
 
 #: eeschema/widgets/widget_eeschema_color_config.cpp:84
 msgid "Sheet name"
@@ -11768,7 +11768,7 @@ msgstr "图框名称"
 
 #: eeschema/widgets/widget_eeschema_color_config.cpp:85
 msgid "Sheet label"
-msgstr "图页标签"
+msgstr "图框标签"
 
 #: eeschema/widgets/widget_eeschema_color_config.cpp:86
 msgid "Hierarchical label"
@@ -15661,7 +15661,7 @@ msgstr "名称"
 
 #: pcbnew/build_BOM_from_board.cpp:120
 msgid "Supplier and ref"
-msgstr "供应商和 REF"
+msgstr "供应商和参考"
 
 #: pcbnew/class_board.cpp:136
 msgid "This is the default net class."
@@ -16058,7 +16058,7 @@ msgstr "全长"
 
 #: pcbnew/class_track.cpp:1083
 msgid "Pad To Die Length"
-msgstr "焊盘到晶粒(Die)长度"
+msgstr "焊盘到裸铜长度"
 
 #: pcbnew/class_track.cpp:1091
 msgid "NC Name"
@@ -16217,7 +16217,7 @@ msgstr "未找到 %s"
 #: pcbnew/cross-probing.cpp:194
 #, c-format
 msgid "Selecting all from sheet \"%s\""
-msgstr "从图页 \"%s\" 中选择所有。"
+msgstr "从图框 \"%s\" 中选择所有。"
 
 #: pcbnew/cross-probing.cpp:245
 #, c-format
@@ -17623,7 +17623,7 @@ msgstr "无法使用相对路径（目标卷不同于电路板文件卷）"
 msgid "Exported \"%s\"."
 msgstr "输出 \"%s\"。"
 
-#: pcbnew/dialogs/dialog_export_svg.cpp:289 pcbnew/dialogs/dialog_plot.cpp:846
+#: pcbnew/dialogs/dialog_export_svg.cpp:289 pcbnew/dialogs/dialog_plot.cpp:857
 #: pcbnew/exporters/gen_footprints_placefile.cpp:346
 #, c-format
 msgid "Unable to create file \"%s\"."
@@ -17670,7 +17670,7 @@ msgid ""
 "or in black and white mode, better to print it when using  black and white "
 "printers"
 msgstr ""
-"是否选择与屏幕显示效果一致绘制图页，\n"
+"是否选择与屏幕显示效果一致绘制图框，\n"
 "还是在黑白模式下，使用更好的黑白打印机时打印"
 
 #: pcbnew/dialogs/dialog_export_svg_base.cpp:109
@@ -19486,34 +19486,34 @@ msgstr "绘制"
 msgid "Generate Drill Files..."
 msgstr "生成钻孔文件..."
 
-#: pcbnew/dialogs/dialog_plot.cpp:598
+#: pcbnew/dialogs/dialog_plot.cpp:609
 msgid "HPGL pen size constrained."
 msgstr "HPGL 画笔尺寸限制。"
 
-#: pcbnew/dialogs/dialog_plot.cpp:609
+#: pcbnew/dialogs/dialog_plot.cpp:620
 msgid "Default line width constrained."
 msgstr "默认线宽限制。"
 
-#: pcbnew/dialogs/dialog_plot.cpp:622
+#: pcbnew/dialogs/dialog_plot.cpp:633
 msgid "X scale constrained."
 msgstr "X 比例限制。"
 
-#: pcbnew/dialogs/dialog_plot.cpp:636
+#: pcbnew/dialogs/dialog_plot.cpp:647
 msgid "Y scale constrained."
 msgstr "Y 比例限制。"
 
-#: pcbnew/dialogs/dialog_plot.cpp:649
+#: pcbnew/dialogs/dialog_plot.cpp:660
 #, c-format
 msgid ""
 "Width correction constrained. The reasonable width correction value must be "
 "in a range of  [%s; %s] (%s) for current design rules."
 msgstr "宽度校正限制。目前的设计规则合理的宽度修正值必须在范围 [%s; %s] (%s)。"
 
-#: pcbnew/dialogs/dialog_plot.cpp:722
+#: pcbnew/dialogs/dialog_plot.cpp:733
 msgid "No layer selected, Nothing to plot"
 msgstr "没有图层选择，没有绘图"
 
-#: pcbnew/dialogs/dialog_plot.cpp:841
+#: pcbnew/dialogs/dialog_plot.cpp:852
 #, c-format
 msgid "Plot file \"%s\" created."
 msgstr "创建绘图文件 \"%s\"。"
@@ -19625,7 +19625,7 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:152
 msgid "Line width for, e.g., sheet references."
-msgstr "图页边框参考线宽。"
+msgstr "图框边框参考线宽。"
 
 #: pcbnew/dialogs/dialog_plot_base.cpp:161
 msgid "Mirrored plot"
@@ -23277,7 +23277,7 @@ msgstr "图形层："
 msgid "Import scale:"
 msgstr "导入比例："
 
-#: pcbnew/import_gfx/dialog_import_gfx_base.h:79
+#: pcbnew/import_gfx/dialog_import_gfx_base.h:77
 msgid "Import Vector Graphics File"
 msgstr "导入矢量图形文件"
 
@@ -23454,7 +23454,7 @@ msgstr "未知焊盘属性：%d"
 #: pcbnew/legacy_plugin.cpp:735
 #, c-format
 msgid "Unknown sheet type \"%s\" on line:%d"
-msgstr "未知图页类型 \"%s\" 在线：%d"
+msgstr "未知图框类型 \"%s\" 在线：%d"
 
 #: pcbnew/legacy_plugin.cpp:1382
 #, c-format
@@ -26768,15 +26768,15 @@ msgstr "选择所有属于同一网络的布线与过孔。"
 
 #: pcbnew/tools/selection_tool.cpp:118
 msgid "Selects all modules and tracks in the schematic sheet"
-msgstr "选择原理图页中的所有模块和布线"
+msgstr "选择原理图框中的所有模块和布线"
 
 #: pcbnew/tools/selection_tool.cpp:122
 msgid "Items in Same Hierarchical Sheet"
-msgstr "同一层次图页中的项目"
+msgstr "同一层次图框中的项目"
 
 #: pcbnew/tools/selection_tool.cpp:123
 msgid "Selects all modules and tracks in the same schematic sheet"
-msgstr "选择同一原理图页中的所有模块和布线"
+msgstr "选择同一原理图框中的所有模块和布线"
 
 #: pcbnew/tools/selection_tool.cpp:127
 msgid "Find Item..."
