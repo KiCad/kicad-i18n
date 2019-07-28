@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-27 21:50-0300\n"
-"PO-Revision-Date: 2019-06-24 08:16-0300\n"
+"POT-Creation-Date: 2019-07-27 22:03-0300\n"
+"PO-Revision-Date: 2019-07-27 22:03-0300\n"
 "Last-Translator: Francisco R. Pereira <frosch_bin@yahoo.com.br>\n"
 "Language-Team: kicad team\n"
 "Language: pt_BR\n"
@@ -7591,9 +7591,8 @@ msgid "&Bus thickness:"
 msgstr "Espessura do &Barramento:"
 
 #: eeschema/dialogs/panel_eeschema_display_options_base.cpp:45
-#, fuzzy
 msgid "&Wire thickness:"
-msgstr "Espessura da &Linha:"
+msgstr "&Espessura da linha:"
 
 #: eeschema/dialogs/panel_eeschema_display_options_base.cpp:56
 msgid "Junction size:"
@@ -20614,12 +20613,12 @@ msgstr ""
 "Deseja continuar?"
 
 #: pcbnew/dialogs/dialog_track_via_properties.cpp:321
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "This will change the net assigned to %lu connected pads to %s.\n"
 "Do you wish to continue?"
 msgstr ""
-"Isto irá alterar a rede atribuída as ilhas conectadas em %d para %s.\n"
+"Isto irá alterar a rede atribuída as ilhas conectadas em %lu para %s.\n"
 "Deseja continuar?"
 
 #: pcbnew/dialogs/dialog_track_via_properties.cpp:328
