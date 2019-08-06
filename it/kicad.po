@@ -82,7 +82,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-05 11:37+0200\n"
+"POT-Creation-Date: 2019-08-06 20:37+0200\n"
 "PO-Revision-Date: 2019-08-06 00:31+0200\n"
 "Last-Translator: Marco Ciampa <ciampix@posteo.net>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
@@ -493,7 +493,7 @@ msgstr "&Preferenze"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:140
 #: cvpcb/dialogs/dialog_display_options_base.h:56
-#: eeschema/eeschema_config.cpp:227 eeschema/eeschema_config.cpp:634
+#: eeschema/eeschema_config.cpp:227 eeschema/eeschema_config.cpp:628
 #: gerbview/gerbview_config.cpp:69
 #: pcbnew/dialogs/dialog_fp_browser_display_options_base.h:56
 #: pcbnew/footprint_edit_frame.cpp:985 pcbnew/pcbnew_config.cpp:100
@@ -4675,7 +4675,7 @@ msgstr "Fallita l'apertura del file di associazione componenti-impronte \"%s\""
 msgid "No item to paste."
 msgstr "Nessun elemento da incollare."
 
-#: eeschema/block.cpp:487 eeschema/sheet.cpp:63
+#: eeschema/block.cpp:487 eeschema/files-io.cpp:478 eeschema/sheet.cpp:281
 #, c-format
 msgid ""
 "The sheet changes cannot be made because the destination sheet already has "
@@ -8025,25 +8025,25 @@ msgstr ""
 msgid "Load Project File"
 msgstr "Carica file progetto"
 
-#: eeschema/eeschema_config.cpp:226 eeschema/sch_edit_frame.cpp:1491
-#: eeschema/sch_edit_frame.cpp:1498
+#: eeschema/eeschema_config.cpp:226 eeschema/sch_edit_frame.cpp:1490
+#: eeschema/sch_edit_frame.cpp:1497
 msgid "Eeschema"
 msgstr "Eeschema"
 
-#: eeschema/eeschema_config.cpp:230
+#: eeschema/eeschema_config.cpp:229
 msgid "Field Name Templates"
 msgstr "Modelli di nome campo"
 
-#: eeschema/eeschema_config.cpp:317 pcbnew/pcbnew_config.cpp:134
+#: eeschema/eeschema_config.cpp:316 pcbnew/pcbnew_config.cpp:134
 msgid "Save Project File"
 msgstr "Salva file progetto"
 
-#: eeschema/eeschema_config.cpp:633 eeschema/libedit/libedit.cpp:61
+#: eeschema/eeschema_config.cpp:627 eeschema/libedit/libedit.cpp:61
 #: kicad/commandframe.cpp:76
 msgid "Symbol Editor"
 msgstr "Editor di simboli"
 
-#: eeschema/eeschema_config.cpp:671 eeschema/sheet.cpp:308
+#: eeschema/eeschema_config.cpp:665 eeschema/files-io.cpp:526
 #, c-format
 msgid "An error occurred loading the symbol library table \"%s\"."
 msgstr ""
@@ -8219,7 +8219,7 @@ msgstr "File %s salvato"
 msgid "File write operation failed."
 msgstr "Operazione di scrittura file fallita"
 
-#: eeschema/files-io.cpp:212 eeschema/files-io.cpp:593
+#: eeschema/files-io.cpp:212 eeschema/files-io.cpp:786
 #, c-format
 msgid "Schematic file \"%s\" is already open."
 msgstr "Il file schema \"%s\" è già aperto."
@@ -8247,7 +8247,7 @@ msgstr ""
 "Errore durante il caricamento del file schema \"%s\".\n"
 "%s"
 
-#: eeschema/files-io.cpp:322 eeschema/files-io.cpp:690
+#: eeschema/files-io.cpp:322 eeschema/files-io.cpp:883
 #, c-format
 msgid "Failed to load \"%s\""
 msgstr "Impossibile caricare \"%s\""
@@ -8262,33 +8262,29 @@ msgstr ""
 "automaticamente. Salvare lo schema per riparare il file rovinato o potrebbe "
 "non essere usabile con altre versioni di KiCad."
 
-#: eeschema/files-io.cpp:367
-msgid "Illegal entry found in project file symbol library list."
-msgstr "Trovata voce irregolare nell'elenco librerie di simboli del progetto."
-
-#: eeschema/files-io.cpp:368
-msgid "Project Load Warning"
-msgstr "Avvertenza caricamento progetto"
-
-#: eeschema/files-io.cpp:371
-msgid ""
-"Symbol libraries defined in the project file symbol library list are no "
-"longer supported and will be\n"
-"removed.  This may cause broken symbol library links under certain "
-"conditions."
-msgstr ""
-"Le librerie di simboli definite nel file elenco delle librerie di simboli del progetto non sono più supportate e verranno\n"
-"rimosse.  Ciò può causare, in determinate condizioni, l'interruzione dei collegamenti alle librerie di simboli."
-
-#: eeschema/files-io.cpp:374
-msgid "Do not show this dialog again."
-msgstr "Non mostrare più questa finestra."
-
-#: eeschema/files-io.cpp:431
+#: eeschema/files-io.cpp:402
 msgid "Append Schematic"
 msgstr "Accoda schema"
 
-#: eeschema/files-io.cpp:461
+#: eeschema/files-io.cpp:450
+msgid ""
+"The entire schematic could not be loaded.  Errors occurred attempting to "
+"load hierarchical sheet schematics."
+msgstr ""
+"Impossibile caricare lo schema elettrico completo. Si sono verificati degli\n"
+"errori nel tentativo di caricare la gerarchia degli schemi elettrici."
+
+#: eeschema/files-io.cpp:458 eeschema/sheet.cpp:247
+#, c-format
+msgid "Error occurred loading schematic file \"%s\"."
+msgstr "Errore durante il caricamento del file dello schema \"%s\"."
+
+#: eeschema/files-io.cpp:461 eeschema/sheet.cpp:250
+#, c-format
+msgid "Failed to load schematic \"%s\""
+msgstr "Impossibile caricare lo schema elettrico \"%s\""
+
+#: eeschema/files-io.cpp:654
 msgid ""
 "This operation cannot be undone.\n"
 "\n"
@@ -8298,16 +8294,16 @@ msgstr ""
 "\n"
 "Salvare il documento corrente prima di procedere?"
 
-#: eeschema/files-io.cpp:481
+#: eeschema/files-io.cpp:674
 msgid "Import Schematic"
 msgstr "Importa schema"
 
-#: eeschema/files-io.cpp:517
+#: eeschema/files-io.cpp:710
 #, c-format
 msgid "Directory \"%s\" is not writable."
 msgstr "La cartella \"%s\" non è scrivibile."
 
-#: eeschema/files-io.cpp:687
+#: eeschema/files-io.cpp:880
 #, c-format
 msgid ""
 "Error loading schematic \"%s\".\n"
@@ -8316,7 +8312,7 @@ msgstr ""
 "Errore durante il caricamento dello schema \"%s\".\n"
 "%s"
 
-#: eeschema/files-io.cpp:713
+#: eeschema/files-io.cpp:906
 msgid "The current schematic has been modified.  Save changes?"
 msgstr "Lo schema corrente è stato modificato. Salvare le modifiche?"
 
@@ -9267,7 +9263,7 @@ msgstr "Impossibile caricare il simbolo \"%s\" dalla libreria \"%s\""
 msgid "The current symbol has been modified.  Save changes?"
 msgstr "Il simbolo corrente è stato modificato. Salvare le modifiche?"
 
-#: eeschema/libedit/libedit.cpp:132 eeschema/sch_edit_frame.cpp:1245
+#: eeschema/libedit/libedit.cpp:132 eeschema/sch_edit_frame.cpp:1244
 #: eeschema/selpart.cpp:63
 #, c-format
 msgid "Error occurred loading symbol \"%s\" from library \"%s\"."
@@ -11005,7 +11001,7 @@ msgstr "Non trovato"
 msgid "The following libraries were not found:"
 msgstr "Le seguenti librerie non sono state trovate:"
 
-#: eeschema/sch_edit_frame.cpp:668 pcbnew/pcb_edit_frame.cpp:595
+#: eeschema/sch_edit_frame.cpp:667 pcbnew/pcb_edit_frame.cpp:595
 #, c-format
 msgid ""
 "Save changes to\n"
@@ -11016,23 +11012,23 @@ msgstr ""
 "\"%s\"\n"
 "prima di chiudere?"
 
-#: eeschema/sch_edit_frame.cpp:795
+#: eeschema/sch_edit_frame.cpp:794
 msgid "Draw wires and buses in any direction"
 msgstr "Disegna fili e bus in ogni direzione"
 
-#: eeschema/sch_edit_frame.cpp:796
+#: eeschema/sch_edit_frame.cpp:795
 msgid "Draw horizontal and vertical wires and buses only"
 msgstr "Disegna fili e bus soltanto in verticale e in orizzontale"
 
-#: eeschema/sch_edit_frame.cpp:805
+#: eeschema/sch_edit_frame.cpp:804
 msgid "Do not show hidden pins"
 msgstr "Non mostrare i piedini nascosti"
 
-#: eeschema/sch_edit_frame.cpp:806 eeschema/tool_sch.cpp:306
+#: eeschema/sch_edit_frame.cpp:805 eeschema/tool_sch.cpp:306
 msgid "Show hidden pins"
 msgstr "Mostra piedini nascosti"
 
-#: eeschema/sch_edit_frame.cpp:880
+#: eeschema/sch_edit_frame.cpp:879
 msgid ""
 "Cannot update the PCB, because the Schematic Editor is opened in stand-alone "
 "mode. In order to create/update PCBs from schematics, you need to launch "
@@ -11043,37 +11039,37 @@ msgstr ""
 "elettrico, è necessario eseguire il gestore di progetti KiCad e creare un "
 "progetto di C.S. ."
 
-#: eeschema/sch_edit_frame.cpp:1009
+#: eeschema/sch_edit_frame.cpp:1008
 msgid "Schematic"
 msgstr "Schema"
 
-#: eeschema/sch_edit_frame.cpp:1042
+#: eeschema/sch_edit_frame.cpp:1041
 msgid "New Schematic"
 msgstr "Nuovo schema"
 
-#: eeschema/sch_edit_frame.cpp:1055
+#: eeschema/sch_edit_frame.cpp:1054
 #, c-format
 msgid "Schematic file \"%s\" already exists."
 msgstr "Il file schema \"%s\" esiste già."
 
-#: eeschema/sch_edit_frame.cpp:1073
+#: eeschema/sch_edit_frame.cpp:1072
 msgid "Open Schematic"
 msgstr "Apri schema"
 
-#: eeschema/sch_edit_frame.cpp:1172
+#: eeschema/sch_edit_frame.cpp:1171
 msgid "Could not open CvPcb"
 msgstr "Impossibile aprire CvPcb"
 
-#: eeschema/sch_edit_frame.cpp:1209
+#: eeschema/sch_edit_frame.cpp:1208
 msgid "Error: not a symbol or no symbol."
 msgstr "Errore: non è un simbolo o nessun simbolo."
 
-#: eeschema/sch_edit_frame.cpp:1505 kicad/prjconfig.cpp:87
+#: eeschema/sch_edit_frame.cpp:1504 kicad/prjconfig.cpp:87
 #: pcbnew/pcb_edit_frame.cpp:1032
 msgid " [Read Only]"
 msgstr " [Sola lettura]"
 
-#: eeschema/sch_edit_frame.cpp:1508
+#: eeschema/sch_edit_frame.cpp:1507
 msgid " [no file]"
 msgstr "[nessun file]"
 
@@ -11512,114 +11508,60 @@ msgstr "Libreria:simbolo"
 msgid "Select Symbol"
 msgstr "Seleziona simbolo"
 
-#: eeschema/sheet.cpp:84
-#, c-format
-msgid ""
-"The schematic \"%s\" has not had it's symbol library links remapped to the "
-"symbol library table.  The project this schematic belongs to must first be "
-"remapped before it can be imported into the current project."
-msgstr "I collegamenti dello schema \"%s\" non sono stati rimappati alla tabella delle librerie di simboli. Il progetto a cui questo schema appartiene deve essere rimappato prima di poter essere importato nel progetto corrente."
-
-#: eeschema/sheet.cpp:145
-msgid ""
-"The entire schematic could not be loaded.  Errors occurred attempting to "
-"load hierarchical sheet schematics."
-msgstr ""
-"Impossibile caricare lo schema elettrico completo. Si sono verificati degli\n"
-"errori nel tentativo di caricare la gerarchia degli schemi elettrici."
-
-#: eeschema/sheet.cpp:148
-msgid "Schematic Load Error"
-msgstr "Errore caricamento schema"
-
-#: eeschema/sheet.cpp:151
-msgid "Use partial schematic"
-msgstr "Usa schema parziale"
-
-#: eeschema/sheet.cpp:160
-#, c-format
-msgid "Error occurred loading schematic file \"%s\"."
-msgstr "Errore durante il caricamento del file dello schema \"%s\"."
-
-#: eeschema/sheet.cpp:163
-#, c-format
-msgid "Failed to load schematic \"%s\""
-msgstr "Impossibile caricare lo schema elettrico \"%s\""
-
-#: eeschema/sheet.cpp:230
-msgid "Continue Load"
-msgstr "Continua caricamento"
-
-#: eeschema/sheet.cpp:231
-msgid "Cancel Load"
-msgstr "Annulla caricamento"
-
-#: eeschema/sheet.cpp:248
-msgid ""
-"There are library names in the loaded schematic that are missing from the "
-"project library table.  This may result in broken symbol library links for "
-"the loaded schematic.  Do you wish to continue?"
-msgstr "Questi sono nomi di librerie nello schema caricato che mancano dalla tabella librerie del progetto.  Ciò può portare a collegamenti alle librerie di simboli interrotti per lo schema caricato.  Continuare?"
-
-#: eeschema/sheet.cpp:251 eeschema/sheet.cpp:292 eeschema/sheet.cpp:342
-#: eeschema/sheet.cpp:403
-msgid "Continue Load Schematic"
-msgstr "Continua caricamento schema"
-
-#: eeschema/sheet.cpp:288
-#, c-format
-msgid ""
-"The project library table \"%s\" does not exist or cannot be read.  This may "
-"result in broken symbol links for the schematic.  Do you wish to continue?"
-msgstr "La tabella librerie del progetto \"%s\" non esiste o è illeggibile.  Ciò può portare a collegamenti a simboli interrotti per lo schema.  Continuare?"
-
-#: eeschema/sheet.cpp:338
-msgid ""
-"There are library names in the loaded schematic that are missing from the "
-"loaded schematic project library table.  This may result in broken symbol "
-"library links for the schematic.  Do you wish to continue?"
-msgstr "Ci sono nomi di libreria nello schema caricato che mancano dalla tabella librerie del progetto caricato.  Ciò può portare a collegamenti a librerie di simboli interrotti per lo schema.  Continuare?"
-
-#: eeschema/sheet.cpp:399
-msgid ""
-"A duplicate library name that references a different library exists in the "
-"current library table.  This conflict cannot be resolved and may result in "
-"broken symbol library links for the schematic.  Do you wish to continue?"
-msgstr "Rilevato nome di libreria duplicato che fa riferimento ad altra libreria nella tabella libreria corrente.  Questo conflitto non può essere risolto e può generare collegamenti a librerie di simboli interrotti per lo schema.  Continuare?"
-
-#: eeschema/sheet.cpp:586
+#: eeschema/sheet.cpp:106
 #, c-format
 msgid "\"%s\" already exists."
 msgstr "\"%s\" esiste già."
 
-#: eeschema/sheet.cpp:587
+#: eeschema/sheet.cpp:107
 #, c-format
 msgid "Link \"%s\" to this file?"
 msgstr "Collegare \"%s\" a questo file?"
 
-#: eeschema/sheet.cpp:614
+#: eeschema/sheet.cpp:133
 #, c-format
 msgid "Change \"%s\" link from \"%s\" to \"%s\"?"
 msgstr "Cambiare il collegamento \"%s\" da \"%s\" a \"%s\"?"
 
-#: eeschema/sheet.cpp:616
+#: eeschema/sheet.cpp:135
 #, c-format
 msgid "Create new file \"%s\" with contents of \"%s\"?"
 msgstr "Crare nuovo file \"%s\" con i contenuti di \"%s\"?"
 
-#: eeschema/sheet.cpp:618
+#: eeschema/sheet.cpp:137
 msgid "This action cannot be undone."
 msgstr "Quest'azione non può essere annullata."
 
-#: eeschema/sheet.cpp:684
+#: eeschema/sheet.cpp:203
 #, c-format
 msgid "Error occurred saving schematic file \"%s\"."
 msgstr "Errore durante il salvataggio del file dello schema \"%s\"."
 
-#: eeschema/sheet.cpp:687
+#: eeschema/sheet.cpp:206
 #, c-format
 msgid "Failed to save schematic \"%s\""
 msgstr "Fallito il salvataggio dello schema \"%s\""
+
+#: eeschema/sheet.cpp:240
+#, fuzzy
+msgid ""
+"The entire schematic could not be loaded.\n"
+"Errors occurred loading hierarchical sheets."
+msgstr ""
+"Impossibile caricare lo schema elettrico completo. Si sono verificati degli\n"
+"errori nel tentativo di caricare la gerarchia degli schemi elettrici."
+
+#: eeschema/sheet.cpp:294
+#, fuzzy, c-format
+msgid ""
+"The schematic \"%s\" has not been remapped to the symbol\n"
+"library table.  The project this schematic belongs to must first be "
+"remapped\n"
+"before it can be imported into the current project."
+msgstr ""
+"I collegamenti dello schema \"%s\" non sono stati rimappati alla tabella "
+"delle librerie di simboli. Il progetto a cui questo schema appartiene deve "
+"essere rimappato prima di poter essere importato nel progetto corrente."
 
 #: eeschema/sheetlab.cpp:133
 msgid "No new hierarchical labels found."
@@ -27535,3 +27477,77 @@ msgstr "Ri-riempi %d zone"
 #: pcbnew/zones_by_polygon_fill_functions.cpp:119
 msgid "Checking Zones"
 msgstr "Controllo zone"
+
+#~ msgid "Illegal entry found in project file symbol library list."
+#~ msgstr ""
+#~ "Trovata voce irregolare nell'elenco librerie di simboli del progetto."
+
+#~ msgid "Project Load Warning"
+#~ msgstr "Avvertenza caricamento progetto"
+
+#~ msgid ""
+#~ "Symbol libraries defined in the project file symbol library list are no "
+#~ "longer supported and will be\n"
+#~ "removed.  This may cause broken symbol library links under certain "
+#~ "conditions."
+#~ msgstr ""
+#~ "Le librerie di simboli definite nel file elenco delle librerie di simboli "
+#~ "del progetto non sono più supportate e verranno\n"
+#~ "rimosse.  Ciò può causare, in determinate condizioni, l'interruzione dei "
+#~ "collegamenti alle librerie di simboli."
+
+#~ msgid "Do not show this dialog again."
+#~ msgstr "Non mostrare più questa finestra."
+
+#~ msgid "Schematic Load Error"
+#~ msgstr "Errore caricamento schema"
+
+#~ msgid "Use partial schematic"
+#~ msgstr "Usa schema parziale"
+
+#~ msgid "Continue Load"
+#~ msgstr "Continua caricamento"
+
+#~ msgid "Cancel Load"
+#~ msgstr "Annulla caricamento"
+
+#~ msgid ""
+#~ "There are library names in the loaded schematic that are missing from the "
+#~ "project library table.  This may result in broken symbol library links "
+#~ "for the loaded schematic.  Do you wish to continue?"
+#~ msgstr ""
+#~ "Questi sono nomi di librerie nello schema caricato che mancano dalla "
+#~ "tabella librerie del progetto.  Ciò può portare a collegamenti alle "
+#~ "librerie di simboli interrotti per lo schema caricato.  Continuare?"
+
+#~ msgid "Continue Load Schematic"
+#~ msgstr "Continua caricamento schema"
+
+#~ msgid ""
+#~ "The project library table \"%s\" does not exist or cannot be read.  This "
+#~ "may result in broken symbol links for the schematic.  Do you wish to "
+#~ "continue?"
+#~ msgstr ""
+#~ "La tabella librerie del progetto \"%s\" non esiste o è illeggibile.  Ciò "
+#~ "può portare a collegamenti a simboli interrotti per lo schema.  "
+#~ "Continuare?"
+
+#~ msgid ""
+#~ "There are library names in the loaded schematic that are missing from the "
+#~ "loaded schematic project library table.  This may result in broken symbol "
+#~ "library links for the schematic.  Do you wish to continue?"
+#~ msgstr ""
+#~ "Ci sono nomi di libreria nello schema caricato che mancano dalla tabella "
+#~ "librerie del progetto caricato.  Ciò può portare a collegamenti a "
+#~ "librerie di simboli interrotti per lo schema.  Continuare?"
+
+#~ msgid ""
+#~ "A duplicate library name that references a different library exists in "
+#~ "the current library table.  This conflict cannot be resolved and may "
+#~ "result in broken symbol library links for the schematic.  Do you wish to "
+#~ "continue?"
+#~ msgstr ""
+#~ "Rilevato nome di libreria duplicato che fa riferimento ad altra libreria "
+#~ "nella tabella libreria corrente.  Questo conflitto non può essere risolto "
+#~ "e può generare collegamenti a librerie di simboli interrotti per lo "
+#~ "schema.  Continuare?"
