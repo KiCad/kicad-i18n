@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-06 20:37+0200\n"
-"PO-Revision-Date: 2019-06-20 09:11+0200\n"
+"PO-Revision-Date: 2019-08-07 18:38+0200\n"
 "Last-Translator: Kerusey Karyu <keruseykaryu@o2.pl>\n"
 "Language-Team: Polish KiCad Translators: Mateusz Skowroński, Krzysztof Kawa, "
 "Kerusey Karyu, Daniel Dawid Majewski\n"
@@ -4009,9 +4009,8 @@ msgstr ""
 "przed zakończeniem?"
 
 #: cvpcb/cvpcb_mainframe.cpp:513
-#, fuzzy
 msgid "Delete all footprint assocations?"
-msgstr "Usuń wszystkie przypisania footprintów"
+msgstr "Usunąć wszystkie przypisania footprintów?"
 
 #: cvpcb/cvpcb_mainframe.cpp:567 cvpcb/cvpcb_mainframe.cpp:588
 msgid "View Footprint"
@@ -4022,44 +4021,36 @@ msgid "Show the assigned footprint in the footprint viewer"
 msgstr "Pokazuje przypisany footprint w przeglądarce footprintów"
 
 #: cvpcb/cvpcb_mainframe.cpp:570
-#, fuzzy
 msgid "Cut Footprint Association"
-msgstr "Plik z przypisaniami footprintów"
+msgstr "Wytnij przypisanie footprintu"
 
 #: cvpcb/cvpcb_mainframe.cpp:571
-#, fuzzy
 msgid "Cut the assigned footprint"
-msgstr "Utwórz nowy footprint"
+msgstr "Wycina istniejące przypisanie footprintu"
 
 #: cvpcb/cvpcb_mainframe.cpp:572
-#, fuzzy
 msgid "Copy Footprint Association"
-msgstr "Plik z przypisaniami footprintów"
+msgstr "Kopiuj przypisanie footprintu"
 
 #: cvpcb/cvpcb_mainframe.cpp:573
-#, fuzzy
 msgid "Copy the assigned footprint"
-msgstr "Utwórz nowy footprint"
+msgstr "Kopiuje istniejące przypisanie footprintu"
 
 #: cvpcb/cvpcb_mainframe.cpp:574
-#, fuzzy
 msgid "Paste Footprint Association"
-msgstr "Zapisz plik z przypisaniami footprintów do komponentów"
+msgstr "Wklej przypisanie footprintu"
 
 #: cvpcb/cvpcb_mainframe.cpp:575
-#, fuzzy
 msgid "Paste a footprint assignment"
-msgstr "Symbol : Przypisanie footprintu"
+msgstr "Wkleja uprzednio skopiowane lub wycięte przypisanie footprintu"
 
 #: cvpcb/cvpcb_mainframe.cpp:577
-#, fuzzy
 msgid "Delete Footprint Association"
-msgstr "Usuń wszystkie przypisania footprintów"
+msgstr "Usuń przypisanie footprintu"
 
 #: cvpcb/cvpcb_mainframe.cpp:578
-#, fuzzy
 msgid "Delete the assigned footprint"
-msgstr "Usuwa bieżący footprint z biblioteki"
+msgstr "Całkowicie usuwa bieżące przypisanie footprintu"
 
 #: cvpcb/cvpcb_mainframe.cpp:589
 msgid "Show the current footprint in the footprint viewer"
@@ -4096,9 +4087,9 @@ msgid "Description: %s;  Key words: %s"
 msgstr "Oznaczenie: %s;  Słowa kluczowe: %s"
 
 #: cvpcb/cvpcb_mainframe.cpp:829
-#, fuzzy, c-format
+#, c-format
 msgid "Library location: %s"
-msgstr "Biblioteka nie została znaleziona"
+msgstr "Pozycja biblioteki: %s"
 
 #: cvpcb/cvpcb_mainframe.cpp:845
 msgid ""
@@ -7560,9 +7551,8 @@ msgid "&Bus thickness:"
 msgstr "Grubość magistral:"
 
 #: eeschema/dialogs/panel_eeschema_display_options_base.cpp:45
-#, fuzzy
 msgid "&Wire thickness:"
-msgstr "Grubość linii:"
+msgstr "Grubość połączenia:"
 
 #: eeschema/dialogs/panel_eeschema_display_options_base.cpp:56
 msgid "Junction size:"
@@ -18965,6 +18955,8 @@ msgid ""
 "Invalid movement values.  Movement would place selection outside of the "
 "maximum board area."
 msgstr ""
+"Nieprawidłowa wartość przesunięcia.  Przesunięcie umieściłoby zaznaczony "
+"blok poza obszarem płytki."
 
 #: pcbnew/dialogs/dialog_move_exact_base.cpp:69
 msgid "Rotate around center of selection"
@@ -20591,12 +20583,12 @@ msgstr ""
 "Czy chcesz kontynuować?"
 
 #: pcbnew/dialogs/dialog_track_via_properties.cpp:321
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "This will change the net assigned to %lu connected pads to %s.\n"
 "Do you wish to continue?"
 msgstr ""
-"To spowoduje zmianę przypisanej sieci do połączonego pola %d na %s.\n"
+"To spowoduje zmianę przypisanej sieci do %lu połączonych pól z %s.\n"
 "Czy chcesz kontynuować?"
 
 #: pcbnew/dialogs/dialog_track_via_properties.cpp:328
