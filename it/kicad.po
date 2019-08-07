@@ -83,7 +83,7 @@ msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-06 20:37+0200\n"
-"PO-Revision-Date: 2019-08-06 00:31+0200\n"
+"PO-Revision-Date: 2019-08-07 12:03+0200\n"
 "Last-Translator: Marco Ciampa <ciampix@posteo.net>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
@@ -11543,25 +11543,24 @@ msgid "Failed to save schematic \"%s\""
 msgstr "Fallito il salvataggio dello schema \"%s\""
 
 #: eeschema/sheet.cpp:240
-#, fuzzy
 msgid ""
 "The entire schematic could not be loaded.\n"
 "Errors occurred loading hierarchical sheets."
 msgstr ""
-"Impossibile caricare lo schema elettrico completo. Si sono verificati degli\n"
-"errori nel tentativo di caricare la gerarchia degli schemi elettrici."
+"Impossibile caricare lo schema elettrico completo.\n"
+"Errori nel caricare la gerarchia degli schemi elettrici."
 
 #: eeschema/sheet.cpp:294
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "The schematic \"%s\" has not been remapped to the symbol\n"
 "library table.  The project this schematic belongs to must first be "
 "remapped\n"
 "before it can be imported into the current project."
 msgstr ""
-"I collegamenti dello schema \"%s\" non sono stati rimappati alla tabella "
-"delle librerie di simboli. Il progetto a cui questo schema appartiene deve "
-"essere rimappato prima di poter essere importato nel progetto corrente."
+"Lo schema \"%s\" non è stato rimappato alla tabella delle librerie di simboli.\n"
+"Il progetto a cui questo schema appartiene deve essere rimappato prima di\n"
+"poter essere importato nel progetto corrente."
 
 #: eeschema/sheetlab.cpp:133
 msgid "No new hierarchical labels found."
