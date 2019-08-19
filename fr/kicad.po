@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-18 13:13+0200\n"
-"PO-Revision-Date: 2019-08-18 13:17+0200\n"
+"PO-Revision-Date: 2019-08-19 17:20+0200\n"
 "Last-Translator: \n"
 "Language-Team: jp-charras\n"
 "Language: fr_FR\n"
@@ -17764,7 +17764,7 @@ msgstr "%s toutes les empreintes du PCB"
 #: pcbnew/dialogs/dialog_exchange_footprints_base.cpp:27
 #, c-format
 msgid "%s selected footprint"
-msgstr "empreinte %s sélectionnée"
+msgstr "%s empreinte sélectionnée"
 
 #: pcbnew/dialogs/dialog_exchange_footprints_base.cpp:30
 #, c-format
