@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-03 07:48-0300\n"
-"PO-Revision-Date: 2019-07-27 22:03-0300\n"
+"POT-Creation-Date: 2019-09-03 08:00-0300\n"
+"PO-Revision-Date: 2019-09-03 07:56-0300\n"
 "Last-Translator: Francisco R. Pereira <frosch_bin@yahoo.com.br>\n"
 "Language-Team: kicad team\n"
 "Language: pt_BR\n"
@@ -6012,42 +6012,36 @@ msgid "Pin &name:"
 msgstr "&Nome do Pino:"
 
 #: eeschema/dialogs/dialog_lib_edit_pin_base.cpp:41
-#, fuzzy
 msgid "Pin num&ber:"
-msgstr "Números dos pinos:"
+msgstr "Número do &pino:"
 
 #: eeschema/dialogs/dialog_lib_edit_pin_base.cpp:43
 msgid "Pin number: 1 to 4 ASCII letters and/or digits"
 msgstr "Número do Pino: 1 a 4 leras ASCII e/ou dígitos"
 
 #: eeschema/dialogs/dialog_lib_edit_pin_base.cpp:50
-#, fuzzy
 msgid "&X position:"
-msgstr "Posição X:"
+msgstr "Posição &X:"
 
 #: eeschema/dialogs/dialog_lib_edit_pin_base.cpp:59
-#, fuzzy
 msgid "&Y position:"
-msgstr "Posição Y:"
+msgstr "Posição &Y:"
 
 #: eeschema/dialogs/dialog_lib_edit_pin_base.cpp:66
-#, fuzzy
 msgid "&Pin length:"
-msgstr "Comprimento do pino:"
+msgstr "Comprimento do &pino:"
 
 #: eeschema/dialogs/dialog_lib_edit_pin_base.cpp:73
 msgid "N&ame text size:"
 msgstr "T&amanho do texto do Nome:"
 
 #: eeschema/dialogs/dialog_lib_edit_pin_base.cpp:80
-#, fuzzy
 msgid "Number text si&ze:"
-msgstr "Tamanho do te&xto do Número:"
+msgstr "Tamanho de te&xto do número:"
 
 #: eeschema/dialogs/dialog_lib_edit_pin_base.cpp:87
-#, fuzzy
 msgid "Electrical type:"
-msgstr "Tipo &elétrico:"
+msgstr "Tipo elétrico:"
 
 #: eeschema/dialogs/dialog_lib_edit_pin_base.cpp:89
 msgid "Used by the ERC."
@@ -8197,14 +8191,14 @@ msgstr ""
 "ou ele pode não ser utilizável em outras versões do KiCad."
 
 #: eeschema/files-io.cpp:367
-#, fuzzy
 msgid "Illegal entry found in project file symbol library list."
-msgstr "Editar as listas de bibliotecas de símbolos globais e do projeto"
+msgstr ""
+"Entrada ilegal encontrada na lista de biblioteca de símbolo do arquivo de "
+"projeto."
 
 #: eeschema/files-io.cpp:368
-#, fuzzy
 msgid "Project Load Warning"
-msgstr "Aviso de CvPcb"
+msgstr "Alerta no Carregamento do Projeto"
 
 #: eeschema/files-io.cpp:371
 msgid ""
@@ -8213,11 +8207,14 @@ msgid ""
 "removed.  This may cause broken symbol library links under certain "
 "conditions."
 msgstr ""
+"Bibliotecas de símbolos definidas na lista de biblioteca de símbolos do "
+"arquivo de projeto não são mais suportadas e serão\n"
+"removidas.  Isto pode causar a quebra de links de biblioteca de símbolos em "
+"determinadas condições."
 
 #: eeschema/files-io.cpp:374
-#, fuzzy
 msgid "Do not show this dialog again."
-msgstr "Não mostrar novamente"
+msgstr "Não mostrar esta caixa de diálogo novamente."
 
 #: eeschema/files-io.cpp:431
 msgid "Append Schematic"
@@ -11453,16 +11450,16 @@ msgid "Select Symbol"
 msgstr "Selecionar Símbolo"
 
 #: eeschema/sheet.cpp:84
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "The schematic \"%s\" has not had it's symbol library links remapped to the "
 "symbol library table.  The project this schematic belongs to must first be "
 "remapped before it can be imported into the current project."
 msgstr ""
-"O esquema \"%s\" não foi remapeado para a tabela de biblioteca\n"
-"de símbolos.  O projeto a que este esquema pertence deve primeiro ser "
-"remapeado\n"
-"antes que possa ser importado no projeto atual."
+"O esquema \"%s\" não teve seus vínculos com a biblioteca de símbolos "
+"remapeados para a tabela de biblioteca de símbolos.  O projeto ao qual este "
+"esquema pertence deve primeiro ser remapeado antes que possa ser incorporado "
+"ao projeto atual."
 
 #: eeschema/sheet.cpp:145
 msgid ""
@@ -11473,14 +11470,12 @@ msgstr ""
 "esquemas de folha hierárquica."
 
 #: eeschema/sheet.cpp:148
-#, fuzzy
 msgid "Schematic Load Error"
-msgstr "Editor de Layout Esquemático"
+msgstr "Erro Carregando Esquema"
 
 #: eeschema/sheet.cpp:151
-#, fuzzy
 msgid "Use partial schematic"
-msgstr "Utilizar todo o esquema"
+msgstr "Utilizar esquema parcial"
 
 #: eeschema/sheet.cpp:160
 #, c-format
@@ -11493,14 +11488,12 @@ msgid "Failed to load schematic \"%s\""
 msgstr "Falha ao carregar esquema \"%s\""
 
 #: eeschema/sheet.cpp:227
-#, fuzzy
 msgid "Continue Load"
-msgstr "Continuar"
+msgstr "Continuar a Carregar"
 
 #: eeschema/sheet.cpp:228
-#, fuzzy
 msgid "Cancel Load"
-msgstr "Cancelar"
+msgstr "Cancelar Carga"
 
 #: eeschema/sheet.cpp:245
 msgid ""
@@ -11508,12 +11501,14 @@ msgid ""
 "project library table.  This may result in broken symbol library links for "
 "the loaded schematic.  Do you wish to continue?"
 msgstr ""
+"Há nomes de biblioteca no esquema carregado que estão faltando na tabela de "
+"bibliotecas do projeto.  Isto pode resultar em vínculos de biblioteca de "
+"símbolos quebrados.  Deseja continuar?"
 
 #: eeschema/sheet.cpp:248 eeschema/sheet.cpp:289 eeschema/sheet.cpp:339
 #: eeschema/sheet.cpp:400
-#, fuzzy
 msgid "Continue Load Schematic"
-msgstr "Anotar Esquema"
+msgstr "Continuar a Carregar o Esquema"
 
 #: eeschema/sheet.cpp:285
 #, c-format
@@ -11521,6 +11516,9 @@ msgid ""
 "The project library table \"%s\" does not exist or cannot be read.  This may "
 "result in broken symbol links for the schematic.  Do you wish to continue?"
 msgstr ""
+"A tabela de biblioteca \"%s\" do projeto não existe ou não pôde ser lida.  "
+"Isso pode resultar em vínculos de símbolos quebrados no esquema.  Deseja "
+"continuar?"
 
 #: eeschema/sheet.cpp:335
 msgid ""
@@ -11528,6 +11526,9 @@ msgid ""
 "loaded schematic project library table.  This may result in broken symbol "
 "library links for the schematic.  Do you wish to continue?"
 msgstr ""
+"Há nomes de biblioteca no esquema carregado que estão faltando na tabela de "
+"bibliotecas do projeto.  Isto pode resultar em vínculos de biblioteca de "
+"símbolos quebrados.  Deseja continuar?"
 
 #: eeschema/sheet.cpp:396
 msgid ""
@@ -11535,6 +11536,10 @@ msgid ""
 "current library table.  This conflict cannot be resolved and may result in "
 "broken symbol library links for the schematic.  Do you wish to continue?"
 msgstr ""
+"Existe um nome de biblioteca duplicado que referencia uma biblioteca "
+"diferente na tabela de biblioteca atual.  Este conflito não pode ser "
+"resolvido e pode resultar em vínculos de biblioteca de símbolos quebrados.  "
+"Deseja continuar?"
 
 #: eeschema/sheet.cpp:583
 #, c-format
@@ -20669,9 +20674,8 @@ msgid "Mirrored"
 msgstr "Espelhado"
 
 #: pcbnew/dialogs/dialog_text_properties_base.cpp:191
-#, fuzzy
 msgid "Lines thickness:"
-msgstr "Espessura da linha:"
+msgstr "Espessura das linhas:"
 
 #: pcbnew/dialogs/dialog_text_properties_base.cpp:211
 msgid "Parent footprint description"
@@ -23979,14 +23983,14 @@ msgstr ""
 "linha: %d, posição: %d"
 
 #: pcbnew/legacy_plugin.cpp:3249
-#, fuzzy, c-format
+#, c-format
 msgid "File '%s' is empty."
-msgstr "Arquivo \"%s\" inserido"
+msgstr "O arquivo '%s' está vazio."
 
 #: pcbnew/legacy_plugin.cpp:3252
-#, fuzzy, c-format
+#, c-format
 msgid "File '%s' is not a legacy library."
-msgstr "O arquivo \"%s\" está vazio ou não é uma biblioteca legada"
+msgstr "O arquivo '%s' não é uma biblioteca legada."
 
 #: pcbnew/load_select_footprint.cpp:248
 #, c-format
@@ -27105,9 +27109,8 @@ msgid "Place a module"
 msgstr "Inserir um módulo"
 
 #: pcbnew/tools/pcb_editor_control.cpp:599
-#, fuzzy
 msgid "Toggle Locking"
-msgstr "Bloqueio"
+msgstr "Alternar Bloqueio"
 
 #: pcbnew/tools/pcb_editor_control.cpp:669
 msgid "Place a layer alignment target"
