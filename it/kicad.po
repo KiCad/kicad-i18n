@@ -82,8 +82,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-03 15:20+0200\n"
-"PO-Revision-Date: 2019-10-03 15:23+0200\n"
+"POT-Creation-Date: 2019-10-16 09:15+0200\n"
+"PO-Revision-Date: 2019-10-16 09:15+0200\n"
 "Last-Translator: Marco Ciampa <ciampix@posteo.net>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
@@ -188,7 +188,7 @@ msgid "Z:"
 msgstr "Z:"
 
 #: 3d-viewer/3d_cache/dialogs/panel_prev_3d_base.cpp:65
-#: gerbview/gerber_draw_item.cpp:714 pcbnew/class_module.cpp:593
+#: gerbview/gerber_draw_item.cpp:727 pcbnew/class_module.cpp:593
 msgid "Rotation"
 msgstr "Rotazione"
 
@@ -1522,11 +1522,11 @@ msgstr "Info"
 #: eeschema/dialogs/dialog_annotate.cpp:262 eeschema/libedit/lib_export.cpp:153
 #: eeschema/libedit/pinedit.cpp:218 kicad/import_project.cpp:101
 #: kicad/prjconfig.cpp:397 pcbnew/dialogs/dialog_export_idf.cpp:171
-#: pcbnew/dialogs/dialog_gencad_export_options.cpp:126
+#: pcbnew/dialogs/dialog_gencad_export_options.cpp:130
 #: pcbnew/dialogs/dialog_track_via_properties.cpp:327
 #: pcbnew/footprint_libraries_utils.cpp:484
 #: pcbnew/footprint_libraries_utils.cpp:972 pcbnew/router/router_tool.cpp:1020
-#: pcbnew/router/router_tool.cpp:1171 pcbnew/router/router_tool.cpp:1250
+#: pcbnew/router/router_tool.cpp:1171 pcbnew/router/router_tool.cpp:1249
 #: pcbnew/zone_filler.cpp:246
 msgid "Confirmation"
 msgstr "Conferma"
@@ -1850,7 +1850,7 @@ msgstr "Variabili ambiente"
 #: eeschema/dialogs/dialog_lib_edit_pin_table_base.cpp:45
 #: eeschema/dialogs/panel_eeschema_template_fieldnames_base.cpp:38
 #: eeschema/dialogs/panel_sym_lib_table.cpp:226
-#: eeschema/fields_grid_table.cpp:145 eeschema/lib_pin.cpp:1711
+#: eeschema/fields_grid_table.cpp:145 eeschema/lib_pin.cpp:1694
 #: eeschema/libedit/libedit.cpp:824 eeschema/sch_component.cpp:1483
 #: eeschema/sch_component.cpp:1520 eeschema/viewlib_frame.cpp:292
 #: eeschema/widgets/tuner_slider_base.cpp:20
@@ -3170,12 +3170,12 @@ msgstr "Leggi file configurazione comandi da tastiera:"
 msgid "Write Hotkey Configuration File:"
 msgstr "Salva file configurazione comandi da tastiera:"
 
-#: common/kiway.cpp:184
+#: common/kiway.cpp:211
 #, c-format
 msgid "Failed to load kiface library \"%s\"."
 msgstr "Fallito il caricamento della libreria kiface \"%s\"."
 
-#: common/kiway.cpp:193
+#: common/kiway.cpp:220
 #, c-format
 msgid ""
 "Could not read instance name and version symbol form kiface library \"%s\"."
@@ -3183,7 +3183,7 @@ msgstr ""
 "Impossibile leggere nome istanza e simbolo di versione dalla libreria kiface "
 "\"%s\"."
 
-#: common/kiway.cpp:227
+#: common/kiway.cpp:254
 #, c-format
 msgid ""
 "Fatal Installation Bug. File:\n"
@@ -3194,15 +3194,15 @@ msgstr ""
 "\"%s\"\n"
 "non può essere caricato\n"
 
-#: common/kiway.cpp:231
+#: common/kiway.cpp:258
 msgid "It is missing.\n"
 msgstr "È mancante.\n"
 
-#: common/kiway.cpp:233
+#: common/kiway.cpp:260
 msgid "Perhaps a shared library (.dll or .so) file is missing.\n"
 msgstr "Forse manca un file di libreria condivisa (.dll o .so).\n"
 
-#: common/kiway.cpp:235
+#: common/kiway.cpp:262
 msgid ""
 "From command line: argv[0]:\n"
 "'"
@@ -3834,184 +3834,184 @@ msgstr "(doppio clic per modificare)"
 msgid "Hotkey"
 msgstr "Tasto"
 
-#: common/wildcards_and_files_ext.cpp:132
+#: common/wildcards_and_files_ext.cpp:157
 msgid "All files"
 msgstr "Tutti i file"
 
-#: common/wildcards_and_files_ext.cpp:138
+#: common/wildcards_and_files_ext.cpp:163
 msgid "KiCad drawing symbol files"
 msgstr "File di simboli grafici KiCad"
 
-#: common/wildcards_and_files_ext.cpp:144
+#: common/wildcards_and_files_ext.cpp:169
 msgid "KiCad symbol library files"
 msgstr "File di librerie di simboli KiCad"
 
-#: common/wildcards_and_files_ext.cpp:150
+#: common/wildcards_and_files_ext.cpp:175
 msgid "KiCad project files"
 msgstr "File progetto KiCad"
 
-#: common/wildcards_and_files_ext.cpp:156
+#: common/wildcards_and_files_ext.cpp:181
 msgid "KiCad schematic files"
 msgstr "File di schemi elettrici KiCad"
 
-#: common/wildcards_and_files_ext.cpp:162
+#: common/wildcards_and_files_ext.cpp:187
 msgid "Eagle XML schematic files"
 msgstr "File di schemi elettrici Eagle XML"
 
-#: common/wildcards_and_files_ext.cpp:168
+#: common/wildcards_and_files_ext.cpp:193
 msgid "Eagle XML files"
 msgstr "File Eagle XML"
 
-#: common/wildcards_and_files_ext.cpp:174
+#: common/wildcards_and_files_ext.cpp:199
 msgid "KiCad netlist files"
 msgstr "File di netlist KiCad"
 
-#: common/wildcards_and_files_ext.cpp:180 gerbview/files.cpp:54
+#: common/wildcards_and_files_ext.cpp:205 gerbview/files.cpp:54
 msgid "Gerber files"
 msgstr "File Gerber"
 
-#: common/wildcards_and_files_ext.cpp:186
-#: common/wildcards_and_files_ext.cpp:204
+#: common/wildcards_and_files_ext.cpp:211
+#: common/wildcards_and_files_ext.cpp:229
 msgid "KiCad printed circuit board files"
 msgstr "File di circuiti stampati KiCad"
 
-#: common/wildcards_and_files_ext.cpp:192
+#: common/wildcards_and_files_ext.cpp:217
 msgid "Eagle ver. 6.x XML PCB files"
 msgstr "File di C.S. Eagle ver. 6.x XML"
 
-#: common/wildcards_and_files_ext.cpp:198
+#: common/wildcards_and_files_ext.cpp:223
 msgid "P-Cad 200x ASCII PCB files"
 msgstr "File di C.S. P-Cad 200x ASCII"
 
-#: common/wildcards_and_files_ext.cpp:210
+#: common/wildcards_and_files_ext.cpp:235
 msgid "KiCad footprint files"
 msgstr "File impronte KiCad"
 
-#: common/wildcards_and_files_ext.cpp:216
+#: common/wildcards_and_files_ext.cpp:241
 msgid "KiCad footprint library paths"
 msgstr "Percorsi di file di libreria impronte Kicad"
 
-#: common/wildcards_and_files_ext.cpp:222
+#: common/wildcards_and_files_ext.cpp:247
 msgid "Legacy footprint library files"
 msgstr "File di libreria di impronte obsoleti"
 
-#: common/wildcards_and_files_ext.cpp:228
+#: common/wildcards_and_files_ext.cpp:253
 msgid "Eagle ver. 6.x XML library files"
 msgstr "File di libreria Eagle ver. 6.x XML"
 
-#: common/wildcards_and_files_ext.cpp:234
+#: common/wildcards_and_files_ext.cpp:259
 msgid "Geda PCB footprint library files"
 msgstr "File di libreria di impronte Geda PCB"
 
-#: common/wildcards_and_files_ext.cpp:240
+#: common/wildcards_and_files_ext.cpp:265
 msgid "Page layout design files"
 msgstr "File di disposizione pagina"
 
-#: common/wildcards_and_files_ext.cpp:247
+#: common/wildcards_and_files_ext.cpp:272
 msgid "KiCad symbol footprint link files"
 msgstr "File di collegamento impronte-simboli KiCad"
 
-#: common/wildcards_and_files_ext.cpp:254 gerbview/files.cpp:68
+#: common/wildcards_and_files_ext.cpp:279 gerbview/files.cpp:68
 msgid "Drill files"
 msgstr "File forature"
 
-#: common/wildcards_and_files_ext.cpp:260
+#: common/wildcards_and_files_ext.cpp:285
 msgid "SVG files"
 msgstr "File SVG"
 
-#: common/wildcards_and_files_ext.cpp:266
+#: common/wildcards_and_files_ext.cpp:291
 msgid "HTML files"
 msgstr "File HTML"
 
-#: common/wildcards_and_files_ext.cpp:272
+#: common/wildcards_and_files_ext.cpp:297
 msgid "CSV Files"
 msgstr "File CSV"
 
-#: common/wildcards_and_files_ext.cpp:278
+#: common/wildcards_and_files_ext.cpp:303
 msgid "Portable document format files"
 msgstr "File PDF"
 
-#: common/wildcards_and_files_ext.cpp:284
+#: common/wildcards_and_files_ext.cpp:309
 msgid "PostScript files"
 msgstr "File PostScript"
 
-#: common/wildcards_and_files_ext.cpp:290
+#: common/wildcards_and_files_ext.cpp:315
 msgid "Report files"
 msgstr "File rapporti"
 
-#: common/wildcards_and_files_ext.cpp:296
+#: common/wildcards_and_files_ext.cpp:321
 msgid "Footprint place files"
 msgstr "File di posizionamento impronte"
 
-#: common/wildcards_and_files_ext.cpp:302
+#: common/wildcards_and_files_ext.cpp:327
 msgid "VRML and X3D files"
 msgstr "File VRML e X3D"
 
-#: common/wildcards_and_files_ext.cpp:308
+#: common/wildcards_and_files_ext.cpp:333
 msgid "IDFv3 footprint files"
 msgstr "File impronte IDFv3"
 
-#: common/wildcards_and_files_ext.cpp:314
+#: common/wildcards_and_files_ext.cpp:339
 msgid "Text files"
 msgstr "File di testo"
 
-#: common/wildcards_and_files_ext.cpp:320
+#: common/wildcards_and_files_ext.cpp:345
 msgid "Legacy footprint export files"
 msgstr "File di esportazione impronte obsoleti"
 
-#: common/wildcards_and_files_ext.cpp:326
+#: common/wildcards_and_files_ext.cpp:351
 msgid "Electronic rule check file"
 msgstr "File di controllo regole elettroniche"
 
-#: common/wildcards_and_files_ext.cpp:332
+#: common/wildcards_and_files_ext.cpp:357
 msgid "Spice library file"
 msgstr "File di libreria Spice"
 
-#: common/wildcards_and_files_ext.cpp:338
+#: common/wildcards_and_files_ext.cpp:363
 msgid "SPICE netlist file"
 msgstr "File netlist SPICE"
 
-#: common/wildcards_and_files_ext.cpp:344
+#: common/wildcards_and_files_ext.cpp:369
 msgid "CadStar netlist file"
 msgstr "File netlist CadStar"
 
-#: common/wildcards_and_files_ext.cpp:350
+#: common/wildcards_and_files_ext.cpp:375
 msgid "Symbol footprint association files"
 msgstr "File di associazione simboli-impronte"
 
-#: common/wildcards_and_files_ext.cpp:356
+#: common/wildcards_and_files_ext.cpp:381
 msgid "Zip file"
 msgstr "File zip"
 
-#: common/wildcards_and_files_ext.cpp:362
+#: common/wildcards_and_files_ext.cpp:387
 msgid "GenCAD 1.4 board files"
 msgstr "File di C.S. GenCAD 1.4"
 
-#: common/wildcards_and_files_ext.cpp:368
+#: common/wildcards_and_files_ext.cpp:393
 msgid "DXF Files"
 msgstr "File DXF"
 
-#: common/wildcards_and_files_ext.cpp:374
+#: common/wildcards_and_files_ext.cpp:399
 msgid "Gerber job file"
 msgstr "File di lavoro Gerber"
 
-#: common/wildcards_and_files_ext.cpp:380
+#: common/wildcards_and_files_ext.cpp:405
 msgid "Specctra DSN file"
 msgstr "File Specctra DSN"
 
-#: common/wildcards_and_files_ext.cpp:386
+#: common/wildcards_and_files_ext.cpp:411
 msgid "IPC-D-356 Test Files"
 msgstr "File di test IPC-D-356"
 
-#: common/wildcards_and_files_ext.cpp:392
+#: common/wildcards_and_files_ext.cpp:417
 msgid "Workbook file"
 msgstr "File libretto di lavoro"
 
-#: common/wildcards_and_files_ext.cpp:398
+#: common/wildcards_and_files_ext.cpp:423
 msgid "PNG file"
 msgstr "File PNG"
 
-#: common/wildcards_and_files_ext.cpp:404
+#: common/wildcards_and_files_ext.cpp:429
 msgid "Jpeg file"
 msgstr "File Jpeg"
 
@@ -4673,11 +4673,11 @@ msgstr "Cambia la visibilità"
 msgid "Failed to open component-footprint link file \"%s\""
 msgstr "Fallita l'apertura del file di associazione componenti-impronte \"%s\""
 
-#: eeschema/block.cpp:452
+#: eeschema/block.cpp:457
 msgid "No item to paste."
 msgstr "Nessun elemento da incollare."
 
-#: eeschema/block.cpp:487 eeschema/sheet.cpp:63
+#: eeschema/block.cpp:492 eeschema/sheet.cpp:63
 #, c-format
 msgid ""
 "The sheet changes cannot be made because the destination sheet already has "
@@ -5138,7 +5138,7 @@ msgstr "Dimensioni testo"
 #: eeschema/dialogs/dialog_edit_label_base.cpp:83
 #: eeschema/dialogs/dialog_lib_edit_pin_table.cpp:79
 #: eeschema/dialogs/dialog_lib_edit_pin_table_base.cpp:48
-#: eeschema/fields_grid_table.cpp:153 eeschema/lib_pin.cpp:1733
+#: eeschema/fields_grid_table.cpp:153 eeschema/lib_pin.cpp:1716
 #: eeschema/onrightclick.cpp:417 eeschema/onrightclick.cpp:827
 #: eeschema/sch_text.cpp:611
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:60
@@ -5660,7 +5660,7 @@ msgid "Bold and italic"
 msgstr "Grassetto corsivo"
 
 #: eeschema/dialogs/dialog_edit_label_base.cpp:89 eeschema/lib_field.cpp:617
-#: eeschema/lib_pin.cpp:1719 eeschema/sch_text.cpp:622
+#: eeschema/lib_pin.cpp:1702 eeschema/sch_text.cpp:622
 msgid "Style"
 msgstr "Stile"
 
@@ -6125,7 +6125,7 @@ msgstr "Proprietà piedino"
 
 #: eeschema/dialogs/dialog_lib_edit_pin_table.cpp:75
 #: eeschema/dialogs/dialog_lib_edit_pin_table_base.cpp:44
-#: eeschema/lib_pin.cpp:1713
+#: eeschema/lib_pin.cpp:1696
 msgid "Number"
 msgstr "Numero"
 
@@ -6151,7 +6151,7 @@ msgstr "Dimensioni testo nome"
 
 #: eeschema/dialogs/dialog_lib_edit_pin_table.cpp:82
 #: eeschema/dialogs/dialog_lib_edit_pin_table_base.cpp:51
-#: eeschema/lib_pin.cpp:1730 pcbnew/class_drawsegment.cpp:473
+#: eeschema/lib_pin.cpp:1713 pcbnew/class_drawsegment.cpp:473
 #: pcbnew/class_track.cpp:1072
 msgid "Length"
 msgstr "Lunghezza"
@@ -6180,7 +6180,7 @@ msgstr "Seleziona"
 
 #: eeschema/dialogs/dialog_lib_edit_text_base.cpp:55
 #: eeschema/dialogs/panel_eeschema_template_fieldnames_base.cpp:39
-#: eeschema/lib_pin.cpp:1726
+#: eeschema/lib_pin.cpp:1709
 #: pcbnew/dialogs/dialog_global_edit_text_and_graphics_base.cpp:135
 #: pcbnew/dialogs/dialog_text_properties_base.cpp:91
 #: pcbnew/dialogs/panel_modedit_defaults_base.cpp:47
@@ -7859,8 +7859,8 @@ msgstr ""
 "%s"
 
 #: eeschema/dialogs/panel_sym_lib_table.cpp:784
-#: eeschema/dialogs/panel_sym_lib_table.cpp:798 eeschema/sch_base_frame.cpp:339
-#: eeschema/sch_base_frame.cpp:355 pcbnew/dialogs/panel_fp_lib_table.cpp:839
+#: eeschema/dialogs/panel_sym_lib_table.cpp:798 eeschema/sch_base_frame.cpp:340
+#: eeschema/sch_base_frame.cpp:356 pcbnew/dialogs/panel_fp_lib_table.cpp:839
 #: pcbnew/dialogs/panel_fp_lib_table.cpp:852 pcbnew/files.cpp:895
 msgid "File Save Error"
 msgstr "Errore salvataggio file"
@@ -8893,7 +8893,7 @@ msgstr "Centro cerchio (%s, %s), raggio %s"
 msgid "Circle"
 msgstr "Cerchio"
 
-#: eeschema/lib_draw_item.cpp:62 eeschema/lib_pin.cpp:1715
+#: eeschema/lib_draw_item.cpp:62 eeschema/lib_pin.cpp:1698
 #: eeschema/libedit/libedit.cpp:843 eeschema/sch_text.cpp:640
 #: gerbview/gerber_draw_item.cpp:692 pcbnew/class_drawsegment.cpp:442
 #: pcbnew/class_marker_pcb.cpp:96 pcbnew/class_text_mod.cpp:422
@@ -8944,31 +8944,31 @@ msgstr "Larghezza"
 msgid "Height"
 msgstr "Altezza"
 
-#: eeschema/lib_pin.cpp:1722 gerbview/gerber_draw_item.cpp:722
-#: gerbview/gerber_draw_item.cpp:723 pcbnew/class_pcb_text.cpp:133
+#: eeschema/lib_pin.cpp:1705 gerbview/gerber_draw_item.cpp:735
+#: gerbview/gerber_draw_item.cpp:736 pcbnew/class_pcb_text.cpp:133
 #: pcbnew/class_text_mod.cpp:427 pcbnew/class_text_mod.cpp:435
 #: pcbnew/dialogs/panel_pcbnew_settings_base.cpp:130
 msgid "Yes"
 msgstr "Sì"
 
-#: eeschema/lib_pin.cpp:1724 gerbview/gerber_draw_item.cpp:722
-#: gerbview/gerber_draw_item.cpp:723 pcbnew/class_pcb_text.cpp:131
+#: eeschema/lib_pin.cpp:1707 gerbview/gerber_draw_item.cpp:735
+#: gerbview/gerber_draw_item.cpp:736 pcbnew/class_pcb_text.cpp:131
 #: pcbnew/class_text_mod.cpp:425 pcbnew/class_text_mod.cpp:437
 #: pcbnew/dialogs/panel_pcbnew_settings_base.cpp:130
 msgid "No"
 msgstr "No"
 
-#: eeschema/lib_pin.cpp:1746 eeschema/lib_pin.cpp:1765
+#: eeschema/lib_pin.cpp:1729 eeschema/lib_pin.cpp:1748
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:1099
 msgid "Pos X"
 msgstr "Pos X"
 
-#: eeschema/lib_pin.cpp:1749 eeschema/lib_pin.cpp:1768
+#: eeschema/lib_pin.cpp:1732 eeschema/lib_pin.cpp:1751
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:1100
 msgid "Pos Y"
 msgstr "Pos Y"
 
-#: eeschema/lib_pin.cpp:1964
+#: eeschema/lib_pin.cpp:1947
 #, c-format
 msgid "Pin %s, %s, %s"
 msgstr "Pin %s, %s, %s"
@@ -9198,7 +9198,7 @@ msgstr "Il simbolo \"%s\" esiste già in \"%s\"."
 
 #: eeschema/libedit/lib_export.cpp:154 kicad/prjconfig.cpp:399
 #: pcbnew/dialogs/dialog_export_idf.cpp:172
-#: pcbnew/dialogs/dialog_gencad_export_options.cpp:127
+#: pcbnew/dialogs/dialog_gencad_export_options.cpp:131
 #: pcbnew/footprint_libraries_utils.cpp:485
 #: pcbnew/footprint_libraries_utils.cpp:973
 msgid "Overwrite"
@@ -10888,7 +10888,7 @@ msgstr ""
 msgid "Could not load symbol \"%s\" from library \"%s\"."
 msgstr "Impossibile caricare il simbolo \"%s\" dalla libreria \"%s\"."
 
-#: eeschema/sch_base_frame.cpp:338
+#: eeschema/sch_base_frame.cpp:339
 #, c-format
 msgid ""
 "Error saving global symbol library table:\n"
@@ -10899,7 +10899,7 @@ msgstr ""
 "\n"
 "%s"
 
-#: eeschema/sch_base_frame.cpp:354
+#: eeschema/sch_base_frame.cpp:355
 #, c-format
 msgid ""
 "Error saving project-specific symbol library table:\n"
@@ -10911,7 +10911,7 @@ msgstr ""
 "\n"
 "%s"
 
-#: eeschema/sch_base_frame.cpp:552
+#: eeschema/sch_base_frame.cpp:554
 msgid "Nothing to paste"
 msgstr "Niente da incollare"
 
@@ -12587,57 +12587,61 @@ msgstr "Apri file zip"
 msgid "Messages"
 msgstr "Messaggi"
 
-#: gerbview/gerber_draw_item.cpp:695
-#, c-format
-msgid "D Code %d"
-msgstr "Codice D %d"
+#: gerbview/gerber_draw_item.cpp:698
+msgid "Attribute"
+msgstr "Attributo"
 
-#: gerbview/gerber_draw_item.cpp:699
+#: gerbview/gerber_draw_item.cpp:701 gerbview/gerber_draw_item.cpp:711
 msgid "No attribute"
 msgstr "Nessun attributo"
 
 #: gerbview/gerber_draw_item.cpp:707
+#, c-format
+msgid "D Code %d"
+msgstr "Codice D %d"
+
+#: gerbview/gerber_draw_item.cpp:720
 msgid "Graphic Layer"
 msgstr "Strato grafico"
 
-#: gerbview/gerber_draw_item.cpp:717
+#: gerbview/gerber_draw_item.cpp:730
 msgid "Clear"
 msgstr "Chiaro"
 
-#: gerbview/gerber_draw_item.cpp:717
+#: gerbview/gerber_draw_item.cpp:730
 msgid "Dark"
 msgstr "Scuro"
 
-#: gerbview/gerber_draw_item.cpp:718 gerbview/gerber_file_image.cpp:359
+#: gerbview/gerber_draw_item.cpp:731 gerbview/gerber_file_image.cpp:359
 msgid "Polarity"
 msgstr "Polarità"
 
-#: gerbview/gerber_draw_item.cpp:724 pcbnew/class_pcb_text.cpp:131
+#: gerbview/gerber_draw_item.cpp:737 pcbnew/class_pcb_text.cpp:131
 #: pcbnew/class_pcb_text.cpp:133 pcbnew/class_text_mod.cpp:439
 #: pcbnew/footprint_editor_onclick.cpp:290 pcbnew/tools/edit_tool.cpp:126
 #: pcbnew/tools/edit_tool.cpp:848
 msgid "Mirror"
 msgstr "Speculare"
 
-#: gerbview/gerber_draw_item.cpp:728
+#: gerbview/gerber_draw_item.cpp:741
 msgid "AB axis"
 msgstr "Asse AB"
 
-#: gerbview/gerber_draw_item.cpp:740 gerbview/toolbars_gerber.cpp:137
+#: gerbview/gerber_draw_item.cpp:753 gerbview/toolbars_gerber.cpp:137
 #: pcbnew/dialogs/dialog_track_via_properties_base.cpp:25
 msgid "Net:"
 msgstr "Collegamento:"
 
-#: gerbview/gerber_draw_item.cpp:751
+#: gerbview/gerber_draw_item.cpp:764
 #, c-format
 msgid "Cmp: %s;  Pad: %s"
 msgstr "Cmp: %s;  Pia: %s"
 
-#: gerbview/gerber_draw_item.cpp:758
+#: gerbview/gerber_draw_item.cpp:771
 msgid "Cmp:"
 msgstr "Cmp:"
 
-#: gerbview/gerber_draw_item.cpp:991
+#: gerbview/gerber_draw_item.cpp:1004
 #, c-format
 msgid "%s (D%d) on layer %d: %s"
 msgstr "%s (D%d) su strato %d: %s"
@@ -17341,7 +17345,7 @@ msgid "Modify module properties"
 msgstr "Modifica le proprietà del componente"
 
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor.cpp:800
-#: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor.cpp:755
+#: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor.cpp:735
 msgid "Reference and value are mandatory."
 msgstr "Riferimento e valore sono obbligatori."
 
@@ -17833,7 +17837,7 @@ msgid "%s"
 msgstr "%s"
 
 #: pcbnew/dialogs/dialog_export_idf.cpp:170
-#: pcbnew/dialogs/dialog_gencad_export_options.cpp:125
+#: pcbnew/dialogs/dialog_gencad_export_options.cpp:129
 #, c-format
 msgid "File %s already exists."
 msgstr "Il file %s esiste già."
@@ -18327,29 +18331,29 @@ msgstr "Genera il file posizione impronte"
 msgid "Export to GenCAD settings"
 msgstr "Esporta sulle impostazioni GenCAD"
 
-#: pcbnew/dialogs/dialog_gencad_export_options.cpp:141
+#: pcbnew/dialogs/dialog_gencad_export_options.cpp:145
 msgid "Flip bottom footprint padstacks"
 msgstr "Capovolgi lo stack piazzole dei componenti posteriori"
 
-#: pcbnew/dialogs/dialog_gencad_export_options.cpp:142
+#: pcbnew/dialogs/dialog_gencad_export_options.cpp:146
 msgid "Generate unique pin names"
 msgstr "Genera nomi pin univoci"
 
-#: pcbnew/dialogs/dialog_gencad_export_options.cpp:143
+#: pcbnew/dialogs/dialog_gencad_export_options.cpp:147
 msgid "Generate a new shape for each footprint instance (do not reuse shapes)"
 msgstr ""
 "Genera una nuova forma per ogni istanza di impronta (non riusare le forme)"
 
-#: pcbnew/dialogs/dialog_gencad_export_options.cpp:144
+#: pcbnew/dialogs/dialog_gencad_export_options.cpp:148
 #: pcbnew/dialogs/dialog_plot_base.cpp:110
 msgid "Use auxiliary axis as origin"
 msgstr "Usa asse ausiliario come origine"
 
-#: pcbnew/dialogs/dialog_gencad_export_options.cpp:145
+#: pcbnew/dialogs/dialog_gencad_export_options.cpp:149
 msgid "Save the origin coordinates in the file"
 msgstr "Salva le origini delle coordinate nel file"
 
-#: pcbnew/dialogs/dialog_gencad_export_options.cpp:159
+#: pcbnew/dialogs/dialog_gencad_export_options.cpp:163
 msgid "Save GenCAD Board File"
 msgstr "Salva file scheda GenCAD"
 
@@ -25201,7 +25205,7 @@ msgid "Create Track Array..."
 msgstr "Crea schiera di tracce..."
 
 #: pcbnew/onrightclick.cpp:493 pcbnew/router/router_tool.cpp:122
-#: pcbnew/router/router_tool.cpp:128 pcbnew/router/router_tool.cpp:1252
+#: pcbnew/router/router_tool.cpp:128 pcbnew/router/router_tool.cpp:1251
 msgid "Break Track"
 msgstr "Interrompi pista"
 
@@ -26049,7 +26053,7 @@ msgstr ""
 "Questa zona non può essere gestita dallo strumento di disposizione piste.\n"
 "Verificare che non sia un poligono autointersecante."
 
-#: pcbnew/router/pns_kicad_iface.cpp:1233
+#: pcbnew/router/pns_kicad_iface.cpp:1269
 msgid "Added a track"
 msgstr "Aggiunta una pista"
 
@@ -26319,7 +26323,7 @@ msgid "Router Differential Pair"
 msgstr "Sbroglia coppia differenziale"
 
 #: pcbnew/router/router_tool.cpp:1020 pcbnew/router/router_tool.cpp:1171
-#: pcbnew/router/router_tool.cpp:1250
+#: pcbnew/router/router_tool.cpp:1249
 msgid "The selected item is locked."
 msgstr "L'elemento selezionato è bloccato."
 
