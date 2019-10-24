@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: KiCad i18n Deutsch\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-19 21:19+0200\n"
-"PO-Revision-Date: 2019-07-11 14:29+0200\n"
-"Last-Translator: Carsten Schoenert <c.schoenert@t-online.de>\n"
+"PO-Revision-Date: 2019-10-24 18:27+0200\n"
+"Last-Translator: Jan <janvi@veith.net>\n"
 "Language-Team: \n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Basepath: /mnt/kicad\n"
 "X-Poedit-KeywordsList: _;_HKI\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.0.6\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Bookmarks: -1,2168,-1,-1,-1,-1,-1,-1,-1,-1\n"
@@ -2072,7 +2072,7 @@ msgstr "Dummytext"
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:131
 #: pcbnew/dialogs/dialog_text_properties_base.cpp:146
 msgid "Orientation:"
-msgstr "Ausrichtung:"
+msgstr "Rotation:"
 
 #: common/dialogs/dialog_page_settings_base.cpp:52
 msgid "Custom paper size:"
@@ -20748,7 +20748,7 @@ msgstr "Objekt Eigenschaften"
 
 #: pcbnew/dialogs/dialog_text_properties.cpp:78
 msgid "Dimension Text Properties"
-msgstr "Eigenschaften der Text Abmessungen"
+msgstr "Eigenschaften der Bemaßung"
 
 #: pcbnew/dialogs/dialog_text_properties.cpp:93
 msgid "Footprint Text Properties"
@@ -20785,7 +20785,7 @@ msgstr "Zu platzierenden Text für gewählte Lage eingeben."
 
 #: pcbnew/dialogs/dialog_text_properties_base.cpp:54
 msgid "Dimension text:"
-msgstr "Abmessungen Text:"
+msgstr "Bemaßungstext:"
 
 #: pcbnew/dialogs/dialog_text_properties_base.cpp:125
 msgid "Justification:"
@@ -20796,9 +20796,8 @@ msgid "Mirrored"
 msgstr "gespiegelt"
 
 #: pcbnew/dialogs/dialog_text_properties_base.cpp:191
-#, fuzzy
 msgid "Lines thickness:"
-msgstr "Linienstärke:"
+msgstr "Strichstärke:"
 
 #: pcbnew/dialogs/dialog_text_properties_base.cpp:211
 msgid "Parent footprint description"
@@ -24537,7 +24536,7 @@ msgstr "Text oder Grafik einer Kupferlage hinzufügen"
 
 #: pcbnew/menubar_pcb_editor.cpp:325
 msgid "&Dimension"
-msgstr "&Abmessungen"
+msgstr "&Bemaßung"
 
 #: pcbnew/menubar_pcb_editor.cpp:329
 msgid "La&yer Alignment Target"
