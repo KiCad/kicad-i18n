@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-30 10:05-0300\n"
-"PO-Revision-Date: 2019-09-03 07:56-0300\n"
+"POT-Creation-Date: 2019-10-30 10:12-0300\n"
+"PO-Revision-Date: 2019-10-30 10:11-0300\n"
 "Last-Translator: Francisco R. Pereira <frosch_bin@yahoo.com.br>\n"
 "Language-Team: kicad team\n"
 "Language: pt_BR\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Basepath: ../../kicad-source-mirror\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 2.2.3\n"
+"X-Generator: Poedit 2.2.4\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Poedit-KeywordsList: _;_HKI\n"
 "X-Poedit-SearchPath-0: 3d-viewer\n"
@@ -4517,9 +4517,8 @@ msgid "Footprint Filters:"
 msgstr "Filtros de Footprint:"
 
 #: cvpcb/toolbars_cvpcb.cpp:82
-#, fuzzy
 msgid "Use schematic symbol footprint filters"
-msgstr "Fechar o visualizador de símbolos esquemáticos"
+msgstr "Utilizar filtros de footprint de símbolos esquemáticos"
 
 #: cvpcb/toolbars_cvpcb.cpp:89
 msgid "Filter footprint list by pin count"
@@ -12521,9 +12520,8 @@ msgid "Messages"
 msgstr "Mensagens"
 
 #: gerbview/gerber_draw_item.cpp:698
-#, fuzzy
 msgid "Attribute"
-msgstr "Atributos"
+msgstr "Atributo"
 
 #: gerbview/gerber_draw_item.cpp:701 gerbview/gerber_draw_item.cpp:711
 msgid "No attribute"
@@ -23673,9 +23671,8 @@ msgid "Please select a valid layer."
 msgstr "Por favor, selecione uma camada válida."
 
 #: pcbnew/import_gfx/dialog_import_gfx.cpp:342
-#, fuzzy
 msgid "Items in the imported file could not be handled properly."
-msgstr "Alguns dos arquivos do projeto não puderam ser salvos no backup."
+msgstr "Itens no arquivo importado não puderam ser manipulados corretamente."
 
 #: pcbnew/import_gfx/dialog_import_gfx.cpp:350
 msgid "There is no plugin to handle this file type."
