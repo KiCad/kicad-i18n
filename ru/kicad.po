@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-27 09:46+0200\n"
+"POT-Creation-Date: 2019-11-15 23:16+0100\n"
 "PO-Revision-Date: 2019-10-27 09:44+0200\n"
 "Last-Translator: Baranovskiy Konstantin <baranovskiykonstantin@gmail.com>\n"
 "Language-Team: Russian\n"
@@ -3147,7 +3147,7 @@ msgstr "Вставить блок"
 #: gerbview/events_called_functions.cpp:230 gerbview/toolbars_gerber.cpp:89
 #: pagelayout_editor/events_functions.cpp:138
 #: pagelayout_editor/toolbars_pl_editor.cpp:98 pcbnew/edit.cpp:1426
-#: pcbnew/footprint_editor_utils.cpp:974 pcbnew/tool_footprint_editor.cpp:97
+#: pcbnew/footprint_editor_utils.cpp:979 pcbnew/tool_footprint_editor.cpp:97
 #: pcbnew/tool_pcb_editor.cpp:288
 msgid "Zoom to selection"
 msgstr "Увеличить выбранное"
@@ -8300,7 +8300,7 @@ msgstr "Перерисовать изображение схемы на экра
 
 #: eeschema/help_common_strings.h:48 eeschema/libedit/lib_edit_frame.cpp:1200
 #: eeschema/schedit.cpp:590 pcbnew/edit.cpp:1496
-#: pcbnew/footprint_editor_utils.cpp:1017 pcbnew/tool_footprint_editor.cpp:188
+#: pcbnew/footprint_editor_utils.cpp:1022 pcbnew/tool_footprint_editor.cpp:188
 #: pcbnew/tools/pcbnew_control.cpp:692
 msgid "Delete item"
 msgstr "Удалить элемент"
@@ -8931,7 +8931,7 @@ msgid "Set pin options"
 msgstr "Установка параметров вывода"
 
 #: eeschema/libedit/lib_edit_frame.cpp:1158 eeschema/schedit.cpp:545
-#: pcbnew/edit.cpp:1484 pcbnew/footprint_editor_utils.cpp:992
+#: pcbnew/edit.cpp:1484 pcbnew/footprint_editor_utils.cpp:997
 #: pcbnew/tools/drawing_tool.cpp:356
 msgid "Add text"
 msgstr "Добавить текст"
@@ -8941,17 +8941,17 @@ msgid "Add rectangle"
 msgstr "Добавить прямоугольник"
 
 #: eeschema/libedit/lib_edit_frame.cpp:1166
-#: pcbnew/footprint_editor_utils.cpp:988
+#: pcbnew/footprint_editor_utils.cpp:993
 msgid "Add circle"
 msgstr "Добавить окружность"
 
 #: eeschema/libedit/lib_edit_frame.cpp:1170
-#: pcbnew/footprint_editor_utils.cpp:984
+#: pcbnew/footprint_editor_utils.cpp:989
 msgid "Add arc"
 msgstr "Добавить дугу"
 
 #: eeschema/libedit/lib_edit_frame.cpp:1174
-#: pcbnew/footprint_editor_utils.cpp:980
+#: pcbnew/footprint_editor_utils.cpp:985
 msgid "Add line"
 msgstr "Добавить линию"
 
@@ -12995,7 +12995,7 @@ msgstr "Отменить подсветку"
 msgid "File \"%s\" not found"
 msgstr "Файл \"%s\" не найден"
 
-#: gerbview/readgerb.cpp:82
+#: gerbview/readgerb.cpp:83
 msgid ""
 "Warning: this file has no D-Code definition\n"
 "It is perhaps an old RS274D file\n"
@@ -22730,32 +22730,32 @@ msgstr "Текущее посад.место изменено. Сохранит�
 msgid "_copy"
 msgstr "_копия"
 
-#: pcbnew/footprint_editor_utils.cpp:996
+#: pcbnew/footprint_editor_utils.cpp:1001
 msgid "Place anchor"
 msgstr "Разместить закрепление"
 
-#: pcbnew/footprint_editor_utils.cpp:1000 pcbnew/tool_footprint_editor.cpp:192
+#: pcbnew/footprint_editor_utils.cpp:1005 pcbnew/tool_footprint_editor.cpp:192
 msgid "Set grid origin"
 msgstr "Установить начало координат сетки"
 
-#: pcbnew/footprint_editor_utils.cpp:1006
+#: pcbnew/footprint_editor_utils.cpp:1011
 #: pcbnew/menubar_footprint_editor.cpp:342 pcbnew/tool_footprint_editor.cpp:163
 msgid "Add pad"
 msgstr "Добавить конт.пл."
 
-#: pcbnew/footprint_editor_utils.cpp:1010
+#: pcbnew/footprint_editor_utils.cpp:1015
 msgid "Pad properties"
 msgstr "Свойства контактной площадки"
 
-#: pcbnew/footprint_editor_utils.cpp:1050
+#: pcbnew/footprint_editor_utils.cpp:1055
 msgid "Cannot delete REFERENCE!"
 msgstr "Не удалось удалить ОБОЗНАЧЕНИЕ!"
 
-#: pcbnew/footprint_editor_utils.cpp:1054
+#: pcbnew/footprint_editor_utils.cpp:1059
 msgid "Cannot delete VALUE!"
 msgstr "Не удалось удалить ЗНАЧЕНИЕ!"
 
-#: pcbnew/footprint_editor_utils.cpp:1140
+#: pcbnew/footprint_editor_utils.cpp:1145
 #, c-format
 msgid ""
 "The current configuration does not include the footprint library\n"
@@ -22766,11 +22766,11 @@ msgstr ""
 "\"%s\".\n"
 "Воспользуйтесь менеджером библиотек посад.мест для редактирования настроек."
 
-#: pcbnew/footprint_editor_utils.cpp:1143
+#: pcbnew/footprint_editor_utils.cpp:1148
 msgid "Library not found in footprint library table."
 msgstr "Библиотека посад.мест не найдена в таблице."
 
-#: pcbnew/footprint_editor_utils.cpp:1151 pcbnew/footprint_viewer_frame.cpp:619
+#: pcbnew/footprint_editor_utils.cpp:1156 pcbnew/footprint_viewer_frame.cpp:619
 #, c-format
 msgid ""
 "The library with the nickname \"%s\" is not enabled\n"
@@ -22781,7 +22781,7 @@ msgstr ""
 "в текущей конфигурации. Воспользуйтесь менеджером библиотек посад.мест для\n"
 "редактирования настроек."
 
-#: pcbnew/footprint_editor_utils.cpp:1154 pcbnew/footprint_viewer_frame.cpp:622
+#: pcbnew/footprint_editor_utils.cpp:1159 pcbnew/footprint_viewer_frame.cpp:622
 msgid "Footprint library not enabled."
 msgstr "Библиотека посад.мест не задействована."
 
@@ -23629,7 +23629,7 @@ msgstr ""
 msgid "UNKNOWN (%d)"
 msgstr "НЕИЗВЕСТНЫЙ (%d)"
 
-#: pcbnew/kicad_clipboard.cpp:332
+#: pcbnew/kicad_clipboard.cpp:338
 msgid "Clipboard content is not KiCad compatible"
 msgstr "Содержимое буфера обмена не совместимо с KiCad."
 

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-23 16:25+0200\n"
+"POT-Creation-Date: 2019-11-15 23:16+0100\n"
 "PO-Revision-Date: 2019-10-23 16:25+0200\n"
 "Last-Translator: \n"
 "Language-Team: jp-charras\n"
@@ -3177,7 +3177,7 @@ msgstr "Duplic. Bloc"
 #: gerbview/events_called_functions.cpp:230 gerbview/toolbars_gerber.cpp:89
 #: pagelayout_editor/events_functions.cpp:138
 #: pagelayout_editor/toolbars_pl_editor.cpp:98 pcbnew/edit.cpp:1426
-#: pcbnew/footprint_editor_utils.cpp:974 pcbnew/tool_footprint_editor.cpp:97
+#: pcbnew/footprint_editor_utils.cpp:979 pcbnew/tool_footprint_editor.cpp:97
 #: pcbnew/tool_pcb_editor.cpp:288
 msgid "Zoom to selection"
 msgstr "Zoom sur la sélection"
@@ -3571,7 +3571,7 @@ msgid "Footprint not found"
 msgstr "Empreinte non trouvée"
 
 #: common/widgets/footprint_select_widget.cpp:78 cvpcb/cvpcb_mainframe.cpp:850
-#: pcbnew/footprint_edit_frame.cpp:863 pcbnew/load_select_footprint.cpp:214
+#: pcbnew/footprint_edit_frame.cpp:863 pcbnew/load_select_footprint.cpp:216
 msgid "Loading Footprint Libraries"
 msgstr "Chargement Librairies d'Empreintes"
 
@@ -5856,7 +5856,7 @@ msgstr "Référence"
 #: eeschema/lib_field.cpp:470 eeschema/sch_component.cpp:1504
 #: eeschema/template_fieldnames.cpp:49 pcbnew/class_edge_mod.cpp:285
 #: pcbnew/class_module.cpp:616 pcbnew/class_pad.cpp:768
-#: pcbnew/class_text_mod.cpp:416 pcbnew/load_select_footprint.cpp:359
+#: pcbnew/class_text_mod.cpp:416 pcbnew/load_select_footprint.cpp:362
 msgid "Footprint"
 msgstr "Empreinte"
 
@@ -8327,7 +8327,7 @@ msgstr "Mots clé:"
 msgid "Unknown"
 msgstr "Inconnu"
 
-#: eeschema/getpart.cpp:153 pcbnew/load_select_footprint.cpp:238
+#: eeschema/getpart.cpp:153 pcbnew/load_select_footprint.cpp:241
 msgid "Recently Used"
 msgstr "Récemment Utilisés"
 
@@ -8366,7 +8366,7 @@ msgstr "Rafraîchir l'écran la vue du schéma"
 
 #: eeschema/help_common_strings.h:48 eeschema/libedit/lib_edit_frame.cpp:1200
 #: eeschema/schedit.cpp:590 pcbnew/edit.cpp:1496
-#: pcbnew/footprint_editor_utils.cpp:1017 pcbnew/tool_footprint_editor.cpp:188
+#: pcbnew/footprint_editor_utils.cpp:1022 pcbnew/tool_footprint_editor.cpp:188
 #: pcbnew/tools/pcbnew_control.cpp:692
 msgid "Delete item"
 msgstr "Suppression d'éléments"
@@ -8998,7 +8998,7 @@ msgid "Set pin options"
 msgstr "Choix options de pin"
 
 #: eeschema/libedit/lib_edit_frame.cpp:1158 eeschema/schedit.cpp:545
-#: pcbnew/edit.cpp:1484 pcbnew/footprint_editor_utils.cpp:992
+#: pcbnew/edit.cpp:1484 pcbnew/footprint_editor_utils.cpp:997
 #: pcbnew/tools/drawing_tool.cpp:356
 msgid "Add text"
 msgstr "Ajout de Texte"
@@ -9008,17 +9008,17 @@ msgid "Add rectangle"
 msgstr "Ajout de rectangle"
 
 #: eeschema/libedit/lib_edit_frame.cpp:1166
-#: pcbnew/footprint_editor_utils.cpp:988
+#: pcbnew/footprint_editor_utils.cpp:993
 msgid "Add circle"
 msgstr "Ajout de cercle"
 
 #: eeschema/libedit/lib_edit_frame.cpp:1170
-#: pcbnew/footprint_editor_utils.cpp:984
+#: pcbnew/footprint_editor_utils.cpp:989
 msgid "Add arc"
 msgstr "Ajout d'arc"
 
 #: eeschema/libedit/lib_edit_frame.cpp:1174
-#: pcbnew/footprint_editor_utils.cpp:980
+#: pcbnew/footprint_editor_utils.cpp:985
 msgid "Add line"
 msgstr "Addition de lignes"
 
@@ -13114,7 +13114,7 @@ msgstr "Supprimer Surbrillance"
 msgid "File \"%s\" not found"
 msgstr "Fichier \"%s\" non trouvé"
 
-#: gerbview/readgerb.cpp:82
+#: gerbview/readgerb.cpp:83
 msgid ""
 "Warning: this file has no D-Code definition\n"
 "It is perhaps an old RS274D file\n"
@@ -20553,7 +20553,7 @@ msgstr ""
 "Cliquer et sélectionner un élément sur le circuit imprimé.\n"
 "La position de l'ancre sera la position de l'élément sélectionné."
 
-#: pcbnew/dialogs/dialog_position_relative_base.h:71
+#: pcbnew/dialogs/dialog_position_relative_base.h:73
 msgid "Position Relative To Reference Item"
 msgstr "Position Relative à l'Elément de Référence"
 
@@ -22913,32 +22913,32 @@ msgstr "L'empreinte courante a été modifiée. Sauver les changements?"
 msgid "_copy"
 msgstr "_copy"
 
-#: pcbnew/footprint_editor_utils.cpp:996
+#: pcbnew/footprint_editor_utils.cpp:1001
 msgid "Place anchor"
 msgstr "Place Ancre"
 
-#: pcbnew/footprint_editor_utils.cpp:1000 pcbnew/tool_footprint_editor.cpp:192
+#: pcbnew/footprint_editor_utils.cpp:1005 pcbnew/tool_footprint_editor.cpp:192
 msgid "Set grid origin"
 msgstr "Ajuster origine grille"
 
-#: pcbnew/footprint_editor_utils.cpp:1006
+#: pcbnew/footprint_editor_utils.cpp:1011
 #: pcbnew/menubar_footprint_editor.cpp:342 pcbnew/tool_footprint_editor.cpp:163
 msgid "Add pad"
 msgstr "Ajouter pastille"
 
-#: pcbnew/footprint_editor_utils.cpp:1010
+#: pcbnew/footprint_editor_utils.cpp:1015
 msgid "Pad properties"
 msgstr "Propriétés du Pad"
 
-#: pcbnew/footprint_editor_utils.cpp:1050
+#: pcbnew/footprint_editor_utils.cpp:1055
 msgid "Cannot delete REFERENCE!"
 msgstr "Ne peut effacer la RÉFÉRENCE!"
 
-#: pcbnew/footprint_editor_utils.cpp:1054
+#: pcbnew/footprint_editor_utils.cpp:1059
 msgid "Cannot delete VALUE!"
 msgstr "Ne peut effacer la VALEUR!"
 
-#: pcbnew/footprint_editor_utils.cpp:1140
+#: pcbnew/footprint_editor_utils.cpp:1145
 #, c-format
 msgid ""
 "The current configuration does not include the footprint library\n"
@@ -22949,11 +22949,11 @@ msgstr ""
 "\" %s\".\n"
 "Utilisez Gérer les Librairies d'Empreintes pour modifier la configuration."
 
-#: pcbnew/footprint_editor_utils.cpp:1143
+#: pcbnew/footprint_editor_utils.cpp:1148
 msgid "Library not found in footprint library table."
 msgstr "Librairie non trouvée dans la table des librairies d'empreintes."
 
-#: pcbnew/footprint_editor_utils.cpp:1151 pcbnew/footprint_viewer_frame.cpp:619
+#: pcbnew/footprint_editor_utils.cpp:1156 pcbnew/footprint_viewer_frame.cpp:619
 #, c-format
 msgid ""
 "The library with the nickname \"%s\" is not enabled\n"
@@ -22966,7 +22966,7 @@ msgstr ""
 " Utilisez gérer les bibliothèques d'empreintes pour modifier la "
 "configuration."
 
-#: pcbnew/footprint_editor_utils.cpp:1154 pcbnew/footprint_viewer_frame.cpp:622
+#: pcbnew/footprint_editor_utils.cpp:1159 pcbnew/footprint_viewer_frame.cpp:622
 msgid "Footprint library not enabled."
 msgstr "Librairie d'empreintes non activée."
 
@@ -23823,7 +23823,7 @@ msgstr ""
 msgid "UNKNOWN (%d)"
 msgstr "INCONNU (%d)"
 
-#: pcbnew/kicad_clipboard.cpp:332
+#: pcbnew/kicad_clipboard.cpp:338
 msgid "Clipboard content is not KiCad compatible"
 msgstr "Le contenu du presse-papiers n'est pas compatible avec Kicad"
 
@@ -24066,22 +24066,22 @@ msgstr "Le fichier \"%s\" est vide."
 msgid "File '%s' is not a legacy library."
 msgstr "Le fichier \"%s\"  n'est pas une librairie à l'ancien format."
 
-#: pcbnew/load_select_footprint.cpp:248
+#: pcbnew/load_select_footprint.cpp:251
 #, c-format
 msgid "Choose Footprint (%d items loaded)"
 msgstr "Sélection Empreinte (%d items chargés)"
 
-#: pcbnew/load_select_footprint.cpp:355
+#: pcbnew/load_select_footprint.cpp:358
 #, c-format
 msgid "Footprints [%u items]"
 msgstr "Empreintes [%u items]"
 
-#: pcbnew/load_select_footprint.cpp:421
+#: pcbnew/load_select_footprint.cpp:424
 #, c-format
 msgid "Footprint \"%s\" saved"
 msgstr "Empreinte \"%s\" sauvée"
 
-#: pcbnew/load_select_footprint.cpp:432
+#: pcbnew/load_select_footprint.cpp:435
 #, c-format
 msgid "Footprint library \"%s\" saved as \"%s\"."
 msgstr "Librairie d'empreintes \"%s\" sauvée sous \"%s\"."

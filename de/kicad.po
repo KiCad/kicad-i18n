@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KiCad i18n Deutsch\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-19 21:19+0200\n"
+"POT-Creation-Date: 2019-11-15 23:16+0100\n"
 "PO-Revision-Date: 2019-10-24 18:27+0200\n"
 "Last-Translator: Jan <janvi@veith.net>\n"
 "Language-Team: \n"
@@ -3171,7 +3171,7 @@ msgstr "Gruppe einfügen"
 #: gerbview/events_called_functions.cpp:230 gerbview/toolbars_gerber.cpp:89
 #: pagelayout_editor/events_functions.cpp:138
 #: pagelayout_editor/toolbars_pl_editor.cpp:98 pcbnew/edit.cpp:1426
-#: pcbnew/footprint_editor_utils.cpp:974 pcbnew/tool_footprint_editor.cpp:97
+#: pcbnew/footprint_editor_utils.cpp:979 pcbnew/tool_footprint_editor.cpp:97
 #: pcbnew/tool_pcb_editor.cpp:288
 msgid "Zoom to selection"
 msgstr "Zoomauswahl"
@@ -3568,7 +3568,7 @@ msgid "Footprint not found"
 msgstr "Footprint nicht gefunden"
 
 #: common/widgets/footprint_select_widget.cpp:78 cvpcb/cvpcb_mainframe.cpp:850
-#: pcbnew/footprint_edit_frame.cpp:863 pcbnew/load_select_footprint.cpp:214
+#: pcbnew/footprint_edit_frame.cpp:863 pcbnew/load_select_footprint.cpp:216
 msgid "Loading Footprint Libraries"
 msgstr "Footprintbibliotheken verwalten"
 
@@ -5870,7 +5870,7 @@ msgstr "Referenz"
 #: eeschema/lib_field.cpp:470 eeschema/sch_component.cpp:1504
 #: eeschema/template_fieldnames.cpp:49 pcbnew/class_edge_mod.cpp:285
 #: pcbnew/class_module.cpp:616 pcbnew/class_pad.cpp:768
-#: pcbnew/class_text_mod.cpp:416 pcbnew/load_select_footprint.cpp:359
+#: pcbnew/class_text_mod.cpp:416 pcbnew/load_select_footprint.cpp:362
 msgid "Footprint"
 msgstr "Footprint"
 
@@ -8365,7 +8365,7 @@ msgstr "Schlüsselwörter:"
 msgid "Unknown"
 msgstr "Unbekannt"
 
-#: eeschema/getpart.cpp:153 pcbnew/load_select_footprint.cpp:238
+#: eeschema/getpart.cpp:153 pcbnew/load_select_footprint.cpp:241
 msgid "Recently Used"
 msgstr "Kürzlich benutzt"
 
@@ -8404,7 +8404,7 @@ msgstr "Schaltplandarstellung neu zeichnen"
 
 #: eeschema/help_common_strings.h:48 eeschema/libedit/lib_edit_frame.cpp:1200
 #: eeschema/schedit.cpp:590 pcbnew/edit.cpp:1496
-#: pcbnew/footprint_editor_utils.cpp:1017 pcbnew/tool_footprint_editor.cpp:188
+#: pcbnew/footprint_editor_utils.cpp:1022 pcbnew/tool_footprint_editor.cpp:188
 #: pcbnew/tools/pcbnew_control.cpp:692
 msgid "Delete item"
 msgstr "Element entfernen"
@@ -8884,7 +8884,7 @@ msgstr "Kreis"
 #: gerbview/gerber_draw_item.cpp:692 pcbnew/class_drawsegment.cpp:442
 #: pcbnew/class_marker_pcb.cpp:96 pcbnew/class_text_mod.cpp:422
 #: pcbnew/class_track.cpp:1169 pcbnew/class_track.cpp:1196
-#: pcbnew/class_track.cpp:1245 pcbnew/class_zone.cpp:815
+#: pcbnew/class_track.cpp:1245 pcbnew/class_zone.cpp:816
 msgid "Type"
 msgstr "Typ"
 
@@ -9039,7 +9039,7 @@ msgid "Set pin options"
 msgstr "Pinoptionen festlegen"
 
 #: eeschema/libedit/lib_edit_frame.cpp:1158 eeschema/schedit.cpp:545
-#: pcbnew/edit.cpp:1484 pcbnew/footprint_editor_utils.cpp:992
+#: pcbnew/edit.cpp:1484 pcbnew/footprint_editor_utils.cpp:997
 #: pcbnew/tools/drawing_tool.cpp:356
 msgid "Add text"
 msgstr "Text hinzufügen"
@@ -9049,17 +9049,17 @@ msgid "Add rectangle"
 msgstr "Rechteck hinzufügen"
 
 #: eeschema/libedit/lib_edit_frame.cpp:1166
-#: pcbnew/footprint_editor_utils.cpp:988
+#: pcbnew/footprint_editor_utils.cpp:993
 msgid "Add circle"
 msgstr "Kreis hinzufügen"
 
 #: eeschema/libedit/lib_edit_frame.cpp:1170
-#: pcbnew/footprint_editor_utils.cpp:984
+#: pcbnew/footprint_editor_utils.cpp:989
 msgid "Add arc"
 msgstr "Kreisbogen hinzufügen"
 
 #: eeschema/libedit/lib_edit_frame.cpp:1174
-#: pcbnew/footprint_editor_utils.cpp:980
+#: pcbnew/footprint_editor_utils.cpp:985
 msgid "Add line"
 msgstr "Linie hinzufügen"
 
@@ -12302,7 +12302,7 @@ msgstr "Nicht exportieren"
 #: pcbnew/class_drawsegment.cpp:491 pcbnew/class_pad.cpp:776
 #: pcbnew/class_pcb_text.cpp:128 pcbnew/class_text_mod.cpp:432
 #: pcbnew/class_track.cpp:1179 pcbnew/class_track.cpp:1206
-#: pcbnew/class_zone.cpp:861 pcbnew/dialogs/dialog_copper_zones_base.cpp:22
+#: pcbnew/class_zone.cpp:862 pcbnew/dialogs/dialog_copper_zones_base.cpp:22
 #: pcbnew/dialogs/dialog_edit_footprint_for_BoardEditor_base.cpp:59
 #: pcbnew/dialogs/dialog_edit_footprint_for_fp_editor_base.cpp:59
 #: pcbnew/text_mod_grid_table.cpp:91
@@ -13147,7 +13147,7 @@ msgstr "Hervorhebung löschen"
 msgid "File \"%s\" not found"
 msgstr "Datei \"%s\" nicht gefunden"
 
-#: gerbview/readgerb.cpp:82
+#: gerbview/readgerb.cpp:83
 msgid ""
 "Warning: this file has no D-Code definition\n"
 "It is perhaps an old RS274D file\n"
@@ -16432,11 +16432,11 @@ msgstr "NC-DuKo-Größe"
 msgid "NC Via Drill"
 msgstr "NC-DuKo-Bohrung"
 
-#: pcbnew/class_track.cpp:1118 pcbnew/class_zone.cpp:846
+#: pcbnew/class_track.cpp:1118 pcbnew/class_zone.cpp:847
 msgid "NetName"
 msgstr "Netz-Name"
 
-#: pcbnew/class_track.cpp:1122 pcbnew/class_zone.cpp:850
+#: pcbnew/class_track.cpp:1122 pcbnew/class_zone.cpp:851
 msgid "NetCode"
 msgstr "Netz-Code"
 
@@ -16481,71 +16481,71 @@ msgstr "(Netzklasse)"
 msgid "Track %s %s on %s, length: %s"
 msgstr "Leiterbahn %s %s auf %s, Länge: %s"
 
-#: pcbnew/class_zone.cpp:807
+#: pcbnew/class_zone.cpp:808
 msgid "Zone Outline"
 msgstr "Flächenumriss"
 
-#: pcbnew/class_zone.cpp:813 pcbnew/class_zone.cpp:1055
+#: pcbnew/class_zone.cpp:814 pcbnew/class_zone.cpp:1056
 msgid "(Cutout)"
 msgstr "(Ausschnitt)"
 
-#: pcbnew/class_zone.cpp:822
+#: pcbnew/class_zone.cpp:823
 msgid "No via"
 msgstr "Keine DuKo"
 
-#: pcbnew/class_zone.cpp:825
+#: pcbnew/class_zone.cpp:826
 msgid "No track"
 msgstr "Keine Leiterbahn"
 
-#: pcbnew/class_zone.cpp:828
+#: pcbnew/class_zone.cpp:829
 msgid "No copper pour"
 msgstr "Kein Auffüllen von Kupferflächen"
 
-#: pcbnew/class_zone.cpp:830
+#: pcbnew/class_zone.cpp:831
 msgid "Keepout"
 msgstr "Sperrfläche"
 
-#: pcbnew/class_zone.cpp:841
+#: pcbnew/class_zone.cpp:842
 msgid "<unknown>"
 msgstr "<unbekannt>"
 
-#: pcbnew/class_zone.cpp:854
+#: pcbnew/class_zone.cpp:855
 msgid "Priority"
 msgstr "Priorität"
 
-#: pcbnew/class_zone.cpp:858
+#: pcbnew/class_zone.cpp:859
 msgid "Non Copper Zone"
 msgstr "Keine Kupferfläche"
 
-#: pcbnew/class_zone.cpp:864
+#: pcbnew/class_zone.cpp:865
 msgid "Corners"
 msgstr "Ecken"
 
-#: pcbnew/class_zone.cpp:867
+#: pcbnew/class_zone.cpp:868
 msgid "Segments"
 msgstr "Segmente"
 
-#: pcbnew/class_zone.cpp:869
+#: pcbnew/class_zone.cpp:870
 msgid "Polygons"
 msgstr "Polygone"
 
-#: pcbnew/class_zone.cpp:871
+#: pcbnew/class_zone.cpp:872
 msgid "Fill Mode"
 msgstr "Füllmodus"
 
-#: pcbnew/class_zone.cpp:875
+#: pcbnew/class_zone.cpp:876
 msgid "Hatch Lines"
 msgstr "Schraffurlinien"
 
-#: pcbnew/class_zone.cpp:880
+#: pcbnew/class_zone.cpp:881
 msgid "Corner Count"
 msgstr "Anzahl Löcher"
 
-#: pcbnew/class_zone.cpp:1058
+#: pcbnew/class_zone.cpp:1059
 msgid "(Keepout)"
 msgstr "(Sperrfläche)"
 
-#: pcbnew/class_zone.cpp:1062
+#: pcbnew/class_zone.cpp:1063
 #, c-format
 msgid "Zone Outline %s on %s"
 msgstr "Flächenumriss %s auf %s"
@@ -20616,7 +20616,7 @@ msgstr ""
 "Wählen und klicken Sie auf ein Platinenelement.\n"
 "Als Ankerposition wird dann die Position dieses Elementes benutzt."
 
-#: pcbnew/dialogs/dialog_position_relative_base.h:71
+#: pcbnew/dialogs/dialog_position_relative_base.h:73
 msgid "Position Relative To Reference Item"
 msgstr "Positioniere relativ zum Referenelement"
 
@@ -22993,32 +22993,32 @@ msgstr ""
 msgid "_copy"
 msgstr "_Kopie"
 
-#: pcbnew/footprint_editor_utils.cpp:996
+#: pcbnew/footprint_editor_utils.cpp:1001
 msgid "Place anchor"
 msgstr "Anker platzieren"
 
-#: pcbnew/footprint_editor_utils.cpp:1000 pcbnew/tool_footprint_editor.cpp:192
+#: pcbnew/footprint_editor_utils.cpp:1005 pcbnew/tool_footprint_editor.cpp:192
 msgid "Set grid origin"
 msgstr "Rasterursprung setzen"
 
-#: pcbnew/footprint_editor_utils.cpp:1006
+#: pcbnew/footprint_editor_utils.cpp:1011
 #: pcbnew/menubar_footprint_editor.cpp:342 pcbnew/tool_footprint_editor.cpp:163
 msgid "Add pad"
 msgstr "Pad hinzufügen"
 
-#: pcbnew/footprint_editor_utils.cpp:1010
+#: pcbnew/footprint_editor_utils.cpp:1015
 msgid "Pad properties"
 msgstr "Pad Eigenschaften"
 
-#: pcbnew/footprint_editor_utils.cpp:1050
+#: pcbnew/footprint_editor_utils.cpp:1055
 msgid "Cannot delete REFERENCE!"
 msgstr "Eine REFERENZ kann nicht entfernt werden!"
 
-#: pcbnew/footprint_editor_utils.cpp:1054
+#: pcbnew/footprint_editor_utils.cpp:1059
 msgid "Cannot delete VALUE!"
 msgstr "WERT kann nicht entfernt werden!"
 
-#: pcbnew/footprint_editor_utils.cpp:1140
+#: pcbnew/footprint_editor_utils.cpp:1145
 #, c-format
 msgid ""
 "The current configuration does not include the footprint library\n"
@@ -23030,11 +23030,11 @@ msgstr ""
 "Benutzen Sie die Verwaltung von Footprintbibliotheken um die Konfiguration "
 "zu bearbeiten."
 
-#: pcbnew/footprint_editor_utils.cpp:1143
+#: pcbnew/footprint_editor_utils.cpp:1148
 msgid "Library not found in footprint library table."
 msgstr "Bibliothek nicht in der Footprintbibliothekstabelle gefunden."
 
-#: pcbnew/footprint_editor_utils.cpp:1151 pcbnew/footprint_viewer_frame.cpp:619
+#: pcbnew/footprint_editor_utils.cpp:1156 pcbnew/footprint_viewer_frame.cpp:619
 #, c-format
 msgid ""
 "The library with the nickname \"%s\" is not enabled\n"
@@ -23045,7 +23045,7 @@ msgstr ""
 "in der aktuellen Konfiguration. Benutzen Sie die Verwaltung von\n"
 "Footprintbibliotheken um die Konfiguration zu bearbeiten."
 
-#: pcbnew/footprint_editor_utils.cpp:1154 pcbnew/footprint_viewer_frame.cpp:622
+#: pcbnew/footprint_editor_utils.cpp:1159 pcbnew/footprint_viewer_frame.cpp:622
 msgid "Footprint library not enabled."
 msgstr "Footprintbibliothek nicht aktiviert."
 
@@ -23908,7 +23908,7 @@ msgstr ""
 msgid "UNKNOWN (%d)"
 msgstr "Unbekannt (%d)"
 
-#: pcbnew/kicad_clipboard.cpp:332
+#: pcbnew/kicad_clipboard.cpp:338
 msgid "Clipboard content is not KiCad compatible"
 msgstr "Inhalt der Zwischenablage ist nicht kompatibel mit KiCad"
 
@@ -24150,22 +24150,22 @@ msgstr ""
 "Die Datei \"%s\" ist entweder leer oder keine im alten Format vorliegende "
 "Bibliothek."
 
-#: pcbnew/load_select_footprint.cpp:248
+#: pcbnew/load_select_footprint.cpp:251
 #, c-format
 msgid "Choose Footprint (%d items loaded)"
 msgstr "Auswahl Footprint (%d Elemente geladen)"
 
-#: pcbnew/load_select_footprint.cpp:355
+#: pcbnew/load_select_footprint.cpp:358
 #, c-format
 msgid "Footprints [%u items]"
 msgstr "Footprints [%u Elemente]"
 
-#: pcbnew/load_select_footprint.cpp:421
+#: pcbnew/load_select_footprint.cpp:424
 #, c-format
 msgid "Footprint \"%s\" saved"
 msgstr "Footprint \"%s\" gespeichert"
 
-#: pcbnew/load_select_footprint.cpp:432
+#: pcbnew/load_select_footprint.cpp:435
 #, c-format
 msgid "Footprint library \"%s\" saved as \"%s\"."
 msgstr "Die Footprintbibliothek \"%s\" wurde gespeichert als \"%s\"."
@@ -26728,7 +26728,7 @@ msgstr "Footprint hinzufügen"
 msgid "Route tracks"
 msgstr "Route Leiterbahnen"
 
-#: pcbnew/tool_pcb_editor.cpp:466 pcbnew/tools/drawing_tool.cpp:1790
+#: pcbnew/tool_pcb_editor.cpp:466 pcbnew/tools/drawing_tool.cpp:1796
 msgid "Add vias"
 msgstr "Leiterbahnen und Durchkontaktierungen hinzufügen"
 
@@ -26976,11 +26976,11 @@ msgstr "Einfügen einer DXF_SVG Grafik"
 msgid "Move the footprint reference anchor"
 msgstr "Referenzpunkt für Footprint-Anker verschieben"
 
-#: pcbnew/tools/drawing_tool.cpp:1396 pcbnew/tools/point_editor.cpp:254
+#: pcbnew/tools/drawing_tool.cpp:1397 pcbnew/tools/point_editor.cpp:253
 msgid "Self-intersecting polygons are not allowed"
 msgstr "Selbstüberschneidende Polygone sind nicht zulässig"
 
-#: pcbnew/tools/drawing_tool.cpp:1792
+#: pcbnew/tools/drawing_tool.cpp:1798
 msgid "Place via"
 msgstr "Via platzieren"
 
@@ -27070,7 +27070,7 @@ msgid "Cut selected content to clipboard"
 msgstr "Ausschneiden der Auswahl in die Zwischenablage"
 
 #: pcbnew/tools/edit_tool.cpp:240 pcbnew/tools/placement_tool.cpp:101
-#: pcbnew/tools/point_editor.cpp:265
+#: pcbnew/tools/point_editor.cpp:264
 msgid "pcbnew.InteractiveSelection tool is not available"
 msgstr "pcbnew Interaktives Auswahlwerkzeug ist nicht auswählbar"
 
@@ -27441,19 +27441,19 @@ msgstr "Rundung entfernen"
 msgid "Remove corner"
 msgstr "Rundung entfernen"
 
-#: pcbnew/tools/point_editor.cpp:398
+#: pcbnew/tools/point_editor.cpp:396
 msgid "Drag a corner"
 msgstr "Rundung ziehen"
 
-#: pcbnew/tools/point_editor.cpp:1046
+#: pcbnew/tools/point_editor.cpp:1044
 msgid "Add a zone corner"
 msgstr "Gefüllte Flächen hinzufügen"
 
-#: pcbnew/tools/point_editor.cpp:1078
+#: pcbnew/tools/point_editor.cpp:1076
 msgid "Split segment"
 msgstr "Segment aufsplitten"
 
-#: pcbnew/tools/point_editor.cpp:1149
+#: pcbnew/tools/point_editor.cpp:1147
 msgid "Remove a zone/polygon corner"
 msgstr "Gefüllte Fläche/Polygon entfernen"
 
@@ -27558,15 +27558,15 @@ msgstr ""
 msgid "Filter selection"
 msgstr "Filter Auswahl"
 
-#: pcbnew/tools/zone_create_helper.cpp:149
+#: pcbnew/tools/zone_create_helper.cpp:150
 msgid "Add a zone cutout"
 msgstr "Eine gefüllte Fläche hinzufügen"
 
-#: pcbnew/tools/zone_create_helper.cpp:187
+#: pcbnew/tools/zone_create_helper.cpp:188
 msgid "Add a zone"
 msgstr "Eine Fläche hinzufügen"
 
-#: pcbnew/tools/zone_create_helper.cpp:223
+#: pcbnew/tools/zone_create_helper.cpp:224
 msgid "Add a graphical polygon"
 msgstr "Ein grafisches Polygon hinzufügen"
 

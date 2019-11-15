@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-30 10:12-0300\n"
+"POT-Creation-Date: 2019-11-15 23:16+0100\n"
 "PO-Revision-Date: 2019-10-30 10:11-0300\n"
 "Last-Translator: Francisco R. Pereira <frosch_bin@yahoo.com.br>\n"
 "Language-Team: kicad team\n"
@@ -13077,7 +13077,7 @@ msgstr "Remover Destaque"
 msgid "File \"%s\" not found"
 msgstr "Arquivo \"%s\" não encontrado"
 
-#: gerbview/readgerb.cpp:82
+#: gerbview/readgerb.cpp:83
 msgid ""
 "Warning: this file has no D-Code definition\n"
 "It is perhaps an old RS274D file\n"
@@ -23742,7 +23742,7 @@ msgstr ""
 msgid "UNKNOWN (%d)"
 msgstr "DESCONHECIDO (%d)"
 
-#: pcbnew/kicad_clipboard.cpp:332
+#: pcbnew/kicad_clipboard.cpp:338
 msgid "Clipboard content is not KiCad compatible"
 msgstr "O conteúdo da área de transferência não é compatível com o KiCad"
 
